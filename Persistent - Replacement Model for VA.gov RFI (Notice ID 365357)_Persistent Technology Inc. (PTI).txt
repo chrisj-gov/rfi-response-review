@@ -1,0 +1,242 @@
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+
+Department of Veterans Affairs
+Technology Acquisition Center
+
+Replacement Model for VA.gov
+Request for Information
+Date of Submission: February 4, 2026 Notice ID 365357
+
+To:
+Allison Fulton allison.fulton@va.gov and Evan Schlisserman evan.schlisserman@va.gov
+
+From:
+Persistent Technology Inc.
+Alcides Santana, President & CEO
+85 South Bragg St., Suite 602 Alexandria, VA 22312 asantana@perstechinc.com (844) 292-6611 x700
+Unique Entity ID (SAM): PJLBKDX7L4L5 CAGE Code: 7BZ11
+
+This proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of-or in connection with the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in all marked sheets.
+
+Request for Information
+
+Page i
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+Table of Contents
+1. Company Overview..............................................................................................................1 2. Relevant Experience with Similar Challenges...................................................................1
+2.1. VA Modernization & High Security Integration Security Integration-Security Integration .......................................................................................................................1
+2.2. Digital Experience & Accessibility.................................................................................2 2.3. Enterprise Content, Platform, and UX Leadership .........................................................3 3. Responses to RFI Topics & Questions................................................................................4 3.1. Modernizing VA.gov for a Premier Digital Experience .................................................4 3.2. Unified Design & Navigation Framework ......................................................................5 3.3. Human-Centered Content Strategy Centered Content Strategy-Centered Content
+Strategy ...........................................................................................................................5 3.4. Experience Design & Personalization.............................................................................6 3.5. Platform Architecture Approach .....................................................................................6 3.6. Continuity of Service ......................................................................................................7 3.7. User Journey Workflows (Identity, Sign In, Recovery, Navigation)-In, Recovery,
+Navigation) ......................................................................................................................7 4. Technologies & Approaches ................................................................................................8
+4.1. AI Enhanced Digital Experience Capabilities (What AI can do for Va.gov) .................9 4.2. AI Governance & Risk Controls (Supporting Platform Resilience).............................10 4.3. Known Risks & Mitigation Strategies ..........................................................................10 4.4. Lessons Learned from VA and Federal Platform Modernization .................................10
+
+Request for Information
+
+Page ii
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+1. Company Overview
+Persistent Technology, Inc. (PTI) is a Service-Disabled Veteran-Owned Small Business (SDVOSB), ServiceNow Partner, and HUBZone firm headquartered in Alexandria, VA, specializing in humancentered IT modernization, enterprise case management, and platform sustainment for federal agencies. PTI is recognized for delivering transformative, human-centered solutions and providing leading-edge expertise in emerging technologies such as artificial intelligence, machine learning, natural language processing, extended reality, data modernization, and cyber-secure cloud solutions. The company has supported mission-critical platforms for the Department of Veterans Affairs (VA), including the Standards & COTS Integration Platform (SCIP) and Supply Chain Management (SCM), and offers deep enterprise integration and modernization capabilities to help federal clients efficiently and securely achieve interoperability and modernization goals.
+Core Capabilities for VA.gov Modernization
+As veterans who actively use VA.gov, we recognize its significance both personally and professionally. Our mission centers on improving patient outcomes by leveraging our strengths in human-centered design, strategic communications, enterprise IT modernization, and interoperability. PTI's core competencies are instrumental to the ongoing modernization of VA.gov and include expertise in humancentered design, strategic communications, enterprise IT modernization, interoperability, Data as a Service (DaaS) and Data Governance, AI-driven digital services such as natural language processing and automation, DevSecOps with ONF-aligned continuous delivery, and the seamless integration of commercial and government off-the-shelf solutions across federal systems. We are proud to serve the VA on multiple fronts, bringing data as a service and innovative technology to support its mission.
+Delivering CMMI-DEV Level 3 and enterprise-scale agile methodologies, we demonstrate proven ability in DevSecOps, continuous integration, and secure cloud solutions. As an SDVOSB, PTI is committed to achieving Veteran-centered outcomes and has a strong track record of success in federal identity, content, and platform modernization initiatives.
+2. Relevant Experience with Similar Challenges
+2.1. VA Modernization & High Security Integration Security Integration-Security Integration
+PTI has delivered modernization, enterprise integration, and secure, missioncritical system sustainment across the VA, Customs and Border Protection (CBP), and the Defense Health Agency (DHA). These sustainment efforts required maintaining uninterrupted Veteran-facing services while evolving backend integrations, reinforcing PTI's ability to modernize without disrupting trust or access. PTI's work demonstrates mature capabilities in largescale interoperability, highsecurity cloud modernization, DevSecOps, and humancentered system design, consistently applied across multivendor, multiplatform federal environments:
+Large Scale Enterprise Data Sharing & System Interoperability-Scale Enterprise Data Sharing & System Interoperability
+VA Standards & COTS Integration Platform (SCIP): PTI provides extensive sustainment and modernization for the VA's Standards & COTS Integration Platform (SCIP), a critical interoperability backbone supporting healthcare operations, data exchange between VA and DoD, and multiple enterprise level-level operational workflows. PTI delivers:
+
+Request for Information
+
+Page 1
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+� Cloud Migration & Architecture Optimization for VA AWS Enterprise Cloud, including design, planning, data migration from legacy systems, and secure connectivity validation.
+� Operational Sustainment of production, gold/silver test, and development environments-- supporting VistA, CVIX, imaging systems, middleware frameworks, and dark-launch capabilities.
+� 24/7 O&M Services, including application operations, database administration, backup testing, continuous monitoring, and environment stabilization.
+PTI's SCIP responsibilities require navigating complex, multi-vendor COTS/legacy environments and sustaining interoperability across VA and DoD platforms--capabilities that parallel the high-security, multi-system integration needs typical of DHS and CBP operations.
+Technical Sustainment, Automation, & Interoperability Enhancements
+VA Supply Chain Management (SCM) Product Line Support: PTI supports the VA Supply Chain Management (SCM) product line through platform sustainment, enterprise integration, and workflow modernization. PTI's experience includes:
+� Integrating stakeholder requirements across platforms such as HealthShare, Salesforce, and ServiceNow, enabling coordinated supply chain modernization.
+� Developing roadmaps, KPIs, and performance architectures aligning VA SCM strategy with broader VA and federal goals.
+� Ensuring requirements of traceability and interoperability as part of strategic planning and program evaluation activities.
+PTI's longstanding ServiceNow automation expertise strengthens VA supply chain efficiency by enabling workflow orchestration, process visibility, and operational consistency across distributed VA environments.
+Cross Agency High Security Modernization: CBP, DHS, and DHA-Agency High-Security Modernization: CBP, DHS, and DHA
+PTI has also supported modernization work across DHS, including Customs and Border Protection (CBP), and the Defense Health Agency (DHA). As confirmed in internal program communications, PTI's federal portfolio extends beyond the VA to include contracts and engineering efforts for these agencies, involving:
+� High security-security system integration, � DevSecOps and middleware engineering, and � Platform sustainment across sensitive mission environments.
+This cross-agency experience reinforces PTI's ability to operate within strict security frameworks and integrate COTS and custom applications across complex federal environments--mirroring the high-agency experience reinforces PTI's ability to operate within strict security frameworks and integrate COTS and custom applications across complex federal environments--mirroring the high assurance, high-assurance, high-availability requirements of VA modernization efforts.
+2.2. Digital Experience & Accessibility
+PTI treats accessibility not only as a compliance requirement, but as a means of reducing cognitive load and stress for Veterans navigating high-impact services, particularly during identity, recovery, and benefits discovery workflows.
+Commitment to Accessibility: VPATs and Section 508 Compliance: PTI routinely produces Voluntary Product Accessibility Templates (VPATs), which are industry-standard documents used to
+
+Request for Information
+
+Page 2
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+assess and report the accessibility of digital products in alignment with Section 508 of the Rehabilitation Act. Section 508 requires federal agencies and their contractors to ensure that all electronic and information technology is accessible to individuals with disabilities. Through the preparation of VPATs, PTI systematically evaluates and documents the accessibility features and compliance status of its solutions, establishing accessibility as a core principle throughout the design and development process.
+Inclusive Digital Platforms and Accessibility Features: In addition to preparing VPATs, PTI delivers public-facing platforms that incorporate essential accessibility features. These include keyboardonly navigation, which enables users to interact with digital services without a mouse; screen reader compatibility, ensuring that individuals with visual impairments can access content; and scalable, deviceresponsive interfaces that adapt to a variety of user needs. These practices exemplify PTI's ongoing commitment to human-centered and inclusive design, ensuring that digital services, such as those provided on VA.gov, consistently meet or exceed federal accessibility standards. As a result, veterans with disabilities are able to seamlessly access information and services.
+Personalization and Veteran-Informed Accessibility at Scale: The VA is an early leader in personalizing customer experiences within the federal sector. Recognizing the potential of digital communications, the VA was among the first agencies to pursue hyper-personalized engagement strategies. By tailoring messages based on factors such as service branch, gender, or age group, the VA provides contextually relevant communications that guide veterans through important life moments, such as transitioning from active duty or accessing health care and education benefits.
+Delivering consistent, high-quality experiences across a diverse veteran population is one of the VA's most complex challenges. PTI's approach is both agile and informed by direct veteran experience, relying on veteran feedback to shape and refine digital solutions. The organization recognizes the importance of reaching every veteran in the manner that best suits their individual preferences and needs.
+Omnichannel Engagement and Digital Transformation: The VA's omnichannel approach enables veterans to interact with the agency in the way that works best for them, whether online, by phone, or in person. On the digital front, the VA has made significant progress in consolidating its online presence to reduce confusion. In 2018, in response to veteran feedback about the challenges of navigating multiple websites, the VA centralized its digital services under VA.gov and redesigned the user interface based on input from veterans.
+This user-centered approach has resulted in positive outcomes, including high trust scores for outpatient health care and favorable reviews for the VA's mobile app, which boasts an average 4.8-star rating on app stores. The VA's continued focus on human-centered design, accessibility, and personalization ensures that veterans receive the care, coordination, and convenience they deserve.
+2.3. Enterprise Content, Platform, and UX Leadership
+We provide collaborative leadership in enterprise content strategy, platform modernization, and human centered experience design, working in close partnership with federal agencies to strengthen and scale the VA's digital transformation. Building on the VA's significant progress, including the deployment of nearly 150 near real time customer experience surveys across key service areas, our approach aligns with the department's commitment to measurable, Veteran driven improvement. As VA trust scores continue to rise, reaching 92 percent for outpatient healthcare and 79 percent overall, up substantially from prior years, our methodologies reinforce this momentum by improving usability, security, and performance across complex enterprise platforms. Together, we help ensure that modernized digital services are intuitive, reliable, and responsive to the evolving needs of Veterans and the public.
+1. Expertise in Experience Design: We deliver experience design solutions across a wide range of federal systems. By applying proven best practices in user interface and interaction design, we ensure
+
+Request for Information
+
+Page 3
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+that digital solutions are not only efficient and reliable, but also intuitive and accessible to all users. Our approach emphasizes human centered principles, resulting in improved usability and consistently positive user outcomes.
+2. Information Architecture and Navigation Strategy: Through our expertise in information architecture, we develop robust navigation strategies that make complex digital platforms easier to understand and use. Our teams focus on logical content structuring, clear labeling systems, and improved findability, enabling users to efficiently access benefits, services, and identity related workflows across enterprise environments.
+3. Platform Redesign and Transition Planning: We bring extensive experience in platform redesign and transition planning, guiding agencies through the modernization and migration of legacy systems to scalable, future ready architectures. Our support spans the full lifecycle, from assessing existing platforms and identifying improvement opportunities, to developing transition roadmaps and managing the technical execution of redesign initiatives.
+4. Modernizing Legacy Digital Services: We help federal agencies revitalize outdated platforms to meet modern standards for security, accessibility, and performance. With a strong track record in enterprise scale transformation efforts, we enable agencies to deliver more reliable, responsive, and user friendly digital services to Veterans and the public.
+3. Responses to RFI Topics & Questions
+3.1. Modernizing VA.gov for a Premier Digital Experience
+VA.gov requires an approach that integrates experience design, content strategy, platform architecture, analytics, governance, and operational models as identified in the RFI. PTI's modernization model includes the following key elements that would address the complex requirements of VA.gov and deliver a unified, user-centric, and future-ready digital experience for veterans and the public. These elements are designed to function as an integrated system, ensuring that identity, content, navigation, analytics, and operations reinforce one another rather than operate as disconnected initiatives:
+1. Experience Design: PTI prioritizes human-centered design principles, ensuring that digital solutions are efficient, reliable, and accessible to all users. This includes implementing best practices in user interface and interaction design to create intuitive experiences that drive positive user outcomes.
+2. Content Strategy: The approach incorporates scalable, structured content models tailored for benefits, healthcare, and services. PTI emphasizes content governance, robust lifecycle workflows, and a strategic migration plan for legacy VA assets to ensure content remains up-to-date, relevant, and easily accessible.
+3. Platform Architecture: PTI brings expertise in modernizing legacy systems by transitioning to scalable, secure, and high-performing digital platforms. This involves assessing current architectures, identifying improvement areas, and developing comprehensive transition roadmaps to guide platform redesign and migration.
+4. Analytics: By embedding analytics throughout the platform, PTI enables data-driven decisionmaking. This empowers the VA to continuously monitor user interactions, measure the effectiveness of digital experiences, and identify opportunities for ongoing improvement.
+
+Request for Information
+
+Page 4
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+5. Governance: The model establishes clear governance structures that oversee digital standards, accessibility compliance, and content management. This ensures consistency, accountability, and alignment with enterprise objectives across all digital initiatives.
+6. Operational Models: PTI supports operational excellence by designing workflows and support models that sustain the ongoing management, enhancement, and scalability of digital services. This ensures that modernization efforts are sustainable and adaptable to evolving needs.
+3.2. Unified Design & Navigation Framework
+PTI establishes an enterprise Information Architecture (IA) model to support the seamless delivery of benefits, services, and identity workflows across VA.gov. This IA framework organizes digital assets and pathways around Veteran and stakeholder needs, ensuring information is logically structured, easily navigable, and aligned with enterprise objectives. The result is a consistent, coherent experience that streamlines access to critical resources while enabling efficient content management across service areas.
+Navigation is designed to be outcome-driven and cross-journey aware, anticipating user needs and connecting related workflows such as benefits, healthcare, and identity management. This approach enables Veterans to move fluidly across tasks without encountering fragmented experiences or unnecessary handoffs. By focusing on user goals rather than organizational silos, the navigation framework reduces friction, improves wayfinding, and increases task completion confidence.
+Findability is further enhanced through clear labeling, intuitive categorization, search optimization, and dynamic filtering. A robust metadata strategy supports advanced search, personalization, and efficient content governance, while ensuring terminology remains consistent and accessible. Together, these elements reduce confusion, improve discovery, and support a unified, Veteran-centric digital front door.
+3.3. Human-Centered Content Strategy Centered Content Strategy-Centered Content Strategy
+PTI's content strategy is built on scalable, structured content models designed for benefits, healthcare, and services. These models clearly distinguish content intended for Veterans, caregivers, providers, and VA staff, ensuring information is targeted, relevant, and contextually appropriate across digital touchpoints. By breaking complex information into modular, reusable components, PTI simplifies navigation, improves searchability, and supports consistent user experiences across VA.gov.
+Content models are future-ready, enabling the VA to accommodate new services, policy changes, and evolving technologies without extensive rework. This structured approach supports personalization, automated updates, and accessibility while maintaining clarity and consistency as the platform grows.
+Robust governance and lifecycle workflows oversee the creation, review, update, and retirement of content assets. Defined roles, approval checkpoints, and periodic audits ensure content remains accurate, compliant, accessible, and aligned with VA standards. This disciplined governance prevents content sprawl, reduces risk, and ensures users can rely on VA.gov as a trusted source of information.
+PTI also applies a phased migration strategy for legacy VA content, beginning with inventory and assessment to identify assets to retain, update, or retire. Automated tools and manual reviews map legacy materials to modern content models, preserving critical information while enhancing accessibility for users with disabilities. Stakeholder validation is integrated throughout migration to ensure continuity, minimize disruption, and maintain VA.gov as a reliable, centralized digital resource.
+
+Request for Information
+
+Page 5
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+
+3.4. Experience Design & Personalization
+
+The VA places significant emphasis on veterans' experiences, and PTI's commitment to enhancing outcomes ensures a robust experience design tailored by veterans for veterans. In alignment with healthcare delivery best practices, PTI is pursuing ISO certification and adheres to the Plan-Do-Check-Act methodology for continuous improvement. As a company certified at CMMI Level 3, we consistently pursue evidence-based solutions that strengthen VA healthcare delivery at every level. By employing modular design elements, the VA guarantees a uniform experience for providers, staff, and patients across all digital platforms. Experiences are designed to persist across devices and channels, allowing Veterans to begin tasks on one device and complete them on another without losing progress or context. This approach enables the VA not only to offer reliability and consistency but also to foster trust through the continual provision of high-quality care for all services.
+
+patient
+
+Veterans benefit from a personalized journey, with services that are adapted to reflect each user's individual preferences, needs, and service history. PTI's methodology in experience design emphasizes modularity, ensuring coherent and consistent interactions throughout the VA's digital ecosystem. The utilization of these standardized components allows the VA to deliver dependable and familiar experiences to veterans, irrespective of which benefits or services they access.
+
+The design framework further integrates veteran-centric personalization features, supporting individualized experiences that address unique preferences, requirements, and military backgrounds. This targeted personalization enhances engagement and satisfaction by ensuring that each interaction is both pertinent and meaningful to the user.
+
+Accessibility is embedded as a foundational principle, with an accessibility-first strategy that includes automated compliance verification during every phase of development. This proactive approach not only satisfies regulatory standards but also provides equitable access for users of all abilities, reinforcing the VA's dedication to inclusivity and usability throughout its ongoing digital modernization initiatives.
+
+3.5. Platform Architecture Approach
+
+PTI's platform architecture represents a strategic approach developed to deliver personalized care tailored to the VA's diverse veteran community, ensuring accessibility and relevance for every individual. The VA faces significant challenges in providing consistent, high-quality services to a broad population encompassing various ages, demographics, and geographic regions. PTI's comprehensive approach underpins the VA's objectives regarding scalability, interoperability, and secure, user-centered digital service delivery. This robust foundation enables the VA to consistently offer dependable, high-quality experiences to veterans from all backgrounds and locations. By implementing a flexible and scalable digital infrastructure, PTI effectively addresses the complexities of serving this varied population, facilitating care that aligns with veterans' unique needs and circumstances. While automation improves efficiency and consistency, the architecture preserves clear pathways to human assistance when judgment, care coordination, or empathy are required.
+
+At the core of this architecture is a cloud-native, microservices-aligned foundation. This modern infrastructure allows the VA to deploy and scale independent service components rapidly, enabling efficient updates and maintenance without disrupting the overall system. As a result, the VA can continuously improve its digital offerings and respond swiftly to evolving needs.
+
+Request for Information
+
+Page 6
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+To facilitate a smooth transition from legacy systems, PTI employs standards-based integration pipelines. These pipelines bridge modern and existing technologies, ensuring seamless data exchange and operational continuity as the VA modernizes its platforms. This approach minimizes disruption and supports ongoing access to critical services throughout the migration process.
+Robust identity and authentication workflows are central to the platform architecture. These workflows provide secure, streamlined access for users, supporting complex identity proofing, sign-in, and account recovery processes. By prioritizing security and usability, PTI's architecture enables veterans and stakeholders to confidently access services while safeguarding sensitive information.
+3.6. Continuity of Service
+or Veterans, continuity of service means predictable access, reduced anxiety, and confidence that essential services remain available even as systems evolve. Our methodology, validated through ongoing support of prominent VA platforms, treats continuity of service as a core design and operational priority. We recognize that even brief interruptions can erode trust, increase stress, and limit access to critical benefits and care. By centering modernization around reliability and stability, we enable VA to advance change responsibly while minimizing user disruption. This continuity focused framework also supports secure identity verification, efficient authentication, dependable account recovery, and intuitive navigation experiences across the digital ecosystem.
+At the foundation of this approach is the use of parallel run deployment strategies, in which new capabilities operate alongside existing solutions to allow real world testing, gradual adoption, and iterative refinement without forcing abrupt workflow changes. Veterans, caregivers, and staff can transition at a measured pace while maintaining confidence and usability. We complement this with robust interoperability frameworks tailored for complex, high availability environments such as VA.gov, ensuring seamless communication between legacy and modernized systems and reinforcing a single, coherent digital front door. Zero downtime transition and release planning further protects uninterrupted access to mission critical services, with carefully orchestrated updates, clear communication, predictable behavior, and rapid rollback options to safeguard the user experience.
+3.7. User Journey Workflows (Identity, Sign In, Recovery, Navigation)-In, Recovery, Navigation)
+Holistic Experience
+VA.gov is not just an online platform; it's an essential part of a seamless experience that connects physical care settings, personal interactions, and digital tools. PTI's method supports this ongoing connection by building workflows that adapt over time, grow with VA's changing requirements, and allow for empathy when automation can't meet every need. PTI understands that VA.gov benefits Veterans as well as VA employees, providers, and staff who depend on it to offer care and services. User journeys are crafted using human-centered design, ensuring both customers and staff have positive experiences and recognizing how empowering staff directly improves Veteran satisfaction. These journeys are intentionally designed as connected experiences rather than standalone workflows, allowing context, preferences, and progress to carry forward across identity, authentication, recovery, and navigation interactions. PTI recommends integrated, human-focused user journeys to help VA reach its goal of making VA.gov a unified, Veteran-centered digital entry point. These processes aim to cut down on confusion, reduce mental effort, and deliver secure, considerate, and accessible experiences for Veterans, caregivers, VA staff, and providers:
+1. Identity Proofing Journey: The identity proofing journey is designed to establish trust while minimizing stress and uncertainty for users. The process begins with clear, plain-language guidance
+
+Request for Information
+
+Page 7
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+on required documentation and verification steps, supported by intuitive prompts, contextual help, and readily available assistance throughout the journey. Automated identity verification is paired with manual review and escalation paths, ensuring that Veterans with non-standard documentation, accessibility needs, or life-event complexities are not blocked from care or benefits. Transparency is a core principle of this journey. Users are continuously informed of their status, expected timelines, and next steps, reducing anxiety and unnecessary follow-up. Robust error handling, assisted resolution options, and dedicated assisted support ensure continuity when issues arise, reinforcing VA's commitment to serving people, not just processing transactions.
+2. Sign-In & Authentication Journey: The sign-in and authentication journey provides a secure, consolidated entry point that eliminates the confusion of multiple "front doors." Veterans and stakeholders are presented with clearly labeled authentication options, including single sign-on, multifactor authentication, and step-up security for sensitive actions; all delivered through a consistent and accessible interface. Authentication experiences remain consistent across mobile, desktop, and assisted access scenarios, reducing confusion and improving adoption across diverse us assistance. The workflow is designed to support users across a wide range of technical comfort levels, incorporating plain-language instructions, accessibility-first design, and mobile-optimized flows. Security and compliance requirements are embedded seamlessly into the experience, ensuring regulatory adherence without introducing friction. The result is a sign-in process that feels reliable, familiar, and calm, rather than complex or intimidating.
+3. Account Recovery Workflow: Account recovery is treated as a critical moment of trust, recognizing that loss of access can be stressful and disruptive--particularly for Veterans navigating health, benefits, or life-event challenges. The recovery workflow guides users through adaptive, stepby-step resolution paths such as identity confirmation, password reset, and alternative contact verification. Dynamic decision logic ensures that users are not forced through unnecessary steps, while security controls prevent unauthorized access. Context-sensitive help and assisted escalation options provide reassurance when automated recovery is insufficient. This approach minimizes downtime, reduces frustration, and supports mental well-being by restoring access quickly and predictably. By resolving access issues quickly and predictably, the workflow reduces repeat contact, call center escalation, and Veteran frustration.
+4. Guided Navigation & Benefit Discovery: The guided navigation and benefit discovery journey is designed to simplify complexity, consolidating information while removing unnecessary clutter. Personalized navigation, dynamic filtering, and optimized search help users quickly locate services and benefits relevant to their individual circumstances, including disability status, life events, and care needs. This journey explicitly accounts for accessibility and cognitive load, supporting Veterans with disabilities by presenting information in manageable, intuitive steps. Contextual guidance and decision trees help users understand options without overwhelming them, reducing stress and uncertainty during critical decision moments. Simplified pathways and reduced information clutter help create a calmer, more manageable experience during moments that may already be stressful or time-sensitive for Veterans. By delivering clear pathways instead of dense content, VA.gov becomes a calming, confidence-building environment that supports mental well-being as well as task completion.
+4. Technologies & Approaches
+PTI applies artificial intelligence(AI) to measurably improve Veteran access to services, reduce friction across VA.gov journeys, and support VA staff effectiveness--while maintaining trust, transparency, and clear human decision authority. Our approach aligns directly with VA evaluation priorities related to mission understanding, technical soundness, accessibility, risk management, and governance. PTI's AI
+
+Request for Information
+
+Page 8
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+Innovation Lab serves as our center of excellence for applied artificial intelligence, machine learning, and intelligent automation supporting federal missions. The Lab integrates data science, human-centered design, secure engineering, and federal compliance expertise to rapidly prototype, validate, and deploy AI capabilities aligned with VA governance and operational requirements.
+All AI capabilities are implemented with defined human oversight, auditable decision logic, privacypreserving design, and opt-out considerations appropriate for Veteran-facing services. AI is used to support navigation, understanding, and operational efficiency, while all determinations affecting benefits, care, or eligibility remain under human authority.
+Core AI capabilities include:
+� Federal-grade large language model engineering and prompt optimization to improve search relevance, content clarity, and guided navigation across VA.gov
+� Natural language processing pipelines enabling intelligent intake, service routing, document understanding, and structured extraction from unstructured Veteran submissions
+� Responsible AI controls including bias monitoring, explainability, audit logging, model validation, and continuous performance monitoring
+� Secure, containerized AI services deployable within VA-authorized cloud environments and aligned with Zero Trust and federal cybersecurity standards
+� Rapid prototyping and co-design sprints with Veterans, caregivers, clinicians, and VA staff to ensure usability, accessibility, and mission alignment
+These capabilities support VA evaluation criteria related to technical feasibility, scalability, security, and risk mitigation while enabling measurable improvements in Veteran experience and staff efficiency.
+4.1. AI Enhanced Digital Experience Capabilities (What AI can do for Va.gov)
+Our strategy centers on the application of AI across VA.gov through a disciplined, human centered design methodology that addresses diverse user needs while remaining aligned with federal privacy regulations, Section 508 accessibility standards, and established ethical guidelines. AI enabled capabilities are framed as tools for task simplification and decision support that assist users and VA staff without supplanting human expertise or care. Governance frameworks emphasize policy alignment, transparency, and sustained human oversight to preserve trust, promote fairness, and reinforce VA mission values. Intended outcome alignment across user groups includes reduced time to task completion, improved routing accuracy, lower support escalation rates, and higher satisfaction among Veterans, caregivers, and staff.
+� Veteran & Caregiver Support (Clarity, Discoverability, Reduced Effort): AI enhances how Veterans and caregivers find, understand, and complete tasks related to benefits, healthcare, and services. Capabilities include intelligent, intent-aware search; plain-language summarization of complex programs and requirements; guided navigation that reduces repeated interactions; and accessibility-aware interfaces supporting screen readers, cognitive accessibility, and mobile-first use. These capabilities improve comprehension, reduce navigation time, and increase successful task completion.
+� Clinical & Provider Enablement (Efficiency, Situational Awareness): For clinicians and care providers, AI supports efficient access to relevant policies, clinical resources, and referral guidance. NLP-driven document understanding reduces time spent reviewing unstructured inputs, while decision-support features enhance situational awareness without automating clinical decisions. The result is reduced administrative burden and more time available for patient care.
+� Benefits & Operations Staff Support (Accuracy, Throughput, Trust): AI improves intake, triage, and processing accuracy for VA staff by routing submissions correctly on first pass, extracting
+
+Request for Information
+
+Page 9
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov Date: February 4, 2026 | Notice ID 365357
+structured data from unstructured Veteran inputs, and providing explainable outputs that support human review. These capabilities reduce rework, improve routing accuracy, and accelerate resolution while preserving staff oversight and accountability.
+4.2. AI Governance & Risk Controls (Supporting Platform Resilience)
+PTI's AI approach is governed to support VA.gov platform resilience, trust, and compliance. All AIenabled capabilities operate within defined governance controls that align with VA expectations for transparency, risk mitigation, and responsible use.
+� Human-in-the-loop oversight for all Veteran-impacting workflows � Explicit model governance, including approval, versioning, monitoring, and retirement � Privacy-preserving design aligned with federal data-minimization principles � Continuous monitoring for performance, bias, and model drift � Alignment with federal AI risk management practices and VA governance standards
+4.3. Known Risks & Mitigation Strategies
+Large federal digital modernization efforts, including VA.gov, face inherent risks such as integrating complex legacy systems, managing expanding volumes of content, addressing fragmented identity workflows, ensuring accessibility for all users, and operating within a highly visible and politically sensitive environment. If unmanaged, these risks can disrupt delivery and erode stakeholder and Veteran trust.
+We mitigate these risks through a phased modernization approach with built-in validation checkpoints to reduce disruption and ensure compliance at each stage. Enterprise governance frameworks provide oversight and accountability, while automated accessibility testing prevents usability regression. Zerodowntime deployment practices preserve continuous access to services, and strict data governance safeguards sensitive information. Collectively, these measures reduce technical and operational risk while preserving a stable, trustworthy experience for Veterans and VA staff.
+4.4. Lessons Learned from VA and Federal Platform Modernization
+PTI's experience supporting VA and other federal platforms has consistently reinforced several key lessons:
+1. Iterative modernization: Incremental releases enable early validation, reduce risk, and incorporate user feedback, avoiding destabilizing "big bang" deployments.
+2. User trust: Stability, clear communication, and proactive engagement are essential to maintaining confidence during platform transitions.
+3. Content quality: Accurate, accessible, and well-governed content is critical to successful user outcomes, regardless of platform sophistication.
+4. Clear ownership: Defined roles and editorial governance prevent content sprawl and sustain long-term integrity.
+5. Early integration validation: Continuous testing of APIs and dependencies is essential in complex, multi-vendor environments.
+6. Governance and reporting: Role-based controls, audit logs, and reporting mechanisms support oversight, security, and transparency.
+
+Request for Information
+
+Page 10
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+

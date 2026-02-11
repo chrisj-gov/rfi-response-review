@@ -1,0 +1,148 @@
+For Market Research
+LexisNexis Special Services Inc.®
+U.S. Department of Veterans Affairs - Notice ID 365357
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov February 3, 2026
+Chetan Kottidi LexisNexis Special Services, Inc. 1775 Greensboro Station Place
+Suite 425E McLean, VA 22102 667.321.7197 Mobile chetan.kottidi@lexisnexisrisk.com
+This proposal includes data that shall not be disclosed outside the U.S. Department of Veterans Affairs (VA) or any other department necessary to process an order, and shall not be duplicated, used, or disclosed, in whole or in part, for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of, or in connection with, the submission of this data, VA shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. The entire proposal shall be subject to the restrictions contained herein. In addition, this data is exempt from disclosure pursuant to the Freedom of Information Act, 5 U.S.C. 552(b)(3) and (4). LexisNexis and the Knowledge Burst logo are registered trademarks of RELX Inc. Other products or brands referenced within this response are trademarks of RELX Inc., its subsidiaries or affiliates. © 2026 LexisNexis Special Services Inc.
+1
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+
+Dear Ms. Fulton & Mr. Schlisserman
+
+2/03/2026
+
+LexisNexis Special Services, Inc. (LNSSI) appreciates the opportunity to submit this response to the Department of Veterans Affairs' (VA) Request for Information and to share our capabilities supporting digital identity, identity proofing, authentication, and fraud prevention in the service of Veterans, their families, caregivers, and survivors.
+
+VA's mission to deliver benefits and services securely, efficiently, and in a Veteran-centric manner depends on establishing trusted digital identities. As VA advances initiatives like the Veteran Credential, which provides a secure, portable, and verifiable digital identity for Veterans, robust identity proofing and adaptive authentication are critical. A trusted Veteran Credential not only streamlines access to VA services and healthcare but also plays a significant role in preventing fraud, protecting sensitive personal and benefit information, and maintaining public confidence in VA programs.
+
+Our RFI response outlines a layered, risk-based approach to digital identity aligned with federal standards and best practices. LNSSI supports identity proofing across multiple assurance levels, helping the VA confidently verify Veterans' identities during credential issuance and subsequent access events. By leveraging authoritative and alternative data sources, advanced analytics, and identity intelligence, we help ensure that each Veteran Credential is issued to the right individual and used safely across VA systems.
+
+For authentication, our solutions provide flexible, interoperable models that enable multi-factor authentication (MFA) and risk-based step-up verification. By dynamically assessing transactional and behavioral risk, the VA can apply stronger authentication only when necessary, balancing security with ease of access for Veterans who rely on mobile or remote services.
+
+We also recognize the VA's responsibility to uphold the highest standards of privacy, data stewardship, and compliance. Our solutions are designed to meet applicable federal laws, regulations, and policies, with strong governance, transparency, and auditability. Scalability and interoperability are core to our approach, enabling integration with existing VA systems and alignment with emerging identity standards, zero trust initiatives, and mission needs.
+
+LNSSI is committed to supporting the VA's mission by helping ensure that the Veteran Credential and related services reach the right individual at the right time securely, efficiently, and with dignity. We appreciate the opportunity to respond to this RFI and welcome further discussion to explore how our capabilities can advance the Department's digital identity, authentication, and fraud prevention objectives.
+
+Respectfully,
+
+Chetan R. Kottidi Senior Account Executive-Federal Health (DHA, VA & HHS) LexisNexis Special Services, Inc. 667.321.7197 Mobile chetan.kottidi@lexisnexisrisk.com
+
+- 2 -
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+Introduction
+The U.S. Department of Veterans Affairs (VA) is committed to transforming VA.gov into a modern, robust, and accessible platform that meets the evolving needs of veterans and their families. Key to this transformation is the adoption of cutting-edge identity verification tools such as LexisNexis® EssentialID. This comprehensive solution can support the VA's ambitious goals of long-term scalability, adaptability, resilience, and a seamless customer experience, ensuring the site remains secure, efficient, and welcoming for all users. The modernization of VA.gov presents a critical opportunity to enhance the security, accessibility, and efficiency of services for Veterans, their families, and caregivers. While the current platform provides essential access to benefits, healthcare, and resources, gaps remain in high-assurance digital identity, continuous authentication, proactive fraud prevention, and unified system integration. LexisNexis Special Services, Inc. (LNSSI) offers a comprehensive, risk-based approach to address these gaps, leveraging proven identity proofing, adaptive authentication, and fraud analytics capabilities. The following matrix illustrates how our solutions can directly support the VA in delivering a modernized, secure, and Veteran-centric digital experience, while maintaining continuity of critical services.
+Figure 1: LNSSI Solution and Impact
+Supporting Long-Term Scalability
+LexisNexis EssentialID is engineered to scale effortlessly, providing strong identity verification even as user demand increases. Its cloud-based architecture can efficiently process thousands of simultaneous ID checks and transactions without compromising speed or reliability. This scalability is crucial for VA.gov, which must serve a diverse and growing population of veterans, service members, dependents, and caregivers across all states and territories. Essential ID's capacity for batch processing and real-time verification supports large-scale outreach programs, digital benefits enrollment, and community events, ensuring the system can handle surges in activity, such as open enrollment periods or disaster response. Integration with VA.gov's existing infrastructure is seamless, enabling rapid deployment and easy expansion as the platform's footprint grows.
+Enhancing Adaptability
+The digital landscape and regulatory environment are in constant flux, requiring VA.gov to remain flexible and agile. LexisNexis EssentialID offers modular APIs and customizable workflows, allowing the VA to update or modify authentication processes as technology and policies evolve. Support for multiple authentication factors, including
+- 3 -
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+knowledge-based questions, device analytics, and identity document verification--means that new methods can be added or updated with minimal disruption. LNSSI EssentialID suite of remote identity proofing capabilities empowers agencies to reduce friction, prevent fraud, and ensure compliance. Identity proofing capabilities include: · Digital Intelligence - Identify device characteristics, bot/malware activity, and geolocation risk. · Email Intelligence - Provides analysis of email usage patterns, domain risk, and fraud indicators. · Phone Intelligence - Assess phone number reputation, risk levels, and spoofing threats. · Behavioral Intelligence - Analyze user behavior patterns to detect anomalies and prevent fraud. · Physical Intelligence - Confirms identity by cross-referencing authoritative sources and validating personal
+identifiable information (PII). These capabilities are delivered via one orchestration platform and are built with privacy, flexibility, and scalability in mind. EssentialID also stays current with industry best practices and regulatory changes such as NIST standards, ensuring compliance with federal guidelines and privacy requirements. Its interoperability with other identity management systems empowers VA.gov to connect easily with partner agencies, third-party benefits providers, and healthcare networks, adapting to emerging needs without costly system overhauls.
+Strengthening Resilience
+Resilience is vital for any government service, especially those serving vulnerable populations. LexisNexis Essential ID employs multi-layered security protocols, including advanced fraud detection, behavioral biometrics, device fingerprinting, and continuous risk analysis. These features protect VA.gov against identity theft, account takeover, and other cyber threats, preserving service continuity and safeguarding sensitive personal data. The solution's infrastructure boasts redundancy and robust disaster recovery, minimizing downtime during system maintenance, cyber incidents, or unforeseen events. EssentialID also supports rapid failover and real-time monitoring, enabling the VA to respond quickly to threats or disruptions and maintain uninterrupted access for users across the country.
+Creating a Seamless Customer Experience
+A primary goal of the VA.gov redesign is to remove friction for users, providing intuitive, secure, and efficient digital experiences. LexisNexis EssentialID simplifies registration and authentication, offering step-by-step guidance and instant verification using data from authoritative sources. This eliminates lengthy manual reviews and reduces the need for users to submit multiple documents, accelerating access to benefits and resources. The system supports multilingual interfaces and accessibility standards, ensuring veterans of all backgrounds and abilities can easily engage with the site. Automated error detection, contextual help, and clear prompts guide users through each step, while personalized dashboards and secure messaging enhance engagement and transparency. By delivering instant feedback and robust security, EssentialID empowers users to trust and rely on VA.gov for their most important needs.
+- 4 -
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+Figure 2: LNSSI Layered Approach
+The LNSSI Approach
+As the Department of Veterans Affairs continues modernization of VA.gov, ensuring secure, accessible, and scalable identity verification is essential to improving service delivery for Veterans, caregivers, survivors, and beneficiaries. LexisNexis® EssentialIDTM provides a single, unified identity verification platform designed specifically to meet federal assurance requirements while eliminating user friction and minimizing integration complexity. This solution directly supports VA's goals for cybersecurity resilience, seamless access, and modernization of enterprise authentication services.
+Technical Approach: Single-Platform Digital & Physical Identity Integration: Unified Identity Orchestration Platform
+Essential ID consolidates all major identity-proofing components--physical identity verification, digital identity intelligence, biometric analysis, and risk-based authentication--into a single orchestrated platform. This unified solution replaces the need for VA to manage multiple vendors or perform complex system stitching across separate tools.
+- 5 -
+
+The platform integrates:
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+
+· Physical Identity Verification
+o Authentication of 16,000+ identity document types from 220+ countries and territories are supported by AI-driven fraud detection models.
+o Biometric face matching and NIST-accredited liveness detection ensuring high-assurance remote identity proofing for VA.gov users.
+· Digital Identity Intelligence
+o Real-time assessment of device reputation, user behavior, network anomalies, and geolocation risk informed by a global digital identity network analyzing 100M+ daily transactions.
+o Detection of bots, synthetic identities, device spoofing, and account-takeover patterns through behavioral and device analytics.
+These capabilities enable VA.gov to validate both the real-world credential and the digital footprint of the user, producing a holistic identity confidence score for enrollment, login, account recovery, or high-risk transactions.
+
+Figure 3: Document Coverage
+
+Persistent Identity Confidence via LexID® Linking
+Essential ID leverages the LexID® persistent unique identifier, which links billions of identity records with 99.99% precision without using Social Security Numbers or other sensitive PII. This identity graph provides VA with:
+· Ongoing identity continuity across authentication events
+· High-precision fraud detection and reduction of false positives
+· Ability to detect anomalies over time as user behaviors or digital patterns change
+LexID enables VA.gov to maintain consistent, longitudinal identity assurance across all digital services and benefits workflows.
+
+NIST-Aligned Identity Assurance for Federal Use Cases
+Essential ID is fully aligned with federal digital identity requirements and supports VA's security and compliance needs through:
+· NIST SP 800-63A compliance for remote identity proofing using document authentication and biometrics
+· NIST SP 800-53 control support for identity assurance and risk-based protections
+· iBeta-validated liveness detection required for high-risk remote verification
+· IAL2/AAL2 compatibility when integrated with IAM partners (e.g., ForgeRock or other ICAM solutions used by VA)
+
+- 6 -
+
+o Sample IAL2 Workflow
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+
+· Device Risk Assessment - Delivers device risk assessment insight derived from 5.5+ billion devices from over 185 countries and 200,000+ websites and offers unmatched global riskbased authentication and technology. Sample connections/analytics include Device ID and IP reputations, Device and IP Velocity, First/Last Seen Dates, Location, Known Frauds, and more. Behavioral Biometrics sample capabilities include phone behavior, BOT detection and scoring, and fraud scoring.
+
+ Document Authentication and 1:1 Face Biometrics - Provides document authentication and face biometrics leveraging proprietary Computer Vision Learning Models. Delivers comprehensive coverage for a wide range of identification documents (16,000+), including U.S. passports, Driver's Licenses, ID Cards, and Passport Cards. Additionally, we cover Department of Defense Cards, Armed Forces, Uniformed Services ID Cards, PIV Cards, etc. Globally, we cover virtually any government-issued photo ID document across 220+ countries and territories, supporting 140+ languages and typesets - matching people with their government-issued IDs from all over the world and helping to fight fraud and remain compliant with identity verification requirements. This extensive coverage highlights our commitment to providing secure and reliable identification solutions worldwide. Our liveness and face-matching capabilities verify that the individual is a real person, and the transaction is happening right now, while identifying 100% of "spoof" attacks. We use facial liveness detection that distinguishes between real and spoofed faces, where the spoof may be a 2D/3D mask, mobile/screen replay, deepfake, or printed photo. We use both active and passive liveness presentation attack detection technologies. Biometric face matching verifies the individual behind the device matches the photo on the ID presented with an accuracy of 99.999%. The face match engine has been developed on top of a deep neural network, which enhances the accuracy of the solution and can cater to scenarios and environments that the liveness solution would be subjected to. i.e., unnatural light such as overhead spotlights casting shadows, various objects in the background, accessories such as spectacles or scarves, facial tattoos, differing hairstyles, or facial hair, etc.
+
+· Identity Validation and Verification - Leverages our large database of 300+ million identities resolved with a 99.99% confidence level. Performs matching of a submitted set of PII to compare against all resolved entities in the LNSSI data repository. Descriptive scores and indices include Name Address SSN Index, Name Address Phone Index, Red flags, Reason Codes, Fraud Scores, and Watchlist indicators. The verification process conducts a precise determination with market-leading accuracy of a person's current address based on proprietary algorithms, cross-checks of public records, and address histories. To minimize false positives and maximize the effectiveness and value of results, LNSSI procedures include standardization and normalization of data that leverage more than 100,000 rule sets for address hygiene, name matching, miskeyed data, and other anomalies to effectively resolve approximately 12 billion unique address/name combinations.
+
+These capabilities enable VA.gov to onboard and authenticate Veterans securely while maintaining compliance with federal identity standards.
+
+- 7 -
+
+VA.gov Modernization Alignment
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+
+Seamless User Experience Across All VA.gov Journeys
+· Friction-appropriate workflows that guide users with clear instructions, accessible design, and automated error handling
+· Multilingual, ADA/508-aligned interfaces improving accessibility for elderly users, rural populations, and those lacking traditional documents
+· Instant identity verification reduces delays during benefits enrollment, claims initiation, and credentialing workflows
+LNSSI employs device risk assessment with seamless biometric authentication for a frictionless experience for users remotely authenticating themselves while positively verifying their identity to prevent fraudulent access to accounts.
+
+Figure 4: Liveness and Matching
+Scalability for High-Demand Federal Programs
+LNSSI Dynamic Decision Platform (DDP) provides flexibility for deploying independent capabilities or combining multiple functionalities via a single RESTful API to meet defined risk thresholds, business requirements, and population characteristics. At its core, the LNSSI platform offers a multi-layered identity verification that employs a comprehensive approach to identity proofing that includes multi-layered identity verification, advanced analytics and decisioning, scalable infrastructure, interoperability with existing IAM platforms, and modular deployment.
+The platform permits VA to design custom decision logic aligned to each transaction's risk level, delivering a secure and seamless user experience. LNSSI provides access to identity verification, fraud analytics, authentication tools, and decision-making insights that support identity verification and business process optimization for effective fraud prevention. Additionally, the integration of the LNSSI Kantara-certified workflow can be used to solve multiple identity assurance use cases.
+- 8 -
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+Cybersecurity & Fraud Resilience
+· Multi-layered detection preventing account takeover, synthetic identity fraud, and deepfake-driven attacks
+· Risk-aware decisioning that adapts based on real-time threat indicators Together, these capabilities help VA strengthen digital trust, reduce fraud exposure, and ensure uninterrupted access to mission-critical services. VA.gov should leverage the latest advancements in AI's ability to detect deep fakes and liveness detection in biometric matching.
+Responsible and Transparent AI/ML Capabilities
+LNSSI's identity proofing AI/ML models are developed and maintained with a strong focus on data quality, robust training, continuous improvement, and stringent evaluation, resulting in AI/ML models that are highly accurate and precise. For example, identity linking operates at 99.99% precision, virtually eliminating false identity merges. Biometric checks have proven to catch spoof attempts with near-100% success. Fraud detection models show high efficacy, contributing to massive fraud reductions (90%+ decrease in some government programs postimplementation). Moreover, these models maintain high precision, meaning low false positives, e.g., a low percentage of legitimate users being erroneously flagged. LNSSI also ensures fairness. Our systems were evaluated for demographic bias and found to perform equitably by using diverse data and bias-mitigation strategies. All these results are continuously monitored, and LNSSI is committed to maintaining or improving them over time.
+Figure 5: Fraud Defense Against AI-Generated Attacks
+Integration & Deployment Approach for VA.gov
+Essential ID is designed for rapid adoption with minimal code changes. Using a single orchestration API, VA can: · Activate document authentication, biometrics, OTP, KBA, device risk, or other steps as needed · Insert identity verification workflows at registration, login, step-up authentication, or account recovery
+- 9 -
+
+· Configure pass/fail thresholds based on VA's desired risk levels
+
+U.S. Department of Veterans Affairs Notice ID: 365357
+
+· Integrate directly with VA.gov, Login.gov alternatives, ICAM platforms, and legacy IAM stacks
+
+This modular approach ensures VA can modernize identity verification without disrupting existing user flows or requiring significant system refactoring.
+
+Conclusion
+Implementing LexisNexis® EssentialIDTM delivers a clear Return on Investment (ROI) for the Department of Veterans Affairs by reducing fraud losses, lowering operational burden, and improving service efficiency for Veterans. EssentialID's AIdriven identity verification, including biometric authentication, document validation, and realtime risk scoring, helps prevent account takeover, identity theft, and fraudulent benefit redirection before it occurs, directly reducing costly improper payments and investigative workloads. Its highprecision matching and adaptive authentication minimizes false positives and unnecessary manual reviews, enabling faster processing of benefit changes and claims while reducing call center volume and administrative overhead. By providing a frictionappropriate experience that accelerates legitimate user access while blocking highrisk attempts, EssentialID supports higher Veteran satisfaction and lowers longterm system maintenance costs through consolidation of multiple identity proofing workflows into a single, scalable orchestration platform. These combined efficiencies deliver measurable financial value to VA while improving trust, security, and accessibility across VA.gov
+Essential ID provides VA.gov with a modern, resilient, and unified identity verification platform that:
+
+· Meets NIST assurance requirements (IAL2/AAL2) · Enhances the Veteran digital experience · Reduces fraud and cybersecurity risk · Consolidates multiple tools into one platform · Supports long-term scalability and operational efficiency This solution is fully aligned with the VA's digital modernization vision and is ready to support the next generation of secure, people-first identity verification for Veterans and their families.
+
+- 10 -
+
+

@@ -1,0 +1,259 @@
+US DEPARTMENT of VETERANS AFFAIRS
+Technology Acquisition Center
+
+Replacement Model for VA.gov
+
+Sources Sought Notice ID: 36C10B26Q0131
+
+Submission Due Date & Time: 5 February 2026, 12:00 PM EST
+
+Prepared by: SingTone LLC 733 Thimble Shoals Blvd Suite 170, Rm 203 Newport News, VA 23606 POC: Joseph L. Singleton, CEO C: (937) 219-4535 O: (757) 504-0678 E: jsingleton@singtonellc.com DUNS: 079770381 UEID: LXRKH98F9RG4 CAGE: 7C674 TIN: 47-2767846 VA Entity ID: 11096617 www.singtonellc.com
+
+Prepared for: Department of Veterans Affairs Technology Acquisition Center 23 Christopher Way Eatontown, NJ 07724 POC: Allison Fulton, Contract Specialist Allison.Fulton@va.gov Evan Schlisserman, Contracting Officer Evan.Schlisserman@va.gov
+
+This proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of - or in connection with - the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction.
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+1 Company Overview SingTone LLC, doing business as SingTone Technologies ("SingTone"), is an 8(a), SDVOSB, MBE, SBE, VA SWaM, and ISO 9001:2015-certified information technology consulting firm founded in 2015 and headquartered in Newport News, Virginia. SingTone designs, develops, modernizes, and supports secure, scalable, and user-centric digital platforms for federal, state, and local government agencies, nonprofit organizations, and commercial clients.
+SingTone manages the full software development life cycle, including experience design, platform architecture, development, database engineering, configuration management, testing, deployment, and long-term operations and maintenance. Work is routinely performed in regulated environments that require strong governance, auditability, accessibility compliance, and service continuity.
+SingTone delivers end-to-end digital experience solutions with deep expertise in enterprise WordPress platforms, custom development, performance optimization, accessibility aligned with Section 508 and WCAG 2.1 Level AA, security hardening, and scalable content management architectures. Multidisciplinary teams of UX designers, full-stack developers, database engineers, graphic designers, and technical writers collaborate to deliver modern, maintainable platforms aligned with mission objectives and diverse user needs.
+SingTone excels at building platforms for broad, diverse audiences, where complex information must be communicated clearly and updated frequently. Core strengths include intuitive navigation, responsive design, strong search and discoverability, and content structures that enable nontechnical staff to manage information efficiently at scale.
+Delivery is grounded in user-centered design, accessibility-first implementation, and modern SEO and analytics practices, supported by modular architectures that promote long-term adaptability. Quality and risk management are governed by an ISO 9001:2015-aligned Quality Management System that emphasizes requirements traceability, peer review, version control, controlled releases, and structured acceptance.
+SingTone applies this technical depth, disciplined governance, and delivery experience to support large-scale, Veteran-centric digital platforms that must remain secure, resilient, and continuously available while evolving to meet changing user and policy needs.
+2 Experience SingTone brings hands-on experience supporting high-visibility, service-oriented public platforms where continuity of service, accessibility, clarity, and scalability are essential. Past engagements reflect environments serving broad and diverse populations, delivering mission-critical information, and operating under public-sector governance requirements.
+SingTone designed and developed a WordPress-based platform for the Employees' Welfare Association (EWA) in Tokyo, Japan, a membership organization offering guided tours, educational programs, workshops, and special events. The platform emphasized intuitive navigation, visual storytelling, and streamlined registration workflows, while supporting frequent content updates, scheduling, and administrative functions manageable by non-technical staff. The
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+1
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+engagement required balancing usability, reliability, and scalability across time-sensitive user journeys.
+
+SingTone has also provided design, development, and ongoing support for Ottawa County Job and Family Services (JFS), a public-facing platform that delivers essential information on employment assistance, benefits programs, and community resources. The site supports job seekers, families, employers, and service partners through clear navigation, accessible design, mobile usability, and content structures that accommodate frequent policy-driven updates.
+
+In addition, SingTone has supported OhioMeansJobs, a statewide workforce development initiative serving job seekers, employers, educators, and workforce administrators across multiple regions. This effort required aligning content and user journeys across various stakeholders while maintaining a consistent, accessible, and scalable experience for end users.
+
+Across these engagements, SingTone has demonstrated the ability to maintain service continuity for large public audiences, design intuitive navigation for users with varying levels of technical proficiency, operate in regulated environments that require accessibility and governance, and build scalable architectures that evolve without disrupting active services. These experiences inform SingTone's approach to supporting VA.gov's modernization efforts, which prioritize resilience, trust, and a Veteran-centered digital experience.
+
+2.1 References 2.1.1 Employees' Welfare Association
+
+Primary POC
+
+Secondary POC
+
+Name: Tyler Roth
+
+Name:
+
+Angela Fujimori
+
+Title/Role: Administrative Ops Manager
+
+Title/Role: Preschool Director
+
+Office: +81-3-3224-6787
+
+Office:
+
++81-3-3224-6796
+
+Email: adminmanager@ewatokyo.org Email:
+
+preschooldirector@ewatokyo.org
+
+Address: 2-1-1 Roppongi, Minato-Ku, Tokyo, Japan 107-0052
+
+Website: https://ewatokyo.org/
+
+Website: https://mitsuigardensinternationalpreschool.com
+
+Years of Service: Jan 2019 - Present
+
+2.1.2 Ottawa County Department of Jobs and Family Services
+
+Primary POC
+
+Alternate POC
+
+Name: Samantha Krupp
+
+Name: Mary Ann Cipiti
+
+Title/Role: Information Systems Manager
+
+Title/Role: Fiscal Specialist
+
+Office: (419) 707-8663
+
+Office: (419) 707-8675
+
+Fax: (419) 898-2408
+
+Fax: (419) 898-2048
+
+Email: samantha.krupp@jfs.ohio.gov
+
+Email: maryann.cipiti@jfs.ohio.gov
+
+Address: 8043 West State Route 163, Suite 200, Oak Harbor, OH 43449
+
+Website: http://ottawacountyjfs.org/ and https://ohiomeansjobs-ottawacounty.com/
+
+Years of Service: Jan 2018 - Present
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+2
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+3 Topic Responses Modernizing VA.gov depends not only on technology choices, but on how change is executed, governed, and sustained. Large, public-facing federal platforms must evolve incrementally while remaining continuously available, compliant, and trusted.
+Effective modernization is achieved through disciplined quality management, incremental delivery, accessibility-first design, and governance aligned with federal expectations. The following summarizes how these outcomes are achieved in practice.
+3.1 Maintains Continuity of Service for Millions of Users Continuity is preserved by introducing change incrementally while keeping existing capabilities operational. This includes phased implementation, parallel operation of legacy and modern components, controlled releases with rollback capability, and performance baselining and monitoring. ISO 9001:2015-aligned quality and configuration management ensure all changes are reviewed, tested, and approved before deployment, allowing platforms to evolve without disruption.
+3.2 Integrates with a Diverse Portfolio of Legacy and Emerging Systems Integration is managed through modular architectures and disciplined interface design, enabling systems to evolve independently. Clear interface contracts, abstraction layers, and incremental integration validation reduce coupling and integration risk, while configuration management ensures integrations remain documented, versioned, and traceable over time.
+3.3 Operates Within a Regulated, Highly Visible Federal Environment Compliance and governance are embedded into daily delivery practices rather than applied postdelivery. Accessibility-first implementation aligned with Section 508 and WCAG 2.1 Level AA, formal ISO 9001:2015 quality processes, structured change management, and comprehensive documentation support auditability, transparency, and public trust.
+3.4 Supports Long-Term Scalability, Adaptability, and Resilience Scalability and resilience are achieved through composable platform design, reusable content and service models, analytics-informed capacity planning, and documented resilience and recovery procedures. ISO-aligned risk and quality management ensure scalability considerations are evaluated consistently as platforms evolve.
+3.5 Offers a More Seamless Customer Experience A seamless experience is created by structuring platforms around user journeys rather than organizational boundaries. Consistent navigation and interaction patterns, clear recovery pathways, progressive disclosure of complexity, and accessibility-aligned design reduce cognitive load and increase user confidence when accessing critical services.
+4 Descriptions of Technologies and Approaches Modernizing a platform with the scale and mission-criticality of VA.gov requires a disciplined, repeatable delivery approach that integrates technology, governance, security, accessibility, and user experience from the outset. Effective modernization relies on incremental delivery, modular
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+3
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+design, and operational resilience to ensure existing services remain available while new capabilities are introduced and validated in controlled phases.
+Technology and architecture decisions are governed by ISO 9001:2015-aligned quality and configuration management, ensuring traceable requirements, documented change control, version management, and structured acceptance. Modular, composable architectures isolate userexperience layers from backend systems, enabling integration with diverse legacy and emerging systems while limiting dependency risk through abstraction layers and well-defined interfaces.
+Accessibility, security, and compliance are embedded by design, with Section 508 and WCAG 2.1 Level AA considerations addressed throughout design, development, and testing. Data-driven design and continuous optimization guide information architecture, navigation, and scalability planning using analytics, performance monitoring, and user behavior insights. All decisions are aligned with long-term operations and sustainment, treating hosting, security updates, performance tuning, and continuous improvement as integral to the platform lifecycle to ensure reliability, adaptability, and resilience over time.
+4.1 Descriptions of relevant ideas, capabilities, and approaches. SingTone applies a platform-first, governance-driven approach to modernizing large, publicfacing digital environments, combining enterprise system discipline with modern digital experience practices to ensure stability, scalability, and user trust.
+4.1.1 Platform Architecture and Modularity Platforms are designed with modular, composable architectures that separate presentation, application logic, integration, and data layers, enabling components to evolve independently. Lessons from environments requiring parallel legacy and modern operations inform an approach emphasizing loose coupling, well-defined interfaces, and controlled dependencies to support incremental modernization without disrupting production services.
+4.1.2 Integration and Data Management Integration patterns abstract backend complexity from the user experience, enabling consistent and intuitive interfaces across diverse legacy and emerging systems. Interface contracts, data ownership, and versioned integrations are governed through configuration management, while incremental validation, automated testing, and continuous monitoring reduce data integrity risk and improve reliability.
+4.1.3 User-Centered and Data-Driven Design Research-driven UX and information architecture align platform structure with real user needs. Personas, usage patterns, and analytics guide navigation, content hierarchy, and workflows, while continuous measurement supports ongoing refinement rather than static design assumptions.
+4.1.4 Accessibility and Inclusive Design Accessibility is embedded by design and aligned with Section 508 and WCAG 2.1 Level AA, influencing layout, navigation, content structure, and interactions from the outset. Early validation and continuous testing reduce compliance risk and improve usability for all users, including those accessing services under time constraints.
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+4
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+4.1.5 Security, Risk, and Compliance by Design Security and risk management are integrated throughout the delivery lifecycle, supported by continuous monitoring, vulnerability remediation, and documented change control. Consistent application of these controls improves resilience, audit readiness, and uninterrupted operations in regulated environments.
+4.1.6 Quality, Configuration, and Change Management Delivery is governed by ISO 9001:2015-aligned quality management practices, ensuring traceability of requirements, peer review, version control, controlled releases, and formal acceptance: disciplined configuration and change management support long-term stability, stakeholder confidence, and sustainable operations.
+4.2 Case studies or examples from similar environments. SingTone draws on experience supporting large-scale, regulated, and high-visibility environments that require uninterrupted service, complex integrations, accelerated delivery, and disciplined governance. These summarized case studies illustrate how modernization challenges were addressed across both public-facing digital platforms and enterprise operational systems.
+4.2.1 Case Study A: Public-Facing Websites and Digital Experience Platforms SingTone has delivered and supported public-facing websites serving diverse user populations with time-sensitive information needs, including citizen services and commercial platforms. These environments required rapid delivery, high availability, accessibility compliance, and the ability to evolve as services and policies changed.
+Using agile delivery methods, essential services, navigation, and core user journeys were delivered quickly, while additional content and refinements were completed in parallel. Platforms emphasized clear information pathways, responsive design, accessibility aligned with Section 508 and WCAG 2.1 Level AA, and data-driven optimization supported by analytics and continuous monitoring. Integrated systems and structured content models improved usability, engagement, and operational efficiency without disrupting active users.
+4.2.2 Case Study B: Enterprise Systems, Integration, and Operational Governance SingTone has supported mission-critical federal systems operating in highly regulated environments requiring strict security controls, identity-controlled access, and uninterrupted operations. These systems integrated multiple subsystems and operated across development, test, pre-production, production, and contingency environments, often during periods of active modernization.
+Efforts included parallel operation of legacy and modern platforms, incremental migration and validation, disciplined SDLC execution, and formal configuration and change management. Continuous monitoring, cybersecurity enforcement, and operational governance ensured system stability, audit readiness, and scalability while supporting long-term adaptability.
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+5
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+4.3 User journey workflows for identity proofing, sign-in, recovery, and navigation. Modernizing VA.gov user journeys requires a secure, scalable identity model that supports diverse user populations while maintaining continuity, trust, and regulatory compliance. Identity workflows must integrate seamlessly with navigation and service access, ensuring users can authenticate, recover access, and complete tasks without friction or confusion.
+4.3.1 Identity Proofing and Authentication Strategy VA has publicly indicated plans to replace the legacy DS Logon process with a modern authentication solution. SingTone understands this transition and aligns identity workflows accordingly by implementing standards-based identity federation via SAML 2.0 and OAuth 2.0/OpenID Connect.
+This approach enables:  Federated authentication with existing VA and DoD identity providers  Decoupling of authentication from application logic  Support for multiple identity sources without duplicating credentials  Future extensibility as identity systems evolve
+Identity proofing and authentication occur at the identity provider level, allowing VA.gov to rely on validated identity assertions rather than managing credentials directly.
+4.3.2 Secure Sign-In Workflow The sign-in experience is designed to be consistent, predictable, and secure across all entry points.
+Key elements include:  Redirection to a trusted identity provider using SAML or OAuth/OpenID flows  Secure token exchange and session establishment upon successful authentication  Role- and attribute-based access enforcement once authenticated  Session hardening through inactivity timeouts and token validation
+Application-level security controls complement identity federation by enforcing protections such as web application firewalls, brute-force attack prevention, login attempt throttling, IP reputation filtering, and optional multi-factor authentication, ensuring layered defense beyond the identity provider.
+4.3.3 Multi-Factor Authentication and Session Protection Where required by policy or risk posture, multi-factor authentication is supported through the identity provider and reinforced at the application layer.
+Security measures include:  Optional enforcement of second-factor authentication  Protection against credential stuffing and automated attacks  Real-time blocking of suspicious login behavior  Secure cookie handling and session isolation
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+6
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+These controls protect authenticated sessions without introducing unnecessary friction for users.
+4.3.4 Account Recovery and Re-Authentication Account recovery workflows prioritize clarity, security, and user confidence.
+Recovery is handled through:  Identity provider-managed recovery mechanisms  Secure re-authentication using federated identity workflows  Clear recovery messaging that avoids exposing system details  Controlled session invalidation and re-issuance
+By relying on federated identity services, recovery processes remain consistent across platforms and reduce the risk associated with local credential storage.
+4.3.5 Role-Aware Navigation and Personalized Experience Once authenticated, navigation dynamically adapts based on identity attributes and roles.
+This includes:  Displaying only services and content relevant to the authenticated user  Preserving consistent navigation patterns regardless of backend systems  Supporting deep links that return users to intended destinations post-login  Maintaining accessibility and usability for both authenticated and anonymous users
+This role-aware approach reduces cognitive load and ensures users are not exposed to irrelevant or restricted services.
+4.3.6 Security, Monitoring, and Continuous Protection Application-level security tooling provides continuous protection and visibility, including:  Web application firewall enforcement  Real-time monitoring of malicious activity  Automated blocking of high-risk IPs and attack patterns  Audit logging of authentication and access events
+These controls operate alongside federated identity services to create a defense-in-depth security model suitable for highly visible federal platforms.
+4.4 Known limitations, risks, and tradeoffs. Modernizing a platform with the scale and visibility of VA.gov introduces technical, operational, and organizational risks that must be acknowledged and actively managed. Addressing these risks early improves transparency, reduces disruption, and supports informed decision-making. A structured, standards-based approach--combined with incremental delivery, disciplined governance, and continuous monitoring--reduces risk while enabling innovation at scale.
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+7
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+4.4.1 Identity Transition and User Adoption Transitioning from legacy authentication to federated identity introduces risks of user confusion and access disruption. These risks are mitigated through phased rollout alongside legacy processes, clear user communication, support for multiple identity providers using open standards, and preservation of deep links and session continuity. While phased adoption adds short-term complexity, it significantly reduces disruption to users accessing critical services.
+4.4.2 Integration Across Legacy and Modern Systems Interfacing with diverse legacy and emerging systems introduces risks related to data consistency, performance, and dependency management. These risks are mitigated through abstraction layers, clearly defined interface contracts, incremental integration validation, and disciplined configuration and version control. The tradeoff is increased architectural rigor, which is necessary to prevent cascading failures and long-term technical debt.
+4.4.3 Security Versus User Experience Security controls such as multi-factor authentication and session timeouts can introduce friction for users if not implemented carefully. Risk-based security enforcement, reliance on federated identity providers, transparent application-level protections, and continuous monitoring help balance strong security with a predictable and usable experience. This approach favors modest architectural complexity to preserve usability and trust.
+4.4.4 Accessibility and Compliance Constraints Accessibility and compliance requirements limit specific design and technology choices, and latestage remediation introduces significant risk. Embedding accessibility validation throughout design and development, using compliant components, continuous testing aligned with Section 508 and WCAG 2.1 Level AA, and maintaining audit-ready documentation reduces rework and compliance gaps. Reduced design flexibility is offset by improved usability and regulatory assurance.
+4.4.5 Performance and Scalability Under Surge Conditions Public platforms experience unpredictable demand surges that can impact performance and availability. Analytics-driven capacity planning, incremental scalability, fault isolation, and integrated monitoring mitigate these risks. The tradeoff is upfront investment in performance planning to avoid reactive scaling and service outages.
+4.4.6 Governance and Change Management Overhead Strong governance and change control introduce process overhead but are essential in regulated environments. Risks are mitigated by tailoring governance rigor to change risk, applying agile methods within controlled frameworks, automating validation and documentation, and maintaining traceability without unnecessary bureaucracy. This tradeoff prioritizes long-term stability, auditability, and public trust over short-term delivery speed.
+4.5 Lessons learned from past deployments. Across the following engagements, consistent lessons emerged that directly inform the modernization of a platform such as VA.gov. These lessons focus not on individual technologies, but on how large, regulated platforms can evolve safely and effectively at scale. These lessons
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+8
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+collectively inform a modern approach that prioritizes continuity, security, accessibility, and user trust, while enabling incremental improvement and long-term adaptability. Applying these principles allows VA.gov to evolve responsibly without disrupting access to critical Veteran services.
+4.5.1 Agile Delivery Enables Speed Without Sacrificing Stability Accelerated timelines are achievable when work is decomposed into prioritized increments. Delivering high-value pages, services, and user journeys first allows platforms to become functional early, while secondary content and refinements continue without disrupting users.
+4.5.2 Incremental Releases Reduce Risk and Rework Incremental delivery with frequent validation reduces late-stage rework, improves stakeholder alignment, and limits the impact of change. Parallel development and review cycles support continuous progress without requiring large, disruptive cutovers.
+4.5.3 User-Centered Structuring Improves Trust and Outcomes Organizing content and services around real user needs--rather than organizational structures-- improves task completion, reduces confusion, and increases trust, particularly for users accessing benefits or services under time pressure.
+4.5.4 Accessibility Must Be Embedded, Not Retrofitted Addressing Section 508 and WCAG 2.1 Level AA requirements during design and development avoids costly remediation, improves usability for all users, and ensures platforms remain compliant as they evolve.
+4.5.5 Parallel Operations Are Essential During Transitions Maintaining legacy and modern systems concurrently during transitions preserves service continuity, enables validation under real-world conditions, and reduces the risk of access disruptions during modernization.
+4.5.6 Governance and Configuration Management Sustain Reliability Disciplined configuration management, change control, and documentation are essential in highly visible environments. Strong governance may introduce process overhead, but it directly correlates to long-term stability, audit readiness, and stakeholder confidence.
+4.5.7 Continuous Monitoring Supports Resilience and Adaptability Performance monitoring, security oversight, and analytics-driven decision-making allow platforms to adapt to demand surges, policy changes, and evolving user expectations without compromising reliability.
+5 Additional Relevant Information SingTone is a certified 8(a), SDVOSB, MBE, SBE, and VA SWaM small business with demonstrated experience supporting federal, state, and local government programs. These certifications reflect not only eligibility but a proven ability to operate within regulated acquisition environments, comply with federal requirements, and deliver mission-critical services with
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+9
+
+DEPARTMENT of VETERANS AFFAIRS Replacement Model for VA.gov
+Sources Sought Notice ID: 36C10B26Q0131
+accountability and transparency. If necessary, we have partners on the following contract vehicles: OASIS+, GSA MAS, 8(a) Stars III, etc.
+SingTone is ISO 9001:2015 certified and operates under a Quality Management System, which governs how work is planned, executed, reviewed, and sustained. This system enforces:
+ Requirements traceability from intake through delivery  Formal peer review and quality assurance checkpoints  Configuration and version control across environments  Documented acceptance, corrective action, and continuous improvement
+This quality framework directly supports modernization efforts where continuity of service, auditability, and controlled change are essential. ISO-aligned practices ensure that rapid delivery and agile methods do not compromise stability or compliance.
+
+733 Thimble Shoals Blvd Suite 170 Rm 203 Newport News, VA 23606
+
+O: (757) 504-0678
+
+www.singtonellc.com info@singtonellc.com
+10
+
+

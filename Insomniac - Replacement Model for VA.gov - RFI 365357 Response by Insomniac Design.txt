@@ -1,0 +1,295 @@
+
+INSOMNIAC DESIGN RESPONSE TO  THE US DEPARTMENT OF VETERAN'S AFFAIRS (VA) RFI 365357
+FEBRUARY 04, 2026 
+POC  Ashwin Jayaram, Chief Strategy Officer aj@insomniacdesign.com 202-604-9714 www.insomniacdesign.com
+
+1
+
+INSOMNIAC DESIGN X VA
+
+© INSOMNIAC DESIGN, 2026
+
+February 4, 2026  RE: RFI Response - Replacement Model for Va.gov
+Dear Evaluation Committee,
+On behalf of Insomniac Design, Inc., we are pleased to submit our response to the Department of Veterans Affairs' Request for Information regarding the future replacement model for VA.gov. This response focuses on architectural patterns, operating models, and tradeoffs VA can apply regardless of vendor or platform choice.
+As a digital strategy and software solutions company headquartered in Washington, DC--with over 28 years of experience supporting mission-driven platforms across federal, multilateral, and global organizations--we deeply understand the scale, responsibility, and trust embedded in a public-facing site like VA.gov.
+Our response is grounded in a clear appreciation of VA's mission and the institutional gravity of this platform. We have approached this RFI not as a technical specification exercise, but as an opportunity to share strategic insight into how VA.gov can evolve--incrementally, securely, and equitably--into a more modern, Veteran-centric experience.
+We understand this RFI is part of a broader effort to inform planning and potential pilots, and we have structured our input accordingly: highlighting practical architectural patterns, identity and navigation frameworks, governance models, and modernization strategies that maintain continuity of service while enabling long-term transformation.
+We appreciate the VA's openness to innovative thinking in this early stage and welcome the opportunity to collaborate further--whether through follow-up discussions, pilot exploration, or contribution to future planning cycles.
+ Thank you for your consideration,
+  Ashwin Jayaram | Chief Strategy Officer 1219 Blagen Alley N.W. Washington D.C. 20001 aj@insomniacdesign.com 202.604.9714
+
+INSOMNIAC DESIGN X VA
+
+
+
+2
+
+Executive Summary
+The Department of Veterans Affairs faces a rare and consequential challenge: evolving VA.gov into a next-generation digital front door without disrupting services that millions of Veterans depend on every day. In our experience, the greatest risk in efforts of this scale is not insufficient ambition, but overreach--attempting a wholesale replacement before the ecosystem, governance, and operating model are ready.
+Our perspective is grounded in a clear point of view: VA.gov should not be replaced all at once, nor should modernization begin with backend systems. Instead, VA should pursue an incremental replacement model that prioritizes continuity of service, decouples user experience from legacy constraints, and creates durable foundations for long-term evolution.
+Specifically, we believe VA's near-term focus should be on:
+ Decoupling experience layers first--navigation, content delivery, and personalization--so Veterans experience immediate improvements without forcing disruptive backend rewrites.
+ Adopting composable, API-first patterns that allow legacy and modern systems to coexist, enabling phased migration rather than "big bang" transitions.
+ Strengthening governance and operating models alongside technology, recognizing that VA.gov is as much an organizational and content ecosystem as it is a technical platform.
+This approach aligns with VA's stated goals to maintain continuity of service, integrate with a diverse portfolio of systems, and operate within a highly regulated federal environment, while also meeting the mandates of the 21st Century Integrated Digital Experience Act and OMB guidance on customer experience and self-service modernization.
+Our recommendations are intentionally platform-agnostic and vendor-neutral. They are designed to help VA:
+ Inform future requirements and procurement strategies  Identify low-risk pilots that can deliver near-term value  Clarify architectural and governance decisions before committing to large-scale
+implementation
+Insomniac Design brings a long-term stewardship mindset to this work. We have supported mission-critical public platforms where reliability, accessibility, and trust outweigh speed or novelty. That experience shapes our belief that the most successful replacement model for VA.gov will be one that feels evolutionary to Veterans, but transformative behind the scenes.
+
+INSOMNIAC DESIGN X VA
+
+
+
+3
+
+This response is offered as a strategic input to VA's planning and pilot efforts--highlighting practical architectural patterns, operating models, risks, and tradeoffs that VA can adapt regardless of the specific technologies or vendors ultimately selected.
+Understanding the VA.gov Ecosystem
+VA.gov today is a national-scale portal aggregating benefits, health care, and information from dozens of VA programs. It serves Veterans, families, caregivers, service members, and the public as a "central entry point" for claims, appointments, forms, and records. The site integrates with numerous legacy systems (e.g. Veteran records, claims processing, medical appointments, education benefits, home loan services, insurance). User navigation must accommodate a wide array of personas: from a young service member enrolling in VA benefits for the first time to a senior Veteran managing care for chronic conditions. VA's own "Journeys of Veterans" map underscores this diversity: Veterans have many "life stages" and touchpoints, each with different information needs. In practice, VA.gov provides everything from application forms (e.g. for disability claims or pensions) to provider search tools and personalized content feeds.
+Content is both rich and fragmented. Hundreds of content authors across VA offices publish FAQs, guides, and news, often in different content management systems. The VA.gov Design System now enforces a shared style guide and UI components for "consistent, intuitive, and Veteran-centered" experiences, which has helped but also highlights the need for a unified architecture underneath. In other words, VA.gov is a federated information ecosystem: many data sources, content silos, and legacy backends behind one public façade.
+Technically, the current VA.gov implementation (based on Drupal and Ruby microservices) must coexist with VA's identity systems (Veteran Authentication API, DS Logon, ID.me, etc.), healthcare portals (MyHealtheVet), and third-party credential providers. All of these must continue to work seamlessly during any replacement. The RFI explicitly requires maintaining "continuity of service for millions of users" and integration with "diverse portfolio of legacy and emerging systems". For example, a user logging into VA.gov today may also have access to MHV or Provider portals using the same credential; any new model must preserve those linkages. Moreover, VA operates under strict security and privacy regulations (FISMA, HIPAA for health data, etc.), and VA.gov is a .gov domain subject to federal website standards (e.g. accessibility for all abilities).
+The ecosystem includes not just technology but mission: VA's culture and governance. There are many stakeholders: multiple administrations (Veterans Health, Benefits, Memorial, etc.), program offices, Congress, VSOs, and of course Veterans themselves (including underserved groups). Our approach assumes continuous engagement with stakeholders (including Veteran Service Organizations) to ensure equity. We emphasize that "Veterans' needs" should drive the architecture - reflecting VA's own shift to "user-centered" thinking. Analytic data (e.g. site search logs, form abandonments) will guide priorities. We also note that VA's published analytics (via analytics.usa.gov) show the scale: federal sites see ~2 billion visits/mo, over 50% on mobile.
+
+INSOMNIAC DESIGN X VA
+
+
+
+4
+
+VA.gov alone has millions of users each month. This scale demands highly optimized performance (e.g. CDN use, responsive design, caching strategies) and robust 24/7 operations (VA promotes a 24/7 "always-on" service for Veterans in crisis).
+Key observations: VA.gov is simultaneously large-scale and mission-critical; it must integrate myriad backend systems; it must serve a very diverse Veteran population (with high standards for UX and accessibility); and it operates under a cloud and digital policy framework. Any replacement design must reproduce today's functionality without disruption, while enabling innovation. For example, search and navigation must improve (better findability of benefits), but the old content cannot disappear overnight. We recommend a detailed content and services audit to map the full VA.gov footprint, identifying critical paths (e.g. disability claims, prescription refills, provider searches) so those can be stabilized first.
+Veteran Equity: Throughout, our focus is on removing barriers. That means adhering to Section 508 accessibility, offering multi-lingual support where needed, and designing for varying literacy/tech levels. The VA Design System already provides guidance on language and tone. We will build on that, ensuring that navigation (menus, search, personalized dashboards) highlights equity (e.g. quick access to crisis lines for at-risk veterans). In summary, understanding the VA.gov ecosystem means recognizing its scale (tens of millions of users), diversity of services, and the need for a single integrated front-end that glues it all together. Our recommendations below are grounded in this context.
+Replacement Approaches & Architectural Patterns
+No single "silver bullet" will replace VA.gov; instead we propose a composable, API-driven architecture that can be tailored to VA's unique needs. A core principle is decoupling: separating content management, user experience, and backend logic so each can evolve independently. For example, a headless CMS (or Content Service) can centrally manage VA's content (articles, form text, guidance) and expose it via APIs. In a headless model, content editors work in a central platform, while front-end teams build a responsive website, mobile app, or voice interface that pulls the content as needed. This promotes future-proofing: the front end can be rewritten or replaced without migrating all content. (Figure below illustrates this decoupled pattern.)
+Key architectural patterns and recommendations include:
+ Headless (API-first) Content Platform: As noted, we favor a headless CMS or Content Repository so that the content strategy (governance, taxonomy, personalization) can operate independently of presentation. VA.gov already supports multiple page types (hubs, forms, dashboards); a headless platform enables reusable content components. For example, a "Benefits Overview" article can be written once but delivered to any VA website or app. The headless approach also better supports omnichannel delivery (web,
+
+INSOMNIAC DESIGN X VA
+
+
+
+5
+
+mobile, chatbots, etc.) - an important consideration under the 21st Century IDEA mandates for digital access across devices.  Modular Microservices: Large VA business functions (e.g. claims status, provider lookup, personalized health data, scheduling) should be broken into discrete microservices. Each service has a clear API and can scale independently. For example, the Pharmacy service API could handle prescription refills, separate from the Disability Claims service API. This reduces risk (one update doesn't break the whole site) and matches VA's Enterprise Architecture guidelines. Wherever possible we leverage VA's existing "shared services" - e.g. the Lighthouse APIs - to avoid duplication. But new services (like an advanced search or recommendation engine) could be built as microservices. We also recommend containerization (e.g. Kubernetes) to allow easy multi-cloud deployment and auto-scaling.  User Experience Platform: In parallel to the content layer, a robust front-end framework will manage the user interface. We propose a modern web framework (React/Angular/Vue, per VA policy) that consumes the APIs. The front end should implement VA's design system (components and patterns from VA.gov) to ensure consistency. We will aim for a mobile-first responsive design and progressive web app capabilities, so that key services work reliably even on low-bandwidth connections (important for rural Veterans). Features like offline caching or push notifications (for appointment reminders) can be included incrementally.  Personalization & Navigation: The architecture should support role-based dashboards. For example, a signed-in Veteran sees "My Benefits Summary," while a caregiver might see "Veteran I Care For." A personalization engine (even a rules-based one at first) can tailor homepage and navigation menus to user profiles and past behavior. Navigation itself should blend top-down (mega-menus grouped by topic) and search-driven access. We recommend enhancing the site search with analytics data (e.g. suggested topics based on popular queries) and using a "guided flow" for complex tasks. For instance, the education benefits page could detect user inputs (service era, dependency status) and route them to the correct form. This reduces cognitive load.  Data & Analytics: The new platform should natively collect user analytics (clickstreams, form completion, search terms). A data pipeline can feed VA's analytics teams to drive continuous improvement (as OMB requires "data-driven design"). Real-time monitoring (especially of security events) is also crucial. Architecturally, we will incorporate event-logging and a possible integration with VA's Splunk/ELK stack to detect anomalies.  Integration with Legacy: We must plan phased migration. The new VA.gov could sit "in front" of the old one using feature toggles. Initial steps might replace only certain sections (e.g. homepage and benefits hub) while redirecting other paths to the legacy site. Over time, all routes move to the new system. This hybrid approach minimizes disruption. API gateways can federate calls to legacy systems until backend replacements are ready. Any approach must also honor VA's identity federation: users who sign in may carry an existing VA claimant ID or personal data that is already shared across VA systems. We will leverage standards like SAML or OpenID Connect to
+
+INSOMNIAC DESIGN X VA
+
+
+
+6
+
+federate identity and not force Veterans to "re-prove" their identity if already known to VA.  Cloud-Agnostic, Zero Trust: We recommend deploying on VA-approved cloud infrastructure with full FedRAMP compliance. A zero-trust security model should be applied (as per DoD and NIST guidance) - every API call is authenticated and authorized, and data is encrypted in transit and at rest. By using infrastructure-as-code and multi-region clusters, we support disaster recovery and resilience.
+In summary, the replacement VA.gov should be a Digital Experience Platform (DXP) built on MACH principles (Microservices, API-first, Cloud-native, Headless). This approach yields high agility: new features (like a COVID-19 vaccine booking app) can be spun up as separate modules without disturbing the core. It also respects VA's unique environment: we integrate with what must stay and decouple what can move.
+We recommend piloting the headless content model first (e.g. migrating the education benefits hub and a couple of major content pages) to prove the decoupling concept. Success here would enable broad rollout to other domains. This pilot should include a user feedback loop (service design sessions with Veterans) to validate the approach.
+Identity, Authentication, and Navigation Journeys
+For Veterans, logging in to VA.gov is often the first step toward accessing benefits. Modernizing VA.gov must therefore treat identity and navigation as end-to-end journeys. The RFI explicitly asks for workflows on "identity proofing, sign-in, recovery, and navigation". We draw on NIST SP 800-63 principles and VA policy (e.g. OMB M-19-17) to outline robust flows.
+Identity Proofing: Before issuing credentials, VA must verify who a user is. As NIST outlines, proofing typically begins when a user ("applicant") initiates access, the Credential Service Provider (CSP) asks for evidence (SSN, service records, PII), and then validates it against authoritative sources. A successful proofing creates a subscriber account and registers an authenticator (e.g. a PIV card, hardware token, or mobile credential).
+Authentication (Sign-In): Once a user is identity-proofed, they authenticate each session. We design the new VA.gov to support adaptive multi-factor authentication (MFA) in line with NIST. Primary authenticators might include PIV/CAC cards, hardware tokens (FIPS-based), or soft OTP apps. We strongly recommend supporting single sign-on across VA: once a user logs in at VA.gov, they should automatically access MyHealtheVet, pension calculators, etc. without logging in again. This federated SSO aligns with OMB's cross-government identity goals. (For example, the U.S. Federal Identity Resource Guide encourages agencies to accept "external credential providers" and to use standard protocols.) Account recovery (forgot password or lost device) should also have a clear workflow: e.g. send a verification link to the user's registered
+
+INSOMNIAC DESIGN X VA
+
+
+
+7
+
+email/phone, or require answering pre-provisioned security questions, consistent with VA's existing DS Logon processes.
+Navigation Journeys: We advocate designing VA.gov as task-oriented journeys. Today, Veterans may struggle to find the right information or form. We would map common tasks (e.g. "Apply for GI Bill benefits", "Refill prescriptions", "Find a clinician") and create guided flows on the site. For example, a user might click "Benefits" and then be prompted, "Select your benefit type" with clear choices (Disability, Health, Education, etc.). At each step, contextual help and live chat (Veteran service reps) can appear for support. For mobile users, we ensure menus and search are thumb-friendly. Key navigation elements like "Benefits" vs "Health Care" should be prominent in the header and footer (consistent with VA design guidelines).
+Crucially, the navigation must adapt once the user is signed in. A Veteran with an upcoming appointment should see that appointment on their dashboard, while a user with no login might see generic links. We recommend implementing a "My VA" landing page after login, summarizing tasks: pending claims, upcoming clinic visits, etc. This is in line with VA's vision of personalized service. We will employ analytics-driven refinements: e.g. if data shows many users search "apply disability" immediately after login, we make that step more prominent.
+Finally, accessibility and inclusivity are built into every journey. All sign-in pages and navigation menus will follow WCAG 2.1 AA (or higher) standards. For example, login prompts will support screen readers and offer alternative flow (e.g. audio challenges or SIPRNet gateway if needed). Language in the UI will use plain, Veteran-centered wording (the VA content style guide guides this). We would also include disabled veteran input by partnering with the VA's Veterans Experience Office or UI/UX research teams to test the flows with real users.
+In sum, our identity/authentication and navigation designs will ensure that sign-in is seamless and secure, and that once in, finding services is intuitive. We incorporate NIST guidelines for security and VA's own design patterns to guarantee compliance and familiarity. VA should adopt a unified login (a single "VA.gov ID") that spans all VA digital touchpoints. This eliminates confusion and reduces barriers - an industry best practice we've implemented in past work. VA.gov can also integrate with federal login.gov in the future for even broader federation.
+Governance, Content, and Operating Models
+Replacing VA.gov is as much a people/process challenge as a technical one. We recommend establishing a cross-VA Digital Governance Board (if not already in place) with representatives from all major VA administrations, policy, IT, and Veterans' groups. This Board would own standards, approve major changes, and arbitrate disputes (e.g. which office gets priority to publish a page). Underneath it, lean Content and UX teams will manage day-to-day operations. VA's existing design system shows this model: centralized "foundation" sets (colors, tokens, shared components), while individual program teams create content using those components. We suggest formalizing this: content owners in VHA, VBA, NCA, etc. would each
+
+INSOMNIAC DESIGN X VA
+
+
+
+8
+
+have "content leads" trained in VA.gov guidelines. A central content QA team would ensure consistency and compliance (drawing on VA's "content style guide").
+To coordinate the many moving parts, we advocate an Agile product development model and use of VA's Software Factory and Lighthouse processes. For example, VA's new Software Factory model encourages modular teams that use VA's continuous integration pipelines. We would align to that: each microservice or front-end feature is built by a small squad (developer, designer, tester) that works in two-week sprints. Regular "scrum of scrums" and quarterly roadmaps keep the overall vision aligned.
+In terms of content strategy, VA should move toward structured content. Rather than static pages, information (eligibility criteria, form questions, help topics) should live in a headless repository with metadata. This allows powerful reuse: for instance, the same "Disability definition" content block can appear in multiple contexts (homepage, FAQ, chatbot) without duplication. A well-defined taxonomy (VA-specific tags like "Disability", "Copay", etc.) will power search and personalization. To implement this, we would recommend a content migration plan: audit existing pages, tag them, then import into the new CMS. The audit will uncover outdated or redundant content - a chance to streamline. Editorial workflow (edit, review, publish) will be enforced in the new system.
+Operating this new platform also requires attention to VA's broader context. For example, VA's Enterprise Cloud Strategy and FedRAMP constraints mean we must use vetted services. We will design for 24/7 "TechOps" support (leveraging VA's existing network operations centers). Roles like a VA.gov Product Owner, a VA IT Lead, and VA Cybersecurity lead should be clearly defined. Training is also key: VA administrators and content editors will need training on the new tools (CMS, analytics dashboards, etc.).
+Governance extends to data and privacy: we will ensure compliance with VA's Ethics Principles for Veteran Data by minimizing data collection to what's needed, and anonymizing analytics. Regular privacy impact assessments and security audits will be scheduled as part of the operating model.
+Finally, we recommend continuous feedback loops. This means setting up periodic usability testing with Veterans, a "feedback" feature on the site, and monitoring helpdesk tickets to catch pain points early. Agile retrospectives will feed lessons back into future development. In all, the governance/content/ops model we propose is collaborative and iterative, mirroring how successful government digital teams operate. It balances centralized standards (for security, design, interoperability) with decentralized execution (subject-matter experts creating content).
+Risks and Limitations
+Modernizing a site as vast as VA.gov carries risks. Below we highlight key challenges and our mitigations, drawing on prior lessons from federal transformations:
+
+INSOMNIAC DESIGN X VA
+
+
+
+9
+
+ Legacy Integration Risk: VA.gov ties to many legacy systems (some decades old). Replacing it risks broken integrations.  Mitigation: We recommend a phased, backwards-compatible approach. Start with non-critical features (e.g. information pages) before moving transaction systems. Use API gateways and facades so that old systems can be called from the new platform until they are retired. This incremental migration strategy keeps services uninterrupted.
+ Continuity of Service: With 17.8M users/month, downtime or bugs could harm missions.  Mitigation: Rigorous testing (automated UI tests, load tests, security scans) is mandatory. We will build in blue-green or canary deployments so that new versions are tested on a subset of traffic first. A detailed rollback plan will be in place. Moreover, every major release will be preceded by stakeholder coordination (e.g. a "freeze" period around major VA events like PACT Act enrollment surges).
+ Accessibility and Compliance: New tech can unintentionally break accessibility.  Mitigation: We enforce WCAG throughout development. Our team includes accessibility experts who will conduct manual audits and use automated tools. We will align with VA Section 508 guidelines and involve VA's Office of Civil Rights review early.
+ Security/Privacy: VA.gov handles sensitive data.  Mitigation: We build with security-first design. This means multi-factor login, encryption, and continuous monitoring from day one. We will follow VA's Cybersecurity Strategy and conduct yearly red-team penetration tests. Data minimization will be applied (only store needed user info) and VA's Privacy Board will review any new data collection. We also design for deidentification of analytics data so Veterans' identities aren't exposed in logs.
+ Vendor/Technology Lock-in: Using proprietary platforms can lock VA in.  Mitigation: We remain cloud- and tech-agnostic. We emphasize open standards (e.g. OAuth2, REST APIs, JSON) so VA is not tied to a single CMS or vendor. For example, a headless CMS could be open-source or commercial, but if needed VA could swap it out. We also avoid "big bang" contracts; instead, the contract could be modular (e.g. separate for CMS implementation, front-end work, identity solution) to encourage competition.
+ Change Management: A new VA.gov will require staff and user retraining.  Mitigation: We plan early communication campaigns (e.g. banners on legacy VA.gov alerting users to new portal features) and provide help guides. Internally, we will hold workshops for VA content authors and help desk teams well before launch.
+ Scope Creep and Budget: The temptation is to add "just one more feature". But that can derail timelines.  Mitigation: We will enforce a strong requirements baseline and use an agile prioritization framework (e.g. MoSCoW) with VA leadership. Non-essential
+
+INSOMNIAC DESIGN X VA
+
+
+
+10
+
+features (like advanced personalization or additional languages) will be slated for future phases, ensuring the core stays on schedule.
+In summary, we are mindful of the pitfalls: integration breakages, usability regressions, security gaps, and overreach. We mitigate these by iterative development, strong governance, and leveraging best practices from standards (NIST, Digital.gov). By acknowledging these risks up front, VA will be prepared and the transition can be smooth.
+Conclusion
+VA has been clear that this Request for Information is intended to inform planning, requirements development, and potential pilot efforts--not to prescribe a single solution or commit to a procurement path. Our response is structured with that intent in mind.
+The ideas and patterns outlined here can be applied immediately to VA's internal planning efforts. VA may choose to use this input to:
+ Shape requirements for future procurements by clearly separating experience-layer modernization from backend system replacement.
+ Identify low-risk pilot opportunities--such as a headless content implementation or redesigned navigation layer--that can validate architectural assumptions without disrupting mission-critical services.
+ Inform identity and navigation workshops with OIT and program stakeholders, using the journey concepts described here as starting points for validation and refinement.
+ Establish or strengthen cross-VA governance and operating models needed to sustain modernization over multiple years and administrations.
+We intentionally emphasize tradeoffs, risks, and sequencing over specific tools or platforms. In our experience, the success of an effort at VA.gov's scale depends less on choosing the "right" technology than on making disciplined decisions about what not to replace yet, how to protect continuity of service, and how to align organizational ownership with technical change.
+This response can serve as both a design reference and a planning checklist as VA evaluates options, pilots, and future acquisition strategies. We welcome the opportunity to discuss these perspectives further, validate assumptions with VA stakeholders, and support follow-on exploration as VA defines the next chapter of its digital front door.
+Our shared goal is a VA.gov that evolves safely and deliberately--delivering meaningful improvements to Veterans today while building a resilient foundation for the future.
+
+INSOMNIAC DESIGN X VA
+
+
+
+11
+
+10. Appendix -Featured Case Study
+
+National Oceanic and Atmospheric Administration (NOAA), National Marine Fisheries Service
+Web Modernization & Maintenance for fisheries.noaa.gov
+Scope and Alignment
+Insomniac Design is currently leading the web modernization and ongoing maintenance of NOAA Fisheries' flagship digital platform, fisheries.noaa.gov, which serves as the agency's most important communication vehicle to the public. Insomniac is a sub-contractor under prime contractor, ResolveSoft. The site supports critical mission delivery, scientific transparency, regulatory information, and stakeholder engagement for both the public and scientific communities.
+The engagement encompasses:
+ Full-stack modernization of a federated Drupal platform (hosted on Acquia PaaS and AWS, protected by Akamai WAF/CDN)
+ Sustained operational stability and DevOps support with zero unplanned downtime
+ Section 508 and WCAG accessibility remediation and verification using SiteImprove
+ Continuous delivery through an Agile/Scrum framework with integrated Jira-based sprint planning and defect management
+ Strategic content and SEO optimization to improve discoverability and readability across over 4,000 pages
+ Integration of NOAA-wide assets and systems including Brightcove, ArcGIS Online, and Tableau via JSON REST APIs
+ Migration planning for multilingual content and Digital Asset Management systems
+Relevance to VA RFI
+This NOAA program parallels the VA.gov landscape in several strategic dimensions:
+
+INSOMNIAC DESIGN X VA
+
+
+
+12
+
+Dimension
+
+NOAA Experience
+
+Relevance to VA
+
+Public-Facing, Mission-Critical Site
+
+fisheries.noaa.gov is the main public interface for regulatory, environmental, and scientific services
+
+VA.gov is the central point for Veteran access to services and benefits
+
+Governance Across Technical + Comms
+
+Dual ownership model: NOAA OCIO (tech) and Comms (content/UX)
+
+Mirrors VA's multidisciplinary governance challenge
+
+Identity & Navigation Complexity
+
+Supports tailored content journeys for varied public stakeholder groups
+
+Aligns with VA's vision for benefit-aware navigation
+
+Modernization Without Disruption
+
+Coexists with legacy NOAA services, preserves continuity for internal and public users
+
+Reflects VA's emphasis on progressive reconstitution, not replatforming
+
+Accessibility & Equity Focus
+
+Implements 508 and multilingual access, including Spanish and Mandarin
+
+Aligns with VA's Veteran equity commitment
+
+This engagement demonstrates Insomniac Design's ability to support institutional modernization without disruption, enabling progressive digital transformation, governed delivery, and veteran-centric design principles at federal scale.
+
+INSOMNIAC DESIGN X VA
+
+
+
+13
+
+11. Appendix - Other Case Studies
+BRAND USA
+Digital Transformation, thebrandusa.com
+THE CHALLENGE Brand USA, the destination marketing organization for the United States, was looking to bring many of their disparate systems under a single digital umbrella as well as to design and build numerous digital platforms.
+THE ENGAGEMENT Our task was to build a variety of websites and applications to serve partners, internal employees, and external stakeholders/audiences to enable them to find what they need through progressive content discovery in support of Brand USA's mission: promote US tourism to the world.
+
+THE APPROACH We undertook an extensive strategic process that began with persona development and user journey mapping with a focus on serving relevant content to each audience. We created a bold design that aggregates content to highlight trends and features--all built on the latest Drupal CMS with advanced content search and sorting.
+
+INSOMNIAC DESIGN X VA
+
+
+
+14
+
+CDC FOUNDATION
+Vaccine Resource Hub, vaccineresourcehub.org
+
+THE CHALLENGE The CDC needed to provide funding and support to national, state, local, and community-level partners who prioritize equity in vaccination access among those groups experiencing disparities in immunization. Amidst a slew of anti-vaccine messaging and misinformation, it was critical to offer only vetted, culturally relevant, up-to-date information and resources. The Vaccine Resource Hub is part of that effort.
+THE ENGAGEMENT We designed and developed a data visualization tool that enables health departments and the public to access this information as an aggregated format.
+
+THE APPROACH A sophisticated yet user-friendly search was designed and implemented to help users find the right resources for their communities across a number of dimensions. As the nature of the pandemic evolves, the Vaccine Resource Hub's content and features will as well, to ensure that the tool continues to provide value to the initiative and to public health in general. Section 508 / WCAG-compliant design was paramount given the vast datasets and diverse user groups visiting the hub.
+
+INSOMNIAC DESIGN X VA
+
+
+
+15
+
+DC COURTS
+Digital Transformation & Content Management, dccourts.gov
+
+THE CHALLENGE DC Courts has a wide variety of audiences that frequent their website with very different needs across a vast array of content.
+THE ENGAGEMENT We were tasked to undertake a major overhaul of the Courts' digital strategy and presence, starting with an in-depth content audit and information architecture strategy. Guided by internal stakeholders, attorneys, jurors, and the general public, Insomniac Design laid the strategic foundation for design and development to build upon.
+
+THE APPROACH We dug deep to understand the unique needs of the different audience groups, and implemented a human-centered design approach to create an easy-to-follow user flow for people using the website. The new, digital-first experience gives site users new capabilities and more convenient options to solve issues in minutes, rather than hours or days based on the initial analog system.
+
+INSOMNIAC DESIGN X VA
+
+
+
+16
+
+COUNCIL OF STATE GOVERNMENTS - JUSTICE COUNTS
+Data Dashboard
+
+THE CHALLENGE The Justice Counts Dashboard vision is to address those issues through the introduction of a data dashboard product that allows users to browse, filter, and explore data across seven core criminal justice sectors per agency, in an easy-to-understand and interactive format.
+THE ENGAGEMENT The Justice Counts Dashboard required a close partnership between Justice Counts, its data aggregation partner, and Insomniac Design, to structure a data schema that enabled data visualization, compatible across disparate providers, in a format that the media and general public could comprehend, and policymakers and researchers could take action on.
+
+THE APPROACH This interactive portal is designed to enable users to explore data from each participating agency, broken down by criminal justice sector and then by specific metrics. The platform was built using Next.js server-side components to build a fast and flexible mico-backend. Multilevel API caching accelerates data normalization and aggregation. Using JSONata, data is efficiently filtered and transformed, then translated and displayed using the Highcharts library, wrestling in clear, interactive visualizations.
+
+INSOMNIAC DESIGN X VA
+
+
+
+17
+
+PUBLIC HEALTH ACCREDITATION BOARD
+Data Visualization Tool, phabdata.org
+
+THE CHALLENGE The mission of the Public Health Accreditation Board (PHAB) is to advance and transform public health practice by championing performance improvement, strong infrastructure, and innovation.
+THE ENGAGEMENT We designed and developed a Drupal-based data visualization tool to enable health departments and the public to access this aggregate in an easy and intuitive way.
+
+THE APPROACH Users can get a snapshot of health department capacity by PHAB Domain or by theme and can explore differences by health department characteristics. Accredited agencies can benchmark their capacity against others and information about public health outcomes that health departments are tracking is also available.
+
+INSOMNIAC DESIGN X VA
+
+
+
+18
+
+

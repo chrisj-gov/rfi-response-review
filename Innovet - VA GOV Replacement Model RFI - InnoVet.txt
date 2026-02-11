@@ -1,0 +1,209 @@
+PROPOSAL RESPONSE TO:
+DEPARTMENT OF VETERANS AFFAIRS REPLACEMENT MODEL FOR VA.GOV
+SOLICITATION NUMBER: 36C10B26Q0131 PROPOSAL DUE: 5 FEBRUARY 2026 12:00 PM EASTERN TIME (ET)
+RFI RESPONSE
+SUBMITTED TO:
+Allison Fulton, Evan Schlisserman Contract Specialist, Contracting Officer
+Department of Veterans Affairs allison.fulton@va.gov; evan.schlisserman@va.gov
+OFFEROR DETAILS:
+InnoVet Health LLC 6530 Lakehurst Ave.
+Dallas, TX 75230 Nitin Jain, Chief Growth Officer T: 443.449.0270 | E: contracts@innovethealth.com
+www.innovethealth.com UEI: KXMMBDFHKAC6| CAGE: 7ZSX4
+This proposal or quotation includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this proposal or quotation. If, however, a contract is awarded to this offeror as a result of--or in connection with--the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction.
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+TABLE OF CONTENTS
+Company Overview .......................................................................................................................1 Relevant Experience with Similar Challenges ............................................................................1 Responses to Topics and Questions ..............................................................................................2 High Level Modernization Ideas /Concepts ................................................................................3 Descriptions of relevant ideas, capabilities, and approaches .....................................................4 Descriptions of Relevant AI-enabled Technologies ....................................................................7 User journey workflows ................................................................................................................9
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+COMPANY OVERVIEW
+InnoVet Health (InnoVet) is a MIT-alumni-founded Service Disabled Veteran Owned Small Business (SDVOSB). We are a mission-driven health information technology and digital transformation company focused on modernizing complex, high-impact Veterans health systems. We bring deep experience supporting large-scale programs across the Department of Veterans Affairs (VA), where trust, continuity of service, and regulatory compliance are paramount.
+InnoVet Health specializes in human-centered digital modernization, combining experience design, platform engineering, data and analytics, interoperability, and emerging technologies such as artificial intelligence to improve outcomes for end users while strengthening enterprise operations. Our teams have supported initiatives involving identity, forms and transactions, interoperability, analytics, cloud platforms, and product operations--often within environments characterized by legacy system dependencies, evolving policy requirements, and high public visibility.
+In support of VA.gov modernization, InnoVet Health brings: · Deep familiarity with VA digital ecosystems, health and benefit portfolios, including the operational realities faced by VA and program offices. · Experience applying AI responsibly, with a focus on assistive use cases such as content acceleration, form guidance, decision support, and analytics--never autonomous decisionmaking. · A product-oriented mindset, grounded in continuous improvement, performance measurement, and user trust. · A Veteran-centric philosophy, ensuring solutions are designed with empathy, clarity, and dignity for the populations VA serves.
+
+Company Name Address Primary Point of Contact
+Secondary Point of Contact SAM UEI Cage Code Socioeconomic Status FSS under 541611
+
+InnoVet Health, LLC
+6530 Lakehurst Avenue, Dallas, Texas 75230-5202 Nitin Jain; 443.449.0270; nitin@innovethealth.com contracts@innovethealth.com Michael Gould; 617.834.5712; michael@innovethealth.com KXMMBDFHKAC6 7ZSX4 Service-Disabled Veteran Owned Small Business (SDVOSB) Yes
+
+RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES
+We bring a proven past performance as a Prime and Subcontractor supporting multiple VA's modernization initiatives, including VA's Community Care DevSecOps (CCDSO), Health DevSecOps (HDSO), Electronic Health Record Modernization (EHRM), Office of Connected Care and Financial Management Business Transformation (FMBT) Integrated Financial and Acquisition Management System (iFAMS) Independent Verification and Validation Services.
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 1
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+1. On the CCDSO program, we automated Enterprise Precision Scanning and Indexing tool (EPSI) that reduced the time required to index medical documents from 10 minutes to 3 minutes, greatly improving efficiency
+2. On the EHRM program, we were the core team behind the launch of Oracle-Health Joint Health Information Exchange (JHIE) that boosted interoperability, reaching over 90% of U.S. hospitals. By 2025, JHIE connected 100,000+ provider sites and exchanged 360M documents across 18M patient matches.
+3. At VA National AI Institute (NAII), we are advancing AI-driven innovations within the VA ecosystem. We have deployed various potential AI pilots such as Community Care Document (eFax) Ingestion to improve Veteran health outcomes to alleviate VA users workload burden.
+4. On the HDSO program, we were part of the Integrated Scheduling System (ISS) team that consolidates several scheduling applications into one location, reducing time Veterans must wait while appointments are confirmed and scheduled.
+5. On the FMBT iFAMS IVV program, we have delivered several accomplishments, notably being reducing iFAMS deployment and field risks as noted in the recent GAO-25107256 report.
+
+RESPONSES TO TOPICS AND QUESTIONS
+VA.gov has made meaningful progress over the years in unifying Veteran-facing digital services through the collective efforts of Office of Chief technology Office (OCTO) within Office of Information Technology (OIT), Veterans Health Administration (VHA), Veterans Benefits Administration (VBA) and National Cemetery Administration (NCA). However, as several persistent experience and operational challenges remain that limit scalability, transparency, and ease of use for Veterans and VA staff.
+We spoke with various Veterans and synthesized some key pain points and lessons learnt that they have experienced using VA.gov:
+1. Content creation and maintenance are slow and resource-intensive, making it difficult to keep benefit guidance current, consistent, and written in plain language across VA.gov.
+2. Change management and governance processes are lengthy, particularly for low-risk updates, placing a heavy burden on OCTO review cycles and slowing delivery.
+3. Complex and repetitive forms create friction for Veterans, especially when similar information must be entered multiple times across benefits.
+4. Fragmented chatbot and virtual assistant implementations result in inconsistent answers, duplicated maintenance efforts, and user confusion.
+5. Limited transparency after benefit or claim submission, leaving Veterans uncertain about next steps and driving avoidable customer service interactions.
+6. VBA and VHA service discovery requires understanding VA.gov website structure, making it difficult for non-tech-savvy users to find the right benefits or services.
+7. Veterans want effective self-service, but without being trapped in endless chatbot interactions or waiting to connect with the contact center human agents.
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 2
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+These challenges are not isolated technical issues; they span experience design, platform architecture, governance, and operating models.
+HIGH LEVEL MODERNIZATION IDEAS /CONCEPTS
+In shaping our modernization ideas and concepts, we draw inspiration from proven digital experience patterns used by large-scale Business to Customer (B2C) platforms such as Amazon.com, not because of its retail function, but because of its demonstrated ability to deliver trusted, intuitive, and resilient digital experiences at national and global scale. Amazon serves a broad and diverse user population that spans generations, abilities, cultures, and levels of technical proficiency. Its success lies in designing experiences that are easy to understand for both the tech and non-tech-savvy users like that of Veteran community, efficient for frequent users, low touchpoints with human agents, and reliable services under heavy demand. The patterns - simple navigation, suggested products and services based on the user profile and search/order history, clear next steps, persistent identity, transparency, and contextual assistance would come familiar to millions of Veteran users and therefore also offer a low learning curve.
+Our core principles for VA.gov modernization are rooted in:
+· Building a Veteran trust at scale, through clear communication, predictable workflows, and transparent status updates.
+· User personalization with smart searches, suggestions, enabling relevant experiences without confusing or overwhelming users.
+· Operational resilience, supporting millions of concurrent Veteran users across distributed systems.
+· Friction-reducing journeys, with minimal black-box or human agent touchpoints especially for complex, multi-step benefits transactions.
+By applying these proven patterns thoughtfully, VA.gov can evolve into a digital experience that feels familiar, intuitive, and dependable--reducing cognitive burden on Veterans and accelerating adoption--while remaining fully aligned with the realities of a regulated federal environment.
+For the purposes of this RFI response, we are not attempting to boil the ocean of modernizing the full VA.gov at once, but do it in steps while focusing on the key concepts that include:
+· Intent-based experiences, enabling Veterans to navigate services based on life events and goals rather than organizational (VHA, VBA, NCA) boundaries.
+· Transparency by default, providing clear, plain-language status updates throughout benefit and claim journeys.
+· Composable platform services, allowing shared capabilities (identity, forms, notifications, analytics) to be reused across benefit portfolios.
+· Balanced automation, prioritizing self-service while enabling seamless escalation to human support when needed.
+· Human-in-the-loop AI to accelerate content creation, change management, and form completion while preserving oversight and accountability.
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 3
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+DESCRIPTIONS OF RELEVANT IDEAS, CAPABILITIES, AND APPROACHES
+1. Account & Identity Experience (Borrow from "Your Account")
+Pattern: Treat identity as a persistent relationship, not a one-time login.
+VA.gov Feature Ideas · Unified "My VA" Account Home o A single landing page that shows: § Active benefit applications § Pending actions ("Upload income verification") § Upcoming deadlines § Recently viewed benefits o Similar to Amazon's "Your Orders" + "Your Account" · Progress Transparency o Visual progress bars for claims, appeals, and forms o Clear "what happens next" timelines o Plain-language explanations of delays · Smart Account Recovery o Multiple recovery paths (not just email) § ID.me + Login.gov fallback logic § Knowledge-based or device-based recovery o Clear "you're locked out because..." messaging
+Result: Why this matters to VA: reduces call center volume and restores user trust during high-stress interactions.
+
+2. Navigation & Discovery (Borrow from Amazon Search + Recommendations)
+
+Pattern: Users don't navigate categories, they search with intent, and adapt.
+VA.gov Feature Ideas · Intent-Aware Search o Natural language search like: § "I just left the military" § "I need help paying for school" § "I'm transitioning out" § "I'm caring for a Veteran" o Search results grouped by: § Benefits § Forms § Next steps § Human help options · "People Like You" Benefit Discovery o Based on: § Service era
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 4
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+§ Life events (discharge, marriage, disability) § Previous VA interactions o "Veterans in your situation often also apply for..." · Contextual Cross-Linking o If a user is filing a disability claim: § Surface healthcare enrollment § Surface mental health resources § Surface caregiver support automatically o "You're here because you're looking for education benefits"
+Smart Result: "Veterans who claimed this also claimed..." similar to "Customers who bought this also bought..."
+3. Forms & Transactions (Borrow from One-Click + Saved State)
+Pattern: Assume users will leave, come back, change devices, or get interrupted.
+VA.gov Feature Ideas · Save State Everywhere o Auto-save across all forms o Resume from any device o Visible "last saved" timestamp · Pre-Filled & Reused Data o Reuse verified data across benefits: § Address § Service history § Dependents o Ask once, reuse many times (with consent) · Smart Validation o Real-time error checking with plain English guidance o "You don't need to answer this because we already have it"
+Benefit to Veteran: Reduced user drop-offs and less user frustration.
+4. Status, Notifications & Automation (Borrow from Order Tracking)
+Pattern: Over-communicate status to reduce anxiety.
+VA.gov Feature Ideas · Claim Tracking That Feels Human o "Your claim is being reviewed by a VA specialist" o "Average time for this step: 14-21 days" o Clear explanation when delays occur · Event-Based Notifications o Not just "check your account"
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 5
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+o But: § "We received your document" § "We need one more thing" § "You're eligible for an additional benefit"
+· Single Notification Center o Email, SMS, in-app messages in one place o User-controlled preferences
+Amazon parallel: Order shipped  Out for delivery  Delivered; Product returned  Payment refunded;
+5. Customer Support Escalation (Borrow from "Contact Us")
+Pattern: Self-service first, human help when needed, never dead ends.
+VA.gov Feature Ideas · Guided Help Paths o "What are you trying to do?" o Dynamic troubleshooting trees o Seamless handoff to: § Chat § Secure messaging § Call scheduling · Context-Carrying Support o When a Veteran contacts VA: § Agent sees the page, form, and error encountered o No repeating the story · Call Me Back o Queue avoidance o Time-window scheduling
+Result: The best self-service experiences know when to stop being self-service.
+
+6. Personalization & Automation (Borrow from Homepage Personalization)
+Pattern: Every homepage is personalized, and smart.
+VA.gov Feature Ideas · Personalized Homepage Modules o "Recommended for you" o "Continue where you left off" o "New benefits you may qualify for" · Life Event Triggers o Discharge o Marriage
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 6
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+o Birth of a child o Job loss  Surface relevant benefits automatically · Explainable Personalization o "We're showing this because you recently..."
+Critical for Veteran trust: personalization must be transparent, optional, and auditable.
+
+DESCRIPTIONS OF RELEVANT AI-ENABLED TECHNOLOGIES
+1. AI-Assisted Content Creation (with Human-in-the-Loop)
+Pain Point: Content creation and updates for VA.gov are slow, inconsistent, and labor-intensive.
+Treat content as living, versioned, and testable, not static pages. Ideas
+· AI Content Drafting for VA.gov o AI generates first drafts of: § Benefit explanations § FAQs § Eligibility summaries o Human editors: § Review § Approve § Publish
+· Plain-Language Translation o AI rewrites policy-heavy content into: § "Explain it to me simply" § "Legal version" § "Caregiver version"
+· Content Consistency Engine o Detects: § Conflicting guidance across VHA/VBA/NCA § Outdated references to forms or processes
+2. Agentic AI for Forms (One of the Highest-Impact Ideas)
+Pain Point: Forms are repetitive, confusing, and emotionally taxing.
+Improve user friction and design for interruption, reuse, and recovery. Ideas
+· Form Co-Pilot (Not Auto-Submit) o Agentic AI: § Pulls known VA data § Asks clarifying questions conversationally § Fills draft responses o Veteran:
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 7
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+§ Reviews § Edits § Explicitly submits · Explain-As-You-Go Mode o "Why are they asking this?" o "How does this affect my benefits?" · Form Memory as shown in figure o Technology remembers: § Prior answers § Life events o Reduces repeat entry across 10-10EZ / EZR / CG and beyond
+
+3. Chatbot Consolidation (Reduce Sprawl, Increase Trust)
+
+Pain Point: Too many chatbots  confusion, overhead, inconsistent answers.
+
+VA.gov with one front door, many back-end services. One voice, many behind-the-scene processes.
+
+Ideas
+·
+· ·
+
+Single VA Virtual Assistant o One external-facing assistant o Routes internally to: § VHA logic § VBA logic § NCA logic
+Two Modes o Quick Help: factual, fast o Guided Help: slower, contextual, form-aware
+Escalation with Context o If human help is needed, the assistant passes the full conversation + page context
+
+5. Agentic AI and Automation after Submission (Fix the "Black Hole")
+
+Pain Point: Veterans don't know what happens after submission.
+
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 8
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+
+Apply Automation and Agentic AI for order tracking: fewer calls, less anxiety, more trust.
+
+Ideas
+· ·
+·
+
+"What Happens Next" Timeline o Submitted  Reviewed  Evidence Needed  Decision
+Plain-Language Status o Replace "Pending Development" with: § "We're reviewing medical evidence"
+Proactive Alerts o "No action needed right now" o "This step usually takes X days"
+
+USER JOURNEY WORKFLOWS
+A. Agentic AI-Assisted Form Completion Journey
+Workflow 1. Veteran selects "Apply for a benefit" 2. Agentic AI: o Retrieves existing VA data (with consent) o Asks clarifying questions in plain language 3. AI drafts responses across the form 4. Veteran reviews, edits, and confirms accuracy 5. Veteran explicitly submits 6. Confirmation + next steps displayed immediately
+
+Benefits to Veterans · Reduces cognitive load · Preserves Veteran control · Eliminates repetitive data entry
+B. Claim / Benefit Status Transparency Journey
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 9
+
+Department of Veterans Affairs VA.gov Replacement Model | Date: 2/5/2026 Solicitation Number: 36C10B26Q0131
+Workflow 1. Submission confirmed instantly 2. "What Happens Next" timeline appears 3. Plain-language status updates replace internal jargon 4. Proactive notifications for: o Evidence received o No-action-needed periods o Upcoming decisions 5. Clear escalation paths if delays occur
+Benefits · Reduces anxiety · Builds trust · Prevents unnecessary calls
+C. Virtual Assistant  Human Escalation Journey
+Workflow 1. Veteran asks a question via VA virtual assistant 2. Assistant provides targeted, contextual help 3. If frustration or complexity is detected: Veteran is offered human support 4. Human agent receives: o Full conversation history o Page/form context 5. Issue resolved without repetition
+Benefits · Minimizes bot fatigue · Preserves dignity · Speeds resolution
+InnoVet Health LLC | CAGE: 7ZSX4
+
+RFI Response Page 10
+
+

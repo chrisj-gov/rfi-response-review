@@ -1,0 +1,502 @@
+Replacement Model for VA.gov
+RFI Response
+DATE: February 4, 2026
+
+Company: Magnum Opus LLC d/b/a `MO' DUNS: 054807692 UEIN: E4LVKBFDBTD9 CAGE: 804Q5 EIN: 36-4842620
+
+Submitted to: Department of Veterans Affairs Allison Fulton allison.fulton@va.gov
+Evan Schlisserman evan.schlisserman@va.gov
+
+Submitted by: Magnum Opus LLC (MO) Leanna Miller, Director of Growth & Delivery, Federal Health leanna@themostudio.com (828) 551-5435
+
+MO PROPRIETARY.
+This proposal or quotation includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate this proposal or quotation. If, however, a contract is awarded to this offeror or quoter as a result of or in connection with the submission of these data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to these restrictions are contained in sheets so marked. In addition, the information contained herein may contain technical data, the export of which is restricted by the U.S. Arms Export Control Act (AECA) (Title 22, U.S.C. Sec 2751, et seq.) or the Export Administration Act of 1979, as amended (Title 50, U.S.C., App. 2401, et seq.).
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+
+Table of Contents
+
+Who We Are
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i
+
+A New, Dynamic Model for VA.gov 
+
+
+
+
+
+
+
+
+
+
+
+1
+
+Arrive & Ask for Help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+
+Authentication & Personalized Workspace
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+
+Do the Work (With Help)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+How We Make Innovation Feasible  
+
+
+
+
+
+
+
+
+
+
+
+8
+
+Tables & Figures
+
+Table 1: MO Company Information 
+
+
+
+
+
+
+
+
+
+
+
+
+
+i
+
+Table 2: Example Service Journey: Transitioning Out of the Military
+
+
+
+
+
+
+
+3
+
+Table 3: Dynamic Portal Risks and Tradeoffs 
+
+
+
+
+
+
+
+
+
+
+
+6
+
+Figure 1: Our Four VA.gov Experience Principles
+
+
+
+
+
+
+
+
+
+
+
+1
+
+Figure 2: VA.gov Replacement Model Veteran Journey Map 
+
+
+
+
+
+
+
+1
+
+Figure 3: Conceptual Example of Intent-Based Guided Entry 
+
+
+
+
+
+
+
+3
+
+Figure 4: Building Priority Notifications into the VAHB Mobile App
+
+
+
+
+
+
+
+5
+
+Figure 5: OpenForms Tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+Figure 6: Customizable Digital Experience Agent
+
+
+
+
+
+
+
+
+
+
+
+8
+
+
+
+
+
+
+
+
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal.
+
+Who We Are
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+
+Company Information Name Address
+Set Aside Vehicles
+
+Magnum Opus (MO)
+2425 E Camelback RD STE 150 Phoenix, Arizona 85016-4253, United States
+SDVOSB
+GSA Multiple Award Schedule (MAS); VA Secure, Performant, Reliable, and User-Centered Experiences (SPRUCE) IDIQ
+Table 1: MO Company Information
+
+MO is an SDVOSB digital services firm and prime SPRUCE vendor. We partner with VA on mission-critical programs like the VAHB Mobile App and the Drupal Content Management System, where we help deliver the seamless digital tools that Veterans and their families count on every day.
+
+We're platform and Veteran experience experts. Our work includes:
+
+ Leading design and delivery for the VA Health and Benefits Mobile App, serving more than 1.4 million authenticated users
+ Helping build and shape the VA.gov Platform from its earliest days, giving us a deep understanding of how it works today and where it needs to go next
+ Applying service design to modernize complex systems, including identity experiences, contact centers, and beneficiary travel pay
+
+We know the value of smart, ready-to-use commercial solutions when they make sense. That's why we've partnered with Granicus, a trusted provider of FedRAMP-authorized customer experience technology. Granicus has worked with the VA since 2015, supporting initiatives such as the Transition Assistance communications program and the Veterans Legacy Memorial website.
+
+They bring capabilities like:
+
+ Customer experience insights and journey analytics  Guided forms and workflow-based digital services  Resumable digital experiences that preserve context across sessions  AI-assisted experience agents that reduce friction and support task completion
+
+Together, we combine our deep VA institutional knowledge with flexible, cutting-edge tech. We move fast, make things simple, and build better digital experiences for Veterans.
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal.
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+A New, Dynamic Model for VA.gov
+"Agencies should move beyond static information delivery and design experiences that adapt based on where the customer is in their journey and what they are trying to accomplish."
+-- OMB Circular A-11, Section 280
+VA.gov was built for an era where the primary challenge was organizing and publishing information at scale. That work mattered, and it enabled VA to consolidate services, content, and access in ways few agencies have achieved. But the dominant experience model remains page-centric: the same navigation, the same content structure, and largely the same interface regardless of who the Veteran is or what they are trying to do.
+In 2026, it's now clear that this model has limits. As services mature, success depends less on helping people find the right page and more on helping them complete work within a system that understands context.
+We recommend an evolution from a content site to a dynamic service portal that adapts based on intent, identity, eligibility, and service state, and helps Veterans focus on what matters now rather than where to click next.
+This shift is grounded in four Experience Principles.
+Figure 1: Our Four VA.gov Experience Principles
+The journey map below outlines our end-to-end perspective on a new model for VA.gov. It shows how Veterans move from intent to completion, with guidance, authentication, personalization, and help working together as a single experience.
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+1
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+Figure 2: VA.gov Replacement Model Veteran Journey Map
+Our work on the VAHB Mobile App demonstrates how this model can be put into practice today. The app was intentionally designed to be clean, focused, and task-oriented, with clear status visibility and minimal cognitive overhead. It currently serves +1.4 million authenticated users, showing strong adoption of an identity-aware experience model. And we've already planned enhancements in personalization, status-driven engagement, and contextual guidance. Because of this, the mobile app offers VA a low-risk, high-value environment to pilot and scale the types of adaptive, service-centered experiences we recommend throughout this RFI.
+Making this future-forward shift toward outcome focus and personalization doesn't require rebuilding VA.gov from scratch. But it does require more thoughtful experience design, stronger accessibility, clearer insight into Veteran behavior, and secure use of AI-assisted technologies to reduce friction while preserving trust. That's where we can help.
+Arrive & Ask For Help
+Reimagining the Va.gov Unauthenticated Experience
+Most Veterans and beneficiaries don't come to the site to explore; they come with a purpose. To check a status, start a benefit, upload a document, or figure out what they're eligible for. And for many people, that journey starts unauthenticated.
+Right now, the unauthenticated VA.gov experience asks Veterans to do a hard translation. They have to take a real-life situation and map it onto VA's internal structure and benefit categories. That's not how people think, and it's especially tough when someone is stressed, short on time, or new to the system.
+So the first shift we're proposing is simple. VA.gov's front door should feel less like a website and more like help.
+The homepage should open with a clear, welcoming prompt such as: "How can we help?" (think ChatGPT). Veterans can type what they need in plain language, just as they would ask a trusted person. This interaction can be delivered through a chat-style interface and supported by voice or video for Veterans who prefer or need those options. When a Veteran types or speaks a request, the system uses natural language understanding to identify a small set of signals, such as:
+ the type of action they're trying to take (start something, check a status, upload information)
+ the life moment or situation being described (transitioning, managing a condition, preparing for an appointment)
+ whether the request can be handled unauthenticated or requires identity
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+2
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+
+Figure 3: Conceptual Example of Intent-Based Guided Entry
+
+Rather than returning a list of links, the experience confirms intent with one or two plain-language prompts only when needed. For example, a Veteran who says "I'm getting out of the military soon" may be asked when their separation date is, so the system can distinguish between awareness-stage guidance and actions that are available now.
+
+The example service journey below outlines this guided experience.
+
+Step
+
+Table 2: Example Service Journey: Transitioning Out of the Military
+
+What the Veteran sees
+
+What the experience does
+
+1. Intent-Based Entry
+
+A simple prompt: "How can we help?" The Veteran types: "I'm getting out of the military soon."
+
+Interprets intent and recognizes a transition life moment.
+
+2. Intent Confirmation
+
+A short follow-up question asking for separation timing.
+
+Confirms context and determines which services are relevant now versus later.
+
+3. Outcome-Based Options
+
+A focused list of next steps with status and effort indicators, for example: · Enroll in VA health care (Not started, ~10 minutes) · Start a pre-separation disability claim (Not started, ~30-45 minutes) · Gather service records (In progress, can return later)
+
+Organizes options around outcomes and timing.
+
+4. Direct Service Routing
+
+Clear guidance on what will happen next and how long it typically takes. Progress is visible at all times.
+
+Routes the Veteran directly into the correct authenticated service flow at the right starting point.
+
+5. Ongoing Status and Recovery
+
+Status, next steps, and saved progress are visible when the Veteran returns.
+
+Preserves context so work can be resumed without starting over.
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+3
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+VA has already shown that experience-layer approaches grounded in intent and timing can improve Veteran outcomes. The opportunity now is to apply those proven patterns using scalable, production-ready tools. Over the past decade, our teammate Granicus partnered with the Veterans Experience Office to design and operate shared experience and analytics layers that coordinated guidance across VA administrations. This work helped VA better understand Veteran intent, personalize communications, and deliver guidance at the right moment across complex, multi-step journeys spanning VBA, VHA, and NCA.
+By monitoring where Veterans paused, disengaged, or needed additional support, Granicus helped reduce fragmented outreach, improve task completion, and contributed to increases in Veteran trust from approximately 55 percent in 2016 to more than 80 percent by 2024. Rather than changing underlying systems, this approach focused on an experience layer that responded to real service signals and preserved context across interactions.
+The same principles apply directly to reimagining the unauthenticated VA.gov experience. Granicus' AI-supported experience layer and digital agent tools can help in powering an intent-based homepage and search experience that listens to how Veterans describe their needs in plain language, confirms intent with minimal prompts, and routes them to the appropriate next step. At the same time, built-in analytics monitor timing, hesitation, and drop-off to continuously refine routing and guidance. Together, these capabilities allow VA to move from static navigation to a more adaptive, intent- and timing-aware entry experience without changing systems of record.
+Authentication & Personalized Workspace
+Evolving MyVA into a Dynamic Hub that Remembers Progress
+In a guided entry experience, authentication happens right at the moment it becomes necessary and useful. Veterans should be able to arrive at VA.gov, understand their options, and decide what they want to do before being asked to sign in. Authentication is then only required when a Veteran chooses to take an action that involves personal information or ongoing work, such as checking a status, starting or resuming a claim, uploading documents, or managing appointments. At that point, signing in is a clear and purposeful step forward, not a barrier.
+That handoff leads into MyVA, which is where personalized work happens. Today's MyVA dashboard consolidates access to claims, health care, and benefits, and provides an important starting point for authenticated experiences.
+However, MyVA largely behaves as a static summary of services; the experience looks the same regardless of urgency, progress, or where a Veteran is on a specific journey. As a result, Veterans are often left to decide for themselves what matters most and what to do next.
+We see an opportunity to evolve MyVA into a more dynamic, personalized workspace that reflects what's happening now and actively guides Veterans forward. The improvements
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+4
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+outlined below build on what already works and can be enhanced through a data-driven, customizable experience layer, like:
+
+Figure 4: Features of a Personalized Authenticated Experience
+Task Prioritization We recommend moving from a fixed, section-based layout to attention-based prioritization. Today, claims, health care, and application sections appear in the same order for every Veteran. In a more responsive model, the portal adjusts its emphasis based on urgency, progress, and time sensitivity.
+If a Veteran has an evidence request due soon, claims move to the top and an "Action needed" signal is clear and unmistakable. If there are no open claims but an upcoming appointment, health care becomes the primary focus. When nothing is active, the experience shifts into a lighter mode that surfaces recommendations or next opportunities. Granicus' experience layer uses real-time signals and engagement analytics to help determine which tasks and statuses should be surfaced first, without requiring changes to underlying VA systems.
+This way of thinking is already being tested in the VA Health and Benefits Mobile App. While the app isn't yet fully personalized across all services, it is intentionally designed to surface time-sensitive, high-value tasks rather than present all options equally.
+A clear example is beneficiary travel pay. We introduced targeted notifications that prompt Veterans to file travel reimbursement shortly after eligible appointments. By aligning the task with the right moment, feature usage increased materially, and the mobile app has overtaken web as the primary channel for travel reimbursement.
+Resumable Experience Many VA services unfold over time and across multiple visits. When progress is easy to lose, Veterans are more likely to abandon or delay completion. In an evolved portal, resumable experiences are first-class. In-progress claims, partially completed forms, and outstanding document requests are surfaced clearly and consistently. Veterans see prompts like "Continue your disability claim (Step 3 of 5)" or "Finish uploading documents" and can pick up
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+5
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+exactly where they left off. This continuity reduces frustration and reinforces trust that progress won't be lost when life intervenes.
+
+Action-Based Language Another meaningful shift is moving away from generic "View details" links toward clear, contextual actions. Instead of sending Veterans deeper into additional pages, the portal should answer a more practical question: what should I do next?
+
+For a claim, that may be "Upload requested evidence" or "See what VA needs from you." For an appointment, it may be "Prepare for your appointment" or "Complete your pre-visit checklist." Secondary navigation still exists, but the experience leads with the action most likely to move the Veteran forward.
+
+Support Clarity with Simple Signals Several smaller but impactful enhancements support these core shifts and can be introduced incrementally:
+
+ Plain-language interpretation of status, translating system terms into clear explanations of what is happening and whether action is required.
+ Time awareness, such as showing deadlines, upcoming appointments, or explicitly stating when no action is needed.
+ Identity-based relevance, where prompts vary based on known factors like recent separation, dependent status, or benefit usage.
+
+Taken as a whole, this evolution does not replace MyVA. It builds on what already works and pushes it toward a more responsive, supportive model that reflects how Veterans actually interact with VA.gov over time.
+
+Risks and Tradeoffs As VA.gov becomes more responsive and outcome-driven, certain experience and delivery tradeoffs become more visible. Addressing these considerations early helps ensure progress without disruption to mission-critical services.
+
+Table 3: Dynamic Portal Risks and Tradeoffs Dynamic Service Portal Risks and Tradeoffs
+
+Data consistency across VA systems
+
+A more responsive portal relies on timely and accurate information from many different systems. This can be managed by presenting clear, plain-language status, handling missing or delayed data gracefully, and avoiding experiences that break when information is incomplete.
+
+Personalization vs. predictability
+
+Reordering content and highlighting urgent actions helps Veterans focus, but too much change can feel confusing. Keeping familiar page structures, clearly explaining why something is highlighted, and allowing Veterans to explore freely helps maintain confidence.
+
+Maintaining trust and privacy
+
+Personalization must feel helpful, not invasive. Limiting personalization to known service information, avoiding behavioral profiling, and keeping recommendations easy to understand helps reinforce trust.
+
+Accessibility and compliance
+
+Dynamic experiences can introduce new accessibility challenges if not designed carefully. Using tested, reusable patterns and validating changes early with assistive technologies helps ensure the experience works for all Veterans.
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+6
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+Do the Work (With Help)
+Implementing Guided Workflows and Digital Assistance
+If outcome-based entry helps Veterans get pointed in the right direction, and the authenticated portal gives them a place to manage their work, guided workflows and digital assistance are what help them actually get things done.
+This is the layer where complexity either gets absorbed by the system or pushed onto the Veteran. Designing this part of the experience well makes the difference between work that feels manageable and work that feels overwhelming.
+Guided and Multi-Use Forms Guided workflows address this by breaking complex services into clear, manageable steps. Requirements are introduced only when they're relevant, instructions are written in plain language, and Veterans can always see where they are in the process and what comes next. Progress is saved automatically so work can pause and resume over time, rather than forcing everything to be completed in one sitting.
+Granicus' OpenForms tool provides a practical, plug-and-play way to implement guided workflows for complex services without rebuilding underlying VA systems. Rather than delivering a single, static form or PDF, OpenForms supports step-based, dynamic forms that adapt as Veterans move through them.
+In practice, a guided form built with OpenForms might begin by confirming what the Veteran is trying to accomplish, then ask only the questions that apply to their situation. We then use conditional logic to skip irrelevant sections and surface requirements at the right moment. When supporting documents are needed, the form explains what is required, why it matters, and allows uploads inline rather than at the end. Validation happens as Veterans go, reducing errors before submission.
+Crucially, progress saves automatically. Veterans can step away to gather information or documents and return days or weeks later to find their place clearly marked, along with what remains to be completed. OpenForms operates as an experience layer, collecting and validating information before handing it off to existing systems of record. This allows guided workflows to be introduced incrementally, starting with high-impact services, without disrupting current processing models.
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+7
+
+AI-Assisted Experience Agents Guided workflows handle structure, but questions still arise. Digital assistance is most effective when it supports Veterans inside the work they're already doing. On VA.gov, this kind of assistance could appear while a Veteran is filling out a claim, uploading evidence, preparing for an appointment, or responding to a request for information. Instead of leaving the task to search help content or call a support line, Veterans can get immediate clarification in context: what a question is asking, why a document is needed, or what happens after submission.
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+
+A practical example of this approach comes from the local government of Kansas City, which faced more than 300,000 service-related inquiries each year. Many of those questions were routine and task-specific, such as how to complete common forms or what requirements applied, but they were spread across departments and often handled inconsistently.
+
+Rather than adding another help channel, the Granicus team helped the city implement a customizable, plug-and-play AI-assisted experience agent designed to work alongside service workflows. The agent answered common questions, explained requirements in plain language, and guided people to the correct next step while they were actively trying to complete a task.
+
+Several lessons from this implementation are directly relevant to VA.gov:
+
+ Context matters. The agent was most effective when tied to specific services and workflows, such as forms or status checks, rather than attempting to answer everything.
+ Curation builds trust. Responses were drawn from approved, tested content, ensuring accuracy and consistency across departments.
+ Governance is essential. IT, communications, service owners, and leadership all played a role in defining how the agent behaved and what it could answer.
+ Assistance should reduce friction, not replace people. Routine questions were handled by the agent, freeing staff to focus on complex, sensitive, or high-touch cases.
+
+How We Make Innovation Feasible
+
+We recommend evolving Va.gov through targeted pilots rather than broad, one-time transformations. This approach allows VA to test meaningful improvements, learn quickly, and scale what works without disrupting mission-critical services.
+The VA Health and Benefits Mobile App is an ideal place to start. It already serves more than 1.4 million authenticated Veterans, supports high-intent use cases, and is designed for
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+8
+
+Magnum Opus LLC DBA MO Replacement Model for VA.gov RFI Response
+February 4, 2026
+focused, task-oriented interactions. Because the app experience is naturally more constrained than the full website, it provides a safe and effective environment to pilot guided entry, prioritization, resumability, and contextual help before extending those patterns more broadly across VA.gov. As a VA-partnered SPRUCE vendor, we can also support this work through rapid discovery, prototyping, and pilot task orders. This enables VA to move quickly while staying within established procurement and delivery practices.
+Recommended First Pilots We recommend starting with a small set of focused pilots that align directly to the experience shifts outlined in this paper:
+ Resumable experiences. Introduce a clear "Continue where you left off" or "Last thing you were working on" entry point in the mobile app, allowing Veterans to immediately resume in-progress claims, forms, or tasks without reorienting.
+ Dynamic prioritization. Pilot an attention-based home experience in the app where the most urgent or time-sensitive task appears first, such as an evidence request or upcoming appointment, rather than a fixed navigation order.
+ Plain-language status interpretation. Replace system-driven status labels with short, human explanations that clearly answer: Is anything needed from me right now? and What happens next?
+ Contextual help at the moment of need. Embed lightweight assistance directly into tasks, such as explaining what a request means, why information is required, or what counts as acceptable documentation.
+How We Implement Pilots These pilots can be implemented within VA's existing platforms and delivery model. Lessons learned in the mobile app can then be applied to VA.gov, reducing risk and accelerating adoption by building on proven patterns rather than assumptions. We support VA by:
+ defining clear scope and success criteria for each pilot  designing accessible, plain-language experiences aligned with VA standards  integrating commercial tools where appropriate  instrumenting the experience to capture meaningful outcome data  iterating based on real usage and Veteran feedback
+Measuring Success Each pilot is measured against a small set of outcome-focused metrics defined upfront. These typically include completion rates, time to completion, drop-off at key steps, recovery success, and reductions in misroutes or "help needed" events. Equally important is qualitative insight. Observing where Veterans hesitate, abandon, or seek help provides signal about what is working and what needs refinement.
+Over time, this approach creates a practical modernization path. VA evolves VA.gov in place, expands what demonstrably improves Veteran outcomes, and avoids large, irreversible changes. The result is a service experience that gets better steadily, guided by evidence and grounded in how VA already operates.
+
+Use or disclosure of information contained on this sheet is subject to the restrictions on the title page of this proposal. 
+
+9
+
+

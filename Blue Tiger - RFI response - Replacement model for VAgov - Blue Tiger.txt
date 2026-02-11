@@ -1,0 +1,215 @@
+RFI response: Replacement model for VA.gov
+Blue Tiger is a team of design, engineering, data, and product experts dedicated to building simple, reliable, and scalable public services. We partner with government agencies to deliver great software, applying human-centered design and software development best practices in complex, regulated environments, including Veterans Affairs, Office of Personnel Management, Centers for Medicare and Medicaid Services, and Internal Revenue Service. We're a member of the Digital Services Coalition.
+
+Executive summary
+
+VA.gov modernization requires technical platform capabilities, user-centered design, and organizational transformation. As Veterans increasingly expect conversational, intent-driven interfaces, VA.gov should transform from a portal destination into a platform where Veterans can access the same information and services through web browsing, chat interfaces, and AI assistants. Success will require designing for how Veterans use services: distinguishing between complex life events and routine tasks.
+Blue Tiger has direct experience transforming VA digital services at scale. We migrated Veterans to modern credentials while maintaining service continuity, and replatformed Ask VA while coordinating across VHA, VBA, and NCA. Through our work, we've learned that delivering personalized, proactive experiences depends on both architectural changes enabling new interactions and service transformation addressing underlying process complexity. VA.gov modernization will succeed or fail based on whether processes, policies, and organizational structures evolve alongside technology.
+
+Supporting multiple entry points
+The traditional VA.gov front-door (or portal) model assumes users will come to a single destination, navigate menus, and find what they need. However, Generative Pre-trained Transformers (GPTs) and their predominantly chat-based interfaces are changing how we query for information online. User behavior is shifting towards conversational, intent-driven interfaces. Veterans will increasingly expect to describe their needs rather than navigate to the information they need. They'll expect their conversations to continue across multiple sessions and for the interface to remember previous interactions.
+
+Search
+"PACT Act burn pit eligibility."
+
+Navigation
+VA.gov home > Disability benefits > Eligibility > Exposure to hazardous materials > Exposure to burn pits and other specific environmental hazards
+
+Prompt
+"I served in Afghanistan from 2008 to 2010 and was near burn pits at Bagram. I now have asthma. Under the PACT ACT, am I presumptively eligible, or do I still need to prove a connection?"
+
+Table 1: An intent-based prompt provides more context, allowing GPTs to provide a more tailored response. Both search and navigation will provide more generic answers.
+Facilitating AI and conversational interfaces
+Portal-first design optimizes for browsing. And portal navigation forces Veterans to become experts in VA's organization structure to find answers. In addition, VA.gov currently serves as both: (i) a content repository (e.g., benefits information, eligibility rules) and (ii) a transaction platform (e.g., appointment scheduling, secure messaging). Alternating between modes makes navigation difficult for Veterans.
+
+1
+
+Designing for AI changes how we think about VA.gov. In this case, VA.gov transforms from a final destination to a data and services platform that can be accessed through multiple interfaces, such as traditional web browsing, VA's own conversation interface, and third-party AI assistants (e.g., Claude) We need to design for a new mode of operation:
+Figure 1: A workflow describing how AI interprets user intent, uses structured data, and executes transactions.
+Re-architecting VA.gov to fundamentally be a data and services platform
+For AI systems to accurately and reliably answer questions, VA needs to expose its knowledge and data as structured, queryable data. This requires a layered architecture with well-defined contracts between layers, enabling scalability, adaptability, and resilience.
+Figure 2: A conceptual three-layer architecture for VA.gov. Structured knowledge graph of content: This means every page is tagged with semantic metadata (e.g., benefit type, audience, action type). The relationships between content are explicitly mapped (this form relates to this benefit, which requires this eligibility). Layer 1 would also expose a benefits eligibility engine with the formal rules for each benefit program. This allows AI systems to reason about eligibility rather than pattern-match against page text. MPC server architecture: provides access to other VA systems, including legacy ones, and exposes data about Veterans. The Model Context Protocol provides a standardized way for AI systems to access VA data and services. There would likely need to be three kinds of MCP servers:
+2
+
+ Read-only MCP servers (public): Provide benefits information, eligibility rules, facility locations, etc. Anything that does not require the Veteran to be identified.
+ Authenticated MCP servers (identity-verified): Claims status queries, appointment availability, secure message retrieval, etc.
+ Action MCP servers (identify-verified, authorized transactions): Appointment scheduling, form pre-fill and submission, etc.
+The key here is that MCP servers should expose capabilities, not just data. As has already been successfully done at VA, MCP servers and other similar APIs can provide modern interfaces to valuable data in legacy VA systems like VistA. This will take a coordinated effort between VHA, VBA, and OCTO.
+Crawl-optimized web layer: This helps AI systems that learn from web crawling during training rather than real-time queries. This structured markup also improves accessibility: proper semantic HTML, ARIA labels, and heading hierarchies benefit both AI systems and Veterans using assistive technology.
+This would include:
+ Structured markup. This includes comprehensive schema.org markup on all pages, clear canonical URLs, and content versioning.
+ AI-friendly content patterns. This includes examples and scenarios that illustrate edge cases, explicit statements of what VA cannot do (this helps reduce hallucinations), and eligibility information in consistent, parseable formats.
+ Robots.txt and crawl guidance. This includes: clear signals about which content is authoritative and structured sitemaps organized by topic and recency.
+Adopting an AI-first architecture
+The traditional web interface becomes one of several access modes rather than the primary destination.
+Content strategy shifts fundamentally. The VA would focus on creating structured knowledge that serves multiple interfaces, with human-readable web pages generated from underlying data rather than the other way around.
+Navigation becomes secondary. When users describe their intent directly, information architecture and navigation matter less. It's more important that data is accurate and complete, capability boundaries are clear, and the system hands off smoothly when AI can't help.
+Designs must account for handoffs. Many interactions will start in an AI interface and complete on more traditional pages (especially initially). This means enabling deep links to specific forms and carrying context over so Veterans don't repeat themselves.
+Governance must span multiple channels. When content changes, updates must propagate across the structured knowledge base, traditional web pages, and AI training data. This requires new workflows in content governance.
+Personalized and predictive: Moving beyond self-service
+VA.gov primarily operates as a self-service portal where Veterans must know what they need, navigate to find it, and complete tasks independently. All tasks are treated equally, requiring the same level of authentication, similar complexity, and minimal recognition of the differences between a first-time user filing a disability claim and a returning user checking claim status for the 3rd time.
+3
+
+A modernized VA.gov should do more than rely on Veterans alone. With smarter data sharing, personalization, AI-powered recommendations, and risk-based authentication, the platform can proactively guide Veterans to benefits they're eligible for, surface routine tasks before Veterans need to search, and adapt to whether someone is navigating an unfamiliar process or completing a routine task.
+
+Proactive recommendations
+VA.gov should use what it already knows to surface potentially relevant opportunities. Many Veterans don't know which benefits they qualify for or where to start, requiring research and self-assessments across dozens of programs.Service dates, disability ratings, education history, and current benefits can inform recommendations, like "Based on your service-connected disability rating, you may be eligible for vocational rehabilitation."
+This transforms the experience from Veterans relying on themselves to VA staying one step ahead. These features can be made accessible by default, by including screen reader announcements for new recommendations, enabling keyboard navigation for suggested actions, and writing in plain language.
+Proactive nudges are especially valuable during life events or moments when Veterans navigate unfamiliar, complex territory for the first time. For example, AI-powered eligibility screening recommending which benefits you're eligible for, smart defaults guiding decisions ("Most Veterans in your situation choose..."), and contextual recommendations surfacing next steps ("You've enrolled in healthcare. Would you like to schedule your first appointment?").
+Where proactive recommendations help Veterans discover what they're eligible for and guide first-time experiences, routine recurring tasks should be quick and efficient.
+
+Designing for life events vs. routine tasks
+VA.gov currently optimizes for life events, or complex, one-off processes such as filing a disability claim or enrolling in healthcare. These journeys rightly require step-by-step guidance, plain language explanations, progress indicators, the ability to save and return, and clear expectations that help Veterans tolerate and anticipate complexity. Accessibility is particularly critical for life events, where Veterans may be using assistive technology on top of complex processes.
+Recurring tasks, like refilling a prescription, checking claim status, and asking a question through Ask VA, require a different strategy. The second time a Veteran uses Ask VA should be faster than the first time, and not simply because they're familiar with the tool. The fifth time they check a claim status should take seconds. Veterans shouldn't have to repeat the same multi-step navigation and context-heavy guidance required when they first filed. Once a Veteran has submitted an application, every subsequent interaction with that process should require less effort. These workflows should be fast, efficient, and optimized for repeat users with minimal clicks.
+
+Examples of life events
+Apply for VA health care File a VA disability claim Apply for the GI Bill Get life insurance benefits
+
+Examples of routine tasks
+Refill a prescription Check claim, decision review, or appeal status Manage health care with My HealtheVet Get travel pay reimbursement
+
+4
+
+There's also a transition period, even for routine tasks. The first time you check claim status, you'll need more guidance, an in-depth explanation of what each status means, and what to expect next. By the fifth check, you just need the answer: "Still in review, day 45 of approximately 90." Similarly, the first time a Veteran uses prescription refill, they need to understand how the process works, what information they'll need, and when to expect their medication. Every subsequent refill should remember preferences, pre-fill known information, and get straight to the action with minimal friction. Authenticated homepages should support routine tasks by surfacing proactive notifications. Veterans shouldn't need to remember to check or wade through menus to find features they use frequently. The platform should surface these tasks, making the most common actions immediately accessible. Even as conversational AI interfaces reduce the need for traditional navigation, authenticated dashboards remain critical for surfacing personalized action items, status updates, and routine tasks that Veterans return to repeatedly. The platform should learn from Veteran behavior.
+ Veteran checks claim status weekly  Surface it prominently on their dashboard  Veteran refills the same three prescriptions monthly  Offer one-click batch refill  User only uses Ask VA for education benefits  Pre-select their category Their experience should speed up and become more personalized, reducing cognitive load and effort for tasks that Veterans do repeatedly.
+Better off-ramps and handoffs between services
+"Seamless" experiences require thoughtfully designed off-ramps and handoffs between services. When a Veteran's claim is denied, their next step (how to appeal, how to get help, how to understand the decision) should be surfaced automatically. After submitting a disability claim, VA.gov should describe what to do while waiting, when to expect updates, and what related services might be relevant. Designing better handoffs requires clear next steps, information carried forward between services, and contextual recommendations based on where Veterans are in their journey.
+Figure 3: Healthcare enrollment journey map distinguishing life events, routine tasks, transitions, and off-ramps.
+5
+
+Only ask once
+Transitions between services are easier when we use what we already know. User research across products and teams shows a common Veteran complaint: the need to re-enter information you have already shared with VA. While a centralized VA profile currently allows details like date of birth, service history, and contact information to be pre-filled, there are greater opportunities to reduce burden:
+ Data flows across portfolios. Disability rating verified for one benefit should be automatically available for others.
+ Documents are reusable. Veterans should provide a document once.  AI-powered document extraction. Reduce manual entry by reading uploaded files and
+pre-filling forms. With any data sharing across VA, Veterans must be aware of what data is being used, have control over sharing, and can verify its accuracy.
+Risk-based authentication
+Security should also acknowledge the difference between various tasks and journeys by matching the sensitivity of the action. Risk-based authentication adjusts verification to actual risk, minimizing friction for routine tasks while applying stronger checks for sensitive actions. This approach aligns with our recent response on Next-Generation Digital Identity (Notice ID: 365357), where we detailed implementation alongside passkeys and multiple identity proofing pathways. With a risk-based approach, the system evaluates two factors:
+1. Action: What the Veteran is trying to do 2. Context: The situation in which they're doing it Actions paired with context, such as device familiarity, location, timing, and behavioral patterns, allow the system to make informed decisions about authentication needs. Routine tasks like checking claim status or viewing appointment details proceed with minimal authentication on trusted devices. Sensitive actions like changing direct deposit or updating dependent information trigger step-up verification. This approach adapts to context, accounting for Veteran-specific patterns like overseas access, rural internet, device sharing, and housing status. Maintaining trust while protecting security happens through clear and consistent messaging. Veterans should understand why extra verification is required and feel guided through the process.
+Help and support are integrated at different stages
+Veterans need the right kind of help at the right moment. Contextual support should be woven into journeys in a way that matches the complexity of Veteran's questions and needs. VA.gov currently offers checklists of required information and time estimates, sets expectations, provides inline help text, examples, and "Why we're asking this" explanations. However, there are opportunities to provide additional personalized and integrated support when it's needed:
+6
+
+ Real-time help while making difficult choices. AI surfaces recommendations based on specific situations, for example, "Based on your service dates and disability rating, most Veterans in your situation choose this option".
+ Instant answers for straightforward inquiries. AI chatbots provide instant answers (facility hours, eligibility requirements, how to check claim status).
+ In context help when dealing with high-friction workflows. Chat support is embedded exactly where needed (identity verification, complex eligibility questions).
+With intelligent triage, AI handles straightforward questions while handing off seamlessly when Veterans need human expertise. These features must work seamlessly with assistive technology and not create barriers to human support. Multi-channel coordination ensures that when human help is needed, it's available and efficient.
+Service transformation: Cutting complexity at the root
+Replacing VA.gov is not simply a platform modernization effort and a service transformation. OCTO already leads meaningful work to improve forms, content, and accessibility, ensuring disability claim applications are mobile-friendly, progress is clear to the Veteran, and processes are explained in plain language. This work matters and should continue.
+But service transformation goes deeper, to address why processes are complex in the first place. It means recognizing that you can't fully solve user experience problems on the frontend when the underlying business processes, policies, and organizational structures create inherent complexity.
+Process complexity at the foundation of user experiences
+True service transformation will require OCTO to work even more closely with teams and policy offices across Veterans Health Administration (VHA), Veterans Benefits Administration (VBA), and National Cemetery Administration (NCA) to address complexity where it originates: in the processes, requirements, and handoffs that create friction.
+VA.gov often asks Veterans to re-enter information across different forms and systems. From a purely digital perspective, the fix seems straightforward: build a centralized profile, pre-fill forms, share data across systems. But the underlying complexity involves data ownership across portfolios, legal authorities for sharing information, system integration challenges, and questions about data accuracy and Veteran consent.
+Addressing this complexity requires more than technical solutions. It requires policy alignment on data sharing, governance decisions about who owns which data, agreements between portfolios on data standards, and potentially legislative changes to enable information exchange. And informed consent from the Veteran is key. Digital teams can build the infrastructure, but business and policy must enable it.
+Another example of policy underlying a user experience is filing a disability claim. While teams make forms on VA.gov clearer, providing better progress tracking, and explaining next steps, the underlying process still requires Veterans to submit evidence, wait for VA to request more evidence, submit additional documentation, and wait again. This complexity can't be designed away on the frontend.
+Service transformation asks questions like: Why do so many claims require additional evidence after submission? It acknowledges that there are interventions we can make at different stages:
+7
+
+ Providing better guidance up front about what's needed  Integrating with data systems so we can pull records directly  Using automation to pre-screen applications before they're submitted  Examining policy questions about which information is required in the first place and why
+These questions require collaboration between digital teams, VBA policy experts, claims processors, and medical record system teams. OCTO can facilitate this work, design better processes, and build enabling technology, but can't solve these problems alone.
+The role of legacy systems
+Interactions with legacy systems create significant constraints on user experiences. When VA.gov acts as a modern frontend to decades-old backend systems, what Veterans can do and how quickly they can do it is fundamentally limited by legacy architecture.
+A Veteran checking claim status faces a delay, not because VA.gov is slow, but because the backend system updates overnight in batch processes rather than in real-time. A Veteran uploading evidence may wait days for it to appear in their record because integration between VA.gov and the claims processing system involves manual steps or scheduled data transfers.
+Modernizing these user experiences requires replacing legacy systems or building abstraction layers that make them behave like modern services. Both paths require sustained investment, technical expertise, and coordination with the business owners of those legacy systems.
+The platform is necessary for transformation, but not sufficient. AI-powered recommendations, proactive guidance, and personalized experiences require both technical capability and business process changes. Building the architecture for conversational AI interfaces won't help Veterans if the underlying eligibility rules are overly complex or the processes require unnecessary steps.
+Limitations and tradeoffs
+We discuss the limitations and trade-offs of our approach.
+Human judgement. Complex, emotionally charged situations such as appeals or denials need human judgment. Systems will need to be designed with humans in the loop (both as a matter of course and as graceful degradation) to evaluate complex situations.
+AI systems can be confidently wrong. This can happen in ways that harm Veterans. This requires continuous monitoring and evaluation of the systems for accuracy, reliability, and care.
+Technology evolves quickly. All technology, especially recent AI technologies are evolving rapidly. Ensuring investment in fundamentals (easily accessible data, semantic markup, version-controlled content, etc.) with loosely coupled components allows for iteration.
+Access to data is a technical and cultural problem. Large amounts of useful data are locked in legacy VA systems without machine-readable access. This data is necessary for personalized and predictive experiences. This is tedious work, but it will need to change over time.
+Accessibility challenges. Conversational interfaces must be carefully designed to support screen readers and cognitive accessibility.
+8
+
+Contracts are narrowly scoped to VA.gov deliverables. If work is limited to OCTO's direct authority, it becomes necessary to address cross-cutting challenges that require coordination across multiple VA organizations and policy domains.
+Successful modernization at scale
+Large-scale government digital transformations frequently fail--not from technical limitations, but from organizational and executive challenges. Here are some common pitfalls: "Big bang" replacement strategies. Attempting to replace everything at once creates unmanageable risk, requires perfect coordination across dozens of teams, and misses the opportunity to learn and adapt. Treating it as solely a technology project. Building new platforms without addressing underlying process complexity, policy constraints, or organizational silos results in a modern frontend with extensive limitations and broken processes. Losing Veteran trust through poor change management. Veterans are no strangers to change. Forcing change without adequate support, poor communication about what's changing and why, or breaking familiar workflows without clear improvements, breaks trust. Replacing VA.gov with a new model will require an incremental, phased approach that is well sequenced, piloted, and focused on outcomes for Veterans. Modernizing in phases means starting with high-value, lower-risk changes that deliver immediate benefits while building toward a larger vision.
+Figure 4: A blueprint for incremental delivery and the supporting components and processes required. 9
+
+How to get started
+VA can run pilots to test ideas and concepts quickly. We'll provide two examples of potential pilots.
+Pilot 1: An Authenticated Education Benefits AI Navigator The existing VA chatbot is unauthenticated and can't access personal data. This pilot would build on the modernized GI Bill infrastructure to create a conversational interface that can answer personalized questions like "How much entitlement do I have left?" or "Based on my service dates, which GI Bill chapter applies to me?" This allows us to test an authenticated MCP server architecture in a lower-risk benefit portfolio before expanding to health or disability. It also allows us to research and test a more sophisticated chat interface with Veterans. Success criteria: Query resolution rate without human escalation; time to accurate answer compared to current channels; Veteran satisfaction scores; error rate tracking for incorrect information.
+Pilot 2: Adaptive Claim Status for Repeat Users Claim status provides the same experience regardless of whether it's your first check or your 50th. This pilot would recognize repeat users, surface the essential information immediately (status, days elapsed, next expected milestone), and offer proactive notifications when status changes - so Veterans don't need to keep checking manually. This allows us to test the `routine tasks vs. life events" design principle on a high-volume, high-frustration touchpoint. Success criteria: Time-on-task for repeat users; reduction in call center volume for status inquiries; Veteran satisfaction scores; notification opt-in and engagement rates.
+Piloting new capabilities before scaling allows VA to learn what works with Veterans in real situations before committing. Limiting scope and defining success criteria, like performance metrics, accessibility compliance, Veteran satisfaction, and technical stability, helps VA determine when to scale. Successful pilots include plans for system retirement. When a new experience is ready to scale, there must be clear strategies for sunsetting in order to avoid confusion and technical debt that comes from parallel systems. During a phased approach to replacing VA.gov, the focus remains on outcomes for Veterans. Measuring success means tracking whether Veterans are actually better off. The goal must move beyond the number of forms submitted and towards metrics, like time from eligibility to benefit receipt. These become north stars, driving decisions about what to build next and how it will serve the Veteran population.
+10
+
+Appendix A - Company information
+
+Company Name Email Phone Number Location POC First Name POC Last Name Website GSA Contract Number UEI #: Unique Entity Identifier CAGE Code
+
+Blue Tiger, LLC admin@bluetiger.digital 202-430-6465 2326 Harcroft Rd, Timonium, MD 21093 Shashank Khandelwal https://bluetiger.digital/ 47QTCA23D00DT NJ1THZKRGS77 9A9S3
+
+Appendix B - Past performance
+
+Project 1: VA AI Assist
+
+Government Agency Prime Contractor Customer/Client POC Email Total Contract Value Period of Performance
+
+U.S. Department of Veterans Affairs Coforma Kaeli Yuen, kaeli.yuen2@va.gov $238,000 February 3, 2025, to September 29, 2025
+
+We helped VA explore how generative AI could support clinical staff efficiency. Through comprehensive product management, we transformed an undefined concept into a working MVP, pioneering VA's first integration of Large Language Models (LLMs) with their Electronic Health Record (EHR) system.
+
+The challenge
+VA physicians, nurses, and clinical staff spend significant time reviewing patient records before appointments, including lab results, patient notes, military history, and other information scattered across the VA's EHR. VA wanted to use AI to improve efficiency and reduce burnout, but faced barriers:
+ No precedent for successfully integrating LLM technology with EHR systems  Physicians using LLMs must constantly switch systems and copy-paste data  Complex technical architecture and approval processes for VistA EHR access  Undefined product concept needing strategic direction
+
+Our approach
+Prototyping and product strategy. Developed a working prototype with mock patient data using Replit connected to the OpenAI API. Facilitated strategic pivot from general-purpose tool to clinician-focused application. Led discovery sessions to identify meaningful AI applications for clinical staff.
+
+11
+
+Product management and planning. Created a comprehensive product strategy, including a requirements document (PRD) covering problem statement, solution narrative, target audience, success metrics, timelines, and risks. Built a strategic roadmap from discovery through MVP deployment. Managed agile development, coordinating across development, design, user research, and data science.
+Technical integration and innovation. Guided development of VA's first Model Context Protocol (MCP) server. Created documentation explaining new technology to VA stakeholders. Pioneered LLM integration with patient notes and medical records.
+Results and impact
+In 4 months, we successfully delivered an MVP in a staging environment, establishing a foundation for AI-enabled clinical tools at VA.
+ Transformed an undefined concept into a clear product strategy addressing real clinical needs  Built VA's first Model Context Protocol server connecting to VistA EHR, enabling secure LLM
+access to patient notes and medical records  Delivered MVP demonstrating the feasibility of LLM-assisted patient record summarization  Created reusable infrastructure supporting future AI applications at VA  Established product roadmap and agile processes for continued development
+
+Project 2: Ask VA
+
+Government Agency Prime Contractor Customer/Client POC Email Total Contract Value Period of Performance
+
+U.S. Department of Veterans Affairs Oddball Becky Phung, becky.phung@va.gov $591,456.00 May 30, 2023 to May 29, 2025
+
+We redesigned how Veterans ask questions about VA benefits and healthcare, simplifying the submission experience through user research and stakeholder collaboration. We ensured accessibility for assistive technology users and established VA.gov consistency.
+
+The challenge
+In 2024, Veterans submitted 500,000 questions to VA through Ask VA. Getting answers to questions is critical for Veterans to access their benefits and healthcare. However, Ask VA was originally built as a standalone Microsoft portal with significant usability and accessibility issues, like:
+ Not mobile-friendly  Failed Section 508 accessibility standards  Burdensome contact form with up to 42 fields  Complex navigation and routing logic  Involves over 50 stakeholders across 18 different business lines
+
+Our approach
+User research and stakeholder engagement. Conducted user research with Veterans, including those using assistive technology. Led workshops with 50+ specialists across 18 VA business lines. Understood organizational constraints and needs.
+
+12
+
+Human-centered, accessible design. Reduced the 42-field form by identifying the minimum necessary data. Applied plain language principles to rewrite form labels and content. Created high-fidelity prototypes using VA.gov design system components.
+Technical integration. Created integration diagrams showing frontend to Customer Relationship Management (CRM) data flows. Minimized impact on existing agent workflows and compatibility with existing systems.
+Results and impact
+In 2025, Ask VA launched on VA.gov, with significant improvements to the user experience, security, reliability, and accessibility.
+ Designed for mobile and meeting VA.gov design standards  Accessible to Veterans who use assistive technology  Simplified form structure, reducing burden while collecting necessary data  Improved comprehension and trust through plain language  Laid the groundwork for future enhancements like automation
+
+Project 3: Secure Sign-In Transition
+
+Government Agency Prime Contractor Customer/Client POC Email Total Contract Value Period of Performance
+
+U.S. Department of Veterans Affairs Oddcore Samara Strauss, samara.strauss@va.gov $493,876 March 13, 2025 to March 12, 2026
+
+We helped the VA transition millions of Veterans to modern, secure sign-in options that meet federal security standards. Through user research, cross-platform content strategy, and iterative design, we simplified a complex security migration while maintaining access to critical benefits and services.
+
+The challenge
+VA needed to transition millions of Veterans from legacy My HealtheVet and DS Logon accounts to modern credentials that require multifactor authentication and identity proofing, facing potential barriers:
+ New account creation can be time-consuming and error-prone  Inconsistent messaging across VA.gov provided unclear guidance for Veterans with different
+account types and verification statuses  Support staff are overwhelmed by the volume and complexity of sign-in issues
+
+Our approach
+User research and content strategy. Conducted research with Veterans most affected by sign-in changes. Created identity verification vocabulary library. Partnered with VA design systems teams to develop reusable alert components showing dynamic content based on account verification status.
+Experience design and prototyping. Built user flow diagrams, managing complex sign-in paths and redirection options. Designed mobile and desktop prototypes in Figma. Created and tested an interstitial page identifying existing verified accounts and encouraging transition to modern options.
+
+13
+
+Strategic problem solving. Introduced a new page URL providing longer authenticated sessions, reducing timeout errors during identity verification. Designed temporary sign-in pages for approved exemptions. Developed documentation and troubleshooting guides for contact center support staff.
+Figure B-1: Journey map showing first-time and returning sign-in experiences, surfacing friction points such as identity verification failures, MFA confusion, session timeouts, and sign-in loops that drive dissatisfaction.
+Results and impact
+We successfully removed a sign-in option while maintaining continuity of service for millions of Veterans.  Converted Veterans to modern accounts via an interstitial page with a nearly 10% conversion rate  Removed My HealtheVet sign-in option from VA.gov while honoring approved exemptions  Reduced timeouts and errors through streamlined user flows and extended session times  Established scalable content framework and design system components for ongoing transition
+14
+
+

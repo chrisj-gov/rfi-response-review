@@ -1,0 +1,285 @@
+Department of Veterans Affairs
+
+Notice ID: 365357 Request for Information Replacement Model for va.gov
+SUBMITTED TO: Department of Veterans Affairs Allison Fulton - Allison.fulton@va.gov Evan Schlisserman - evan.schlisserman@va.gov
+SUBMITTED BY: Lone Rock Point, Inc. 399 Boylston St 6th Floor Boston, MA 02116 https://lonerockpoint.com SAM.gov Business Classification: SBA Certified 8(a)
+Blink UX 1011 Western Ave Suite 600 Seattle, WA 98104 https://blinkux.com
+
+Submitted on: February 4, 2026
+POINTS OF CONTACT: J.J. Toothman, President 415.235.6914 jjt@lonerockpoint.com Ben Shown, Head of Design 202.352.3008 ben@blinkux.com
+It is strictly confidential to its recipient(s) and any disclosure, reproduction, distribution or other use of this document's content or any attachments by an individual or entity other than the intended recipient(s) is prohibited.
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Corporate Overview
+Lone Rock Point + Blink UX / Joint Operating Model
+Blink and Lone Rock Point (LRP) are equal partners with complementary strengths: Blink drives federalscale UX, content, and designsystem clarity; LRP delivers secure engineering and integrations that land safely in production. Together we're the alignment engine VA needs to turn many stakeholders into one plan, ship improvements in controlled phases, and measure what matters so everyone sees progress. We've already proven this formula on NASA.gov: unifying navigation, empowering hundreds of creators with a scalable system, and coordinating longrun, highvisibility delivery at scale.
+About Lone Rock Point
+Lone Rock Point is a public sector engineering partner with deep expertise in modernizing large, highvisibility government websites. Our work centers on enterprise WordPress, USWDSaligned solutions, and largescale content migration and consolidation, all built to meet federal accessibility, security, and performance standards. We played a major role in rebuilding NASA's flagship site, migrating tens of thousands of pages, integrating the design system with Gutenberg, and delivering a creatorfriendly CMS that supports heavy traffic and hundreds of authors. For VA, we bring a proven ability to turn complex digital ecosystems into stable, maintainable platforms that are ready for constant change.
+Lone Rock Point Capabilities: Web Modernization Enterprise WordPress CMS Implementation Data, Content, and Legacy Platform Migration Web Accessibility Application Performance & Security User Change Management & Training
+About Blink UX
+Blink is the product design firm crafting your next breakthrough. We are a team of designers, researchers, and strategists who turn complex missions into clear, accessible digital experiences through evidencedriven design. We proved this on one of the government's most visible platforms by partnering with NASA to unify navigation, build a scalable design system, and support hundreds of content creators, all grounded in largesample research and rigorous usability testing. For VA, this means faster and safer modernization rooted in real Veteran insights, measurable outcomes, and tools that teams can rely on every day.
+2
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Blink UX Capabilities: Insights & Strategy: UX research, discovery, alignment, planning AI Acceleration: strategy, automation, enablement, innovation Experience Design: UX, UI, systems, usability Business Transformation: processes, teamwork, scaling, impact
+THE REST OF THIS PAGE IS INTENTIONALLY LEFT BLANK.
+3
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Executive Summary of Recommendations
+VA.gov modernization should proceed through a modular replacement model that reduces risk while sustaining uninterrupted service to Veterans. Rather than a single, high-risk rebuild, VA should decompose VA.gov into service-oriented components--such as identity, navigation, content, applications, and analytics--that can be modernized incrementally. This approach preserves continuity, enables continuous delivery, and avoids disruption during peak service periods.
+A production-ready design system must anchor this effort. Treated as an operational product--not a static artifact--the design system should embed accessibility, usability, and content standards directly into day-to-day delivery tools. With training, documentation, and phased rollout, it becomes a force multiplier that accelerates development, reduces inconsistency, and ensures Veterans experience a clear, predictable interface across services.
+VA should standardize on a WordPress-based CMS ecosystem operating in a FedRAMP-authorized environment (e.g., WordPress VIP) to balance flexibility, security, and long-term sustainability. This model minimizes vendor lock-in, supports both traditional and headless architectures, and enables a hybrid hub-and-spoke approach that integrates legacy systems without forcing premature consolidation--lowering the cost of change while preserving future optionality.
+Success at scale depends on disciplined content strategy, governance, and change management. VA should adopt structured content models, task-oriented templates, and CMS-level quality and accessibility enforcement, paired with phased migration and human review of high-value content. Early investment in adoption--especially empowering va.gov content managers--will build confidence, sustain momentum, and deliver measurable improvements to the Veteran experience while accelerating compliance with IDEA and OMB M-23-22.
+Section 1 VA.gov Replacement Model Vision
+Blink UX + Lone Rock Point will deliver a Veterancentric, secure, and scalable VA.gov through a designled, engineeringbacked approach that reduces friction for Veterans, simplifies complexity for VA teams, and de-risks modernization. Our vision is organized around the following pillars:
+1. Modular, ServiceOriented Platform What VA should do: VA should break VA.gov into smaller, easiertoimprove pieces so the team can update things like identity, search, content tools, benefits applications, and analytics without having to overhaul the whole site at once. Each part of the system will be connected through clear, welldefined interfaces so everything works together smoothly. This approach lets VA roll out improvements steadily and safely, instead of depending on big, highrisk launches.
+4
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Why it matters to VA: Modularity protects continuity for millions of users while VA modernizes behind the scenes; it also absorbs legacy diversity and future change with less rework and lower cost of change. This mirrors how we unified NASA's fragmented ecosystem into a scalable designsystemdriven platform while preparing it for a multiyear roadmap.
+2. Unified Identity & Navigation
+What VA should do: Establish a single, Veteranfirst mental model for getting things done: proof, sign in, recover, and continue. VA can pair identity provider flexibility with predictive provider selection, smart error recovery, and a topicdriven navigation that reduces deadends and duplicate paths.
+Why it matters to VA: Clear, consistent journeys reduce abandonment and support calls, especially during highstakes benefits tasks. At NASA, a topicdriven structure and integrated navigation measurably simplified exploration across thousands of pages and audiences. The same approach will curb VA.gov's "where do I start?" burden.
+3. A Design System That Meets VAs Needs
+What VA should do: A great experience requires a great design system. Start by understanding the strengths and gaps in VA's current system--whether it's solid, uneven, or needs deeper rebuilding. From there, VA can refine, extend, or rework it so every team can rely on clear components, accessible patterns, and consistent content guidance without reinventing the basics.
+Why it matters to VA: A strong, easytouse design system speeds up delivery, reduces inconsistencies, and ensures Veterans get a clear, predictable experience no matter which product they touch.
+4. EvidenceDriven Decisions, Not Guesswork
+What VA should do: Build research and analytics into the work from the start, talking with Veterans regularly, watching how they use key flows, and tracking simple, meaningful metrics. Then use that evidence to guide decisions with VA teams, focusing on small improvements we can see and measure. This creates a VA.gov that steadily gets clearer and more effective, and it gives stakeholders a shared view of what's working and why.
+Why it matters to VA: VA.gov success is missioncritical and public. Evidencedriven iteration turns stakeholder debates into measurable improvements. Our NASA work used largescale surveys, interviews, accessibility research, and 250+ usability sessions to ground decisions in real user needs. We'll apply the same rigor here.
+5
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+5. AIEnabled Transformation
+What VA should do: Make AI a firstclass toolchain, not an afterthought. Target three value tracks:
+1. Frontline focus. Codesign with call center agents, benefits specialists, and content editors to deliver summarization, nextbeststep guidance, and eligibility support that shortens time to resolution.
+2. Adaptable workflows. Build learning into key flows so systems retain feedback, understand why users get stuck, and improve signin, proofing, and recovery over time.
+3. Augment VA expertise. Use AI to amplify staff judgment, not replace it, with patternguided authoring, readability and tone suggestions, metadata enrichment, and accessibility checks at authoring time.
+Why it matters to VA: Most organizations see high AI adoption but low enterprise transformation. Winners redesign workflows and deploy systems that learn incontext. We will explicitly avoid brittle "demoware" by tying AI to measured outcomes in identity, navigation, and content operations.
+6. Content Strategy & Governance at Scale
+What VA should do: Introduce content models, roles, and lifecycle governance that reduce duplication and create taskoriented content. Provide CMS building blocks that encourage consistent structure (checklists, eligibility steps, FAQs) and support bulk improvements (terminology, reading level, localization, a11y).
+Why it matters to VA: Clear governance is the fastest path to a coherent Veteran experience. NASA's challenge, 3,000+ sites and minimal guidelines, is a cautionary tale. The fix was a unifying model with strong templates and tooling. We'll apply that same discipline so VA's content stops competing with itself.
+7. Progressive Delivery & Risk Management
+What we'll do: Ship VA.gov improvements in small, safe steps using feature flags, pilots, and phased rollouts, protecting peak periods and core services. Pair this with a tight collaboration cadence: shared rituals, open design reviews, and decision logs that keep VA leaders, portfolio teams, frontline staff, and partners moving in sync. Blink has run this play at scale: on NASA.gov we sustained 100+ weeks across 50 workstreams and 10 phases, coordinating with 300+ creators and 50+ stakeholders to align many voices into one coherent product.
+Why it matters to VA: VA.gov cannot afford disruption. A steady, phased approach keeps services running during hightraffic moments while still moving the platform forward. Pairing that with a collaborative rhythm
+6
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+across teams builds alignment, reduces surprises, and creates visible momentum. The result is safer change, fewer setbacks, and a modernization effort that brings people along instead of overwhelming them.
+8. Establish a foundation for va.gov with the WordPress CMS and supporting ecosystem
+What VA should do: Leverage the WordPress Content management system to minimize vendor lock-in and avoid proprietary licensing constraints. WordPress is supported by a broad ecosystem of qualified vendors, developers, and extended via a vast marketplace of plugins. WordPress is the only CMS platform that includes pre-publish accessibility and SEO validation tools to enforce content governance before public release. VA should prioritize CMS solutions like WordPress that can operate within FedRAMP authorized cloud environments or agency-managed infrastructure, and that support extensibility, integrations with external systems, and multi-site or multi-tenant architectures.
+Why it matters to VA: These capabilities reduce cost, procurement, and continuity risk while strengthening compliance with federal accessibility, security, and governance requirements. Deployment flexibility enables agencies to meet evolving security and hosting mandates without re-platforming, while extensibility ensures the CMS can adapt to new mission needs over time. Finally, a strong open-source ecosystem accelerates innovation, improves usability through shared best practices, and ensures long-term sustainability beyond a single vendor relationship.
+9. Accelerate meeting the vision of the Integrated Digital Experience Act and the strategic objectives of OMB M2322 with CivicPress
+What VA should do: Adopt the WordPress add-on bundles CivicPress that is available at civicpress.us as the agency's standardized, USWDS-aligned WordPress theme framework to help deliver accessible, consistent, and user-centered digital experiences in direct support of the Integrated Digital Experience Act and OMB M-23-22. CivicPress enables no-code content publishing for program teams while embedding accessibility, search, analytics, and governance controls by default--allowing the agency to modernize quickly, reduce custom development, and scale digital services across programs with confidence.
+Why it matters to VA: IDEA and OMB M-23-22 require agencies to demonstrate measurable improvements in accessibility, usability, consistency, and customer experience, not just intent. CivicPress translates these policy goals into an operational capability, reducing time-to-compliance, lowering long-term maintenance costs, and increasing adoption across non-technical teams. CivicPress accelerates the meeting of OMB M-23-22 goals in weeks and months, as opposed to years. The result is faster delivery of trusted, accessible digital services and a sustainable foundation for continuous improvement aligned with federal digital strategy.
+7
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+CivicPress configuration controls and pattern library
+10. Take advantage of flexible architecture models inherent to WordPress
+What VA should do: WordPress allows for implementation in traditional monolithic CMS architecture as well as headless architectures. VA should resist the temptation to focus on one system architecture over another and instead opt for a hybrid approach similar to how NASA+ (plus.nasa.gov) was deployed. NASA+ used a traditional CMS implementation as a central hub with headless outposts acting as spokes to that hub. Those headless application "spokes" existed on platforms such as Apple TV, Roku, and Amazon PrimeTV. VA can take a similar approach within its own enterprise environment.
+8
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Why it matters to VA: This approach allows for VA to be cost effective with the central hub, where traditional CMS implementation is known to be more cost effective than headless approaches, but allow for headless techniques to be used in remote VA applications that need require interconnectivity with VA.gov or have significant barriers to migration into VA.gov.
+11. Address the needs and establish early evangelism with the most critical internal stakeholders: va.gov content managers
+What VA should do: Design and implement a content creation experience within the CMS that bridges the gap between backend systems and the editorial interface. Using WordPress and the Gutenberg editor as a foundation, tailor the authoring environment with intuitive, purpose-built tools, such as custom blocks that help the user adhere to the controls of the UX design system, integrated image focal point controls, and design pattern libraries that allow content creators to build pages and stories with confidence. Simplify complex workflows by integrating external systems, like media asset management platforms, directly into the publishing experience so editors can focus on content, not technology. Why it matters to VA: A streamlined editorial experience directly impacts publishing speed, accuracy, and staff adoption, especially in large, enterprise environments. When the editing interface closely reflects the final output and minimizes technical friction, content creators work more efficiently, make fewer errors, and trust the system they use every day. By reducing frustration and cognitive load, agencies can maintain fresh, relevant content at scale while ensuring that even advanced, integrated platforms remain approachable for non-technical users. This emphasis on the needs of the content managers within VA will contribute to the hearts and minds campaign that is a critical part of change management for a system rollout of this scale. In addition, capturing groundswell enthusiasm of va.gov content managers will
+9
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+influence great content production for the front end product and VA's constituents to consume and interact with.
+12. Methodical legacy content migration with stakeholder review checkpoints
+What VA should do: Adopt a modular, system-aware CMS migration strategy that supports large-scale consolidation without disrupting existing systems. This includes standardizing content structures early, using API-driven and scraping techniques where appropriate, and migrating content into WordPress using core, extensible patterns rather than one-off scripts. Establish internal tooling within the CMS to help teams locate, validate, and manage migrated content, including clear status indicators and shared taxonomies. Why it matters to VA: This approach minimizes risk while enabling incremental modernization at scale. By avoiding "big bang" migrations and instead layering WordPress over existing systems, organizations can launch faster, reduce downtime, and maintain trust with internal stakeholders who depend on continuity.
+13. Operate WordPress powered va.gov on WordPress VIP
+What VA should do: VA should host and operate their managed WordPress websites on WordPress VIP. WordPress VIP is FedRAMP authorized and VA already has experience operating WordPress sites on their platform. WordPress VIP provides a fully managed environment that meets stringent federal requirements, including robust security controls, compliance support, continuous monitoring, and 24/7
+10
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+expert operations. By standardizing on WordPress VIP, VA can pair the flexibility of WordPress with an enterprise hosting platform that removes the burden of infrastructure management while supporting large-scale, high-traffic digital experiences.
+Why it matters to VA: Operating on WordPress VIP enables VA the ability to reduce risk while accelerating delivery. Security, performance, and compliance are handled at the platform level, freeing internal teams to focus on content, services, and mission outcomes rather than infrastructure upkeep. The platform's proven scalability ensures reliability during traffic spikes driven by emergencies, policy announcements, or public interest, while built-in governance and workflow controls support distributed federal publishing models.
+Section 2 User Journey Workflows
+See Past Performance Artifacts below for example diagrams from the NASA Web Modernization project, created jointly by Blink, LRP, and teams across NASA. These artifacts illustrate core foundations of the work, including information architecture, design system documentation, user journey mapping, projectprocess alignment, and user archetype thinking styles.
+Section 3 Risks + Mitigations
+Legacy Systems Slow Change:VA.gov depends on many older, interconnected systems that can't be updated all at once. Blink focuses on highimpact Veteran tasks first, while LRP sequences technical changes safely, similar to how NASA's sprawling web ecosystem required careful, staged modernization.
+Identity Is Still Too Fragmented: Multiple signin methods and proofing paths create confusion and dropoffs. Blink simplifies the flow with clearer decision points. LRP provides flexible backend routing and metrics so VA can see exactly where Veterans get stuck and fix it quickly.
+Content Sprawl Needs More Than Templates: With many teams creating content, tone and structure can drift. Blink brings the content strategy, plainlanguage patterns, and usability guardrails. LRP enforces consistency with CMSlevel checks - an approach that helped NASA tame thousands of inconsistent pages.
+Too Much Change Can Overwhelm Teams: VA's missioncritical teams can't absorb large shifts all at once. Blink runs short, evidencebased alignment cycles. LRP ships improvements behind flags and rolls them out in phases so stability always comes first.
+11
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Section 4 Lessons Learned
+Governance: Clear governance and content standards must be established early or teams drift and inconsistencies multiply. Alignment across stakeholders is the fastest way to reduce rework and ensure decisions stick. Build with your users, not for your users
+Design systems are products: Design systems are best when treated as products and deliver maximum value when paired with training, tooling, and contribution models that teams actually use.
+Design systems enable consistency and expansion: Once defined, atomic design systems allow for redacted time to delivery of future web application solutions by fast tracking through the visual UX project phase. NASA experienced this with plus.nasa.gov. Development of that web site took 20% of the time of www.nasa.gov.
+Deliver the design system to users in a controlled manner: Rolling out a design system works best when it's treated like a guided pathway rather than an all-you-can-eat menu. Start with a deliberately limited set of high-value, well-documented components so users can build confidently without being overwhelmed by choice. Introduce new components in planned phases, tied to real use cases, and communicate clearly what's available now versus what's coming next to avoid frustration or "waiting mode." This controlled, incremental approach builds trust in the system while allowing it to evolve based on how people actually use it.
+Consolidation: If consolidating multiple web properties, large migration roadmaps succeed when tackled in small, measurable phases rather than one sweeping launch.
+Web content accessibility checks before publish, not after: Accessibility checks are most effective when they're built directly into the content creation workflow, not treated as a post-publish cleanup task. Content managers should validate accessibility--such as headings, alt text, color contrast, and link clarity--within the CMS before publishing, using integrated tools and clear pre-publish checklists. Once content goes live, it's rarely revisited, which means accessibility issues tend to persist indefinitely. Embedding these checks at the point of creation ensures accessibility is addressed when the content still has the author's attention and context. It is also possible to configure CMS solutions to prevent publishing
+Automated content migration without human review isn't popular: Fully automated content and data migrations often fail to earn the trust of content stakeholders because they remove human oversight from a critical transition moment. Stakeholders want the ability to audit, validate, and refine migrated content to ensure accuracy, structure, and intent are preserved in the new CMS. A staged migration approach, where content is moved into a review state rather than published immediately, gives teams confidence and control. This review-first model balances automation with accountability, leading to higher adoption and fewer post-launch corrections.
+12
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Not all migrated pages should be treated equally: Content stakeholders will use migrations as opportunities to audit every page in the site. However, not all migrated pages deserve the same level of attention, and treating them equally wastes time and effort. Analytics should be used to identify high-traffic, high-value, or mission-critical pages and prioritize those for deeper review and improvement in the new CMS. Lower-performing or rarely visited pages can be migrated with lighter scrutiny or archived altogether. This data-informed approach ensures teams focus their limited resources where they will have the greatest impact.
+Be prepared for longer content production time: Design systems paired with block editors like WordPress introduce more structure and responsibility into the content creation process. As requirements for accessibility, SEO, and generative engine optimization increase, content authors must consider more factors before publishing, which naturally extends production timelines. While this can feel slower, it results in higher-quality, more durable content that performs better across audiences and platforms. The key lesson is to plan for these longer cycles and support authors with clear guidance, tooling, and training to maintain momentum. Users have a thirst for modular block building approaches, but you can augment this with pre-defined block patterns and best practice layouts as starting points.
+How Blink UX and Lone Rock Point can help Veterans Affairs with these recommendations
+Blink UX and Lone Rock Point bring a complementary, delivery-tested partnership purpose-built to turn the recommendations and lessons in this RFI into measurable progress for VA.gov. Our approach is grounded in what we have already learned at the federal scale: modernization succeeds when experience strategy, design systems, content governance, and engineering execution move forward together--not in isolation.
+Blink UX leads the Veteran-centered strategy, research, and design system enablement needed to make VA.gov clearer, more predictable, and easier to use. This includes translating lessons around governance, design systems as products, and evidence-driven decision-making into practical operating models: scoped research plans, prioritized user journeys, phased component rollouts, and usability metrics that guide decisions and reduce debate. Blink ensures that accessibility, plain language, and usability are embedded from the start, at the system and workflow level, rather than retrofitted after launch.
+Lone Rock Point operationalizes those strategies through secure, production-ready platforms and tooling. Building on a WordPress-based CMS ecosystem operating in FedRAMP-authorized environments, Lone Rock Point implements modular architectures, CMS-level governance, pre-publish accessibility enforcement, and migration workflows that balance automation with human review. This directly reflects the lessons learned around phased consolidation, content prioritization, and the importance of empowering content managers rather than overwhelming them. Our engineering approach emphasizes
+13
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+progressive delivery, feature flags, and measurable rollouts that protect mission-critical services while steadily improving the platform. Together, Blink UX and Lone Rock Point provide VA with an integrated path from recommendation to execution:
+ From lessons to operating model: Turning governance and design-system insights into day-to-day tools, standards, and contribution models teams actually use.
+ From strategy to shipped outcomes: Pairing research and design intent with CMS enforcement, analytics, and phased delivery so improvements are visible, testable, and durable.
+ From modernization to adoption: Supporting change management through training, documentation, and early evangelism with va.gov content managers--building trust and momentum across the organization.
+This partnership allows VA to modernize VA.gov incrementally, safely, and sustainably--delivering clearer experiences for Veterans while reducing long-term risk, rework, and cost of change.
+THE REST OF THIS PAGE IS INTENTIONALLY LEFT BLANK.
+14
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Past Performance: NASA Web Modernization
+
+Customer Reference
+Project Name Point(s) of Contact
+Project Scope
+
+NASA
+NASA Web Modernization https://www.nasa.gov
+Ian Sturken NASA Web Services Office Manager Email: ian.b.sturken@nasa.gov Phone: Please email first
+Customer Experience Employee Experience User Research SEO & Data Analytics UX Strategy UX Design Usability Testing Visual Design Design System Enterprise CMS Evaluation Replatforming from Drupal CMS to WordPress CMS Implementation of new design system Migration of over 100K pages Consolidation of multiple web properties Change management of 500 users Streaming video platform solution
+
+Past Performance Overview
+NASA's Web Modernization was a multiyear initiative to address NASA's digital presence while achieving the goals of the Integrated Digital Experience and moving NASA.gov from a collection of legacy websites into a coherent, accessible, and scalable digital platform, one that serves the public better and makes life easier for the teams behind the scenes at NASA.
+Improve public access to NASA's work: NASA operates the most visited website in the federal government, and a core goal was making its science, missions, and discoveries easier for the public to find and understand. That meant clearer navigation, more consistent storytelling, and a structure that helps people quickly get to the information they're looking for--whether they're students, researchers, journalists, or space enthusiasts.
+
+15
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Create a unified, consistent digital experience: Over decades, NASA's web presence had grown into thousands of sites managed by different centers, programs, and teams. Modernization aimed to bring cohesion to that ecosystem through a shared design system and common publishing patterns--so NASA feels like one organization online, not a patchwork of disconnected sites.
+Empower content creators across the agency: Another major goal was improving the day-to-day experience of NASA's web teams. By moving toward modern tools like WordPress and block-based editing, NASA wanted non-technical staff to publish confidently, accurately, and quickly, without relying on developers for routine updates.
+Meet and exceed federal standards: The initiative also aligned NASA with evolving federal requirements, especially around accessibility, security, performance, and compliance. Modern platforms and design systems made it easier to consistently meet Section 508 accessibility standards and keep pace with government digital policy.
+Build a future-ready platform: NASA wanted a flexible foundation that could evolve--supporting new mission launches, multimedia storytelling, integrations, and future technologies without requiring another full rebuild in a few years.
+Blink and Lone Rock Points Role
+Blink UX and Lone Rock Point supported NASA's web modernization initiative over 4 years. Our collaboration resulted in three major outcomes.
+1. Horizon Design System: Blink developed HDS as an evidencebased, researchdriven atomic design system that unifies NASA's sprawling digital ecosystem. Built on extensive national surveys, indepth stakeholder interviews, and hundreds of usability sessions, HDS delivers a consistent, accessible, and modern visual language suitable for all NASA digital properties.
+2. Redesigned and replatformed www.nasa.gov: NASA's flagship website. Migrated from a legacy CMS onto WordPress. Implemented with Horizon Design System. Developed to handle the performance needs of events like rocket launches and landings on other planets. With change management and training for over 500 internal content managers.
+3. NASA Plus: Netflix, but for NASA. Available at plus.nasa.gov and on Apple TV, iOS, Roku, and other consumer electronic device platforms. Helped the agency modernize its video content delivery and position NASA for the decommission of its aging NASA TV cable channel.
+Each NASA webpage is now on-brand, forward-thinking, and compliant with industry standards. The content is immediately discoverable to the public, beautifully branded, and accessible to all visitors.
+16
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+The updated site offers a user-friendly, topic-driven experience featuring a powerful search engine, easy navigation, and an improved content publishing system that will enable content creators to tell consistent, engaging stories that will captivate the American public and inspire the next generation of scientists.
+Horizon Design System
+Research to inform design Our researchers conducted a national quantitative survey, engaged in hundreds of qualitative one-on-one feedback sessions, interviewed NASA employees at all levels of the agency, completed accessibility research, and ran more than 250 usability testing sessions. Our research found that website visitors wanted better ways to explore NASA's scientific and educational content. Many were unaware of the breadth of NASA's work, and finding information was difficult for those with disabilities. These, and many more insights, laid the foundation for a unified web experience and optimized publishing system. From there, we spent several months testing and refining the website's information architecture, content strategy, and interaction design to ensure the new site would meet the audience's needs and make it intuitive and enjoyable to discover and engage with NASA's diverse content.
+17
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Inspiration for a new visual direction When Blink began designing the new visual identity for the site, our team used mood boards to explore different visual styles and treatments. This mood board continuum has become a valuable tool for NASA's content creators to help them think through the visual story for a wide range of topics.
+A system to unify NASA's digital footprint Based on the mood board work, site structure design, research insights, and a collaborative client team, the Horizon Design System -- known as the HDS -- was born. This modernized digital system is complete with a new topic-driven site structure, enhanced interaction design, integrated navigation, visual guidelines, and tools for simple, consistent content publishing. Now, the agency can quickly create beautiful, functional web pages for any topic. Because of the HDS's ability to scale, NASA's digital platforms will be connected and ever-expanding for decades to come.
+18
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+19
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Flagship NASA.gov CMS migration and WordPress Implementation An updated design system implemented with Custom Gutenberg Editor Blocks The NASA Flagship project is a redesign and rebuild of www.nasa.gov on WordPress.To deliver on the promise of the IDEA Act, NASA took a blue sky approach to their web user experience. Lone Rock Point implemented a newly developed NASA visual design system leveraging the Gutenberg block editor to create a modular content authoring experience that is easy for the most novice user to author content. To ensure strict content quality control and design consistency across www.nasa.gov, Lone Rock Point developed over 50 custom Gutenberg editor blocks.
+Optimized for performance Performance was of utmost importance for all user types. The site had to load fast on the front end and back end. To meet this need, the Lone Rock Point team developed Gutenberg blocks in React to control code optimizations throughout the solution architecture.
+20
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Extra attention to the content creator user experience While site visitor user experience is often the focus of Web projects, the Lone Rock Point team gave equal attention to the experience of NASA's content creators and storytellers. These quality-of-life touches included integrated zoom and focal point controls for all images selected within Gutenberg blocks. To place the emphasis on content creation and storytelling, we modified the default WordPress back end dashboard with calls to actions to pick templates for content types pre-populated with example content. Users can select one of these templates to use as a starting type for their own pages. Alternatively, users could select a blank editor screen for a post type to start fresh.
+21
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Real time content accessibility support With improving digital accessibility as one of the major objectives of the NASA Web Modernization Team, we integrated Equalize Digital's Accessibility Checker Pro plugin to provide web content accessibility support to the content creator users. This approach ensured greater content accessibility by providing actionable information to users before the page is published.
+22
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Custom taxonomy faceting makes the missions hub database come alive.
+User community change management Project stakeholders and users of the CMS were geographically dispersed across 10 field centers in locations across the U.S. and beyond. Including some in other continents. Change management and community management was led by the Web Content Producer Team. This team of application super users were subject matter experts in all aspects of WordPress, Gutenberg, and Horizon Design System usage. In addition to leading working sessions, collaborating in Microsoft Teams chat rooms, and holding 1-on-1 training, they developed a knowledge based and learning management system known internally to NASA as Website Toolkit.
+23
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Real time content sync The WordPress REST API was critical in synchronizing content between Flagship and its sister site, science.nasa.gov. This allows content creators the ability to easily use WordPress Gutenberg to incorporate news and stories from either site on their pages.
+NASA mobile apps The WordPress REST API provided critical data for development teams of NASA's iOS and Android applications. Lone Rock Point also built custom content management utilities within WordPress CMS that allows NASA's Office of Communications the ability to manage top stories and news within NASA's mobile apps. Project Outcomes NASA's new flagship website (www.nasa.gov) with WordPress launched in September 2023. It won a Webby Award in 2024 550 CMS Users were onboarded to the NASA's WordPress CMS before site launch in September 2023 along with 126,171 pages of content from the previous CMS The migration involved zero downtime for www.nasa.gov and a content freeze period that lasted 20 hours. NASA Plus
+In 2022, NASA's Office of Communications recognized the trends for video content delivery and sought to begin moving away from its NASA TV cable channel and towards a streaming solution offering both on-demand and live video that was natively available on the web, mobile devices, and set top box platforms such as Apple TV and Roku. Lone Rock Point supported NASA with architecting and implementing a new service known as NASA+.
+24
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Web experience at plus.nasa.gov A website front end for users to access, something WordPress is adept at. It allows for the building, publishing, and managing of content, which is then presented to site visitors.
+25
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Video management control room The creation of a control room for video management. This room is used by NASA+ producers to organize videos into playlists, similar to how platforms like Netflix and Hulu categorize their content, such as dramas, comedies, or documentaries. NASA envisioned categories like launches, landings, spacewalks, and aeronautics. NASA+ on every platform Addressing the distributed nature of set-top boxes and apps. With numerous platforms and electronic devices like Apple TV, Roku, Android, Vizio, LG, Samsung, and Sony, each with its own app store and standards, NASA needed a centralized hub. The vision was to make NASA video content available for app development teams to build upon and utilize on all platforms. NASA's limited resources meant it couldn't build applications for every existing platform or consumer electronics device. This vision foresaw a scenario where information would be available in an API, allowing app developers to utilize it and encouraging participatory software development. The REST API of WordPress was an attractive choice, serving as a hub and spoke for apps to access content in a well documented format. App development teams could then build solutions for their platform to access the video information stored in the WordPress database via REST API.
+Past Performance Artifacts
+Below are example diagrams from the NASA Web Modernization project, created jointly by Blink, LRP, and teams across NASA. These artifacts illustrate core foundations of the work, including information architecture, design system documentation, user journey mapping, projectprocess alignment, and user archetype thinking styles.
+26
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+27
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+28
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+29
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+30
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Appendix
+This appendix highlights Blink projects that mirror the challenges ahead for VA.gov. From Nextdoor's shift to realtime, AIsupported local utility to SoCalGas's modernization of essential-service navigation at scale to Blue Cross MA's streamlined mobile experience for complex benefits information, these examples show how evidencedriven design can turn complicated systems into clear, helpful, consumergrade experiences Veterans can rely on.
+THE REST OF THIS PAGE IS INTENTIONALLY LEFT BLANK.
+31
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Designing for AI Adoption with Google NotebookLM
+Blink partnered with Google's NotebookLM team to understand what people need when encountering AI tools for the first time. The work clarified how to make AI feel trustworthy, clear, and genuinely useful. Insights directly applicable as VA.gov explores AI features that support Veterans and staff with confidence and ease.
+Redesigning the New York Times App at Scale
+Blink partnered with The New York Times on its most significant app overhaul in more than a decade, helping create a more intuitive and discoveryfriendly experience for millions of readers. These lessons apply directly to VA.gov as it modernizes complex digital services with clarity and user focus.
+Transforming the SoCalGas Customer Experience
+SoCalGas partnered with Blink to modernize its digital experience, improving navigation, access to essential services, and selfservice tools for millions of customers. These improvements align directly with VA.gov's goals to simplify complex services and strengthen digital access for Veterans.
+32
+
+Notice ID #365357 Department of Veterans Affairs - Replacement model for va.gov
+RFI Response from Lone Rock Point, Inc. & Blink UX
+Reimagining the MyBlue App for BCBS of MA
+Blink led the redesign of the MyBlue app, making it faster and easier for members to access key tasks like viewing claims, finding care, and using digital ID cards. The streamlined experience reflects member research and supports VA.gov's goal of delivering clear, intuitive mobile tools.
+Evolving the IEHP Digital Experience
+Blink redesigned the IEHP experience through onsite user research, a refreshed brand direction, and close stakeholder alignment. The result is a more modern, human, and easytonavigate platform that helps members find what they need quickly.
+Envisioning the Future of Neighborhood UX with Nextdoor
+Blink helped Nextdoor explore a revamped product direction as the platform shifted toward realtime local alerts, vetted local news, and AIpowered neighborhood guidance. This consumergrade envisioning work shows how VA.gov can adopt similarly intuitive, helpful, and timely digital experiences for Veterans.
+33
+
+

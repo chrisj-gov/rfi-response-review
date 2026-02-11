@@ -1,0 +1,215 @@
+Replacement for VA.gov
+Department of Veterans Affairs (VA)
+February 04, 2026
+0
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+Contents
+Company Overview ........................................................................................................................ 1 Relevant Capabilities................................................................................................................... 1 Relevant Experience.................................................................................................................... 3
+Responses to Topics and Questions ................................................................................................ 4 Platform Architecture, Continuity, and Integration with Legacy and Emerging Systems.......... 4 Experience design and content strategy on an enterprise Drupal CMS ...................................... 5 Governance, analytics, and operating models in a regulated, highly visible environment ......... 5 More seamless Veteran experience and longterm resilience ..................................................... 5
+Relevant Technologies and Approaches ......................................................................................... 6 Platform and CMS layer: governed reuse with controlled flexibility ......................................... 6 Data, analytics, and AI-ready measurement................................................................................ 6 User journey workflows for identity, sign-in, recovery, and support ......................................... 7 Known risks, tradeoffs, and lessons learned ............................................................................... 7
+Acquisition Strategy Considerations............................................................................................... 8 Conclusion ...................................................................................................................................... 8 Appendix A: Reference Visuals.................................................................................................. A-1
+The Veterans' Journey ............................................................................................................ A-1 VA.gov Unified Entry Point.................................................................................................... A-2 Secure Sign-In and Identity Options ....................................................................................... A-3 VA.gov Design System and Structured Patterns..................................................................... A-4 User-Centered Content and Experience Evolution ................................................................. A-5
+i
+
+Replacement for VA.GOV Department of Veterans Affairs
+
+by
+
+Company Overview
+
+Company Name:
+
+Storij Inc, dba The So Company
+
+Address:
+
+134 North 4th Street, Brooklyn, NY 11249
+
+Point of Contact:
+
+Anthony Kilburn, Sales, Bids and Proposals, and Contracts Manager 704-3023141| akilburn@thesocompany.com
+
+Socioeconomic data:
+
+Service-Disabled Veteran-Owned Small Business | Proof of SBA Certification, Proof of SBA VETCert included as attachment.
+
+Relevant Capabilities
+The So Company is a Service-Disabled Veteran-Owned Small Business (SDVOSB) technology services firm with experience supporting federal programs through diverse acquisition approaches, enabling efficient, compliant execution across federal agencies. We specialize in human-centered design, digital content strategy, information architecture, and web engineering for large public-sector platforms, with deep roots in the Department of Veterans Affairs (VA)'s digital evolution from the original Vets.gov prototype to today's VA.gov.
+Since 2014, our teams have worked alongside VA Digital Services, the Veteran Experience Office, and the VA Center for Innovation to design and deliver Veteran-centric digital experiences grounded in human-centered design. We played a core role in launching the initial Vets.gov beta in 2015, providing product management, user experience (UX) research, content strategy, information architecture, and quality assurance--foundational work that shaped the standards and operating model of VA.gov. For more than a decade, we have combined full-stack web development, UX research, multilingual content, help desk support, and Section 508 & Web Content Accessibility Guidelines (WCAG) accessibility to improve service access and task completion for millions of users on high-visibility .gov platforms under intense public and regulatory scrutiny.
+Within the VA.gov ecosystem, we support the Veterans-Facing Services Platform (VFSP) through governance, platform support, analytics, and Veteran support services. These services run on VA.gov's enterprise Drupal-based Content Management System (CMS). Our teams work daily with VA.gov product owners, designers, engineers, and content editors to ensure experiences meet VA.gov Experience Standards while remaining secure, scalable, and accessible to diverse Veteran populations. This day-today integration provides direct insight into how design, content, governance, and platform decisions affect real Veteran journeys across sign-in, navigation, and benefit access.
+We have demonstrated our analytics and artificial intelligence (AI) readiness by migrating more than one billion rows of VA.gov data from Universal Analytics to Google Analytics 4 (GA4). We have configured BigQuery datasets and Domo dashboards and led training and office hours that enable VA teams to adopt self-service analytics in a secure, governed environment. This work informs how VA can instrument, measure, and continuously improve key Veteran journeys--such as identity proofing, sign-in recovery, and application completion--during and after a VA.gov replacement.
+
+1
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+We have proven our ability to stabilize and redesign critical public websites through our work on HealthCare.gov. There, we led UX-focused content design, created English- and Spanish-language copy, and wrote technical documentation for the site's relaunch following early rollout issues. This effort supported 8.7 million enrollments and achieved a 90% call-center satisfaction rate, underscoring the importance of clear content, resilient platforms, and coordinated operating models during high-risk transitions. The So Company delivers enterprise technology solutions that go beyond public websites. Our recent experience includes:
+� VA Enterprise Notifications Platform (VAEN): Supporting VA Notify and VEText to deliver multichannel messaging, clinical workflow coordination, and real-time communications for Veterans via SMS, email, and VA.gov. Our work spans platform enhancements, integration with electronic health records, compliance and analytics, and Tier 1-3 operational support for thousands of users, ensuring reliable, mission-critical service.
+� Quality Payment Program (QPP) at Centers for Medicare and Medicaid Services (CMS): Providing content development, copy analysis, and workflow recommendations for the pre-login portal. Participated in UX planning and design sessions, improving content clarity, usability, and the overall Veteran-facing experience across this integrated payment platform.
+� Navy RESFOR N6: Modernizing knowledge management and operational workflows, converting paper-based processes into digital solutions through user research and end-to-end journey mapping. These improvements enhanced process efficiency, transparency, and operational readiness for distributed personnel.
+These projects reflect our ability to design, integrate, and sustain technology platforms and content solutions beyond websites--capabilities that position us to further integrate VA services, notifications, and workflows into VA.gov. Taken together, our experience directly informs the planning and execution of a major transition from the current VA.gov to a replacement experience. It demonstrates our ability to maintain service continuity as we evolve complex, high-visibility digital platforms and integrate legacy and emerging systems. It also positions The So Company to help VA design a unified, Veteran-centric digital experience that balances modernization with reliability, governance, and long-term adaptability.
+2
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+
+Relevant Experience
+The table below highlights a selection of our most relevant projects for the VA.gov replacement model. These efforts were executed through diverse federal acquisition approaches, frequently in partnership with Oddball and other primes, and all worked within or alongside the enterprise Drupal CMS environment for VA.gov.
+
+Project
+
+Customer/Role
+
+Relevance to VA.gov Replacement
+
+VA.gov VA.gov Veteran VA/Sub to Support Services (VAVS) Oddball
+
+Improves signin, My HealtheVet migration, and Salesforce case handling for Veterans; resolves approximately 95% of issues immediately, with the majority of remaining issues addressed within 24 hours, using datadriven improvements to error messaging and help content on VA.gov.
+
+Veterans-Facing Services Platform (VFSP)-- Platform Collaboration Cycle
+
+VA/Sub to Oddball
+
+Provides governance across design, content, IA, QA, and accessibility so Drupalbased VA.gov products comply with Experience Standards and Section 508, serving as platformlevel guardrails.
+
+Veterans-Facing Services VA/Sub to
+
+Platform (VFSP)--
+
+Oddball
+
+Platform Support Project
+
+Implements Slackbased ticketing, automation, auditing bots, and an incident knowledge base to support developers building on VA.gov, increasing team efficiency by ~20%.
+
+VA.gov Analytics/ GA4 VA/Sub to
+
+Migration
+
+Oddball
+
+Sitewide Content, Accessibility, and Information Architecture (CAIA)--Sitewide Content, Accessibility, IA
+
+VA/Sub to Coforma
+
+HealthCare.gov Rescue Team
+
+Centers for Medicare & Medicaid Services (CMS)/Sub to AdHoc
+
+Migrates 1B+ rows and 40+ datasets from UA to GA4, configures BigQuery and Domo, and builds training and governance to enable VA.gov teams to measure and optimize key user journeys.
+Improves findability and comprehension of benefits across VA.gov, including bilingual content and accessibility reviews aligned with WCAG and VA Section 508 Office oversight.
+Leads content and UX redesign for HealthCare.gov after launch issues, editing ~70% of pages, leading 115+ deployments, and supporting 8.7M enrollments with 90% satisfaction through the call center.
+
+Across these efforts, we have operated inside complex, multivendor environments with tight regulatory oversight and high public visibility, which mirrors the context of any VA.gov replacement. Our work demonstrates the ability to maintain uptime and continuity while evolving experience, content, and analytics on top of a large enterprise Drupal platform.
+
+3
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+Responses to Topics and Questions
+We are pleased that VA believes replacing VA.gov is not just a technical effort and wants to expand the conversation about how to improve and modernize VA.gov. This requires coordinated work across design, platform architecture, content, governance, analytics, and operating models. All of this must happen while keeping services available to millions of users, integrating with legacy and new systems, and operating under public and regulatory scrutiny. Our experience supporting VA, HHS, and the DoD shows how this kind of modernization can be done incrementally, with a focus on continuity and risk management.
+Modernization isn't just about technology--it's about creating a smooth, Veteran-focused experience while keeping services running. The technical practices we use, from platform architecture to content governance, support this goal. The examples below show how these practices improve usability, accessibility, and reliability for Veterans.
+Platform Architecture, Continuity, and Integration with Legacy and Emerging Systems
+Successfully modernizing VA.gov requires an approach that balances innovation with continuity, ensuring identity, authentication, and help flows function reliably across both legacy and modern systems. VA should adopt a phased, integrated strategy that aligns platform architecture, support operations, and modernization efforts to minimize risk and disruption to Veterans.
+Our experience with My HealtheVet-related transitions illustrates how identity and support experiences can span multiple systems without compromising usability. By designing sign-in, account creation, and recovery flows that work across legacy and modern platforms, VA can maintain clear communication, reliability, and a seamless Veteran experience even during complex upgrades.
+Parallel efforts on next-generation digital identity, authentication, and post-login navigation highlight the importance of coordinating modernization across multiple initiatives. Our teams actively monitor and engage with these efforts to ensure experience design, content, analytics, and support operations remain aligned, regardless of which vendors or platforms are selected for underlying services.
+From an operations perspective, VA can benefit from standardized APIs, configuration management, ticketing workflows, incident response, and post-incident reviews. These practices enable the introduction of new identity providers, authentication mechanisms, and navigation frameworks without disrupting Veteran access. Aligning these technical processes with modernization efforts reduces risk, preserves continuity, and ensures interoperability with both legacy systems and emerging enterprise services, including VA Platform One and future shared-service environments.
+Ultimately, our approach shows that VA.gov modernization succeeds when technical upgrades are guided by a deliberate strategy that balances innovation, interoperability, and the Veteran experience. By integrating lessons from past transitions into platform planning, VA can evolve core capabilities while maintaining service continuity, security, and usability.
+4
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+Experience design and content strategy on an enterprise Drupal CMS
+VA.gov's front end and content ecosystem are built on an enterprise Drupal CMS. In this environment, we focus on separating platform-level elements--such as templates, components, and navigation--from line-of-business content. This enables VA to improve accessibility, navigation, and layout in a centralized way without disrupting services or program team ownership.
+Within the VA.gov Frontend Support Platform (VFSP), we support a collaboration cycle that reviews designs and content against VA.gov Experience Standards and Section 508/WCAG requirements. This model could be formalized and scaled as part of a future replacement effort. Doing so would enable VA to introduce new design systems or information architecture patterns in stages while maintaining a consistent Veteran experience. Our work on large Drupal sites with thousands of pages shows that sitewide content and information architecture (IA) improvements can be made without destabilizing traffic or workflows, making this approach well-suited to a phased VA.gov approach.
+Governance, analytics, and operating models in a regulated, highly visible environment
+Managing a high-visibility public website like VA.gov requires analytics and governance that can withstand ongoing oversight. Our work on VA.gov analytics included migrating to GA4, aligning BigQuery data, and delivering dashboards and training. These efforts supported both operational decisionmaking and external reporting needs.
+Based on this experience, we recommend pairing any VA.gov replacement with a clear experience governance function. This function would bring together accessibility, design, content, and analytics reviews into a single operating rhythm. Building on the existing VFSP collaboration cycle and supported by automated checks and shared playbooks, this approach standardizes patterns and metrics while enabling teams to test and improve experiences over time. We further recommend formalizing this governance through documented standards, automated checks, and a shared operating rhythm that integrates accessibility, content, design, and analytics reviews.
+More seamless Veteran experience and longterm resilience
+As VA modernizes VA.gov, it should focus on making healthcare and benefits interactions feel seamless for Veterans. Tasks like managing appointments, reviewing health information, submitting claims, and tracking outcomes are part of a single journey--even when they rely on different backend systems. A modern VA.gov should provide consistent identity, navigation, language, and support across all touchpoints.
+We recommend emphasizing experience-level integration instead of deep technical coupling. This approach reduces Veteran confusion, builds trust, and enables Veterans to move easily between clinical and non-clinical tasks. Lessons from VA.gov and HealthCare.gov show that shared design patterns, clear content, and consistent support flows create a coordinated experience even when systems, data, and governance remain separate.
+Focusing on usability and continuity over system-level integration lets VA improve the coherence, resilience, and accessibility of its digital front door. It also supports regulatory compliance and phased platform evolution while laying the foundation for a more unified, Veteran-centric online experience over time.
+5
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+Relevant Technologies and Approaches
+VA is seeking solutions and approaches that can fundamentally improve the digital experience across benefit portfolios while preserving service continuity, Veteran trust, and operational reliability at a national scale. Based on our expertise supporting VA, HHS, and the DoD in live operations, we have learned that successful replacements depend less on individual technology choices and more on disciplined platform patterns, analytics foundations, and operating practices that reduce risk while enabling change. In practice, teams minimize replacement risk by structuring modernization to evolve the system while users continue to rely on it, rather than treating replacement as a single technical event.
+Our contribution centers on three interconnected layers--platform and CMS patterns, data and analytics foundations, and operating practices-that collectively enable safe, incremental modernization. These layers provide mechanisms for observability, accountability, and controlled change, ensuring VA can adopt automation and AI confidently during system replacement.
+Platform and CMS layer: governed reuse with controlled flexibility
+Based on our experience operating and governing VA.gov, we have found that a design-system-centric Drupal approach is effective at enabling reuse while protecting consistency and accessibility. Centrally governed, versioned navigation, templates, forms, error handling, and notification patterns enable product teams to configure and extend shared components rather than building bespoke structures. This approach reduces replacement risk by enabling VA to introduce improvements without forcing Veterans to relearn core interactions. Based on this experience, we recommend that VA maintain a centrally governed CMS architecture with shared, versioned components, such as navigation, templates, and forms, so modernization efforts can proceed incrementally without fragmenting the Veteran experience or increasing accessibility risk.
+In our VFSP governance role, we enforce VA.gov Experience Standards through structured design and content reviews integrated into delivery workflows. For a replacement model, we would extend this approach with automated linting, accessibility validation, and Drupal content-model constraints that enforce standards by default. We have learned that excessive flexibility increases fragmentation, accessibility risk, and security exposure, while overly rigid controls can slow delivery and impede adaptation. Mature platforms manage this tradeoff through well-designed component libraries, transparent governance, and clear escalation paths. This operating model aligns with VA engineering excellence guidance and VA Platform One principles, emphasizing shared services and reusable components to deliver change safely at scale.
+Data, analytics, and AI-ready measurement
+We treat analytics as an operational safety mechanism rather than a reporting function. An event-based analytics model that instruments key Veteran journeys--such as benefit discovery, authentication through Login.gov or ID.me, application completion, and benefit management--enabling teams to monitor service continuity across channels and detect degradation before it affects large populations.
+Our GA4 migration work on VA.gov demonstrated how to preserve longitudinal comparability while transitioning to an event-based model, and how to enable government teams to self-serve insights within strict governance, role-based access, and audit controls.
+6
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+We have learned that this analytics foundation is a prerequisite for responsible AI use, not a shortcut to automation. Based on this experience, we recommend establishing an enterprise analytics foundation that treats journey-level measurement as a core operational capability, with strong governance, auditability, and human oversight to support continuous improvement and responsible AI adoption.
+Our approach assumes automated outputs may be incomplete or incorrect and must operate within clearly defined boundaries, with human oversight, documented decision paths, and audit visibility. These practices reduce risk by ensuring AI-assisted features do not introduce unverified outputs or undermine Veteran trust.
+User journey workflows for identity, sign-in, recovery, and support
+Identity and access workflows are among the highest-risk moments in the Veteran experience. Through our work on VA.gov and VA.gov Veteran Support Services (VAVS), including My HealtheVet migration and downstream support operations, we have learned that user trust is most vulnerable not during successful sign-ins, but at failure and recovery points. Veteran frustration, support volume, and trust erosion concentrate at these moments.
+For a VA.gov replacement, we recommend defining canonical user journeys for identity proofing, sign-in, recovery, and navigation, and pairing each journey with standardized patterns for error messaging, crosschannel support, and analytics instrumentation. We also recommend pairing these canonical journeys with standardized recovery patterns and analytics instrumentation so VA can detect friction early and adjust without large-scale redesigns. These practices enable VA to identify where Veterans struggle and to adjust incrementally, without redesigning the entire system. Multilingual and accessibility requirements should be embedded into these journeys by default, ensuring equitable support across populations.
+Known risks, tradeoffs, and lessons learned
+Across VA.gov and HealthCare.gov, we have learned that the most significant risks in large-scale digital replacements are organizational rather than technical. Redesigning information architecture, content, and identity flows simultaneously without tight coordination can overwhelm support channels and confuse users. We also observed that rapid, large-scale changes to authentication--such as narrowing sign-in options without staged transitions--can increase Tier 2 and Tier 3 service issues. To mitigate these risks, we recommend staged rollouts, clear cross-channel communication, and measurable checkpoints to validate changes before expanding them to broader Veteran populations.
+Without strong analytics in place early, organizations struggle to detect problems or demonstrate progress. Central standards improve safety and consistency, but only when governance functions are adequately staffed and integrated into delivery. Our approach is to surface these tradeoffs early and design governance, analytics, and operating practices that enable VA to manage change intentionally while maintaining service continuity and Veteran trust. We recommend establishing analytics, experience standards, and a staffed governance function early in any VA.gov replacement to detect issues, manage tradeoffs, and preserve service continuity throughout modernization.
+7
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+Acquisition Strategy Considerations
+Across multiple large-scale digital modernization efforts, we have found that successful outcomes are driven as much by collaboration and communication as by the underlying technical approach. In our experience, delivery teams perform best when there is sustained, direct engagement with government stakeholders. This engagement supports rapid clarification of requirements, informed prioritization, and timely course correction. These factors are especially important for high-visibility, mission-critical platforms such as VA.gov. From an acquisition standpoint, our experience shows that contracting structures can significantly affect the effectiveness of this collaboration. In past efforts, flexible contracting vehicles have supported broader participation and more effective engagement between the government and delivery teams. Governmentwide acquisition contracts (GWACs) are one example of mechanisms that have enabled this type of flexibility. In some cases, these vehicles have enabled agencies to structure work into smaller, more discrete task orders. This structure has aligned well with iterative delivery models and evolving requirements. We also believe that an IT services acquisition strategy that incorporates GWACs better aligns VA with Executive Order 14240 of March 20, 2025, and supports VA's mandate to eliminate waste and duplication while delivering the best possible services for Veterans. We have also found that the technology landscape changes rapidly, and contractor capabilities evolve over time. Approaches that encourage ongoing competition, when paired with clear requirements and measurable outcomes, have tended to produce more adaptive solutions. These approaches have often been more effective than those relying on a narrow or fixed contractor pool. Our experience indicates that small-business set-asides can be effective when they are shaped by meaningful, outcome-oriented requirements. Such approaches have helped attract capable, current firms while supporting innovation and scale delivery. Contracting mechanisms that provide timely access to qualified small businesses can serve as a useful complement to existing approaches. Taken together, these experiences reflect strategies that have supported effective collaboration, adaptability, and delivery in complex digital environments. We offer these observations to help inform VA's consideration of options as it continues to evolve and modernize VA.gov.
+Conclusion
+The So Company is ready to support VA in modernizing VA.gov with a phased, Veteran-focused approach that balances innovation, continuity, and operational reliability. Our experience across VA, HHS, CMS, and DoD informs practical recommendations for platform governance, analytics, identity, and experience-level integration. By following these approaches, VA can improve usability, reduce risk, and create a more seamless digital front door for all Veterans while maintaining service continuity throughout the modernization.
+8
+
+by
+Appendix A: Reference Visuals
+The Veterans' Journey
+
+Replacement for VA.GOV Department of Veterans Affairs
+
+For a complete view of the journey: https://department.va.gov/veterans-experience/wpcontent/uploads/sites/2/2024/04/veteran-journey-map-2016-508-V4.23.24.pdf Veterans' Journey: Through our work on VA.gov, The So Company has helped VA understand the Veteran experience as a set of connected life stages--from pre-service through end-of-life--rather than a series of disconnected transactions. These stages fall into three broad phases, each defined by different goals, pressures, and aspirations. By mapping recurring moments, we've learned how to design digital experiences that meet Veterans where they are--anticipating needs, reducing friction, and supporting continuity across a lifetime of service and care.
+A-1
+
+by
+VA.gov Unified Entry Point
+
+Replacement for VA.GOV Department of Veterans Affairs
+
+Unified entry reduces fragmentation and accelerates orientation: The VA.gov homepage serves as a single, Veteran-centered point of entry for benefits, search, and account creation. Rather than requiring Veterans to navigate VA's organizational structure, this model anticipates intent and supports discovery across life stages. Our work helped operationalize this approach by prioritizing clarity, predictable navigation, and service continuity. Risk mitigated:
+� Fragmented entry points that confuse users � Increased abandonment during early task discovery � Large-scale IA changes that destabilize traffic
+A-2
+
+by
+Secure Sign-In and Identity Options
+
+Replacement for VA.GOV Department of Veterans Affairs
+
+Authentication designed as a trust-critical journey: VA.gov's sign-in experience treats identity proofing and authentication as high-risk moments, not background infrastructure. A clear presentation of Login.gov and ID.me options, paired with visible help and recovery paths, reduces uncertainty when Veterans encounter friction. Our experience supporting My HealtheVet transitions and Veteran Support Services informed patterns that emphasize transparency, recovery, and analytics-driven monitoring.
+Risk mitigated:
+� Spikes in Tier 2/3 support volume during auth changes � Veteran trust erosion during failed sign-ins � Poor visibility into failure and recovery behavior
+A-3
+
+by
+VA.gov Design System and Structured Patterns
+
+Replacement for VA.GOV Department of Veterans Affairs
+
+The VA.gov Design System provides centrally governed templates, components, and patterns that enable safe, incremental improvements in accessibility, layout, and navigation. Our governance role on the Veterans-Facing Services Platform (VFSP) ensures these standards are enforced through structured reviews and shared guidance, supporting modernization while maintaining consistency and compliance.
+Risk mitigated:
+� Accessibility regressions at scale � Inconsistent user experiences across programs � Over-customization that increases security and maintenance risk
+
+A-4
+
+Replacement for VA.GOV Department of Veterans Affairs
+by
+User-Centered Content and Experience Evolution
+Experience improvements layered onto live operations: This example of The So Company's work on VA.gov shows how content strategy, information architecture, and user-centered design can evolve a high-visibility platform without disrupting services. By grounding changes in Veteran needs, accessibility standards, and analytics, we improve comprehension and task completion while maintaining uptime and operational stability. Risk mitigated:
+� Service disruption during redesigns � Content changes that increase confusion or support demand � Accessibility debt introduced during rapid updates From Journey Insight to Operational Reality Together, these visuals illustrate how The So Company translates Veteran journey insight into platformscale execution. Grounded in the Veterans' Journey, which frames the Veteran experience as a connected set of life stages from pre-service through end of life, our work focuses on the moments where continuity, trust, and clarity matter most--entry, identity, navigation, and recovery.
+A-5
+
+

@@ -1,0 +1,91 @@
+Replacement Model for VA.gov
+Department of Veterans Affairs
+
+Sources Sought Response
+
+February 5, 2026
+UEI: RGMQQK1DLAN9
+Point of Contact David Maskeroni Co-founder federal@aquia.us (443) 952-3756
+
+Aquia Inc. 4225 Charity Neck Rd. Virginia Beach, VA 23457
+
+The data contained herein is confidential, and proprietary to Aquia Inc. and is intended only for the use by the recipient. Any disclosure in whole or in part in any manner is prohibited unless authorized in writing by Aquia Inc.
+
+RFI Response 36C10B26Q0131 February 5, 2026
+
+Sources Sought Response: VA.gov Replacement Model
+Name of Offeror Prime: Aquia Inc.
+
+Unique Entity Identifier (UEI)
+Address
+Date of Submission
+Contract Vehicles
+CAGE Code
+
+RGMQQK1DLAN9
+4225 Charity Neck Rd. Virginia Beach, VA 23457s February 5, 2026
+SPRUCE Contract #36C10B25D0002 (Aquia Nava II JV) GSA Contract #47QACA25K0636 8XPQ4
+
+Aquia Inc. is a Service-Disabled Veteran-Owned Small Business (SDVOSB) and digital services firm specializing in cloud infrastructure, cybersecurity, and compliance automation. Since 2021, we've generated millions in cost savings through cloud services and licensing optimization, enabled civil servants to double health care fraud investigations through streamlined cloud-based systems, and reduced authorization timelines by 74% through modernized security processes. We currently serve federal customers including the Department of Veterans Affairs, Health and Human Services, Centers for Medicare and Medicaid, the US Patent and Trademark Office, and the Air Force.
+Capabilities Statement
+1. Platform Architecture & Continuous Authority to Operate (cATO+)
+VA requires a modernization approach that maintains continuity while ensuring long-term resilience. We propose a cATO+ (Continuous Authority to Operate) framework to meet these needs:
+ Active Defense & Automation: Move beyond static point-in-time security by utilizing automated technical evidence collection and continuous monitoring.
+
+1
+
+RFI Response 36C10B26Q0131 February 5, 2026
+ Zero Trust Integration: Implementing the three pillars of cATO+ (Continuous Monitoring, Active Cyber Defense, and Secure Software Supply Chain) ensures that the new VA.gov is secure from the code level to the user interface.
+ Rapid Deployment: By automating the compliance boundary, we can deploy updates to the Veteran experience faster without compromising the "highly visible federal environment" regulations.
+2. Identity, Authentication, and Navigation
+The VA is specifically seeking next-generation digital identity and navigation solutions.
+ Identity Proofing & Sign-In: Leveraging our experience with the Centers for Medicare & Medicaid Services (CMS), we can implement identity solutions that managed over 22 million active users with high reliability.
+ Streamlined Recovery: Utilizing automated workflows for account recovery to reduce friction for Veterans and their families.
+ Seamless Navigation: Applying user-centric design principles to unify the disparate benefit portfolios into a single, intuitive entry point.
+3. SaaS Visibility & Enterprise Architecture
+Modernizing VA.gov requires integrating a "diverse portfolio of legacy and emerging systems".
+ Unified Visibility: We will utilize an Enterprise Architecture approach that provides full visibility into the SaaS applications and legacy systems powering VA.gov.
+ Shadow IT Mitigation: By identifying all unsanctioned applications and Shadow SaaS, we ensure the new platform is not only modern but governed and secure.
+ Operational Governance: Establishing a robust operating model that coordinates experience design with backend platform architecture.
+4. Relevant Experience & Past Performance
+Our past performance directly mirrors the scale and complexity of the VA.gov replacement. We have supported DoD agencies, including the Air Force's Platform One "Big Bang" (now Cloud Native Infrastructure) and "Party Bus" program workstreams by demonstrating our ability to manage mission-critical, high-visibility federal software environments. We have also supported CMS by providing cybersecurity, cloud architecture, and DevSecOps for the largest civilian healthcare agency, managing systems for 22M+ users. Additional detail on this relevant contract experience is as follows:
+2
+
+RFI Response 36C10B26Q0131 February 5, 2026
+CMS ISPG Cybersecurity & Modernization
+Overview of Scale
+In support of CMS, we provided comprehensive support for the Information Security and Privacy Group (ISPG). This engagement required managing the security and architectural integrity of systems supporting over 22 million active users. This directly mirrors the VA's requirement to maintain continuity of service for millions of users while modernizing core infrastructure.
+Technical Execution & Alignment with VA.gov Objectives
+ Zero Trust & Identity Management: We implemented Zero Trust principles and identity solutions at a scale exceeding the requirements for a "central entry point for benefits and healthcare".
+ Continuous Authorization (cATO+): We pioneered the use of cATO (Continuous Authority to Operate) to move away from static compliance. This approach allows the VA to modernize in a way that supports long-term scalability and resilience without the downtime associated with traditional re-authorization cycles.
+ Legacy Integration: Our team successfully integrated modern DevSecOps practices with a diverse portfolio of legacy and emerging systems. We managed complex dependencies across federal healthcare data silos, ensuring high availability and secure data transit.
+ Governance & Operating Models: We provided strategic coordination across platform architecture and governance. This resulted in a more seamless customer experience for millions of citizens by reducing the technical debt and friction within the CMS digital ecosystem.
+Key Outcomes & Lessons Learned
+ Scalability: Demonstrated the ability to handle massive traffic spikes during open enrollment periods, a critical requirement for VA.gov's long-term "adaptability and resilience".
+ Risk Mitigation: By utilizing automated technical evidence collection (a core pillar of our cATO+ framework), we reduced the human-error risk typically found in "regulated, highly visible federal environments"
+3
+
+5. Risks, Trade-offs, and Lessons Learned
+
+RFI Response 36C10B26Q0131 February 5, 2026
+
+ Risk: Maintaining continuity of service for millions while replacing the engine.  Mitigation: We recommend a Strangler Fig pattern--gradually replacing legacy
+components with new services--supported by our cATO+ framework to ensure the security boundary is never compromised during the transition.  Lesson Learned: Automated compliance and strong SaaS Visibility prevent security gaps that typically occur during rapid digital migrations.
+
+4
+
+cATO Modernization Engine
+
+RFI Response 36C10B26Q0131 February 5, 2026
+
+5
+
+RFI Response 36C10B26Q0131 February 5, 2026
+User Journey for Next-Gen Identity and Navigation
+6
+
+RFI Response 36C10B26Q0131 February 5, 2026
+Enterprise SaaS and Legacy System Visibility Map
+7
+
+

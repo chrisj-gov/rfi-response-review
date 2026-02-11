@@ -1,0 +1,70 @@
+1 Company Overview
+
+Veterans Affairs - 36C10B26Q0131 DA01 Replacement Model for VA.gov
+5 February 2026
+
+Company Name
+Location Point of Contact
+
+PALI Federal LLC Joint Venture between KAIA Inc. and The MAASAI Group Manassas, VA Jon Levy Managing Partner, PALI Federal President/CEO, KAIA Inc jon.levy@kaiainc.com
+
+PALI Federal LLC (PALI Federal) is a joint venture between KAIA Inc. and The MAASAI Group, LLC (TMG) formed to support public-facing digital services in regulated, high-visibility federal environments. KAIA provides digital communication and web delivery, including accessibility-focused design and implementation, while TMG brings federal program governance, operational continuity, and experience supporting identity-governed access in oversight-driven settings. Together, PALI Federal combines these strengths to exceed VA's stated need to coordinate experience design, content, platform delivery, governance, analytics, and operating models so VA can maintain reliable service at scale while making changes in phases. This joint capability is particularly well suited to modernization efforts where continuity of service, regulatory compliance, and user trust must be preserved while change occurs incrementally.
+
+Core Capabilities
+
+PALI Federal's capabilities align to the type of work VA describes, coordinating experience, content, platform delivery, governance, analytics, and operating practices to sustain reliable service at scale.
+Core strengths we would bring to VA.gov replacement planning and execution include: · Audience-centered delivery methods. KAIA describes a practical approach that starts with goals, understanding the audience, developing solutions, and improving over time, well-suited to incremental modernization where continuity matters. · Web delivery capability. KAIA's web development capability references standard delivery tooling and methods (Figma for design; modern front-end development; Node.js tooling; CSS/Tailwind; JavaScript for interactive elements). · Accessibility expectations. PALI Federal's joint capability materials cite alignment to Section 508 and WCAG 2.1practices, which is foundational for VA-facing digital services. · Operating in regulated, high-visibility environments. PALI Federal's federal experience includes environments with strict privacy controls and identity-governed access where operational governance and continuity are central concerns.
+
+FOR INTENDED AUDIENCE ONLY - UNCLASSIFIED INFORMATION PROPRIETARY INFORMATION - COPYRIGHT 2025.
+1
+
+2 Relevant Experience / Past Performance Information
+
+Veterans Affairs - 36C10B26Q0131 DA01 Replacement Model for VA.gov
+5 February 2026
+
+· Department of State TMG has supported Department of State programs operating at enterprise scale that were public-facing, identity-dependent, and subject to strict privacy and oversight requirements, serving large, diverse, and geographically distributed user populations. TMG's support encompassed identity and eligibility lifecycle management, including onboarding and rolebased access provisioning tied to program status, ongoing authentication maintenance as user roles or eligibility changed, account recovery and exception handling for lost credentials, locked accounts, or status mismatches, and controlled offboarding when access was no longer authorized. These workflows required close coordination among operational teams, program owners, and system administrators to maintain continuity of access during program updates, administrative changes, funding cycles, and workforce transitions. Account recovery consistently emerged as the highest-risk workflow, often more disruptive than initial access provisioning, reinforcing the need for recovery-first design, clear escalation paths, and plain-language user guidance. Through disciplined governance, phased change management, and operational ownership of identity-dependent workflows, TMG helped sustain uninterrupted access and user trust in a highly visible federal environment, experience directly applicable to the continuity, recovery, and governance challenges identified by VA for the VA.gov Replacement Model.
+
+· FAA SE2025 (Promoting NAS) KAIA supported a sustained federal initiative involving frequent digital updates across a large portfolio of efforts, described as more than 100 individual projects. This work required disciplined coordination, consistent messaging, and governance across many deliverables while maintaining a stable user experience. The outcome was the ability to manage ongoing updates without degrading usability or clarity, an experience that maps directly to VA.gov's need to evolve content, navigation, and guidance continuously across multiple stakeholders and benefit areas.
+
+· Private Organization KAIA also supported a private-sector organization through integrated web delivery and ongoing digital presence as part of a broader communications effort. This experience reinforced the importance of sustainment and operational ownership after initial delivery, demonstrating how web platforms must be maintained, governed, and adapted over time rather than treated as one-time implementations--an essential consideration for a longlived platform such as VA.gov.
+
+FOR INTENDED AUDIENCE ONLY - UNCLASSIFIED INFORMATION PROPRIETARY INFORMATION - COPYRIGHT 2025.
+2
+
+Veterans Affairs - 36C10B26Q0131 DA01 Replacement Model for VA.gov
+5 February 2026
+3 Response to the VA Topics and Questions (Approach and Recommendations)
+VA describes the replacement need as broader than technology alone and explicitly highlights experience design, platform architecture, content strategy, governance, analytics, and operating models. PALI Federal's recommendations are organized to support that full scope.
+3.1 Coordinating experience, content, and operations so improvements hold up over time · In Department of State programs that were public-facing and identity-dependent, we saw that access and recovery breakdowns quickly stop people from completing critical tasks, so we defined journey measures early (completion, errors, recovery success), and used them to reduce lockouts and repeat support contacts. · Delivering FAA SE2025 work described as over 100 individual projects, including website updates and digital content, showed that when many teams make frequent changes, shared measures and consistent guidance are what keep people oriented and able to finish tasks. · In large federal services where continuity matters and updates must happen in phases, we use stable content and navigation patterns across service areas to reduce confusion and support burden while underlying systems change.
+3.2 Maintaining continuity of service while replacing major components · VA's priority is to keep the site working for millions of users while changes are made, including changes that depend on legacy and emerging systems. · Based on our experience supporting regulated federal programs, we avoid disruptive cutovers and replace components in phases by journey or service area, so people can continue to complete tasks throughout the transition. · We use rollback plans and monitoring with extra attention to high-risk flows such as signin and account recovery, because failures there stop task completion immediately. · We maintain a clear view of system dependencies and stakeholder touchpoints so integration changes do not cause outages or broken transactions as legacy and emerging systems evolve.
+3.3 Operating effectively in a regulated, high-visibility environment PALI Federal experience includes environments requiring privacy controls, identity governance, and audit-ready operational practices during ongoing change, conditions that match the oversight reality VA describes.
+3.4 Technologies and Approaches We Recommend (grounded in our delivery capability)
+FOR INTENDED AUDIENCE ONLY - UNCLASSIFIED INFORMATION PROPRIETARY INFORMATION - COPYRIGHT 2025.
+3
+
+Veterans Affairs - 36C10B26Q0131 DA01 Replacement Model for VA.gov
+5 February 2026
+· We recommend a web delivery approach consistent with our documented capability: design and prototyping in Figma, modern front-end development using Node.js tooling, and CSS/Tailwind with JavaScript for interactive components.
+· We use this toolchain to support repeatable templates and patterns, reduce one-off page builds, and make handoffs between design, content, and development clear and manageable.
+· We apply Section 508 and WCAG 2.1 expectations as acceptance criteria for templates, content, and workflows so accessibility is addressed throughout delivery.
+· We use an iterative method from defining goals, understanding the audience, developing and improving to manage change in phases and support continuity of service as updates are released.
+· The tools listed are representative rather than prescriptive, we select tooling to support maintainability, accessibility, and fit with government-approved platforms without constraining VA's architecture choices.
+3.5 User Journey Workflows (Identity proofing, sign-in, recovery, and navigation) · VA welcomes workflows for identity proofing, sign-in, recovery, and navigation. · PALI Federal will submit these workflows as plain-language, reviewable artifacts that include swimlanes, edge cases, and measures. · In Department of State programs, we found that outcomes often depend on operational execution (e.g., how steps are communicated, governed, and supported), and that account recovery is commonly the highest-risk failure point, especially for users with limited connectivity, lower digital literacy, or accessibility needs. · We emphasize for VA.gov the recovery-first design, clear guidance, and measurable outcomes to reduce lockouts and repeat support contacts while working within VA's current and future identity ecosystem.
+Identity Proofing Workflow · Deliverable: step-by-step flow, decision points, and support options · Measurement: completion rate by step; time-to-complete; top failure reasons
+Sign-In Workflow · Deliverable: sign-in flow with common error states and plain-language guidance · Measurement: success rate; repeat failures; lockouts
+Account Recovery Workflow (Recovery-first design) · Deliverable: password reset, locked account, lost second-factor scenarios; clear "what happens next" steps · Measurement: recovery completion; time-to-recover; repeat support contacts
+FOR INTENDED AUDIENCE ONLY - UNCLASSIFIED INFORMATION PROPRIETARY INFORMATION - COPYRIGHT 2025.
+4
+
+Veterans Affairs - 36C10B26Q0131 DA01 Replacement Model for VA.gov
+5 February 2026
+Navigation Workflow · Deliverable: pre-auth pathways by top tasks; post-auth landing that routes users to next actions · Measurement: findability; search success; top exit points
+3.6 Known Limitations, Risks, Tradeoffs Based on PALI Federal experience supporting regulated federal programs, we describe these risks in plain terms and tie mitigation to operational actions, with added focus on access and recovery.
+Key Risks and Mitigations · Risk: User lockout during transition changes. Mitigation: phased releases; rollback steps; monitoring tied to sign-in/recovery measures. · Risk: Increased friction from authentication changes. Mitigation: plain-language guidance; tested recovery paths; measure drop-offs step-bystep to identify where users struggle most. · Risk: Accessibility regressions as templates and pages change. Mitigation: accessibility acceptance criteria aligned to Section 508/WCAG; inclusive testing and verification during delivery, not after. · Risk: Governance gaps create inconsistent content and user experience across benefit areas. Mitigation: clear ownership, publishing rules, and review cycles that match a large enterprise site's needs.
+Common Tradeoffs · Security rigor vs ease of use · Deployment speed vs continuity of service · Central governance vs program-specific flexibility
+Lessons Learned · Large federal initiatives require consistent messaging and disciplined coordination across many deliverables; our FAA SE2025 has over 100 individual projects including website updates and digital content development. · Recovery is where many users fail; designing and testing recovery paths early helps reduce lockouts and repeat support contacts, especially for users with limited connectivity, lower digital literacy, or accessibility needs,
+FOR INTENDED AUDIENCE ONLY - UNCLASSIFIED INFORMATION PROPRIETARY INFORMATION - COPYRIGHT 2025.
+5
+
+

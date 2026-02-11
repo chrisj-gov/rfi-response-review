@@ -1,0 +1,222 @@
+UNITED STATES DEPARTMENT OF VETERANS AFFAIRS (VA)
+Replacement Model for VA.gov
+Source Sought Notice Capability Statement Solicitation No.: 36C10B26Q0131
+AVB Digital II Certified 8(a) and Service-Disabled Veteran-Owned Small Business ISO 9001:2015 | CMMI Level 3 | ISO 17020 | FEDRAMP 3PAO UEI No.: RHFJYYSNG1U4 | CAGE Code: 9LQD7 12110 Sunset Hills Road, Suite 600 Reston, VA 20190 avb-digital-ii.com
+
+Replacement Model for VA.gov-February 5, 2026
+
+i
+
+Contents
+
+COMPANY OVERVIEW
+
+1
+
+Brief Description of Relevant Capabilities
+
+1
+
+OUR UNDERSTANDING
+
+2
+
+DESCRIPTIONS OF RELEVANT IDEAS, CAPABILITIES, TECHNOLOGIES, AND APPROACHES 2
+
+Proposed Ideas to Help VA Modernize VA.gov and Improve Performance:
+
+2
+
+REORGANIZE THE VA.GOV PLATFORM INTO RATIONAL, MODULAR GOVERNANCE BODIES
+
+3
+
+RE-EVALUATING DRUPAL CONTENT DELIVERY AND/OR RETHINK CONTENT MANAGEMENT
+
+SYSTEMS
+
+4
+
+REPLACE SEARCHGOV WITH AN AI SEARCH TOOL
+
+4
+
+Recommended Approach and Opportunity
+
+5
+
+CASE STUDIES OR EXAMPLES FROM SIMILAR ENVIRONMENTS WITH SIMILAR
+
+CHALLENGES
+
+6
+
+USER JOURNEY WORKFLOWS FOR IDENTIFY PROOFING, SIGN-IN, RECOVERY AND
+
+NAVIGATION
+
+7
+
+KNOWN LIMITATIONS, RISKS, AND TRADEOFFS
+
+7
+
+Limitations, Risks, and Tradeoffs of Introducing Decomposing Platform into Modular Governance
+
+Bodies
+
+7
+
+Limitations, Risks, and Tradeoffs of Recoupling Drupal CMS
+
+8
+
+Limitations, Risks, and Tradeoffs of Introducing AI Search
+
+9
+
+LESSONS LEARNED FROM PAST DEPLOYMENTS
+
+9
+
+ADDITIONAL INFORMATION RELEVANT TO VA'S OBJECTIVES
+
+10
+
+Replacement Model for VA.gov-February 5, 2026
+
+ii
+
+CAPABILITY STATEMENT
+
+Company Overview
+
+Company Name Location
+
+AVB Digital II Reston, Virginia
+
+AVB Digital II (AVB) is pleased to submit this response to the Replacement Model for VA.gov sources sought notice issued by VA. AVB is a Service-Disabled Veteran-Owned Small Business (SDVOSB) and 8(a)-certified joint venture, combining the expertise of two highly qualified organizations, Vaultes, LLC (Vaultes) and Bixal Solutions Inc. (Bixal), that specialize in delivering digital transformation services and cybersecurity solutions.
+
+Brief Description of Relevant Capabilities
+
+AVB offers a full suite of digital services for website development, enterprise information technology, content management systems, strategic communications, and end to end cybersecurity. Since 2008, AVB has supported more than 75 Drupal-based federal websites across development, user experience, maintenance, and content management functions. AVB has supported updates for major federal websites such as the Small Business Administration's (SBA) SBA.gov and the Department of Justice (DOJ)-affiliated public-facing sites, and also provides comprehensive content operations for the Department of Veterans Affairs' (VA) flagship website, VA.gov.
+- Vaultes, a SDVOSB and 8(a)-certified small business, is a recognized leader in cybersecurity and digital services. With experience in implementing the Risk Management Framework (RMF) process, Vaultes is adept at managing security assessments, mitigating vulnerabilities, and ensuring compliance with federal regulations. Vaultes' certification as a Third-Party Assessment Organization (3PAO) under the Federal Risk and Authorization Management Program (FedRAMP) underscores our capacity to conduct security assessments and ensure that cloud technologies meet the highest standards. Additionally, Vaultes is an ISO 17020:2012 and 9001:2015-accredited organization, demonstrating our adherence to rigorous quality standards in cybersecurity and technical service delivery.
+- Bixal is a leader in human-centered digital transformation, specializing in creating and operating technology solutions that advance sustainability and lasting positive impact. From managing complex IT modernization contracts for General Services Administration (GSA) with more than 80 full-time equivalents (FTEs) supporting 10+ concurrent task orders, to managing contracts of up to $55M in total contract value for Centers of Medicare and Medicaid Services (CMS), with Exceptional Contractor Performance Assessment Reporting System (CPARS), to developing complex data environments supporting over eight (8) petabytes of mission-critical data, Bixal has proven its ability to manage large-scale IT modernization initiatives and contracts for Federal Government agencies.
+AVB appreciates your consideration and welcomes the opportunity to establish a rewarding relationship with VA under this activity. Should you have any questions or concerns, please contact David Nazario (David.nazario@vaultes.com, 386-804-3815), who is authorized to negotiate for AVB.
+
+Replacement Model for VA.gov-February 5, 2026
+
+1
+
+Our Understanding
+VA.gov is a mission-critical platform serving millions of Veterans, caregivers, and family members each month, built through years of sustained investment to honor the United States Department of Veterans Affairs' (VA) responsibility to deliver reliable, accessible, and secure services for those that have served our nation. VA.gov's current decoupled architecture uses Drupal as the enterprise content management system (CMS) for static pages, with modern frameworks such as Ruby on Rails, React, and Next.js. This architecture, supported by shared Platform services and standards, has enabled VA to scale online services to Veterans, improve accessibility and information consistency, and support dozens of cross-functional product teams operating in a highly regulated environment. Recent efforts to improve performance and platform reliability reflect a clear commitment to maintaining continuity of service while incrementally modernizing the existing ecosystem in line with VA's priorities of modernizing systems, improving security, and digitizing paper forms.
+At the same time, VA faces growing challenges that extend beyond CMS performance or individual applications. We know from feedback that Veterans view VA.gov as a collection of journeys (for instance, "verify my identity and sign-in", "refill my prescription", "apply for disability") rather than as a set of individual pages or products owned by disparate offices and teams. These journeys must integrate with a complex mix of legacy and emerging systems, comply with stringent security and identity requirements, and remain adaptable to policy and program change. The VA's request to fundamentally improve the digital experience across all benefit portfolios reflects an opportunity to step back and evaluate how platform architecture, experience design, content strategy, governance, and operating models can evolve together to better support seamless, Veteran-centric experiences today while positioning VA.gov for longterm scalability and resilience.
+Descriptions of Relevant Ideas, Capabilities, Technologies, and Approaches
+Proposed Ideas to Help VA Modernize VA.gov and Improve Performance:
+1. Reorganize the VA.gov Platform into rational, modular governance bodies
+2. Reevaluating Drupal content delivery and/or rethink content management systems
+3. Replace search.gov with an AI search tool
+AVB brings the proven capabilities and expertise needed to execute these ideas and help VA achieve its intended outcomes and vision for VA.gov. We have supported large, mission-critical government platforms by working closely with government stakeholders to deliver humancentered experiences built on secure, enterprise-scale content management and platform architectures. We bring deep experience designing and developing Drupal-based CMS platforms that support complex editorial workflows, strong governance, accessibility by default, and reuse through component-based design systems. Our teams work closely with product owners, content strategists, designers, and engineers to ensure decisions respond to real user needs, particularly for high-stakes journeys, while remaining secure, reliable, and operationally sustainable.
+We understand the current VA.gov architecture and the focus of recent investments to strengthen the existing platform and Veteran Facing Services. The most recent CMS-focused contract emphasized continuity of service, improved publishing performance, editorial support, and stabilization of the decoupled Drupal and Next.js build pipeline. Those efforts reflect the reality
+
+Replacement Model for VA.gov-February 5, 2026
+
+2
+
+that VA.gov is already a highly mature platform that must continue to serve millions of Veterans without disruption. At the same time, we see an opportunity, reflected in this request, for VA to step back and evaluate how experience design, identity, navigation, platform architecture, and operating models can evolve together to better support Veteran-centric journeys that span benefits, health care, and services.
+1. REORGANIZE THE VA.GOV PLATFORM INTO RATIONAL, MODULAR GOVERNANCE BODIES
+Early in the history of VA.gov, it was critical to have a consolidated, single source of governance over product teams that were developing Veteran Facing Services. VA.gov Platform has now reached the extent of its abilities to provide oversight over the increasing number of services and teams developing on VA.gov, and we encourage VA to consider breaking apart the Platform into a series of contracts for rationally grouped, modular governance bodies. This continues a trend established in other areas of the VA's Office of Information Technology (OIT), such as the VA Lighthouse API program having ownership and oversight over API development, developer documentation, cATO, and DevSecOps practices outside of the Platform Team. Within the VA Office of the Chief Technology Officer (OCTO), the content and information architecture governance and accessibility governance teams are already decentralized from the Platform, and are an example of how VA may rationally create modular governance bodies by topic. By decomposing the monolith of VA.gov Platform, VA gains flexibility and avoids vendor lock-in, reducing overall risk while providing each modular governance body with a clear scope of ownership. Product teams will be able to develop faster, as these modular governance teams will have clear scope and directives, allowing teams to avoid the often bureaucratic nature of the Platform collaboration cycle caused by unclear governance boundaries.
+We have seen how effective content governance outside of the Platform is through our work supporting the Content and IA team on VA.gov. A consistent challenge in large federated digital platforms like VA.gov is maintaining a coherent voice and experience as more organizations take ownership of content. When many teams author, govern, and publish content with varying familiarity with platform standards, the site can feel disjointed to users and internal stakeholders alike. VA has already taken meaningful steps to address this challenge by moving more content into Drupal and expanding the role of our content team to support partners outside OCTO. We see this direction as both critical and correct.
+Through our current work supporting VA content operations, we have seen firsthand how centralized guidance, shared patterns, and consistent editorial workflows improve clarity, accessibility, and trust across VA.gov. As more content is adopted into the platform each year, we believe continued investment in centralized content expertise, paired with scalable CMS patterns and governance, will be essential to ensuring that Veterans experience VA.gov as a unified, authoritative source, regardless of which internal team owns the underlying content.
+Our work on the VA.gov Content and IA team is proof that decomposing Platform into rational oversight bodies both allows VA to scale more effectively and reduces complexity, allowing VA to quickly adopt new technologies and capabilities without having to force governance into an existing Platform framework.
+
+Replacement Model for VA.gov-February 5, 2026
+
+3
+
+2. RE-EVALUATING DRUPAL CONTENT DELIVERY AND/OR RETHINK CONTENT MANAGEMENT SYSTEMS
+One of VA.gov's challenges is a proliferation of systems and tools. We encourage VA to simplify their approach and consolidate on a single CMS.
+We believe Drupal has been and continues to be a highly successful, secure, and flexible platform for federal agencies. Our teams include engineers with decades of combined experience delivering enterprise Drupal solutions in regulated environments, supported by Acquia-certified developers and architects. We have implemented Drupal in both coupled and decoupled configurations and understand its strengths as a content platform, its security posture, and the operational considerations required to run it at scale within federal constraints.
+Our work with the SBA illustrates how platform strategy should be driven by outcomes rather than architectural ideology. When we began supporting SBA.gov, the site relied on a complex, decoupled architecture that was costly to maintain and difficult for content teams to use. Through a structured evaluation of goals, performance, and editorial needs, we helped SBA intentionally re-couple the platform into a unified Drupal architecture. This approach significantly simplified the system, reduced infrastructure costs by 60 percent, improved page performance by 200 percent, and dramatically enhanced the content administration experience, while ensuring accessibility, consistency, and compliance and improving long-term maintainability. The result was a more resilient, efficient platform that better supported SBA's mission and users.
+Our work with the Administration for Children and Families (ACF) demonstrates how a decoupled architecture can be implemented without relying on build-heavy, static publishing workflows. At ACF, we use Drupal as a headless CMS paired with a Next.js front end, but we intentionally avoid coupling routine content updates to full site rebuilds. Instead, the architecture emphasizes server-side rendering and incremental revalidation, supported by layered caching across Drupal, Varnish, Redis, and AWS CloudFront. Content changes propagate through eventdriven cache invalidation rather than deployment cycles, allowing editors to publish updates quickly while maintaining strong performance and resilience.
+Together, these examples reinforce a consistent lesson from our work: decoupling should be used selectively and deliberately, and static generation should be applied only where it delivers clear, sustained value. By allowing Drupal's native content modeling, workflows, and APIs to remain the authoritative source of truth, and by shifting performance concerns to caching and orchestration layers, VA can reduce operational friction, improve publishing velocity, and maintain scalable, observable platforms.
+Should VA decide that Drupal or recoupling Drupal architecture is not the path forward, we encourage VA to utilize a tool like Adobe Experience Manager (AEM) as either a headless or coupled architecture for the static portions of VA.gov. AVB has strong relationships with Adobe for potential future collaboration, and can support content design, workflows, and strategy agnostic of specific CMS tooling.
+3. REPLACE SEARCHGOV WITH AN AI SEARCH TOOL
+VA.gov's poor search functionality has been a consistent complaint from Veterans. This is an artifact of poor indexing, poor tooling, and disparate systems managing static content on unauthenticated pages. While search results have improved over the past few years, Veterans are often pointed towards static PDF files that may be outdated, and require a user to scroll through
+
+Replacement Model for VA.gov-February 5, 2026
+
+4
+
+multiple PDF pages to find answers to critical questions. This is not an ideal experience, especially for Veterans with service-related disabilities who deserve rapid, accurate answers from VA.gov. Consolidating content onto a single CMS will drastically improve search functionality over time. We encourage VA to consider one step further and adopt an AI powered search functionality into VA.gov, and sunset the search.gov integration. A well-indexed CMS will enable AI search to give Veterans higher quality search results, with refence capabilities so a Veteran can go directly to source links for further information.
+In January 2026 AVB implemented a custom AI agent using Salesforce AI Search ("SBA Agent") to improve content discoverability and align migrations with editorial and user needs for SBA.gov. We worked closely with the Salesforce team to develop the underlying knowledge base, populating the AI agent with general information about SBA and answers to frequently asked questions using contact center data and Google Analytics insights. We integrated this agent into both beta/preview and production sites. We conducted agent testing with SBA team members and added SBA field office locations based on feedback. End-of-chat survey and a corresponding metrics dashboard are currently in development pending validation with the Office of Management and Budget (OMB).
+Recommended Approach and Opportunity
+Based on our experience supporting VA.gov and similarly complex federal platforms, we believe the opportunity presented by this request is not to immediately select a replacement technology or vendor, but to deliberately create space for structured discovery and evaluation. Over multiple years, VA has made thoughtful, incremental investments in the existing platform, often operating under the assumption that the primary challenges, and their solutions, are already known. While this approach has minimized risk to continuity of operations, it has also limited VA's ability to step back and assess whether persistent challenges around user journeys, navigation across benefit portfolios, authentication flows, content administration, and publishing performance stem from execution gaps, architectural constraints, or foundational platform decisions.
+We recommend an initial discovery phase led by a small, highly experienced, cross-functional team empowered to holistically assess the platform across people, processes, technology, data, and content, ensuring that technical decisions are grounded in the Veteran experience. This team would work in close partnership with VA stakeholders to assess whether ongoing challenges are rooted in the CMS itself, the surrounding decoupled architecture, downstream dependencies, or the way identity, navigation, and content responsibilities are distributed across systems. This evaluation should include testing assumptions about the current architecture, such as whether a highly decoupled model continues to deliver net value, whether parts of the system would benefit from re-coupling or simplification, or whether service boundaries within large, shared backends like vets-api should be redefined to better support independent evolution and performance.
+Importantly, this approach does not presume that Drupal, Next.js, or existing VA platforms are the problem or that they must be replaced. Instead, it establishes a low-risk, evidence-based path to determine where complexity is truly required, where it can be reduced, and where architectural or operational changes would most improve Veteran-facing experiences. An initial, time-boxed discovery effort creates the shared understanding and direction needed to guide near-term decisions, while ongoing research, analytics, and operational feedback loops ensure that architectural and implementation choices continue to be informed by real user and system data over time. By intentionally creating space for discovery alongside delivery, VA can reduce
+
+Replacement Model for VA.gov-February 5, 2026
+
+5
+
+reliance on incumbent-only solutions, encourage innovation grounded in real constraints, and continuously improve the platform while protecting the continuity and trust that VA.gov must maintain.
+Case Studies or Examples from Similar Environments with Similar Challenges
+A closely comparable example of our work in a complex, highly visible federal environment is our modernization of SBA.gov, the SBA's primary digital entry point for entrepreneurs and small businesses. When we began this engagement, SBA.gov operated within a sophisticated but increasingly fragile decoupled architecture that relied on multiple Drupal instances, custom middleware, and a React-based front end. While this approach had been implemented with good intent, it introduced significant operational complexity, slow and inconsistent editorial workflows, and a growing dependency on engineering support for routine content updates. The platform was costly to maintain, difficult to evolve, and increasingly misaligned with the needs of both users and content administrators.
+Rather than assuming the existing architecture needed to be further optimized or replaced wholesale, we worked with SBA to first clarify user needs, editorial requirements, performance goals, and operational constraints. Through this process, we identified that much of the system's complexity did not materially improve the end-user experience. We led a deliberate transition to a more unified Drupal architecture, intentionally re-coupling the front end and content platform, decommissioning unnecessary middleware and microservices, and simplifying the overall system design. As noted above, this approach reduced infrastructure costs, improved page load performance, and dramatically improved the content administration experience by enabling SBA staff to publish and update content without routine developer involvement.
+The outcomes of this work validated the approach. The platform is now easier to govern, operate, and evolve over time. SBA can respond more quickly to policy changes, emergencies, and stakeholder needs. This experience reinforced a key lesson that we believe is directly applicable to VA.gov: in large federal ecosystems, meaningful improvements often come not from adding architectural complexity, but from intentionally reducing it in a way that protects continuity of service.
+A similar approach guided our work on MadeinAmerica.gov, where we helped GSA and OMB reduce platform complexity by replacing a heavily customized third-party form solution (Form.io Enterprise) with native CMS functionality built directly into the site's Wagtail CMS. While the external platform initially enabled rapid delivery, over time it introduced significant technical debt, security risk, operational overhead, and user confusion due to data synchronization delays and limited extensibility. After a structured evaluation, we recommended consolidating form submission, workflow, validation, and data storage within the CMS itself. We eliminated redundant infrastructure, reduced the system's attack surface, and restored end-to-end control to the government. This shift simplified operations, improved reliability and publishing confidence, reduced costs associated with licensing and infrastructure and created a more sustainable foundation for future enhancements. The lesson mirrored our experience on other federal platforms: when core CMS capabilities can meet mission needs, relying on them often produces more resilient, maintainable, and user-centered outcomes than layering external systems on top.
+Our work supporting Login.gov, the federal government's shared identity and authentication service, provides direct experience designing and improving complex user journeys where trust, security, accessibility, and continuity are critical. Embedded across multiple agile teams, we
+
+Replacement Model for VA.gov-February 5, 2026
+
+6
+
+supported end-to-end workflows including account creation and identity proofing, sign-in, credential recovery, and help escalation. Using human-centered design methods, we conducted landscape analyses, focus groups, usability testing, and journey mapping to understand where users experience confusion, drop-off, or failure. These insights informed wireframes, design assets, and improvements to the Login.gov Design System, ensuring consistency across digital touchpoints while meeting Section 508 and equity requirements.
+User Journey Workflows for Identify Proofing, Sign-in, Recovery and Navigation
+A core focus of this work with Login.gov was recovery and support journeys, which are often where identity systems succeed or fail for users. We partnered closely with the Login.gov contact center to analyze Salesforce ticket data, IVR logs, Google Analytics, and Search.gov queries to identify patterns in user behavior and unmet needs. This data-driven approach allowed us to redesign IVR flows, align Help Center content with real user language, and clarify navigation between self-service and assisted support channels. We increased call resolution without a live agent from approximately 50 percent to 80 percent within the first month of deployment, reducing user frustration, improving efficiency, and lowering operational costs. Importantly, these gains were achieved not by adding complexity, but by simplifying pathways, clarifying language, and aligning systems around how users actually think and behave.
+This experience reinforces lessons that are highly relevant to VA.gov. Identity proofing, sign-in, and recovery are not isolated technical functions; they are interconnected journeys that span digital interfaces, content, navigation, and support channels. Success depends on clear ownership, shared design patterns, consistent language, and tight feedback loops between analytics, contact center data, and product teams. Our work on Login.gov demonstrates how small, focused, cross-functional teams can materially improve high-stakes identity journeys while maintaining the security, reliability, and accessibility required in federal environments.
+Finally, our long-standing role supporting the United States Web Design System (USWDS) informs how we work with enterprise content and design teams supporting VA.gov: to promote consistency, reuse, and efficiency across an expanding digital ecosystem. Through our work shaping and maintaining USWDS, we have aligned design systems, content standards, and engineering practices across dozens of teams and agencies. This experience directly translates to supporting VA as it considers how to deliver cohesive, Veteran-centered experiences across VA.gov and related digital services while balancing innovation with governance, accessibility, and operational reality.
+Known Limitations, Risks, and Tradeoffs
+Limitations, Risks, and Tradeoffs of Introducing Decomposing Platform into Modular Governance Bodies
+Decomposing the VA.gov Platform into modular governance bodies offers meaningful long-term benefits, but it also introduces important limitations and risks that must be managed. Moving away from a single centralized authority can increase coordination overhead and create uneven implementation, especially where governance domains differ in maturity. During the transition, teams may experience slower delivery as roles, responsibilities, and decision rights are clarified.
+There is also a risk that decentralization could fragment the Veteran experience if individual governance bodies optimize for their own domains without strong alignment around end-to-end
+
+Replacement Model for VA.gov-February 5, 2026
+
+7
+
+journeys. Inconsistent enforcement of standards or unclear accountability between governance bodies could further erode coherence and introduce gaps in ownership. Additionally, organizational change of this scale requires careful change management to address cultural resistance and prevent confusion among delivery teams.
+The trade off at the core of this approach is between stability and adaptability. A centralized Platform favors consistency and control, while modular governance sacrifices some simplicity in exchange for scalability, flexibility, and faster delivery over time. By taking an incremental approach, starting with mature domains and maintaining a lightweight coordinating function focused on Veteran experience and cross cutting standards, VA can mitigate these risks while evolving the governance model to better support the growing complexity of VA.gov.
+Limitations, Risks, and Tradeoffs of Recoupling Drupal CMS
+Decoupled Drupal architectures offer meaningful benefits, particularly for large organizations seeking flexibility, front-end performance optimizations, and separation of concerns between content management and presentation. However, they also introduce well-known tradeoffs that become more pronounced at enterprise scale. In a decoupled model, content authors and platform teams often operate across three distinct interfaces: the Drupal administrative experience, an integrated preview environment, and a separate public-facing front end (e.g., Next.js). While each layer serves a purpose, the cumulative complexity increases cognitive load for editors, expands the surface area for defects, and complicates governance, training, and support. It can also introduce duplicated concerns such as navigation and content presentation logic across multiple systems, increasing the effort required to make changes safely and consistently.
+A related tradeoff is the reliance on static site generation and build-based publishing workflows. Static generation can deliver excellent performance characteristics where content can be prerendered, but it also ties publishing to build and deployment cycles. Even with optimization, there is often a gap between when content is approved and when it becomes publicly available. Build queues, failed deployments, and operational dependencies can create friction for timesensitive updates, and teams sometimes adopt workarounds that inadvertently increase risk or erode governance (for example, using "emergency" processes that bypass standard review). As a result, publishing performance and reliability become a shared responsibility across content, engineering, DevOps, and platform teams, and not just a CMS capability.
+Coupled Drupal architectures carry a different set of tradeoffs. A coupled model can reduce system complexity by consolidating authoring, preview, and public rendering into a single platform and eliminating the need to replicate templating and routing logic in a separate front end. This often improves editorial confidence and reduces the number of integration points that can break. However, coupled approaches typically shift performance and scalability concerns into runtime delivery rather than build time. To deliver the same level of responsiveness and resilience expected of modern high-traffic services, coupled Drupal implementations usually require disciplined performance engineering and a strong delivery stack--commonly including a CDN (e.g., Akamai or AWS CloudFront), caching layers (edge caching, reverse proxy/Varnish), optimized Drupal caching strategies, and careful governance around personalization and dynamic content. The benefit is near-immediate publishing and simplified workflows; the tradeoff is that high performance is achieved through caching strategy, infrastructure tuning, and operational rigor rather than static file generation.
+
+Replacement Model for VA.gov-February 5, 2026
+
+8
+
+Finally, across both decoupled and coupled models, there are important tradeoffs in how identity, navigation, and shared platform services are implemented. When user journeys break down, particularly across authenticated and unauthenticated experiences, it can be difficult to isolate whether the root cause is content structure, front-end routing, shared APIs, identity services, or caching/build behavior. This increases the cost of troubleshooting and can slow iteration. These tradeoffs do not mean any one architecture is inherently right or wrong for VA. Rather, they underscore the need for clear ownership, observability, and periodic reassessment of whether the platform's complexity continues to deliver proportional value to Veterans, content teams, and product teams.
+Limitations, Risks, and Tradeoffs of Introducing AI Search
+A key potential risk of replacing SearchGov with an AI powered search tool is trust, transparency, and governance, especially working with sensitive populations like Veterans. AI search systems can generate synthesized answers rather than simply returning ranked links. While this can improve usability, it also introduces the risk of inaccurate, incomplete, or nonauthoritative responses if the model misunderstands intent, draws from outdated content, or fails to clearly cite sources. For a platform like VA.gov, where Veterans rely on precise and legally binding information, even small errors can undermine trust or lead to harmful outcomes.
+Additional limitations to consider are that AI search quality depends heavily on consistent, well structured, and current content. If consolidation and content governance lag, AI search may amplify existing gaps rather than resolve them. We can mitigate this risk by working closely with the content and IA governance team, using their roadmap and regular content audits to identify and fill in gaps in training the AI models. Ensuring AI generated results meet Section 508 requirements and clearly show how answers were derived, including source references, requires deliberate design and testing. AI search may introduce new dependencies, monitoring needs, and cost considerations compared to a centralized government service like search.gov. Our team will help VA assess which AI tool could be adopted quickly. Our JV managing partner, Vaultes, can assist in FedRAMP sponsorship of future tools as a FedRAMP 3PAO.
+Lessons Learned from Past Deployments
+We have consistently demonstrated that small, cross-functional teams can deliver the strongest results on complex federal technology projects. Our model centers on experienced, T-shaped practitioners who can quickly understand the problem, make informed decisions, and adapt as needs evolve or new insights emerge. Keeping teams small, skilled, and empowered reduces hand-offs, shortens decision cycles, and ensures the team maintains shared context. This structure allows engineers, designers, architects, and product leaders to address technical, experiential, and operational challenges together rather than in sequence. In large, missioncritical environments, this approach has proven more effective and predictable than scaling work through large, role-siloed teams that struggle to coordinate across boundaries.
+Equally important to team composition is the quality of partnership with government stakeholders. In our work with SBA, strong relationships with product owners, content leaders, and technical staff enabled rapid prioritization and course correction as we gained new insights. This trust allowed us to focus on outcomes rather than assumptions, resulting in a platform that improved the daily experience of content editors, delivered faster and more reliable public-facing updates, and reduced infrastructure and operational costs. By simplifying the architecture and
+
+Replacement Model for VA.gov-February 5, 2026
+
+9
+
+aligning the platform more closely with how SBA staff worked, we helped improve both internal efficiency and the experience delivered to small business owners nationwide--while saving taxpayer dollars.
+A key technical lesson from these deployments has been the value of letting platforms operate as they were designed to. During the SBA modernization, we intentionally adopted the principle of "let Drupal be Drupal," recoupling the theme layer and reducing unnecessary abstraction that had accumulated over time. This simplification improved reliability, reduced cognitive and operational overhead, and made the system easier to govern and evolve. In our work with ACF, even within a decoupled Next-Drupal architecture, we rely heavily on Drupal's native content modeling, workflows, and publishing capabilities to avoid over-reliance on static builds and complex deployment pipelines. These experiences have reinforced that sustainable modernization often comes not from adding new layers, but from thoughtfully removing friction: allowing the CMS, supporting infrastructure, and teams themselves to operate more effectively in service of users.
+Additional Information Relevant to VA's Objectives
+Taken together, the ideas and examples outlined in this response reflect a consistent lesson from our work across federal digital platforms: meaningful progress often requires creating intentional space to evaluate assumptions before committing to large-scale solutions. A time-boxed discovery effort, supported by targeted pilots where appropriate, provides VA with a low-risk way to generate shared understanding, test alternatives, and make informed decisions about where to invest next. This approach complements, rather than competes with, ongoing operations by ensuring that future modernization efforts are grounded in evidence and aligned to Veteran needs.
+As a SPRUCE IDIQ awardee, AVB recognizes the importance of delivering reliable, uninterrupted services for a mission-critical platform like VA.gov. The government has understandably prioritized stability, which has often resulted in task orders focused on extending or incrementally refining existing architectural decisions. While this approach reduces near term risk, it can also limit opportunities to use the SPRUCE vehicle as intended, namely, to holistically reassess whether ongoing challenges such as content administration friction, publishing delays, navigation across benefit portfolios, and identity recovery stem from deeper structural constraints rather than discrete implementation issues. Releasing this work through SPRUCE would better enable that broader assessment while maintaining continuity and minimizing risk.
+Our experience suggests that continuity and long-term resilience are best served together. Without periodic, platform-level evaluation, teams are forced to focus on incremental fixes and workarounds, which can unintentionally reinforce complexity over time. By pairing stable operations with focused discovery and validation efforts, VA can continue delivering reliable services today while building a clearer, more adaptable path forward for VA.gov: one that better supports seamless Veteran journeys, reduces operational burden, and positions the Platform to evolve as needs and technologies change.
+
+Replacement Model for VA.gov-February 5, 2026
+
+10
+
+

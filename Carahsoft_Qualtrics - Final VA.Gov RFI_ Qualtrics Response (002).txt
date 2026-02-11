@@ -1,0 +1,295 @@
+Eliminating Digital Friction: Enabling a Modern, Seamless, and Secure VA.gov Journey
+The Qualtrics VA Team is pleased to submit the following capability statement in support of VA's RFI: Replacement Model for VA.gov (Notice ID 365357). With more than 40 VA customers and 300+ across the Federal Government, Qualtrics is the industry leader in Omnichannel data aggregation and experience management - enabling organizations to make feedback, and data driven decisions.
+Organizational Information:
+Legal Business Name: Carahsoft Technology Corporation OEM: Qualtrics Established: 2012 Address: 333 W River Park Dr, Provo, UT Corporation Type: Limited Liability Corporation SAM UEI: Delivered by Carahsoft Technology Corp, DT8KJHZXVJH5 CAGE: 1P3C5 NAICS: 513210 - Software Publishers; 519910 - All Other IT Services SB Assertions: Large *Various partnerships with Small Business resellers on the following GWACs
+ GSA Multiple Award Schedule Contract (MAS): 47QSWA18D008F  DoD Enterprise Software Initiative (ESI): N66001-23-A-0049  NASA SEWP V: NNG15SC03B/NNG15SC27B  ITES-SW2: W52P1J-20-D-0042
+Points of Contact: Chris Sherman, Account Executive, chrissherman@qualtrics.com, 631-576-6542
+1
+
+QUALTRICS | EXECUTIVE SUMMARY FOR VA
+Modernization Under Pressure: Ensuring VA.gov Delivers for Veterans When It Counts
+Challenges to a Successful VA.gov Roll-Out
+VA has made real, measurable progress modernizing its IT systems, delivering clear benefits to Veterans. But the size and complexity of VA's mission make further modernization of VA.gov difficult, as is common in large federal enterprises. Challenges include complex governance, legacy systems, and coordination across multiple administrations and mission owners.
+These factors contribute to fragmented feedback, limited visibility into end-to-end Veteran experiences, delayed insights, and task-completion issues. Together, they can slow benefits processing, disrupt service delivery, and erode Veteran trust.
+At the same time, Veterans are accessing VA services amid heightened oversight and limited resources, increasing the risk of usability friction. When issues go undetected, Veterans may face delays or confusion during critical moments, such as checking eligibility, submitting disability claims, or managing health care online. Identifying these risks early and fixing them quickly is essential to maintaining service continuity, reducing backlogs, and protecting trust in VA's digital front door.
+Qualtrics Has Ensured Success for Many High-Stakes Digital Transformations
+Qualtrics has supported similar large-scale federal transformations, including work with CMS and the U.S. Navy, where challenges around scale, integration, adoption, and accountability were comparable.
+In these environments, Qualtrics enabled continuous, governed listening by unifying user feedback, behavioral data, and UX insights into a single operational view. At CMS, this approach helped teams identify and resolve critical issues on Healthcare.gov and Medicare.gov in under 72 hours by routing real-time frustration signals directly to developers. For the U.S. Navy, Qualtrics reduced analysis cycles from months to near real time, allowing small teams to manage complex, force-wide programs while capturing millions of interactions.
+VA.gov faces similar complexity. Qualtrics offers a FedRAMP High-authorized, natively integrated platform designed to help VA turn modernization efforts into better outcomes for Veterans, with measurable improvements in access, clarity, and trust.
+2
+
+QUALTRICS + VA
+Differentiators of Qualtrics
+While legacy tools capture static survey data in silos, Qualtrics provides an integrated "Intelligence Layer" for VA.gov. Our platform doesn't just ask Veterans how they feel; it sees where they struggle in real-time. By combining human sentiment with digital behavioral signals on a FedRAMP High-authorized platform, we empower the VA to move from reactive troubleshooting to proactive service delivery, reducing the burden on both Veterans and VA staff.
+
+Beyond Surveys: Digital Behavior
+Analytics
+To truly modernize the VA.gov experience, we must understand what Veterans do, not just what they say. Qualtrics Digital Experience Analytics (DXA) automatically detects frustration signals such as "rage clicks," "mouse thrashes," and "dead clicks" and "error clicks" to identify broken digital journeys in real-time. Layering this capability upon the existing VA.gov survey program, all in a FedRAMP High environment, will allow your team to make rapid fixes to digital infrastructure without relying solely on survey-based reporting of issues.
+
+Low-Code Agility & Lower Total Cost of Ownership (TCO)
+We empower VA teams to own their programs through a self-service, drag-and-drop interface, eliminating the continuous dependency on costly third-party vendors for routine changes. While competitors typically require a 90-130% services-to-software cost ratio due to heavy configuration needs, Qualtrics averages just 20-30%, delivering rapid Time to Value and significantly reducing the VA's long-term operational costs. This "low-code" approach enables VA staff to configure surveys, dashboards, and workflows in minutes, not months, ensuring the platform evolves as fast as Veteran needs change.
+
+Validated FedRAMP High Security & Immediate VA Readiness
+Qualtrics is one of the few cloud providers to offer their full suite of AI capabilities securely within the FedRAMP High boundary, ensuring Veteran data is protected at the highest standards. Unlike competitors requiring lengthy security reviews, Qualtrics currently holds an Enterprise ATO with the VA and supports over 40 mission-critical VA programs. Our platform and team is ready to support the mission of modernizing VA.gov to meet the needs of the Veteran of tomorrow, while equipping you with cutting edge innovation and capabilities.
+
+Unified "One VA" Intelligence
+Qualtrics serves as the "Experience Layer" for the VA, unifying surveys, behavioral signals, and UX research into a single, role-based view. All housed in a single platform, the VA can move beyond static CSAT scores from website surveys and understand the "why" behind Veteran trends. Through native, API-driven integrations with common VA systems and full data ownership, the VA will be able to embed Qualtrics data into a connected, intelligent ecosystem to drive continuous improvement of VA.gov.
+3
+
+QUALTRICS + VA
+Qualtrics Alignment to the Modernization of VA.gov
+The modernization of VA.gov represents a pivotal opportunity to build trust and ensure every Veteran can seamlessly access the benefits they have earned. As the VA acknowledges, replacing this critical web property is not solely a technical challenge but a mandate to deliver a truly user-centric design that meets the diverse needs of the Veteran community. To navigate the complexities of this transformation and mitigate deployment risk, the VA requires a continuous radar that captures the voice of the Veteran at every stage of the modernization journey.
+Qualtrics proposes a proven Experience Management (XM) approach that integrates direct feedback with behavioral signals and UX research to de-risk the launch and drive long-term adoption. This holistic listening architecture is built on our FedRAMP High Authorized platform, ensuring that sensitive Veteran data is protected while providing VA.gov teams with real-time, actionable insights. By embedding the Veteran's voice into the fabric of the new VA.gov, Qualtrics empowers the VA to chart a successful path to modernization that continuously evolves to meet the needs of those who served.
+Capturing Veteran Input at all Modernization Phases
+
+Design
+
+Test
+
+Build
+
+Launch
+
+Monitor
+
+Improve
+
+Figure 1. Example modernization timeline indicating Veteran feedback cycles at all key phases
+Veteran input is critical at all key modernization milestones, from initial planning and design phases, development phases, and upon launch. Purpose-built Qualtrics capabilities will allow VA.gov teams to pulse, test, validate, and improve in an efficient, technology-enabled manner.
+
+Pre-Modernization
+Before embarking on a modernization, it's critical to ground objectives and requirements based on data from users. Baseline pulse surveys, along with the ingestion and analysis of historical VA.gov survey data can serve as critical sources to benchmark improvements against historical trends and address known-friction points and needs of Veterans.
+
+Mid-Modernization
+
+Upon Launch
+
+Qualtrics supports the critical
+
+Upon launch, Qualtrics combines
+
+design and development phase website surveys with Digital
+
+by deploying UX research tools, Experience Analytics (DXA) to
+
+such as card sorting, tree
+
+automatically detect frustration
+
+testing, and prototype testing, signals, such as dead clicks or
+
+to validate designs before
+
+mouse thrashing, without
+
+development. To safeguard the
+
+requiring a survey response. We
+
+execution of these complex
+
+operationalize these insights
+
+changes, VA can pulse project through analysis tools and
+
+team members at key
+
+automated workflows that
+
+milestones, such as sprint cycles route technical issues through
+
+and during testing, to identify
+
+ticketing and integrations,
+
+program risks and ensure
+
+ensuring rapid service recovery.
+
+alignment.
+
+4
+
+QUALTRICS + VA
+Technology Capabilities for Experience Management on VA.gov
+The Qualtrics XM Platform is a unified cloud-based system to Listen, Analyze, and Act upon Veteran feedback and visitors to VA.gov in a continuous, ongoing, and AI-enabled manner.
+
+LISTEN
+Continuously capture veteran feedback through solicited, unsolicited,
+and behavioral insights.
+
+Survey Invitation
+3 Satisfaction with /5 experience
+
+"I am calling because I can't find my confirmation number and the website didn't help!"
+
+Website Friction Frustration detected on enrollment page.
+
+The VA location was easy to find and I didn't need to wait very long.
+
+ANALYZE
+Aggregate insights with role-based dashboards and AI-powered analysis tools
+
+Qualtrics Assist Top themes in this dashboard
+WW ebesibtesiCtoencteonntties nant aisrea of opdproirvtiunngityl,owwitehr4s5a%tiosffacocmtiomnents indaincadtiningcareneagsaetdivecsaelnlst.iment. View verbatims
+
+VISIT
+
+WEBSITE SATISFACTION
+
+SERVICE SATISFACTION
+USE
+
+ACT
+Close the loop through workflows, integrations, and
+automations.
+Service Recovery
+Name: Sean Robinson Page: va.gov/enroll
+Issue Reported The veteran has indicated potential issues with website functionality. Close the loop by responding to their feedback and escalating to the web team.
+SEE DETAILS
+
+Purpose-built AI capabilities infused across all core product areas.
+
+Figure 2. The unified Qualtrics "Listen, Analyze, Act" framework
+
+A Comprehensive Listening Approach to Drive Trust, Ease, and Effectiveness
+Qualtrics empowers the VA to capture the voice of the Veteran through a comprehensive suite of active, passive, and embedded website survey intercepts that seamlessly integrate into the new VA.gov experience. Our platform supports a variety of listening mechanisms, ranging from "always-on" feedback buttons and embedded content evaluations to targeted surveys triggered by specific behaviors, like site abandonment. This flexibility ensures the VA can maintain the continuity of existing feedback methods while gaining the ability to deploy new measurement strategies rapidly without disrupting the user journey.
+
+Designed for agility, these tools are deployed via a single code snippet and managed through a no-code, point-and-click interface, allowing business users to launch and update surveys without relying on technical resources. By embedding these listening posts directly into the site experience, the VA can maintain key metrics, validate content effectiveness, and identify friction points the moment they occur, leading to a model of continuous website improvement based on direct feedback to improve Veteran access to benefits.
+
+SHARE FEEDBACK NO THANKS
+Figure 3. Active and passive survey-based website feedback on VA.gov 5
+
+QUALTRICS + VA
+Behavior-Based Website Experience Monitoring to Identify Hidden Signals
+Qualtrics Digital Experience Analytics (DXA) empowers the VA to capture a complete view of the Veteran's digital journey beyond surveys by analyzing behavioral signals that indicate user struggle. By identifying blind spots where users drop off, indicate frustration, or fail to complete critical tasks, DXA allows the VA to uncover friction points that traditional surveys often miss. The solution utilizes frustration detection to automatically flag specific behaviors, including Rage Clicks, Mouse Thrashes, Error Clicks, and Dead Clicks, which signal technical failures or confusing interface designs. To diagnose these issues, session replay allows VA teams to reconstruct individual user visits, providing a high-fidelity playback that helps product teams "step into the shoes" of the Veteran to pinpoint the exact moment of failure. Built on a FedRAMP High authorized platform, these tools ensure strict privacy compliance through advanced masking capabilities that automatically redact the capture input fields or page text.
+
+Issues
+
+Occurrences 1,809 433 3,107 2,541
+
+Figure 4. Analysis outputs of DXA, including frustration detection, session replay, funnels, and heatmaps.
+
+Additionally, heatmaps and funnel analytics visualize and aggregate user behavior to optimize content placement and identify specific drop-off rates in complex workflows like form-based applications and identify management. After visualizing these concentration areas of friction, design teams can adjust information and page hierarchy to best meet the needs of Veterans and promote digital self-service. By pairing these behavioral insights with direct survey feedback, the VA can instantly validate negative feedback with visual evidence, eliminating guesswork and accelerating root-cause analysis. Ultimately, this capability enables the VA to proactively resolve digital fallout, reducing the burden on support channels and ensuring a seamless, resilient path to a successful modernization.
+
+After turning on Digital Experience Analytics, we identified broken links within the first day and the best part is that our digital teams can identify issues and fix them faster by seeing exactly where the frustration occurred and watching the session replay."
+- GOVERNMENT AGENCY DIGITAL MANAGER
+6
+
+QUALTRICS + VA
+
+Accelerate Time to Insights with Transparent, Purpose-Built Analysis Tools
+
+Qualtrics transforms raw data into actionable intelligence through live, role-based dashboards and analysis
+
+tools that provide stakeholders with a real-time view of the experience on VA.gov, customized to their
+
+specific access levels and responsibilities. Dashboards allow for the aggregation of key metrics, such as
+
+satisfaction (CSAT), and track trends over time across segments. The platform also ensures full data
+
+ownership by providing authorized users with direct access to raw response data--without requiring
+
+vendor-managed transformations or opaque scoring logic--allowing for granular editing, filtering, and
+
+exporting while also offering the ability to import historical records to maintain continuity. This flexibility
+
+supports rigorous data governance and allows advanced analysts to perform deep-dive validations or
+
+integrate survey data with other enterprise systems via API or SFTP. For unstructured feedback, Text iQ leverages
+
+AI-driven Natural Language Processing (NLP)
+
+to categorize of open-text comments,
+
+automatically assigning sentiment scores
+
+and topic tags to reveal trends that
+
+manual review would miss. Additionally, the
+
+platform applies advanced enrichments such as effort, emotion, and actionability tagging,
+
+VA.gov Digital Experience
+
+helping the VA prioritize urgent issues and
+
+understand the emotional intensity behind
+
+Veteran feedback. Statistical analysis, such
+
+as key driver analysis, quantifies the impact of
+
+variables, including text topics, to help spot
+
+areas most statistically proven to improve
+
+outcomes.
+
+This analytical power extends to UX research, where AI capabilities automatically summarize findings from qualitative inputs like video feedback, user interviews, and focus groups, significantly reducing the time required to synthesize manual research. Qualtrics supports the transcription and analysis of these rich media formats, turning hours of user testing sessions into concise summaries and key takeaways that highlight usability hurdles and quick wins and long-term enhancements for VA.gov.
+
+Content
+
+Account Access
+
+"Content" is the most negative topic, with responses referencing challenges with understanding eligibility guidelines.
+Support
+
+Figure 5. Dashboards,
+
+Drive Automated
+
+Website
+The layout of the website is very user-friendly and I could see how it will speed up the process for applying. I also think the unified login will save time because otherwise we had to log in separately for each part of the portal.
+text analytics, and UX research
+Service Recovery
+
+analysis
+
+outputs
+
+Alert - Service Recovery
+Name: Steph Choi Page: va.gov/enroll
+Issue Reported The Veteran has indicated potential issues with website functionality. Close the loop by responding to their feedback and escalating to the web team.
+SEE DETAILS
+Figure 6. Prioritized feedback flagged for response via ticketing & integrations
+
+Qualtrics drives automated service recovery by converting priority feedback, such as a report of a website issue, into immediate action through automated workflows that close the loop with the user. When a specific issue is detected, Qualtrics can create and route tickets, or integrate with other systems, to drive automated follow-up. This allows the VA to rapidly resolve individual issues while tracking systemic challenges to prevent future failures.
+7
+
+QUALTRICS + VA
+
+Secure AI, Purpose-Built for Experience Data that Drives Better Decisions
+Qualtrics distinguishes itself as one of the few cloud providers to offer our full suite of AI capabilities directly within a FedRAMP High authorized boundary and an ISO 42001 certification, ensuring the VA can leverage cutting-edge innovation while maintaining the highest security standards. Backed by a $500 million investment, our platform utilizes AI to capture better data, analyze vast amounts of responses into actionable intelligence, and drive automations in action-taking. Furthermore, the VA retains full control over AI adoption through granular, feature-level permissioning, allowing the agency to deploy generative AI tools at its own pace while adhering to strict governance and compliance requirements.
+
+Significantly increase the quantity and
+quality of survey responses
+Qualtrics AI capabilities extend to the data collection process itself, where features like adaptive follow-up questions intelligently prompt Veterans for deeper context, ensuring higher quality data without increasing respondent burden. Usage data shows 90% of respondents engage with AI follow-up questions, producing 2x the amount of open text per survey response. This capability is valuable for VA.gov use cases (e.g., eligibility, access) where a single follow-up question can surface root causes, preventing weeks of research.
+
+Adaptive Follow-Up Questions
+Figure 7. Adaptive AI Follow-Up Survey Questions
+
+Qualtrics Assist Top themes in this dashboard
+Account Access is an area of opportunity, with 45% of comments indicating a negative sentiment. View verbatims
+Figure 8. Qualtrics Assist (left) and Insights Explorer (right)
+
+Reduce the time and analytical
+barriers to uncovering insights
+AI-powered analysis capabilities instantly transform vast amounts of experience data into actionable intelligence. Tools like Insights Explorer automate the analysis of open-text feedback, generating executive-ready summaries, key themes, and supporting evidence in a matter of clicks. Additionally, Qualtrics Assist, our AI dashboard overlay, reduces the time and statistical expertise needed to extract insights from dashboards, using chat-like conversational natural language queries to uncover trends and insights.
+
+A Look to the Future: Agentic AI with Qualtrics Experience Agents
+Qualtrics is rapidly developing Experience Agents, our addition of agentic AI capabilities throughout the platform, aiming to automate service recovery and drive a unified, intelligent experience. For example, survey-based experience agents can detect an issue identified by a Veteran and work to resolve that issue directly within the flow of the survey, based on knowledge bases, instructions, and other systems and tools. This approach reduces the strain on support channels and promotes a "digital-first" model for VA.gov.
+8
+
+QUALTRICS + VA
+Examples of Similar Qualtrics Programs
+FEDERAL AGENCIES RELY ON QUALTRICS FOR WEBSITE MEASUREMENT
+
+Centers for Medicare & Medicaid Services
+To help CMS identify and resolve digital friction, Qualtrics deployed Digital Experience Analytics (DXA) across major platforms like Healthcare.gov and Medicare.gov. By integrating real-time behavioral signals with existing feedback, we empowered CMS to pinpoint previously unnoticed operational and accessibility barriers. This automated approach routed frustration signals directly to developers, reducing the time to fix critical website issues to less than 72 hours. During high-stakes periods like Open Enrollment, this real-time visibility ensures a seamless experience for millions of beneficiaries while eliminating manual troubleshooting for technical teams. This transformation shifted CMS from a reactive posture to a proactive, data-driven model that continuously optimized their digital journey.
+
+Stanford Health Care
+Stanford Health Care partnered with Qualtrics to transform its digital patient journey into a seamless, unified experience across platforms. By leveraging real-time digital intercepts and behavioral analytics, SHC successfully consolidated siloed feedback streams into a single "Command Center" view of the patient experience. This integration allowed their digital teams to identify technical friction points in real-time, resulting in a significant increase in digital appointment scheduling and a reduction in patient drop-off rates. This transition empowered SHC to move beyond basic troubleshooting to predictive experience management, anticipating patient needs before they impact care delivery, establishing a model that mirrors the VA's modernization goals for Veteran healthcare access.
+9
+
+

@@ -1,0 +1,357 @@
+Response to:
+Department of Veterans Affairs
+Request for Information:
+Replacement Model for VA.gov
+February 4, 2026
+Submitted by: James DeNofrio, Account Executive Phone: 202-340-3157 Email: jdenofrio@salesforce.com and Liz Bodell, National Account Manager Phone: 703-785-0159 Email: lbodell@salesforce.com
+
+February 4, 2026
+
+Allison Fulton (allison.fulton@va.gov) Evan Schlisserman (evan.schlisserman@va.gov) U.S. Department of Veterans Affairs (VA)
+
+Dear Ms. Fulton and Mr. Schlisserman:
+
+Salesforce appreciates the opportunity to respond to the VA's request for a replacement model for the existing VA.gov website.
+
+Our team is uniquely positioned to address this project through our integrated suite of solutions designed to help organizations quickly evolve in a modular way by streamlining services, increasing efficiencies, and supporting innovation. By choosing us, you'll gain not only a trusted web platform, but a dedicated team committed to delivering measurable improvements and long-term value.
+
+Salesforce solutions offer tremendous opportunities for public sector organizations to compete in the age of agentic AI and bridge the gap between them and their customers in today's digital-first landscape. We empower organizations of all sizes to leverage powerful technologies, including AI, to forge stronger connections with their customers. As public expectations for seamless digital services grow, our solutions provide a clear path toward scalable service delivery, enhanced operational transparency, and ultimately, greater public trust. Salesforce has a proven track record of helping government organizations deliver superior digital services on a trusted, agile, and secure platform.
+
+Independent studies conducted by leading industry analysts, including Gartner, Forrester, and IDC (International Data Corporation), demonstrate the cost-effectiveness and high return-on-investment potential of the Salesforce platform. With our reusable solutions that prioritize configurability over custom coding or custom building, your organization will be able to not only meet but exceed citizen expectations and build trust through secure, transparent, and highly effective digital interactions that mirror the best of the private sector.
+
+We look forward to continuing our long lasting relationship to support the VA and the opportunity to meet with you and provide a formal demo to further educate your team on our solution capabilities. Should you have any questions or clarifications, please reach out to me at 202-340-3157 or jdenofrio@salesforce.com or my colleague, Liz Bodell at 703-785-0159 or lbodell@salesforce.com. Thank you for your time and interest in our solution.
+
+Sincerely,
+
+James DeNofrio  Salesforce Account Executive
+
+Liz Bodell National Account Manager
+
+Note to Partner: Please note the following disclaimer regarding the use of our provided content: This is intended to be cut and pasted into your RFI response. It is our disclaimer to you and to the customer.
+Disclaimer: Salesforce is a leading provider of innovative cloud services, continuously advancing our technology. We have made a diligent effort to provide accurate and current responses to your request as of the date of this response. Please be aware that Salesforce's procedures and policies may evolve over time, and we regularly introduce multiple major release upgrades each year. Consequently, the information provided herein may be subject to change.
+Use of Salesforce's online software services will be detailed in the applicable agreement executed by Salesforce's authorized reseller. The agreement will delineate the rights and responsibilities of the parties and state that any purchases are not contingent upon the delivery of future functionality or features, nor dependent on any public comments made by Salesforce regarding such future functionality or features.
+While we strive to provide comprehensive and accurate information, please note that the responses provided herein are for informational purposes only and are not intended to form part of a final contract. All information shared in this response is subject to the confidentiality terms outlined in the applicable agreement between you and Salesforce's authorized reseller.
+This response includes confidential and proprietary data that shall not be disclosed outside the recipient organization and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this response. If a contract is awarded to a Salesforce authorized reseller in connection with the submission of this data, then the recipient shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. Except to the extent prohibited by the express terms of the solicitation, the confidential and proprietary data herein is provided with the expectation that it will be exempt from disclosure under applicable federal, state, or local laws.
+
+This document is provided for informational purposes only. It represents AWS's current product offerings and practices as of the date of issue of this document and is subject to change. Customers are responsible for making their own independent assessment of the information in this document and any use of AWS's products or services. This document does not create any warranties, representations, contractual commitments, conditions or assurances from AWS, its affiliates, suppliers or licensors. The responsibilities and liabilities of AWS to its customers are controlled by AWS agreements, and this document is not part of, nor does it modify, any agreement between AWS and its customers. For current prices for AWS services, please refer to the AWS website at www.aws.amazon.com.
+
+Table of Contents
+
+Response to RFI Requirements
+
+1
+
+1. Company and Organization Overview
+
+1
+
+2. Relevant Experience with Similar Challenges
+
+2
+
+3. Responses to the Topics and Questions in This Request
+
+2
+
+3.1 Overall Solution Architecture: The VA Digital Front Door on Salesforce Government Cloud Plus
+
+2
+
+3.2 User Journey Workflows with Real-World VA Vignettes
+
+4
+
+3.3 Experience Continuity and Coordinated Engagement
+
+5
+
+3.4 Operating in a Regulated, Highly Visible Federal Environment
+
+5
+
+3.5 Scalability and Long-Term Sustainability
+
+6
+
+4. Relevant Technologies and Approaches
+
+6
+
+4.1 Agentforce Differentiation vs. Traditional Chatbots
+
+6
+
+5. Additional Information Relevant to VA's Objectives
+
+6
+
+Solution Overview
+
+7
+
+Descriptions of relevant ideas, capabilities, and approaches.
+
+8
+
+Case studies or examples from similar environments.
+
+9
+
+User journey workflows for identity proofing, sign-in, recovery, and navigation.
+
+10
+
+Known limitations, risks, and tradeoffs.
+
+10
+
+Lessons learned from past deployments.
+
+10
+
+Appendix
+
+11
+
+Salesforce, Inc.
+
+11
+
+Architecture Narrative: Salesforce Government Cloud Plus Digital Front Door for VA
+
+13
+
+Financial Impact and Cost Avoidance Summary
+
+15
+
+Response to RFI Requirements
+This proposal advocates for replacing VA.gov with a premier, modern, and Veteran-centric digital experience by leveraging VA's existing Salesforce Government Cloud Plus as an integrated, FedRAMP High-authorized enterprise digital engagement platform. This strategic transition would evolve VA.gov from a traditional informational website into a secure, identity-enabled, interactive service platform and the central point of entry for all Veteran digital interactions. By using Salesforce to capture and act on individual Veteran context, the experience can be tailored to meet Veterans where they are making each interaction more meaningful and impactful. This foundation allows us to bring Veteran-specific scenarios to life in a way that feels authentic and supportive. The solution architecture consists of five layers--Digital Experience (Experience Cloud), Identity, Digital Service and Automation (Service Cloud, Agentforce, Marketing Cloud), Data and Analytics (Data 360 with Tableau Next), and Integration (MuleSoft)--to unify service delivery, automation, and data across all benefit portfolios. This unified approach enables personalized self-service, coordinated omnichannel engagement, and real-time service orchestration.
+In direct support of the Secretary's priorities to modernize service delivery, improve the Veteran experience, and provide fiscal responsibility, a central advantage of this model is achieving significant and sustained cost avoidance by leveraging the existing Enterprise License Agreement (ELA) and consolidating multiple redundant point solutions (portal, CRM, AI, marketing, analytics) onto a single platform, reducing custom development and long-term sustainment costs. The platform's core features include Agentforce for 24x7 agentic AI engagement that can perform transactions and escalate to human agents with full context, and Marketing Cloud to act as a proactive "engagement layer" for orchestrated, hyper-personalized outreach (e.g., PACT Act notifications, appointment reminders). Real-world vignettes illustrate the value of this approach, such as Veterans checking claim status at midnight with an AI agent or receiving a secure, personalized "Transition Dashboard" upon separation, aligning the solution with the Secretary's priorities for modernization, improved customer experience, and fiscal responsibility.
+Salesforce Government Cloud Plus provides VA with a FedRAMP High authorized enterprise platform capable of serving as VA's next-generation digital front door. Under this model, VA.gov evolves from a primarily informational website into a secure, identity-enabled, interactive service platform that becomes the central point of entry for all Veteran digital interactions. The platform enables personalized self-service, omnichannel engagement, real-time service orchestration, agentic artificial intelligence, coordinated outreach, and data-driven personalization while maintaining continuity of service and compliance with federal cybersecurity and privacy requirements.
+A central advantage of this approach is the VA's ability to leverage its existing and expandable Salesforce Enterprise License Agreement (ELA) to achieve significant and sustained cost avoidance. By consolidating digital experience, service delivery, marketing automation, analytics, artificial intelligence, and data integration onto a single FedRAMP High platform, VA avoids the procurement, integration, and long-term sustainment of multiple redundant point solutions. This consolidation reduces custom development, lowers operations and maintenance costs, minimizes long-term system integrator dependency, and establishes a reusable enterprise foundation for future modernization.
+In addition, Salesforce Government Cloud Plus enables VA to deploy FedRAMP High authorized agentic artificial intelligence through Agentforce, providing secure, real-time, 24-hour digital engagement. These AI agents are fully integrated with VA workflows, CRM, and backend systems, allowing VA to extend service availability, reduce call center demand, and provide immediate assistance to Veterans regardless of time or channel.
+Together, Experience Cloud, Service Cloud, Agentforce, Marketing Cloud, Data 360, MuleSoft, and Analytics form a unified enterprise digital front door aligned with Secretary Collins' priorities to modernize Veteran digital services, improve customer experience, strengthen cybersecurity, reduce operational cost, and provide long-term scalability and resilience.
+1. Company and Organization Overview
+Salesforce, Inc., headquartered in San Francisco, California, is a global leader in enterprise cloud platforms and digital engagement solutions serving thousands of public and private sector organizations worldwide. Salesforce Government Cloud Plus is a dedicated federal cloud environment operating within AWS GovCloud (US) and authorized at the FedRAMP High baseline to support sensitive and mission-critical federal workloads.
+Salesforce Government Cloud Plus provides a comprehensive digital engagement platform including digital portals, enterprise case management, omnichannel contact center services, marketing automation, enterprise analytics, artificial intelligence, and integration services. Salesforce operates the underlying infrastructure, security controls, redundancy, patching, and compliance under a shared responsibility model, significantly reducing federal operational burden.
+Our perspective is shaped by a decade-long partnership with VA and active work already underway across the Department. Veteran 1,VA's Salesforce ecosystem is a mature, FedRAMP High-authorized platform embedded within VA's enterprise architecture, supporting more than 160,000 users and over 150 applications today. With an existing Enterprise License
+Page 1
+
+Agreement in place, VA has a proven foundation to move quickly, confidently, and at scale.Salesforce is supported by a mature ecosystem of federal systems integrators with extensive VA and civilian agency experience delivering identity-enabled portals, benefits modernization programs, healthcare engagement platforms, and enterprise contact center transformations.
+2. Relevant Experience with Similar Challenges
+Salesforce has extensive experience modernizing large-scale citizen engagement platforms in highly regulated environments. Within VA, Salesforce already supports enterprise applications across Veteran case management, homeless Veteran programs, student Veteran engagement, and executive correspondence tracking, each requiring FedRAMP authorization, identity federation, and integration with VA backend systems.
+In statewide unemployment modernization programs, Salesforce replaced fragmented portals and call center tools with unified digital service platforms that allowed claimants to apply online, track status, receive automated notifications, and communicate with agents through a single interface. These programs achieved measurable reductions in call volume, faster processing times, and improved transparency.
+Municipal service portals built on Salesforce Experience Cloud support millions of residents through personalized dashboards, automated case routing, and omnichannel continuity, demonstrating the platform's scalability, resilience, and suitability for national-scale public service delivery.
+3. Responses to the Topics and Questions in This Request
+3.1 Overall Solution Architecture: The VA Digital Front Door on Salesforce Government Cloud Plus
+Under the proposed model, Salesforce Government Cloud Plus becomes VA's enterprise digital front door platform. VA.gov is implemented as a unified digital experience layer built on the Salesforce Experience Cloud and integrated with VA's enterprise identity, service delivery, data, analytics, and backend systems. Rather than linking Veterans across multiple disconnected portals, this model provides a single secure workspace that unifies all VA digital services. The architecture consists of five integrated layers. 1. The digital experience layer hosts the VA.gov website and authenticated Veteran portal. Veterans access public
+information and secure services through one site. After authentication, they enter a personalized "My VA" workspace displaying benefits, healthcare, appointments, messages, applications, and recommended actions. 2. The identity layer integrates directly with VA enterprise identity providers such as ID.me, Login.gov, and DS Logon. Salesforce acts as a federated relying party, preserving VA's identity strategy and enabling seamless cross-service navigation. 3. The digital service and automation layer uses Service Cloud, Flows, Agentforce, and Marketing Cloud to manage all transactional service delivery, workflow orchestration, automated personalized communications and AI-assisted engagement. 4. The data and analytics layer uses Data 360 and Tableau Next to unify Veteran data across systems and provide real-time operational and leadership insights. 5. The integration layer uses MuleSoft to securely connect Salesforce with VA backend systems including VBMS, Caseflow, VistA or Cerner, payments, scheduling, and the Master Veteran Index.
+When VA.gov utilizes the Salesforce Experience Cloud as an authenticated portal, it creates a secure foundation for veteran interaction. Integrating the Salesforce Marketing Cloud on top of this foundation establishes a proactive "engagement layer" that transforms the experience from a passive portal into a personalized, journey-based relationship.
+Agentforce-powered virtual assistant Driving Efficiency with Agentforce Integration: SP leverages Agentforce to scale 1-to-1 personalization by autonomously adapting experiences based on business goals and customer preferences 24/7. With Personalization in Agentforce, websites can become "agentic," allowing visitors to get immediate answers to questions (support, product, education) around the clock. This dynamically adapts the web layout, content, and recommendations based on real-time engagement and conversations, significantly improving call center representative efficiency. This automation reduces the time citizens spend navigating complex systems, aligning with the NDS's aim to address the "cost in time lost by the American public".
+Example: A federal agency's public portal, such as for tax assistance or a social service, could integrate an Agentforce-powered virtual assistant. When a citizen interacts with the bot, they receive personalized answers and recommended forms or resources instantly, based on their specific query and unified profile data from Data Cloud. This reduces reliance on live agents, improves service quality, and transforms citizen experiences, addressing the challenge of "lacking AI agents and insights". Upcoming "Agent-First Website" capabilities will further dynamically re-imagine entire web layouts.
+Page 2
+
+Marketing Cloud as an Engagement Layer Marketing Cloud acts as the "engagement layer," connecting a personalized veteran experience across time and channels. While Experience Cloud provides the place for a veteran to log in and take action, Marketing Cloud provides the reason and the timing for that action. Marketing Cloud's direct impacts are driving portal adoption/usage, reducing call center activities, and decreasing paper mail costs. It uses real-time data to:  Anticipate Needs: Identifying when a veteran is eligible for new benefits or needs to renew a claim.  Omni-channel Outreach: Communicating via the veteran's preferred channel (email, SMS, or mobile push) to drive them
+back into the authenticated Experience Cloud portal for secure tasks.  Hyper-Personalization: Tailoring content based on the veteran's specific status (e.g., transition phase, disability rating, or
+geographic location).
+MuleSoft provides the API-led connectivity layer that unifies the Veteran experience by breaking down VA data silos into a high-performance ecosystem.  Secure Modernization: Unlocks legacy data as reusable APIs, avoiding high-risk "rip-and-replace" maneuvers.  Real-Time Orchestration: Synchronizes VBMS, medical scheduling, and the Master Veteran Index to help ensure the
+"My VA" dashboard remains a single source of truth.  Accelerated Innovation: Speeds the launch of new digital services by up to 3x through a library of reusable assets,
+cutting long-term costs.  FedRAMP Security: Provides mission-critical protection of PII and PHI through rigorous federal compliance standards.  Use Case Examples by Audience & Agency The following examples leverage the vision of "reimagining VA.gov as a CRM" focused on speed, consolidation, and alignment with secretary priorities.
+1. Veterans: The Transition Journey (VA.gov & VBS) Use Case: A "Welcome Home" journey for newly separated service members. Engagement Layer: Marketing Cloud triggers an automated sequence the moment a veteran's status updates to "Separated." Experience Cloud Integration: The veteran receives a personalized email with a link to a "Transition Dashboard" on the authenticated VA.gov portal. The dashboard is pre-populated with relevant education benefits (GI Bill) and home loan eligibility based on their service record.
+ Veteran Outcome: Veterans receive immediate, personalized guidance at the moment of separation, reducing confusion during this critical transition. They access all relevant benefits in one centralized, pre-populated dashboard, enabling them to take next steps quickly without navigating multiple systems.
+ Speed to Veteran Value: Salesforce Government Cloud Plus (Veteran 1) automation triggers the "Welcome Home" journey instantly, giving Veterans immediate access to pre-populated benefits and speeding program enrollment. The integrated dashboard also reduces follow-up calls and manual work, delivering measurable efficiency gains for VA teams.
+2. Veteran Beneficiaries: Proactive Benefits Management (VBS) Use Case: Automatic notification of PACT Act eligibility. Engagement Layer: Salesforce Government Cloud Plus (Veteran 1) segments the database for veterans who served in specific areas/timeframes covered by new legislation. Experience Cloud Integration: Instead of a generic flyer, the veteran receives a targeted SMS with subsequent related communications: "You may be eligible for new benefits under the PACT Act. Log in to your VA.gov portal to start an Intent to File in one click".
+ Veteran Outcome: Veterans receive timely, personalized notifications about PACT Act eligibility, helping them understand and claim benefits they may otherwise miss. Targeted communications guide them to take immediate action through a simple, one-click process.
+ Speed to Veteran Value: Salesforce Government Cloud Plus (Veteran 1) automatically identifies eligible Veterans and sends targeted messages instantly, reducing delays and manual outreach. This integrated approach streamlines claims initiation, saving time for both Veterans and VA staff.
+3. Patients: Healthcare Continuity (Veteran Medical Centers) Use Case: Appointment reminders and post-discharge care. Engagement Layer: Integration with medical scheduling data allows Marketing Cloud to send automated reminders and health surveys on their preferred channel. Experience Cloud Integration: After a surgery at a VA Medical Center, a veteran receives a mobile push notification leading to a secure "Recovery Guide" within the authenticated portal, where they can message their care team or view physical therapy videos.
+Page 3
+
+ Veteran Outcome: Veterans receive timely appointment reminders and post-discharge guidance, helping them stay on track with care and recover safely. Personalized notifications and secure resources make it easy to access therapy videos or communicate with their care team.
+ Speed to Veteran Value: Salesforce Government Cloud Plus (Veteran 1) automates reminders and follow-up communications, reducing missed appointments and manual outreach. Integrated portal access streamlines care coordination and improves efficiency for VA Medical Center staff.
+4. Candidates: Recruitment & Workforce (VHA Recruitment) Use Case: Nurturing potential hires for clinical roles. Engagement Layer: Using a Recruitment CRM (SF-VHARM) to capture interest from unauthenticated users on an Experience site. Experience Cloud Integration: Marketing Cloud sends tailored communications about VHA openings in the candidate's specific specialty (e.g., nursing or mental health). Once the candidate applies, they transition to the authenticated Experience Cloud "Candidate Portal" to track their application status and submit required PII securely. During the application process, the candidate is receiving automated updates providing transparency throughout the process.  Veteran Outcome: Candidates receive timely, personalized updates about VHA openings in their specialty, making the
+application process transparent and easy to follow. They can securely track their application and submit required information through a single portal.  Speed to Veteran Value: Marketing Cloud automates communications and application tracking, reducing manual follow-up and administrative work. This streamlines recruitment, helping VHA fill clinical roles more efficiently while improving the candidate experience.
+5. Partners & Advocates: Coordinated Support (VBA & Non-profits) Use Case: Modernizing partner communication for case management. Engagement Layer: Tracking correspondence & partnerships through the Integrated Enterprise Workflow Solution (VIEWS CCM). Experience Cloud Integration: Partner organizations (VSOs) use a dedicated Experience site to upload documentation and track the progress of the veterans they represent, receiving real-time Marketing Cloud alerts when a VA decision is made or more information is required.  Veteran Outcome: Partners and advocates receive real-time updates on the cases they manage, helping Veterans get
+timely support and helping ensure nothing falls through the cracks. Secure portals allow easy document submission and visibility into VA decisions.  Speed to Veteran Value: Marketing Cloud automates notifications and integrates case tracking, reducing manual follow-up and administrative effort. This streamlines partner collaboration and accelerates outcomes for both Veterans and VA teams.
+3.2 User Journey Workflows with Real-World VA Vignettes
+Enhancing VA.gov through 1-to-1 Personalization Salesforce Personalization enhances the user experience by using real-time AI decisioning to tailor the web interface for individual Veterans.  Tailored Resource Discovery: Instead of navigating complex menus, a Veteran could see personalized forms, support
+programs, or healthcare resources based on their specific service record and historical browsing data.  Increased Completion Rates: By surfacing the most relevant content--such as a specific benefit application or a status
+update on a claim--SP can decrease bounce rates and increase the successful submission of applications.  Proactive Alerts: For logged-in users, the site can display a personalized banner showing the real-time status of a recent
+claim or medical appointment, eliminating the need for the Veteran to navigate through multiple legacy system pages.
+The Value of Adaptive Websites
+The Adaptive Website ( roadmap ) feature represents the next generation of web design, where the interface itself becomes "agentic".  Dynamic Layouts: Unlike traditional personalization that only changes specific content blocks, Adaptive Websites can
+re-imagine entire web layouts in real-time based on the user's intent and conversations with AI assistants.  Intent-Driven Content: If a Veteran interacts with an Agentforce-powered assistant regarding housing assistance, the
+website can dynamically adapt its layout, content, and recommendations to focus on housing resources throughout the rest of the session.  Efficiency and Resolution: This automation addresses the "cost in time lost" by Veterans navigating complex systems, providing immediate answers and reducing the need for live agent intervention.
+Page 4
+
+Omni-channel Value: Call Centers and Medical Centers Because Salesforce Personalization is built natively on Data Cloud and the Salesforce Platform, it eliminates data silos and provides a unified view of the Veteran across all channels.
+ Salesforce Call Centers: When a Veteran calls for assistance, the agent can instantly see their entire website activity and chat history via a unified profile. This prevents the Veteran from having to repeat information and allows the agent to provide informed, proactive support.
+ Regional Medical Centers: In-person staff at VA medical centers can access the same digital journey through the CRM. For example, if a Veteran was researching specific medical benefits online, the in-person staff would have that context ready, enabling a seamless transition from digital to physical care.
+ Consistent Decisioning: SP helps ensure the "Next Best Action" recommended on the website is the same one suggested by a call center representative or an in-person staff member.
+Responding to the VA RFI and Shaping the Future RFP
+Salesforce Personalization directly addresses the core goals outlined in the VA's January 14, 2026, RFI.
+ Veteran-Centric Design: SP aligns with the National Design Studio's (NDS) vision of improving usability and visual design as mandated by Executive Order 14338.
+ Buying Smarter: As the VA is already a major Salesforce customer, adopting SP follows the federal priority to "buy smarter" by eliminating waste and duplication of tools that cannot connect to existing systems.
+ Continuity and Integration: The solution integrates with the VA's diverse portfolio of legacy systems by acting as a modern "front door" that unifies disparate data sources into a single, actionable profile.
+ Scalability and Resilience: The platform supports long-term scalability, allowing the VA to start with high-impact pilot efforts and expand personalization across all benefit portfolios.
+
+Vignette 1 - Disability Claim Status at Midnight A Veteran logs into VA.gov at midnight to check disability claim status. After authenticating through Login.gov, the Veteran enters the personalized dashboard. An Agentforce virtual agent immediately offers assistance and retrieves real-time claim data through MuleSoft integration. The agent explains the current stage in plain language and offers to notify the Veteran when the claim advances. No call center interaction is required, and service is delivered 24x7.
+Vignette 2 - Education Benefit Application with AI Guidance A newly separated service member begins an education benefits application. Experience Cloud presents a guided form that validates eligibility in real time. When the Veteran hesitates on a section, an Agentforce virtual agent explains required documentation and prompts file upload. The completed application is routed automatically to the correct processing queue. Marketing Cloud sends confirmation and follow-up reminders.
+Vignette 3 - Healthcare Appointment and Follow-Up A Veteran schedules a healthcare appointment through the portal. The system confirms availability through backend
+
+integration. Marketing Cloud sends appointment reminders by SMS and email. After the visit, the Veteran receives a follow-up survey and personalized recommendations based on care history stored in Data 360.
+Vignette 4 - Proactive Outreach and Eligibility Notification Data 360 identifies Veterans newly eligible for toxic exposure benefits. Marketing Cloud sends targeted outreach. When Veterans log in, personalized recommendations appear. Agentforce answers eligibility questions in real time and initiates applications. This coordinated model increases enrollment while reducing inbound calls.
+Vignette 5 - Better Understanding of Veteran Needs from Anonymous-to-known journey Salesforce Personalization delivers true behavior tracking in real-time that enriches the Veteran One Profile that extends transparency across the platform. Personalized campaigns can be triggered based on time spent or specific behavior (exit intent) providing fast access to relevant benefits and services. Internally this provides the VA a better understanding of Veteran needs and preferences, all viewable on a Veteran's profile.
+
+3.3 Experience Continuity and Coordinated Engagement
+Salesforce uniquely unifies service delivery, agentic AI, CRM, and marketing engagement on a single platform. All interactions across web, mobile, chat, phone, and messaging are captured in one Veteran profile. Marketing Cloud orchestrates event-driven notifications synchronized with live service activity.
+For example, when claim status changes, the dashboard updates in real time, Marketing Cloud sends an alert, and Agentforce is prepared to answer questions immediately. This prevents outdated communications and eliminates repeated inquiries.
+3.4 Operating in a Regulated, Highly Visible Federal Environment
+Salesforce Government Cloud Plus provides FedRAMP High authorization, encryption, audit logging, continuous monitoring, high availability, disaster recovery, CAC/PIV authentication, and Section 508 compliance.
+
+Page 5
+
+3.5 Scalability and Long-Term Sustainability
+The platform supports millions of concurrent users, elastic scaling, and continuous upgrades. New VA programs can be onboarded without new infrastructure or separate security authorizations.
+4. Relevant Technologies and Approaches
+ Experience Cloud delivers the VA.gov portal and personalized dashboards.  Service Cloud manages enterprise case and service workflows.  Agentforce delivers 24x7 virtual agents and AI-assisted triage.  Marketing Cloud orchestrates coordinated outreach, personalization and notifications.  Data 360 unifies Veteran data for analytics and personalization.  MuleSoft provides secure, API-led connectivity that unifies real-time data across VA's legacy systems, modern
+applications, and enterprise platforms into a single, consistent source of truth.
+4.1 Agentforce Differentiation vs. Traditional Chatbots
+Traditional government chatbots typically operate as isolated FAQ tools with scripted responses, limited system access, and no ability to perform transactions. They often run on separate platforms requiring independent security authorization and data integration.
+Agentforce is fundamentally different.
+Agentforce operates natively within Salesforce Government Cloud Plus at the FedRAMP High baseline. It is not a standalone chatbot but an agentic service layer grounded and integrated with:  Authenticated Veteran identity  Real-time CRM data  Enterprise workflows and case management  Backend VA and external systems through MuleSoft
+This allows Agentforce virtual agents to:  Retrieve live benefit and claim data  Validate eligibility and documentation  Initiate and update service requests  Schedule callbacks or appointments  Escalate to human agents with full context
+All interactions are logged, auditable, governed, and compliant with federal cybersecurity and privacy policies. This capability enables VA to provide true 24x7 digital assistance that performs real work, not just answers questions, while eliminating the need for separate chatbot platforms, duplicate security authorizations, and disconnected AI services.
+5. Additional Information Relevant to VA's Objectives
+Cost Avoidance and Strategic Value
+By consolidating portal, CRM, AI, marketing, analytics, and integration on Salesforce Government Cloud Plus under the ELA, VA avoids:  Separate portal platforms  Standalone chatbot systems  Independent marketing automation tools  Separate analytics engines  Redundant FedRAMP environments
+Benchmark results show:  20-40% call center deflection from virtual agents  20-30% reduction in operations and maintenance costs  40-60% reduction in custom development  Multi-million-dollar annual licensing avoidance
+Risks, Tradeoffs, and Lessons Learned
+Phased migration, API-led architecture, identity reuse, user-centered design, and configuration-first standards mitigate transition and adoption risks. Lessons emphasize early Veteran testing, automation, and platform reuse.
+Page 6
+
+Conclusion:
+Every action we take here is about improving the experience for Veterans by helping them access the benefits and services they've earned quickly and seamlessly, while enabling VA to build a more personal, connected relationship with each Veteran. Moving VA.gov to Salesforce Government Cloud Plus would transform it from a transactional website into a true, Veteran-centered digital front door. Instead of fragmented systems and one-way forms, Veterans would experience a secure, unified platform that connects benefits, health care, community care, education, memorial affairs, and financial services in one 360-degree view. With FedRAMP High authorization, data remains protected inside a compliant federal boundary, while tools like real-time case management, intelligent routing, proactive notifications, and AI-powered assistance through Agentforce enable faster decisions, fewer duplicate requests, and dramatically reduced wait times. By integrating legacy systems through MuleSoft and consolidating siloed databases into a single trusted data layer, VA could eliminate redundant manual processes, improve accuracy, and provide Veterans with transparent status updates across claims, appointments, and eligibility determinations. The result is not just modernization -- it is a personalized, secure "digital VA buddy" that anticipates needs, simplifies access to earned benefits, and restores trust through speed, clarity, and accountability. Salesforce Government Cloud Plus provides VA with a complete, enterprise digital front door platform that replaces VA.gov with a secure, interactive, identity-enabled, omnichannel service experience. By combining Experience Cloud, Service Cloud, Agentforce, Marketing Cloud, Data 360, and MuleSoft under a single FedRAMP High platform, VA gains:
+ 24x7 agentic AI engagement  Coordinated CRM and outreach  Unified Veteran data and analytics  Scalable service delivery  Significant long-term cost avoidance This approach aligns directly with Secretary Collins' priorities and positions VA to deliver a modern, intelligent, fiscally responsible digital front door that will serve Veterans for decades.
+Solution Overview
+Figure 1: Veteran 1 Experience on modernized va.gov with Agentforce, Salesforce SaaS and PaaS clouds, Data 360 and Mulesoft
+A modernized va.gov is one part of the Salesforce vision for a unified Veteran 1 experience. Major benefits of Veteran 1 include:  The Veteran Digital Buddy, a modern AI agentic guide powered by Agentforce and the Salesforce CRM platform, elevates
+the unified Veteran 1 experience across multiple digital channels in multiple contexts. Specifically:  When the veteran is browsing the va.gov website but is not logged in, the buddy can provide general guidance about
+VA programs, benefits, etc. It can also facilitate and guide the veteran through various processes like registering their login ID, enrolling or claiming benefits, etc. All such guidance can be dynamically grounded in the unique context & eligibility rules for respective VA benefit programs.
+Page 7
+
+ Once logged in, just like for human Support Reps the Veteran Buddy will know who the Veteran is and as appropriate access specific VA records about this Veteran. For example as shown above in Figure 1, the Veteran Buddy knows that Charles has an upcoming appointment and then offers to send a reminder via SMS Text message to Charles to reduce risk of a no-show appointment.
+ Salesforce is expanding Agentforce platforms onto multiple channels beyond a web chatbot. This includes working inside VA Mobile Apps, and Agentforce Voice for VA Contact Centers with Genesys CX.
+ The Veteran Buddy is always available as a helpful guide and concierge for the Veteran, but always with the option to hand-off to a human VA Service Representative upon request. Again, both the Veteran Buddy and the VA Service Rep have access to all relevant context and information pertaining to the Veteran throughout engagement, hand-off, and disposition.
+ No wrong door. Regardless of which engagement channel is used by a Veteran at any time, they are guided and routed seamlessly to the proper VA benefits, support resources and next steps.  For the Veteran or registered Citizen/Beneficiary, the VA `knows me' no matter when, where or how I engage with the VA. If one uses different channels or takes different steps at different times, all relevant status, information & context are maintained. The Veteran & VA staff clearly sees tracking of all prior activities, steps, engagements, etc. No restarts, re-sending the same forms/documents multiple times to multiple recipients, etc.
+ Unified Veteran Context Updates can even occur even in Real Time. Powered by Date 360 sub-second realtime features & Unified Profile tracking, Marketing Cloud Personalization can receive and process updates even as the Veteran is navigating or triggering updates on a VA website or via a VA mobile application. For more details, see https://help.salesforce.com/s/articleView?id=mktg.mc_pers_intro.htm&type=5
+ MuleSoft acts as the data backbone for the Salesforce Veteran 1 vision, powering Agentforce and the Veteran Digital Buddy with real-time data from across VA backends. By orchestrating secure flows between legacy systems and Salesforce, MuleSoft helps ensure AI agents are grounded in accurate veteran context--like appointment status and benefit eligibility. This integration eliminates the need for custom backend coding, enabling a proactive "no wrong door" experience where the VA "knows the Veteran" across every digital and contact center channel.
+Through this request, the VA seeks information on solutions, technologies, and approaches that can fundamentally improve the digital experience across all benefit portfolios.
+Descriptions of relevant ideas, capabilities, and approaches.
+To address the Department of Veterans Affairs' request to create a premier, modern, and secure digital experience, the Salesforce proposed solution leverages multiple Salesforce technologies to serve as a central entry point for benefits and services. By utilizing Experience Cloud and Platform, the VA can establish a seamless customer experience that harmonizes experience design with robust platform architecture, so that the replacement model is both Veteran-centric and adaptable. Integrating with a diverse portfolio of legacy and emerging systems while maintaining continuity of service for millions of users, MuleSoft can provide the necessary connectivity layer to bridge known disparate data sources, via reusable APIs and integrations. Furthermore, deploying these solutions within Gov Cloud+ and utilizing Shield directly addresses the need to operate within a regulated, highly visible federal environment that demands strict security and long-term resilience. Finally, incorporating Data Cloud, Agentforce, and Marketing Cloud supports the VA's goal of fundamentally improving digital experiences across benefit portfolios through advanced analytics and content strategy, providing long-term scalability.
+Salesforce proposes shifting VA.gov from a reactive and static website to a proactive, agentic service environment. Currently, Veterans navigate complex menus, siloed departments and documentation on VA.gov, which can be a time consuming and frustrating experience. What we have termed it "Veteran Digital Buddy," powered by Agentforce, acts as an intelligent and autonomous partner, which can reduce friction and complexity, and take action on behalf of the Veteran. The Veteran Digital Buddy can essentially be a unified front door, so that Veterans don't need to understand VA's internal organizational structure to get the assistance that they need.
+Agentforce is underpinned by Data 360, which unifies structured and unstructured data about a Veteran to ground AI responses in accurate context. This enables the Veteran Digital Buddy to deliver tailored, personalized responses and suggestions, based on the nuances of a Veteran's journey. This reduces the amount of time a Veteran spends finding answers to their questions, and also decreases the cognitive load required for certain processes or workflows they may need to follow to receive a benefit or file a claim.
+While providing accurate, clear information to Veterans in a chat interface is helpful, the power of Agentforce lies in its ability to take action. By integrating directly with VA's many back end systems via MuleSoft, the agent can schedule appointments, update contact information, or check the status of a claim in real time. For a Veteran, this means no more switching between phone calls and websites. The Veteran Digital Buddy can serve as a unified interface that maintains context across chat sessions and departments.
+Page 8
+
+The transformation of VA.gov into an AI-powered experience is achieved without compromising the VA's security standards. Via the Einstein Trust Layer, every interaction is grounded in VA approved data, reducing the likelihood that the Veteran Digital Buddy hallucinates. Additionally, Veteran and other VA data is never used to train external AI models. A brief demo video of this Veteran Digital Buddy concept can be found here.
+Case studies or examples from similar environments.
+Experience Cloud sites already operating within the VA:
+VBMS-Fiduciary Accounting Submissions Tool (FAST)
+https://www.my.va.gov/FAST
+The VBMS-Fiduciary (FAST) application manages over 470,000 fiduciary and 450,000 beneficiary records. It is integrated within the Veterans Benefits Management System (VBMS) to enable the Fiduciary Program to expedite qualification, appointments of fiduciaries, and release withheld VA funds to beneficiaries. It also provides a more effective means for VA to meet its mission of oversight and protection of our Veterans and their survivors. FAST increases the timeliness of fiduciary appointments, reduces accounting disapproval rates, and enhances the ability to manage workload, oversight, and reporting. VBMS-Fiduciary increases automation and communication with other applications that are necessary to provide comprehensive functionality to Fiduciary Program customers. For more details, see Job Aids, Guides & videos at https://www.benefits.va.gov/FIDUCIARY/fiduciary_FAST.asp
+Status Query and Response Exchange System (SQUARES)
+https://my.va.gov/SQUARES
+In 2019, VA launched the Status Query and Response Exchange System, also known as SQUARES. Through SQUARES, users can quickly and easily determine the Veteran's eligibility to streamline services at the VA.
+Status Query and Response System (SQUARES) is a web-based tool that allows VA employees and external organizations VA Homeless Program Grantees associated with Supportive Services for Veteran Families (SSVF), Grant and Per Diem (GPD), Contract Emergency Residential Services (CERS), and other external organizations to quickly determine Veterans' eligibility for homeless programs by entering identity attributes (name, date of birth, full social security number, and gender) into the system using the single or bulk search features. For more details, see https://www.youtube.com/watch?v=RFBV-FuctXY
+Other notable Experience Cloud sites:  Caregiver Records Management Application (CARMA) Vendor Portal https://www.my.va.gov/CARMAVendor  Visitor Engagement Reporting Application (VA VERA) https://www.my.va.gov/VAVERA/s/  VA Policy Library https://www.my.sites.va.gov/policy  Grants4Vets/Sports4Vets https://www.my.va.gov/Veterans  Prosthetics Vendor Portal https://www.my.va.gov/PVP
+USDA Rural Development (RD)
+https://www.rd.usda.gov/
+The RD is committed to investing in rural America and driving economic security and prosperity. With a focus on loan and grant programs, USDA RD expands access to vital infrastructure such as high-speed internet, electric utilities, and transportation. Their programs also support business growth, healthcare, education, housing, and other community essentials. To quantify program effectiveness and increase visibility into the mission impact, USDA RD established the Innovation Center to foster centralized data analytics work, regulatory and policy making, as well as partnerships and strategic engagement activities.
+In order to improve the effectiveness, USDA RD recognized the need for a consolidated data warehouse. Since they are required to be responsive to data requests from various stakeholders, including the President, the White House, the Secretary of Agriculture, and the public, a solution like a data warehouse would enable them to store, organize, and conduct reporting from a centralized platform. Gateway facilitates simplified access to RD financial data through the interactive Rural Investments Dashboards. These dashboards expand access to data from over 70 RD programs, assisting the USDA in delivering vital resources to rural communities effectively. The customizable views and portal are supported by Salesforce Experience Cloud.
+ 200 internal dashboards were developed that significantly reduced data request response times.  The public-facing Rural Data Gateway delivers insights into rural areas within minutes.
+Page 9
+
+ The Rural Data Gateway comprises six unique views and 20 dashboards, offering categorized insights into programs, states/counties, congressional districts, socially vulnerable communities, and data downloads.
+User journey workflows for identity proofing, sign-in, recovery, and navigation.
+Salesforce provides a comprehensive approach to user journey workflows for identity proofing, sign-in, recovery, and navigation through its identity and access management services. These workflows are designed to help ensure secure, seamless, and user-friendly experiences across various touchpoints, including Salesforce orgs, Experience Cloud sites, and external applications. Salesforce supports identity proofing through customizable registration flows, such as the Headless Registration Flow. This allows organizations to design tailored user registration experiences within their applications. For instance, a single-page application can collect user information, submit it to Salesforce via the Headless Registration API, and handle identity verification through one-time passwords (OTPs) sent via email or SMS. Users verify their identity before being onboarded, with security enhanced by protocols like Proof Key for Code Exchange (PKCE). Sign-in is secured through methods like single sign-on (SSO) and multi-factor authentication (MFA). MFA requires a second verification factor, such as an authenticator app or security key, alongside a password. SSO enables access to multiple applications with one set of credentials, streamlining the login process while maintaining security and protecting against threats like phishing or credential theft. For recovery, Salesforce uses features like device activation and session security. Device activation challenges users to verify their identity when logging in from unrecognized devices or IP addresses, adding an extra layer of security. Session management settings allow administrators to control session behavior, reducing risks from unattended sessions. Custom login flows can guide users through processes like recovering access or updating credentials before granting platform entry. Navigation and access control are facilitated by tools like the App Launcher and Connected Apps framework, enabling seamless movement between apps and services without re-authenticating, provided users have the necessary permissions. Identity Connect synchronizes user accounts between Salesforce and external systems like Microsoft Active Directory, providing consistent access management.
+Known limitations, risks, and tradeoffs.
+Phased migration, API-led architecture, identity reuse, user-centered design, and configuration-first standards mitigate transition and adoption risks. Lessons emphasize early veteran testing, automation, and platform reuse.
+Lessons learned from past deployments. Cost Avoidance and Strategic Value
+By consolidating portal, CRM, AI, marketing, analytics, and integration on Salesforce Government Cloud Plus under the ELA, VA avoids:
+ Separate portal platforms  Standalone chatbot systems  Independent marketing automation tools  Separate analytics engines  Swivel chair processes between workflows, tasks, applications and systems  Redundant FedRAMP environments
+Page 10
+
+Appendix
+Salesforce, Inc.
+Salesforce, headquartered in San Francisco, California, is a global company and leader in customer relationship management (CRM) software, delivering cloud-based software through the internet as a service. Founded in 1999, Salesforce enables organizations of all sizes to take advantage of powerful technologies via cloud, mobile, social, voice, and artificial intelligence (AI) to connect in a whole new way.
+Salesforce has been on the cutting edge, with over a decade of experience, integrating Artificial Intelligence into CRM through our proprietary Einstein technology.
+Salesforce offers organizations one deeply unified digital platform - the Customer 360 Platform - that delivers out-of-the-box cloud services providing quick and efficient start-up and configuration specific to our customers' requirements. Salesforce, at the forefront of CRM innovation, has consistently led the industry for two decades. More information about Salesforce can be found on our website: www.salesforce.com.
+Links to Additional Information  Salesforce Agentforce: https://www.salesforce.com/agentforce/  Salesforce Marketing Cloud: https://www.salesforce.com/marketing/  MuleSoft (A Salesforce Company): https://www.mulesoft.com/  Salesforce Experience Cloud:
+ttps://help.salesforce.com/s/articleView?id=experience.networks_overview.htm&type=5  Salesforce Customer Success Stories: https://www.salesforce.com/customer-stories/  Salesforce Government Cloud Plus (FedRAMP High) GSA Marketplace Information:
+https://marketplace.fedramp.gov/products/FR2003061248  Salesforce AI Research - ongoing 10+ yrs R&D and investments for trusted enterprise AI:
+https://www.salesforceairesearch.com/
+Page 11
+
+Page 12
+
+Architecture Narrative: Salesforce Government Cloud Plus Digital Front Door for VA
+This appendix provides a narrative description of the proposed reference architecture for implementing VA's next-generation digital front door on Salesforce Government Cloud Plus.
+The architecture is designed as a layered, modular enterprise platform that replaces the current VA.gov model with a unified digital engagement and service orchestration layer while preserving VA's authoritative backend systems and enterprise identity strategy.
+A.1 Architectural Overview Under the proposed model, Salesforce Government Cloud Plus serves as the enterprise digital engagement and orchestration platform for VA. The platform does not replace VA's core benefits, healthcare, or financial systems. Instead, it functions as:
+ The primary Veteran digital experience layer  The enterprise service delivery and automation layer  The unified engagement, analytics, and AI layer  The orchestration layer for backend integration
+VA.gov is implemented as a secure portal and service platform hosted on Salesforce Experience Cloud and integrated through standard enterprise identity and API services.
+The architecture consists of five logical layers: 1. Digital Experience Layer 2. Identity and Access Layer 3. Service Delivery and Automation Layer 4. Data and Analytics Layer 5. Enterprise Integration Layer
+Each layer is independently scalable, governed, and secured, enabling phased migration and long-term extensibility.
+A.2 Digital Experience Layer (VA.gov Replacement) The Digital Experience Layer is implemented using Salesforce Experience Cloud and serves as the new VA.gov website and authenticated Veteran portal.
+This layer provides:  Public informational content  Secure authenticated Veteran dashboards  Digital forms and guided applications  Personalized navigation and recommendations  Mobile-responsive and Section 508-compliant design
+After authentication, Veterans enter a unified "My VA" workspace that consolidates:  Benefits and claims  Healthcare appointments and messages  Applications and required actions  Notifications and alerts  Personalized service recommendations
+This layer replaces the current model of federated portals (eBenefits, My HealtheVet, standalone applications) with a single enterprise Veteran workspace.
+A.3 Identity and Access Layer The Identity Layer integrates Salesforce with VA's existing enterprise identity providers, including ID.me, Login.gov, and DS Logon.
+Salesforce acts as a federated relying party, not a credential authority. Key characteristics:
+ Veterans authenticate using existing VA identity services  LOA3 compliance is preserved  Single sign-on across all VA services  Persistent secure session across channels
+This approach eliminates the need for new credential systems, preserves VA's enterprise identity investments, and enables seamless cross-service navigation.
+Page 13
+
+A.4 Service Delivery and Automation Layer The Service Delivery Layer is implemented using:
+ Salesforce Service Cloud  Salesforce Flows and Orchestration  Agentforce (FedRAMP High authorized agentic AI)  Marketing Cloud
+This layer manages:  Enterprise case management  Application and workflow orchestration  Task routing and queue management  Virtual agent engagement  Agent console operations
+All Veteran requests, inquiries, applications, and transactions are managed as structured service workflows.
+Agentforce provides secure, 24x7 virtual agents that:  Authenticate Veterans  Guide application completion  Initiate service requests  Escalate to human agents with full context  Automated omni-channel communications
+This layer becomes VA's enterprise service execution engine.
+A.5 Data and Analytics Layer The Data and Analytics Layer is implemented using:
+ Salesforce Data 360  Salesforce Analytics and Tableau
+This layer creates a unified Veteran profile by linking records across:  Benefits systems  Healthcare systems  Identity systems  Financial and eligibility systems
+Data remains in authoritative source systems. Data 360 provides logical unification, identity resolution, segmentation, and analytics without duplicating systems of record.
+This layer enables:  Personalization and recommendations  Proactive outreach  Operational dashboards  Leadership performance reporting
+A.6 Enterprise Integration Layer The Integration Layer is implemented using MuleSoft Anypoint Platform.
+This layer provides:  API-led connectivity to backend systems  Secure real-time and batch synchronization  Event-driven integration  Legacy system abstraction
+Key integrations include:  VBMS and Caseflow  VistA / Cerner  Scheduling and messaging systems  Payments and financial systems  VA Profile and Master Veteran Index
+This design allows backend modernization to proceed independently without disrupting the digital front door.
+Page 14
+
+A.7 Security, Compliance, and Resilience Salesforce Government Cloud Plus provides:
+ FedRAMP High authorization  NIST 800-53 control implementation  Encryption at rest and in transit  Continuous monitoring and audit logging  High availability and disaster recovery  Multi-availability zone redundancy
+This architecture supports national-scale availability, surge capacity, and continuous operations in a highly visible federal environment.
+Financial Impact and Cost Avoidance Summary
+This appendix summarizes the estimated financial impact, cost avoidance opportunities, and operational efficiency benefits associated with implementing VA's digital front door on Salesforce Government Cloud Plus under the Enterprise License Agreement (ELA) model.
+All estimates are based on federal benchmarks, large-scale public sector deployments, and VA transaction volumes.
+B.1 Summary of Financial Impact Implementing Salesforce Government Cloud Plus as VA's enterprise digital front door is expected to generate substantial multi-year cost avoidance and productivity gains across five primary categories:
+1. Platform and licensing consolidation 2. Custom development and system integrator reduction 3. Operations and maintenance (O&M) reduction 4. Contact center and manual processing reduction 5. Enterprise reuse and future program acceleration
+Across comparable federal programs, total annualized financial impact typically ranges from:  $40M - $90M in direct annual cost avoidance and efficiency gains  $250M - $500M in avoided multi-year modernization and sustainment costs
+B.2 Platform and Licensing Consolidation Under the Salesforce ELA model, VA avoids procuring and sustaining separate systems for:
+ Web portal and content management platforms  Stand-alone CRM and case management systems  Chatbot and AI engagement platforms  Marketing automation systems  Customer data platforms and analytics engines  Independent FedRAMP hosting environments
+Typical large federal digital experience stacks require:  5-8 enterprise software platforms  Annual licensing and hosting costs of $15M - $30M per year
+By consolidating these capabilities onto Salesforce Government Cloud Plus under the ELA, VA can avoid:  $12M - $25M per year in redundant software licensing and hosting costs
+B.3 Custom Development and System Integrator Reduction Traditional portal modernization programs rely heavily on custom web frameworks and bespoke middleware, often requiring:
+ Multi-year system integrator contracts  Continuous custom development and patching  Separate upgrade and re-certification programs
+Salesforce's configuration-first, metadata-driven platform typically reduces custom development by 40-60 percent.
+For a national VA.gov replacement program, this equates to:  $30M - $80M in avoided development and sustainment costs over five years
+B.4 Operations and Maintenance (O&M) Reduction Salesforce Government Cloud Plus includes:
+ Hosting and infrastructure
+Page 15
+
+ Security patching and upgrades  Platform updates three times per year  Disaster recovery and redundancy  FedRAMP continuous monitoring Agencies operating multiple custom portals and platforms typically spend:  $20M - $40M annually in O&M and infrastructure costs Platform consolidation and managed cloud operations typically reduce O&M by 20-30 percent, resulting in:  $4M - $12M in annual O&M cost avoidance B.5 Contact Center and Manual Processing Reduction VA currently processes millions of benefit inquiries, claim status checks, appointment requests, and eligibility questions annually through call centers and manual channels. Deployment of:  24x7 Agentforce virtual agents  Self-service dashboards  Proactive notifications and outreach Typically deflects 20-40 percent of routine inquiries. Federal and industry benchmarks indicate:  Average live-agent assisted transaction cost: $7 - $15 per interaction  Digital self-service transaction cost: <$1 per interaction At VA national scale, deflecting even 10-15 million inquiries annually produces:  $60M - $150M per year in contact center and manual processing cost avoidance B.6 Enterprise Reuse and Future Program Acceleration Once implemented, the Salesforce digital front door platform becomes a reusable enterprise capability for:  Benefits modernization  Healthcare digital engagement  Memorial and survivor services  Identity and access workflows  Future VA modernization programs This avoids repeated platform procurements and new FedRAMP authorizations. Conservative estimates show:  $50M - $100M avoided per major future digital modernization program
+Page 16
+
+

@@ -1,0 +1,457 @@
+February 5, 2026
+
+Department of Veterans Affairs Submitted via email to Allison Fulton, Allison.fulton@va.gov, Evan Schlisserman, evan.schlisserman@va.gov
+
+Subject: Replacement Model for VA.gov RFI
+
+Reference: Solicitation Number 36C10B26Q0131, dated 01/15/2026
+
+Dear Ms. Fulton and Mr. Schlisserman:
+
+Maximus Federal Services, Inc. (Maximus) is pleased to submit our response to the Department of Veterans
+
+Affairs (VA) Replacement Model for VA.gov Request for Information (RFI). Building on VA's proven
+
+successes (e.g., VA.gov consolidation and mobile app), a coordinated approach across experience design,
+
+platform architecture, content strategy, governance, analytics, and operations is required to deliver a
+
+bestinclass, Veterancentric entry point for benefits, health care, services, and information. We bring three
+
+critical qualifications to this effort. First, our Centers for Medicare & Medicaid Services Contact Center
+
+Operations program serves 75 million Americans, handling 35 million annual inquiries and experiencing zero
+
+service interruptions more than 10 years, including throughout COVID-19 and multiple natural disasters.
+
+Second, our Veterans Benefits Administration Medical Disability Evaluation programs processed more than
+
+4.9 million exams across all compensation and pension categories, providing direct insight into VA operations
+
+and Veteran needs. Third, our 34-year partnership with the IRS, during which we modernized 400 legacy
+
+systems, demonstrates that we can transform complex federal IT without disrupting mission-critical operations.
+
+The requirements, scope and complexity to maintain service continuity for 20 million annual visitors while
+
+deploying a cloud-native architecture with accessibility embedded at every stage are aligned to the capabilities
+
+of a large business. While small businesses bring agility and niche expertise, only a large business can marshal
+
+the breadth of infrastructure, proven program management, multi-domain experience, robust security practices,
+
+and ongoing operational and programmatic rigor necessary to deliver the comprehensive solutions the VA
+
+seeks. Maximus brings experience and expertise of a large business along with agility to develop a modern
+
+digital platform. This response demonstrates how Maximus is committed to consistently applying the
+
+organizational practices that have enabled VA's successes and to continually enhancing the platform's
+
+accessibility and user experience.
+
+The 18.25 million Veterans who depend on VA.gov deserve solutions informed by VA's achievements and
+
+hard-learned lessons. We are prepared to be VA's partner in delivering that outcome.
+
+Company Information
+
+Response
+
+Company Name Point of Contact CAGE Code UEI Number
+
+Maximus Federal Services, Inc. Alicia Willette, 571-389-3089, aliciamwillette@maximus.com 8AMZ8 TREKW6J3QSF5
+
+I am authorized to submit this response and certify that all information provided herein is accurate to the best of my knowledge and belief. I am available and authorized to discuss the enclosed materials on behalf of Maximus in connection with this solicitation.
+
+Sincerely,
+
+Alicia Willette Senior Director - Contracts Maximus Federal Services, Inc.
+Maximus | 1600 Tysons Blvd, Suite 300, McLean, VA 22102 | 703.251.8500 | www.maximus.com
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+Table of Contents
+1. Company or Organization Overview ...................................................................................... 1
+2. Relevant Experience with Similar Challenges ...................................................................... 2
+3. Responses to the Topics and Questions in This Request .................................................. 3 3.1 Descriptions of Relevant Ideas, Capabilities, and Approaches ...................................... 3 3.2 Case Studies or Examples from Similar Environments .................................................. 5 3.3 User Journey Workflows for Identity Proofing, Sign-In, Recovery, and Navigation ....... 6 3.4 Known Limitations, Risks, and Tradeoffs ........................................................................ 7 3.5 Lessons Learned from Past Deployments ...................................................................... 8
+4. Descriptions of Relevant Technologies and Approaches ................................................... 9
+5. Any Additional Information Relevant to VA's Objectives .................................................. 10
+Conclusion................................................................................................................................... 10
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page iii
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+
+1. Company or Organization Overview
+
+Maximus Federal Services, Inc. (Maximus), is headquartered in McLean, VA and empowers federal agencies in health, civilian, defense, and national security to achieve greater outcomes, faster. We combine mission expertise with industry leading technologies (i.e., artificial intelligence [AI], machine learning [ML], cybersecurity, cloud) to simplify complexity and deliver measurable outcomes for Veterans and their families. As a trusted partner, Maximus combines innovative technology, operational expertise, and humancentered design to transform how agencies deliver services.
+
+Through our data-informed approaches, tools, and technology, we focus on designing and delivering solutions and services for the people who use them. Understanding Veterans, their unique needs and challenges, along with caregivers, family members, survivors, clinical providers, and employees, is central to how we continuously innovate and improve our solutions we deliver every day to best serve citizens.
+
+Maximus can deliver a VA.gov that is easy for Veterans to use, accessible for all abilities, secure and private, and designed with empathy, especially for those facing disability or crisis, so they can achieve better outcomes. Modernizing the website will reduce unnecessary reliance on higher cost support channels like call centers and email. When users can easily find accurate information, complete tasks, and understand next steps online, they are less likely to escalate to phone or manual support. Designing the website with this ecosystem in mind helps streamline the overall service experience while reducing operational drag across channels. We move Veterans forward by delivering automated, frictionless, secure solutions that improve the efficiency and effectiveness of benefits and services, ensuring those who served receive the care and support they've earned, faster and with dignity. Our commitment to making it easier for people to access public services equitably shows through the award-winning websites, mobile apps, SMS/email messaging, secure documents, mobile upload, and chatbots we build and maintain for our clients. Exhibit 1 provides an overview of our relevant capabilities against VA's required modernization outcomes.
+
+VA Modernization Outcome
+Maintaining Continuity for Millions
+Integrating Legacy and Emerging Systems
+Operating in a Regulated Federal Environment
+Long-Term Scalability, Adaptability, and Resilience
+
+Relevant Capabilities
+VA.gov serves 20 million annual visitors with 1.7 million monthly logins. Any service disruption affects Veterans' access to health care appointments, prescription refills, and disability claims. We demonstrate the required capability through our Veterans Benefits Administration (VBA) Medical Disability Evaluation (MDE) programs that have served more than 3.7 million Veterans. Our Centers for Medicare & Medicaid Services (CMS) Contact Center Operations (CCO) program serves 75 million Americans and handles 35 million annual inquiries with zero service interruptions for more than 10 years. We handled 190,000 disaster-related calls during the 2024 hurricanes, with no wait time degradation across 84 contact centers in 28 states, operating 24/7/365. VA operates diverse technologies spanning VistA at most facilities, Oracle Cerner at six sites, and the Benefits Delivery Network for claims. Our IRS Enterprise Development program modernizes more than 400 legacy systems while maintaining zero disruptions to tax processing through a 34-year partnership. Recent task orders include $87 million for financial systems modernization and $40 million for cloud migration. Our Texas HHSC Integrated Eligibility program consolidated 2,000 county processes into a statewide platform serving 3.7 million cases monthly, comparable in complexity to VA's multi-benefit portfolio. VA faces Congressional oversight, GAO audits, OIG reviews, and strict Section 508 requirements. Our CMS Eligibility Appeals was the first CMS program built entirely in the cloud with documented accessibility compliance. GAO protest decision B-422676 in 2024 documented that CMS evaluated Maximus as having "superior proposal from which the Government will greatly benefit" for the $6.6 billion CMS CCO award. Our governance approach includes monthly operational dashboards for Congressional oversight, quarterly accessibility audits conducted by certified specialists, and systematic tracking of GAO/OIG recommendations, with implementation milestones that directly address VA's documented pattern of implementing only two of 18 GAO recommendations. Our CMS CCO program is built on a highly scalable infrastructure that supports rapid adjustment to fluctuating call volumes, managing more than 29 million multichannel inquiries annually. The architecture leverages portable, expandable voice and data telecommunications systems within an AWS cloud environment, enabling IT resources to scale up or down as needed. We operate 12 fully
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 1
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+
+VA Modernization Outcome
+Seamless Customer Experience
+
+Relevant Capabilities
+integrated sites with multilayered redundancy, delivering uninterrupted service with zero outages for more than 10 years. VA.gov must provide a best-in-class Veteran experience as the central entry point for benefits, health care, services, and information. We maintain a customer satisfaction rating of 94% and an average quality rating of 97% from the more than 3.7 million Veterans we have served through our VBA MDE programs. On our CMS CCO program, we maintain an average customer satisfaction rating of 96% for Medicare and 93% for Marketplace.
+Exhibit 1. Relevant Capabilities
+
+2. Relevant Experience with Similar Challenges
+
+VA.gov serves as the central digital front door for service members, Veterans, families, and caregivers accessing health care, pension, housing, education, career and training benefits, and services and plays a critical role in how users understand their options and complete key tasks. Today, the site provides extensive and comprehensive content intended to cover a broad range of programs and user needs. However, this informationrich approach can make it difficult for Veterans to quickly determine what applies to them personally, what actions they should take, and what to expect next. When core questions related to benefit status, eligibility, or next steps are not clearly answered through digital pathways, Veterans often rely on call centers or inperson support for assistance that could otherwise be addressed online.
+
+Modernizing how citizens interact with government starts at the front door. Whether transforming existing systems or launching new citizen engagement platforms, we bring the technology, expertise, and scale to deliver impact. We have experience designing and operating digital front doors for federal and state agencies facing similar challenges. We operate more than 60 easy-to-use websites that enable citizens to discover services, understand eligibility, and complete critical tasks. Our solutions consistently meet or exceed security, usability, and accessibility standards while prioritizing clarity, trust, and task completion for diverse audiences. Veterans represent a distinct user group whose interaction patterns and information needs differ from those of general government website users. Their experiences with military service, VA systems, and benefits processes shape how they seek, evaluate, and prefer to receive information on VA.gov. Many visits are motivated by a specific, highstakes objective such as filing a claim, checking benefit status, scheduling health care, or resolving an issue rather than exploratory browsing. Our design takes this into consideration and follows the modernization approach that includes:
+
+ Transforming fragmented or outdated experiences into service-oriented journeys that are grounded in clearly defined user personas and life events and delivered on platforms designed from the outset to prioritize accessibility, plain language, and inclusive design.
+ Establishing clear, consistent, and scalable design systems by modernizing information architecture, simplifying navigation, and delivering mobile-first, natively Section 508-compliant experiences that help users quickly find what they need without requiring knowledge of internal agency structures.
+ Enabling a unified One VA experience by working across organizational boundaries to align interfaces, patterns, and interactions and ensure Veterans encounter a cohesive, predictable experience regardless of which VA service or program they access.
+ Supporting modern, interoperable service ecosystems through standards-based middle-tier integrations, including HL7 and FHIR, to securely broker health and benefits data across electronic health records, enterprise systems, and Veteran-owned devices.
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 2
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+
+Additional Relevant Website Modernization Projects:
+ In support of our CMS Eligibility Appeals Program Modernization program, we developed a firstof-its-kind environment built in the CMS cloud to modernize the health care coverage eligibility appeals process. We leveraged emerging technologies, advanced analytics, and application development to support more than 75 million beneficiaries/consumers. We focused on human-centered design to improve customer experience (CX) and maintain 508 compliance to ensure full accessibility to all users. Results include increased online submission rate to 80%, reduced case volume by 71%, and decreased time to issue hearing decisions to within 1 business day.
+ On our Healthy Louisiana (Medicaid) program, we transformed the Healthy Louisiana website for Medicaid and CHIP enrollment serving more than 1.4 million Medicaid members. Impact includes more than 1 million secure member logins, more than 7 million page views sitewide, and 410,000 plan comparison page visits. We won multiple 2023 WebAwards including Best Insurance Website and Health Care Standard of Excellence.
+ We supported a major milestone in Illinois as it transitioned from the federal health insurance marketplace (HealthCare.gov) to a state-based marketplace aimed to provide coverage options more tailored to the needs of its residents. In just 5 months, we designed, built, and launched Get Covered Illinois using a human-centered approach and modern, accessible, user-friendly experience to help consumers compare health plans, check financial assistance, and enroll in coverage. Realized a 17% increase in enrollment numbers for the 2025 Health Insurance Marketplace Open Enrollment Period. The new Get Covered Illinois platform has already received three Vega Awards for excellence in user experience, government website design, and inclusive design. Nationally, we support nine statebased marketplaces and operate more than 65 award-winning government program websites, helping people across the country connect to essential services with clarity and ease.
+3. Responses to the Topics and Questions in This Request
+3.1 Descriptions of Relevant Ideas, Capabilities, and Approaches
+Maximus Capabilities. We bring VA experience through our VBA MDE programs. We have processed 4.9 million exams through a network of more than 6,000 board-certified providers nationwide. The program covers all compensation and pension categories and has successfully scaled to meet the PACT Act's demand for toxic exposure claims. With continuous operations since 2008, we understand VA culture, Veteran populations, VBA processes, and unique challenges of serving our Veterans. Veterans Evaluation Services (VES), a wholly owned and managed Maximus Federal company, revolutionized the MDE process by implementing an integrated portal ecosystem that includes a Contractor portal for VA staff and a Veteran portal for claimants, enabling real-time appointment tracking and seamless communication. Since 2007, VES has completed more than 142,885 assessments nationwide with a 100% validity/accuracy rating from Human Services Research Institute (HSRI) and maintains a >96.5% DBQ quality performance standard.
+The innovative SISPro and SC Portal scheduling technology, combined with a comprehensive network spanning more than 40 countries, has dramatically reduced cancellations and no-shows while producing high-quality disability benefit questionnaires (DBQ) that provide the detailed medical findings necessary for accurate disability determinations that withstand appellate review. Our domain knowledge and the VA's desire to include the DBQ Health Care Portal into VA.gov as the front door will be an asset for VA.
+IRS Enterprise Development and Operations Services proves our legacy modernization capability. Our 34year partnership with the IRS involves modernizing more than 400 legacy systems while maintaining zero disruptions to tax processing. Recent task orders include $87 million for financial systems modernization and $40 million for the cloud migration of the enterprise data platform. Former IRS employees make up 30% of our workforce comprises, helping preserve institutional knowledge during the transformation. This $2.6 billion program validates our approach to incremental modernization without requiring wholesale replacement of functioning systems.
+Maximus Approach and Ideas: We use a human-centered, datamodernization strategy grounded in our Rapid Innovation & Delivery Methodologies (RIDM) and CX Next Gen framework to ensure digital
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 3
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+experiences are intuitive, accessible, and secure. Through qualitative and quantitative research-- including interviews, surveys, behavioral telemetry, and accessibility assessments--we develop personabased journey maps that reveal user expectations, friction points, and security sensitivities across identity proofing, signin, account recovery, and navigation workflows. RIDM enables rapid iteration by pairing user insights with technical feasibility reviews, aligning frontend experiences with back-end integration requirements (i.e., CRM, case management, identity services).
+Complementing this, CX Next Gen service blueprints illustrate user interactions and supporting system processes, ensuring modernization efforts account for authentication logic, data flow, performance considerations, and crosssystem dependencies from the outset. Through continuous validation, usability testing, and telemetrydriven refinement, our approach transforms identity and navigation workflows into streamlined, secure, and inclusive experiences for all users--including those with limited technical proficiency or varying digital literacy. Together, RIDM and CX Next Gen create a modernization ecosystem that evolves based on real user behavior, enabling agencies to deliver trustworthy, highperforming, WCAGcompliant websites that can adapt to future mission needs.
+We propose transforming VA.gov through Veteranvalidated, incremental modernization that maintains uninterrupted service for 20 million annual visitors while delivering measurable improvements in each phase. Our approach is grounded in a cloudnative, FHIRfirst architecture, with accessibility compliance verified at procurement gates rather than retrofitted after deployment. We replicate the organizational practices that enabled VA's mobile app success and VA.gov consolidation achievements. Central to this approach is designing clear, guided digital journeys that connect benefit information to actionable next steps, helping Veterans more easily understand status, eligibility, and outcomes while reducing avoidable reliance on highercost support channels. These principles guide our approach:
+ Accessibility cannot be retrofitted. Section 508 compliance becomes a procurement gate, with independent testing required before any deployment, and non-compliance blocking go-live decisions.
+ Understanding your customer needs is the key. We apply researchled information architecture to improve findability and task completion. Insights from interviews, usability testing, behavioral analytics, and search analysis inform how content is grouped, labeled, and prioritized. We align site structure to Veteran journeys and life events, with taxonomy and plainlanguage standards that reduce cognitive load and help users move from discovery to action.
+ Service continuity is core to our mission. We employ parallel operation periods, automated rollback capabilities, and phased rollouts at 1%, 5%, 25%, 50%, and 100%, with go/no-go gates at each milestone.
+ Interoperability takes precedence over uniformity. VistA and Oracle Cerner coexistence will persist, so we design FHIR R4 integration layers that abstract backend complexity from Veteran-facing portals rather than expecting system uniformity that causes medication errors. This same principle applies across VBA systems for programs such as disability compensation, education, loan guaranty, pension, insurance, and Veteran readiness and employment, where interoperability over uniformity ensures Veterans receive consistent information through VA.gov even as backend platforms differ.
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 4
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+3.2 Case Studies or Examples from Similar Environments
+Case Study 1 California Health Care Options For the California Health Care Options (HCO) program supporting MediCal, we deliver a mobileresponsive, multilingual public website serving more than 15 million beneficiaries across 37 counties. The platform supports multiple enrollment programs, enables provider search and health plan comparison, and securely processes more than 2.8 million enrollment and disenrollment transactions annually. Content is available in more than 18 languages, and the site is continuously enhanced to meet rigorous ADA and digital accessibility requirements. In 2023, the program received a Gold Award for digital accessibility improvements.
+California enforces some of the nation's strictest digital accessibility standards, requiring annual certification of compliance with federal regulations. When the California Department of Health Care Services (DHCS) updated its minimum accessibility guidelines, we partnered with the state to ensure the HCO website remained compliant across ongoing enhancements. We conducted recurring accessibility reviews, remediated issues related to screen readers, color contrast, keyboard navigation, and semantic code structure, and retested each release to confirm compliance. We also enhanced core templates to ensure new pages met Web Content Accessibility Guidelines (WCAG) standards by default and implemented a repeatable test plan for new content. As a result, DHCS successfully certified the HCO website's accessibility compliance, ensuring an inclusive, reliable digital experience for MediCal members.
+VA Relevance: This work demonstrates our ability to modernize and operate a largescale, multilingual, accessibilitydriven public benefits website serving more than 15 million users while continuously meeting stringent compliance standards, directly aligning with VA's need for a secure, inclusive, and highavailability digital experience for Veterans and their families.
+Case Study 2. VBA MDE We conduct MDEs to determine disability compensation entitlement and pension claims and has served more than 3.7 million Veterans. Using a DBQ solution, our more than 6,200 credentialed providers have registered, authenticated, and completed 1,820,000 examinations annually through VEMS, our enterprise-level, AWS and Salesforce GovCloud 24/7 MDE platform with a 99.9% uptime. We completed the conversion of all 82 DBQs from static PDFs to dynamic online forms leveraging automation Optical Character Recognition (OCR), ML, and Adobe based digital attestation integration. DBQ conversions have resulted in a 40% reduction in form completion time, 95% provider satisfaction rate, and zero security incidents during production deployment.
+VEMS maintains a longstanding ATO and supports a fully paperless workflow, interfacing with DAS via API for bidirectional messaging and diagnostic data exchange. Each release includes updated system documentation and provider training. VEMS includes three secure portals:  Government Portal: Realtime, rolebased access to appointment status  Veteran Portal: 508compliant access to exam details, travel reimbursement info, and view/print appointment letters  Provider Portal: HIPAAcompliant access to PHI, diagnostics, training materials, and tools to complete DBQs and
+documentation
+VA Relevance: Our experience delivering the VEMS platform--supporting millions of authenticated Veteran users, highvolume digital workflows, 508compliant portals, and complex identity and data integrations shows proven capability to modernize, secure, and streamline missioncritical Veteranfacing digital services at national scale
+Case Study 3. IRS Enterprise Development Our IRS Enterprise Development and Operations Services BPA, with a $2.6 billion ceiling over 7 years, modernizes more than 400 legacy systems while maintaining mission-critical tax processing. The 34-year partnership dating to 1991 includes recent task orders totaling $87 million for financial systems modernization, $76 million for Masterfile system programming, $75 million for development infrastructure security, and $40 million for enterprise data platform cloud migration.
+The program modernizes legacy systems dating to the 1960s while maintaining a zero-tolerance policy against tax processing disruptions, paralleling VA.gov's requirement to modernize while serving 20 million annual visitors. Solutions employ a strangler fig pattern, building new functionality around the edges of the legacy system with gradual traffic migration. A blended workforce comprising 30% former IRS employees preserves institutional knowledge. Zero disruptions to tax filing, processing, or refund distribution for more than 34 years demonstrates sustained capability.
+VA Relevance: This longrunning modernization program showcases our ability to modernize decadesold legacy systems using zerodowntime, stranglerfig approaches while maintaining uninterrupted missioncritical services mirroring VA's need to transform VA.gov without disrupting millions of Veteran users.
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 5
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+
+3.3 User Journey Workflows for Identity Proofing, Sign-In, Recovery, and Navigation
+Maximus employs a humancentered approach to developing user journey workflows for identity proofing, signin, recovery, and navigation, using its RIDM. The process begins with indepth user research that blends qualitative techniques (e.g., interviews, focus groups, observations) with quantitative analytics and surveys. These insights inform the creation of detailed personas that reflect users' technical comfort levels, accessibility needs, security concerns, and pain points, ensuring workflows are shaped by real user requirements rather than technical assumptions and helps understand variety of perspective like survivors to navigate the VA ecosystem especially during the time of grief or crisis.
+
+For identity proofing and signin, we map the full journey from account creation through authentication and secure access. This includes defining key stages--registration, verification, account setup, firsttime signin, and ongoing authentication--while capturing user actions, mindsets, and emotions throughout. The process identifies all user touchpoints, required system capabilities, and integration points with systems like CRM or case management. Similarly, account recovery workflows are designed to minimize friction while preserving security. Clear flow diagrams illustrate each step in the recovery process, from recognizing the need for a reset to successfully regaining access, and they account for various persona needs, such as differing levels of technical proficiency or preferred verification methods.
+
+Navigation workflows are developed using journey maps and service blueprints that connect user-facing interactions with the behind-the-scenes processes that enable seamless access, such as authorization checks and content retrieval. These artifacts inform information architecture and system design and evolve continuously through telemetry on user behavior--including click paths, abandonment rates, and authentication failures. Throughout all workflow development, we use iterative testing with real users and applies plain language, Web Content Accessibility Guidelines (WCAG) 2.2 AA accessibility standards, and inclusive design. This ensures identity and navigation experiences remain secure, compliant, and genuinely usable for diverse populations, including citizens, Veterans, and beneficiaries relying on government digital services.
+
+VA.gov will benefit from an informed design and review rapid prototype content for Veteran and end user validation and rapid iteration allowing for improvement well before a production launch.
+
+Our approach ensures comprehensive support infrastructure:
+
+ Overseas Veterans. Alternative verification through video calls with VA contact center agents, acceptance of military IDs and passports instead of requiring U.S. state IDs, and in-person verification at any of more than 3,100 locations worldwide.
+ Court-Appointed Guardians. Dedicated workflow for uploading legal documentation (court orders, power of attorney), VA benefits coordinator manual verification, guardian-specific accounts with activity logging, and annual recertification requirements.
+ Account Recovery. VA contact center equipped with secure reset capabilities for VA-managed signin accounts, warm transfers to Login.gov/ID.me support for external sign-in accounts, temporary access codes for urgent health care needs (prescription refills), and 48-hour resolution SLA for manual cases.
+
+Tiered Authentication Approach That Matches Assurance Level Risk. Based on VA's documented authentication failures affecting 3 million Veterans, we propose a tiered approach (Exhibit 2) balancing security with accessibility.
+
+Tier Tier 1 (Public Information)
+Tier 2 (Personal Information)
+
+Description Email verification only for facility locators, benefits information, and educational content. This eliminates unnecessary friction for low-risk access while preventing automated scraping.
+WebAuthn/passkey authentication for appointment scheduling, prescription refills, and secure messaging. Passkeys provide phishing-resistant security through public key cryptography while eliminating password fatigue. For elderly Veterans, the system supports extended timeout periods (>3 minutes), known device recognition, and biometric options (i.e., Face ID, Touch ID).
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 6
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+
+Tier 3 (HighRisk Transactions)
+
+Multi-factor authentication with step-up verification for claims submission, financial changes, and beneficiary updates. When Veterans initiate these transactions, the system requests additional verification beyond standard authentication.
+Exhibit 2. Tiered Approach
+
+3.4 Known Limitations, Risks, and Tradeoffs
+
+Exhibit 3 provides known technical limitations and mitigations.
+
+Limitation FHIR R4 Integration
+Cloud Cultural Change
+Accessibility Testing Timeline
+
+Reality and Timeline
+
+Mitigation
+
+ VistA's MUMPS structures require semantic  Parallel operation with MyHealtheVet during maturation.
+
+mapping
+
+Subset population testing before full deployment
+
+ Not just field translation. 6-12 months for  Avoids big bang pattern that may cause failures.
+
+initial integration with ongoing refinement
+
+ VA staff accustomed to on-prem systems  Blended teams pairing VA staff with cloud practitioners (IRS
+
+must learn infrastructure-as-code,
+
+model: 30% former agency employees)
+
+containerization, and distributed monitoring  12-month knowledge transfer with hands-on mentorship
+
+ Adding to the training burden during the
+
+preserves institutional knowledge while building modern
+
+transition
+
+capabilities
+
+ Automated tools catch 30-40% of issues;  Non-negotiable tradeoff: Current 87% non-compliance
+
+the remaining 60-70% require manual
+
+represents civil rights violations
+
+testing with assistive technologies
+
+ Deploy solution with Section 508 compliance to ensure
+
+ Adds 2-4 weeks per major release
+
+disabled Veterans can access records
+
+ Slower, compliant releases better serve Veterans than rapid
+
+deployments, excluding disabled populations
+
+Exhibit 3. Technical Limitations and Mitigations
+
+Exhibit 4 outlines critical tradeoffs that require VA decisions.
+
+Deployment Speed vs. Thoroughness
+
+Option
+
+Timeline
+
+Scope
+
+Risk Profile
+
+Historical Parallel
+
+A. 12-Month MVP Faster Veteran
+
+ Core health care
+
+ Lower Limited
+
+ VA.gov consolidation
+
+(Recommended) value
+
+features first
+
+initial exposure
+
+(2015-2018 incremental) 
+
+ Phased benefit rollout
+
+30% satisfaction increase
+
+B. 24-Month
+
+Longer wait for any  All benefit portfolios  Higher Complex  Big bang project approach
+
+Comprehensive improvements
+
+from Day 1
+
+testing, increased
+
+ orders to unknown
+
+risk
+
+queues
+
+Recommendation: Option A delivers value iteratively, replicates proven VA.gov success pattern, and enables course
+
+correction based on Veteran feedback.
+
+Infrastructure: Cloud vs. VA-Hosted
+
+Approach
+
+Advantages
+
+Disadvantages
+
+Cost Model
+
+AWS or Azure  Proven scalability
+
+ Ongoing cloud costs
+
+ Predictable
+
+Government FedRAMP High (Recommended)
+
+ FedRAMP High + DoD authorizations  Auto-scaling  VA retains data control
+
+ Microsoft dependency  Cloud-native learning curve
+
+consumption-based  No capital investment
+
+VA Data Centers  Direct VA control
+
+ Capital infrastructure
+
+ High upfront capital
+
+ No cloud provider dependency
+
+investment
+
+ Ongoing
+
+ On-premise familiarity
+
+ Manual scaling
+
+maintenance
+
+ VA responsible for patching/DR  Staffing
+
+Recommendation: Azure Government provides elasticity for unpredictable demand (PACT Act surges, disasters) while
+
+maintaining VA data sovereignty.
+
+Exhibit 4. Known Tradeoffs
+
+Exhibit 5 lists known risks and associated mitigations.
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 7
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+
+Risk Orders to unknown queues (Oracle pattern) Deployment disruptions (20 million annual visitors) Continuing 87% noncompliance Contact Center overwhelmed (Login.gov pattern) Dependency limiting options ($50 billion Oracle lesson) Contractor departure gaps
+
+Mitigation Real-time queue monitoring; automated alerts/circuit breakers Phased rollout (1%/5%/25%/50%/100%); automated rollback; parallel legacy operation Section 508 procurement gates; automated + manual testing; quarterly audits; blocks deployment CMS CCO capacity (35 million inquiries); surge contracts; predictive modeling Open standards (FHIR, SMART on FHIR); data portability; government code control Blended teams (30% former VA staff); 12-month transfer; VA-controlled documentation
+Exhibit 5. Risks and Associated Mitigations
+
+Success Metric Zero patient safety incidents from technology 99.97% availability; zero unplanned outages 100% WCAG 2.2 AA before production 90% first-call resolution; <5min handle time VA retains flexibility; no proprietary barriers VA can operate independently
+
+3.5 Lessons Learned from Past Deployments
+Based on our experience delivering large-scale government website modernization projects and comprehensive analysis of industry lessons learned, several mission-critical considerations consistently emerge as foundational to successful deployments. Comprehensive user research and human-centered design must drive every phase of development, from initial information architecture through final deployment. This begins with conducting in-depth contextual inquiry with diverse Veteran populations, including those with varying levels of digital literacy, different service backgrounds, physical and cognitive disabilities, and distinct accessibility needs, to understand how Veterans naturally seek information and navigate complex benefit systems.
+
+Traumainformed by design. Many Veterans and families access VA.gov during highstress, highstakes moments. We embed traumainformed principles (predictability, choice, plain language, reduced cognitive load, and deescalation patterns) from research through production. This includes content warnings where appropriate, clear next steps, error recovery that preserves progress, and accessibility practices tailored to users with PTSD, TBI, visual, auditory, mobility, and cognitive needs.
+
+Leveraging our proprietary RIDM, we apply Design Thinking principles to establish information architecture based on actual user mental models rather than organizational hierarchies, validated through iterative card sorting, tree testing, and journey mapping exercises.
+
+This human-centered approach ensures navigation structures align with how Veterans think about their benefits and services, significantly reducing cognitive load and eliminating costly post-launch redesigns that occur when information architecture is built on assumptions rather than evidence.
+
+Equally critical is rigorous, multi-layered quality assurance integrated throughout the development lifecycle rather than treated as a final gate. Industry experience demonstrates that combining expert heuristic evaluation using established frameworks (Nielsen Norman Group principles, VA-specific design system standards) with iterative usability testing at each Agile sprint delivers superior outcomes.
+
+Our testing framework encompasses automated and manual accessibility validation against WCAG standards, Section 508 compliance verification, cross-browser compatibility testing, performance optimization, and comprehensive security scanning through our DevSecOps pipeline.
+
+For a population that includes Veterans with TBI, PTSD, visual impairments, mobility limitations, and varying cognitive abilities, accessibility must be embedded from initial wireframes through production deployment--not retrofitted after development. This includes proactive screen reader compatibility testing, keyboard navigation validation, color contrast optimization, content readability scoring, and cognitive load reduction strategies.
+
+Additionally, iterative stakeholder collaboration and continuous feedback loops enabled through our Agile methodology ensure Veterans, VA stakeholders, and technical teams remain aligned on priorities, with frequent sprint reviews allowing course correction before issues compound.
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 8
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+
+4. Descriptions of Relevant Technologies and Approaches
+
+As part of the customer experience framework, the website is part of the Experience Layer but is not just another channel. We propose a navigation architecture based on task-based design for Veteran success.
+
+Strategic Framework: Veterans' Tasks, Not VA's Organization. The VA.gov 2018 redesign achieved a 30% increase in customer satisfaction by fundamentally shifting from an organization-centric structure to task-based navigation. Rather than forcing Veterans to understand VA's organizational chart (i.e., VHA, VBA, NCA), the redesign focused on the top 20 tasks that account for 80% of Veterans' needs. We propose continuing and enhancing this proven pattern while addressing current fragmentation problems.
+
+Veterans currently face multiple portal confusion: those receiving care at Oracle Cerner sites use My VA Health, those at VistA facilities use MyHealtheVet. This forces Veterans to understand backend technical architecture rather than simply accomplishing their goals. Our navigation architecture abstracts this complexity through FHIR-based integration, providing a unified experience regardless of backend systems.
+
+Task-based design replicates VA.gov 2018 success pattern focusing on top 20 tasks representing 80% of Veteran needs. Mobile-first approach serves the 57% of end users preferring smartphone access. FHIR integration layer abstracts VistA versus Oracle Cerner complexity: Veterans see unified information regardless of backend system. Progressive disclosure shows essential information first with contextual help where commonly needed.
+
+Exhibit 8 details relevant technologies and approaches for VA.gov modernization.
+
+Technologies/ Approaches Cloud-Native Infrastructure Foundation
+Headless Content Management System and Progressive Web Architecture
+FHIR-First Integration Layer
+Accessibility Automation Pipeline
+Observability and Reliability
+
+Description
+Deploy on AWS GovCloud or Azure Government with FedRAMP High authorization and DoD IL2/IL4/IL5 provisional authorizations, ensuring compliance for VA's sensitive Veteran health data. Kubernetes clusters with an Istio service mesh provide container orchestration with security controls, including mutual TLS, role-based access control, and network policies that implement a zero-trust architecture. Infrastructure-as-code with HIPAA-compliant Terraform modules enables repeatable, auditable deployments while reducing configuration drift. Implement headless Content Management System architecture using Acquia's FedRAMP-authorized Drupal platform that already powers VA.gov, ensuring continuity while modernizing delivery. Content flows through a React-based progressive web application with native mobile companions, providing responsive experiences across all devices. All components inherit from the VA Design System (built on USWDS), ensuring Section 508 compliance by default and maintaining visual consistency across Veteran-facing services. Establish FHIR R4 as canonical data model for Veteran information exchange, abstracting VistA and Oracle Cerner backend complexity. AWS HealthLake or Azure Health Data Services provides managed FHIR repositories with sub-millisecond latency handling thousands of concurrent requests. Kong Enterprise for API gateway implementing SMART on FHIR authorization, rate limiting, and comprehensive PHI audit logging. Architecture enables unified portal experience Veterans deserve regardless of which backend system holds their data. Embed accessibility compliance through CI/CD integration of axe-core for automated WCAG 2.2 AA testing on every pull request, with Pa11y-ci providing threshold-based quality gates blocking deployment when accessibility regressions occur. Complement automation (catching 30-40% of issues) with structured manual testing protocols using JAWS, NVDA, and VoiceOver screen readers, plus quarterly audits by certified accessibility specialists. Deploy Splunk's FedRAMP High-authorized platform for comprehensive observability, complemented by OpenTelemetry instrumentation for vendor-neutral telemetry. Real-time dashboards track portal availability (target: 99.97%), API latency percentiles, error rates by service, and queue depth monitoring, preventing another unknown queue incident. Synthetic monitoring validates critical workflows with defined service level objectives, ensuring Veterans experience consistent, reliable service.
+Exhibit 8. Relevant Technologies and Approaches
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 9
+
+Department of Veterans Affairs Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+5. Any Additional Information Relevant to VA's Objectives
+Maximus supports VA's outcomes by modernizing digital infrastructure, strengthening site usability, streamlining digital pathways, and ensuring a Veteran First, data-driven experience. We can support VA's objectives in following ways:
+ Navigation design follows WCAG 2.2 AA standards which addresses VA's documented 87% accessibility non-compliance by embedding accessibility into design and procurement gates rather than retrofitting after deployment.
+ Health Care-specific accessibility considerations include optimizing complex medical forms for screen readers, ensuring adequate color contrast for clinical alerts (particularly critical for Veterans with traumatic brain injuries that affect vision), and supporting voice navigation for Veterans with mobility limitations that prevent mouse or touchscreen use.
+A unified experience is enabled through modern integration architecture, including Kong Enterprise API Gateway with SMART on FHIR authorization that empowers Veterans to securely share data with thirdparty apps. The stranglerfig migration pattern enables seamless transition from VistA to modern FHIR APIs without downtime. Realtime monitoring via Splunk tracks availability, latency, error rates, and queue depth to prevent service disruptions before they affect users. Together, these capabilities transform VA.gov from a collection of disconnected sites into a cohesive, reliable, secure digital front door that delivers the highquality experience Veterans deserve.
+Conclusion
+The VA has demonstrated it can deliver world-class digital services through its mobile app, telehealth program, and VA.gov consolidation achievements. These successes share common characteristics: humancentered design with extensive Veteran input, accessibility built in from the start, incremental deployment with continuous feedback, and complete support models matching technical capabilities.
+Maximus brings the proven capability VA requires. Our CMS CCO has served 75 million Americans without service interruptions for more than 10 years. Our VBA MDE program processed more than 4.9 million exams, providing direct VA experience and a deep understanding of the Veteran population. Our IRS Enterprise Development and Operations Services modernized 400 legacy systems without disrupting tax processing.
+We propose transforming VA.gov through Veteran-validated, incremental modernization while maintaining service to 20 million annual visitors. The technical foundation deploys a cloud-native FHIRfirst architecture with accessibility verified at procurement gates. The approach replicates organizational practices that produced VA's documented successes while systematically avoiding failure patterns evident in Oracle EHR and authentication transition deployments.
+The 18.25 million Veterans who depend on VA.gov deserve solutions informed by VA's achievements and hard-learned lessons. We are prepared to deliver that outcome through disciplined execution of proven practices.
+
+Use or disclosure of data used on this sheet is subject to the restriction on the title page of this RFI response. Request for Information February 5, 2026
+
+Page 10
+
+

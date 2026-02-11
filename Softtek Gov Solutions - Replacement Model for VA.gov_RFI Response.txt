@@ -1,0 +1,251 @@
+Department of Veterans Affairs
+Replacement Model for VA.gov
+Notice ID: 365357 February 4, 2026
+RFI Response
+Submitted to: Department of Veterans Affairs | Allison Fulton (Allison.fulton@va.gov) and Evan Schlisserman (evan.schlisserman@va.gov) Submitted by: Aveshka, Inc. dba Softtek Government Solutions | 8229 Boone Blvd, Suite 730, Vienna, VA 22182 Primary POC: Andrea Cristancho, Sr. Director Business Development & Capture | (757) 724-0347 | acristancho@softtekgov.com Contractual POC / Authorized Signer: Kevin Brendel, VP, Administration and Compliance | (757) 737-6443 | kbrendel@ softtekgov.com UEI: PS4EBQSK84N7 | CAGE: 5YS65 | GSA Contract #: GS-35F-609GA
+This document includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to evaluate this data. If, however, a contract is awarded to this offeror as a result of - or in connection with - the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. This document contains trade secrets and commercial or financial information which are privileged and confidential and exempt from disclosure under the Freedom of Information Act, 5 U.S.C. 552. Furthermore, this information is prohibited from disclosure under the Trade Secrets Act, 18 U.S.C. 1905. The data subject to this restriction are contained all sheets of this document.
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+Table of Contents
+1.0 Overview of Softtek Government Solutions .............................................................................1 2.0 Relevant Experience with Similar Challenges ..........................................................................1 3.0 Softtek's Approach to Platform and Website Modernization ................................................3 4.0 Description of Relevant Technologies and Approaches .........................................................8 5.0 Any additional information relevant to VA's objectives..........................................................9
+
+RFI Response
+
+i
+
+Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+1.0 Overview of Softtek Government Solutions Softtek Government Solutions is a leading provider of large-scale digital modernization and transformation services, leveraging more than three decades of commercial and public sector expertise to deliver secure, accessible, and user-centric solutions for complex, mission-driven organizations. As the governmentfocused arm of Softtek, our company is dedicated to serving federal clients with proven methodologies and nextgeneration technologies purpose-built to advance public service objectives, enhance user experience, and drive operational efficiency. Our service excellence is founded on disciplined adherence to ISO 9001 and 27001 standards, CMMI Level 5 DEV and SVC-certified processes, and mature delivery methodologies based on PMBOK, Agile, and ITIL frameworks--capabilities rooted in our experience delivering enterprise IT for Fortune 100 firms and federal agencies alike. Our experience supporting globally recognized brands, including Real Madrid, United Airlines, Aeromexico, and the Ritz Carlton Yacht Collection, demonstrates our ability to execute digital transformation for high-stakes, highly regulated, and user experience-focused environments. Through these large, multi-year initiatives, we have honed expertise in orchestrating end-to-end digital reinvention, modernizing application portfolios, enabling omnichannel engagement, and driving measurable improvements in customer satisfaction, operational reliability, and time-tomarket. These engagements required deep skills in integrating with diverse legacy and emerging systems, managing organizational change, and maintaining robust compliance and accessibility standards--capabilities directly aligned to the VA's priorities for a secure, resilient, and seamless Veteran-facing digital platform. At the core of our approach is a structured, iterative methodology grounded in Human-Centered Design, seamless development-operational collaboration, and secure, cloud-native architecture. We apply a product mindset and value-centric governance to deliver continuous innovation, program transparency, and sustainable results for users and stakeholders. This enables our clients to achieve reliable service continuity, rapid adaptation to policy and user needs, and long-term scalability within highly visible federal environments. For the Department of Veterans Affairs, our commitment is to bring commercial-sector best practices, battle-tested technologies, and a relentless focus on accessibility and trust to support VA's transformation of VA.gov into a premier digital gateway for Veterans, their families, and caregivers.
+2.0 Relevant Experience with Similar Challenges
+
+Agency/Customer Period of Performance Description Scope of Work
+
+Real Madrid 2021-Present
+
+Contract Value Contract Type
+
+$15,000,000 USD T&M
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  1
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+Scope: Softtek led a comprehensive digital acceleration initiative for Real Madrid, reinventing the club's global supporter engagement through the creation of a modern Digital Acceleration Ecosystem. This effort encompassed the development and execution of a holistic digital strategy, extensive user research, cultural and organizational transformation, and the deployment of cutting-edge DXP/CDP platform solutions. Softtek designed and developed new web and mobile products, integrated these initiatives within Real Madrid's digital architecture, and optimized global digital content delivery to enhance both instadium and remote fan experiences. As a result, the club achieved a 60% reduction in time-to-market, a 30% increase in fan satisfaction, enhanced its stature as a top-tier digital brand, and realized a substantial increase in premium memberships and international followers--delivering measurable improvements in global revenue generation and long-term fan engagement.
+Challenges: Real Madrid faced a series of multifaceted challenges in transforming its supporter engagement model. The club's global fanbase was fragmented, necessitating delivery of consistent, scalable, and personalized digital content across multiple countries and engagement channels. Existing engagement mechanisms were primarily stadium-centric, resulting in limited interaction opportunities for international supporters and insufficient reach beyond local audiences. The shift toward a digitalfirst approach was impeded by entrenched cultural and organizational barriers, requiring significant changes to traditional operating models and the adoption of value-stream-based structures. Additionally, the presence of legacy digital architecture constrained the club's ability to implement omnichannel digital products and scale fan engagement programs to meet the expectations of a global audience.
+Solutions: To address these challenges, Softtek implemented a comprehensive Digital Acceleration Ecosystem tailored to Real Madrid's needs. This solution featured the development and execution of an end-to-end digital strategy and marketing roadmap, along with the creation of a unified digital brand identity and the co-creation of a global engagement program to attract, retain, and nurture supporters. The deployment of a modern digital architecture and the integration of advanced DXP (Digital Experience Platform) and CDP (Customer Data Platform) ecosystems enabled scalable personalization and robust fan experiences. The initiative also encompassed the discovery, design, and development of innovative web and mobile digital products to bolster fan engagement across global digital and instadium channels. Organizational transformation was driven through value-oriented design and the adoption of a Scaled Lean-Agile delivery model, accelerating product development and ensuring sustainable, high-quality outcomes.
+Relevance: Softtek's past performance with Real Madrid is highly relevant to the VA Replacement Model RFI, as it demonstrates the successful delivery of a large-scale digital transformation encompassing modern platform architecture, omnichannel engagement, and organizational change-- outcomes that directly parallel the VA's objectives for replacing VA.gov. In leading Real Madrid's digital acceleration, Softtek addressed challenges such as fragmented user engagement, legacy technology constraints, and the need for scalable, personalized digital experiences through a comprehensive approach that integrated strategy, advanced DXP/CDP platform implementation, and new digital product engineering. The measurable improvements in user satisfaction, time-to-market, and global content delivery achieved for Real Madrid exemplify Softtek's capability to coordinate the multifaceted enhancements across experience design, technology, and operations.
+
+Agency/Customer
+
+Aeromexico
+
+Contract Value
+
+$10,000,000 USD
+
+Period of Performance
+
+Sep 2023 - Sep 2026
+
+Description Scope of Work
+
+Contract Type
+
+T&M
+
+Scope: Softtek delivered a large-scale digital transformation program for Aeromexico, one of Latin America's leading airlines with over 600 daily flights, a fleet of more than 130 aircraft, and service to 90+ destinations
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  2
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+worldwide. This engagement modernized Aeromexico's digital channels, technology architecture, Agile delivery model, QA capabilities, DevSecOps practices, microservices ecosystem, and portfolio governance in order to enhance reliability, accelerate product development, and elevate customer experience across mobile apps, web platforms, and kiosks. The program achieved end-to-end digital enablement addressing critical capabilities such as payments, check-in, and flight status, while introducing a robust global Agile delivery model spanning teams in Mexico and India. Softtek managed six dedicated product teams, two SRE Pods, and a workforce of 120 FTEs throughout the initiative. As a result of these efforts, Aeromexico realized substantial business impact, including elevating app CSAT to 80%+, a 30% increase in delivery frequency via CI/CD pipelines, a threefold increase in backlog throughput, and improved value-driven prioritization that maximized return on investment.
+Challenges: Aeromexico confronted multiple challenges in its efforts to modernize digital operations and elevate its customer experience. Quality issues were pervasive across the digital application portfolio, directly impacting system reliability and customer satisfaction. The presence of a fragmented vendor ecosystem complicated the ability to maintain consistency, robust governance, and standardization across platforms. Additionally, there was a pressing need to accelerate product development to keep pace with traveler expectations and industry standards. A lack of predictability in program delivery underscored the need for stronger portfolio governance and more effective, value-based prioritization to ensure that critical business and customer objectives could be reliably achieved.
+Solution: To address these challenges, Softtek architected and executed a centralized Digital Hub model that unified Aeromexico's digital operations into a highly scalable, Agile, and reliability-focused delivery organization. Implementing a global scaled Agile delivery model with six cross-functional product teams distributed across Mexico and India, Softtek enabled predictable development increments, accelerated product releases, and ensured alignment with business value. Strengthening quality engineering was a key focus; a QA Center of Excellence provided comprehensive manual, automated, and intelligent testing to improve application stability and release confidence. Full integration of DevSecOps and deployment of two dedicated Site Reliability Engineering (SRE) pods enhanced deployment frequency, system reliability, and proactive issue detection. Softtek also modernized Aeromexico's digital architecture with consulting and implementation of microservices, advanced API platforms, Kubernetes, and scalable cloud-ready patterns. Finally, the introduction of a value-driven portfolio governance framework--leveraging PMO and OKR methodologies--enabled Aeromexico to prioritize high-impact initiatives and maximize return on investment.
+Relevance: This demonstrates Softtek's ability to execute complex digital modernization programs for organizations with significant operational scale and diverse user bases. The challenges addressed, such as fragmented technology ecosystems, inconsistent governance, a critical need for reliability, and acceleration of digital product delivery, closely parallel those outlined by the VA, which seeks to integrate new platform capabilities, maintain service continuity for millions of users, and modernize its digital architecture and user experience. Softtek's implementation of a unified, scalable Digital Hub, including advanced agile delivery models, modern architecture, DevSecOps, microservices, and robust value-based governance, delivered measurable improvements in reliability, user satisfaction, and operational agility.
+3.0 Softtek's Approach to Platform and Website Modernization Our Product Modernization framework is concentrated on value generation for our customers through our end-to-end approach of continuous product design, build, and deployment. This model ensures that every phase of the lifecycle contributes directly to improving user experience and service effectiveness. For the VA ecosystem, this means transforming the product vision into an agile development and release process powered by a continuous measurement, learning, and feedback loop. Each iteration cycles insights back into design, ensuring outcomes that truly align with veterans' needs, accessibility requirements, and VA business goals. The framework is flexible enough to integrate with clients regardless of where they are in the modernization journey.
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  3
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+
+We apply a structured, user-centered, and technology-driven approach to website modernization, grounded in Human-Centered Design and Design Thinking, and executed within Agile frameworks. This empowers us to create digital experiences that are intuitive, inclusive, secure, and scalable. For the VA, this translates into platforms that reduce friction, simplify access to information and services, and evolve as veterans' expectations and behaviors change over time.
+Our methodology follows an iterative roadmap that prioritizes continuous learning, validation, and delivery. Every step incorporates a deep understanding of user context, including veterans' service history, digital literacy, accessibility needs, and emotional burden when navigating benefits or healthcare information. This ensures that solutions are meaningful for veterans and their families while being viable and efficient for the VA organization.
+A key advantage of our approach is the close collaboration between UX and development teams throughout all phases of the lifecycle, from early discovery to implementation and deployment. Designers and engineers work together to align user experience decisions with technical feasibility, security standards, and long-term scalability. This reduces rework and ensures that the portal's modernization process results in a stable, compliant, and maintainable platform that can grow with VA priorities.
+By combining iterative design, Agile delivery, and crossfunctional collaboration, we deliver digital products that are coherent, resilient, and frictionless. For the VA, this means faster implementation cycles, more consistent delivery quality, and measurable improvements in how veterans navigate and engage with online services.
+1. Continuous Product Design: Understanding Needs and Shaping the Right Experience
+This stage ensures that modernization begins with a deep understanding of veterans' needs, behaviors, and expectations. Through research, evaluation of the current site, and early design exploration, we identify what aspects of the experience need to be simplified, modernized, or reorganized. By defining clearer navigation, more intuitive flows, and accessible design foundations, we set the stage for a portal that is easier to use and more aligned with how veterans seek information, apply for benefits, or manage their healthcare. This design phase ensures that every decision is purposefully grounded in improving the daytoday experience of the veteran.
+Limitations, Risks and Tradeoffs: During the design phase, early insights may be constrained by gaps in existing data, legacy documentation, or uneven user feedback, which can introduce uncertainty into initial decisions. There is also a risk that design assumptions may need to be reevaluated once deeper technical constraints, regulatory requirements, or integration dependencies emerge. Additionally, aligning multiple VA stakeholders may slow momentum, requiring tradeoffs between rapid progress and comprehensive crossteam validation. These risks can be mitigated through structured discovery, early technical feasibility checks, stakeholder alignment workshops, and iterative validation cycles that allow the design to adapt as new constraints or insights surfacee ensuring the final direction remains both usercentered and feasible within the VA ecosystem.
+2. Continuous Product Build: Developing Secure, Accessible, and HighPerforming Solutions.
+Once the vision is defined, we start working in an iterative, collaborative build approach. Designers and engineers work sidebyside to develop features, validate functionality, and stabilize components as they evolve. Every element is built to federal security expectations and aligned with ADA/WCAG accessibility, strong performance, and technical scalability. We deliver tangible value
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  4
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+in sprints while steadily advancing the portal's maturity, implementing core capabilities as navigation, search, forms, personalization, analytics, required integrations, and restructuring or migrating content to improve clarity, consistency, and SEO.
+Each increment undergoes rigorous validation to ensure a seamless, highquality experience. We verify functionality and regression stability, confirm accessibility compliance, and ensure crossbrowser and crossdevice compatibility. In parallel, we optimize load and runtime performance, conduct security and vulnerability assessments, and validate SEO configurations alongside analytics instrumentation, ensuring every enhancement is stable, secure, and ready for realworld use by veterans and VA teams.
+For veterans, this means a more reliable website: faster load times, clearer interactions, fewer errors, and an overall smoother digital experience.
+Limitations, Risks and Tradeoffs: During the build phase, modernization efforts may be impacted by legacy systems, fragmented data structures, or integration complexities that were not fully visible during design. These constraints can force tradeoffs between ideal user experience and technical practicality, especially when legacy interoperability limits full modernization in early increments. Incremental releases may also introduce temporary inconsistencies as modern and legacy components coexist. Additionally, sprint velocity can be affected by compliance checks, security reviews, and resource availability. These challenges can be mitigated through early integration assessments, close collaboration between engineering and architecture teams, continuous alignment with security and compliance stakeholders, and the use of feature toggles or phased enablement to maintain consistency and control risk as new capabilities are introduced.
+3. Continuous Product Deploy: Learning for improvement and evolution.
+Modernization is not a onetime effort; it is an ongoing commitment to ensuring the platform remains reliable, secure, and aligned with the VA's operational priorities. During this stage, we continuously monitor site performance, security posture, and user behavior to confirm that the platform is functioning as intended. As updates become necessary, we implement refinements informed by analytics and business needs, while also evolving the design system and component library to maintain consistency and scalability across the experience. At the same time, we ensure that the CMS, integrations, and underlying infrastructure remain stable and up to date so the platform can support future growth.
+As part of deployment and rollout, Softtek manages the transition from the legacy platform to the modernized website through a phased release approach that moves from pilot environments to broader expansion and ultimately full rollout. Throughout this transition, we validate performance under real operational conditions to confirm that the platform behaves as expected within the VA ecosystem. After launching, we provide hypercare support to ensure issues are addressed quickly, and operations remain stable. We also train VA teams on CMS usage, analytics, and content operations, so they are fully equipped to manage and sustain the platform moving forward. This combined approach ensures that the VA portal remains robust, compliant, and reliable, while enabling a smooth transition to a modernized experience that can evolve responsibly as the organization's needs progress.
+For the VA, this means a modernization approach that prioritizes operational excellence and sustainability; for veterans, it ensures a consistent and reliable digital service experience as the platform evolves responsibly over time.
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  5
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+Limitations, Risks and Tradeoffs: In the deployment stage, transitioning from a legacy environment to a modernized portal may introduce temporary operational strain, unexpected user behaviors, or performance variations under realworld conditions. Phased rollouts can create shortterm fragmentation between legacy and new experiences, and synchronization across VA systems may slow down full alignment of services or data flows.
+Additionally, continuous monitoring may surface competing priorities, requiring careful balancing between urgent fixes, compliance obligations, and planned release cycles. These risks can be mitigated through controlled pilots, rollback safeguards, proactive monitoring and alerting, coordinated release planning, and strong hypercare support to address issues quickly. Clear communication with VA teams and veterans also helps set expectations during transition periods, ensuring trust is maintained throughout modernization.
+This approach delivers value to VA, Veterans, and caregivers:
+ Have a unified and seamless experience, enabling veterans to complete tasks faster, avoid dead ends, understand next steps clearly, and interact with interfaces that fully respect accessibility, privacy, and usability needs.
+ Have clear and secure support paths, where explicit journeys, permissions, and workflows empower caregivers and authorized representatives to assist veterans without compromising data protection or system integrity.
+ Have a more reliable and costefficient platform, with fewer support calls, lower error rates, and measurable performance indicators that demonstrate the return on modernization efforts and longterm operational value.Have a futureready and easiertomaintain portal, reducing rework and ensuring that upcoming updates, enhancements, and policy adjustments can be deployed faster, safely, and with minimal disruption to veterans and VA teams.
+User journey workflows for identity proofing, sign-in, recovery, and navigation
+Our practice is grounded in Human-Centered Design and Design Thinking methodologies, combined with a pragmatic and execution-oriented UX approach. We incorporate User Journey Flows creation as a core component of our UX/UI Design Process, particularly for complex, highimpact public sector experiences. Our approach is well suited to the design and optimization of user journey workflows for identity proofing, sign-in, recovery, and post-authentication navigation, treating these not as isolated screens, but as end-to-end access and trust journeys that are part of a whole Customer Experience. A key differentiator of our approach is the early integration of regulatory, accessibility, and compliance considerations, as well as Systemic Thinking. We analyze the governmental and institutional context to ensure that these workflows are designed in alignment with applicable regulations and accessibility standards, including ADA and WCAG, while remaining clear, inclusive, and usable across diverse user needs.
+How We Execute the Process: We apply a structured, iterative process aligned with Design Thinking principles:
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  6
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+
+1. Understand: Analyze user context, access needs, risk levels, and regulatory constraints to establish a clear foundation for identity and access workflows.
+2. Define: Identify critical access moments, decision points, and failure scenarios across the journey. During this phase, we leverage Service Blueprints, Customer Journeys, and User Flows to capitalize on insights gathered during Discovery.
+3. Design: Create user flows and mockups to validate identity proofing, authentication, recovery, and post-login navigation processes. Designs are informed by UX research, accessibility standards (ADA, WCAG), technical constraints and feasibility, and applicable government or institutional regulations.
+4. Validate: Test both happy paths and failure scenarios, including error handling and recovery flows, with end users to ensure clarity, usability, and robustness.
+5. Refine: Iterate workflows and mockups based on UX findings, continuously improving accessibility, clarity, and overall experience of quality.
+Projects where we have implemented User Journey Flow Mapping:
+
+Real Madrid
+
+Description
+We designed the end-to-end digital ecosystem for Madridistas, the Real Madrid fan community. This requires a systemic perspective to ensure consistency across authentication, registration, and account recovery experiences throughout the ecosystem, including the mobile app, website, and stadium access.
+UX research and UX design played a critical role in this work. By leveraging Service Blueprints, Customer Journeys, and User Flows, we were able to structure clear and cohesive access and navigation experiences, resulting in an ecosystem that is intuitive, consistent, and easy for fans to navigate across multiple touchpoints.
+
+Benefits to VA  A unified and seamless portal
+experience, where veterans can move easily across benefits, healthcare, and claims without repeated steps or inconsistent flows.
+ A clearer, more intuitive navigation grounded in user researchlike how consistent journeys improved satisfaction for millions of fans.
+ Reduce friction and higher trust through a consistent approach to login, account recovery, and multitouchpoint interactions.
+
+Ritz Carlton Yacht Collection
+
+For Ritz Carlton Yacht Collection, we worked on redesigning the entire user flows for returning guests, new customers, and travel agents. The goal was to create consistent and reliable access experiences across different user types.
+We focused on reducing friction across the journey for voyage search, booking, and purchase, ensuring that key tasks could be completed with clarity and confidence.
+Special attention was given to accessibility best practices, recognizing that a significant portion of the user base includes individuals aged 50 and above. These informed
+
+ Simplified journeys for complex tasks such as applying for benefits or scheduling appointments.
+ Improved accessibility and content clarity, especially for older veterans or those with disabilities.
+ More intuitive interactions and a smoother experience overall, reducing confusion and helping veterans' complete tasks with confidence.
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  7
+
+United
+
+decisions are related to interaction patterns, content clarity, and overall usability.
+We collaborated closely with the United team to define a new emergency response system for individuals assisting travelers involved in accidents. This work required a deep understanding of user typologies, the emergency context, and the sensitive nature of the information involved.
+The process also involved aligning multiple constraints, including cross-system dependencies, aviation regulations, and institutional requirements, while applying UX/UI principles to ensure a clear, lowfriction experience.
+The resulting solution supported both caregivers and responders as well as the teams responsible for administering the system, prioritizing clarity, reliability, and usability in high-stress situations.
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+ A portal capable of supporting sensitive, highstakes interactions with clarity and reliability.
+ Streamlined experiences even when multiple systems, regulations, or data sources must work together.
+ Improved usability in stressful or urgent situations, ensuring veterans can access critical information quickly and without errors.
+
+4.0 Description of Relevant Technologies and Approaches
+The following table consolidates the main modernization areas that help evolve the platform into a scalable, secure, accessible, and highperforming digital ecosystem. It highlights the essential components and recommended strategies that collectively strengthen performance, resilience, and longterm adaptability--ensuring the platform can meet evolving user needs, regulatory expectations, and organizational goals.
+This highlevel recommendation is based on research gathered from publicly available sources and the Department of Veterans Affairs' own published information. More detailed and actionable recommendations should be developed collaboratively with Veterans Affairs, ensuring alignment with their current technology landscape, strategic priorities, and emerging industry trends.
+
+Area Framework
+
+Component / Topic Next.js 14+ React 18
+
+Approach
+Migrate to modern Next.js Router for faster SSR/SSG, React Server Components, and reduce bundle sizes.
+
+Rendering Strategy
+
+Hybrid Edge Rendering (SSG, Server Actions, SSR, ISG)
+
+Microfrontends
+
+Webpack 5, Module Federation, Next.js multi-zones, Nx monorepo, Web Components
+
+Adopt hybrid edge rendering to drastically boost performance and SEO.
+Use scalable microfrontend architectures for distributed, VAscale development.
+
+Benefits
+Delivers faster rendering focus on SEO, smaller bundles, and easier maintainability through a modern, serveroptimized React framework.
+Improves performance and SEO by executing rendering closer to users while reducing backend load. Enables independent team deployments and testing, faster delivery, and technology flexibility at scale.
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  8
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+
+Design System
+Accessibility
+Architecture
+API Management
+Headless Drupal
+Manual authoring CMS
+Container Modernization
+
+USWDSaligned Design Tokens
+axecore, Pa11y CI, Deque's axe Linter, Lighthouse EventDriven Architecture (EDA)
+API Gateway Modernization
+Performance + Delivery Enhancements
+AIAssisted Content Generation
+CMS Consolidation Strategy
+Spring Boot on Java 21 (ContainerOptimized)
+
+Create or enhance a Design Tokens system using Style Dictionary or Figma Tokens for consistency + accessibility. Integrate automated 508 compliance checks to meet federal accessibility standards.
+Use Kafka, Kinesis, or EventBridge to support asynchronous workflows--ideal for benefits applications, claims processing, notifications, audit events, and crosssystem integrations. Upgrade to AWS API Gateway, Kong, or Apigee to enable rate limiting, mTLS, OAuth2, IAM integration, centralized routing, and improved API security posture.
+Keep Drupal but enhance performance with caching, load balancing, and CDN mechanisms. Improve content delivery with JSON:API, GraphQL, or Webhooks based on the use case. Introduce AIbased content creation and editing to streamline manual authoring and ensure consistency. Evaluate consolidation opportunities for reusability, operability, and improved content governance across properties.
+Standardize services on Spring Boot + Java 21 LTS; use distroless/Slim images (optional GraalVM native) and Virtual Threads for high concurrency; package for K8s with GitOps/DevSecOps and OpenTelemetry; integrate via Kafka/Kinesis and expose through API Gateway.
+
+Ensures consistent, compliant, and accessible user interfaces across all applications.
+Automates 508 compliance checks to reduce risk and ensure continuous accessibility. Supports resilient, decoupled, realtime workflows ideal for claims, benefits, and notifications.
+Strengthens security and governance with centralized rate limiting, mTLS, OAuth2, and IAM integration.
+Speeds up content delivery and improves scalability through caching, CDN, and decoupled APIs.
+Accelerates content creation while improving consistency and reducing manual errors. Reduces operational complexity and improves governance by unifying platforms and maximizing reusability. Delivers highperformance, scalable, and resilient services by combining Java 21's modern runtime and concurrency model with Spring Boot's rapid development ecosystem, container efficiency, and enterprisegrade integration capabilities.
+
+5.0 Any additional information relevant to VA's objectives The Department of Veterans Affairs is at a critical inflection point in its mission to deliver a premier, secure, and user-centric digital experience to Veterans, their families, and caregivers. Now, more than ever, the VA stands to benefit by adopting bold, innovative approaches proven in the commercial sector. Industry leaders such as Real Madrid, United Airlines, and Aeromexico have
+
+RFI Response Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+Page  9
+
+VA | Replacement Model for VA.gov RFI Response
+Notice ID: 365357 | February 4, 2026
+realized measurable breakthroughs in customer satisfaction, operational agility, and digital resilience by embracing commercial best practices, next-generation technology architecture, and user-centered product development. These organizations faced challenges remarkably similar to those of the VA: highly diverse user populations, complex legacy systems, stringent regulatory environments, and the urgent need to deliver seamless, scalable experiences across channels. Their successful transformation journeys demonstrate that the infusion of private-sector innovation, adaptive methodologies, and cross-industry expertise is essential in overcoming persistent public sector barriers To achieve its modernization objectives, VA should actively seek out new partners with extensive commercial pedigree and a track record of orchestrating digital reinvention at scale. Such collaboration will infuse VA.gov with modern, resilient technology, agile product delivery, streamlined governance, and inclusive user experiences that continuously evolve to meet Veteran and family needs. Pursuing innovation from the private sector goes beyond technology alone, it ensures the adoption of battle-tested delivery models and creative problem-solving that have proven, measurable results in even the most complex and highly visible environments The transformation of VA digital services will be best achieved through true private-public partnership: leveraging both federal expertise and commercial innovation to build a Veterancentered digital future.
+
+RFI Response
+
+Page  10
+
+Use or disclosure of the data contained on this page is subject to the restrictions on the title page of this response.
+
+

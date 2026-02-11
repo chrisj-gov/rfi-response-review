@@ -1,0 +1,283 @@
+Notice ID: 365357
+
+Date/Time: Feb.5, 2026 12:00 PM EST
+
+Request for Information Replacement Model for VA.gov
+
+SUBMITTED TO: Name: Allison Fulton E: Allison.fulton@va.gov
+
+Name: Evan Schlisserman E: evan.schlisserman@va.gov
+
+SUBMITTED BY: Three Wire Systems, LLC (Three Wire) 1775 Tysons Blvd, 5th Floor Tysons, VA 22102 www.threewiresys.com
+Authorized POC: Greg Feldman T: 202.630.8789 E: TWS_Contracts@threewiresys.com
+Tax ID: 20-5208324 UEI: U8H9F5MLU957 CAGE Code: 4GPT6
+COMPANY CONFIDENTIAL. In accordance with FAR 52.215-1(e), this proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed -- in whole or in part -- for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of -- or in connection with -- the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction is contained on all pages of the proposal.
+
+VA.GOV Replacement Model Sources Sought
+TABLE OF CONTENTS
+1 CORPORATE INFORMATION ............................................................................................................................................ 1 2 DESCRIPTIONS OF RELEVANT IDEAS, CAPABILITIES, AND APPROACHES .......................................................... 2
+Introduction ................................................................................................................................................................................. 2 Creation and Design .................................................................................................................................................................... 2 User Interaction ........................................................................................................................................................................... 3 Training and Knowledge Base Repository .................................................................................................................................. 3 Migration Operations................................................................................................................................................................... 4 Cybersecurity Requirements........................................................................................................................................................ 4 3 USER JOURNEY WORKFLOWS FOR IDENTITY PROOFING, SIGN-IN, RECOVERY, AND NAVIGATION ........... 7 4 KNOWN LIMITATIONS, RISKS, AND TRADEOFFS ....................................................................................................... 8 6. LESSONS LEARNED FROM PAST DEPLOYMENTS..................................................................................................... 10
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb 5, 2026 | Page i
+
+VA.GOV Replacement Model Sources Sought
+
+1 CORPORATE INFORMATION a. Company name, mailing address, phone number, company's website, and e-mail of designated point(s) of contact
+b. Business Type: Based upon North American Industry Classification System (NAICS) code 541512, Computer Systems Design Services or contractor's recommended NAICS. Identify the type of entity.
+c. CAGE Code d. Contract vehicles that would be
+available to the Government for the procurement of the product and service, to include SAM.gov
+
+Three Wire Systems LLC (Three Wire) 1775 Tysons Blvd, Fl. 5 Tysons Corner, VA 22102 https://www.threewiresys.com Designated POC: Greg Feldman T: 202.630.8789 E: TWS_Contracts@threewiresys.com Large business under NAICS code 541512
+4GPT6 GSA Multiple Award Schedule (MAS) GS-35F-0300T 541519
+Army IDIQ - HR Solutions W15QKN-19-D-0056 541611
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 1
+
+VA.GOV Replacement Model Sources Sought
+2 DESCRIPTIONS OF RELEVANT IDEAS, CAPABILITIES, AND APPROACHES
+Introduction
+Three Wire has demonstrated experience designing, deploying, and maintaining large-scale Federal websites through our work on the VA Caregiver Legal and Financial Planning Services and AFFIRST programs (see 3. Case Studies). Both of those websites are FedRAMP-authorized, RMF-compliant, and deployed in DoD and VA environments serving diverse user populations across public, operational, and privileged roles as shown in the image below (Image 1- Utilization Numbers). Three Wire brings a deep understanding of federal digital standards, including the 21st Century IDEA, Executive Order 14338, and Section 508 of the ADA, enabling the delivery of secure, accessible, mobile-optimized digital experiences for diverse user populations. Three Wire's experience delivering secure, accessible, and user-centered platforms positions us to support VA's objective of modernizing VA.gov into a resilient, scalable, and Veteran-centric digital front door.
+
+Image 1 - Utilization Numbers
+
+Figure 1 Utilization Numbers
+
+Creation and Design
+Three Wire's experience supporting the VA Caregiver Legal and Financial Planning Services platform demonstrates our ability to design and operate accessible, secure, and user-centered public-facing digital services. The solution leverages WordPress as a content management system (CMS) to provide a flexible, scalable, and maintainable platform for both technical and nontechnical users. This solution employs low-code/no-code design tools and visual builders, enabling content administrators to rapidly update site structure and user interfaces with minimal technical overhead. A library of VA-branded templates, pre-configured to align with USWDS 3.0 components, promotes consistency, accessibility, and compliance with federal design standards while reducing administrative burden. The solution uses AI-driven design assistance to recommend layouts, media (photo, video) placements, and accessibility corrections in real time for efficient updates. It also incorporates responsive and mobile-first design principles to ensure a consistent user experience across devices and screen sizes. Built-in accessibility validation features support continuous Section 508 compliance, while embedded analytics dashboards provide insight into user engagement, Veteran and caregiver registrations, system performance, and ongoing accessibility health. Together, these capabilities enable Three Wire to deliver secure, compliant, and continuously evolving digital platforms that meet both federal governance requirements and end-user experience expectations. Content Management System (CMS)
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 2
+
+VA.GOV Replacement Model Sources Sought
+Three Wire's VA Caregiver solution provides an intuitive Foothold-based CMS interface supporting rich-media editing, workflow approvals, and version control for distributed content teams. The platform enables efficient collaboration across stakeholder groups while maintaining governance, auditability, and content quality standards. The CMS integrates seamlessly with the Defense Visual Information Distribution Service (DVIDS) or DoD Digital Asset Management Systems (DAMS) through secure Application Programming Interfaces (APIs) for automated video playback and photo synchronization. The CMS enables metadata tagging, search indexing, and taxonomy management consistent with DoD information hierarchy standards. It allows automated asset uploads to DAMS, reducing redundant content management work and ensuring authoritative media control. This system also offers multilingual support and adaptive publishing workflows for decentralized organizations and commands.
+To further enhance content storage and lifecycle management, Three Wire is transitioning the VA Caregiver platform from the legacy CMS to storm®, which provides expanded scalability, advanced content governance features, and integrated AI-assisted content scanning to support quality control, accessibility, and compliance objectives. User Interaction
+Three Wire's VA Caregiver WordPress CMS enables the design of dynamic, interactive front-end experiences consistent with the 21st Century IDEA, Executive Order 14338, and USWDS requirements. The platform supports personalized content delivery based on user preferences and behavioral insights, enabling more relevant and targeted user journeys. The system provides mobile-responsive, cross-browser compatible interfaces optimized for speed, usability, and accessibility across devices. It meets ADA Section 508 compliance standards with keyboard navigation, Accessible Rich Internet Applications (ARIA) labeling, and screen-reader optimization. To support continuous improvement and user engagement, the platform incorporates real-time feedback mechanisms, such as surveys, polls, and sentiment forms, enabling VA stakeholders to collect actionable insights and refine services based on direct user input Training and Knowledge Base Repository
+Training and knowledge management are core components of Three Wire's delivery approach, ensuring that users can effectively operate the systems we deploy and quickly access the information required to perform their roles.
+On the VA Caregiver Program, Three Wire delivers comprehensive training for administrators and content managers through live sessions, on-demand resources, and LMS-compatible e-learning modules. We established a cloud-based knowledge repository that includes FAQs, troubleshooting guides, and process documentation to support self-service learning and ongoing system adoption. T The repository is globally accessible and includes advanced search capabilities to enable rapid discovery of relevant guidance and solutions. Our WordPress solution integrates a technical support form functionality to enable instant, context-aware support for site administrators. In addition, Three Wire provides governance documentation, change management guidance, and system update logs to ensure training materials and knowledge resources remain current and aligned with evolving operational needs.
+On the AFFIRST contract, Three Wire developed a centralized Download Center serving as a knowledge repository for program guidance and reference materials used by M&FRC field staff,
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 3
+
+VA.GOV Replacement Model Sources Sought
+further demonstrating our ability to design scalable, role-based knowledge management solutions for distributed federal workforces. Migration Operations
+Three Wire provides end-to-end migration services encompassing planning, content mapping, taxonomy alignment, and validation. We use automated migration tools to ensure accurate transfer of legacy content while preserving metadata and file hierarchies. Our multi-phase migration approach leverages Extract, Transform, and Load processes to validate that data works with new schemas in the target database before loading the transformed data into the new tables. We then export the target database into an environment for testing and validation. Three Wire's migration specialists apply expertise in CMS platforms, data integrity, and secure file transfers while conducting pre-migration testing and post-migration audits to ensure full functionality, link integrity, and compliance with DoD web policies. Rollback procedures and contingency planning are embedded into all migrations to minimize operational risk and system downtime.
+On our AFFIRST contract, Three Wire used this approach to migrate: · 1.2+ million document files (approximately 675 GB) migrated from a legacy system into a modernized V2 platform hosted in AWS S3 · 2+ million customer records comprising over 4 million related data components · 6,000+ staff user accounts, including active and disabled users, transitioned into the new system
+To support this effort, Three Wire developed a comprehensive migration architecture framework, including:
+· System domain diagrams identifying migration scope across multiple functional domains · Mapping documents defining table structures, data types, and schema relationships · Over a dozen detailed mapping workbooks capturing customer relationships, family
+structures, and dependent data fields · Activity diagrams illustrating data flow between legacy and target systems · Data Definition Documents maintained throughout schema evolution
+Migration execution leveraged scheduled jobs and custom-built stored procedures within Microsoft SQL Server to support high-volume processing and schema transformation. All legacy data was migrated into a modernized architecture with a redesigned data model, enabling the implementation of database standards such as indexed foreign keys to significantly improve performance, scalability, and maintainability. Cybersecurity Requirements
+Three Wire embeds cybersecurity into all solutions from inception, ensuring that security controls are integral to system architecture, delivery, and operations. On the VA Caregiver program, Three Wire implemented DoD Risk Management Framework (RMF) controls in accordance with DoDI 8510.01 and provided full documentation and audit support to obtain an Authority to Operate (ATO) within a DoD-approved JWCC Cloud Service Provider (AWS) environment. The platform was architected using Zero Trust principles, incorporating multi-factor authentication, identity governance, role-based access controls, and network segmentation to protect sensitive data and reduce attack surfaces. Security controls include end-to-end encryption,
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 4
+
+VA.GOV Replacement Model Sources Sought
+
+boundary protection mechanisms, and continuous monitoring integrated with enterprise Security
+
+Information and Event Management (SIEM) platforms.
+
+Three Wire maintains compliance with the DoD Cloud Computing Security Requirements Guide
+
+(SRG), meeting or exceeding Impact Level (IL) 4 and IL5 requirements. Our cybersecurity
+
+operations include continuous vulnerability scanning, patch management, and automated incident
+
+reporting, supporting protection of data both at rest and in transit and enabling rapid detection,
+
+response, and remediation of cyber threats in alignment with federal and DoD cyber governance
+
+policies.
+
+1. CASE STUDIES OR EXAMPLES FROM SIMILAR ENVIRONMENTS.
+
+The following performance examples demonstrate Three Wire's proven ability to furnish turnkey
+
+solutions for websites that operate in a Department of Defense (DoD)-approved commercial cloud
+
+service and include support for content management, knowledge bases, training, migration, and
+
+DoD Risk Management Framework (RMF) compliance.
+
+US Department of Veterans Affairs (VA) Caregiver Support Program (CSP) Legal and
+
+Financial Services
+
+Contract No.
+
+36C10X22C0033 Period of Performance 9/29/22 - 3/29/26
+
+Lisa Moore, Contracting
+
+Contract Value $77,061,751.28
+
+Reference Point of Contact (POC)
+
+Officer's Representative (COR) T: (520) 222-2647
+
+E: Lisa.Moore17@va.gov
+
+Population Size: 80,000-100,000 Caregivers and Veterans
+
+Description and Relevance: As a managing member of the MyRevelations Joint Venture, Three
+
+Wire leads the delivery of comprehensive legal and financial counseling support to military and
+
+Veteran Caregivers. Our solution includes a referral portal/website hosted by Amazon Web
+
+Services (AWS), a DoD-approved Joint Warfighting Cloud Capability (JWCC) Commercial
+
+Cloud Service Provider (CCSP). This website is VA Handbook 6500 compliant as defined in
+
+NIST 800-37 and provides website administrators and content managers with authenticated
+
+access. This system is managed by our in-house cybersecurity, Information Technology (IT) and
+
+Information Assurance, website administration, and content management teams.
+
+The Caregiver Legal and Financial Planning website uses WordPress public facing and Foothold as an internal CMS which our team is in the process of transitioning the site to storm® CKS(by Content Guru) through a phased implementation. In October 2023, we launched the public facing Americans with Disabilities Act (ADA) Section 508-compliant web application and CMS that allows for website design and content management supporting United States Web Design System (USWDS) requirements. Through the end of 2025, we will implement Phase I to migrate this Foothold CMS to the storm® platform, cloud-based and Federal Risk and Authorization Management Program (FedRAMP)-approved, providing a secure capability for managing referrals of Caregiver service requests to our Customer Service Representatives (CSRs) for intake assessments and assignment of a personal Concierge. For Phase 2, we will integrate storm® with our telephony solution used for interacting with Caregivers (to be complete in June 2026).
+
+Three Wire organized a reference library of more than 250+ state-specific legal and financial documents according to diverse statutes and regulations governing family and estate legal issues. This knowledge base is used by our CSRs when assisting Caregivers, and by Caregivers
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 5
+
+VA.GOV Replacement Model Sources Sought
+
+nationwide to find answers to their legal and financial questions. To further support the Caregiver community, we created training webinars (both live and web-based on-demand via the Government's YouTube account) and developed educational materials and digital assets on relevant financial and legal issues covered by the contract. In addition, Three Wire created a reporting capability to track and report on more than 50 service and quality metrics. Demonstrated Success: Our team has used this solution to successfully process more than 6,000 referrals and entitlements while providing services to more than 90% of participating VA Medical Centers through the website. We earned "Exceptional" ratings in the Contractor Performance Assessment Reporting System (CPARS) for our focus on service quality, our proactive approach, and our collaboration and problem-solving, with the program COR remarking: "MyRevelations has provided a superior level of service to our caregivers and Veterans. Specifically, their "concierge" approach helps the caregivers/Veterans navigate the services swiftly. Most impressive is to have a new-start program that has been received so positively with virtually no major concerns voiced from the field...in fact, any issues that have been raised were generally elevated (with action plan/suggested response) provided by the vendor--very impressive proactive approaches." "The team provided outstanding quality and presentation of services and was extremely collaborative in working through website authorization process reviews to find alternative solutions to enable provision of live services while website approval in progress."
+
+Air Force Family Integrated Results and Statistical Tracking (AFFIRST)
+
+Prime Contract:
+
+Contract No.
+
+FA8771-20D0005/FA300222F009 Subcontract:
+
+Period of Performance 8/01/2022 - 5/5/2027
+
+22-TWS-FA3002-0094
+
+Charles Witschen,
+
+Resources and Data
+
+Management
+
+Military & Family Readiness
+
+Contract Value
+
+$5,464,927.03
+
+Reference POC
+
+Operations Division Directorate of Military & Family
+
+Care
+
+HQ Air Force Personnel Center
+
+T: (385) 679-2768
+
+E: charles.witschen.1@us.af.mil
+
+Population Size: 2,000 Military & Family Readiness Center (M&FRC) employees at Air
+
+Force bases worldwide
+
+Description and Relevance: AFFIRST is a web-based, data gathering and service delivery
+
+management system that provides timelyinformationabout daily activities, outcome-based
+
+results, and return on investment for M&FRC services. All Active Duty, Guard, and
+
+ReserveM&FRC staff members use AFFIRST for data gathering, recordkeeping, and
+
+information management. Data reported via AFFIRST is used by all levels of leadership,
+
+including the Office of the Secretary of Defense, todetermine manning, program
+
+trends/compliance, funding, and training requirements, and to respond to Congressional
+
+inquiries.
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 6
+
+VA.GOV Replacement Model Sources Sought
+
+Features of the AFFIRST system include a Download Center (knowledge repository) that houses program Desk Guides, best practices, operational guidance, and other reference materials for download/viewing by M&FRC staff in the field to help them do their jobs more efficiently and effectively. We performed content migration into S3 buckets to house documents/files that upload to customer records and the Download Center stored in the AFFIRST environment. Team Three Wire worked with the CloudOne migration team to build each environment to prepare for moving AFFIRST from data center servers to their AWS GovCloud. We also updated the network and IT systems and enhanced cybersecurity scanning and response capabilities to improve system security. The AFFIRST system is RMF-compliant.
+
+To address challenges associated with duplicate records and missing or inaccurate information in customer records, Team Three Wire integrated AFFIRST with the Defense Enrollment Eligibility Reporting System (DEERS) to pull current, accurate information on a Service Member or Family Member directly into existing AFFIRST records. This integration increases the efficiency and accuracy of data collection for system users. New customer records in AFFIRST also pull information directly from DEERS, streamlining new records creation for M&FRC staff. Our team developed account creation tools so M&FRC staff can easily locate existing/disabled staff member accounts to avoid duplicate accounts in the system. Demonstrated Success: Three Wire supports program objectives by transforming legacy systems into modern solutions that enhance and improve data use throughout the network. We improved data collection through integration with other systems and migrated content to accurately populate customer records and the knowledge repository with critical information used by M&FRC staff. Our work has resulted in a sustainable, flexible, user-friendly solution hosted in a secure, accredited cloud environment. Our team has received Exceptional CPARS ratings for our work on the AFFIRST program.
+
+3 USER JOURNEY WORKFLOWS FOR IDENTITY PROOFING, SIGN-IN, RECOVERY, AND NAVIGATION
+To ensure the replacement of VA.gov delivers an inclusive, secure, and Veteran-centered experience, our proposed user journey model is designed around distinct personas while operating on a unified identity and experience platform. Veterans, family members, caregivers, survivors, providers, and VA staff interact with the system through role-aware workflows that reflect their unique needs, access rights, and service goals. This approach ensures consistency, security, and scalability while allowing each user group to experience the platform in a way that feels intuitive, supportive, and purpose-driven. Veterans For Veterans, the journey begins when they attempt to access personalized services such as benefits, healthcare records, or appointment scheduling. The system explains why identity verification is required and guides the Veteran through digital proofing using document validation, mobile device verification, or knowledge-based checks. The workflow dynamically adapts based on confidence scoring, enabling immediate access when verification is successful. When digital proofing cannot be completed, the Veteran is seamlessly routed to assisted support without losing progress. Once verified, Veterans authenticate through a centralized sign-in experience that supports passwordless and multi-factor authentication. After successful login, they are returned directly to their intended task rather than a generic homepage. If credentials are forgotten or access
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 7
+
+VA.GOV Replacement Model Sources Sought
+
+is locked, a recovery workflow validates identity through secure channels and restores access with minimal friction. Navigation is centered on Veteran intent, with a personalized dashboard presenting claims, appointments, benefits, messages, and next steps in a single, unified view. Family Members and Caregivers Family members and caregivers experience a similar journey, but with additional authorization validation. Identity proofing confirms both the individual's identity and their relationship to the Veteran through delegated access workflows. After authentication, caregivers are securely linked to the Veteran's profile and granted access only to the services they are authorized to manage. Recovery processes revalidate both identity and permissions before restoring access. Navigation highlights caregiving tools, appointments, benefits coordination, and secure communications in a streamlined interface that supports shared care responsibilities. Survivors and Dependents Survivors and dependents follow a proofing process that verifies identity, eligibility, and relationship to the Veteran, with clear guidance and compassionate language. Authentication is designed to be simple, accessible, and supportive. Recovery workflows prioritize clarity and human assistance, recognizing that users may be navigating emotionally sensitive circumstances. Navigation presents survivor benefits, claims, and support services through step-based pathways that reduce cognitive load and help users complete tasks with confidence. Providers and Partners Providers and partners authenticate through credential and affiliation verification, often using federated identity connections to their organizational systems. This enables secure single sign-on while ensuring only authorized users access protected data. Recovery workflows confirm institutional credentials and restore access efficiently. Navigation surfaces patient management tools, referrals, clinical documentation, and secure messaging in a role-based dashboard optimized for daily operational use. VA Staff VA staff access the platform through internal identity systems and role-based access controls that align with their job functions. Authentication integrates with enterprise identity services and applies step-up verification for sensitive actions. Recovery is managed through internal identity support channels. Navigation is personalized to each role, providing task queues, case management tools, performance metrics, and collaboration features in a secure, streamlined environment.
+
+Together, these persona-driven workflows form a unified digital ecosystem that balances security, usability, and operational efficiency. By aligning identity proofing, authentication, recovery, and navigation with real-world user needs, this approach:
+· Reduces friction · Improves trust · Strengthens security · Enables scalable operations And most importantly: Ensures Veterans and their families can access critical services when and how they need them-- while supporting VA's mission at national scale
+
+4 KNOWN LIMITATIONS, RISKS, AND TRADEOFFS
+Replacing VA.gov represents not only a technology transformation, but a fundamental shift in how millions of Veterans, families, caregivers, and partners interact with the Department. As VA notes,
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 8
+
+VA.GOV Replacement Model Sources Sought
+modernization must maintain continuity of service, integrate with complex legacy systems, operate within a highly regulated environment, and scale for long-term resilience. These realities introduce unavoidable limitations, risks, and tradeoffs that must be managed through experience-driven design, disciplined governance, and phased execution. Continuity of Service. Maintaining uninterrupted access for millions of users significantly limits the pace and sequencing of transformation. In large, mission-critical environments, "big bang" platform replacements carry unacceptable operational and reputational risk. In our experience modernizing high-volume federal digital platforms, including enterprise portals and benefits-facing systems, the safest path is a phased, modular replacement strategy. While this approach reduces risk to Veterans and agency operations, it also extends the transition timeline and requires the temporary operation of both legacy and modern platforms in parallel. This dual-operating model introduces cost and technical complexity but is essential to ensuring service continuity. Legacy Systems Integration Integration with a diverse portfolio of legacy and emerging systems constrains architectural flexibility. Many federal systems were not designed for real-time, API-driven experiences, creating challenges with data latency, reliability, and consistency across user journeys. In prior federal digital transformations, we mitigated this risk by implementing middleware layers and service abstraction models that allow legacy systems to participate in modern experiences without being immediately replaced. The tradeoff is added architectural complexity and performance overhead, but the benefit is significantly reduced risk to mission-critical backend systems while enabling incremental modernization. Regulatory Constraints Operating within a regulated and highly visible federal environment also creates inherent constraints. Security, privacy, accessibility, and records compliance introduce review cycles that slow rapid change and experimentation. While these controls can limit the speed of deployment and depth of personalization, they are essential to protecting Veteran data and maintaining public trust. Our experience delivering FedRAMP-authorized, RMF-accredited platforms demonstrates that compliance and innovation are not mutually exclusive--but they do require structured governance, secure-by-design architectures, and continuous risk management embedded into delivery workflows. Scalability and Cost Scalability presents another tradeoff. Modern cloud-native platforms enable elastic scaling and high availability, which are essential during seasonal enrollment surges, emergency events, and policy-driven demand spikes. However, this elasticity introduces variable operating costs that must be actively managed. In prior enterprise deployments, we have implemented FinOps and automated resource governance models to balance performance, resilience, and budget predictability. This approach ensures that the platform remains responsive while maintaining fiscal discipline. Enterprise Experience Governance Delivering a seamless experience across benefit portfolios also requires centralized experience standards, content governance, and navigation models. While this improves consistency and usability for Veterans, it can limit the autonomy of individual program offices accustomed to managing their own digital properties. Our past performance modernizing multi-stakeholder environments shows that success depends on governance models that balance enterprise standards
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 9
+
+VA.GOV Replacement Model Sources Sought
+with program-level flexibility, supported by shared design systems and federated content workflows. Identity and Access Identity modernization introduces one of the most visible tradeoffs. Stronger identity proofing and authentication improve security and fraud prevention but can increase friction, particularly for users with limited digital access or technical confidence. In prior deployments supporting vulnerable populations, we addressed this risk by designing assisted authentication pathways, simplified recovery flows, and multi-channel support, ensuring security improvements do not become barriers to access. Analytics and Privacy Advanced analytics and personalization are essential to improving digital experiences, yet are constrained by privacy requirements and consent models. While this can limit behavioral insight, our experience in government digital programs demonstrates that privacy-first analytics frameworks--combined with aggregated, de-identified data--can still drive meaningful optimization without compromising trust or compliance. Technology and Skills Dependency Finally, the use of modern digital experience platforms and emerging technologies introduces potential long-term vendor and skills dependencies. Accelerated innovation must be balanced with maintainability, open standards, and portability. Across prior federal modernization programs, we mitigated this risk by adopting modular, composable architectures that allow components to evolve independently and reduce reliance on proprietary systems.
+6. LESSONS LEARNED FROM PAST DEPLOYMENTS
+Three Wire understands the importance of learning from experience and continuously improving delivery practices. Through our work supporting the VA Caregiver Legal and Financial Planning Services website, we gained valuable insights into standing up a mission-critical digital platform under compressed timelines while navigating VA's governance and security environment. One key lesson was the importance of early and proactive engagement with governance stakeholders. Successfully launching the platform required coordination across multiple VA offices, including Information Security, Section 508 compliance, and the Web Governance Board. We learned that establishing relationships with these groups at the outset significantly accelerates approvals and reduces rework later in the lifecycle. In particular,frequent working sessions with the Section 508 team including live demonstrations and accessibility scans using tools such as JAWS and AMP enabled rapid validation and smoother progression toward Authority to Operate (ATO). Another critical lesson was the need for strict alignment with VA security and compliance documentation standards, particularly within eMASS. Early in the project, we encountered conflicting guidance regarding required templates and documentation approaches, which resulted in audit findings and rework. Through the Security Assessment and Validation (SAV) process, we gained a deeper understanding of VA's internal audit expectations and strengthened our documentation practices. Working closely with our Information System Security Officer (ISSO), we were able to remediate outstanding POA&Ms efficiently and establish repeatable processes for future compliance efforts.Collectively, these experiences reinforced the importance of integrated governance, continuous stakeholder engagement, and disciplined compliance processes when delivering secure, accessible, and scalable digital services in highly regulated federal environments.
+
+Three Wire Systems
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Feb. 5, 2026, | Page 10
+
+

@@ -1,0 +1,842 @@
+February 4th, 2026 Prepared For:
+Allison Fulton, Allison.fulton@va.gov, Evan Schlisserman, evan.schlisserman@va.gov
+Replacement Model for VA.GOV
+
+Executive Summary
+VA.gov is one of the largest citizen-facing digital platforms in the federal government, serving more than 10 million visitors each month. It represents critical infrastructure for the livelihoods, healthcare, and financial security of Veterans and their families. The Department has invested substantially in digital modernization, consolidating hundreds of fragmented sites into a unified digital front door. Despite this effort, a fundamental challenge persists: Veterans continue to struggle to complete tasks and locate relevant information.
+The root cause is structural. VA.gov is organized around what VA offers: Benefits, Healthcare, Disability, Education, rather than around what Veterans need to accomplish. This mismatch manifests in information overload across thousands of pages, fragmented journeys across separate systems for claims, appointments, prescriptions, and messaging, and eligibility confusion driven by complex rules that vary by service history, disability rating, and enrollment status.
+The opportunity is significant. VA.gov possesses comprehensive content, robust backend systems, and restored public trust. What remains absent is a task-completion layer that interprets intent, displays only what is relevant, collects only what is missing, unifies fragmented systems, preserves context across authentication events, and explains with trust through grounded citations.
+We propose an AI Assistant with Dynamic UI, a conversational platform that guides Veterans through tasks while rendering only the information and actions relevant to their current step.
+
+Replacement Model: Cross-Discipline Modernization System
+
+The proposed replacement model operates across six integrated disciplines, each addressing a distinct dimension of the VA.gov challenge.
+
+Six Disciplines of the Replacement Model
+Discipline Function
+Experience Task-oriented journeys that replace page navigation
+
+Platform Content Governance
+
+Scalable, secure infrastructure with graceful degradation
+Tier 0 governance ensuring only approved content enters AI responses
+Policy-driven controls that separate AI reasoning from action execution
+
+Key Deliverable
+AI Assistant + Dynamic UI rendering task-relevant information
+Edge security, AI orchestration, deterministic services
+RAG-grounded responses with mandatory provenance citations
+UI Allowlist, ABAC display policies, tool-call budgets
+
+Discipline Analytics
+Operations
+
+Function
+Journey-level measurement of task completion, not page views
+Sustained delivery through journeylevel operating model
+
+Key Deliverable
+Completion rates, abandonment points, satisfaction signals
+Content refresh, model tuning, escalation management
+
+Architecture Components
+The solution architecture comprises five integrated layers, each with distinct responsibilities and governance controls.
+
+Edge & Security Layer
+
+Component Function
+
+Edge CDN + WAF
+
+Content delivery, DDoS protection, bot mitigation
+
+API Gateway
+
+Rate limiting, request routing, API versioning
+
+Identity Service
+
+SSO integration, IAL management, session handling
+
+Implementation Configurable cloud service
+Configurable cloud service
+Leverage existing VA identity infrastructure (Login.gov, ID.me)
+
+AI Plane (Model-Driven)
+
+Component
+
+Function
+
+AI Orchestrator
+
+Intent detection, response planning, tool selection
+
+RAG Service
+
+Retrieve relevant content, assemble grounded context
+
+Safety Filters
+
+Prompt injection detection, output validation, PII scanning
+
+LLM Hosting Language model inference
+
+Governance Allowlisted intents and tools per journey Tier 0 approved content only
+Pattern matching + ML classifiers FedRAMP-authorized options
+
+Dynamic UI Enforcement Plane (Deterministic)
+
+Component
+
+Function
+
+UI Schema DSL
+
+Structured representation of UI components
+
+Schema Validator
+
+Type checking, required fields, accessibility metadata
+
+Component Allowlist
+
+Registry of permitted UI components
+
+ABAC Display Policy
+
+Field-level visibility based on IAL, delegation, sensitivity
+
+Provenance
+
+Inject source, freshness, confidence
+
+Validation JSON Schema conformance
+Reject invalid schemas before render Only approved components render Redact unauthorized fields
+Every data field attributed
+
+Component Tagger
+Deterministic Renderer
+
+Function metadata
+Safe HTML generation from validated schema
+
+Validation
+No client-side interpretation of AI output
+
+Journey Services (Deterministic)
+
+Service
+
+Function
+
+Task/Workflow Engine
+
+Orchestrate multi-step tasks, maintain state
+
+Forms Runtime
+
+Schema-driven forms, prefill, validation, draft save
+
+Evidence Vault
+
+Encrypted document storage, virus scanning
+
+Status Center
+
+Unified status view across claim types
+
+Appointment Orchestrator
+
+Availability, booking, cancellation
+
+Document Hub
+
+Purpose-based search, retrieval, render
+
+Messaging Router
+
+Intent routing, context assembly, channel adapters
+
+Integration Persists to state store
+VA Forms Library integration Secure storage service
+Status Normalization Facade Appointment Normalization Facade Document Normalization Facade Messaging Normalization Facade
+
+Normalization Layer
+The normalization layer abstracts VA's diverse backend systems into canonical data models:
+VA Backend Systems  Normalization Facades  Canonical Models
+
+· Claims + Appeals Systems  Status Normalization  Canonical Status Model · Scheduling System  Appointment Normalization  Canonical Appointment Model · Letters + Records  Document Normalization  Document Descriptor Model · Secure Messaging  Messaging Normalization  Message Envelope Model
+
+This approach isolates the AI Assistant from backend complexity and enables consistent behavior regardless of which underlying system provides the data.
+
+Scalability and Resilience
+
+Pattern
+
+Implementation
+
+Horizontal Scaling
+
+Stateless pods for AI Orchestrator; scale on queue depth; independent scaling per Journey Service
+
+Multi-Tier Caching
+
+Tier 0 (approved content, hours/days TTL); Tier 1 (transactional data, minutes TTL); Session (task state, session duration)
+
+Circuit Breakers Per-backend; open on error threshold; half-open probe for recovery
+
+Pattern
+Graceful Degradation
+Tool-Call Budgets
+
+Implementation
+AI unavailable  redirect to traditional VA.gov pages with full functionality
+Limit backend calls per conversation turn to prevent runaway queries
+
+Three Top Tasks: Dynamic UI in Action
+The following screens demonstrate how the AI Assistant with Dynamic UI transforms the three highest-frequency Veteran tasks.
+Task 1: Check Claim Status  Understand Meaning  Take Next Action
+
+This screen shows the Veteran checking claim status and immediately being guided to the next required step. The chat summarizes the claim's current stage ("Evidence Gathering"), while the validated Dynamic UI presents progress, what it means (with source citation), and a single clear action: Upload Medical Records with a due date and "Upload Now" CTA-- reducing overload by turning status into status + meaning + next action.
+
+Task 2: Get Official Document  Verify  Download
+This screen shows the Veteran getting an official benefits document without hunting throughmenus. The assistant recognizes the intent ("I need a letter proving my benefits"), and the validated Dynamic UI presents the exact artifact (Benefits Summary Letter) with Preview and Download actions plus a short "what this means" explanation with source--turning the task into find  verify  download in one step.
+Task 3: Check Eligibility  Understand Benefits  Apply
+
+This screen shows the Veteran completing the eligibility check  understand benefits  take next action flow for the Post-9/11 GI Bill. The assistant answers "Am I eligible?" and the validated Dynamic UI summarizes eligibility (service criteria met), quantifies benefits (months remaining, benefit level, housing and book stipend estimates), explains "what this means" with a source link, and routes directly to completion with clear CTAs: Apply for GI Bill (primary) or Compare Schools (secondary).
+
+Identity Workflows: Proofing, Sign-In, Recovery, Navigation
+
+Our approach treats all four journeys as variations of a single architectural pattern: capture intent first, authenticate only when necessary, and restore context completely.
+
+Intent-First Authentication Architecture
+
+1. Capture Intent Before Authentication
+
+The AI Assistant engages the Veteran immediately upon arrival--before any login prompt. Through natural conversation, the system identifies what the Veteran wants to accomplish and determines the minimum authentication level required.
+
+For many tasks, no authentication is needed at all. Eligibility questions, benefit explanations, and facility lookups can be answered immediately. When authentication is required, the Veteran understands why: "To check your specific claim status, I'll need to verify your identity. This should take about 30 seconds."
+
+2. Persist Context Across the Boundary
+
+When authentication is required, the system generates a return-to-task token that encodes the Veteran's intent, conversation state, and any information already collected. This token travels with the authentication request via the OAuth/SAML state parameter.
+
+After successful authentication, the system decodes this token and immediately resumes the task. The Veteran never sees a homepage or has to repeat themselves.
+
+3. Treat Failures as Branches, Not Dead Ends
+
+Authentication failures--failed identity proofing, forgotten passwords, lost 2FA devices-- are common. Rather than displaying error pages, the AI Assistant acknowledges the situation and offers constructive alternatives: in-person verification options, alternative credentials, or warm handoff to support staff who already have the Veteran's context.
+
+Application to Each Journey
+
+Journey
+
+Current Pain Point
+
+Identity Proofing
+
+Veterans fail IAL2 verification without understanding why. Document uploads fail silently. No clear alternatives offered.
+
+AI-Assisted Approach
+AI explains requirements upfront, guides document capture, interprets failures in plain language, and offers in-person alternatives at nearby VA facilities.
+
+Journey Sign-In Recovery
+Navigation
+
+Current Pain Point
+Credential consolidation (Jan 2025) confused Veterans. "Which one do I use?" Multiple redirects lose context.
+Lost 2FA device or forgotten password requires call center. Long wait times. Veteran must re-explain situation multiple times.
+Site organized by VA structure, not Veteran tasks. 7+ pages to find the right form. Auth interrupts journey and loses context.
+
+AI-Assisted Approach
+AI asks "How did you sign in before?" and guides to the right credential. Return-totask token ensures post-login lands on the intended action, not the homepage.
+AI triages recovery type, guides selfservice options where possible, and when human help is needed, passes full context to support staff so the Veteran doesn't repeat themselves.
+AI interprets intent ("I need to update my address"), determines if auth is needed, prompts only when necessary, and delivers the Veteran directly to a prefilled action--not a page to read.
+
+Technical Implementation
+
+Component
+
+Function
+
+Task Context Store
+
+Secure, short-lived store capturing: detected intent, conversation history, information already collected, required authentication level, and return destination. Encrypted and tied to session; expires after authentication timeout.
+
+Return-to-Task Token
+
+Signed, opaque token passed through OAuth/SAML flow via state parameter. Contains reference to Task Context Store entry. Validated on return to prevent tampering or replay.
+
+Progressive Authentication
+
+AI determines minimum credential level required for each action. Read-only access to appointment history may require only IAL1. Submitting a disability claim requires IAL2. System prompts for stepup authentication only when the specific action demands it.
+
+Risks, Tradeoffs, and Limitations
+
+Risk
+
+Impact
+
+Likelihood
+
+Hallucination / Inaccurate Information
+
+Veteran receives incorrect guidance on benefits or procedures
+
+Medium
+
+Latency / Performance
+
+Slow responses degrade Veteran experience
+
+Medium
+
+Mitigation
+Grounded responses only (RAG from Tier 0 approved content); mandatory provenance citations; safety classifiers on output; deterministic UI rendering prevents free-form AI-generated content
+Tiered inference (fast intent detection, slower complex reasoning); aggressive caching of Tier 0 content; streaming
+
+Risk
+
+Impact
+
+Cost Escalation
+
+LLM inference costs exceed budget
+
+Adoption Resistance
+
+Veterans prefer traditional navigation
+
+Backend Integration Failures
+
+VA systems unavailable or return errors
+
+Security / ATO Delays
+
+Authorization process extends timeline
+
+Likelihood Medium
+Medium
+MediumHigh
+Medium
+
+Mitigation
+responses; graceful timeout handling
+Tool-call budgets per conversation turn; request coalescing; caching; model tiering (smaller models for simple tasks)
+Opt-in introduction; traditional pages always available; clear value demonstration in top journeys; A/B testing to validate improvements
+Circuit breakers per backend; graceful degradation to cached data or traditional pages; clear messaging ("This information is temporarily unavailable")
+Early engagement with VA security teams; leverage existing VA ATO artifacts where applicable; design for FedRAMP Moderate from day one
+
+What This Approach Does Not Solve
+· Content quality: AI can only surface what VA has published; outdated or incomplete content will still surface
+· Policy complexity: Eligibility rules remain complex; AI makes them more accessible but cannot simplify underlying policy
+· Backend limitations: If a VA system doesn't support an operation, AI cannot enable it
+· Universal adoption: Some Veterans will always prefer phone or in-person service
+
+Implementation & Operating Model
+
+Phased Rollout: 40 Weeks to Full Production
+
+Phase
+
+Weeks Deliverables
+
+Phase 1: Foundation
+
+1-8 Infrastructure provisioning; content ingestion pipeline; basic chat interface; security controls; ATO documentation initiation
+
+Phase 2: Core Journeys
+
+9-18
+
+Claims status + appointments + letters (read-only); normalization facades for core backends; Dynamic UI component library
+
+Phase 3:
+
+19-28 Form submission; appointment booking; evidence upload;
+
+Phase Transactional
+Phase 4: Expansion
+Phase 5: Optimization
+
+Weeks 29-36 37-40
+
+Deliverables full integration with Forms Runtime
+Messaging integration; notification subscriptions; mobile integration; additional journey coverage
+Performance tuning; model optimization; full production handoff; operating model transition
+
+Journey-Level Operating Model
+
+Function
+
+Responsibility
+
+Content Governance
+
+Review and approve Tier 0 content; manage embedding refresh
+
+Journey Operations
+
+Monitor completion rates; triage failures; escalate issues
+
+Model Tuning
+
+Evaluate intent accuracy; refine tool selection; update safety filters
+
+Escalation Management
+
+Route AI failures to human support with full context
+
+Analytics & Reporting
+
+Track journey completion, abandonment, satisfaction
+
+Cadence
+Weekly content review; continuous publishing
+Daily monitoring; weekly journey reviews
+Bi-weekly evaluation; monthly model refresh
+Real-time escalation; nextbusiness-day resolution
+Weekly dashboards; monthly leadership reports
+
+Questions for VA
+· Scope prioritization: Which of the six core journeys (Search/Learn, Apply, Status, Appointments, Documents, Messaging) should be prioritized for initial deployment?
+
+· Identity infrastructure: Should the AI Assistant integrate with existing VA.gov authentication flows, or is there interest in exploring enhanced identity proofing capabilities?
+
+· Content governance: Who within VA would own Tier 0 content approval? Is there an existing content governance process we should align with?
+
+· ATO pathway: Does VA prefer a standalone ATO for the AI Assistant, or integration into an existing system boundary?
+
+· Success metrics: Beyond task completion rates, what outcomes would VA consider evidence of success for this initiative?
+
+Company Overview
+Kevadiya, Inc. is a government technology consulting firm headquartered in Pontiac, Michigan, specializing in public sector modernization. We deliver AI-powered platforms, workflow automation, and citizen-facing digital services for federal, state, and local agencies. Our core capability is transforming complex, multi-stakeholder workflows into guided, task-oriented digital experiences--precisely the challenge facing VA.gov.
+
+Relevant Capabilities
+
+Capability Area Description
+
+AI Platform Development
+
+Conversational AI, retrieval-augmented generation, grounded response systems
+
+Dynamic UI Systems
+
+Schema-driven UI generation, progressive disclosure patterns, accessibility-first design
+
+VA Integration
+
+Complex multi-system orchestration, legacy adapter development, data normalization with VA systems such as MPI - Master Person Index, VA Profile - Veteran demographics, FSC EDI - Financial services center Electronic Data Interchange and VistA/VDIF - Veterans data integration and federation
+
+Compliance & Security
+
+FedRAMP-aligned architectures, ATO documentation, ABAC/RBAC implementation
+
+Transit & Benefits Systems
+
+Deep experience with eligibility rules, scheduling, case management
+
+VA Ecosystem Experience
+Since 2015, Kevadiya has developed and operated VetRide (powered by TransTuitiveTM), a mission-critical platform coordinating Veteran transportation for the U.S. Department of Veterans Affairs. This decade of VA experience directly informs our approach:
+· Operated within VA's security and compliance environment -- achieved Authority to Operate (ATO) in 2016 and maintained continuous compliance
+· Scaled from pilot to national operations -- grew from ~150 vehicles to 1,500+ vehicles supporting 3 million trips annually
+· Integrated with VA systems -- connected to VA scheduling, eligibility, and administrative systems
+· Learned the operational realities -- orchestration across roles (Veterans, caregivers, schedulers, dispatchers), governance requirements, and the criticality of graceful degradation
+
+Relevant Experience- TransTuitive -- Paratransit & Demand-Response Platform
+Our flagship platform, TransTuitive, serves transit agencies managing complex, multistakeholder operations. It serves:
+
+· Riders -- Individuals with disabilities booking and tracking trips
+
+· Caregivers -- Family members or case workers managing trips on behalf of riders
+
+· Call Center Representatives -- Handling phone-based booking and inquiries
+
+· Dispatchers -- Managing real-time operations and vehicle assignments
+
+· Supervisors -- Monitoring performance and resolving exceptions
+
+· Administrators -- Configuring eligibility rules, service areas, and policies
+
+While smaller in scale than VA.gov, it addresses remarkably similar challenges:
+
+Dimension Multi-step workflows
+Eligibility complexity
+Role-based delegation Integration with legacy systems Real-time status across systems
+
+VA.GOV Challenge Apply for benefits, appeals, enrollment Service history, discharge status, ratings Caregivers acting for Veterans
+VistA, BGS, MPI
+Claim status, appointment status
+
+What We Built
+
+Transtuitive Analog
+Trip booking, eligibility certification, appeals
+ADA certification, mobility aids, trip purpose
+Caregivers, case workers booking for riders
+Legacy scheduling engines, AVL, billing
+Trip status, vehicle location, ETA
+FTA reporting, ADA compliance, billing audit
+
+1. Guided Workflow Engine
+
+· Multi-step task flows with state preservation
+
+· Resume-where-you-left-off across sessions
+
+· Progressive disclosure of requirements
+
+2. Dynamic Dashboards
+
+· Role-specific views (rider vs. dispatcher vs. supervisor)
+
+· Real-time status updates via push
+
+· Exception highlighting and resolution workflows
+
+3. Integration Normalization · Adapters for multiple scheduling engine vendors · Canonical trip/rider/vehicle models · Graceful degradation when backends unavailable
+4. Comprehensive Audit · Every booking, cancellation, and modification logged · Rider activity history for case workers · Compliance reporting automation
+The screenshots below demonstrate that we have already implemented Dynamic UI in TransTuitive to help operations teams complete high-frequency tasks in complex, dataheavy workflows. In each example, an operator uses natural language to express intent (e.g., "pull vehicles," "pull passengers," "pull today trips"), and the system responds by rendering a schema-driven, validated UI view of the relevant records, guiding the user to review and explicitly confirm selections before any downstream processing occurs. This mirrors the pattern we propose for VA.gov: reduce cognitive load, keep interactions taskfirst, and enforce deterministic, auditable execution for actions that affect real people and mission outcomes.
+Operators use a chat command (e.g., "pull vehicles") to generate a validated Dynamic UI result set from live operations data. The agent returns the matched count and guides the user to confirm the exact records via checkboxes before any bulk action proceeds, keeping execution deterministic and auditable.
+
+Operators run a natural-language query (e.g., "pull passengers") and the system renders a schema-driven list of matched passenger records (PII-aware). The agent supports review + selection through explicit checkbox confirmation, enabling safe downstream actions without auto-editing sensitive records.
+Operators request "pull today trips" and the platform produces a Dynamic UI view of the day's trip workload (time/location/status cues). The agent narrows the working set and requires human confirmation (checkbox selection) before executing dispatch, messaging, or batch processing steps.
+
+Lessons Learned -- Directly Applied to This Proposal
+
+Lesson Start with top journeys Normalization unlocks UX
+Progressive disclosure works
+Delegation is essential Graceful degradation builds trust Audit enables accountability
+
+TransTuitive Experience
+80% of calls were booking + status; optimize these first
+Unified trip model hid scheduling engine differences
+Riders didn't need full policy manual; show what's relevant
+Case workers needed full rider visibility with consent
+"Booking unavailable, try again" beats system crash
+
+VA.gov Application Focus on Search, Apply, Status before full platform Unified status model hides claims/appeals/health differences
+Veterans don't need all eligibility rules; show their situation
+Caregivers need Veteran visibility with consent "AI unavailable, traditional page available" beats error
+
+FTA auditors could trace any trip decision
+
+VA oversight can trace any claim/action
+
+Why This Approach is Low-Risk and High-Impact for VA
+This section addresses a core buyer question: given VA's scale, regulatory constraints, and ecosystem complexity, why does this approach reduce delivery risk while accelerating Veteran impact?
+
+VA Buyer Concerns  Our Advantage  Evidence
+
+VA Concern
+
+Our Advantage
+
+Continuity of service during modernization
+
+Augmentation-first architecture: AI layer coexists with existing VA.gov pages; traditional navigation remains available as fallback
+
+Integration across heterogeneous VA systems
+Security / ATO readiness and operating discipline
+Reducing information
+
+Normalization facades abstract backend complexity into canonical models, enabling consistent AI behavior regardless of source system
+Deterministic orchestration layer ensures AI never executes actions directly; all operations flow through policy-governed services with full audit trails
+Dynamic UI displays only task-relevant data, collects only missing inputs, and
+
+Evidence
+Phased rollout plan; VetRide operated alongside legacy VA systems during 10-year transition
+Normalization architecture diagram (Page 3);
+ATO evidence list (Appendix A2); VetRide achieved VA ATO in 2016 and maintains continuous compliance
+Top task flows (Pages 4- 6)
+
+VA Concern overload (top task completion) Scaling and resilience at national traffic
+Long-term adaptability and governance
+
+Our Advantage
+surfaces only the next action-- progressive disclosure by design
+Stateless AI orchestration with horizontal scaling; multi-tier caching; graceful degradation to traditional pages when AI unavailable
+Tier 0 content governance ensures only VA-approved content enters RAG; UI Component Allowlist prevents unapproved UI patterns; policy-driven configuration enables rule changes without code deployment
+
+Evidence
+Scalability architecture (Page 3)
+Content governance model (Page 3); Journeylevel operating model (Page 9)
+
+Risk-Reduction Angle
+· Incremental coexistence and rollback: Every journey can be deployed independently; if issues arise, traditional VA.gov pages remain fully functional
+· Deterministic controls for audit and safety: AI reasons about intent; deterministic services execute actions--no AI directly modifies Veteran data
+· Integration maturity: Our approach uses normalization facades, not brittle pointto-point integrations; backend changes don't cascade to AI behavior
+
+Appendix: Supporting Evidence and Proof Pack
+
+Appendix A1: Proof Pack -- Delivery Artifacts and Methodology
+
+A1.1 Normalization Facade Architecture
+
+The normalization layer provides a consistent interface to heterogeneous VA backend systems:
+
+
+
+
+
+AI Orchestrator / Journey Services
+
+
+
+
+
+
+
+
+
+ Canonical Data Models 
+
+ (Status, Appointment, 
+
+ Document, Message) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+ Status   Appt   Doc   Msg   Profile 
+
+ Facade   Facade   Facade   Facade   Facade 
+
+ 
+  Claims   BGS/   Appeals  
+
+
+
+
+
+
+
+Schedule 
+
+ System 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Letters 
+
+ API 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Secure 
+
+Messaging
+
+
+
+
+
+
+
+ 
+  VA   Profile   MPI  
+
+Benefits: - Backend changes don't cascade to AI behavior - New backend systems added via new facades without AI modification - Graceful degradation when individual backends unavailable - Consistent error handling and retry logic
+
+A1.2 Dynamic UI Component Library
+
+All UI components are deterministically rendered from validated schemas. The AI generates schema instructions; the renderer produces safe HTML.
+
+Component StatusTile
+StatusTimeline NextActionCard
+
+Purpose Display claim/appointment status Visual progress indicator
+Priority action with CTA
+
+AppointmentSlots Date/time selection
+
+DocumentCard
+UploadPanel InfoCard
+EligibilityChecklist
+
+Document preview/download
+File upload interface
+Benefit/program information
+Requirements status
+
+CTAPanel ExplanationDrawer
+
+Primary/secondary actions
+Contextual help with citations
+
+Validation Rules Required: title, status, lastUpdated; Optional: actionRequired
+Required: stages array with label and state Required: title, description, buttonLabel; Optional: deadline, priority Required: slots array with date, time, provider, modality Required: title, format; Optional: description, date Required: acceptedFormats, maxSize Required: title, description; Optional: highlights array Required: items array with requirement and met status Required: title, primaryLabel; Optional: secondaryLabel, timeEstimate Required: text, citation
+
+Component Allowlist Enforcement: Only components registered in the allowlist can be rendered. AI cannot invent new component types.
+
+A1.3 Content Governance Model (Tier 0)
+
+
+
+
+
+Tier 0 Content Store
+
+
+
+
+
+ · VA-approved benefit descriptions
+
+
+
+ · Eligibility criteria and requirements
+
+
+
+ · Form instructions and field guidance
+
+
+
+ · Process explanations with regulatory citations
+
+
+
+ · Facility information and contact details
+
+
+
+ · FAQ content with source attribution
+
+
+
+
+
+
+
+
+
+ Content Pipeline 
+
+ · Ingest from VA CMS 
+
+ · Chunk and embed 
+
+ · Version control 
+
+ · Approval workflow 
+
+
+
+Governance Rules: - All content must be sourced from VA-approved publications - Every response includes provenance citation - Content refresh follows VA publication cadence Embedding updates require content governance approval
+
+Appendix A2: Security / ATO Readiness Evidence
+
+A2.1 ATO Experience: VetRide (VA Transportation Platform)
+
+Attribute
+
+Detail
+
+System Name
+
+VetRide (powered by TransTuitiveTM)
+
+ATO Achieved
+
+2016
+
+ATO Status
+
+Active; continuous compliance maintained
+
+Impact Level
+
+Moderate
+
+Authorizing Official
+
+VA Office of Information and Technology (OIT)
+
+Data Classification
+
+Veteran PII, transportation records, eligibility data
+
+Controls Demonstrated: - Access control (AC): Role-based access with delegation support - Audit and accountability (AU): Complete transaction logging - Configuration management (CM): Controlled deployment pipeline - Contingency planning (CP): Disaster recovery and business continuity - Identification and authentication (IA): Multi-factor authentication integration - Incident response (IR): 24/7 monitoring and response procedures - System and communications protection (SC): Encryption in transit and at rest
+
+A2.2 Proposed AI Assistant Security Architecture
+
+Control Area
+
+Implementation
+
+AI Governance
+
+AI orchestrator operates within allowlisted intent/tool boundaries; no unbounded reasoning
+
+Control Area Output Validation
+PII Protection
+Audit Trail
+Deterministic Execution Graceful Degradation
+
+Implementation
+All AI outputs validated against JSON Schema before rendering; safety classifiers scan for harmful content
+PII detected in AI prompts is masked; responses scanned before delivery
+Every AI decision, tool call, and response logged with timestamps and provenance
+AI reasons about actions; deterministic services execute--AI never directly modifies data
+If AI unavailable, system redirects to traditional pages without data exposure
+
+A2.3 ATO Pathway Recommendation
+Given our VetRide ATO experience, we recommend:
+· Early engagement with VA OIT security team during Phase 1 · Leverage existing artifacts from VA.gov and VetRide where applicable · Design for FedRAMP Moderate from day one (LLM hosting, data stores) · Incremental authorization aligned with phased rollout
+
+Appendix A3: Capability Evaluation Summary
+
+Core Capabilities Demonstrated Capability Conversational AI with grounded responses Dynamic UI generation from validated schemas Deterministic orchestration with audit trails Multi-system integration via normalization Federal security and ATO compliance Scale to millions of transactions
+Progressive disclosure and task-oriented UX
+
+Evidence
+RAG architecture with Tier 0 content; provenance citations
+Component library with JSON Schema validation
+Journey services architecture; transaction logging
+TransTuitive multi-vendor scheduling integration
+VetRide ATO (2016); continuous compliance
+VetRide: 3M trips/year; 1,500 vehicles
+TransTuitive role-based dashboards
+
+Maturity Productionready Productionready Productionready Productionready Demonstrated
+Demonstrated
+Productionready
+
+

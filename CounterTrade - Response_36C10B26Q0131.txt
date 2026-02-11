@@ -1,0 +1,158 @@
+A Woman-Owned Small Business Since 1985
+
+ORIGINAL
+
+Replacement Model for VA.gov
+Department of Veterans Affairs Technology Acquisition Center
+
+Sources Sought #36C10B26Q0131
+
+Due: February 5, 2026
+
+PREPARED FOR:
+Department of Veterans Affairs Technology Acquisition Center Allison Fulton Allison.Fulton@va.gov Evan Schlisserman Evan.Schlisserman@va.gov 23 Christopher Way Eatontown, NJ 07724
+
+PREPARED BY:
+Michael Ostman Account Executive - DHA & VA CounterTrade Products, Inc. 800-444-9710 / 303-421-8225 fax mostman@countertrade.com
+
+7585 W. 66th Avenue, Arvada, CO 80003 TIN# 84-1007015
+
+(800) 444-9710 (303) 421-8225 Fax UEID: CN4KSKX2UQY5
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+RESPONDING TO SOURCES SOUGHT #36C10B26Q0131
+Section I: Organization Overview & Relevant Experience Summary
+1. Organization Overview - CounterTrade Products, Inc. (CounterTrade) is a Woman
+Owned Small Business (WOSB) exceeding 4 decades of business continuity. Our firm has satisfied complex technology needs for federals entities since 1985 and continues to provide complete solutions based on the needs presented by the customer. Our organization is an ISO 9001:2015 and ISO 20243:2018 certified organization; we are verified NIST 800-171 and recently achieved CMMC Final Level 2 compliance indicating that our cybersecurity practices meet the standards presented by the Department of War (DoW). CounterTrade is a customer-first organization; we work diligently to minimize costs and maximize support for each of our clients. Our wide range of authorizations allow our personnel to evaluate solution choices that meet technical requirements while also focusing on the pursuit of lowest cost options for CounterTrade's clients. All members of our team/leadership are focused on being trusted advisors to our customers; we share the extensive knowledge acquired from 40+ years of industry experience so agencies can properly evaluate solutions. Our comprehensive tenured support team ensures that clients get the most out of their technological needs through training, communication, support, and compliance.
+2. Relevant Experience - The CounterTrade Team's proposed solution brings a
+combination of infrastructure, security, and advisory capabilities relevant to VA's objectives.
+· Digital Identity & Government Experience - The OCunterTrade Team supports governments and regulated industries globally in deploying secure digital identity, fraud resistant authentication, and AI assisted verification services, providing patterns and infrastructure for FIDO2, passkeys, and verifiable credential solutions.
+· Secure Endpoint and Authenticator Foundations - The CounterTrade Team's endpoint portfolio, including SafeID with ControlVault, is designed to support phishing resistant authentication and strong key protection via hardware backed cryptographic modules and FIDO2 support.
+· AI-Ready Infrastructure for Risk-Based and Adaptive Authentication The CounterTrade Team provides modern compute, storage, and networking platforms-- on premises, edge, and hybrid--that can power:  AI/ML models for fraud detection, behavioral analytics, and anomaly detection.
+
+Page 1
+
+February 5, 2026
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+ Real time risk scoring services that integrate into proofing, MFA, and account recovery flows.
+ High availability identity and access management backends that support VA's volume and reliability requirements.
+Our experience with AI enhanced fraud prevention and secure identity verification in banking and national digital identity environments is directly applicable to VA's needs.
+
+Page 2
+
+February 5, 2026
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+Section II: Executive Summary & Technical Approach
+1. Executive Summary - The CounterTrade Team's approach is centered on improving
+identity proofing success, phishing resistant AAL2+ authentication, and post login task completion for all Veterans--particularly those facing aging related challenges, disabilities, low digital literacy, or constrained connectivity. The CounterTrade Team proposes to partner with VA to explore and pilot next generation digital identity, authentication, and navigation approaches that dramatically improve ease of use and inclusivity while maintaining or exceeding NIST SP 800 63 3 IAL2/AAL2, OMB M 19 17, Section 508, WCAG 2.1 AA, and applicable privacy and FedRAMP requirements. Our focus is to help VA deliver Veteran experiences that feel as intuitive as unlocking a phone, with near universal identity proofing success, robust phishing resistance, and strong resilience against emerging threats such as synthetic identities and deepfake attacks. Our Team will provide an integrated combination of advisory services, reference architectures, and pilot implementations that build on VA's existing investments in Login.gov, ID.me, and its enterprise digital experience platform, while introducing passkeys/FIDO2, risk-based authentication, in person anchored identity, and inclusive UX patterns tailored for VA's diverse Veteran population. Details regarding the solution can be found below.
+Proposed Outcomes 2. Solution Objective - The Countertrade Team's solution is designed with key
+objectives in mind; see below for the proposed outcomes of our solution. · Achieve identity proofing completion rates approaching 100% by combining remote and
+in-person verification methods, leveraging VA's VHIC cards, enrollment records, and nationwide facility footprint. · Reduce MFA friction and sign-in abandonment by adopting passkeys and FIDO2-based authentication options that feel like phone unlock, while delivering phishing-resistant AAL2+ security. · Deliver simpler and more accessible post-login journeys so Veterans can reliably complete tasks such as viewing benefits status, scheduling appointments, updating direct deposit, and submitting claims with minimal cognitive load and confusion. · Implement resilient security architectures that detect and mitigate synthetic identity attempts, deepfake biometric attacks, and large-scale credential theft--without forcing Veterans through unnecessary or repetitive friction. · Establish a transaction-based assurance framework that aligns different Veteran actions and services to appropriate IAL/AAL levels, balancing usability and risk across viewing, managing, and changing sensitive information.
+Technical Approach
+
+Page 3
+
+February 5, 2026
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+3. Identity Proofing & Authentication Innovation - The Countertrade Team will
+develop a target-state blueprint tailored to the VA integrating the below:
+a. Hybrid identity proofing: Combining remote IAL2 proofing with in facility verification paths that leverage VHIC, authoritative VA records, and existing in person workflows to bootstrap strong digital identities for Veterans who struggle with remote proofing.
+b. Passkeys and FIDO2 based authentication: Introducing passwordless, phishing resistant authentication methods (e.g., device bound passkeys, hardware tokens, platform authenticators) that align with AAL2+ requirements and work seamlessly across major platforms and devices.
+c. mDLs, digital wallets, and verifiable credentials: Identifying feasible integration patterns that allow Veterans to reuse trusted credentials they already possess, while respecting federal standards, privacy, and VA's risk posture.
+d. Risk-based / adaptive authentication: Designing policies that increase assurance only when and where necessary--e.g., elevating for payment changes or claims submissions, while keeping read only tasks as low friction as possible.
+This blueprint will also include a transaction risk matrix that assigns appropriate IAL/AAL levels to representative Veteran actions (viewing, updating, claiming, delegating), guiding how VA should layer authentication rigor to match mission risk and user impact.
+The CounterTrade Team will define and support limited-scope pilots that allow VA to test modern identity approaches without disrupting existing services, such as:
+· A hybrid proofing pilot at selected VA facilities where in-person identity verification is bound to digital credentials that seamlessly work for VA.gov and the mobile app.
+· A passkey-first authentication pilot for a subset of digitally savvy Veterans, measuring login success rates, time-to-access, and user satisfaction versus current MFA methods.
+· Evaluation of alternative authentication factors for Veterans in low-connectivity environments (e.g., FIDO2 hardware keys, non-SMS factors) and for those with disabilities, ensuring inclusive factor portfolios.
+Each pilot will include a measurement framework to track identity proofing completion rates, authentication success, task completion, abandonment points, and Veteran-reported ease of use.
+4. Secure & Inclusive Account Recovery - CounterTrade's solution will propose
+account recovery workflows; capabilities can be found below.
+
+Page 4
+
+February 5, 2026
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+a. Remain resilient against account takeover, social engineering, and synthetic identity attacks.
+b. Offer multiple recovery paths (trusted device, alternative factors, assisted recovery, in person verification) that are accessible to Veterans with low digital literacy or changing personal circumstances.
+c. Integrate risk based controls, tightening recovery steps in suspicious scenarios while avoiding undue friction for trusted, low risk contexts.
+5. Navigation Patterns & Task Completion - The CounterTrade Team will design
+and document task-based journeys that reframe identity from "login screens" to end to end task completion, such as:
+a. "Check my next benefits payment." b. "See my upcoming appointments." c. "Submit evidence for my claim." d. "Update my contact or banking information."
+These journeys will: · Minimize the number of steps and decisions required. · Use plain language and clear, persistent progress indicators. · Provide error-tolerant workflows (e.g., gentle validation, save-and-resume, clear recovery paths). · Support assistive technologies, keyboard-only navigation, high-contrast and large-text modes, and OS-level accessibility features. · Incorporate design patterns suitable for low-bandwidth and intermittently connected environments (e.g., lightweight pages, deferred API calls, offline-tolerant flows in the mobile app).
+6. Accessibility & Assistive Technologies - Our firm will outline how voice
+enabled, hands free, and assisted access (via OS level tools and future conversational interfaces) can be integrated responsibly, consistent with VA's privacy, security, and accessibility requirements.
+7. Security & Privacy Considerations & Threat Resilience - CounterTrade
+proposed solution utilizes Dell's SafeID with ControlVault provides a concrete foundation for hardened endpoints used within VA, delivering FIPS 140 3 Level 3 validated cryptographic modules, hardware isolated key storage, and FIDO2 backed passwordless authentication, helping VA meet high assurance standards for staff and kiosk endpoints.
+
+Page 5
+
+February 5, 2026
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+The CounterTrade Team will develop a threat-informed architecture addressing the following:
+a. AI generated synthetic identities and deepfake media used in proofing or recovery attempts.
+b. Large scale credential theft and replay. c. Long term cryptographic strength and post quantum cryptography (PQC) considerations
+in hardware and software.
+
+Page 6
+
+February 5, 2026
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+Section III: Key Deliverables & Implementation Roadmap
+1. Key Deliverables - The CounterTrade Team proposes the following set of deliverables as
+part of this market intelligence and exploratory effort:
+a. Current State & Gap Assessment: The CounterTrade Team will conduct a focused assessment of VA's existing identity ecosystem for VA.gov and the VA Health and Benefits mobile app, covering: · Identity proofing journeys via Login.gov and ID.me, including failure and drop off points for remote IAL2 proofing. · Authentication and MFA flows, including device support, factor types, and step up patterns. · Account recovery approaches for lost devices, forgotten credentials, and failed proofing. · Post login navigation and task completion for high value, high sensitivity use cases.
+Findings will be mapped against NIST SP 800 63 3, OMB M 19 17, Section 508, and WCAG 2.1 AA, with specific emphasis on Veterans with aging related, cognitive, sensory, or mobility limitations and those with constrained connectivity.
+2. Implementation Roadmap & Operating Model - The CounterTrade Team will
+deliver a concise implementation roadmap and operating model that clearly distinguishes: a. What VA must provide (policy decisions, data sources, integration with Login.gov/ID.me, VA.gov and app integration, call center and facility processes). b. What The CounterTrade Team can deliver (reference architectures, infrastructure platforms, endpoint and hardware security, advisory services, UX design, integration support, and analytics).
+The roadmap will outline a phased journey from quick win UX improvements and limited pilots to potential broader adoption, organized around measurable improvements in proofing success, authentication ease, task completion, accessibility, and risk reduction.
+o A phased implementation roadmap (e.g., 12-36 months) covering:  Quick-win UX and navigation improvements.  Pilot phases for new proofing and authentication approaches.  Scale-out plan, including dependency on VA's enterprise platforms and identity providers.
+
+Page 7
+
+February 5, 2026
+
+Department of Veterans Affairs Technology Acquisition Center
+
+Replacement Model for VA.gov Sources Sought #36C10B26Q0131
+
+o A high-level operating model that distinguishes:  What VA must provide (policy decisions, authoritative data sources, facility workflows, integration with VA.gov, call center processes).  What The CounterTrade Team can deliver (technical architectures, infrastructure platforms, advisory services, integration support, analytics, and monitoring).
+Conclusion
+The CounterTrade Team is prepared to partner with VA to explore and pilot next generation digital identity, authentication, and navigation solutions that are:
+· More inclusive, addressing the needs of Veterans of all ages, abilities, and connectivity levels.
+· Easier to use, with experiences that approximate the simplicity of unlocking a phone. · More secure and resilient, meeting or surpassing NIST IAL2/AAL2 requirements and
+prepared for emerging threats.
+Through the deliverables outlined above, The CounterTrade Team will provide VA with actionable insights, practical blueprints, and pilot ready concepts to help inform future planning, requirements development, and potential pilot efforts for VA.gov and related digital services.
+
+Page 8
+
+February 5, 2026
+
+

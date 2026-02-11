@@ -1,0 +1,274 @@
+Department of Veterans Affairs: Replacement Model for VA.gov
+In Response to the Department of Veterans Affairs: Technology Acquisition Center (TAC) Request for Information (RFI)
+
+February 5, 2026 | 12:00 PM EST
+Submitted to: Allison Fulton allison.fulton@va.gov
+Evan Schlisserman, evan.schlisserman@va.gov
+
+Solicitation No. 36C10B26Q0131
+Submitted by: Kristel Bennett Manager, Contracts Administration LMI Consulting, LLC 7940 Jones Branch Drive Tysons, VA 22102 Kristel.bennett@lmisolutions.com
+
+Restriction on use and disclosure of proposal information: This proposal includes data that shall not be disclosed outside the government and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this proposal. However, if a contract is awarded to LMI as a result of--or in connection with--the submission of these data, the government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the government's right to use information contained in these data if they are obtained from another source without restriction. The data subject to this restriction are on pages marked "use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal."
+
+Name of Company Address Point of Contact Phone Number Email Address Company business size status Prime/Sub Arrangement NAICS Code(s)
+SAM Unique Identifier Number/CAGE Contractual Vehicles
+
+LMI Consulting, LLC 7940 Jones Branch Drive, Tysons, VA 22102 Kristel Bennett 571-633-7903 kristel.bennett@lmisolutions.com Large Business Subcontractor: Adobe, Inc 541611, 518210, 541214, 541219, 541330, 541420, 541511, 541512, 541513, 541519, 541612, 541614, 541620, 541690, 541713, 541714, 541715, 541720, 541990 QVEKLLJUGHJ7 / 8H8R0 GS-00F-041GA
+
+Introduction
+LMI and Adobe, Inc. (Team LMI) are uniquely positioned to support the Department of Veterans Affairs' (VA's) objectives for replacing the VA.gov website with a premier, modern, secure, and Veteran-centric digital experience. We understand this effort is about delivering a best-in-class online experience to our nation's Veterans, their families, and other stakeholders through VA's central entry point for benefits, healthcare, services, and information.
+Team LMI brings deep system integrator expertise with platforms in the VA technology ecosystem. Across numerous projects, Team LMI has improved VA's operations and clinical performance for access to care, including specialty virtual care and mental health, contact center transformation, inpatient and outpatient clinical operations, Veterans experience, and digital health. Team member Adobe significantly transforms digital journeys and is the leading platform for content management systems. Our deep industry expertise, proven methods, and innovative tech partnerships will drive impact across VA.gov.
+Leveraging LMI's Small Business Innovation Research (SBIR) framework, MagnifyTM, we will deliver a seamless, human-centric, and technologically advanced solution for exceptional online experience delivery for Veterans and their families. We use the MagnifyTM framework to enhance VA.gov through innovative technology, streamlined processes, and a human-centric approach. Through scalable, integrated capabilities, we achieve the following key benefits:
+ Scalability. Adjust the scope and quantity of services based on demand without renegotiating the entire contract.
+ Customization. Target solutions for specific needs with modular service delivery.  Rapid Response. Address immediate needs through task orders to meet urgent
+requirements promptly.  Commercialization and Integration into products, services, or systems.
+To align with White House memorandums to implement commercial-first and alternative proposals to enable speed, we recommend creating a Phase III SBIR indefinite delivery/indefinite quantity contract for the flexibility to meet VA's evolving needs.
+The MagnifyTM framework, combined with our VA domain knowledge, technical expertise, and human-centric approach, positions us as the ideal partner for this transformative initiative. Team LMI will enhance the VA.gov experience, optimize operations, and, ultimately, deliver the highest quality support to Veterans, their caregivers and families, and American taxpayers.
+Our solution offers the government the agility and flexibility to implement at the speed of mission.
+
+February 05, 2026
+
+ii
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Table of Contents
+A Modern, Governed Digital Experience for Veterans ........................................................... 1 A Platform Foundation for Experience-Led Modernization................................................... 1 Edge-First Experience Delivery.................................................................................................. 2 Simplified, Governed Content Authoring .................................................................................... 2 A Durable Platform for Experience, Data, and Intelligence ......................................................... 3 Guided Experiences That Meet Veterans Where They Are.................................................... 3 Identity, Navigation, and Experience Flow ............................................................................. 4 AI-Powered Capabilities: Moving from Manual Scale to Intelligent Scale............................ 4 AI as an Experience Enabler...................................................................................................... 5 Improving Content Operations at VA Scale ................................................................................ 5 Accelerating Modernization and Migration Efforts ...................................................................... 5 Enabling Insight-Driven Improvement ........................................................................................ 5 Governance, Transparency, and Control by Design ................................................................... 6 Trade-offs, Known Limitations, and Design Considerations ................................................ 6 Simplified Authoring Balanced with Design Discipline ................................................................ 6 Identity-Aware Design Introduces Experience Complexity.......................................................... 6 AI Enables Scale, Not Autonomy ............................................................................................... 6 Legacy Systems Remain Part of the Operating Model ............................................................... 7 Relevant Experience and Lessons Learned........................................................................... 7 Office of the Secretary of Defense (OSD) Science, Mathematics and Research for Transformation (SMART) Scholarship-for-Service Program ....................................................... 7 Security and Compliance ........................................................................................................ 9 Conclusion and Path Forward ................................................................................................ 9 Appendix: Relevant Experiences/Case Studies..................................................................A-1
+
+February 05, 2026
+
+iii
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+A Modern, Governed Digital Experience for Veterans
+
+The Department of Veterans Affairs (VA) effort to modernize VA.gov represents far more than a website replacement. This opportunity can fundamentally reshape how digital services support Veterans across complex, high-stakes, and deeply personal moments. VA serves an extraordinarily diverse population, ranging from Veterans who expect intuitive, mobile-first experiences to those with accessibility needs, reliance on caregivers and VA staff, or limited digital confidence. A modern VA.gov must work for all of them, without creating friction or exclusion for those who depend on VA services the most.
+
+Our mission is to change the world through digital experiences. In the context of VA.gov, that mission translates into a responsibility to design clear, inclusive, trustworthy, and resilient experiences at national scale. Team LMI proposes a platform-based approach to VA.gov modernization grounded in experience design, reinforced by governance, and built to evolve responsibly over time. This approach delivers immediate gains in performance, accessibility, and content operations while establishing a durable foundation that evolves as VA policies, priorities, and technologies change.
+
+Speed without Compromise.
+Adobe Experience Manager (AEM) separates content from complexity to deliver pages at the edge-- fast, resilient, and easy to manage-- so the VA can move faster and scale trusted Veteran experiences without traditional content management system (CMS) overhead.
+
+Substantially important is the operational impact on the VA workforce. Digital services cannot scale when routine updates require specialized technical expertise or lengthy handoffs. By enabling content authoring in familiar tools, such as Microsoft Word, and governance through structured templates and workflows, Team LMI empowers subject matter experts to keep information accurate and accessible while enforcing governance, accessibility, and compliance throughout the content lifecycle.
+
+This foundation enables experiences designed around Veteran intent rather than site structure. Veterans who prefer fast self-service can move efficiently without forcing those who benefit from guidance, simplified language, or assisted support into separate or degraded experiences. Navigation and experience flow introduce authentication when it adds value, preserving clarity and continuity across authenticated and unauthenticated interactions.
+
+The Adobe Experience Platform (AEP) combines experience delivery with a unified experience data foundation. Using this foundation, VA will understand where Veterans encounter friction, improve journeys over time, and responsibly introduce advanced analytics and artificial intelligence- (AI-) driven capabilities under VA governance as practical tools to improve clarity, reduce operational burden, and better serve Veterans at scale.
+
+A Platform Foundation for Experience-Led Modernization
+
+Team LMI's approach begins with an experience-led platform foundation supporting modernization at scale. Built on AEM Sites with Edge Delivery Services and connected through the AEP, this foundation unifies experience delivery, content operations, and experience data in a single, governed architecture. Together, these capabilities enable a decoupled, edge-first model that prioritizes performance, accessibility, and adaptability while giving VA the flexibility to evolve experiences, identity integrations, and intelligence independently over time.
+
+February 05, 2026
+
+1
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Edge-First Experience Delivery
+
+AEM Edge Delivery Services enables VA.gov to deliver experiences globally with high performance, resilience, and scalability. By rendering and serving content at the network edge, VA can deliver fast, reliable experiences regardless of traffic volume or user location, including rural or bandwidth-constrained environments.
+More importantly, Edge Delivery Services shifts VA.gov away from page-centric CMS delivery to experience-driven architecture. By deploying experience updates independent of backend systems, identity services, and data sources, VA will evolve journeys, navigation, and content models without introducing infrastructure complexity or coordinated cutovers.
+This approach reflects Team LMI's broader experience cloud philosophy: the experience layer must be fast, flexible, and designed around Veteran needs while backend systems evolve on their own timelines and modernization paths.
+This model supports the following:
+ Consistently fast page loads and improved end-user reliability  Reduced infrastructure complexity and lower operational and maintenance overhead  Increased resilience and scalability during traffic spikes, surges, and peak demand  True semantic content-first authoring for maximum flexibility.
+Simplified, Governed Content Authoring
+Team LMI's approach is built around content velocity with governance by design. VA subject matter experts can author content in familiar tools, such as Microsoft Word, using structured templates and workflows, enabling teams across healthcare, benefits, and services to keep information accurate and current without specialized CMS expertise. VA can further explore AEM Edge Delivery Services at https://www.aem.live/ or check out the developer tutorial: https://www.aem.live/developer/tutorial.
+Unlike traditional CMS platforms that push governance to downstream review cycles or manual checks, Team LMI embeds accessibility standards, content structure, and approval workflows directly into the authoring lifecycle. Enforcing compliance and consistency prior to publication results in the following benefits:
+
+February 05, 2026
+
+2
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+ Reduced rework and operational risk  Improved accessibility and content quality  Accelerated updates and publishing of changes.
+This model reflects Team LMI's experience supporting large, distributed content organizations, where accuracy, accessibility, and accountability are as critical as speed and scale.
+A Durable Platform for Experience, Data, and Intelligence
+While this foundation delivers immediate performance and operational benefits, it intentionally supports deeper experience capabilities over time. Team LMI's platform combines experience delivery with a unified experience data foundation, enabling VA to move beyond static content to insight-driven, adaptive journeys, when ready.
+Through AEP, VA can unify experience signals across VA.gov, understand where Veterans encounter friction or abandon journeys, and apply those insights to improve clarity, navigation, and service outcomes. Unlike CRM-centric or CMS-only approaches, this model treats experience data as a shared asset across channels not confined to individual tools or workflows.
+On top of this foundation, VA can deliberately govern the introduction of advanced analytics and AI-assisted capabilities, supporting content quality, journey optimization, and operational insight without replatforming or major architectural rework.
+Guided Experiences That Meet Veterans Where They Are
+To illustrate how Team LMI's platform supports Veteran-centered digital experiences, consider Sarah, a recently retired Staff Sergeant transitioning from active duty and enrolling in VA healthcare.
+
+Sarah accesses VA.gov from a mobile device, in a rural or bandwidth-constrained environment. Team LMI's edge-first architecture delivers an immediately responsive and clear experience for reliable access regardless of location or device. Rather than navigating dense menus, Sarah finds clear entry points helping her understand next steps and what information she needs.
+After she signs in, the experience adapts to Sarah's context as a newly transitioned Veteran. Navigation and content emphasize healthcare enrollment and eligibility, guiding her through the
+
+February 05, 2026
+
+3
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+process using plain language and VA-approved information. The experience reduces uncertainty by helping Sarah understand where to go and what to expect.
+As Sarah completes enrollment, contextual guidance clarifies unfamiliar terminology, helping her to complete the process with greater confidence and fewer interruptions. This approach supports Veterans who prefer fast self-service as well as those who benefit from additional guidance, without forcing separate experiences.
+Sarah's journey illustrates how, with Team LMI, VA moves beyond page-based navigation to guided, inclusive experiences, reducing cognitive load and improving completion while remaining fully governed and adaptable over time.
+Identity, Navigation, and Experience Flow
+VA.gov is a constellation of public information, authenticated services, assisted workflows, and recovery scenarios. At VA's scale, the challenge is to design experiences that remain coherent as identity states change across a Veteran's journey.
+Team LMI designs experiences around Veteran intent rather than organizing VA.gov around menus, organizational structures, or system boundaries. We guide Veterans based on what they want to accomplish, such as enrolling in healthcare, checking claim status, or understanding eligibility, with identity and authentication introduced where they meaningfully support progress, protect sensitive information, or enable completion of services.
+This approach reduces friction by enabling Veterans to orient themselves before authenticating while applying secure access and personalization when appropriate. Clear entry points aligned to Veteran goals, progressive disclosure of complexity, and consistent experience patterns across authenticated and unauthenticated states preserve continuity and trust.
+AEM serves as the system of record for content, navigation, and experience structure while VAapproved providers maintain governance of identity, authentication, and authorization. By keeping experience delivery decoupled from identity enforcement, VA can evolve identity strategies independently without fragmenting the Veteran experience. Where policy allows, context can be preserved across identity states to reduce repetition and frustration. Where policy requires boundaries, transitions will remain explicit and understandable.
+Edge Delivery Services reinforces this decoupling by allowing refinement of navigation models and experience flows over time without destabilizing the platform or requiring replatforming. As VA pilots new identity approaches or navigation paradigms, the experience layer can reflect changes incrementally rather than treating them as disruptive technical events.
+VA's population includes Veterans who rely on caregivers, family members, and VA staff to navigate services. Team LMI's experience architecture supports assisted, delegated, and recovery scenarios by enabling shared visibility, VA-governed permissions, and clear re-entry paths after session interruption or credential loss. These patterns do not exclude Veterans by assumptions about digital confidence or independence but remain aligned with VA governance and security requirements.
+As these experiences evolve, VA can use experience signals and tools, such as Adobe Sites Optimizer, to understand where Veterans encounter friction across identity transitions and refine navigation and guidance accordingly. VA.gov remains a stable digital front door while continuously improving how Veterans find, understand, and complete services.
+AI-Powered Capabilities: Moving from Manual Scale to Intelligent Scale
+Modernizing VA.gov cannot rely on manual processes alone. The volume of content, the diversity of Veteran needs, and the pace of policy and service change create a level of
+
+February 05, 2026
+
+4
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+operational complexity that outgrows traditional digital models. As a market leader, Team LMI believes AI has a meaningful role to play in helping VA modernize responsibly when applied deliberately, transparently, and under strong governance.
+Team LMI's AI capabilities augment human judgment. We focus on areas where scale, consistency, and clarity are difficult to achieve manually, avoiding domains that require authoritative policy interpretation, eligibility determinations, or benefits decisions. This distinction is foundational to Team LMI's approach in regulated federal environments.
+AI as an Experience Enabler
+For Veterans, AI can meaningfully simplify service discovery and understanding without inserting automation into decision-making. AI-assisted experiences surface relevant information, clarify next steps, and guide Veterans through complex journeys using VA-approved content and terminology, earning the Veterans' trust and confidence.
+This assistance adds value for Veterans who struggle with fragmented navigation, unfamiliar language, or uncertainty about where to begin. By reducing cognitive load and repetition, AIenabled guidance helps Veterans complete tasks. When ambiguity arises, experiences defer to authoritative VA content or human support channels rather than autonomous resolutions, enabling VA to improve usability and clarity without compromising trust or policy control.
+Improving Content Operations at VA Scale
+Content operations is one of the most immediate and high-impact applications for AI. At VA's scale, maintaining accurate, accessible, and policy-aligned content across thousands of pages is a continuous challenge.
+Team LMI applies AI to assist VA teams by finding outdated, redundant, or conflicting content; flagging accessibility and structural issues early in the authoring process; supporting metadata and content organization; and highlighting content for review following policy or program changes. These capabilities reduce manual effort while improving consistency and quality.
+AI does not publish or approve content. Human reviewers retain full authority, with AI serving as an intelligent assist embedded in the content lifecycle. This model strengthens governance rather than bypassing it.
+Accelerating Modernization and Migration Efforts
+Modernizing VA.gov requires addressing legacy content, structures, and delivery patterns that slow progress and increase operational risk at scale. Team LMI's AI-powered capabilities in AEM and Edge Delivery Services support modernization activities that would otherwise require significant manual coordination across teams.
+Team LMI's Experience Production capabilities reduce the time and effort of preparing content for modern delivery. Instead of large, manual content rewrites, VA can use AI-assisted production workflows to refactor content into governed, performance-optimized experiences aligned with VA standards. This approach preserves accessibility requirements, search engine optimization (SEO) signals, and information hierarchy as content is modernized, not retrofitting after migration.
+Enabling Insight-Driven Improvement
+Team LMI's platform enables VA to better understand how Veterans experience VA.gov. By analyzing patterns across journeys, content engagement, and abandonment points, VA can learn where Veterans struggle or disengage and focus improvement efforts accordingly.
+
+February 05, 2026
+
+5
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Through these insights, VA can prioritize improvements based on real usage, uncover opportunities to simplify journeys, and measure the impact of changes over time.
+
+VA and AEM Federated Login Solutions
+The VA and AEM already work together for trusted and seamless login and authentication. Adobe Professional Services have worked with VA Office of Information and Technology to implement login.gov and ID.me to support trusted, fast, and extensible VA employee personal identity verification authentication and citizen login experiences across VA.
+
+Governance, Transparency, and Control by Design
+Team LMI's AI capabilities operate in federal governance frameworks with clear configuration controls, auditability of outputs, and strict use of VA-approved data and content sources. We apply AI models for operational advantage while maintaining transparency, explainability, and human oversight.
+Team LMI does not position AI as a mandatory dependency for VA.gov modernization. AI, as an integrated capability, enables VA to modernize faster and more effectively than manual approaches alone, when and where VA determines it is appropriate.
+
+Trade-offs, Known Limitations, and Design Considerations
+
+Modernizing VA.gov is as much a design challenge as a technical one. Recent federal priorities, including the America by Design initiative and the establishment of a Chief Design Officer and National Design Studio, reinforce that public-facing digital services must be intuitive, inclusive, accessible, and worthy of public trust. At national scale, that standard requires deliberate design and architectural choices.
+
+Team LMI's approach reflects lessons learned from delivering large, mission-critical platforms in public sector and healthcare environments where experience quality, governance, and operational reality must coexist.
+
+Simplified Authoring Balanced with Design Discipline
+
+Lowering the barrier to content creation is essential for keeping information accurate and timely, but simplicity without structure creates long-term risk. Team LMI's document-based authoring approach enables subject matter experts to participate directly in content updates using familiar tools while enforcing structure, accessibility, and governance through the platform.
+
+This model requires intentional and upfront discipline around templates, design standards, and content patterns for usable, accessible, and consistent at scale, aligning with federal humancentered design expectations. Platforms that prioritize unrestricted flexibility shift complexity downstream into review cycles, accessibility remediation, and inconsistent user experiences.
+
+Identity-Aware Design Introduces Experience Complexity
+
+Identity is central to VA.gov but tightly coupling identity systems to content and navigation limits flexibility and introduces risk as policies and technologies evolve. Team LMI intentionally separates experience management from identity enforcement, so identity informs the experience without constraining it.
+
+This separation enables VA to design identity-aware experiences that preserve context, support assisted and delegated use, and manage recovery scenarios more gracefully. While Team LMI provides the architectural foundation for these patterns, VA retains authority over identity policy, permissions, and acceptable behaviors. Success depends on coordinated design, policy, and governance decisions.
+
+AI Enables Scale, Not Autonomy
+
+AI can materially improve experience quality and operational efficiency but only when applied to the right problems. Team LMI applies AI where scale and consistency are difficult to achieve manually, such as content analysis, experience measurement, and modernization support.
+
+February 05, 2026
+
+6
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+AI-assisted capabilities require active governance, configuration, and ongoing oversight. They are not substitutes for human judgment, policy ownership, or design intent. Our approach reflects lessons learned in regulated environments, where attempts to use AI as an autonomous decision-maker undermine trust. Team LMI's design choice preserves accountability while enabling modernization efforts that manual processes alone cannot sustain.
+Legacy Systems Remain Part of the Operating Model
+Decoupling experience delivery from backend systems lets VA improve VA.gov without forcing premature replacement of legacy infrastructure. While this preserves backend complexity for a time, it avoids the higher risk associated with tightly coupled, end-to-end transformations.
+Team LMI's platform absorbs this complexity while enabling forward progress. Over time, with system retirement or consolidation according to VA priorities, VA can realize additional efficiencies without repeated replatforming of the experience layer.
+Relevant Experience and Lessons Learned
+Team LMI's approach to VA.gov modernization is grounded in sustained experience supporting large, mission-critical digital platforms in public sector and healthcare environments. These programs operate under conditions that closely mirror VA's reality, including national scale, diverse populations, strict accessibility and security requirements, and continuous public scrutiny.
+The following case study reflects an analogous past performance by LMI that illustrates common patterns, architectural decisions, and lessons learned directly applicable to the VA.gov modernization.
+Office of the Secretary of Defense (OSD) Science, Mathematics and Research for Transformation (SMART) Scholarship-for-Service Program
+LMI supports all programmatic and program management elements of the SMART Scholarship for Service Program, established in 2006 by Congress and sponsored by the DoD. SMART provides academic funding to undergraduate, graduate, and doctoral students who have demonstrated ability and special aptitude in STEM fields. LMI successfully manages and supports SMART across its four fundamental areas--program administration, finance, outreach and promotion, and information technology--to create and retain a DoD pipeline of civilian scientists, engineers, and researchers to support timely, efficient, and sustained delivery of modern warfighting capability.
+Cooperatively with the SMART Program Office (SPO), LMI assisted in the administration of the program, including the annual award cycle, monitoring and interaction with scholars and DoD facilities during academic pursuit, graduation, hiring, and website development and maintenance. LMI's support of the SPO across these elements since 2017 has led to 1,419 scholarships awarded, approximately 900 internships performed, and more than 1,000 scholars hired into DoD civilian employment.
+LMI tracked, monitored, and engaged more than 200 sponsoring facilities (SFs) and more than 3,500 scholars from degree pursuit through DoD employment, ensuring compliance with program policy through an enriching scholar experience. This tracking and compliance monitoring included onboarding approximately 400 new awardees and processing about 10,000 awardee tasks; processing 1,500+ transcripts; preparing for, executing, and collecting reporting documentation for approximately 500 internships; and processing the graduation and DoD hiring of approximately 300 scholars each year. LMI has developed processes and tools, including the SMART Information Management System (SIMS), that enable the scalability of this support, increased accuracy and integrity of program data, and capture of success stories.
+
+February 05, 2026
+
+7
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+LMI performed the administrative tasks involved in the production of debt packages for 300+ scholars in default with SMART and developed a tracking system and submitted reports. This support has led to the collection of approximately $5 million in scholar debts owed to SMART. LMI managed two help desks, with shared emails and an automated call distribution phone line, to support the SMART Program--one for programmatic inquiries and another for IT assistance--and responded to inquiries within eight business hours. Inquiry volume usually ranged from 1,000-5,000 per month, with spikes occurring during application season.
+LMI recommended a platform and proceeded to develop and implement a SIMS, which unifies public-facing and internal user portals with a database that serves as the single integrated system of record for SMART data. The integration of LMI functional SMEs into the development process as product owners led to process improvements that drove program scalability. For example, during the awardee onboarding season in 2021, the SMART Program needed to onboard a cohort that grew by 30% over the previous year. Through process and SIMS technology improvements, the LMI team drove a 25% reduction in awardee task processing time, despite a 65% increase in volume and a 50% decrease in award adjustment processing time, despite a 130% increase in volume.
+"The amount of effort, care, and professionalism that you all put into the program moving forward is humbling. Making SMART "go" is truly a team sport and we wouldn't be successful without the passion you and your teams bring to the table. It continues to be a pleasure to work alongside you all!" - Brandon Cochenour, Deputy Program Manager, and Karin Felton, Deputy Program Manager, 4/2/2021.
+The LMI team designed, developed, and maintained SIMS, which links all restricted and publicfacing user portals to an integrated system of record and equips the government to make datadriven decisions. LMI developed and implemented a SIMS Cloud that unifies SMART website content, enables functionality of the web application portals, and includes a SIMS database repository for all program information in a single integrated system of record. This tool provides a one-stop shop for managing personnel and pulling data for briefing to DoD Senior Leaders and Congress.
+SIMS has nine user portals (public, application, evaluation, selection, awardee, scholar, administration, SF POC, and CEL). Each portal has a unique function that allows specific users to access the data and processes necessary to accomplish their functional needs. For example, the Administration Portal serves as a central location for internal staff to access program data, metrics, and process scholar task submission. The Public Portal (public website) contains FAQs, eligibility requirements, program statistics and highlight articles, an interactive SF map tool, and Chatbots. The Application Portal requires that potential applicants must register and start an application before gaining applicant access to the system to achieve accessibility and security.
+The LMI team developed efficiencies within SIMS, while adhering to SMART Program reporting/documentation requirements. We fully automated the process of user task submission, review, and data capture, while maintaining compliance with DoD requirements for a wet signature and PDF documentation for all scholar and awardee tasks. This eliminated associated data entry risks, enabling automated reporting and analysis for use by SMART program leadership.
+LMI uses an Agile DevOps and Continuous Integration Continuous Delivery (CICD) approach, which brings subject matter expertise and technical depth in the areas of cloud services, native Cloud application development, and portability. As of March 2022, LMI has completed 125 sprints, each providing iterative and incremental improvements to the SIMS database and user portals that drive functional business needs. LMI is experienced with multiple Agile approaches, including Agile Scrum, Kanban, and the Scaled Agile Framework® (SAFe®) for enterprise-wide
+
+February 05, 2026
+
+8
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+scaled Agile adoption. Certifications include Certified Scrum Master (CSM), PMI (Project Management Institute) Agile Certified Practitioners (PMI-ACP), Scaled Agile Framework® (SAFe®) Program Consultants (SPCs), ICAgile Foundations, ICAgile Certified Professional Agile Testing, GIAC Certified Web Application Defenders (GWEB), Certified Information Systems Security Professional (CISSP), ITIL Foundations, PMI Project Management Professionals (PMP), and Tactical Agilist.
+Security and Compliance
+AEM, deployed through Adobe Managed Services, operates in regulated federal environments where security, privacy, and availability are mandatory requirements. Adobe Managed Services for AEM is authorized at the FedRAMP Moderate level and aligns with federal security standards, including NIST 800-53.
+Security is integrated throughout the AEM delivery lifecycle using DevSecOps practices, continuous monitoring, and automated vulnerability management. Adobe's Security Operations Center provides 24/7 monitoring, threat detection, and incident response to support auditability and operational readiness.
+Automated continuous integration and continuous delivery (CI/CD) pipelines deliver security patching, feature updates, and maintenance for AEM and staging environments validated them prior to production deployment. This approach supports timely remediation, minimizing service disruption and preserving continuity of access for Veterans.
+Conclusion and Path Forward
+Team LMI's mission is to change the world through digital experiences. VA.gov is the primary way Veterans understand, access, and trust the services promised to them. The quality of that experience shapes confidence, outcomes, and equity.
+Team LMI believes experience leadership should define the next chapter of VA.gov through designing for clarity over complexity, guidance over navigation, and inclusion over assumption. VA's digital front door must work equally well for Veterans who expect fast, mobile self-service and those who require plain language, accessibility accommodations, or caregiver support.
+AEM provides VA with a foundation purpose-built for this challenge by enabling VA to separate experience from backend complexity, empower content owners without sacrificing governance, and evolve identity-aware, data-informed journeys over time.
+Just as importantly, Team LMI brings a design-led perspective aligned with federal priorities around human-centered design and service excellence. Team LMI's platform was built for organizations that must balance innovation with trust, creativity with accountability, and flexibility with control. This is why Team LMI is trusted by the world's most regulated industries and by public-sector organizations operating on a national scale.
+VA's modernization effort presents an opportunity to set a new benchmark for federal digital service delivery by building a clear and durable experience worthy of the people it serves. Team LMI is ready to partner with VA in shaping that future, bringing not only proven technology but experience design grounded in empathy, governance, and long-term stewardship.
+Team LMI welcomes continued engagement with VA to explore this vision through focused demonstrations, architectural discussions, or targeted pilots.
+
+February 05, 2026
+
+9
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix: Relevant Experiences/Case Studies
+Federal Civilian | U.S. Census Bureau: 5 Million Pages
+
+February 05, 2026
+
+A-1
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+State and Local Government | Nevada, Clark County--Adobe Experience Manager with Edge Delivery Service
+
+February 05, 2026
+
+A-2
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+State and Local Government | LA County Department of Public Social Services--Rapid Content Development and Multi-Lingual Content
+
+February 05, 2026
+
+A-3
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+State and Local Government | Oklahoma.gov--Top 10 State in Digital Modernization with AEM
+
+February 05, 2026
+
+A-4
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+State and Local Government | Virginia Department of Emergency Management--Site Deployment in 18 Days
+
+February 05, 2026
+
+A-5
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+

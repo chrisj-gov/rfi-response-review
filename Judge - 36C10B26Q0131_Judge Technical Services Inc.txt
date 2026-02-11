@@ -1,0 +1,375 @@
+Replacement Model for VA.gov Solicitation No. 36C10B26Q0131 Submission Date: February 05, 2026 12PM EST
+Robert (Bob) Spence, VP Government, Aerospace & Defense Authorized Negotiator/Signatory Agent Judge Technical Services, Inc. 151 S. Warner Rd. Wayne, PA. 19087 Office: (610) 667-7700 Email: rspence@judge.com UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+The following proposal specifies Judge Technical Services, Inc. is in full agreement with all terms, conditions, amendments, and provisions included in the solicitation and agreement to furnish any or all items in accordance with Solicitation. Judge Technical Services, Inc. will hold our offer valid for 120 days after the solicitation closing date, unless requested to further extend it by the Contracting Officer.
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+Table of Contents
+Executive Summary ......................................................................................................................... 1 Characteristics of a Successful VA.gov Replacement..................................................................... 2 Scalable Delivery and Sustainment Through Integrated PODS Models ........................................ 3 Continuity-First Replacement Through Parallel Operations ......................................................... 4 Identity, Sign-In, Recovery, and Navigation as an Integrated User Journey ................................. 5 Relevant Experience Supporting High-Visibility, Regulated Digital Platforms............................. 5 Known Limitations, Risks, and Tradeoffs Observed in Practice .................................................... 6 Lessons Learned Informing VA.gov Replacement Planning........................................................... 7 Conclusion and Potential Follow-On Engagement ........................................................................ 8 Appendix A: Company Overview .................................................................................................. 10 Appendix B: The Judge Group Operating Model for VA.gov Replacement ................................. 11 Appendix C: Phased Evolution Model for VA.gov Replacement .................................................. 12 Appendix D: Case Study References............................................................................................. 13
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+ii
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+Executive Summary The Department of Veteran Affairs' effort to replace VA.gov represents a critical inflection point in how Veterans, their families, caregivers, and partners access benefits, healthcare, and essential services. VA.gov functions as a national digital utility, operating continuously at scale within a highly regulated and publicly visible environment. Any replacement effort must therefore achieve meaningful improvements in usability, accessibility, and adaptability while preserving uninterrupted service and public trust throughout the transition.
+
+The Judge Group -- through its integrated Judge Technical Services, Inc. (JTS) (UEI: ZTFGC4Q5RFB5; CAGE: 1RMR8), Judge Consulting, Inc (JCI) (UEI: XXNTW6L9JSN5 CAGE: 03RK5), and Judge Government Services, Inc. (JGS) (UEI: HE6FK2RDWQF8 CAGE: 0HQM8) organizations -- supports VA's objectives by approaching VA.gov replacement as an operational transformation rather than a discrete technical implementation.
+
+Our experience modernizing and sustaining high-visibility digital platforms has consistently demonstrated that long-term success is driven by how delivery teams are structured, governed, and integrated with the organization, not by platform selection alone. Judge's role is to enable VA to modernize its digital front door safely, incrementally, and sustainably while retaining ownership, flexibility, and institutional knowledge.
+
+Judge brings a combined capability set that spans digital delivery execution, experience and platform consulting, and workforce enablement. This integrated model allows VA to scale capacity as needed, align modernization efforts with governance and compliance requirements, and maintain continuity across leadership changes, evolving policies, and shifting priorities. Rather than positioning as a platform vendor or system owner, Judge operates as an embedded operational partner, supporting VA with delivery models, skilled teams, and transition discipline that complement existing oversight structures and decision-making processes.
+
+Central to Judge's approach is the use of continuity-first modernization techniques, including parallel operations that allow new architectures, content models, and user journeys to be developed and validated without disrupting live services. This model enables risk-managed, incremental evolution of VA.gov while preserving reliability for millions of users who depend on it daily. Judge has applied similar approaches in regulated healthcare, life sciences, and transportation environments where downtime, user confusion, or loss of trust would have significant real-world consequences.
+
+Judge's experience also emphasizes the importance of identity-aware user journeys and taskoriented navigation in large public-facing platforms. Authentication, sign-in, recovery, and navigation are treated as interconnected components of the overall experience, shaped by realworld user behavior, accessibility needs, and institutional constraints. This perspective aligns closely with VA's objective to deliver a more seamless, Veteran-centric digital experience across benefit portfolios while operating within complex security and privacy requirements.
+
+This response is intentionally focused on substantive experience, delivery approaches, and lessons learned rather than corporate marketing or prescriptive technology recommendations. The information provided is intended to inform VA's planning, requirements development, and
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+1
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+potential pilot efforts by sharing practical insight into what has proven effective, what risks must be managed, and what considerations are most likely to influence the success of a future VA.gov replacement.
+The Judge Group welcomes the opportunity to participate in follow-on discussions and to support VA as it evaluates next steps toward a resilient, scalable, and Veteran-centered digital future.
+Characteristics of a Successful VA.gov Replacement A successful replacement of VA.gov is defined by the operating conditions it establishes rather than the technologies it introduces. In a platform of this scale and public visibility, success is measured by the ability to change without disruption, to evolve without instability, and to remain continuously accessible to the population it serves. Replacement efforts that do not establish these conditions may achieve visible short-term progress but tend to introduce fragility that limits long-term effectiveness.
+Continuity of service is a non-negotiable requirement. VA.gov must remain dependable throughout modernization, which requires approaches that enable controlled evolution rather than episodic transition. Successful replacements create parallel capacity for new capabilities, content structures, and user journeys to be developed and validated alongside live services. This allows change to be introduced incrementally, managed deliberately, and absorbed without erosion of user trust.
+Delivery structures must be designed for stability as well as scale. Large digital environments do not progress linearly, and sustained improvement depends on teams that retain context across shifting requirements, policy updates, and leadership transitions. Replacement efforts that rely on fragmented staffing, short-term execution models, or frequent team reconstitution lose coherence over time. Durable modernization is supported by delivery models that preserve accountability and institutional knowledge while allowing capacity to expand or contract in response to demand.
+Identity, navigation, and recovery pathways must be treated as core elements of the operating environment. For VA.gov, these workflows determine whether users can reliably access services and complete tasks under real-world conditions. Successful replacements integrate authentication, recovery, and navigation into a unified access system, ensuring that improvements in one area do not introduce friction or inconsistency elsewhere in the user journey.
+Governance must function as an enabler of execution rather than a parallel control structure. In regulated federal environments, governance shapes how decisions are made, how work is validated, and how compliance is sustained. Effective replacement efforts align governance with delivery so that security, privacy, accessibility, and content standards are enforced through execution rather than imposed after the fact. When governance and delivery are misaligned, modernization slows or reverses under accumulated friction.
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+2
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+Sustainment is not a phase that follows replacement; it is a condition established through how replacement is planned and executed. Efforts that focus narrowly on initial delivery often encounter difficulty once transition activities conclude, particularly when ownership, workforce continuity, and knowledge transfer have not been addressed. Successful replacements account for long-term operation from the outset, enabling continuous improvement without repeated reinvestment or disruptive restructuring.
+These characteristics reflect conditions consistently observed in successful large-scale digital replacements. They form the basis for how The Judge Group structures delivery, aligns governance, and supports modernization in environments where reliability, adaptability, and trust are non-negotiable.
+Scalable Delivery and Sustainment Through Integrated PODS Models The replacement and long-term evolution of VA.gov are determined by the delivery and sustainment model governing the platform. In continuously operating digital environments, technical architecture is necessary but insufficient. Outcomes are driven by execution models that preserve context, accountability, and consistency as requirements, policies, and leadership evolve. Scalable delivery is achieved through durable team structures, not fragmented task execution or episodic staffing.
+An integrated Product-Oriented Delivery (POD) model provides the execution framework required to support this environment. Under this model, cross-functional teams are established as persistent units with clear ownership of defined domains, including experience design, content operations, platform enablement, and identity and navigation workflows. Each POD is accountable for outcomes within its scope and operates with an explicit understanding of its role within the VA.gov operating environment. This structure enables concurrent progress across domains while maintaining alignment through shared objectives and governance.
+Scalability is achieved through deliberate adjustment of POD capacity rather than continual reassembly of teams. Delivery scale expands or contracts by adding, refining, or retiring PODs in response to demand, without redistributing individual contributors across unrelated efforts. Because PODs function as complete execution units, scaling preserves delivery cadence, institutional knowledge, and accountability. This approach avoids the loss of context and execution degradation that commonly accompany ad hoc scaling in large programs.
+Sustainment is inherent to delivery within the POD model. PODs are structured to support modernization and ongoing operations simultaneously, allowing improvements to be introduced without disrupting live services. This eliminates artificial separations between build and operate functions and reduces transition risk. Persistent ownership within PODs supports continuity of knowledge, disciplined decision-making, and operational resilience as conditions change.
+Workforce continuity is an intentional outcome of this approach. Large digital platforms rely on accumulated understanding of user behavior, content dependencies, and governance constraints that cannot be fully captured through documentation. Stable, cross-functional teams preserve this understanding through shared ownership and sustained collaboration. By minimizing reliance on
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+3
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+isolated roles or individual expertise, the POD model reduces single points of failure and strengthens long-term operability.
+
+Applied to VA.gov, the integrated POD model enables delivery across multiple benefit areas and functional domains without forcing artificial sequencing or creating execution bottlenecks. It provides VA with sustained visibility, control, and accountability by aligning PODs with existing oversight and performance structures. By organizing execution around durable teams rather than transient staffing or tool-centric solutions, the POD model establishes a scalable and sustainable foundation for continuous modernization of a national digital service.
+
+Continuity-First Replacement Through Parallel Operations A viable replacement of VA.gov requires modernization to proceed without interrupting live services. In continuously operating digital environments, continuity is achieved by executing change alongside production rather than in place of it. Parallel operations establish improvement and availability as concurrent requirements rather than competing objectives.
+
+Within a parallel operations model, modernization occurs in environments that mirror production while remaining isolated from live user traffic. These environments support the development, integration, and validation of new capabilities, content structures, experience patterns, identity workflows, and supporting logic under realistic data and governance conditions. Decisions to advance changes are based on observed performance and usability, not assumptions, reducing the risk of introducing instability into production.
+
+Transition is incremental rather than event-driven. Capabilities are introduced only as they demonstrate operational readiness, allowing sequencing to adjust in response to impact, policy considerations, and user behavior. Risk is constrained to manageable increments, enabling sustained progress without exposing the platform to systemic disruption. Over time, functionality shifts through adoption rather than replacement, avoiding the discontinuities associated with large-scale cutovers.
+
+Parallel operations enable concurrent execution across multiple domains. Experience evolution, content modernization, identity and access improvements, and platform enablement advance simultaneously without artificial dependencies that stall delivery. This structure preserves momentum in complex environments where progress in one area must continue even as others evolve, allowing priorities to shift without destabilizing execution.
+
+From a sustainment perspective, parallel operations preserve continuity of ownership and institutional knowledge. Teams responsible for live services remain engaged throughout modernization, ensuring operational realities inform development and expertise is retained through transition. This continuity reduces post-transition degradation and supports consistent accountability as the platform evolves.
+
+The Judge Group has applied this model in high-visibility, regulated environments where uninterrupted access and public trust were non-negotiable. By structuring replacement as controlled evolution rather than discrete transition, parallel operations align execution pace with operational readiness, enabling modernization without sacrificing reliability or resilience.
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+4
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+Identity, Sign-In, Recovery, and Navigation as an Integrated User Journey In a national digital service such as VA.gov, identity, authentication, recovery, and navigation together form a single access system. This system determines whether users can enter the platform, orient themselves, and complete tasks reliably. When these functions are designed or governed independently, friction is introduced that degrades trust and usability regardless of technical performance. A viable replacement treats access as a unified journey, managed and evolved as an integrated whole.
+
+Identity and sign-in establish the conditions under which all interaction occurs. Access workflows set expectations for clarity, predictability, and responsiveness that persist throughout the session. Authentication therefore functions as an experience boundary rather than a technical gate. Replacement efforts must ensure consistent behavior, clear system feedback, and stable outcomes across identity touchpoints so that access reinforces confidence rather than eroding it.
+
+Recovery is an expected operating condition. Credential loss, outdated information, and interrupted sessions are inherent in large public platforms. Recovery mechanisms that are fragmented, opaque, or disconnected from user intent lead to abandonment and increased reliance on assisted channels. An integrated access system preserves continuity of intent, returning users to their objective without unnecessary repetition or reorientation.
+
+Navigation converts access into outcome. For VA.gov, navigation must support diverse user intents across multiple benefit portfolios without assuming familiarity with programs or terminology. Task-oriented navigation that responds to user context reduces cognitive load and enables completion. Navigation must therefore be designed as part of the access system, not as a separate content or information architecture concern.
+
+Governing identity, recovery, and navigation as a single journey enables disciplined evolution of the platform. Changes to any component are evaluated based on their effect on the end-to-end experience rather than in isolation. This alignment establishes clear accountability, improves decision quality, and prevents localized optimization from creating systemic friction. Over time, it allows the platform to adapt to observed behavior while preserving consistency and reliability.
+
+The Judge Group's experience operating identity-aware, high-visibility digital platforms demonstrates that access systems designed in this manner strengthen trust rather than test it. Aligning experience design, content operations, and identity workflows within a unified journey framework establishes durable conditions for secure, accessible, and dependable service delivery. Applied to VA.gov, this approach ensures access improvements enhance usability across benefit portfolios without fragmenting the user experience.
+
+Relevant Experience Supporting High-Visibility, Regulated Digital Platforms The Judge Group's experience supporting large, regulated digital platforms has been grounded in environments where service disruption produces immediate operational, reputational, and user impact. Across healthcare, life sciences, and transportation sectors, Judge has supported platforms that serve diverse populations, operate under strict governance, and must remain continuously available while evolving. These conditions mirror the operating realities of VA.gov.
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+5
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+In these environments, Judge has supported modernization of digital front doors that enable critical user interactions, manage complex content ecosystems, and incorporate identity-sensitive workflows. Execution has required coordinated delivery across experience design, content operations, platform enablement, and governance while systems remained live and heavily utilized. Judge's work in these contexts has emphasized controlled evolution, operational readiness, and sustainment rather than discrete replacement events.
+
+Judge has supported transitions involving high-traffic, regulated public websites where uninterrupted access to authoritative information was mandatory. These efforts required modernization of content structures, integration logic, and authoring workflows without interrupting live services or compromising compliance. Parallel execution models were used to validate changes under real operating conditions before incremental introduction, preserving continuity and regulatory integrity throughout transition.
+
+Judge has also supported enterprise-scale content operations for organizations managing large portfolios of digital properties across regions, audiences, and regulatory contexts. These environments required consistent governance, accessibility compliance, and rapid adaptation to changing requirements while maintaining predictable user experience. Judge's role in these efforts reinforced the importance of durable delivery structures, sustained execution capacity, and disciplined operational alignment over time.
+
+In identity-aware platforms within transportation and similarly regulated environments, Judge has supported systems where authentication, privacy, and user trust directly influenced usability and adoption. In these contexts, identity workflows were inseparable from navigation and task completion, requiring alignment between security controls and user experience. These engagements reinforced the necessity of treating identity, recovery, and navigation as integrated components of a single access system.
+
+Across these engagements, common operating conditions have included high public visibility, strict regulatory oversight, evolving policy requirements, and diverse user needs. Judge's experience operating under these constraints informs its approach to VA.gov replacement. The emphasis on continuity, scalable delivery, integrated access journeys, and sustained execution reflected in this response is grounded in demonstrated practice, shaped by environments where reliability, adaptability, and trust were mandatory.
+
+Known Limitations, Risks, and Tradeoffs Observed in Practice Large-scale replacement of continuously operating digital platforms introduces structural tradeoffs that must be governed explicitly. In environments where public access, regulatory compliance, and institutional accountability are mandatory, risk most often emerges from misalignment between delivery pace, operational readiness, and organizational capacity to absorb change rather than from technical failure. Effective modernization depends on recognizing these conditions early and managing them deliberately throughout execution.
+
+One persistent tradeoff is the balance between modernization velocity and continuity of service. Incremental delivery and parallel operations protect availability but require disciplined
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+6
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+sequencing and acceptance that progress is validated through readiness rather than visible deployment events. When delivery pace is forced ahead of operational confidence, risk increases disproportionately. Successful replacement efforts align expectations around readiness criteria and allow progress to be measured by stability as well as output.
+Workforce continuity represents a critical execution constraint. Large digital platforms accumulate operational understanding that is inherently contextual and cannot be fully documented. Delivery models that rely on frequent team reconfiguration, short-term staffing surges, or narrowly specialized roles introduce fragility by eroding shared context. Scalable modernization requires staffing approaches that preserve team stability, reinforce onboarding discipline, and sustain knowledge over time while allowing capacity to adjust as needed.
+Governance introduces necessary but competing forces. Oversight is required to enforce security, privacy, accessibility, and content standards, yet governance that is detached from delivery slows execution and creates decision bottlenecks. Effective replacement aligns governance with execution so that compliance is enforced through delivery processes rather than external review. This alignment must remain adaptable as modernization progresses and conditions evolve.
+Identity, authentication, recovery, and navigation changes carry inherent user-experience tradeoffs. Security-driven enhancements can introduce friction if not evaluated in the context of the full access journey, while simplification efforts can create compliance or integration exposure if implemented in isolation. These tradeoffs require changes to be assessed systemically, with attention to downstream effects on usability, trust, and operational integrity.
+Sustainment presents the most consequential long-term risk when deferred. Platforms modernized without clear ownership, operational responsibility, and improvement pathways experience degradation after transition phases conclude. Effective replacement treats sustainment as an operating condition established through execution rather than a phase that follows delivery. Responsibilities, decision authority, and improvement mechanisms must be defined early and reinforced continuously.
+These risks and tradeoffs are not indicators of failure but inherent conditions of responsible replacement in complex digital environments. Programs that acknowledge and govern them explicitly are positioned to modernize while preserving continuity, institutional trust, and longterm resilience.
+Lessons Learned Informing VA.gov Replacement Planning Experience supporting large, continuously operating digital platforms has reinforced that successful replacement efforts are shaped as much by planning discipline and organizational alignment as by execution capability. One of the most consistent lessons observed in practice is that replacement initiatives benefit from being framed as managed evolutions rather than endpoint-driven transformations. Programs that anchor planning around readiness, validation, and operational confidence tend to maintain momentum more effectively than those oriented toward singular delivery milestones.
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+7
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+Another lesson is the importance of establishing clarity around ownership and accountability early in the process. When responsibilities for experience design, content operations, identity workflows, and sustainment are clearly defined and aligned with governance structures, decision-making becomes more predictable and less reactive. This clarity supports continuity across leadership changes and reduces the likelihood that progress stalls as priorities shift. In contrast, ambiguity around ownership often leads to duplication of effort or deferred decisions that surface later as operational issues.
+Planning efforts also benefit from treating user trust as a measurable outcome rather than an assumed byproduct of modernization. Platforms serving broad and diverse populations are particularly sensitive to changes that affect access, navigation, or perceived reliability. Lessons learned from prior deployments indicate that validating improvements with real users throughout the transition helps identify friction early and prevents erosion of confidence. This approach requires planning for user feedback mechanisms and incorporating them into delivery rhythms rather than relying solely on post-implementation assessment.
+Sustainment considerations have proven to be most effective when embedded into planning from the outset. Replacement efforts that defer questions of long-term operation, workforce continuity, and knowledge retention often encounter challenges once transition phases conclude. By contrast, initiatives that incorporate sustainment assumptions into early planning are better positioned to support continuous improvement without repeated reorganization or reinvestment. This lesson underscores the value of viewing replacement as the establishment of a durable operating model rather than a temporary project state.
+Finally, experience has shown that planning for adaptability is essential in environments subject to evolving policy, regulatory, and user needs. Replacement strategies that allow for adjustment without destabilizing the platform are more resilient over time. This requires planning approaches that emphasize modularity, incremental adoption, and governance mechanisms capable of accommodating change without introducing excessive friction.
+Taken together, these lessons suggest that VA.gov replacement planning is most effective when it emphasizes continuity, clarity, trust, and sustainment as foundational principles. By incorporating these considerations early, VA can position future efforts to support meaningful improvement while maintaining the reliability and confidence expected of a national digital service.
+Conclusion and Potential Follow-On Engagement The replacement of VA.gov represents an opportunity to strengthen a national digital service that millions of Veterans and their families rely on for access to critical benefits, healthcare, and information. The perspectives presented in this response reflect operating conditions, execution models, and governance principles observed repeatedly in large, regulated digital environments where continuity, accountability, and public trust are mandatory. The intent has been to articulate how successful replacement is planned, governed, and sustained in practice, rather than to prescribe a specific technology or implementation approach.
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+8
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+This response is provided to support VA's planning and decision-making as it evaluates future modernization pathways, operating models, and transition strategies. The Judge Group understands this RFI as exploratory in nature and intended to inform requirements development, internal alignment, and potential pilot or discovery activities. The operating doctrines described herein are intended to be adaptable to VA's evolving objectives and constraints.
+Should VA determine that further examination of these approaches would be valuable, The Judge Group is prepared to engage in structured follow-on discussions, working sessions, or limited-scope efforts focused on operating model validation, delivery structure design, or transition planning. Any such engagement would be conducted collaboratively, aligned to VA governance, and scoped to advance institutional understanding rather than commit the agency prematurely to a course of action.
+The Judge Group remains focused on supporting VA's long-term objectives for VA.gov by enabling modernization that preserves continuity of service, embeds sustainment into execution, and reinforces confidence in VA's digital presence. This commitment reflects Judge's experience operating in environments where reliability, adaptability, and trust are foundational requirements rather than aspirational goals.
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+9
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+Appendix A: Company Overview The Judge Group is a professional services organization that supports large, complex organizations in executing technology modernization, workforce enablement, and operational transformation initiatives. Through its integrated operating model, The Judge Group delivers services across consulting, technology, and staffing disciplines, enabling clients to plan, implement, and sustain change in highly regulated, high-visibility environments.
+Judge Technical Services and Judge Consulting provide delivery capability across digital experience, content operations, platform enablement, identity-aware systems, governance alignment, and large-scale program execution. These services are designed to support continuously operating environments where reliability, compliance, and institutional accountability are essential. Judge's consulting and technical teams operate within client governance structures and focus on execution models that preserve continuity while enabling incremental improvement.
+Judge Staffing complements these capabilities by providing scalable workforce solutions aligned to long-term delivery needs rather than short-term surge staffing. This integrated approach allows The Judge Group to support durable team structures, knowledge retention, and sustained execution capacity over time. Staffing services are aligned to delivery models and operational requirements, ensuring continuity of context and accountability across modernization efforts.
+The Judge Group has supported public- and private-sector organizations across healthcare, life sciences, transportation, and other regulated industries where digital platforms serve broad user populations and must remain continuously available. Judge's experience operating in these environments informs its emphasis on managed evolution, parallel execution, and sustainment as operating conditions rather than downstream considerations.
+Together, Judge Technical Services, Judge Consulting, and Judge Staffing operate as a single delivery organization, enabling clients to align planning, execution, and sustainment within a coherent operating model. This integrated structure allows The Judge Group to support modernization efforts that require stability, adaptability, and long-term operational resilience.
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+10
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+Appendix B: The Judge Group Operating Model for VA.gov Replacement This operating model illustrates how VA.gov replacement is executed as a managed evolution of a continuously operating national digital service. Execution is organized around durable, cross-functional POD teams aligned to core functional domains rather than transient tasks. Each POD maintains end-to-end ownership across modernization and sustainment while operating within VA defined governance.
+Modernization is conducted through a parallel execution layer that enables new capabilities, content models, and user journeys to be developed, integrated, and validated without disrupted live services. Changes are introduced incrementally based on operational readiness, preserving continuity of service, institutional knowledge, and user trust. This approach allows VA to scale delivery, retain control, and sustain improvement over time without platform dependency or disruptive transition events.
+VA Oversight & Governance (Policy, Security, Privacy, Accessibility, Performance)
+Continuously Operating VA.gov (Live Services, Active Users, Trust)
+
+POD: Experience & Content Ops
+· UX & IA · Content Mgmt · Accessibility
+
+POD: Identify & Navigation
+· Sign-In · Recovery · Access Points
+
+POD: Platform & Integration
+· Enablement · Performance · Reliability
+
+151 S Warner RD STE 100 Wayne, PA 19087 2127
+
+Parallel Execution & Validation Layer (Build, Validate, Test, Iterate) · New Capabilities · New Content Structures · Journey Improvements
+
+Incremental, Risk-Managed Introduction to Live
+11
+
+* This operating model reflects execution doctrine rather than a prescribed technical architecture and is intended to remain portable across implementation choices.
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+Appendix C: Phased Evolution Model for VA.gov Replacement This phased evolution model defines VA.gov replacement as a continuous operating progression rather than a discrete transition event. Modernization advances through structured phases that expand capability, confidence, and ownership while the platform remains fully operational. Each phase establishes conditions required for the next, ensuring that change is absorbed without disrupting live services or eroding user trust.
+Early phase stabilize delivery structures, align governance, and establish parallel execution environments. Subsequent phases introduce new capabilities, integrated access improvements, and content evolution through readiness-based release. Over time, modernization becomes normalized operating condition, allowing VA.gov to evolve through adoption rather than replacement while maintaining uninterrupted service and public confidence.
+
+TIME
+
+Phase I Foundation & Stability
+
+Phase II Incremental Evolution
+
+Phase III Sustained Modernization
+
+Live VA.gov (Stable Operations)
+
+Live VA.gov (Stable Operations)
+
+Live VA.gov (Stable Operations)
+
+Parallel Environment (Stand-Up)
+
+Parallel Environment (Expand)
+
+Parallel Environment (Normalize)
+
+· PODS Established · Governance Aligned · Baseline Journeys · Initial Validation · Risk Contained
+
+· Additional PODS · New Capabilities · Journey
+Improvements · Incremental Releases · Feedback Integrated
+
+· PODS Aligned · Continuous · Improvement · Optimization · Sustainment
+
+151 S Warner RD STE 100 Wayne, PA 19087 2127
+
+Incremental, Risk-Managed Introductions (No Disruptive Cutover)
+12
+
+* This model illustrates modernization as a continuity-first operating progression rather that a transition event, with delivery normalized into ongoing operations over time.
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+Appendix D: Case Study References
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+13
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+14
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+15
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+16
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+17
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+18
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+19
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+20
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+21
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+Replacement Model for VA.gov Solicitation ID: 36C10B26Q0131
+
+151 S Warner RD STE 100
+
+Wayne, PA 19087 2127
+
+22
+
+UEI: ZTFGC4Q5RFB5 CAGE: 1RMR8
+
+

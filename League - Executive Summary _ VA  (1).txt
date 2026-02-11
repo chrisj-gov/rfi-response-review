@@ -1,0 +1,168 @@
+February 4, 2026 Allison Fulton and Evan Schlisserman U.S. Department of Veterans Affairs Re: RFI - Replacement Model for VA.gov (Issued January 14, 2026)
+League, Inc. appreciates the opportunity to respond to the Department of Veterans Affairs' Request for Information regarding a replacement model for VA.gov. We are excited to participate in this effort and to support a more seamless, engaging digital experience that helps Veterans more easily find and access the care and benefits they need - especially when that need is time-sensitive, stressful, or urgent. Today, many authenticated digital experiences are reactive and place the burden on Veterans to sift through a large set of information, benefits, and programs - often resulting in call center escalation or abandonment. League enables VA's digital assets to be more proactive by embedding guided journeys, next best actions, orchestration, navigation, and secure AI Agent Teams within VA web and mobile experiences. We look forward to the possibility of follow-on discussions and are happy to provide sample workflows and reference architectures aligned to VA's priorities for secure, Veteran-centric navigation and self-service.
+Sincerely,
+Doug Tipsword Director, Sales League Inc. dtipsword@league.com | 847.363.5886
+1
+
+POWERED BY LEAGUE
+Powering Next-Generation Veteran Engagement & Navigation on VA.gov
+Notice ID: 365357 Submission Date: February 4, 2026
+Notice ID: 365357 Submission Date: February 4, 2026
+
+TABLE OF CONTENTS
+Table of Contents
+
+Executive Summary
+
+1
+
+Company Overview and Relevant Experience
+
+2
+
+Proposed Solution and Approach
+
+3
+
+Solution Detail
+
+4 - 5
+
+ Embedded Veteran Journeys
+
+ AI Agent Teams
+
+Identity and Authentication
+
+7
+
+Integration, Security, and Operations
+
+8
+
+Risks, Tradeoffs, and Lessons Learned
+
+9
+
+EXECUTIVE SUMMARY
+A Seamless Veteran Navigation Experience through Embedded Web & Mobile Components
+VA is evaluating options to replace VA.gov with a secure, Veteran-first digital front door that improves navigation across benefits, healthcare, services, and information while integrating with legacy and emerging VA systems.
+Problem and opportunity: Authenticated self-service is often reactive and one-size-fits-all. Veterans facing time-sensitive health or life needs must search across complex information, benefits, and programs without personalized guidance, driving call-center escalation and task abandonment. League helps VA make the experience proactive and personalized by embedding guided journeys, next best actions, and secure AI support in both VA.gov and VA mobile.
+League's role in a VA.gov replacement model
+ Embedded engagement and navigation layer deployable within VA web and mobile experiences (no full site rebuild required).
+ Personalized guided journeys and next best actions to help Veterans complete complex tasks and find the right care path.
+ Secure AI Agent Teams for conversational self-service and support, with orchestration, guardrails, and escalation to humans when needed.
+ Standards-based integration: SSO with VA-approved identity providers and APIs to downstream VA systems.
+What League does not provide (and how we fit into a broader replacement model)
+ Not a prime website builder / CMS replacement for VA.gov (information architecture, front-end rebuild, or content migration).
+ Not a identity proofing / identity management provider; League integrates with VA-approved identity providers and authentication services.
+Representative outcomes from enterprise healthcare deployments
+ Manulife: +70% increase in mobile activations and 3x increase in monthly active users after embedding League capabilities.
+ Highmark Health: 5x increase in program enrollment (e.g., mental health point solution) after deploying League engagement and navigation.
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 1
+
+COMPANY OVERVIEW & RELEVANT EXPERIENCE
+League: Healthcare's Leading Enterprise Consumer Experience (CX) Platform
+
+League, founded in 2014, delivers an open, modular healthcare engagement and navigation platform that can be embedded into existing digital properties (web and mobile).
+ Core strengths: guided engagement journeys, personalization/next best actions, orchestration across systems, and secure AI Agent Teams.
+ Security & compliance: SOC 2 Type II, HIPAA, and HITRUST certified (details available upon request). Seeking FedRAMP sponsorship.
+Relevant Enterprise Experience
+ Deploying regulated, high-stakes consumer experiences for large healthcare organizations (health plans and providers).
+ Integrating engagement layers with complex ecosystems (identity providers, eligibility/benefits systems, clinical systems, contact center tooling, and third-party point solutions).
+ Operationalizing continuous improvement loops (analytics, experimentation, and content/journey iteration).
+Partner Ecosystem
+ Cloud: Google Cloud Platform  Systems integrators & advisory:
+Accenture, Deloitte (and others as applicable)  Additional partners and delivery models available based on VA's preferred contracting and delivery approach.
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 2
+
+PROPOSED SOLUTION & APPROACH
+An Engagement Layer to Orchestrate and Personalizes the Veteran Experience
+A phased modernization path that maintains continuity of service  Start with high-impact Veteran journeys and navigation use cases (e.g., finding the right care, benefits questions, appointment preparation, program enrollment).  Embed League capabilities into existing VA.gov and/or VA mobile experiences to improve navigation and task completion without waiting for a full rebuild.  Expand incrementally across benefit portfolios with consistent design patterns, analytics, and governance.
+Composable engagement layer above VA systems  League acts as an engagement/orchestration layer that connects to VA systems via APIs and supports multiple back-end sources of truth.  Journeys and AI agents can be configured to route Veterans to the right destination (self-service flows, VA applications, call center escalation, or in-person care).
+Operating model considerations (where League helps and where partners typically lead)  League provides configurable engagement tools, analytics, and AI operations for ongoing iteration.  VA and/or a prime integrator typically owns site architecture, CMS/content operations, and enterprise identity strategy; League integrates to these layers.
+VA Home Loan
+XXX
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 3
+
+SOLUTION DETAIL | EMBEDDED VETERAN JOURNEYS
+Guided Journeys and Next Best Actions Across VA Digital Channels
+Embedded, Personalized Veteran Journeys & Next Best Actions (NBA)
+Guided, step-by-step workflows embedded directly into VA digital experiences.
+ Deliver contextual "what should I do next?" experiences for complex, multi-step tasks (benefits, healthcare access, forms, follow-ups).
+ Orchestrate across VA systems and point solutions so engagement feels seamless even when systems are not.
+ Configurable journeys that can be updated quickly as policies, programs, and Veteran needs evolve-without large redevelopment cycles.
+ Consistent patterns across web and mobile so Veterans have a familiar experience regardless of channel.
+ Targeted prompts and reminders aligned to Veteran goals, eligibility, and prior behavior (with appropriate consent and privacy controls).
+Measurement and Optimization
+ Instrument journeys with events and funnels (task success, drop-off points, time-to-complete).  Measure outcomes like digital adoption, time-to-answer, CSAT, and deflection of avoidable
+support contacts. Enable continuous improvement via iterative journey updates and controlled experimentation.
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 4
+
+SOLUTION DETAIL | AI AGENT TEAMS
+Secure AI Agent Teams answer questions, take actions, and escalate safely
+Concierge + Orchestration Layer
+A single, secure AI concierge acts as the front door, interpreting intent and routing to specialized task agents.
+ One conversational interface for Veterans (consistent tone and experience).  Intent understanding routes requests to the right agent (e.g., benefits, care navigation) or to a
+human support path.  Orchestration enforces privacy, safety guardrails, and minimal-data access for sub-agents.
+Example Agent Teams for VA
+ Benefits Navigation Agent Team: plain-language answers, eligibility guidance, task completion support (with citations to source content).
+ Care Navigation Agent Team: help Veterans choose the right care option, prepare for appointments, and understand follow-up steps.
+ Health Coach Agent Team (non-clinical): supportive engagement aligned to VA programs and education content.
+ Care Gaps / Preventive Actions Agent Team: reminders and guided completion of preventive actions (as defined by VA).
+Safety, Compliance, and Human-in-the-Loop
+ Guardrails + retrieval-based answers to reduce hallucination risk; configured escalation to humans for complex issues.
+ Clear boundaries between information and medical advice; non-clinical by design unless/ until explicitly scoped otherwise.
+ Continuous evaluation and testing to monitor quality, safety, and reliability.
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 6
+
+IDENTITY & AUTHENTICATION
+Integrate with VA identity to enable secure sign-in and recovery
+League integrates with VA identity providers; we do not replace identity proofing or enterprise identity management.
+ Standards-based integration with VA identity providers using modern SSO patterns (e.g., OpenID
+Connect) and support for multi-factor authentication.
+ Support step-up authentication for high-risk actions or sensitive information access.  Provide user-friendly recovery experiences that reduce lockouts while maintaining security,
+coordinated with VA's identity provider policies.
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 7
+
+INTEGRATION, SECURITY, & OPERATIONS
+Standards-based APIs, security controls, and scalable operations for VA.
+ Integration approach: API-first connectivity to VA systems; minimize coupling to any single legacy system by using a composable engagement layer.
+ Security & privacy: enterprise controls (encryption, access controls, auditability) aligned to regulated healthcare environments.
+ Resiliency & scale: designed for high-traffic environments with monitoring, performance testing, and operational tooling.
+ Deployment model: support multiple deployment patterns (subject to VA constraints), including US data residency requirements.
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 8
+
+RISKS, TRADEOFFS, & LESSONS LEARNED
+Transparent risks and lessons learned from regulated, enterprise deployments.
+Key risks and how we mitigate them in an embedded engagement + secure AI approach:  Continuity of service during modernization: mitigate via phased rollout, feature flagging, and incremental journey deployment.  Integration complexity across many systems: mitigate via API-first patterns, clear system-of-record boundaries, and iterative integration.  Identity fragmentation and recovery friction: mitigate via standards-based SSO integration and consistent authenticated experiences across channels.  AI trust and safety: mitigate via retrieval-based answers, guardrails, human-in-the-loop escalation, and continuous evaluation.  Content/journey governance: mitigate via clear ownership models (VA + integrator + League), analytics-driven iteration, and approval workflows.
+
+PRIVATE & CONFIDENTIAL | PREPARED FOR US DEPARTMENT OF VETERAN AFFAIRS ONLY
+
+Page 9
+
+Thank you.
+POWERED BY LEAGUE
+
+

@@ -1,0 +1,245 @@
+J02B0600106
+
+Replacement Model for VA.gov
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Reference/Notice Number #: 36C10B26Q0131 Capability Statement Due Date: February 05, 2026, at 12:00 PM EDT
+
+Submitted to: 23 Christopher Way Eaton Town, NJ 07724 USA
+Allison Fulton, Allison.fulton@va.gov
+Evan Schlisserman, evan.schlisserman@va.gov
+
+Submitted by:
+Serigor, Inc. 400 East Pratt Street, Suite 800 Baltimore, MD 21202
+Mohan Sharma, Consulting Principal Phone: (201)-755-4235 Email 1: msharma@serigor.com Email 2: gov@serigor.com
+
+© 2026 Serigor, Inc.
+The concepts and methodologies contained herein are proprietary to Serigor. Trademarks, logos, and service marks displayed in this proposal are registered and unregistered trademarks of Serigor, or other parties. All these trademarks, logos and service marks are the property of their respective owners.
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+1.0 Company Overview and Relevance to VA
+
+1.1 Serigor, Inc. - Organizational Overview
+
+Serigor, Inc. is a U.S.-based information
+
+technology services firm specializing in the design,
+
+modernization, and sustained operation of large-
+
+scale, mission-critical digital platforms within
+
+regulated
+
+public-sector
+
+environments.
+
+Headquartered in the United States, Serigor brings
+
+more than 15 years of experience supporting
+
+federal and state agencies whose systems serve
+
+millions of users, handle sensitive personal data,
+
+and operate under strict availability, security, and
+
+accessibility requirements.
+
+Serigor's core capabilities span experiencecentric digital platforms, cloud-enabled application architectures, identity-adjacent workflows, and high-reliability operations. Our work consistently focuses on environments where modernization must occur without disrupting live services, where user trust is paramount, and where technology decisions carry long-term implications for governance, scalability, and public confidence.
+
+For the Department of Veterans Affairs, Serigor recognizes that replacing VA.gov represents not merely a technical refresh, but a fundamental rethinking of how Veterans, caregivers, and families experience VA as a digital institution. Our experience aligns directly with VA's stated need to modernize across experience design, platform architecture, content strategy, analytics, and operating models--while preserving continuity of service and integrating with a diverse ecosystem of legacy and emerging systems.
+
+1.2 Relevance to VA.gov Replacement
+
+Serigor's relevance to the VA.gov replacement effort is grounded in three areas critical to VA's objectives: 1. Operating at National Scale in Regulated Environments: Serigor has supported digital platforms that operate continuously, experience surge usage, and must comply with federal security, privacy, and accessibility mandates. This experience directly aligns with VA.gov's role as a highly visible national digital front door. 2. Modernization Without Disruption: Our modernization efforts emphasize incremental, riskmanaged evolution rather than "big bang" replacements. This approach reflects VA's requirement to maintain uninterrupted access to benefits, healthcare information, and services throughout any transformation effort. 3. Experience, Trust, and Governance as First-Class Concerns: Beyond technical delivery, Serigor brings experience in designing platforms where identity, navigation, and content governance materially affect user trust and outcomes--an essential consideration for Veterans navigating complex life events through VA.gov.
+
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 1
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+
+The table below summarizes Serigor's core capabilities and how they align with VA's stated objectives for replacing VA.gov.
+
+Table 1: Serigor Capability Alignment to VA.gov Modernization Objectives
+
+VA Objective Continuity of Service Veteran-Centric Experience Identity & Navigation System Integration
+Long-Term Resilience
+
+Serigor Capability Incremental modernization and phased deployment Human-centered design and accessibility-first engineering Experience-layer integration with identity workflows API-driven, modular architectures
+Governance-aware operating models
+
+Relevance to VA.gov Enables VA.gov evolution without service interruption Improves usability, trust, and equitable access Supports seamless sign-in, recovery, and benefit discovery Integrates legacy and emerging VA systems Sustains adaptability beyond initial deployment
+
+2.0 Understanding VA's Digital Transformation Challenge
+
+2.1 VA.gov as a Mission-Critical National Platform
+VA.gov functions as the primary digital gateway for millions of Veterans, their families, caregivers, and advocates to access healthcare, benefits, claims, and critical life services. Unlike traditional public-facing websites, VA.gov operates as a mission-critical national platform--one where availability, accuracy, trust, and usability directly impact real-world outcomes for a vulnerable and diverse population.
+Serigor understands that replacing VA.gov is not a simple matter of migrating content or refreshing technology. It requires navigating a complex intersection of user experience, identity, legacy integration, governance, and operational resilience, all within a highly regulated and publicly scrutinized federal environment.
+2.2 Key Realities Shaping the VA.gov Replacement Effort
+Based on the RFI context and Serigor's experience in similar environments, several foundational realities define the VA.gov replacement challenge:
+1. Continuity Is Non-Negotiable VA.gov cannot experience meaningful downtime, service regression, or loss of user trust during transformation. Modernization must occur while:
+· Millions of users continue to authenticate, navigate, and transact daily · Critical benefits and healthcare workflows remain uninterrupted · Seasonal and crisis-driven surges (e.g., public health events, policy changes) are absorbed without
+degradation
+
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 2
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+This necessitates parallel operations, phased cutovers, and rollback-aware design, rather than wholesale replacement.
+2. Identity Is Central to the User Experience Identity proofing, sign-in, credential recovery, and session continuity are not peripheral concerns--they are core determinants of user success. For Veterans, failed authentication or confusing navigation often results in abandonment, increased call center volume, or delayed access to essential services.
+VA's parallel exploration of next-generation digital identity highlights that: · Identity workflows must be tightly integrated with navigation and content discovery · Authentication friction must be balanced against security and compliance · Recovery paths must be resilient, intuitive, and accessible
+Any future VA.gov architecture must treat identity as an experience-layer capability, not just backend control.
+3. Integration Across a Heterogeneous System Landscape VA.gov sits atop a diverse ecosystem of:
+· Legacy systems with varying data models and interfaces · Modern APIs and cloud-native services · External partners and shared federal platforms
+The replacement effort must orchestrate across this heterogeneity, enabling gradual modernization without forcing synchronized change across all dependent systems. This places emphasis on:
+· API mediation and abstraction layers · Decoupled front-end experiences · Clear ownership and governance boundaries
+4. Governance, Content, and Analytics Are as Important as Technology VA's challenge extends beyond code. Long-term success depends on:
+· Content lifecycle governance that ensures accuracy, relevance, and consistency · Analytics that provide insight into user behavior, drop-off points, and friction · Operating models that support continuous improvement rather than static releases
+Without aligning governance and operating models to the new platform, technical improvements alone will not deliver the intended Veteran-centric outcomes.
+5. Operating in a Regulated, Highly Visible Environment VA.gov operates under:
+· Federal security and privacy requirements (PII/PHI) · Section 508 accessibility mandates · Continuous public, Congressional, and media scrutiny
+Modernization decisions must therefore be defensible, auditable, and transparent, balancing innovation with institutional risk tolerance.
+
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 3
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+3.0 Relevant Experience with Comparable Digital Transformation Challenges
+3.1 Experience in Large-Scale, Regulated Digital Platforms
+Serigor's experience aligns with the core challenges VA faces in replacing VA.gov: sustaining highavailability public platforms, integrating identity and access controls, modernizing incrementally, and operating within strict regulatory constraints.
+Across federal and state engagements, Serigor has supported platforms where: · Users rely on uninterrupted access to mission-critical services · Identity, authentication, and authorization are tightly coupled with user experience · Backend systems evolve at different speeds and maturity levels · Security, privacy, and accessibility requirements are non-negotiable
+Rather than pursuing "big bang" replacements, Serigor's work has consistently focused on controlled evolution, enabling modernization while protecting continuity and trust.
+3.2 Representative Experience Highlights
+3.2.1 Statewide Public Services Digital Platform (Health & Human Services)
+Table 2: Experience 1 Context A centralized public portal supporting eligibility, enrollment, and case management for millions of residents. Relevance to VA.gov · Public-facing access to sensitive personal data (PII/PHI) · Complex identity verification and account recovery workflows · Integration with multiple legacy systems and downstream services · Continuous availability requirements with seasonal surges Serigor Contribution · Supported phased modernization of user interfaces while preserving backend integrations · Helped rationalize navigation and service discovery based on user behavior analytics · Implemented changes without disrupting daily operations or increasing support burden Lessons Applicable to VA · User trust erodes quickly when identity workflows fail--even if core systems remain functional · Incremental improvements yield better adoption than wholesale redesigns · Analytics must inform navigation and content decisions continuously, not episodically
+3.2.2 Transportation & Public Infrastructure Digital Services Platform
+Table 3: Experience 2 Context
+
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 4
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+A public web ecosystem providing real-time access to permits, compliance information, and reporting services. Relevance to VA.gov
+· Highly visible platform subject to public scrutiny · Strict accessibility (Section 508) and security requirements · Need for rapid updates without service interruption Serigor Contribution · Supported refactoring of front-end components while preserving stable backend services · Introduced modular design patterns to isolate change and reduce deployment risk · Ensured accessibility validation was embedded into ongoing operations Lessons Applicable to VA · Accessibility must be validated continuously, not just at release time · Governance gaps create long-term maintenance risk even when technology is modern · Modular architecture reduces operational risk during change
+4.0 Approaches and Architectural Considerations for Replacing VA.gov
+4.1 Incremental, Federated Architecture for VA.gov Replacement
+Figure 1 illustrates Serigor's recommended architectural approach for incrementally replacing VA.gov while preserving continuity of service, identity assurance, and integration with VA enterprise systems.
+
+Figure 1: Incremental, Federated Architecture for Replacing VA.gov © 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 5
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+
+4.2 Principle 1: Evolution Over Replacement
+
+Serigor recommends treating VA.gov replacement as an evolutionary program, not a single event. Attempting to replace all components simultaneously introduces unacceptable risk to continuity, security, and user trust.
+Key elements of this approach include: · Parallel operation of legacy and modern components · Progressive migration of user journeys rather than wholesale cutover · Clear rollback paths for all major changes
+This strategy enables VA to modernize without betting on the platform on a single transition moment.
+4.3 Principle 2: Identity as an Experience Capability
+
+Identity proofing, authentication, and recovery must be designed as user experience flows, not just security controls.
+Serigor's approach emphasizes: · Reducing cognitive load during sign-in and recovery · Making security steps understandable and predictable · Ensuring identity state persists across navigation and sessions
+Architecturally, this requires: · Decoupling identity services from individual applications · Using standardized identity interfaces across benefit portfolios · Designing navigation to respond dynamically to identity state
+4.4 Principle 3: Decoupled Front-End, Federated Back-End
+
+Given VA's diverse system landscape, Serigor favors: · A decoupled front-end experience layer · API-mediated access to backend services · Abstraction layers that shield users from backend complexity
+This enables: · Faster iteration on user experience · Backend modernization at independent cadences · Reduced blast radius when backend systems change
+4.5 Principle 4: Governance and Operating Model Alignment
+
+Technology alone cannot sustain VA.gov's future. Serigor emphasizes: · Clear ownership models for content, identity, and navigation
+
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 6
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+· Defined decision rights for UX, security, and compliance tradeoffs · Continuous analytics-driven improvement loops
+Without governance alignment, even the best architecture degrades over time.
+5.0 User Journey Workflows: Identity, Sign-In, Recovery, and Navigation
+5.1 End-to-End User Journey Perspective
+Serigor evaluates VA.gov user journeys holistically, recognizing that Veterans experience the platform as a single flow--not as discrete systems.
+Figure 2 is representative workflow patterns informed by prior experience.
+
+Figure 2: Veteran Digital Identity & Navigation Journeys
+Cross-Journey Insights Across identity, access, and navigation, Serigor has observed:
+· Friction compounds across journeys · Small failures cascade into trust erosion · Clear, consistent patterns matter more than visual novelty
+5.2 Risks, Limitations, and Lessons Learned
+Serigor's experience highlights several risks VA should anticipate: · Identity modernization without navigation alignment creates confusion · Backend constraints will shape UX whether acknowledged or not
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 7
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+· Governance gaps eventually negate technical gains
+Successful platforms explicitly design these realities rather than discovering them reactively.
+6.0 Technologies and Enabling Capabilities
+Technology as an Enabler, Not the Driver
+Serigor approaches technology selection as a downstream decision informed by user needs, operating constraints, and governance maturity. In large, regulated environments like VA, prematurely anchoring on specific platforms or tools often creates lock-in, limits adaptability, and complicates long-term operations. Instead, Serigor focuses on technology patterns and enabling capabilities that support VA's stated objectives.
+6.1 Key Enabling Capability Areas
+Experience Layer Enablement · Decoupled front-end architectures that allow rapid UX iteration · Design systems that enforce consistency across benefit portfolios · Support for personalization driven by identity state and user context
+These capabilities allow VA to improve Veteran experience without forcing synchronized backend changes.
+Identity and Access Enablement · API-driven identity integration supporting multiple authoritative sources · Progressive identity verification aligned to transaction sensitivity · Centralized session and identity state management across services
+This approach reduces redundancy, improves reliability, and supports consistent recovery experiences.
+Integration and Interoperability · API mediation layers that isolate backend system complexity · Contract-based interfaces to support incremental backend modernization · Support for asynchronous processing where real-time coupling is not required
+This pattern enables coexistence of legacy and modern systems during transition.
+Security, Privacy, and Compliance Enablement · Security controls embedded into delivery pipelines rather than enforced post hoc · Continuous validation for Section 508 accessibility · Privacy-by-design patterns that limit unnecessary data exposure
+These capabilities ensure compliance is sustained operationally, not treated as a milestone.
+Analytics and Observability
+
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 8
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+· User behavior analytics informing navigation and content decisions · Operational telemetry supporting proactive issue detection · Feedback loops that drive iterative improvement
+Analytics are treated as a governance input, not just a reporting function.
+Technology-Agnostic by Design
+Serigor intentionally avoids promoting proprietary platforms or one-size-fits-all solutions. This preserves VA's ability to:
+· Adapt as technology evolves · Avoid vendor lock-in · Align solutions with internal capabilities and policies
+Section 7. Lessons Learned, Risks, and Tradeoffs
+7.1 Lessons Learned from Similar Modernization Efforts
+Based on Serigor's experience, several lessons consistently emerge:
+
+Figure 3: Lessons Learned from Similar Engagements © 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 9
+
+Department of Veterans Affairs, Technology Acquisition Center NJ Replacement Model for VA.gov
+7.2 Key Risks VA Should Anticipate
+
+Table 4: Risk and Mitigation
+
+Risk Operational Risk
+User Experience Risk
+
+Details · Parallel systems increase coordination demands · Inconsistent deployment practices can fragment experience · Inconsistent navigation across services · Identity state loss between journeys
+
+Organizational Risk
+
+· Misalignment between platform teams and benefit owners
+· Competing priorities across portfolios
+
+Mitigation Strong release governance and shared delivery standards. Unified experience patterns and centralized identity state handling. Federated governance with clear escalation paths.
+
+Section 8. Additional Considerations and Closing Perspective
+
+8.1 VA.gov as a Long-Term Capability, Not a Project
+Replacing VA.gov should be treated as the establishment of a durable digital capability, not a finite implementation. Success depends on:
+· Operating models that support continuous evolution · Workforce enablement alongside technology · Measurable outcomes tied to Veteran experience
+8.2 What Serigor Does Not Claim
+To ensure transparency, Serigor does not claim: · A single "best" platform for all VA use cases · That modernization can occur without tradeoffs · That technology alone can resolve organizational complexity
+Our value lies in helping VA navigate these realities deliberately.
+8.3 Readiness for Follow-On Engagement
+Serigor is prepared to participate in follow-on discussions, workshops, or pilots to: · Validate assumptions · Explore user journeys in greater detail · Assess feasibility across benefit portfolios · Support VA's planning activities without bias toward specific tool
+
+© 2026 Serigor, Inc. | Proprietary and Confidential | February 05, 2026
+
+Page 10
+
+

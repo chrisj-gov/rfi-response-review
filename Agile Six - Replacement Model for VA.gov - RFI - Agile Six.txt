@@ -1,0 +1,220 @@
+Replacement Model for VA.gov
+U.S. Department of Veterans Affairs (VA) Notice ID: 36C10B26Q0131 
+Request for Information (RFI)
+Submitted To Allison Fulton, Contract Specialist Evan Schlisserman, Contracting Officer
+Submitted By Agile Six Applications, Inc.
+Submitted On February 4, 2026
+This proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate this proposal. If, however, a contract is
+awarded to this offeror as a result of-or in connection with-the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does
+not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in sheets 1-11.
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+
+1 | Company Overview
+Agile Six is a people-first, fully remote Service-Disabled Veteran-Owned Small Business (SDVOSB) with a long-standing record of delivery in complex, Veteran-facing federal digital environments (Table 1). Agile Six has been continuously engaged with VA across a portfolio of contracts that directly support, integrate with, and shape VA.gov and the digital ecosystem around it, including foundational platform modernization work and current, production delivery of Veteran-facing services. This sustained engagement has given our teams deep, practical experience operating within VA's technical, governance, security, and delivery realities not as observers, but as delivery partners responsible for outcomes experienced by millions of Veterans.
+
+Company Name, Address
+
+Agile Six Applications, Inc. 12830 Vineyard Crest Pl Lakeside, CA 92040
+
+Administrative and Technical PoC
+
+Josh Quagliaroli, Chief Strategy Officer p: (860) 202-0634 e: bd@agile6.com w: https://agile6.com/
+
+Size and business SDVOSB
+
+type and UEI
+
+UP4JHKJQ9MQ7
+
+TTable 1: Agile Six Company Information
+
+2 | Relevant Experience with Similar Challenges
+Agile Six has played a hands-on role in the ongoing evolution of VA.gov through sustained delivery across multiple VA.gov contracts and initiatives (Table 2), spanning health, benefits, authenticated experiences, design systems, and core platform capabilities. Across this work, we have delivered end-to-end services on VA.gov, from discovery and design through implementation and operations, working across horizontally organized platform teams and vertically delivered Veteran workflows. More recently, our work on the Benefits Intake Optimization (BIO) initiative, in partnership with the VA Office of the Deputy Secretary, has surfaced both progress and persistent pain points, particularly where policy interpretation, data standards, and legacy platform constraints intersect with delivery expectations. In parallel, our support of the Veterans Health Administration (VHA) Digital Health Office (DHO) has given us visibility into how similar dynamics play out outside of Office of the Chief Technology Officer (OCTO), suggesting that these challenges are systemic rather than isolated to a single organization. Together, these experiences have given us a clear view of how platform, policy, and governance decisions create downstream effects on delivery speed, system stability, and Veteran trust.
+
+Table 2: Agile Six Delivery Experience Across the VA.gov Ecosystem
+
+Current Agile Six VA Prime Contracts
+
+Historical Agile Six VA Prime Contracts
+
+ VA.gov Health Applications  Cross Benefits Crew  Benefits Intake Optimization (BIO)  Veteran Appointments & Check-In
+Experience  VA.gov Product Teams Financial
+Management  VA.gov Products Teams - Facilities and
+Public Website  VFMP Status Tool on VA.gov  VHA Digital Health Office (DHO)
+
+ Health Enrollment  VFMP and CHAMPVA Forms  MHV on VA.gov  Authenticated Experience Design Patterns  VA.gov Design System Form Engine  VA.gov Product Teams - Authenticated Experience  Automated Benefits Delivery - Toxic Exposure  Automated Benefits Delivery - Apps  VSO - Facing Work Team - Claim Fast Tracking Team  Diffusion Marketplace  VA.gov Modernization
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 1
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+3 | Response to the Topics and Questions in this Request, including Descriptions of Relevant Technologies and Approaches
+VA's interest in a replacement model for VA.gov reflects the growing tension between rising expectations for speed, quality, security, the increasing difficulty of delivering change at scale across a highly integrated digital system, and the desire to better allocate resources to optimize IT investments and reduce waste without compromise to Veteran-centered outcomes. This RFI acknowledges that replacing VA.gov is not solely a technical challenge, but an enterprise change that touches experience design, platform architecture, governance, analytics, acquisition, and operating models. Our response begins from that premise and builds forward.
+However, a core risk in any replacement effort is framing the challenge too narrowly around the website itself. While VA.gov is the visible front door, it reflects a broader system that includes data ownership models, integration layers, review processes, contracting structures, and accountability boundaries. When those conditions remain unchanged, replacement initiatives often struggle to deliver meaningful improvement. Transition periods benefit from intentional planning to sustain delivery momentum. Governance expands to manage uncertainty. Teams inherit the same integration constraints and approval bottlenecks that limited progress before. At the same time, maintaining continuity of service becomes increasingly important, as stability is critical to sustaining Veteran trust.
+These risks are operational and observable. They appear in extended parallel builds, duplicated review cycles, brittle integrations, and long gaps between learning and action. Veterans experience them as broken flows, inconsistent information, or delays in accessing benefits. Delivery teams experience them as limited ability to test, release, and improve services incrementally. Replacement often feels decisive, but without changes to how work moves through the system, it can concentrate risk rather than reduce it.
+Therefore, rather than treating replacement as a binary decision about a single platform, we believe the more durable question is: What conditions would allow VA.gov to evolve sustainably? That question shapes how we interpret this RFI and how we have structured the sections that follow.
+3.1 | Cultural and Organizational Shifts
+If VA.gov is to evolve sustainably, changes in technology must be matched by changes in how work is organized, governed, and owned which means challenging common delivery patterns that limit speed, learning, and accountability at scale. These patterns include:
+1. Replatforming front-end experiences without addressing data ownership and integration constraints remains a common failure mode. Efforts focus on what Veterans see while leaving the systems that power those experiences unchanged.
+2. Centralizing control further in the name of speed or safety often compounds delivery friction. As oversight increases, decision cycles lengthen, low-risk improvements slow, and teams lose the ability to learn through iteration.
+3. Treating governance as the primary delivery lever places review and compliance at the center of progress, rather than enablement. Over time, this encourages risk avoidance instead of responsible experimentation.
+4. Assuming that new leadership, vendors, or technical approaches alone will change outcomes and overlook the structural conditions that shape how work moves through the system.
+5. Replacing systems without changing how work is funded, prioritized, and owned recreates existing constraints on a new platform.
+6. Micromanaging sprint goals and tying them directly to payments prioritizes activity over outcomes and limits accountability at scale.
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 2
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+While these patterns are understandable responses to risk and visibility, our experience shows they are not immutable. Across VA.gov modernization, platform operations, and current delivery efforts, we have seen that meaningful progress comes from a small number of intentional shifts in how delivery is enabled, governed, and held accountable. These shifts do not require a wholesale reorganization or a single, disruptive replacement effort. They can be introduced incrementally, tested in practice, and adjusted based on observable outcomes.
+Through our experience, we believe the following directional shifts matter most if VA.gov is to evolve sustainably and if any replacement effort is to reduce risk rather than concentrate it. Each shift reflects conditions we have seen enable faster delivery, clearer accountability, and more durable Veteran outcomes when applied consistently and proportionally.
+1. From component-centric development to service-oriented integration: VA.gov should serve as the unified access point for well-defined services that support Veteran and staff needs, rather than as a central location for feature development and business logic. Long-term platform health depends on reliable, well-owned APIs, clear data contracts that persist across administrations, and integration layers that are funded and prioritized as first-class products. In this context, efforts such as Lighthouse are foundational to Veteran-facing experiences. Their effectiveness depends on being treated as products with clear ownership, outcome-driven roadmaps, and integration velocity tracked as a primary performance signal.
+2. From gatekeeping to empowerment: Governance works best when it establishes clear expectations, reusable patterns, and graduated risk paths rather than relying on sequential approvals for every change. Developer enablement, documented fast paths for low-risk work, and higher scrutiny reserved for genuinely high-impact changes allow rigor to be applied proportionally without slowing delivery.
+3. From administrative silos to shared accountability for Veteran outcomes: Veterans experience VA as a single system, regardless of internal boundaries. Sustainable integration depends on clear ownership of data and APIs, along with mechanisms that encourage coordination across administrative boundaries when workflows span multiple services. This shift does not require reorganizing the Department, but it does require aligning decision-making and accountability around end-to-end Veteran journeys.
+4. From staff augmentation to autonomous, long-lived teams with end-to-end responsibility: Models optimized primarily for control and predictability limit learning, accountability, and speed. Teams are most effective when they have authority to conduct research, propose solutions, and iterate within clear outcome expectations. Government oversight remains essential, but it is most effective when focused on stewardship, prioritization, and accountability for results rather than sprint- and technical-level direction.
+These shifts can be introduced incrementally and tested in practice. For example, by reframing the Collaboration Cycle as a developer enablement lifecycle, creating explicit fast paths for low-risk changes, funding integration work disproportionately relative to UI enhancements, allowing heterogeneous technology stacks at the edges of the platform, and piloting autonomous vendor teams with clear outcome accountability are all realistic steps that can be taken without disrupting continuity of service. And we recommend that progress be evaluated through observable signals rather than promises so that teams spend more time building and less time waiting, integration timelines shorten, decisions move closer to the work, and vendors are accountable for outcomes rather than activity.
+3.2 | Technology Shifts for Sustainable Architecture Evolution
+VA.gov is a mission-critical platform that millions of Veterans and their families rely on to access benefits and services. It provides a unified entry point to a wide range of capabilities and integrates with numerous legacy and modern systems across VA. At the same time, Veterans encounter recurring issues with
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 3
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+VA.gov that reflect underlying technical and organizational constraints. For example, as new features are released, existing functionality can break unexpectedly. And because VA.gov is composed of many interdependent systems, small changes in one area can have unintended effects elsewhere. Diagnosing the root cause of these issues can be challenging, and once identified, fixes can still take significant time to reach production.
+Extensive research has been conducted on the Veteran's experience by OCTO, VEO and more broadly in service of delivering the highest quality products and services. Service design and research must be leveraged and shared throughout the VA ecosystem to continually inform sustainability efforts. One issue that this research has frequently highlighted is performance. Even when workflows function correctly, VA.gov can feel slow or unresponsive, particularly for Veterans on low-bandwidth or high-latency connections. Large shared JavaScript bundles and platform-wide dependencies contribute to longer page load times and inconsistent performance, disproportionately affecting users with limited connectivity. From a Veteran's perspective, these issues can contribute to the sense that VA.gov is unreliable. When workflows fail, pages load slowly, or fixes take weeks to deploy, confidence in the platform erodes, regardless of the underlying cause.
+As such, the organizational and delivery conditions outlined above directly shape how technology performs in practice at VA.gov. Platform reliability, performance, and safety are not determined by architecture alone, but by how data is owned, integrations are governed, risk is surfaced, and teams are empowered to learn and respond. With that lens, the technologies and approaches described in the following section are not presented as solutions in isolation, but as mechanisms that can either reinforce existing constraints or, when aligned to the right operating conditions, reduce risk and improve Veteran outcomes at scale.
+3.2.1 | Reshaping VA.gov Incrementally Any effort to address VA.gov's underlying challenges must preserve continuity of service, data integrity, and familiarity for Veterans. The platform reflects years of investment and operates within a highly regulated and visible federal environment, requiring change to be incremental and carefully managed.
+Many aspects of the current system are grounded in sound architectural goals. VA.gov emphasized API-first design, shared services, and centralized governance to promote consistency and manage risk at scale. These choices were appropriate responses to the complexity of the VA ecosystem. Over time, however, they have introduced tradeoffs that make routine change slower and more difficult.
+A central challenge is the mismatch between how the platform is organized and how Veteran-facing services are delivered. Much of the VA.gov platform is managed horizontally by technical layer (frontend, API, CMS, shared services), while individual Veteran and staff workflows cut vertically across those layers. Delivering or maintaining a single service often requires coordination across multiple teams, repositories, and deployment pipelines.
+This mismatch increases complexity across the SDLC. Development and testing require frequent context-switching. Deployment is constrained by tightly coupled systems and limited opportunities to validate end-to-end behavior outside of production. Maintenance is complicated by hidden dependencies and limited observability, making incidents harder to diagnose and fixes harder to deploy.
+A shift toward a service-based architecture provides a way to address these challenges without fully replacing the platform. In this model, teams assume ownership of end-to-end services aligned to specific Veteran and staff workflows over time, while preserving the standardization and reuse the VA platform was designed to support.
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 4
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+3.2.2 | A Service-based Architecture Framework The challenges described in the previous section are symptoms of a deeper structural issue: VA.gov's architecture was designed around horizontal technical layers, while the services Veterans actually use cut vertically across those layers. This mismatch creates coordination overhead at every phase of delivery, while a shift toward service-based architecture provides a practical and sustainable path forward without requiring a complete replacement of VA.gov (see Appendix, Diagram 1).
+The following list provides our technical recommendations (A-H) that detail how the service-based architecture can be implemented incrementally while maintaining continuity and reliability for Veterans. The next section will discuss how this framework mitigates current risks and challenges during key phases of the software development lifecycle.
+ Define services based on Veteran and staff workflows (A): Organize services around well-defined workflows (e.g., applying for a benefit, updating service history), rather than across layers of the technical stack. This aligns service boundaries with Veteran and staff outcomes and empowers teams to own the end-to-end lifecycle.
+ Consolidate code and ownership within services where coupling is unavoidable (B): When a workflow requires frequent, coordinated changes across frontend, backend, and integrations, consolidate code ownership within a single service-oriented team. This may take the form of an independent repository or a clearly scoped portion of an existing one, with authority over deployment and operational decisions.
+ Treat service boundaries as explicit contracts (C): As ownership is consolidated within services, interactions between services should be treated as formal contracts. Even when a service is consumed only by other internal teams, its APIs should be documented, versioned, and supported with the same care as a public-facing product. This clarifies expectations, makes dependencies visible, and allows teams to evolve services without surprising downstream consumers.
+ Simplify and enforce testing across service boundaries (D): Enable earlier and more reliable testing by making it easier to simulate production conditions locally and in lower environments. Require changes to include integration, contract-based, and end-to-end tests that reflect real workflows, in addition to unit tests.
+ Promote shared tooling and standards over shared services (E): When consistency or reuse is needed (e.g., design system components, authentication, logging), prioritize shared tooling, libraries, and standards that services can adopt independently. Where possible, enforce standards through automation and continuous integration (CI) checks rather than through centrally operated services.
+ Redefine the scope and role of the platform team (F): Shift the platform team's focus from managing shared services and acting as deployment gatekeepers to maintaining the tools and standards that promote cross-service consistency. Platform engineers should enable adoption and compliance through documentation, templates, and embedded support where appropriate, rather than expanding centralized control and compliance.
+ Adjust the focus of the collaboration cycle (G): Evolve the collaboration cycle from coordinating deployments across tightly coupled systems to validating that interfaces are documented (C), API contracts are tested (D), and the appropriate standards have been followed (E). Collaboration should center on when and how API contracts change and how downstream consumers are notified, with automated checks handling routine enforcement.
+ Make service boundaries, ownership, and documentation more discoverable (H): Improve visibility into service boundaries, ownership, and dependencies by centralizing information, not governance, about services, standards, and tooling. This can be supported through an internal developer portal, similar to VA Systems Inventory (VASI), or through standardized public documentation that is updated as part of the development process, like the VA developer portal.
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 5
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+3.2.3 | Applying This Framework Throughout the Software Development Lifecycle (SDLC) The service-based architecture framework described above provides a practical way to address long-standing challenges in VA.gov delivery without disrupting continuity of service. The following sections describe how the framework mitigates current risks and disincentives at key phases of the SDLC.
+Development Under the current architecture, implementing even small changes to a Veteran-facing workflow often requires coordinating pull requests (PRs) and approvals across multiple repositories and teams organized by technical layer. This increases context-switching, slows iteration, and makes it difficult for developers to reason about the impact of their changes.
+Defining services around Veteran and staff workflows (A), and consolidating ownership where workflows are tightly coupled (B), allows most development work to occur within a single, service-owned context. Treating service interfaces as explicit contracts (C) further reduces informal coordination by making expectations visible and testable.
+For example, instead of having to open corresponding PRs in as many as four repositories (va.gov-cms, vets-website, content-build, vsp-platform-revproxy) to make an information architecture change, developers could open a single PR within a consolidated repository that was easier to test locally. This kind of consolidation doesn't preclude the API-driven approach that VA.gov currently employs. A single codebase could still support separate frontend and backend applications, while simplifying local hosting and testing through a root-level Docker Compose configuration.
+Testing Today, developers often lack the ability to validate how changes interact with upstream and downstream systems until they deploy to production, because end-to-end tests are challenging to configure locally and in lower environments. As such, CI checks and test coverage tends to prioritize unit tests at the expense of system-level validation, causing integration issues to surface late, sometimes after Veterans are affected.
+By making end-to-end and contract-based tests a normal part of development (D), and by reducing unnecessary coupling between services (C), the framework enables teams to test real workflows earlier. Consolidated ownership (B) allows teams to write integration tests that reflect cross-service user journeys rather than isolated components, while contract tests validate interactions with downstream services without requiring full-system availability.
+In practice, this could include publishing a standardized integration test harness used across services that mocks integrations or relies on contract-based tests when running locally, but then substitutes calls to live external services when running in CI or as part of an automated quality assurance (QA) test suite after deployment to lower environments.
+Deployment Deployment controls within VA.gov were introduced to manage risk in a tightly coupled system, but over time they have increased the cost of shipping changes. Narrow deployment windows and extended review cycles incentivize batching work into larger releases and relying on feature flags to limit access to partially implemented features still being tested and refined in production.
+When services are more self-contained (B) and dependencies are governed by explicit contracts (C), the scope of change is clearer and deployments can be smaller and more frequent. Shifting enforcement from manual coordination to automated checks (G), such as contract validation and regression testing, reduces reliance on process-heavy deployment gates.
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 6
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+For example, automated integration and contract-based tests should detect a breaking change in an API consumed by multiple services (e.g., Address Validation API) before deployment. Once identified, the collaboration cycle would focus on determining whether the change can be made backward compatible or whether it should be released as a new, publicly documented version in the developer portal. In either case, deployment should be able to proceed without waiting for downstream consumers to update, as long as regression tests confirm that existing API integrations continue to function as expected.
+Maintenance As VA.gov has grown, diagnosing and resolving production issues has become more complex. Implicit dependencies make it difficult to determine the root cause and accountability for fixing bugs, and inconsistent logging practices risk either leaking PII/PHI or stripping the diagnostic information needed to trace failures across service boundaries.
+Improving discoverability of service ownership and dependencies (H), combined with shared observability standards delivered as tooling rather than services (E), allows teams to identify and resolve issues more quickly. Clearly documented ownership clarifies responsibility during incidents, while consistent logging practices improve traceability without relying on institutional knowledge.
+For example, during an incident, responders should be able to trace logs across the frontend and backend components of a given service (e.g., the Check-in Experience) and correlate them with logs from any external services involved in that workflow (e.g., VEText). This can be supported through Datadog views that aggregate logs across applications based on shared workflow or request metadata, making it easier to follow a request end to end and identify the source of failures.
+3.2.4 | Relevant Case Studies The following case studies illustrate how service-oriented delivery, combined with shared standards and automated compliance, can increase delivery speed and reliability while preserving platform coherence. Together, they show how similar practices can be applied within the VA.gov ecosystem incrementally and with minimal disruption.
+Case Study 1: Benefits Intake Optimization (BIO) The BIO initiative demonstrates the effectiveness of granting a delivery team greater autonomy over an end-to-end Veteran-facing service while maintaining strong alignment with VA-wide standards. BIO leveraged modern technology, including a multi-agent paper-to-digital form conversion tool and a Model Context Protocol (MCP) server that replicated established form patterns and streamlined adoption of platform requirements like the VA Design System (VADS) and the VA Forms framework. By reducing manual compliance checks and enabling faster feedback during development, the team increased both the pace and quality of delivery, illustrating how shared standards, when paired with modern tooling, can reduce delivery risk without introducing additional process overhead or diminishing consistency across the platform.
+In addition to benefiting from these shared standards, the BIO team actively contributed to their evolution. As part of the effort, BIO supported user research on form components and proposed improvements to commonly used elements, such as the SSN and VA file number fields, which testing showed were not consistently understood by users. These contributions directly informed updates that enhanced clarity, plain language, accessibility, and the overall consistency of Veterans' experiences when interacting with forms on VA.gov
+This work also surfaced opportunities to build on the BIO approach by developing a more robust, shared form-building capability that promotes consistency in code consistency, design components, plain language content, accessibility, and experience, while remaining easier to maintain and adopt across
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 7
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+services. Rather than relying on shared runtime services or tightly coupled frontend codebases, this points toward investing in reusable components, tooling, and standards that individual services can adopt or leverage independently.
+At the same time, BIO highlights areas where the current platform structure continues to introduce friction. Horizontally segmented codebases, limited discoverability of API documentation, and process-intensive review workflows increased coordination costs and slowed delivery. In some cases, changes to a single BIO workflow still required synchronized updates across multiple repositories, increasing cycle time and the risk of unintended interactions.
+
+Case Study 2: Grants.gov Modernization The Grants.gov modernization effort provides a complementary example, demonstrating how a service-based architecture approach can be intentionally incorporated into a program from the outset, even as the platform's scope continues to evolve.
+For example, Simpler.Grants.gov (SGG) is the modernized public entry point for searching and applying for federal grant opportunities. Like VA.gov, it consists of separate frontend and API applications; however, both are managed within a single repository. This structure streamlines local development, testing, and deployment through a root-level Docker Compose configuration, end-to-end tests, and coordinated but independent CI/CD workflows. As a result, the team can coordinate and deploy changes across different portions of this codebase more efficiently and with greater confidence.
+In parallel, another vendor team has developed an application that enables grantors to draft and generate more accessible Notices of Funding Opportunities (NOFOs). This application, the NOFO builder, is deployed to the same AWS infrastructure as SGG with shared logging and monitoring, but is managed in a separate repository with its own CI/CD workflows and deployment cadence. Rather than requiring both teams to manage code in a single repository to share infrastructure and operational capabilities, the teams aligned on common tooling (e.g., Terraform, Docker, New Relic) and open standards that allow CI/CD workflows to be triggered across repositories. This approach enables each team to deliver within a vertically integrated service model while still benefiting from shared platform-level capabilities.
+These same principles are embodied in the CommonGrants data standard and protocol, which Agile Six has been contracted to develop for the modernization effort. Intended to serve as a FHIR-like data standard for the grants ecosystem, the protocol is now required for new modernization services. However, instead of enforcing compliance through manual review and coordination across vendor teams, Agile Six has invested in shared tooling to simplify adoption and validation. Delivered and maintained by a three-person team, this work includes a versioned OpenAPI specification, Python and TypeScript software development kits (SDKs) to streamline implementation, client libraries for API consumers, and a CLI tool that automatically checks API compliance. Collectively these resources shift standards enforcement earlier in the SDLC with significantly less overhead and boilerplate code.
+
+Applying These Lessons Incrementally Taken together, these case studies point to an incremental approach that preserves the maturity of the existing VA.gov ecosystem while selectively introducing vertical consolidation and shared tooling to enable faster delivery within services and maintain consistency across the platform.
+Building on this approach, progress does not require a single, large-scale replacement of the VA.gov platform. Instead, it can be achieved by applying two complementary practices in parallel. First, new or relatively isolated workflows like BIO can be implemented as self-contained services with clear ownership for delivery, testing, and operations. Second, functionality that primarily exists to enforce consistency or reduce duplication, such as VADS or shared form components, can be shifted into common
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 8
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+tooling and standards that services adopt independently, similar to the SDKs and compliance tooling developed for CommonGrants.
+Applied together, these practices allow teams to move faster within their own services without creating new fragmentation across the platform. Just as importantly, they provide a way to improve reliability and maintainability over time without disrupting existing Veteran- or staff-facing services. This work can proceed incrementally, service by service. Rather than replacing existing systems outright, functionality can be reorganized and migrated gradually using a strangler fig pattern, reducing reliance on tightly coupled, horizontally organized codebases as clearer service boundaries are established. This approach emphasizes continuity and risk management over wholesale change.
+Throughout this process, teams will need to make deliberate decisions about scope and structure. Examples include determining which workflows should be managed together, which responsibilities are better handled through shared tooling, and when services should share repositories or be managed independently. These choices involve tradeoffs between delivery speed, operational risk, and long-term sustainability and should be evaluated based on observed outcomes rather than fixed assumptions.
+The ability to apply this approach effectively depends not only on technical design, but on how work is scoped, sequenced, and delivered. The following section describes how acquisition and delivery strategies can support this model while minimizing disruption and preserving continuity of service.
+3.3 | Structuring Acquisition and Delivery Teams
+Based on sustained delivery across VA.gov efforts, including BIO, we have observed that acquisition structure is a primary driver of delivery speed, accountability, and value to the Government. Technology and talent matter, but the contracting model strongly influences delivery behaviors, incentives, and ultimately the outcomes Veterans experience. As such any VA.gov efforts may struggle to achieve materially better results if they continue to rely on acquisition patterns optimized for staff augmentation, hours tracking, and activity-based oversight. These models diffuse accountability, slow decision-making, and make it difficult to hold vendors responsible for outcomes.
+3.3.1 | Shift from Labor-Based Models to Outcome-Based Delivery The most effective VA.gov work has been delivered under clear, outcome-oriented scopes using firm fixed price or milestone-based constructs. For example, the BIO effort succeeded because the contract established clarity around the outcomes to be achieved, how success would be measured, and where accountability sat, while still allowing teams the space to learn, iterate, and refine solutions through discovery and user-centered design as delivery progressed. Accountability for results was fixed but the path to achieving those results was intentionally flexible. This structure allowed the Government to focus on removing blockers, aligning stakeholders, and making policy decisions, while the vendor team owned execution end-to-end.
+By contrast, labor-centric models incentivize capacity consumption rather than progress. They also retain delivery and integration risk on the Government side while limiting contractual mechanisms to correct course when outcomes fall short. They encourage vendors to protect scope, maximize staffing, and defer hard tradeoffs. From a business case perspective, this is not the best value for the Government. From a delivery perspective, it is a primary reason progress feels slow despite significant investment. For this effort, we recommend the acquisition should emphasize:
+ Clearly defined outcomes and acceptance criteria tied to Veteran-facing improvements  Firm fixed price or milestone-based structures, where appropriate  Accountability for delivery quality and outcomes, not throughput or utilization
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 9
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+3.3.2 | Clarify Ownership and Avoid Blended Product Authority A recurring and inefficient contract model blurs ownership between Government and vendor roles, particularly around product direction. When multiple Government stakeholders provide sprint-level direction while vendors retain responsibility for outcomes, accountability becomes difficult to enforce. Contracts should designate a clear Government product owner and executive sponsor to support aligned decision-making and prioritization. Effective models establish clear separation of responsibility such that the Government sets priorities, defines outcomes, removes organizational blockers, and validates quality and vendor teams responsibility focuses on research, solution design, implementation, testing, and delivery within those guardrails.
+This separation is not about relinquishing control, but rather building trust with stakeholders to allow for all parties to do their part to achieve the desired end result. It is about creating conditions where accountability is real and measurable, and where Government oversight focuses on what matters: strategy, priorities, and results.
+3.3.3 | Favor Small, Long-Lived Teams Over Rotational Staffing Evolving VA.gov sustainably will benefit from smaller, stable teams with longer periods of responsibility rather than large pools of interchangeable staff. Small, autonomous teams with end-to-end ownership learn faster, make better tradeoffs, and deliver more consistently over time. Teams with sustained ownership develop shared context, reduce handoffs, and improve flow, enabling faster learning and more reliable delivery over time.
+In addition, longer-lived contracts aligned to services or workflows, rather than short-term tasking tied to narrow features, enables vendors to invest in quality, automation, and maintainability. They also reduce transition risk, which is especially important for a platform as visible and mission-critical as VA.gov. Let work come to capable teams rather than assembling teams for each new piece of work. Organizing around long-lived teams minimizes waste and administrative burden on government staff associated with repeated onboarding, coordination overhead, and rework. Teams with end-to-end responsibility can continuously improve service quality while maintaining continuity for Veterans.
+3.3.4 | Create Acquisition Pathways That Enable Speed and Accountability Finally, acquisition must enable rapid starts, incremental learning, and evidence-based scaling. Large, monolithic procurements with long lead times increase risk and reward incumbency rather than effectiveness. VA has an opportunity to structure acquisition that:
+ Enables smaller pilots with clear success criteria and defined off-ramps, with the ability to scale based on demonstrated results
+ Holds vendors accountable for measurable outcomes, not activity  Retains flexibility to adjust or transition approaches as performance, requirements, or conditions
+evolve, without destabilizing the platform.
+4 | Additional Information Relevant to VA's Objectives
+Within the constraints of this RFI, Agile Six has provided the information most relevant to VA's stated objectives. We recognize that many of the considerations outlined here benefit from deeper discussion and shared exploration. We would welcome the opportunity to continue the conversation with VA as it evaluates options for the future evolution of VA.gov.
+
+Procurement Sensitive: Use or disclosure of data contained on this   sheet is subject to the restriction on the title page of this proposal. 
+
+Notice ID: 36C10B26Q0131 February 4, 2026 | 10
+
+Appendix Diagram 1: From Horizontal Layers to Vertical Services
+
+Replacement Model for VA.gov | RFI Agile Six Applications, Inc.
+
+Procurement Sensitive: Use or disclosure of data contained on this  
+
+
+
+sheet is subject to the restriction on the title page of this proposal. 
+
+
+
+
+
+
+
+Notice ID: 36C10B26Q0131
+
+
+
+
+
+
+
+
+
+February 4, 2026 | 11
+
+

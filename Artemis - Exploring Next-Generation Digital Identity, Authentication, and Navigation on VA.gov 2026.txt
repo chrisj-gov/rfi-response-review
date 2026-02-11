@@ -1,0 +1,371 @@
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov
+Response to Request for Information (RFI) No.: 365357
+
+Request for Information Date: 02/05/2026; NLT 12:00 PM EST
+
+Submitted by:
+
+Submitted To:
+
+Name: Tiffany Bailey
+
+Name: Allison Fulton
+
+Phone: 571.232.5193 tbailey@aretum.com contracts@aretum.com Artemis Consulting 1750 Tysons Blvd, Suite 1500, McLean VA 22102 Aretum LLC 7315 Wisconsin Ave, Ste. 500W Bethesda, Maryland 20814
+
+Email: Allison.fulton@va.gov Name: Evan Schlisserman Email: evan.schlisserman@va.gov Agency: The U.S. Department of Veteran Affairs (VA), Technology Acquisition Center Address: 23 Christopher Way Eatontown, New Jersey 07724
+
+This entire Request for Information is valid for 180 calendar days from receipt by the government.
+CAGTEhisCdoocdumee:n9t cJoLnTta4ins| cUonEfidIe:ntial, trade secret, commercial or financial information owned by Aretum LLC and its affiliated companies. It is
+
+XEex3eCmpJtLfr8oGm8diEscHlo5suCreAunGdeEr tCheoFdreee:do3m6Wof IMnfo5rm| UatiEonI:Act (5 U.S.C 552) under Exemption (b)(4), and its disclosure is prohibited under the Trade
+Secrets Act (18 U.S.C 1905) and FAR 24.202. This document shall not be copied or reproduced in whole or in part for any purpose whatsoever.
+LLHCL8JNF915
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+Table of Contents
+1. Company/Organization Overview............................................................................................ 1 2. Information on Solutions, Technologies, and Approaches ...................................................... 1
+2.1 Relevant Ideas, Capabilities, and Approaches .................................................................1 2.1.1 Website Modernization ................................................................................................1 2.1.2 Human Centered Design ..............................................................................................2 2.1.3 Section 508 Compliance ..............................................................................................2 2.1.4 DevSecOps and Shift Left ...........................................................................................3 2.1.5 Infrastructure-as-Code (IaC) ........................................................................................3 2.1.6 Containerization ...........................................................................................................3 2.1.7 Observability................................................................................................................4
+2.2 Case Studies .....................................................................................................................4 2.2.1 NLS Web Development (National Library Service for the Blind and Print Disabled (NLSBPD) Web Development .................................................................................................4 2.2.2 United States Copyright Office (USCO) Enterprise Copyright System (ECS) Modernization ...........................................................................................................................5 2.2.3 Congress.gov................................................................................................................6
+2.3 User Journey Workflows .................................................................................................8 2.3.1 Identity Proofing Workflow.........................................................................................8 2.3.2 Sign-in and Authentication Workflow.........................................................................8 2.3.3 Account Recovery Workflow ......................................................................................8 2.3.4 Navigation, Authorization and Session Management..................................................8
+2.4 Limitations, Risks, and Tradeoffs ....................................................................................9 2.4.1 Operational and Continuity Risks ................................................................................9 2.4.2 Integration and Legacy Limitations .............................................................................9 2.4.3 Environmental and Regulatory Constraints .................................................................9 2.4.4 Scope and Governance Challenges ..............................................................................9 2.4.5 Ensuring Scalability and Future Adaptability..............................................................9
+2.5 Lessons Learned...............................................................................................................9 2.5.1 Additional Trade-Offs We've Encountered...............................................................10
+List of Figures
+Figure 1. High-Level NLS AAA IAM Architecture..................................................................... 11 Figure 2. Zero-Trust Architecture................................................................................................. 11
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+i
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+1. Company/Organization Overview
+Artemis is a leading provider of digital transformation and enterprise technology solutions for the government agencies. With a strong presence in Washington, DC, Artemis specializes in designing, building, and operating secure, accessible, and scalable digital platforms for federal agencies and large public-facing organizations. Our team brings deep expertise in digital identity, authentication, and user experience, with a proven track record supporting high-profile initiatives such as the Library of Congress (LOC.gov), the National Library Service for the Blind and Print Disabled (NLS), and the Enterprise Copyright System (ECS). Artemis delivers solutions that emphasize universal accessibility, Section 508 and WCAG 2.1 AA compliance, and seamless integration with both legacy and modern systems. We employ Agile delivery methods, robust DevSecOps practices, and a platform-based architecture to ensure rapid, reliable, and secure deployment of mission-critical services. Artemis is committed to innovation, inclusion, and measurable outcomes, helping government clients achieve their goals while serving all users, regardless of ability, location, or digital literacy.
+2. Information on Solutions, Technologies, and Approaches
+2.1 Relevant Ideas, Capabilities, and Approaches
+Artemis's experience in supporting large, public-facing digital platforms, including congress.gov, the National Library Service for the Blind and Print Disabled (NLS) and US Copyright office's Enterprise Copyright System (ECS) demonstrate the importance of embedding accessibility, security, scalability and inclusion from the outset to ensure mission success. On these projects, Artemis ensured compliance with Section 508 and WCAG 2.1 AA standards, implemented mobile-first responsive design, and prioritized plain language throughout all user-facing workflows. For NLS, Artemis worked closely with users who have a wide range of disabilities, iteratively testing identity and authentication workflows with diverse personas to ensure usability and reduce abandonment or failure rates during enrollment and login. This approach has consistently resulted in higher user satisfaction and broader adoption across varied populations. In this section we will present a few ideas, our capabilities and approaches that can be applied to VA.gov's modernization efforts.
+2.1.1 Website Modernization
+Artemis is at the forefront of many website modernization efforts, such as the congress.gov, crs.gov and loc.gov. We have provided several innovations in this area that include semantic search, chatbots for more effective content retrieval, effective consolidation of websites into a single CMS platform and many complex and visible modernization efforts that served millions of end users. VA should consider consolidating the isolated website content into a common platform, incorporate CMS management workflows through integration with federated identity services and role management, incorporating semantic search for more effective content retrieval and conversational services powered by AI to provide a better human interaction experience for hosted content. Our emerging technology team has implemented such innovations in our FedNav application. FedNav can ingest content, organize the data semantically and assist the end users in finding the required content with a minimum of effort. Reducing the accessibility barrier for content will ensure that the VA's user community makes better use of all the resources and content published by the VA.
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+1
+
+2.1.2 Human Centered Design
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+
+Artemis focuses application and website development on the users' needs to make the content and applications intuitive to use and incorporate into their daily lives. Our expertise and experience with Human Centered Design (HCD) principles have proved to be invaluable in achieving this objective. HCD focuses on the human experience of our end-users when accessing our content and uses design principles that use psychological insights into the human mind to make web applications and content more meaningful, useful and accessible. This significantly reduces training requirements; calls for assistance and the frustration associated with finding useful information for a business process or a service. At Congress.gov we were able to use HCD to successfully serve a vast user community resulting in over 40 million visits in 20025 and content contributors to deliver an intuitive website that was easy to use and navigate as evidenced by the overwhelmingly positive survey responses we received from the user community. VA should consider key aspects of HCD such as user research, persona development and pain point identification. User research includes activities such as interviews, surveys and brainstorming sessions with stakeholders and user community representatives. Pain point identification involves analyzing this data to perform root causes analysis and point out sources of frustration for users. Persona development involves creating user archetypes that yield insights into the design expectation of users when they interact with our content and web application. Journey mapping allows us to visualize the path a user would follow that would reduce the friction a user experiences when they make first contact with the application. Service blueprints could be created from all this research data that will guide in backend system design thereby creating a harmonious system that will be well-received by end users and will be easy to maintain. Adopting HCD principles will allow the VA to iteratively prototype with real, usable data from end users and combined with agile software development, will significantly reduce the effort to get an application, services or workflow right on the first try.
+
+2.1.3
+
+Section 508 Compliance
+
+At Artemis, we pride ourselves on our commitment to accessibility. We have introduced several innovations to Section 508 compliance using shift-left principles to bake accessibility into all our userfacing applications, websites and content by design. By choosing a design palette that already includes accessibility principles in color choices, component design and behavior, we significantly reduce the effort and cost required to keep an application or website accessible. In our Congress.gov effort, we leveraged WordPress plugins that were already Section 508 compliant and greatly reduced the amount of work needed to remediate compliance issues before publishing content. VA should consider several innovations in this space to reduce the time and cost of maintaining Section 508-compliance. Design Linting tools can allow designers real-time feedback during content editing and application design. IDE plugins could provide real-time feedback to developers and content publishers. Compliance verification tools can be integrated into build pipelines to publish compliance reports that can then be used in quality gates to prevent non-compliance code from being released to the Quality team for testing. Automated crawling tools can be incorporated into the quality gates during the release process to methodically verify compliance. AI agents that provide Section 508 compliance are also a useful tool in this effort. When the application is deployed to production, observability tools can measure compliance-drift in production. By treating Section 508 compliance not as an afterthought, but as a core activity, VA could reap the rewards of continuous compliance and budget savings while continuing to serve their users' diverse accessibility needs.
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+2
+
+2.1.4
+
+DevSecOps and Shift Left
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+
+Artemis employs DevSecOps, Test Driven Design (TDD) and Behavior Driven Design (BDD) best practices to rapidly develop, test and deploy resilient, performant and compliant web applications. These practices were central to the modernization and development of the ECS platform for the U.S. Copyright Office. By using a Shift-Left approach, we validated assumptions early and adapted quickly as requirements evolved with customer feedback. Artemis supported frequent releases, maintained transparency, and identified integration, security and usability challenges early in the development lifecycle. These practices reduced downstream risk and ensured that solutions remained aligned with user and stakeholder needs throughout the project lifecycle. Our heavy emphasis on automation for incorporating code quality, application security, supply chain security, 508 compliance, unit testing, integration testing, end-to-end testing, and deployment to production enabled us to deliver new features and enhancements to end users quickly and reliably.
+
+2.1.5 Infrastructure-as-Code (IaC)
+
+Infrastructure as Code (IaC) provides VA with a low-risk, disciplined approach to modernizing the infrastructure that supports VA.gov while preserving continuity of service for millions of users. For a highly visible, mission-critical platform, IaC reduces the operational risk inherent in manually managed, VM-centric environments by enabling infrastructure to be managed in a consistent, repeatable, and auditable manner. Using existing VA Enterprise Cloud capabilities such as Terraform and GitHub Enterprise, VA can standardize infrastructure patterns across environments, reduce configuration drift, and improve reliability without introducing new platforms or dependencies. IaC directly supports VA's need for incremental, reversible change by allowing infrastructure updates to be validated and deployed alongside existing environments, with the ability to confidently revert if issues arise. This approach also enables VA to modernize without forcing downstream system changes by preserving stable integration points as underlying infrastructure evolves, improving long-term integration reliability. By embedding security controls consistently and making the desired state of infrastructure explicit, IaC strengthens security posture, supports elastic scaling, and increases confidence in change over time. While adoption requires planning and skill transitions, a phased approach allows these practices to mature gradually, enabling a non-disruptive transition to a more resilient, scalable, and governable VA.gov platform.
+
+2.1.6
+
+Containerization
+
+An incremental transition toward a container-based microservices architecture is a viable approach VA could consider for modernizing VA.gov while managing scale, complexity, and operational risk. For a mission-critical platform serving millions of users, this model supports more controlled and predictable change by reducing the blast radius of updates and isolating impact to individual capabilities rather than the entire system. By leveraging existing enterprise container platforms such as VA Platform One or managed container hosting and orchestration services in AWS and Azure, VA can pursue this evolution using secure, compliant infrastructure and services already in place, avoiding the cost and risk of standing up new platforms and environments. A microservices approach enables services to scale independently in response to uneven demand patterns, improving stability during usage spikes and helping maintain continuity of service. It also allows VA to modernize incrementally without forcing downstream system changes by preserving stable integration interfaces as implementations evolve, reducing integration fragility and improving long-term reliability. Embedded, layered security and improved operational visibility further strengthen VA's ability to operate in a regulated, highly scrutinized environment. While this approach introduces new operational considerations, a phased adoption allows capabilities and skills
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+3
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+to mature gradually, supporting a non-disruptive transition to a more resilient, scalable, and adaptable VA.gov platform.
+
+2.1.7
+
+Observability
+
+Artemis deploys the three pillars of observability - metrics, logs and traces to understand what is happening in a complex production system in operation. This allows us to connect the dots across components, services, and networks to keep track of system operation, failures, and incidents. We leverage distributed log aggregators to centralize metrics, logs and traces to build operational dashboards which can then be used by operations to track load, detect failures, and respond to incidents and problems. On the ECS contract, we deployed observability best practices to support our ECS platform in production. VA has already invested in Enterprise Splunk services. This can be leveraged to aggregate observability data in a centralized platform. These logs can be processed to add context related to operation of a specific business process at a specific location. Analytics can be built on top of observability to create alerts, alarms, summary data, and roll-up indicators that yield better situational awareness for executive leadership to make decisions about business processes. Observability when implemented correctly can significantly reduce the research time required for the operations team and the Tier 3 support engineers to quickly diagnose a problem and address the root cause. This leads to better quality of service, less disruptions due to incidents and more efficient operation.
+
+2.2 Case Studies
+
+2.2.1 NLS Web Development (National Library Service for the Blind and Print
+
+Disabled (NLSBPD) Web Development
+
+Background: Since 2015, Artemis has partnered with the National Library Service for the Blind and
+
+Print Disabled (NLSBPD) to provide comprehensive web development, support, and maintenance
+
+services. The NLSBPD is a critical resource within the Library of Congress, offering accessible
+
+information and services to individuals with visual and print disabilities.
+
+Scope and Objectives: Artemis's contract encompassed the ongoing technical support, enhancement, and
+
+modernization of five accessible NLS websites, three of which are public facing. The primary objectives
+
+were to ensure accessibility compliance, optimize content management, and improve overall site
+
+performance, while leveraging standards and tools consistent with loc.gov processes.
+
+Key Activities and Solutions:
+
+· Provided expert support for the main NLS public-facing website, the "That All May Read"
+
+microsite, the Spanish-language microsite, the Intranet site, and the Network Services website.
+
+· Developed and launched the Spanish and "That All May Read" microsites, including server
+
+pipeline setup, template creation, and integration of necessary plug-ins.
+
+· Executed a large-scale reorganization of web content, publishing workflows, updating navigation,
+
+data structures, scripts, styling, and custom modules to streamline over 1,000 pages and 1,500
+
+posts across the Network Services and main public-facing sites.
+
+· Leveraged the WordPress Content Management System (CMS) to ensure all websites are fully
+
+accessible, optimized, and maintainable.
+
+Technical Enhancements:
+
+· Maintained servers and software infrastructure to support ongoing NLS operations and staff
+
+needs.
+
+· Implemented and managed restricted access for users through NLS's single-sign-on (SSO)
+
+system and OAuth2/OIDC-based SSO as shown in Figure 1, ensuring secure and seamless
+
+authentication.
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+4
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+· Developed and deployed custom software and plugins to integrate with the Natural Language Databasing-2 (NLDB-2) API, enabling efficient data exchange between systems.
+Project Management Approach: · Adopted Agile methodology, specifically the Kanban approach, to manage user stories and prioritize tasks within sprints based on story points and team input. · Conducted biweekly project meetings involving the Office of the Chief Information Officer (OCIO), NLS leads, product owners, and other stakeholders to review progress, report on completed user stories, and address any emerging issues.
+Outcomes: Artemis's ongoing partnership with NLSBPD has resulted in highly accessible, reliable, and user-friendly web platforms that support the needs of diverse users. The collaborative and iterative approach has ensured continuous improvement, timely issue resolution, and alignment with the Library of Congress's broader digital strategy.
+2.2.2 United States Copyright Office (USCO) Enterprise Copyright System
+(ECS) Modernization
+Background, Goals, and Solutions: Artemis Consulting LLC (Artemis) is the prime is supporting the United States Copyright Office (USCO)'s multi-year effort to modernize its IT systems to enhance USCO's ability to deliver quality, scalable services; improve user experience and adoption; increase productivity, and, in turn, reduce processing time. A key goal of modernization is to develop a new Enterprise Copyright System (ECS) that integrates and improves all USCO's technology systems. The program operates in AWS GovCloud, using Scaled Agile Framework (SAFe). Since initial release, modernization has focused on introducing new cloud-native capabilities while keeping legacy processes available; directly reflecting the stated requirement to modernize applications while maintaining legacy operations. The legacy system has posed challenges such as poor user experience, lack of accessibility, and low user engagement, frequent filing errors via a paper-based filing system led to average processing times of 1214 months for Copyright requests and monolithic application was difficult-to-maintain. We prioritized replacing the Recordation process with a digital solution via a phased migration. This allowed us to refine the system based on user feedback while other requests continued in the existing system. New teams were formed to work on Public Records, Licensing, and Registration. This approach allows modern capabilities to be introduced incrementally while legacy workflows continue to operate until cutover criteria are met. This solution was designed and developed as a reusable platform to serve as the foundation for future modernization efforts across other divisions. Key architectural principles (as shown in Figure 3) include Microservices for scalability, Domain-driven and event-driven design for modularity, Cloud-native service integration for resilience and Single-Page Angular Applications designed and built on U.S. Web Design System (USWDS) based design system for better user experience (UX) and accessibility. Out comes: The modern Recordation system has delivered significant benefits (as evident in Artifact 6, which we contributed to developing as part of USCO's public reports to Congress) such as:
+· Copyright applications' processing time decreased from 12-14 months to just days.
+· New application filings for recordation increased to ~10,000 per year, up from ~6,000-8,000 with the paper-based system.
+· The system is nimble, modular, flexible, and easy to maintain, achieving 99.99% uptime.
+· Sign-in via Login.gov credentials allow users to use their existing login.gov identity.
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+5
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+In addition, the platform's event-driven architecture collects user actions as JSON-formatted time-series events in Elasticsearch, enabling business analytics and fine-grained auditing:
+
+· Identifying Bottlenecks: Reducing the assignment limit from 10 to 5 requests improved efficiency, once data analysis surfaced staff assigning excess requests, making them sit in "not-started" queue.
+· Measuring Staff Performance: Metrics at the individual and division levels allow for effective training and resource allocation.
+· Security and process Audits: Staff can retrieve complete audit trails for user-requested reviews.
+
+IMPACT: Replacing the recordation while running other legacy components demonstrated how a modern, scalable platform can transform legacy systems, enhance user experience, and significantly improve operational efficiency, while sustaining legacy operations. The Public Records and Licensing systems followed this success - Registration is also being modernized on the same platform. This demonstrates our ability to (1) deliver a modern, cloud-native platform while legacy systems remain in service; (2) execute phased migrations with clear cutover and coexistence. Project Management Approach: Artemis executes ECS development using the Scrum methodology, in alignment with the Library's Project Management Life Cycle (PMLC), Software Development Life Cycle (SDLC), and Agile best practices. Each implementation cycle is structured as a 3-week sprint. At the beginning of each sprint, the Scrum Master collaborates with the Library-assigned Product Owner to establish a clear Sprint Backlog, ensuring alignment with the product roadmap and release plan. At the sprint's conclusion, the team checks all code and configurations into the source repository and deploys updates into the Test environment. Sprint Review ceremonies are held to demonstrate completed user stories to stakeholders, with completion determined by a team "definition of done." Operations and Support: In addition to ongoing ECS development, Artemis is responsible for Tier 2 and Tier 3 production support and maintenance of active modules. The team promptly investigates userreported issues, identifies causes; whether bugs, configuration problems, or data irregularities, and works with the government Product Owner to assess severity and prioritize resolution. This ensures rapid response to operational needs and continuous system reliability.
+
+2.2.3 Congress.gov
+Congress.gov is the official website for U.S. federal legislative information. The site provides access to accurate, timely, and complete legislative information for Members of Congress, legislative agencies, and the public. The site gets over 40 million visits a year. It is presented by the Library of Congress (LOC) using data from the Office of the Clerk of the U.S. House of Representatives, the Office of the Secretary of the Senate, the Government Publishing Office, Congressional Budget Office, and the LOC's Congressional Research Service. Artemis developers and User Experience designers helped migrate a legacy platform that used Perl and PHP to a modern web application stack that uses modern JavaScript based frameworks like VueJS and Python Django. A new WordPress platform helps manage help and landing pages related to content management as opposed to older content hard-coded into static HTML files. Artemis team work on the web application in PHP (Symfony framework) and VueJS. Our developers migrated old ingest code written in languages such as Snobol into Python Django. They work on the Extract-Transform-Load (ETL) and create APIs in Python (Django framework). The project follows the Agile Scrum methodology, with the team closely collaborating with analysts, designers, SMEs, and testers on regular release cycles. The team is in charge of delivering 3-week sprints. Congress.gov includes the following content and functionality scope:
+· Congress.gov public Item detail pages and Section landing pages (committees, members, etc.)
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+6
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+· Congress.gov public Help portal and Congressional Record content
+· Legislative content (including legacy Congressional data and content sets including Treaties, House Communications, Senate Communications, and Bound Congressional Record)
+· Legislative data Extract, Transform, and Load (ETL) processes
+· Congress.gov public Application Program Interface (API)
+· Alerts (generation, management, and user-tools for subscribing)
+· Web-based tools to allow CRS Legislative Information Specialists to update bill profiles to reflect the status
+Artemis Consulting's development support includes the architecture, design, development, and testing of new functionality as well as updating existing functionality. Artemis developed APIs used by GPO and the House and Back-end search functionality using Solr. Artemis developed the ability to view and search bill text in text, XML, and PDF formats, and to allow full-text search and fielded searches. Congress.gov is developed using PHP, Python, Solr, JavaScript, HTML, and CSS. Admin Tools is being developed using AngularJS and Symfony, and HTML/CSS. Long-term results achieved: Migration of old codebase into a new modern platform using user-centric design. Modernization of the old LIS and THOMAS systems with the congress.gov platform with better ETL, search, and web presentation capabilities. This improves findability of content by both Congressional staff and the public, as well as allows for the incorporation of responsive web design, accessibility, and modern development practices.
+· Modernization of the old LIS and THOMAS systems with the congress.gov platform with better ETL, search, and web presentation capabilities. This improves findability of content by both Congressional staff and the public, as well as allows for the incorporation of responsive web design, accessibility, and modern development practices.
+· Modernization of the technical stack and incorporation of continual improvement and technical debt remediation, as well as a well-defined CI/CD and DevOps pipeline
+· Containerization of the application components using Docker to make it cloud-ready
+Agile Software Development: Since 2016, the team has leveraged the Agile Scrum methodology to deliver functional software every three weeks. As part of each sprint, the team creates and validates the backlog, epics, stories, and acceptance criteria with the client teams and SMEs to ensure accurate tasking and sprint velocity. During these release cycles, the team also provides release management, security compliance, deployment, and Agile coaching. More recently, the team moved the application stack into microservices using Docker containers technology. Systems Integration, DevOps, and Continuous Delivery: For System Integration and DevOps, the team installed and configured Jenkins as the CI/CD pipeline to enable integration between GitLab, Jenkins, and Jira. The team's innovative approach has resulted in automated builds and deployments, improved quality, and reduced risks for over 50 congress.gov releases using continuous delivery. User Experience and Interface Design Services: For the Congress.gov project, we provide User Experience and interface design services to create designs based on user research and business requirements. We have applied design thinking, user-centered design, and usability testing within the program. We implemented the iterative design process leveraging "research, design, test, and repeat." For the project, we conduct user interviews, surveys, and card sorting exercises to help us understand the user and to produce user flows, personas, affinity maps, and any documents necessary. Part of our approach is ideating, creating lo-fi sketches paper prototyping, clickable prototypes, and Comps to make ensure the solution meets business requirements.
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+7
+
+2.3 User Journey Workflows
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+
+When designing workflows to address identity proofing, sign-in, account recovery and navigation for a large site like VA.gov, both in terms of amount of content and its user base, it's very important to create a balance between security, usability and scalability. The approach should prioritize user experience while meeting required security controls and following Zero Trust Architecture as described in Figure 2. Each user journey should be designed as a modular component while working within an identity platform. This will ensure reuse, policy-driven variations, and continuous improvement. The strategy should be to iterate on these journeys by establishing a feedback loop between UX, architecture, and security teams, until optimal design is achieved. Artemis has demonstrated experience in these areas on efforts such as LOC's NLS, LOC.gov and USCO's ECS programs as described in the case studies.
+
+2.3.1 Identity Proofing Workflow
+
+The identity proofing workflows should establish assurance levels of identity that are in alignment with NIST 800-63-3 identity assurance level (IAL). This workflow will usually begin with account initiation and user contact verification using out-of-band channels such as email/SMS and is followed by collection of identity attributes that are required for proofing. The verification steps may include authoritative data validation, document verification (with OCR and liveness detection), and biometric comparison. This is typically done by integrating with identity proofing providers and fraud detection services via RESTful APIs, applying automated decisioning, retry thresholds, and manual adjudication workflows when elevated risk or anomalies are detected.
+
+2.3.2 Sign-in and Authentication Workflow
+
+This workflow implements modern authentication standards such as OAuth 2.0, OpenID Connect (OIDC), and SAML 2.0 to support federated and application-based access. Authentication policies should prioritize password-less mechanisms such as FIDO2/WebAuthn, authenticator apps, and certificate-based authentication, with multi-factor authentication (MFA). To establish an adaptive authentication, the system should evaluate contextual signals such as device posture, IP reputation, geolocation, and behavioral telemetry to dynamically adjust authentication requirements. A policy should be established for managing user sessions and token lifetime, balancing user convenience with security.
+
+2.3.3 Account Recovery Workflow
+
+While designing the account recovery workflow, it's important to meet or exceed the original authentication and assurance needs while preventing these recovery paths from becoming the weak links in the overall security posture chain. This process should include multi-factor and multi-channel verification, knowledge-based elements, and re-verification of identity attributes if needed. Recovery process events must be logged, correlated, and monitored through security analytics and SIEM integrations.
+
+2.3.4 Navigation, Authorization and Session Management
+
+Once users have established accounts, their identity has been verified and system has authenticated the user, next step is to ensure user's navigation and authorization are governed by centralized access control policies using role-based access control (RBAC) and possibly attribute-based access control (ABAC). The authorization decisions are enforced by both the application and the API layers, using claims and token inspection created during the authentication step. Session management policies will define session idle timeouts, re-authentication triggers, and if needed, step-up authentications for sensitive actions.
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+8
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+2.4 Limitations, Risks, and Tradeoffs
+
+We believe while undertaking a complex undertaking to modernize and replace Va.gov, one should consider following points:
+
+2.4.1
+
+Operational and Continuity Risks
+
+Modernizing the VA's central entry point for benefits, healthcare, services, and information presents a delicate balance between continuity and change. Considering the site supports millions of users, any disruptions can have a major impact of the VA's mission. Migrating such a large content base runs the risk of broken links, lost data, or downtime. It is important to consider the speed of modernization and operational stability while defining a roadmap for this effort.
+
+2.4.2 Integration and Legacy Limitations
+Another major consideration is the limitations provided by legacy systems that the new system will still need to integrate with. Even with a modern front-end design, the new VA.gov platform is still dependent on its backend systems; some of these are legacy technical stacks. Integration with a wide array of old and emerging systems can have an impact on the performance and reliability of the site, it is very important to address the underlying technical architecture while focusing on visual experience during a major modernization.
+
+2.4.3 Environmental and Regulatory Constraints
+The project is limited by the strict environment in which it operates. This presents a tradeoff between agility and compliance, as the system must meet rigorous VA and other federal standards while attempting to provide a "premier, modern" user experience.
+2.4.4 Scope and Governance Challenges
+
+As stated by the VA, "replacing VA.gov is not solely a technical challenge," so it is crucial not to view this effort as merely an IT project. Addressing the needs of all stakeholders, especially the site's users, is essential for meaningful improvement. Achieving this requires complex coordination across multiple nontechnical domains, including experience design and content strategy, governance and operating models, as well as analytics and platform architecture.
+
+2.4.5
+
+Ensuring Scalability and Future Adaptability
+
+Finally, the solution must be designed with scalability, adaptability, and resilience in mind. Building the current user base is only part of the challenge; technology decisions made today must also allow for future growth and integration with new technologies such as AI or mobile standards. Choices driven by immediate regulatory needs may inadvertently create limitations that lead to technical debt, potentially hindering the platform's evolution in the years ahead.
+
+2.5 Lessons Learned
+
+Based on our hands-on experience supporting LOC.gov and similar large-scale government platforms, we've seen firsthand that implementing advanced digital identity and authentication always comes with some real-world limitations and tradeoffs. Integrating new authentication solutions with legacy systems, for example, is rarely straightforward. Many older platforms just weren't built to accommodate modern protocols or accessibility enhancements, so bridging those gaps takes significant planning and effort. And while we're committed to universal accessibility, something we've prioritized at LOC and ECS meeting the needs of such a diverse user base is an ongoing journey. One such example, on ECS we had to ensure
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+9
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+a user among prison population can file a copyright claim, and since they may not have access to a phone for MFA, we ensured that the authentication method included a set of codes that can be downloaded to be used for MFA purposes. There's always a balance between investing in the latest assistive technologies and keeping up with the constant influx of new devices and requirements. We've also learned that security and usability don't always pull in the same direction. Stronger authentication measures, like MFA or FIDO2 passkeys, do a great job of protecting accounts, but they can sometimes create barriers for users who aren't as comfortable with technology or who have spotty internet access. Our goal is to ensure that, while we keep security front and center, we don't lose sight of user experience, especially for those who might need extra support. When we try to streamline workflows and make the process easier for everyone, there's always a risk that risk-based controls or customization options become more limited. Finding the sweet spot where security, flexibility, and usability all meet is a challenge we're very familiar with from our LOC and ECS work. Account recovery is another area where we've encountered difficult tradeoffs. It's a fine line: make the process too stringent, and legitimate users can get locked out; make it too forgiving, and you open the door to fraud or social engineering. Our work with other agencies and projects has shown us that designing recovery paths that are both secure and user-friendly takes constant adjustment and feedback from real users. The threat landscape keeps evolving, too. Over the past few years, we've had to adapt quickly to new challenges like synthetic identities, deep-fake biometrics, and widespread credential theft. Keeping solutions current with emerging threats requires ongoing investment in threat intelligence and security updates, a reality we've built into our support model for clients like LOC and ECS. Privacy and consent are always top of mind, especially when verifying sensitive identity attributes. We're careful to ensure compliance with the Privacy Act and other regulations, which sometimes means we have to limit what data we collect or how we verify people's identities. We've navigated these challenges repeatedly in our past deployments and understand the tradeoffs involved. We're also acutely aware of bandwidth and device constraints. Not everyone has a smartphone with biometric sensors or access to high-speed internet, especially in rural communities or among certain user groups. Our experience has shown that solutions dependent on advanced hardware or connectivity can unintentionally exclude some users, so we advocate alternatives wherever possible.
+
+2.5.1
+
+Additional Trade-Offs We've Encountered
+
+· Security vs. Accessibility: We've found that the strongest security measures, like biometrics or device binding, aren't always accessible to every user, particularly those with disabilities or older devices. At the same time, relaxing some controls to maximize accessibility can introduce vulnerabilities, so we work closely with stakeholders to find the right balance.
+
+· User Autonomy vs. Support: Offering users multiple authentication and recovery options gives them more control, but it can also introduce confusion, especially for those less familiar with digital tools. We've learned that simplifying choices can make the process smoother, but it sometimes means sacrificing flexibility for clarity.
+
+· Centralization vs. Privacy: Centralized identity solutions can streamline both user experience and administration, but they also raise concerns about single points of failure and data privacy. Decentralized approaches offer privacy advantages but are more challenging to manage at scale, something we've seen in both LOC and ECS contexts.
+
+· In all these areas, our experience at LOC, ECS, and other federal projects has given us a deep appreciation for the practical realities and tough choices these projects require. We know that there's no single "perfect" solution, but our approach is always to listen closely to users, adapt quickly, and keep both security and inclusivity at the heart of our work. 
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+10
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+
+Figure 1. High-Level NLS AAA IAM Architecture
+
+Figure 2. Zero-Trust Architecture
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+11
+
+The U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 365357
+
+Figure 3. ECS Logical Architecture
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this proposal.
+
+02/05/2026
+
+Request for Information
+
+12
+
+

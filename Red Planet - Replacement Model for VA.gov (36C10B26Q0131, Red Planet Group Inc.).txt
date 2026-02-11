@@ -1,0 +1,339 @@
+Sources Sought ID: 36C10B26Q0131 Volume #1
+Red Planet Group Inc.
+Sources Sought - DA01 - Replacement
+Model for VA.gov
+Volume #1 Department of Veterans Affairs
+Submission Date: January 25th, 2026
+Submitted To: Name: Allison Fulton & Evan Schlisserman Agency: Department of Veterans Affairs Office: Technology Acquisition Center NJ (3610B) Email Addresses: allison.fulton@va.gov & evan.schlisserman@va.gov
+Submitted By: Vendor Name: Red Planet Group Inc. SAM UEI: W79SB6L6NTP2 CAGE Code: 135D1 Point of Contact: Maanik Lal (maanik.lal@redplanetgroup.com)
+
+The Government understands that the information submitted by the Respondent (Red Planet Group Inc.) in response to this Sources Sought Notice is proprietary and shall not be duplicated, or shared with other respondents or outside parties, except as required by law or regulation.
+
+Copyright 2025 Red Planet
+
+1
+
+Group Inc. All rights reserved.
+
+Section 1: Executive Summary
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+Red Planet Group Inc. is a Small Disadvantaged and Minority-Owned Business, registered under NAICS 541519 (Other Computer Related Services). We are a process optimization and technology solutions firm specializing in agile software development, full-stack engineering, cloud/IT strategy, and AI integration. Our AI expertise includes enabling custom AI agents for automation, predictive insights for user behavior, and tailored digital experiences that improve operational efficiency, task completion, and Veteran engagement.
+While Red Planet Group is a newer firm, our leadership team brings extensive federal consulting experience from Fortune 500 firms, including hands-on modernization of high-visibility, mission-critical digital platforms. Notably, our leadership successfully modernized and launched a brand-new careers website for a DOJ sub-agency (Find more about this solution in the Past Performance Section). The project was delivered under strict operational continuity requirements, demonstrating our ability to implement high-impact solutions without service disruption.
+For this VA.gov modernization initiative, Red Planet Group plans to serve as a value-added subcontractor to an established SDVOSB prime partner. This approach provides the VA with streamlined access to our expertise through multiple contracting vehicles including T4NG, VETS2, GSA MAS, and others. In addition, leveraging our partners' corporate past performance along with our leadership's personal federal experience enables the VA to reduce overhead and risk when engaging a newer firm while still accessing deep technical and operational expertise.
+Our status as a newer, agile firm also provides VA with a fresh perspective and lean delivery model. Red Planet Group can quickly adapt to evolving client needs, pivot based on shifting priorities, and deliver modern, efficient solutions aligned with VA objectives. This flexibility is particularly valuable in large-scale modernization efforts like VA.gov, where requirements, priorities, and technology adoption can evolve rapidly.
+Red Planet Group's capabilities are aligned to the VA's objectives in identity, authentication, and navigation modernization:
+1. Digital Identity and Authentication: Expertise in integrating advanced identity solutions including mobile wallets and emerging verifiable credentials (such as being able to leverage blockchain technology).
+2. AI and Predictive Insights: Leveraging AI to provide behavior-driven navigation, predictive recommendations, and tailored user journeys that reduce friction and improve task completion.
+3. Agile Delivery and Cloud Expertise: Full-stack engineering, cloud-native solutions, and process optimization to implement modular or full-platform modernization while ensuring operational continuity.
+We are thankful for the opportunity to respond to this RFI and hope that the decision framework and solution areas we have highlighted below, including emerging identity proofing approaches, AI-driven navigation, and predictive insights, assist the VA in transforming
+
+Copyright 2025 Red Planet
+
+2
+
+Group Inc. All rights reserved.
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+this opportunity into a full solicitation. Red Planet Group is committed to delivering measurable value, innovative approaches, and seamless collaboration with prime contractors, supporting the VA's mission to provide a modern, secure, and Veteran-centric digital experience.
+
+Section 2: VA.gov Modernization Decision Framework
+
+VA.gov Modernization Decision Framework: Purpose:
+
+Given that the VA has already identified persistent challenges with identity proofing success, authentication friction, post-login navigation, accessibility, and inclusion particularly for older Veterans, users with disabilities, limited digital literacy, and constrained connectivity; this framework is not intended to rediscover those issues. Instead, it provides a structured way for the VA to determine how far modernization must go in order to resolve them, and whether those improvements can be achieved through incremental changes, modular layer replacement, or broader platform modernization.
+
+Outcome
+Optimize and Maintain
+Incremental Modernization
+
+When Appropriate
+Platform can support identity and navigation improvements with acceptable risk and cost
+Experience/orchestration changes can improve Veteran outcomes
+
+Key Indicators
+Low login abandonment, manageable navigation friction Moderate login friction, some navigation issues
+
+Recommended Actions Continue monitoring, apply targeted UI/UX and security updates
+Redesign workflows, improve identity orchestration, optimize front-end
+
+Partial Layer Replacement
+Full Platform Replacement
+
+Identity, navigation, or frontend layers limit progress
+Structural constraints prevent achieving objectives
+Current infrastructure prohibiting any modernization efforts
+
+Platform limitations, integration challenges High login failure, poor navigation, architectural inflexibility
+
+Research the best emerging technology tools for a more efficient verification process Replace specific modular layers (identity, navigation, or front-end) Complete redesign with modern architecture, identity, and UI/UX
+
+Table 1.0 - High-Level Decision Framework
+
+Copyright 2025 Red Planet
+
+3
+
+Group Inc. All rights reserved.
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+*See Additional Visual in Section 5*
+
+1. User Experience and Identity Outcomes:
+
+What the VA already knows: Identity proofing and authentication friction exist and disproportionately impact certain Veteran populations.
+
+Decision Focus: Determine whether these outcomes are primarily driven by experience design and orchestration choices, or by structural platform constraints.
+
+Additionally, identify if this can be resolved through platform training sessions for Veterans if the user-journey is as optimized as it can be.
+
+Evaluation Criteria:
+
+· Can identity proofing, authentication, recovery, and post-login navigation be simplified through redesigned workflows, adaptive assurance, and clearer task-based journeys?
+· Can different Veteran actions be aligned to different assurance levels without increasing cognitive load?
+
+Decision Implication:
+
+· If improved orchestration and experience design can materially reduce friction, prioritize incremental modernization.
+· If platform limitations prevent meaningful simplification, consider modular replacement of identity or navigation layers.
+· If platform trainings can resolve navigation issues for Veterans, consider providing weekly, monthly, or ad-hoc user help desk sessions for Veterans
+
+2. Technical Architecture and Flexibility:
+
+What VA already knows: The VA operates a modern digital platform with headless architecture and compliant identity providers.
+
+Decision Focus: Assess whether the current architecture can support emerging identity and authentication approaches VA is actively exploring.
+
+Evaluation Criteria:
+
+· Ability to integrate passkeys, FIDO2, mobile driver's licenses, verifiable credentials, and risk-based authentication.
+· Ability to decouple identity orchestration and navigation from legacy system constraints.
+
+Copyright 2025 Red Planet
+
+4
+
+Group Inc. All rights reserved.
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+· Ability to support adaptive authentication without introducing new failure paths.
+Decision Implication:
+· If architecture supports these capabilities, modernization can occur within the existing platform.
+· If architectural coupling blocks these capabilities, targeted layer replacement may be required.
+3. Maintenance and Operational Impact:
+What the VA already knows: Authentication failures and recovery issues create operational and support burdens.
+Decision Focus: Determine whether operational strain is inherent to security requirements or driven by avoidable design and integration choices.
+Evaluation Criteria:
+· Complexity of account recovery and exception handling. · Speed and reliability of deploying identity and navigation improvements. · Ongoing cost of supporting failed proofing and authentication attempts.
+Decision Implication:
+· If operational complexity can be reduced through workflow changes, prioritize incremental improvements.
+· If operational burden is structurally embedded, consider modular modernization.
+4. Performance, Accessibility, and Inclusion:
+What the VA already knows: Accessibility, low-bandwidth support, and inclusion are mandatory requirements.
+Decision Focus: Evaluate whether current front-end and navigation patterns can meet these requirements as identity experiences evolve.
+Evaluation Criteria:
+· Performance under high traffic and low connectivity conditions. · Ability to support assistive technologies, plain language, and error-tolerant workflows
+across identity and navigation flows. · Ability to reduce cognitive load for users with limited digital literacy.
+
+Copyright 2025 Red Planet
+
+5
+
+Group Inc. All rights reserved.
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+Decision Implication:
+
+· If requirements can be met through front-end optimization, prioritize targeted improvements.
+· If limitations persist, consider selective front-end or navigation layer replacement.
+
+5. Budget and Value Alignment:
+
+What the VA already knows: Modernization must be defensible from a cost, oversight, and value perspective.
+
+Decision Focus: Balance the cost of modernization against the cost of continued Veteran friction and exclusion.
+
+Evaluation Criteria:
+
+· Cost and risk of incremental improvements versus modular or broader modernization. · Long-term maintenance and support costs. · Value of improved access, reduced support burden, and increased successful task
+completion.
+
+Decision Implication:
+
+· Limited budgets favor high-impact, targeted modernization. · Strategic investment may justify modular replacement where it materially improves
+Veteran outcomes.
+
+6. Timeline and Phased Delivery:
+
+What the VA already knows: Legacy system dependencies and scale require careful sequencing.
+
+Decision Focus: Ensure modernization delivers measurable improvements without disrupting service continuity.
+
+Evaluation Criteria:
+
+· Ability to deliver near-term improvements to identity and navigation. · Feasibility of piloting new approaches before broader rollout. · Alignment of milestones to clear KPIs such as proofing success, task completion, and
+reduced abandonment.
+
+Decision Implication:
+
+· Short-term needs favor modular, low-risk changes. · Longer horizons support phased modernization tied to identity lifecycle improvements.
+
+Copyright 2025 Red Planet
+
+6
+
+Group Inc. All rights reserved.
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+Section 3: Recommendations to Consider for VA.gov Modernization:
+
+Approach Biometric Authentication
+Passwordless & FIDO2 Passkeys
+Mobile Driver's Licenses / Digital Wallets Verifiable / Decentralized Credentials Hybrid Proofing
+
+Examples / Vendors / Standards FaceID, TouchID, Windows Hello, BioCatch, Daon IdentityX, BehavioSec FIDO Alliance standard; Microsoft, Apple, Google passkey implementations ISO/IEC 18013-5 mDLs; Apple Wallet, Google Wallet
+Hyperledger Indy
+Jumio, Onfido, Socure, Trulioo, inperson VA identity verification
+
+Capabilities / Use Cases Device-level biometrics, behavioral biometrics, continuous authentication, liveness detection Device-bound, phishingresistant authentication, works across platforms
+
+Notes for VA.gov
+Can reduce friction for Veterans who struggle with passwords/MFA, phishing-resistant
+Could replace or supplement ID.me/Login.gov credentials
+
+Store government-issued digital credentials on phone securely
+Blockchain-backed, cryptographically verifiable identity; usercontrolled data Combines remote verification with inperson validation; supports thin credit files, older Veterans
+
+Enables frictionless inperson or remote proofing, supports offline use Privacy-preserving, portable, reduces reliance on centralized ID providers Increases IAL2 proofing success for Veterans with barriers
+
+Table 2.0 - Potential Authentication Approaches
+
+Component Intelligent / Predictive Navigation
+Task-Oriented Workflows
+Personalized Dashboards
+
+Emerging Approaches AI-driven recommendation engines based on prior search behavior, frequently accessed tasks Stepwise progressive disclosure, contextual guidance Role- or profile-based dashboards
+
+Benefits / Use Cases Reduces cognitive load, surfaces relevant benefits automatically
+
+Notes for VA.gov Can suggest claims, health services, or benefits based on user history
+
+Reduces errors, improves completion rates Veteran sees only relevant tasks and alerts
+
+Simplifies complex benefits or healthcare tasks Supports inclusion and accessibility
+
+Copyright 2025 Red Planet
+
+7
+
+Group Inc. All rights reserved.
+
+Adaptive Accessibility Layers
+Continuous Feedback / Analytics
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+Voice-guided navigation, screen-reader compatibility, lowbandwidth mode AI monitors navigation patterns, drop-offs, friction points
+
+Ensures equitable access for older Veterans, those with disabilities, or limited connectivity Enables iterative improvements, predicts friction areas
+
+Compliant with WCAG 2.1 AA and Section 508
+Helps VA prioritize updates or pilots without full redesign
+
+Table 3.0 - Potential Navigation Components
+
+Section 4: Relevant Past Performance
+DOJ Sub-Agency Digital Modernization Program (Leadership Personal Past Performance) Agency name withheld for privacy and security reasons
+Red Planet Group's leadership brings direct, hands-on experience leading a high-visibility digital modernization initiative for a U.S. Department of Justice sub-agency. This effort is presented as personal past performance of Red Planet Group leadership, completed during tenure at a Fortune 500 federal consulting firm, and demonstrates capabilities that directly align with the VA.gov modernization and digital experience objectives described in this RFI.
+Program Overview and Challenge:
+At the outset of the engagement, the DOJ sub-agency faced significant challenges in attracting qualified candidates to fill mission-critical roles. The agency did not have a modern careers website or digital presence that clearly articulated: what the agency does and why its mission matters, what day-to-day life is like working at the agency, and which positions were currently open and how candidates could engage.
+Compounding this issue, public perception of the agency had been heavily influenced by inaccurate portrayals in popular media, leading to misconceptions about the nature of the work and discouraging potential applicants. As a result, the agency experienced prolonged vacancies in priority roles and increasing pressure from leadership to modernize its recruitment approach.
+From an operational standpoint, the agency's recruiting function was entirely manual. Recruiters tracked candidates using a combination of pen and paper and individualized Excel spreadsheets, each with its own structure and definitions of candidate status. There was no standardized recruiting workflow, no centralized system of record, and no consistent way to understand where a candidate was in their journey. This created operational risk, limited transparency, and made any data migration or modernization effort inherently complex.
+Solution Approach:
+
+Copyright 2025 Red Planet
+
+8
+
+Group Inc. All rights reserved.
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+Under Red Planet Group leadership, the program delivered a fully modernized, end-to-end digital recruitment experience, centered on both external user experience and internal operational efficiency.
+
+Key elements included:
+
+User-Centered Digital Experience and Journey Optimization:
+
+The public-facing careers website was designed to be intuitive, modern, and highly engaging, with a strong emphasis on user journey optimization. Content and information architecture were deliberately structured to ensure users could quickly understand the agency's mission, culture, and career opportunities without cognitive overload. Attention span management and clear task completion were primary design drivers.
+
+The homepage presented key agency messaging and credibility-building information, while strategically placing calls-to-action throughout the site to encourage prospective candidates to submit interest information at multiple points in their journey. This approach ensured that users could engage when they felt ready, rather than forcing a single decision point.
+
+Integrated Lead Capture and Backend Workflow Automation: A custom backend recruiter system was built alongside the website to replace manual tracking processes. When a user submitted their information through a call-to-action, the system automatically created a lead record and notified recruiters in real time. This eliminated manual handoffs, reduced lag, and provided immediate visibility into candidate interest.
+
+Recruiters were given standardized workflows and consistent definitions for candidate stages, enabling shared understanding across the recruiting team. This directly addressed the fragmentation that previously existed and laid the groundwork for scalable operations.
+
+Event Management and Dynamic Content Enablement: An events capability was developed and integrated into the backend system, allowing recruiters to create, update, and publish recruiting events directly to the website. This gave the agency the ability to promote outreach activities dynamically, without requiring technical intervention, and ensured that public-facing information remained current and relevant.
+
+API Integrations and Personalization Foundations: The platform integrated with USAJobs via API to dynamically surface agency-specific job postings aligned to user interests. This ensured that candidates were directed to relevant opportunities without unnecessary navigation, mirroring the task-based, outcome-oriented journeys VA is seeking to enable on VA.gov.
+
+Data Migration and Continuity of Operations:
+
+One of the most complex aspects of the program was migrating highly inconsistent recruiter data into the new system without disrupting ongoing operations. Red Planet Group leadership oversaw the normalization, structuring, and migration of this data in a way that allowed
+
+Copyright 2025 Red Planet
+
+9
+
+Group Inc. All rights reserved.
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+recruiters to begin using the new system immediately, without retraining delays or productivity loss. This ensured continuity of operations throughout the transition, a critical requirement that closely parallels VA's need to modernize without disrupting service to millions of users.
+Delivery Model and Governance:
+The program was delivered using an Agile methodology with two-week sprints and stakeholder demos at the conclusion of each sprint. This approach provided:
+· Continuous transparency into progress and deliverables · Early validation of design and functional decisions · The ability to pivot quickly when assumptions proved incorrect
+This delivery model is directly applicable to the VA.gov modernization, where multiple viable technical and experiential approaches exist and iterative testing is essential. The engagement demonstrated how Agile delivery reduces risk in complex, high-visibility federal environments.
+Outcomes and Relevance to VA.gov:
+The solution is currently in production and has significantly improved the agency's ability to fill priority roles. Prospective candidates report no longer experiencing confusion about agency careers or how to engage, and recruiters now operate with standardized, efficient workflows.
+This past performance is directly relevant to VA.gov modernization in several key ways:
+· Designing inclusive, low-friction user journeys for diverse populations · Modernizing high-visibility public-facing digital experiences · Integrating backend systems to support seamless front-end experiences · Maintaining operational continuity during large-scale digital transitions · Using Agile delivery to manage uncertainty and evolving requirements
+While the problem domain differed, the underlying challenge is the same: enabling users to access critical information and services easily, intuitively, and without unnecessary barriers. The same principles, techniques, and delivery approach used in this DOJ modernization effort can be applied to VA.gov, particularly as VA explores new identity, authentication, navigation, and personalization strategies in a non-one-size-fits-all environment.
+This experience underscores Red Planet Group leadership's ability to lead complex digital modernization initiatives that balance user experience, operational realities, and federal governance constraints, directly aligning with the objectives of this RFI.
+
+Copyright 2025 Red Planet
+
+10
+
+Group Inc. All rights reserved.
+
+Section 5: High-level Visual for VA.gov Decision Framework
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+Visual 1.0 - High-level Decision Framework Overview
+
+Copyright 2025 Red Planet
+
+11
+
+Group Inc. All rights reserved.
+
+Section 6: High-level Visuals for VA.gov User-Journey
+
+Sources Sought ID: 36C10B26Q0131 Volume #1
+
+Visual 2.0 - Example User Journey for Mobile Driver's License
+
+Visual 3.0 - Example User Journey for Blockchain Authentication
+
+Copyright 2025 Red Planet
+
+12
+
+Group Inc. All rights reserved.
+
+

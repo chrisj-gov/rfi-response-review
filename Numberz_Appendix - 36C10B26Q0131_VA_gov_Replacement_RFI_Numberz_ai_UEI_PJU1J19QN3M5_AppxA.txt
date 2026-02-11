@@ -1,0 +1,102 @@
+Replacement Model for VA.gov Request for Information (RFI) Response
+Appendix A
+Solicitation Number: 36C10B26Q0131 VA.gov User Interface Reference Screens
+Submitted by: Numberz.ai (Small Business, Georgia, USA) Point of Contact: Dr. Tricha Anjali (Founder) Submission Date: February 05, 2026
+
+1. Service Records and Honors Page
+
+Figure 1: Service Records and Honors Page
+Description: This interface presents the "Your records and honors" page within the authenticated VA.gov experience, providing access to official service history, medals and distinctions, medical records, and status verification letters. It also supports document retrieval actions such as requesting DD-214 records.
+What this demonstrates:
+· Centralized access to authoritative Veteran records · Secure handling of sensitive personal and service data · Self-service document discovery and retrieval · Integration across multiple record-owning systems
+Why it matters to the replacement model: This figure highlights the need for a replacement architecture that preserves data integrity, provenance, and controlled access while unifying records from multiple legacy sources into a single Veteran-facing experience.
+
+Response to RFI 36C10B26Q0142
+
+2 of 9
+
+2. Appointments Page
+
+Figure 2: Service Records and Honors Page
+Description: This interface shows the "Your appointments" page, enabling Veterans to view and manage upcoming healthcare visits, including in-person and telehealth appointments, along with preparation notices and scheduling actions.
+What this demonstrates:
+· Real-time visibility into scheduled care · Actionable workflows embedded directly in the user journey · Integration between scheduling systems and Veteran-facing tools · Support for both physical and virtual care models
+Why it matters to the replacement model: The replacement model must support time-sensitive, transactional workflows with high reliability, ensuring that scheduling, updates, and notifications remain consistent across systems.
+
+Response to RFI 36C10B26Q0142
+
+3 of 9
+
+3. Benefits and Claims Page
+
+Figure 3: Benefits and Claims Page
+Description: This interface presents the "Your benefits and claims" page, displaying claims in progress, completed claims, and claim stages such as evidence gathering, along with progress indicators.
+What this demonstrates:
+· Transparency into complex, multi-step adjudication processes · Clear communication of claim state and next steps · Reduction of uncertainty through visible progress tracking · Consistent status representation across benefit types
+Why it matters to the replacement model: Claims processing depends on workflow orchestration, state management, and traceability. This figure underscores the need for a model that can represent complex lifecycle states clearly and consistently.
+
+Response to RFI 36C10B26Q0142
+
+4 of 9
+
+4. Health Hub Page
+
+Figure 4: Health Hub Page
+Description: This interface shows the "Your health hub" page, aggregating connected devices, prescriptions, vital signs, and care team information into a unified health view.
+What this demonstrates:
+· Longitudinal health data aggregation · Integration of near-real-time signals alongside clinical records · Ongoing engagement beyond episodic care · Coordination across providers and data sources
+Why it matters to the replacement model: The replacement model must support continuous data ingestion, normalization, and governed presentation of health data while maintaining privacy, security, and clinical trust.
+
+Response to RFI 36C10B26Q0142
+
+5 of 9
+
+5. Overview Dashboard Page
+
+Figure 5: Overview Dashboard Page
+Description: This interface shows the authenticated Overview page, presenting a consolidated snapshot of claims, secure messages, appointments, and account-related actions.
+What this demonstrates:
+· Cross-service aggregation into a single Veteran view · Prioritization of pending actions and alerts · Reduction of navigation burden across siloed services · A shift toward task-oriented experiences
+Why it matters to the replacement model: This figure illustrates the need for a unifying orchestration layer capable of assembling signals from multiple systems into a coherent, user-centered summary.
+
+Response to RFI 36C10B26Q0142
+
+6 of 9
+
+6. Secure Sign-In Page
+
+Figure 6: Secure Sign-In Page
+Description: This interface shows the Secure Sign In page, allowing Veterans to authenticate using approved identity providers such as Login.gov or ID.me.
+What this demonstrates:
+· Federated identity integration · Tiered identity assurance · Separation of authentication from downstream services · Enforcement of secure access controls
+Why it matters to the replacement model: Any replacement approach must align with Zero Trust principles, supporting strong identity verification while decoupling identity from application logic.
+
+Response to RFI 36C10B26Q0142
+
+7 of 9
+
+7. Public VA.gov Landing Page (Variant 1)
+
+Figure 7: Public VA.gov Landing Page (Variant 1)
+Description: This interface shows a public VA.gov landing page prior to authentication, highlighting VA's mission and providing entry points to healthcare, benefits, education, and records.
+What this demonstrates:
+· A unified public "front door" for VA services · Clear service discovery without authentication · Trust-building messaging before account access · Consistent navigation across domains
+Why it matters to the replacement model: The replacement model must support seamless transitions from public to authenticated experiences without fragmentation or duplication of logic.
+
+Response to RFI 36C10B26Q0142
+
+8 of 9
+
+8. Public VA.gov Landing Page (Variant 2)
+
+Figure 8: Public VA.gov Landing Page (Variant 2)
+Description: This interface shows an alternate public VA.gov landing page using consistent branding, layout, and navigation patterns.
+What this demonstrates:
+· Design-system consistency across experiences · Scalable content presentation without reengineering · Reuse of shared components and patterns · Accessibility and usability standardization
+Why it matters to the replacement model: This figure reinforces the importance of a componentized, reusable front-end architecture backed by stable, well-governed backend services.
+
+Response to RFI 36C10B26Q0142
+
+9 of 9
+
+

@@ -1,0 +1,286 @@
+Response to Sources Sought Notice
+Replacement Model for VA.gov
+
+Solicitation #36C10B26Q0131  02/05/2026
+Submitted by:
+Eduardo F. Ortiz, CEO Coforma, business@coforma.io
+
+Company Data:
+GSA MAS #47QTCA20D000W UEI: CWKEYCF97KB6 CAGE Code: 808N6 NAICS Codes:  541519 | PSC: D322, AZ15 541511 | PSC: D308, D307,D306,
+D302, AZ14, AZ12 541512 | PSC: B544 541430 | PSC: AZ11, D318 541611 | PSC: D399
+
+This document includes data and information that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate this proposal or quotation. If, however, a contract is awarded to this offeror or quoter as a result of or in connection with the submission of these data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. Information considered confidential or proprietary is identified within this proposal or quotation. The information contained herein may contain technical data, the export of which is restricted by the U.S. Arms Export Control Act (AECA) (Title 22, U.S.C. Sec 2751, et seq.) or the Export Administration Regulations (EAR) 15 C.F.R 730-774.
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+
+Company Overview
+
+RFI number:
+
+36C10B26Q0131
+
+Date submitted:
+
+02/05/2026
+
+Company name:
+
+Coforma
+
+Address:
+
+915 Meeting Street, Suite 1140 North Bethesda, MD 20852
+
+Company POC for questions: Eduardo F. Ortiz, CEO 302-505-1472 | business@coforma.io
+
+Socio-economic status:
+
+Other than Small Business
+
+UEI:
+
+CWKEYCF97KB6
+
+CAGE:
+
+808N6
+
+EIN:
+
+32-0547205
+
+NAICS codes:
+
+541519 | PSC: D322, AZ15 541511 | PSC: D308, D307, D306, D302, AZ14, AZ12 541512 | PSC: B544 541430 | PSC: AZ11, D318 541611 | PSC: D399
+
+GSA MAS:
+
+#47QTCA20D000W
+
+VA SPRUCE:
+
+
+36C10B25D0005
+
+Brief Description of Relevant Capabilities
+
+Coforma is a digital services firm dedicated to improving the lives of Veterans, their families, caregivers, and the VA workforce through modern, humancentered digital experiences. Headquartered in Maryland and a founding member of the Digital Services Coalition with a distributed U.S. workforce, Coforma brings deep expertise in experience design, platform modernization, content strategy, information architecture, engineering, and product management--all core to the VA.gov Replacement Model effort.
+
+Coforma's mission and track record align directly with VA's goal for a more usable, modern digital front door. We have spent the past five years helping VA reduce friction, simplify complex benefit pathways, modernize content and IA, and deliver digital experiences that scale across millions of users. Our teams combine generative and evaluative research, structured content and IA design, fullstack engineering, and product/program leadership to deliver solutions that meet immediate needs while enabling longterm adaptability--precisely the balance VA seeks for the next generation of VA.gov.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary. 
+
+i
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+Relevant Experience with Similar Challenges
+As a Prime Contractor on the VA Customer Experience, DevOps, and Agile Releases (CEDAR) IDIQ since 2021 and on the VA Secure, Performant, Reliable, and User-Centered Experiences (SPRUCE) IDIQ since 2024, Coforma has developed a deep understanding of VA.gov and its connected systems, as well as a good understanding of what a modernization could deliver. Over the past five years, Coforma has performed effectively on more than 12 awarded task orders, helping VA address major issues facing our Veterans. Coforma is uniquely positioned to support the VA.gov Replacement Model because:
+ We already understand VA.gov's architecture, content ecosystem, and operational realities. Our experience across CEDAR and SPRUCE vehicles gives us a rare, practical understanding of how VA.gov actually works--not just how it is documented.  Migrated and restructured content for the modernized VA.gov experience without breaking existing pathways.  Enhanced benefits workflows while maintaining uptime and backward compatibility.  Supported PACT Actrelated surges with rapid, stable product delivery.
+ We have delivered modernization without disruption. We know how to evolve VA.gov safely while maintaining continuity for millions of users.  Integrated with Lighthouse APIs and legacy benefits systems to support new features without disrupting existing functionality.  Supported Lighthouse APIs and identity services.  Designed and developed Clinical and benefits systems that feed VA.gov experiences.  Optimized VA Content management and structured content models.
+ We bring deep expertise in content, IA, and navigation--the areas VA values as critical. Most vendors focus solely on technology; Coforma brings humancentered, contentdriven modernization to meet VA needs.  Migrated, adapted, and authored content for the modernized VA.gov.  Redesigned information architecture to reduce cognitive load and improve findability.  Collaborated with VA accessibility specialists to build a more inclusive content ecosystem.  Developed structured content models and IA patterns that support reuse across channels and reduce duplication.  We have already supported the foundational work VA needs for a nextgeneration VA.gov.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary. 
+
+ii
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+ We have solved the exact problems VA is trying to address. Identity friction, navigation complexity, inconsistent content, legacy integration, governance gaps--we've worked on all of them.  Redesigned information architecture for modernized VA.gov sections to reduce cognitive load and improve findability.  Delivered navigation improvements across benefits products, including clearer pathways for PACT Act benefits, nondisability benefits, and claims status.  Worked across VA.gov's frontend and backend architecture through CEDAR and SPRUCE task orders.  Delivered workflows, content patterns, and IA structures that strengthened governance and improved longterm maintainability.  Migrated, adapted, and authored content for the modernized VA.gov experience, ensuring clarity, accuracy, and alignment with VA policy.
+ We are missionaligned and Veterancentered. Our work consistently reduces burden, increases clarity, and improves outcomes for Veterans and VA staff.  Built systems and workflows that scale across VA's digital landscape.  Conducted generative and evaluative research across benefits, health enrollment, identity, and navigation workflows.  Delivered new features and enhancements that directly impact millions of Veterans each year.  Migrated, adapted, and authored content for the modernized VA.gov experience.  Redesigned information architecture to make benefit pathways clearer and more consistent.  Partnered with VA accessibility specialists to ensure content meets Section 508 and WCAG 2.2 standards.  Designed and implemented the COVID19 Patient Manager, enabling ER clinicians to make faster, more accurate decisions for Veterans during the pandemic.  Built the Lung Cancer Screening (LCS) tool that aggregates patient data and guides Coordinators through screening workflows, improving early detection and followup.  Modernized benefits workflows on VA.gov to make claims submission, PACT Act enrollment, and benefits management easier and more intuitive.  Conducted research with Veterans to identify pain points in claims, appeals, and benefits navigation, then redesigned flows to reduce confusion and improve task completion
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary. 
+
+iii
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+Responses to Requested Topics and Questions
+VA is looking to improve the end-to-end experience of Veterans using VA.gov. The modernization of VA.gov as a best-in-class digital front door for Veterans is a considerable undertaking that will benefit from experience gained supporting the current iteration of VA.gov. Coforma has supported various VA.gov-related projects over the past five years and understands the operating environment, goals, and obstacles modernization is likely to face. A modernized, vertically organized VA.gov will streamline the Veteran experience and help reduce the time from claim submission to results.
+Descriptions of relevant ideas, capabilities, and approaches.
+Our teams are embedded in Veteran-facing services and understand both the technical architecture and the operational realities that shape how VA.gov functions today. This includes firsthand experience supporting benefits-related forms, identity and sign-in experiences, accessibility and content governance, and the transmission of submissions into downstream systems of record. This perspective allows Coforma to contribute practical, experience-informed approaches to modernizing VA.gov while preserving continuity of service for millions of Veterans.
+Understanding the Problem Space
+Over the past decade, VA has made significant and sustained progress toward establishing VA.gov as a unified digital front door. Investments in common identity and authentication, shared design systems, accessibility standards, and consistent interaction patterns have materially improved usability, trust, and adoption at the national scale. These efforts reflect a strong commitment to human-centered design and provide a solid foundation for continued modernization. At the same time, the current operating and contracting model for VA.gov largely optimizes for intake and system handoff rather than end-to-end Veteran outcomes. In practice, VA.gov teams are responsible for guiding Veterans through form completion and submission, after which ownership transitions to a complex ecosystem of downstream systems and contracts. This model limits visibility into submission status, constrains the availability of actionable data for Veteran-facing experiences, and makes it difficult to detect or resolve issues once a submission leaves the VA.gov platform. A replacement model for VA.gov should continue to build on existing strengths while shifting focus to outcome-oriented service delivery that more closely aligns with how Veterans experience VA services in practice.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+1
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+
+A Phased Path Toward Outcome-Oriented VA.gov Delivery
+A modernized VA.gov would act as a true digital front door for Veterans, caregivers, and family members. This future state would evolve VA.gov from a form-centric intake platform into an outcome-oriented digital service that reflects how Veterans actually experience VA benefits. In the target state, Veterans can express intent rather than search for forms, receive guidance informed by data VA already possesses, submit information once, and understand the status and results of their interactions without navigating internal system boundaries.
+A conversational AI chatbot would help users understand which claims they may be eligible for and complete multiple forms in the background while gathering information through a simple chat. Users can easily track the progress of their claims from a consolidated dashboard that shows the submission date, current status, identified issues, and the contact person to address them, reducing silent failures, improving transparency, and ultimately increasing user satisfaction.
+Coforma believes that meaningful modernization can be achieved through a phased approach that delivers immediate value while creating a path toward greater structural improvement over time.
+
+Phase 1: Experience-Led Intake and Guided Discovery
+Focus: Shifting from "Which form do I need?" to "What help do I need?"
+The first phase focuses on fundamentally improving how Veterans discover and access benefits, shifting the experience from form selection to benefit discovery. Veterans are seeking benefits, not forms. Today, many Veterans arrive at VA.gov believing they need a specific form, often based on guidance from a VA-accredited representative or Veterans Service Organization, prior experience, or incomplete information. This places the burden of navigating VA's internal structure on the Veteran and increases the risk that benefits will be missed or pursued incorrectly.
+An experience-led intake model allows Veterans to begin by describing their needs rather than selecting a form. Through an AI-assisted conversational interface, Veterans can explain life events or needs in plain language, such as changes in family status, financial hardship, or caregiving responsibilities. The system then guides the Veteran through a series of tailored follow-up questions to identify potential benefits and required information.
+In this model, individual forms remain part of the underlying process, but they are no longer the focal point of the experience. Based on the Veteran's responses, the system may generate one or more benefit submissions behind the scenes, assembling the necessary data to support multiple forms as needed. From the Veteran's perspective, the interaction is centered on outcomes rather than paperwork.
+This approach creates the opportunity to surface benefits that Veterans may not have known they were eligible for. VA.gov can guide users toward a more complete set of services and benefits that reflect their circumstances by evaluating a Veteran's responses holistically rather than through the lens of a single form. This holistic approach reduces reliance on
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+2
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+
+informal guidance, lowers the likelihood of missed benefits, and improves equity by ensuring access is driven by need rather than familiarity with VA processes.
+Importantly, this phase can be implemented incrementally and in parallel with existing form-based workflows. It does not require immediate changes to downstream adjudication systems or program ownership. Instead, it focuses on improving the front door experience by meeting Veterans where they are and translating intent into action, while preserving the integrity of existing processes.
+Context-Aware and Data-Informed Experiences
+Focus: Utilize Veteran data the VA already owns.
+This phase also focuses on enabling VA.gov to deliver experiences that are informed by what VA already knows about the people it serves. Today, when users sign in, VA.gov has limited ability to distinguish among Veterans, caregivers, survivors, and other user types, and limited visibility into existing Veteran data in enterprise systems. As a result, Veterans are frequently asked to provide information that already exists elsewhere in VA, leading to redundant data entry, confusion, and avoidable friction.
+A context-aware VA.gov experience would use experience-ready APIs from systems such as MPI, BGS, and related services to inform the front end in real time. Rather than exposing raw system data, these integrations would return clear, Veteran-relevant signals that allow VA.gov to tailor questions, pre-populate information, and guide users more effectively. Examples include determining whether a Veteran already has dependents on file, whether a dependent is currently enrolled in school, or whether a similar submission has recently been made.
+Enabling this level of awareness requires more than additional endpoints. It depends on modernizing how form data is transmitted and stored so that structured information can be transmitted and stored reliably throughout the submission lifecycle. Today, many VA.gov forms follow a document-centric pattern in which structured data captured through a digital experience is transformed into a static PDF, transmitted downstream, and later converted back into structured data through optical character recognition. This approach limits adaptability and constrains downstream systems' ability to return meaningful status or context to the front end.
+VA has already begun addressing this challenge through the Fully Digital Forms initiative, a collaborative effort between OIT OCTO and OIT BAM, in which Coforma is an active participant. Coforma's Life Stages team is currently supporting the pilot implementation for the dependency form 686c, helping remove the PDF from the submission path and preserve form data as structured information through claim establishment in VBMS. This work reflects hands-on experience operating within the emerging model rather than a purely conceptual approach.
+Together, context-aware APIs and fully digital submission patterns allow VA.gov to move from generic interactions toward experiences that reflect what VA already knows about a Veteran. This reduces redundant questioning, lowers the likelihood of duplicate submissions, and
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+3
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+enables clearer guidance throughout the process. Importantly, this phase does not require changes to system ownership or adjudication authority. It focuses on improving data flow and experience fidelity while operating within existing governance and contractual structures. Coforma's experience across Veteran-facing forms, submission services, and platform integration positions our teams to support this evolution responsibly and at scale.
+Phase 2: Outcome-Oriented Ownership and Vertically Sliced Delivery
+Focus: Organize teams around the Veteran's journey, not the tech stack.
+The final phase represents a longer-term evolution toward outcome-oriented delivery through vertically sliced product teams. In this model, teams are organized around Veteran journeys and benefit outcomes rather than around individual systems or layers of the technology stack. Responsibility extends across the full lifecycle of a Veteran interaction, from intake and submission through downstream processing, status transparency, and resolution. Today, VA.gov delivery is largely horizontally organized. Front-end teams focus on experience and submission, while downstream systems and contracts own processing and adjudication. This separation optimizes handoffs but limits accountability for outcomes and makes it difficult to detect, prevent, or resolve failures once a submission leaves the VA.gov platform. Vertically sliced delivery aligns ownership with how Veterans experience VA services in practice. While systems of record may remain owned by different organizations or contracts, vertically oriented teams are accountable for ensuring that submissions are successfully received, processed, and returned to the Veteran in a clear and timely manner. This includes defining submission lifecycle models, requiring meaningful status signals from downstream systems, and ensuring those signals are translated into Veteran usable updates. This model does not require wholesale replacement of legacy systems or immediate changes to adjudication authority. Instead, it requires aligning contracts, governance, and technical interfaces around shared accountability for outcomes. Over time, this approach enables automated reconciliation, faster detection of silent failures, and reduced reliance on manual investigations into lost or delayed submissions. Preserving form data as structured information through initiatives such as Fully Digital Forms provides a critical foundation for vertically sliced delivery. By reducing dependence on document-based workflows and enabling richer API interactions, VA creates the conditions necessary for true end-to-end ownership without disrupting existing systems. This phase represents a natural continuation of VA's modernization journey. It builds on the progress of the past decade while offering a path toward more reliable, transparent, and Veteran-centered service delivery as organizational readiness and integration maturity increase.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+4
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+
+Case studies or examples from similar environments.
+
+VA Sitewide Content, Accessibility, and Information Architecture (CAIA)
+
+Client Name:
+
+Department of Veterans Affairs, Office of the Chief Technology Officer (OCTO)
+
+Period of Performance: 4/1/2022 - 3/31/2024
+
+Contract Number
+
+36C10B21D0005 / 36C10B22N00050002
+
+Coforma worked on the VA Sitewide Content, Accessibility, and Information Architecture (CAIA) team, which focused on improving the lives of Veterans and their families by delivering a seamless, accessible, unified experience through state-of-the-art technology. The accessibility element of this team focused on empowering Veteran-Facing Services (VFS) teams to deliver the most accessible products possible for Veterans. We provided teams with insights, resources, and support as accessibility subject matter experts within the VA ecosystem. Our primary objective was to partner with VFS teams to provide guidance on achieving the highest-level accessible outcomes: increasing the accessibility, usability, and reliability of Veterans' digital services. Services provided by the CAIA accessibility team include, but are not limited to, research support, accessibility test planning, design discovery, audits, wireframe and Figma prototype reviews, training and education, and general spot checks and guidance. Our work plays a vital role in improving the customer experience for Veterans and their family members, and in helping VA deliver digital services more equitably and effectively.
+The CAIA team developed an innovative approach to user research at VA through assistive technology (AT) pilots. These pilots help ensure the product is accessible before going live with AT users. We supported AT research sessions to identify accessibility issues that impact Veterans who use AT. This support ensured participants could complete the form without issue. The CAIA team provided immediate AT technical support as needed, including troubleshooting screen reader issues, ensuring a smooth testing experience, and enabling researchers to collect reliable data. Our team documented accessibility findings from each session and collaborated with researchers to prioritize issues for follow-up development. The VFS team implemented these recommendations to ensure that the form was user-friendly. By resolving AT challenges early in the development process, the team minimized potential barriers to form adoption.
+CAIA's accessibility and content teams collaborated with OCTO's Identity team to update the VA.gov sign-in modal to inform users that two login account options, DS Logon and MHV, would be deprecated in 2025. Starting six months before the updates, we evaluated the team's mockups and created our own versions of the login screen--with improved language and accessibility annotations. We advised the team on the best path forward to finalize the work. This resulted in the new login modal and a 100% increase in modern login account signups from MHV account holders (21,000-42,000 monthly average).
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+5
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+
+VA Clinical Decision Support (CDS)
+
+Client Name:
+
+Department of Veterans Affairs Office of the Chief Technology Officer (OCTO)
+
+Period of Performance: 9/9/2022 - 9/8/2024
+
+Contract Number
+
+36C10B21D0005 / 36C10B22N00050003
+
+Since 2022, Coforma has worked with VA on Clinical Decision Support (CDS) Applications, a suite of applications including Medical Calculators (MedCalc), Lung Cancer Screening Program (LCSPv2), Task Management, and My WorkWeek. These apps were created to address a critical problem within Veteran care at VA: clinicians were experiencing significant burnout and stress due to ineffective workflow technology. VA clinicians needed applications that could:
+ Operate within their existing patient workflows;  Launch from within patient Electronic Health Records (EHRs) and analyze live,
+patient-specific data;  Enable seamless task handoffs within care teams; and  Allow clinicians to view a coordinated visualization of their weekly schedules,
+including overviews of their corresponding patients' health. These applications also needed to operate seamlessly across a migration between two different EHR platforms.
+To approach this work, we have staffed distinct, cross-functional teams for each project, comprising engineers, UX researchers and designers, product leads, and accessibility experts. We also use a Shared Services team that leverages cross-functional resources across applications to share knowledge and experience, reducing risk, delivery time, and cost while improving automation, security, and performance monitoring to resolve issues quickly. This approach allows us to pivot easily to meet the needs of each application at all stages of maturity.
+Over the four years and six CDS applications of this contract, we have built apps that simplify the clinical decision process for VA staff and ease their cognitive load. During that period, the number of unique users on CDS apps increased from fewer than 1,000 to more than 36,000. Our dedicated Data Visualization Design Patterns team has ensured that all solutions meet Section 508 and WCAG accessibility standards and facilitates cross-agency collaboration, supporting reuse by teams at CMS, IRS, and GSA.
+Outcome Example- Medical Calculators: Coforma iteratively designed and developed the Medical Calculators MVP, conducted a six-week beta test with a limited user base, and released a stable and secure MVP nationwide to all 19 Veteran Integrated Services Networks within the Veterans Health Administration. The MVP included 17 EHR-integrated calculators and risk assessments that auto-populate patient data, significantly reducing data entry and context switching. Medical Calculators attracted 1028 unique users in July 2024,
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+6
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+
+representing a 25% share of the total unique users across the eleven-application Clinical Decision Support Collaborative (CDSC) portfolio.
+
+Outcome Example - Lung Cancer Screening Program: Coforma developed and launched an improved lung cancer screening tool that achieved 100% adoption across Cerner-converted VA Medical Centers with active lung cancer screening programs. The project team reduced the number of required data-entry fields from 100 to 20, thereby lowering the administrative burden and cognitive load for coordinators. This streamlined workflow eliminated the need for supplemental spreadsheets and enabled faster, more accurate clinical decisions for nearly 8,000 Veterans diagnosed with lung cancer annually.
+User journey workflows for identity proofing, sign-in, recovery, and navigation.
+In our experience supporting the current iteration of VA.gov, we've noticed two main issues that users face regarding user journey workflows that are known to slow down or prevent benefits delivery: 1) Veterans currently experience significant uncertainty and anxiety when uploading supporting documents; and 2) Users frequently hit "authentication walls" at the beginning of their journey through VA.gov.
+1. Interactive Evidence Submission - get it right the first time
+The submission process often feels like sending critical files into a "black box," with no immediate feedback on whether the evidence is sufficient, legible, or even the correct document type. This uncertainty leads to "status-check" phone calls, avoidable claim denials, and a cycle of repeated effort that stalls the adjudication process for both Veteran and VA.
+To address this, we suggest an upload experience that moves from a static file transfer into an interactive, guided dialogue. By integrating an AI-assisted validation layer at the point of entry, the system acts as a "second set of eyes" for the Veteran.
+ Instant Verification: The prototype analyzes uploads in real-time, providing immediate, plain-language confirmation (e.g., "We've verified this is a valid medical nexus letter with a visible signature").
+ Proactive Gap Analysis: If a document is blurry, missing a required signature, or missing a date range mandated by policy, the AI highlights the specific deficiency before the Veteran submits.
+ Outcome Confidence: This approach ensures evidence is "right the first time," shifting the burden of quality control from the back-end adjudicator to the front-end interface, thereby reducing "silent failures" and accelerating time-to-decision.
+2. A Progressive Identity Journey - balancing access and compliance
+We recommend that VA adopt an Identity-Aware Navigation model that replaces rigid barriers with a progressive, state-aware experience, so users don't encounter "authentication walls" in their workflows as they navigate VA.gov to claim benefits. By aligning with VA's modern IAL (Identity Assurance Level) and AAL (Authenticator Assurance Level) standards, we move away from legacy "one-size-fits-all" logins.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+7
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+In this flow, Veterans start with unverified access for basic discovery. Still, as soon as the context shifts toward sensitive PII or claim submission, the system initiates a seamless "up-leveling" flow. This transition is supported by a Unified Sign-In Service that leverages Login.gov and ID.me, ensuring strong security compliance without requiring VA to manage credential recovery. Instead of encountering generic errors, the Veteran is guided by a persistent, contextual call to action that explains exactly why and how to verify their identity, maintaining momentum and reducing abandonment throughout the benefit lifecycle.
+Known limitations, risks, and tradeoffs.
+Modernizing VA.gov as a true digital front door and native digital ecosystem is more than a technical upgrade: it will entail fundamentally restructuring VA as an institution and overcoming entrenched culture and shared thinking. Beyond this obstacle, we have identified several substantial challenges to be mindful of during a modernization of this scale.
+Balancing Stability with Evolution
+The greatest risk of any large-scale redesign is failing to fully maintain the legacy system throughout the transition to the modernized system. Veterans, caregivers, and VA staff will continue to rely on the legacy VA.gov until the modernized system is fully online. We need to strike a balance that maintains operational continuity and prevents failures in the legacy system without unduly hindering the modernization process. Additionally, a total system overhaul risks collapsing under its own weight. Swinging too big in modernization risks catastrophic downtime and feature-parity traps that could delay delivery by years. Our approach prioritizes incremental stability, building a strong foundation before upgrading other aspects piece by piece.
+Navigating Institutional Complexity
+This enterprise-wide modernization will involve hundreds of stakeholders, disparate data silos, and overlapping contracts. This governance at scale includes moving toward vertically sliced, outcome-oriented delivery, shifting from managing tasks to managing outcomes. The work will require a high level of cross-contract coordination to ensure that changes in one project do not disrupt dependencies across related projects. Starting with high-impact user journeys as proving grounds to refine new governance models can help mitigate these organized risks through phased adoption before scaling the changes across the enterprise.
+Future-Proofing
+Traditional IT modernization often falls into the 10-year plan trap. A decade-long waterfall roadmap can't account for future advancements and becomes obsolete before the first deployment. We want to avoid locking VA into rigid, long-term technical assumptions given the exponential rise of AI tools and evolving identity standards. We propose focusing the architecture on modular flexibility by using pluggable components that enable VA to pivot as new technologies emerge. We also understand the need to maintain a human-in-the-loop as we integrate AI, prioritizing trust over automation. By keeping a human in the loop, we use AI to augment staff capabilities and improve accuracy, rather than replacing the human touch that Veterans deserve.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+8
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+Lessons learned from past deployments.
+Coforma's experience supporting VA.gov has reinforced the importance of visibility, feedback loops, and clear ownership in large-scale digital services. Past incidents of delayed detection of submission failures demonstrate the limitations of handoff-oriented models and the operational costs of limited end-to-end visibility.
+At the same time, VA's progress in accessibility, identity modernization, and agile delivery demonstrates that meaningful change is possible when teams are empowered and Veteran outcomes are measured. These lessons directly inform the phased approach described above and position Coforma to help VA continue its modernization journey with confidence.
+Our experience supporting VA.gov has highlighted three main lessons learned that we can bring to the new modernization effort: 1) The need to build a solid foundation that can adapt to emerging technologies and changing environments; 2) Preventing unintended side effects through architectural isolation; and 3) Building 508 compliance into every element of our development operations.
+1. Agility through Strategic Pivots
+Rigid adherence to a pre-defined scope can lock a project into obsolescence in a volatile tech landscape. We've learned that building for the future relies on maintaining the ability to pivot when the market shifts and new technologies emerge.
+We pivoted away from our custom-built VA GPT tool rather than doubling down on an inferior product, as enterprise tools like Microsoft Copilot became available. We shifted our strategy from building a standalone tool to creating durable infrastructure. By developing a Model Context Protocol (MCP) server to wrap legacy VistA APIs, we laid the foundation for clinical summarization that remains valuable regardless of the AI chatbot front-end tool VA selects.
+2. Stability through Architectural Isolation
+Operating within a massive, shared repository like vets-api presented a unique governance challenge: how could we make effective changes without unintentionally breaking a neighbor's features? We found that manual code reviews were necessary but ultimately insufficient in preventing spaghetti dependencies.
+We learned that the solution was to shift towards architectural isolation. By implementing a Ruby on Rails Engine structure, we created a "one-way mirror" for governance. This allowed our teams to utilize shared logic while ensuring their specific product code remained inaccessible to external dependencies. This structural guarantee ensured the stability of critical tools, such as the Notice of Disagreement form, enabling rapid iteration without fear of platform-wide side effects.
+3. Efficiency through Dev "A11y" Ops
+Just as the industry has learned that Security can't be an afterthought, or final checkpoint before launch, and promoted DevSecOps as a step beyond DevOps, we have learned that 508 compliance also needs to be baked into the entire development process. Waiting until the end of development to address 508 compliance creates significant technical debt and unnecessary delays.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+9
+
+RFI 36C10B26Q0131 / Replacement Model for VA.gov · 02/05/2026
+We follow a "Shift Left" philosophy, where accessibility testing begins in the design phase and continues throughout development. By validating non-coded Figma prototypes against accessibility checklists and conducting Assistive Technology (AT) pilots early, we identify structural issues when they are the cheapest and easiest to fix. This proactive approach proved successful with the Accredited Representative Management tool, which passed its 508 audit with zero launch-blocking issues.
+
+Coforma · 915 Meeting Street, Suite 1140 · North Bethesda, MD 20852 · coforma.io
+
+Information on this page is considered Confidential and Proprietary.
+
+10
+
+

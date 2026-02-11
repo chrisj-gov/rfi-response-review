@@ -1,0 +1,430 @@
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+Friends From The City
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+In response to the:
+Request for Information for the Replacement Model for Va.gov
+
+Notice ID.: 365357
+Submitted: 10-page RFI & Demo Website
+Submission Date: February 04, 2026
+
+Submitted To: Department of Veterans Affairs
+To: Allison Fulton To: Evan Schlisserman
+Offer Expiration: This offer will expire 180 days from the date of submission.
+
+Submitted By: Lapedra Tolson Chief Executive Officer lapedra@cityfriends.tech 917.580.1479
+Friends From The City 225 E. Grand Ave., Ste. 213 Chicago, Illinois 60611 UEI: RA62AG44CFZ8 CAGE: 8T0K1 DUNS: 117692086 STATUS: SBA 8(a), SDVOSB, & WOSB GSA MAS: 47QTCA23D0076
+
+This RFI response contains data that must not be disclosed outside of VA and must not be duplicated, used, or disclosed, in whole or in part, for any purpose other than to evaluate this RFI. However, if a contract is awarded to this Offeror as a result of, or in connection with, the submission of this data, VA shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit VA's right to use information contained in this RFI if it is obtained from another source without restriction. The data subject to this restriction is contained in this RFI response.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+1
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+Friends From The City 225 E. Grand Ave., Ste. 213 Chicago, IL 60611
+February 04, 2026
+To: Department of Veterans Affairs, cc' Allison Fulton & Evan Schlisserman Subject: Replacement Model for VA.gov RFI Response
+Dear Ms. Fulton & Mr. Schlisserman,
+Friends From The City is a strategy, design, and development company that helps government teams deliver services that are accessible and easy to use. We lead with research, design with intent, and build systems that work in the realities of public service.
+We know VA.gov. We've worked inside the VFS-CMS (Drupal), improved accessibility for VA editors, and helped translate complex policy like the PACT Act into forms Veterans can complete. We understand the tension between what VEO's research shows is possible and what the current operating model allows teams to ship. This RFI asks how VA.gov should evolve. Our answer is to organize around Veteran journeys, not VA's org chart. We've prepared a response that demonstrates this model through a working prototype. It's a single journey built end-to-end with simulated autonomous deployment, a shared design system, and integrated Veteran profile data.
+Relevant Experience:
+-- VA.gov VFS-CMS (2022-2023): Operations and maintenance for 1,200+ facility pages. Redesigned editorial workflows and the alt-text experience to improve accessibility compliance across the CMS.
+-- VA 526ez / PACT Act (2022-2023): Collaborated on design and data mapping for the toxic exposure questions--the most complex full-stack feature our product team tackled. Translated paper form logic into digital flows following VA's "One Thing per Page" guidance.
+-- VA Debt Portal (2022-present): Redesigned the debt management experience for Veterans in financial hardship. Waiver submissions increased 88%.
+-- CMS QPP (2023-present): Restructured information architecture for healthcare regulatory content. WCAG violations dropped 95%.
+We welcome the opportunity to discuss our approach further. Our contact information is bd@cityfriends.tech or 917-580-1479.
+Sincerely,
+
+Lapedra Tolson Chief Executive Officer
+Friends From The City's response to the Replacement Model for Va.gov RFI
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+Table of Contents
+Part I Our Approach
+TABLE OF CONTENTS............................................................................................ I 1.0 EXECUTIVE SUMMARY ..............................................................................1 2.0 THE PROBLEM .............................................................................................2 3.0 THE SOLUTION ............................................................................................3 4.0 THE VETERAN PROFILE............................................................................4 5.0 HOW THE TEAM WORKS .........................................................................5 6.0 GRACEFUL DEGRADATION ....................................................................6 7.0 SECURITY AND COMPLIANCE .............................................................. 7 8.0 MIGRATION PATH ........................................................................................8 9.0 MODELS THAT WORK................................................................................9
+APPENDIX ......................................................................................................11
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+I
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+1.0 EXECUTIVE SUMMARY
+VA does not need more research. The Veterans Experience Office has spent years studying how Veterans interact with VA services.
+VA does not need new technology. VA.gov runs on React, Ruby on Rails, PostgreSQL, and Drupal. These are capable, modern tools used across industry.
+
+What VA needs is an operating model that lets it act on what it knows.
+Today, VA.gov is built as a monolith. There are dozens of teams working in a single codebase without the ability to ship independently. The current architecture was designed for control, and it achieves that, but it ultimately makes change slow and expensive.
+We are proposing a completely new model. Organize around Veteran journeys. Give each journey a small autonomous team with its own codebase and deployment pipeline. Share what should be shared: authentication, the Veteran profile, the design system. Enforce standards through automated tooling rather than manual review. Let teams ship when ready.
+To test this model, we built a working prototype. One person using AI-assisted development created a complete journey experience in two days. The prototype demonstrates a front door that routes Veterans by situation, a personalized transition checklist, and a shared profile where data entered once appears everywhere.
+The prototype is live at: https://va-journey.lab.cityfriends.tech/
+What Follows in This Response
+The response begins with the problem, how VA.gov's current architecture and operating model constrain delivery despite capable technology and extensive research. From there, the solution describes a four-layer architecture that organizes around Veteran journeys. The Veteran profile section explains the shared data layer where information entered once appears everywhere, eliminating redundant form-filling.
+Next, how teams work details autonomous deployment and standards enforced through automated tooling rather than manual review gates. Graceful degradation addresses how the system remains useful even when legacy backends are slow or unavailable. Security and compliance covers our approach to FedRAMP, ATO, and Section 508. The migration path outlines how VA can decompose the monolith journey by journey without a risky big-bang rebuild. Models that work references organizations that have successfully adopted this architecture. The appendix includes an architecture diagram and annotated screenshots showing the website's reviewer mode overlay.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+1
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+2.0 THE PROBLEM
+The Veterans Experience Office has done remarkable work. Since 2015, VEO has transformed how VA thinks about the people it serves. Trust scores have risen from 55 percent to above 80 percent. More than 45 journey maps document how Veterans move through major life moments. The Customer Experience Cookbook has been shared across government as a model for other agencies.
+
+VEO knows that Veterans think in situations. I just got out. I'm waiting on my claim. I need to see a doctor. They researched and mapped the multiple Veteran journeys in detail. They understand where friction occurs. Unfortunately, this is not reflected in the website.
+
+VA.gov is organized around benefit categories, like Health Care, Disability, and Education. A Veteran leaving the military has to visit multiple sections to complete related tasks. The site requires them to understand and navigate the VA's internal structure before they can accomplish their goals.
+The technical architecture makes change expensive. VA.gov's frontend is a monolith with over 36,000 commits and dozens of teams contributing to a single codebase with tightly coupled code. This is dangerous territory, as a single change in one area can break another. An unintended consequence is teams spending valuable work hours in meetings, coordinating with each other because they must.
+The governance model makes change slow. Before shipping, teams go through the Collaboration Cycle. Design Intent review. Midpoint review. Staging review. Each gate requires scheduling time with centralized reviewers. The reviews catch problems. They also create queues.
+Furthermore, the combination of expensive and slow means that acting on research takes months or years. For instance, a researcher proposes changes based on the findings. The changes enter a backlog where they compete with other priorities. When the changes finally clear review cycles and ship, the research is a year old and the team that proposed them has moved to other work.
+Technology has progressed. Automated testing can catch what manual review used to catch. Design systems can enforce consistency through code. Deployment can be continuous with proper safeguards. The tools exist to move faster without sacrificing quality. VA's architecture has not changed with the world. The gates remain because removing them feels risky. Meanwhile, VEO keeps producing research that the website cannot absorb.
+The constraint is not technology. The constraint is an operating model designed for control in an era when speed is important.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+2
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+3.0 The Solution
+VEO has mapped several Veteran journeys that document a specific life situation. For example, transitioning out of service, filing a disability claim, managing health care, or planning for end of life.
+
+Right now, these maps sit outside the product development process. Teams read them and reference them in planning, but the insights don't translate into changes on VA.gov. The problem is structural. A Veteran's journey often crosses benefit categories. But VA.gov organizes content by benefit category. In turn, Veterans must navigate each category separately while expecting one connected experience.
+
+In our proposed model, each journey map becomes a journey app.
+
+A journey app handles one complete Veteran journey. For example, the Leaving the Military journey guides service members through separation and includes everything they need from benefit eligibility, health care enrollment, and records requests. These tasks appear together because transitioning Veterans need them all at once. And just like that, the organizational boundaries disappear.
+
+Each journey app has a dedicated team of seven to nine people: product owner, product manager, designer, two to three engineers, content strategist, accessibility specialist, and QA. The team owns the entire stack: design, content, code, and deployment.
+
+This raises an obvious concern: won't giving teams this much autonomy create inconsistency? It won't, because quality is enforced through tooling rather than review processes. The design system publishes components as code, and a linter checks that teams use them correctly. If a developer tries to create a custom button, the build fails.
+
+Accessibility testing runs on every commit and catches missing labels, insufficient contrast, and keyboard navigation problems in seconds. Content templates enforce plain language guidelines and reading level targets. Teams maintain standards because the toolchain makes non-compliance harder than compliance. The team can ship faster, and the experience stays consistent.
+
+The underlying architecture has four layers.
+
+The Front Door replaces the current homepage organization. Instead of listing benefits by category, it shows journey cards based on what Veterans are trying to accomplish. A Veteran clicks "Leaving the Military" and enters that journey app. A Veteran clicks "Filing a Claim" and enters the claims journey. When signed in, the front door shows status across all journeys, so Veterans can pick up where they left off.
+
+Journey Apps sit behind the front door. Each journey can become an app. New apps can be added over time, as the architecture scales horizontally.
+
+The Shared Platform provides services every journey app needs: authentication (Veterans log in once), the Veteran Profile (data entered in one journey appears everywhere), the design system
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+3
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+(components look and behave the same), and analytics (VA sees the complete experience, as opposed to fragments).
+
+The Integration Layer sits between journey apps and legacy systems. VA's backends: MVI, BGS, VistA, VBMS, are old and sometimes unreliable. The integration layer absorbs that fragility by providing stable interfaces to journey apps. When a backend slows down, the layer returns cached data or queues requests. Journey apps don't break when backends struggle.
+
+The architecture layers separate concerns. Journey teams focus on Veteran experience. Platform teams focus on shared services. Integration teams focus on backend reliability. Each group has clear ownership and can operate independently.
+
+4.0 The Veteran Profile
+Every time a Veteran interacts with VA, they provide information: name, address, phone number, service dates, discharge status, disability rating, enrolled benefits, and contact preferences.
+
+The Veteran Profile solves this.
+
+The Veteran Profile is a single data layer that journey apps share. When a Veteran logs in, the profile assembles what VA knows about them. It pulls service history from authoritative DoD sources. It pulls benefit status from VA systems. It pulls contact information from wherever the Veteran last updated it. The profile is a unified view.
+
+Journey apps read from the profile. For example, the Leaving the Military app knows the Veteran's separation date, branch, and service length without asking. The Filing a Claim app knows existing ratings and pending decisions. The Getting Care app knows enrollment status and preferred facility. Each app starts with context instead of questions.
+
+Journey apps also write to the profile. When a Veteran updates their address in one app, the change propagates everywhere. When they add a dependent, every app that needs dependent information sees it. The profile is the single source of truth. Apps do not maintain their own copies. This changes the Veteran experience fundamentally.
+
+Today, a transitioning service member might fill out a dozen forms that ask for overlapping information. The Veteran wonders: Didn't I already tell you this? The experience feels bureaucratic because the architecture forces redundancy.
+
+With a shared profile, the same Veteran authenticates once and sees a personalized checklist. The system knows their separation date and counts down. It knows their service-connected conditions and suggests relevant benefits. The forms that remain are short because most fields are pre-filled.
+
+The profile also enables something VA cannot easily do today: proactive service. When a Veteran approaches eligibility for a benefit, VA can prompt them. If VA knows a claim decision is coming, it can prepare them. The profile makes Veterans visible to VA as complete people, not fragments
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+4
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+scattered across systems.
+
+Building this profile requires integration work. Authoritative sources must connect, data conflicts must resolve, and privacy rules must be enforced. The technical patterns are well established. Private sector platforms have built unified customer profiles at scale. The challenge at the VA is organizational, not technical.
+
+The Veteran Profile is what makes autonomous journey apps feel like one VA. Without it, each app would be an island. Veterans would still re-enter data. The fragmentation would persist. With it, journey apps can be independent in code while connected in data. Data entered once appears everywhere.
+
+5.0 How the Team Works
+A journey team has seven to nine people:
+
+-- VA Product Owner -- Makes scope decisions and clears blockers inside VA. -- Product Manager -- Runs day-to-day priorities. Coordinates work. Keeps the team
+focused. -- UX Designer/Researcher -- Conducts research. Designs interfaces. Tests with Veterans. -- Engineers (2-3) -- Builds the product. Frontend and backend. At least one senior. -- Content Strategist -- Writes in plain language. Ensures VA content standards. -- Accessibility Specialist -- Embeds Section 508 compliance. -- QA Engineer -- Tests continuously. Catches issues before Veterans do.
+
+Each team owns its codebase, its backlog, and its deployment schedule. They don't wait for other teams or coordinate releases. They ship when ready.
+
+Consistency comes from shared infrastructure, not shared process. VA's Platform team maintains the design system (VADS), the forms library, authentication through Login.gov and ID.me, and vets-api to connect frontends to legacy backends. This infrastructure enables speed.
+
+In the current state, the Platform team runs the Collaboration Cycle. Design Intent meetings. Midpoint Reviews. Staging Reviews. Each touchpoint requires scheduling, submitting artifacts, and waiting for feedback. A team might wait days for a meeting slot. The feedback requires iteration. Another meeting is scheduled. This repeats across multiple touchpoints. The infrastructure enables speed. The review process prevents it.
+
+In the proposed model, the Platform team still owns shared services:
+
+-- Design System (VADS) -- Components, patterns, guidelines -- Authentication -- Login.gov and ID.me integration -- Veteran Profile -- Shared data layer across journeys -- CI/CD Pipeline -- Deployment infrastructure with automated checks -- API Gateway -- Stable contracts to legacy systems
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+5
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+What changes is enforcement. Today, people verify that teams followed the rules. In our proposed model, tooling verifies it. The design system linter checks VADS compliance on every commit. If a developer uses a non-standard component, the build fails. Automated accessibility scans run before code can merge. Security checks block deployment until issues are resolved. The standards are identical. The enforcement is instant and continuous.
+Teams do not submit artifacts and wait for a meeting. They push code and get feedback in minutes. If something fails, they fix it immediately. If everything passes, they ship.
+6.0 Graceful Degradation
+VA.gov depends on unreliable legacy backend systems. MVI provides identity data. BGS connects to claims information. VistA stores health records. VBMS manages documents. These systems are decades old. They go down. They slow down. They return errors. VBMS alone experiences outages roughly weekly.
+VA has invested in resilience tooling. The vets-api uses a circuit breaker library called Breakers to detect outages. Sidekiq handles background job queuing. Monitoring dashboards track external service performance. These are the right patterns. The problem is coverage. Not every backend interaction uses these patterns consistently. When a backend fails, the failure often still reaches the Veteran. A page times out. A form submission error. The Veteran tries again. Same result. They call the help desk. The help desk cannot fix BGS.
+The proposed model makes resilience systematic. Every backend interaction goes through an integration layer that absorbs fragility rather than passing it through.
+The integration layer provides several capabilities:
+-- Caching. Data that does not change frequently gets stored temporarily. A Veteran's service history does not change. Their discharge status does not change. The integration layer caches this data. If MVI is slow, the cache serves the request. The Veteran sees their information. They aren't impacted if MVI is struggling.
+-- Retries with backoff. When a backend returns a transient error, the layer tries again. It waits. It tries once more. Many errors resolve themselves. The Veteran never sees them.
+-- Queuing. Some requests can wait. A Veteran submits a form. The backend is down. The layer queues the submission. When the backend recovers, the queue drains. The Veteran gets a confirmation. They did not need to resubmit.
+-- Partial data. Sometimes a backend fails completely. The layer returns what it has. A Veteran checks their dashboard. Claims data is available. Health data is not. The dashboard shows claims with a clear message: "Health information is temporarily unavailable." The Veteran still accomplished something.
+-- Status transparency. If there is an issue, Veterans receive a message explaining what is unavailable and when to try again.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+6
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+Journey apps consume the integration layer, not raw backends. The app asks for Veteran data. The layer figures out how to get it. If MVI is fast, data comes live. If MVI is slow, data comes from cache. If MVI is down, partial data comes back with an explanation. The journey app handles what it receives without needing to know which scenario occurred.
+This is not new technology. API gateways, caching layers, and message queues are standard infrastructure. VA already uses some of these patterns. Our approach makes them universal.
+7.0 Security and Compliance
+The current VA.gov architecture concentrates risk. Forty-five teams share one codebase. A vulnerability in one application potentially affects all applications. A security incident requires coordinating remediation across dozens of teams. The ATO boundary encompasses everything.
+The proposed model isolates risk by design. Since each journey app has its own codebase, its own deployment pipeline, its own security boundary, a vulnerability in the Leaving the Military journey does not affect the Filling a Claim journey. The blast radius shrinks from platform-wide to journey-specific.
+This is how modern secure systems are built. Microservices architectures dominate both commercial and government platforms precisely because isolation improves security posture.
+Authentication stays centralized. Veterans continue using Login.gov and ID.me through the shared platform layer. Journey apps receive verified identity tokens. No journey app stores credentials or implements its own auth. One login works across all journeys with zero credential sprawl.
+Journey apps do not create shadow databases of Veteran information. They read from the Veteran Profile in the shared platform layer, which reads from existing VA systems through the integration layer. Data stays where it is. Journey apps get access, not copies.
+The proposed model embeds compliance in the pipeline. Security scanning runs on every code commit. Dependency vulnerabilities flag automatically before merge. Accessibility testing runs in CI/CD rather than after development ends. Infrastructure as code ensures consistent, auditable environments. Deployment requires passing all automated checks. Manual review still exists for novel situations, but routine compliance becomes automated, consistent, and fast.
+For Section 508 accessibility, automated testing catches most failures before code reaches production. Axe-core, pa11y, and similar tools run on every build. Journey teams include accessibility expertise. VADS components come pre-validated. Accessibility gets built in rather than bolted on.
+Journey apps deploy to FedRAMP-authorized infrastructure such as AWS GovCloud. The shared platform layer provides inherited controls while each journey app documents its own. A smaller boundary means faster ATO. A new journey can reach production in weeks rather than years. The integration layer logs backend interactions. Analytics capture user behavior patterns. When something goes wrong, the evidence exists.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+7
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+Futhermore, smaller teams respond faster to security incidents. An issue in one journey app gets fixed by the team that owns it. They do not wait for platform-wide coordination or navigate change control for forty-four other teams. They fix, deploy, and move on. The security model mirrors the operating model: shared standards, decentralized execution, automated enforcement.
+8.0 Migration Path
+VA cannot rebuild everything at once. The current system serves millions of Veterans. A big-bang replacement would take years and risk catastrophic failure. The smart path is incremental. The proposed architecture enables migration journey by journey.
+Start with one journey. The Leaving the Miliary pilot. Build it outside the monolith using the new operating model. Connect it to existing backend systems. Let it run alongside current VA.gov. Veterans using the new journey get the new experience. Everyone else sees no change.
+Measure results. If the pilot outperforms the current approach, extract the next journey. If it underperforms, adjust or stop. Risk stays bounded. Historically, organizations decompose monoliths using the Strangler pattern. Build the new system next to the old one. Route traffic gradually. Remove the old pieces when the new ones prove themselves.
+The existing VA.gov becomes the legacy layer. It continues working exactly as it does today. Journey apps handle specific situations. The front door routes Veterans to whichever system serves them best. Over time, more situations move to journey apps. The legacy layer handles less. Eventually, it can be retired.
+Each migration follows the same steps:
+-- First, identify a journey. Pick a journey with clear boundaries, measurable outcomes, and broad or far-reaching impact.
+-- Second, build the journey app. Small team. Separate codebase. Connected to existing backends through the integration layer. Using VADS for visual consistency. Deployed independently.
+-- Third, route Veterans to the new experience. Start with a percentage. Watch the metrics. Increase the percentage as confidence grows.
+-- Fourth, measure everything. Task completion rates. Time on task. Error rates. Veteran satisfaction. Compare against the same journey in the legacy system.
+-- Fifth, iterate or expand. If the journey app wins, extract the next journey. If problems emerge, fix them before scaling.
+The key insight: journey apps and the legacy monolith can coexist. Veterans do not notice the architecture. They notice whether the experience works.
+Learning accumulates. Each journey teaches lessons. The third journey benefits from what the first two revealed. The VA builds capability over time.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+8
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+Investment is incremental. VA does not commit hundreds of millions upfront. Each journey is a bounded investment with measurable outcomes. Funding decisions happen based on evidence, not projections. The teams building on the current platform continue their work. Over time, some may move to journey teams. Others may move to the platform. The transition creates opportunities, not layoffs.
+The migration path answers the question that stops most modernization efforts: How do we get from here to there without breaking what works today? The answer is careful, incremental, evidencebased. Build the new. Prove it works. Expand.
+9.0 Models That Work
+The RFI asks for examples from similar environments. Three organizations have attempted transformations like what we propose. Each offers lessons, both successes and warnings.
+Rippling: Unified Data, Autonomous Products
+Rippling builds HR, IT, and finance software on what they call the "Employee Graph." This is a single data layer containing everything about each employee. Product teams build autonomous applications on top of this shared foundation. Each product has its own codebase and deployment. What they share is the data.
+The results are measurable. New products reach $1 million in annual revenue within five to six months. The company has over 20,000 customers and a 99.5% retention rate in their PEO business. The unified data layer is why. When employee data changes once, every system reflects it immediately. This is the architecture we propose for VA. The Veteran Profile is VA's Employee Graph. One source of truth that journey applications read from and write to.
+Amazon: Two-Pizza Teams Evolved
+Amazon's "two-pizza rule" means teams small enough to feed with two pizzas. It became shorthand for small, autonomous teams. The real principle was single-threaded leadership. One team owns one thing completely.
+"You build it, you run it" became the mantra. Teams design, build, deploy, and operate their services. No handoffs to operations teams. Accountability is clear because ownership is undivided. The model works but has constraints. Cross-team coordination becomes expensive at scale. Small teams can limit diverse perspectives on complex problems. Recent reports suggest Amazon is centralizing some expertise functions as cost pressures increase.
+The lesson: small autonomous teams are powerful for well-bounded problems. Complex integrations still require explicit coordination mechanisms. VA's journey model accepts this tradeoff. Each journey is bounded. The platform handles cross-cutting concerns.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+9
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+UK Government Digital Service: Government Can Do This
+GDS is the closest parallel to what VA faces. In 2011, the UK government created GDS to replace fragmented government websites with a unified GOV.UK. The problem was familiar: "powerful oligopolies" among large suppliers and a reliance on single vendors causing high-profile failures.
+GDS achieved positive results. They replaced over 1,800 government websites with one platform. The UK briefly ranked first in UN e-government indices. The GDS design principles influenced digital government worldwide, including VA.gov's original design.
+But success did not guarantee sustained transformation. GDS has experienced significant challenges. Their GOV.UK Verify identity project was recommended for termination by the Infrastructure and Projects Authority. Departments remained reluctant to change, creating what researchers called "institutionalized fragmentation." Leadership turnover increased. By 2024-2025, GDS itself was being reorganized and merged with other digital functions into a unified center.
+The lesson is sobering but important. Technical transformation is achievable. Organizational transformation is harder to sustain. GDS succeeded at building GOV.UK. They struggled to maintain the organizational momentum needed to keep transforming.
+The VA should plan for this. Early wins demonstrate the model works. Sustaining change requires institutional commitment beyond any single team or initiative.
+High-level Risks to Consider
+Resistance from incumbents. The current model has defenders. Teams that built it. Contractors who staff it. Leaders who approved it. Proposing a different model implies the current one is insufficient. This creates organizational resistance.
+Legacy system fragility. MVI, BGS, VistA, and VBMS are decades old. A new frontend architecture does not fix backend reliability.
+Pilot success does not guarantee scale. GDS built GOV.UK successfully. Organizational transformation stalled anyway. A working pilot proves the model is viable. It does not prove VA will sustain commitment through the harder work of migration. A journey team building the transition experience will need cooperation from VBA, VHA, and NCA.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+10
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+APPENDIX
+Veteran Journey Platform - Complete Architecture
+The Veteran Journey Platform architecture organizes VA.gov around four distinct layers, each with clear responsibilities and boundaries. The Veteran Experience Layer serves as the "front door," routing Veterans based on what they're trying to accomplish rather than which VA office owns a benefit. Journey Apps operate as autonomous products, each with its own codebase, team, and deployment pipeline, enabling rapid iteration without cross-team coordination. The Shared Platform Layer provides what should be shared across all journeys: authentication, the Veteran profile, and the VA Design System (VADS). The Integration/API Layer abstracts legacy backend systems (MVI, BGS, VistA, VBMS) and DoD data sources, providing stable contracts to journey apps while handling graceful degradation when upstream systems are unavailable.
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+11
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+FRIENDS FROM THE
+CITY
+
+friendsfromthecity.com
+
+E bd@cityfriends.tech T 917.580.1479
+
+225 E. Grand Ave., Ste 213 Chicago, IL 60611
+
+APPENDIX
+Navigating the Demo Website in Reviewer Mode
+Link: https://va-journey.lab.cityfriends.tech/
+To help VA stakeholders understand both the user experience and the underlying architecture, the prototype includes a "Reviewer Mode" toggle. When enabled, each page displays its corresponding architecture layer and annotated UX callouts explaining key design decisions. For example, the Profile Confirmation page shows the Integration Layer badge and highlights how service records flow automatically from DoD, demonstrating the shared data layer that eliminates redundant formfilling. These annotations map directly to the architecture diagram, allowing reviewers to see how the proposed operating model translates into concrete Veteran-facing features.
+
+Turn on Reviewer Mode
+
+Click this User Journey
+
+Friends From The City's response to the Replacement Model for Va.gov RFI
+
+12
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal. UNCLASSIFIED
+
+

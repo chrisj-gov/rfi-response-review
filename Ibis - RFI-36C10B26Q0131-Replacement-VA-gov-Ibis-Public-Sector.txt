@@ -1,0 +1,239 @@
+ISOBAR / PUBLIC SECTOR HEADLINE IPSUM / 8675309
+
+1
+
+Replacement Model for VA.gov
+Solicitation Number: 36C10B26Q0131
+
+A Progressive, Identity-Led Digital Transformation Strategy for VA.GOV
+
+SUBMITTED TO: Department of Veterans Affairs
+Name: Allison Fulton | Contract Specialist Email: Allison.fulton@va.gov
+
+Name: Evan Schlisserman | Supervisory Contracting Officer Email: evan.schlisserman@va.gov ___________________________________________
+
+SUBMITTED BY:
+Ibis Public Sector 1321 Duke Street Alexandria, VA 22314
+
+Cage: 1XE297 UEI: LQ23K1KXQ7T1 Business Size: Large
+
+________________________________________
+
+BUSINESS POINT OF CONTACT: Name: Larry Gillespie | President Phone: 703-625-8215 Email: Larry.Gillespie@ibispublicsector.com
+
+DATE: February 3, 2026
+
+Statement of Confidentiality
+This document contains information that is proprietary and confidential to ibis public sector that shall not be disclosed outside or duplicated, used, or disclosed in whole or in part for any purpose other than to evaluate ibis public sector. Any use or disclosure in whole or in part of this information without the express written permission of ibis public sector is prohibited.
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+2
+
+1 Executive Summary
+
+The Department of Veterans Affairs stands at a critical juncture in its digital transformation journey. Replacing VA.gov is not merely a technical migration--it is an opportunity to fundamentally reimagine how the federal government serves those who served our nation.
+This response proposes an Experience Orchestration Model that prioritizes identity as the foundational backbone while maintaining absolute continuity of service. Our approach enables the VA to decouple the front-end experience layer from complex legacy systems, modernizing incrementally while serving millions of users without disruption.
+Key Differentiators:
+· Journey-Centric vs. Org-Chart Design: Moving from bureaucratic structure to life-event based navigation · Strangler Fig Migration: Phased replacement that avoids 'big bang' risk while progressively modernizing · Composable Architecture: API-first design enabling future flexibility and integration with emerging systems · Federated Governance: Balancing central standards with business line autonomy to prevent experience debt
+Leverage lessons learned: Complex analysis of lessons learned for the sake of building a comprehensive "Analysis of Alternatives" with modular optionality.
+2 Strategic Vision: Orchestration Over Rebuild
+
+Understanding the Core Challenge The current VA.gov operates on a 'page-centric' model that mirrors internal organizational structure rather than Veteran needs. This forces users to navigate administrative boundaries before accessing services, creating friction at every touchpoint.
+The fundamental shift required is from 'where is this in the org chart?' to 'what is the user trying to accomplish?'
+The Transactional Hub Principle For Veterans, VA.gov must function as a transactional hub where the primary measures of success are:
+· Can I verify who I am quickly and securely? · Can I see the status of everything that matters to me in one place? · Can I complete my task without understanding VA organizational structure?
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+3
+
+· Can I trust that my data is accurate and secure?
+3 Proposed Approach: Identity-Led Experience Orchestration
+Our approach to replacing VA.gov rests on four integrated pillars that work together to deliver a modern, Veteran-centric digital experience while maintaining service continuity and managing organizational complexity.
+3.1 Journey-Centric Design
+Veterans should navigate by what they're trying to accomplish--"Transitioning from Service," "Managing Health Conditions"--not by understanding VA's organizational structure. We reorganize the entire experience around Veteran life events, with an authenticated homepage that serves as a unified status dashboard aggregating data from all VA systems. This eliminates the status opacity and fragmented navigation that drives Veteran frustration today.
+Diagnosing Current Fragmentation Current State: Veterans must understand that VHA handles healthcare, VBA handles benefits, and NCA handles cemeteries before they can navigate to their desired service. Proposed State: Veterans navigate by intent and life stage: 'Transitioning from Service,' 'Managing Health Conditions,' 'Planning for Aging,' 'Supporting Family.'
+Example Journey: Transitioning Veteran Traditional Navigation:
+1. User goes to VA.gov home page 2. Chooses between Health Care, Disability, Education, etc. 3. Finds disability > files claim > discovers they need medical records 4. Returns to home page > Health Care > finds records portal 5. Realizes they need education benefits > repeats process
+Journey-Centric Navigation: 1. User logs in, system recognizes recent separation date 2. Dashboard presents: 'Transitioning from Service' journey hub 3. Single view shows: claim status, education enrollment timeline, health enrollment deadline, benefits summary 4. Proactive alerts: 'Your health records are ready for review' (linked inline) 5. Cross-portfolio status visible without navigation
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+4
+
+Addressing Status Opacity
+A primary driver of Veteran frustration and distrust is the inability to see real-time updates on claims, appointments, and applications. The current system requires multiple logins to different portals.
+Solution: The authenticated homepage becomes a unified status dashboard that aggregates data from all VA systems through the orchestration layer. Veterans see everything that matters to them in one view, with clear status indicators and next actions.
+
+3.2 Phased Migration: The Strangler Fig Strategy
+
+Large-scale government digital transformations attempting wholesale replacement fail over 70% of the time. We employ the Strangler Fig pattern--incremental replacement over three phases (36 months) with automatic fallback to legacy systems if new functionality fails. This approach delivers immediate value while maintaining perfect service continuity for millions of users.
+
+Why We Reject 'Big Bang' Launches
+Large-scale government digital transformations that attempt wholesale replacement have a documented failure rate exceeding 70%. The VA cannot afford service disruption to millions of users.
+The Strangler Fig pattern, borrowed from software architecture, allows for incremental replacement while maintaining service continuity. New functionality 'strangles' old systems gradually, with fallback mechanisms at every stage.
+
+Three-Phase Migration Model
+Phase 1: The Wrapper (Months 1-6) Deploy new global navigation, identity broker, and authenticated homepage as a 'wrapper' around existing pages. Legacy content remains functional, but users experience consistent navigation and identity management.
+Success Metric: Zero service disruption, 100% of users can complete existing transactions
+Phase 2: Micro-Journeys (Months 6-18) Progressively migrate high-traffic, high-value tasks to the new platform. Start with simple transactions (address change, document upload, appointment scheduling) before tackling complex flows (claim submission, appeals).
+Success Metric: 30-50% of transactions on new platform, improved completion rates, reduced support calls
+Phase 3: Full Integration (Months 18-36) Gradually migrate remaining complex legacy flows, decommission redundant systems, and achieve full journey-centric design across all benefit lines. Legacy systems remain as systems of record but are accessed exclusively through the orchestration layer.
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+5
+
+Success Metric: 90%+ of transactions on modern platform, measurable improvement in Veteran satisfaction scores
+Fallback and Graceful Degradation Critical Principle: At every phase, if the new system fails, users automatically fall back to the legacy experience. Informational content remains 100% accessible even if authenticated services are unavailable.
+3.3 Composable Architecture
+A Composable architecture is a modern approach to designing and building digital applications out of modular, API-based components. This enables VA to deliver the journey-based, experience layer that unifies all VA services immediately while gradually addressing legacy systems.
+
+FIGURE 1: Composable Architecture
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+6
+
+1. The digital experience layer hosts the VA.gov website and authenticated Veteran portal. Veterans access public information and secure services through one site. After authentication, they enter a personalized "My VA" workspace displaying benefits, healthcare, appointments, messages, applications, and recommended actions.
+2. The identity layer integrates directly with VA enterprise identity providers such as ID.me, Login.gov, and DS Logon and acts as a federated relying party, preserving VA's identity strategy and enabling seamless cross-service navigation.
+3. The digital service and automation layer manages all transactional service delivery, workflow orchestration, automated personalized communications and AI-assisted engagement.
+4. The data and analytics layer unifies Veteran data across systems and provide real-time operational and leadership insights.
+5. The orchestration layer connects the digital experience layer with VA backend systems including VBMS, Caseflow, VistA or Cerner, payments, scheduling, and the Master Veteran Index.
+Avoiding the 'CMS-Only' Trap
+Risk: Many government agencies have replaced their CMS with modern tools only to discover that their site is 'prettier' but still fails at transactional tasks because the data layer was not addressed.
+Mitigation: Prioritize investment in the API/integration layer alongside CMS modernization. The CMS handles informational content; the API gateway handles transactional data. Both are equally critical.
+3.4 Federated Governance and Operating Model
+Our federated governance model balances central platform standards with business line autonomy. A Governance Council coordinates across VHA, VBA, and NCA while actively managing experience debt to prevent platform fragmentation over time.
+Federated Ownership Model
+Successful digital platforms balance central control with distributed authority:
+Central Platform Team: Owns design system, technical standards, infrastructure, identity services, and core journeys that cross business lines
+Business Lines (VHA/VBA/NCA): Retain authority over the accuracy, logic, and policy implementation of their specific content and transactions
+This prevents both the 'dictatorial central team' problem (where business needs are ignored) and the 'wild west' problem (where every business line creates inconsistent experiences).
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+7
+
+Experience Debt Management Just as technical debt accumulates when shortcuts are taken in code, experience debt accumulates when inconsistent UI patterns, siloed workflows, and conflicting navigation structures are allowed to proliferate.
+Recommendation: Establish a Governance Council with representatives from each business line that meets quarterly to:
+· Review new patterns and components before they go live · Identify and remediate experience debt in existing flows · Make tradeoff decisions when business line needs conflict with platform standards
+EX/CX Integration: Employee Experience Matters The Veteran's customer experience (CX) is directly influenced by the employee experience (EX) of VA staff who process claims, schedule appointments, and answer support calls.
+If call center agents struggle with fragmented internal tools, Veterans experience longer hold times and inconsistent information. If claims processors lack visibility into the full Veteran context, claims take longer to resolve.
+Recommendation: Design employee-facing tools using the same orchestration layer that powers Veteran-facing services. This ensures staff have accurate, real-time data and can provide better service.
+3.5 Integration Through Identity
+Identity serves as the connective tissue across all four pillars, enabling cross-portfolio data aggregation, authentication continuity during migration, consistent security in the orchestration layer, and single sign-on while business lines retain data control. This integrated approach allows VA to deliver immediate value to Veterans while building toward transformational change-- without the "big bang" risk that has plagued similar government initiatives.
+
+4 Risks, Tradeoffs, and Lessons Learned
+Acknowledging limitations and risks is essential for a mature partnership. The following are key concerns and our proposed mitigations:
+
+4.1 Risk: Identity Centralization Creates Single Point of Failure Concern: A unified identity backbone could become a single point of failure--if it goes down, all authenticated services become unavailable.
+Mitigation: · Design for graceful degradation: informational content remains 100% accessible without authentication
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+8
+
+· Implement multi-region redundancy for identity services with automatic failover · Provide offline identity verification paths for critical services (e.g., call center verification) · Establish SLAs with identity providers (Login.gov, ID.me) that exceed VA's uptime requirements
+4.2 Risk: Over-Personalization Feels Intrusive Concern: Aggregating data across health, benefits, and other portfolios to create a unified dashboard could feel intrusive to Veterans who prefer separation of concerns.
+Mitigation: · Commit to transparent consent: Veterans explicitly opt into data sharing across portfolios · Provide granular privacy controls: Veterans choose what appears on their dashboard · Default to conservative data sharing: only aggregate what is necessary for the task at hand · Conduct user research to understand comfort levels with different levels of integration
+4.3 Risk: Legacy System Integration Complexity Concern: The VA operates dozens of legacy systems built over decades with inconsistent data models, authentication mechanisms, and APIs (or no APIs at all).
+Mitigation: · Prioritize systems by transaction volume and user value, not by technical ease · Build adapter layers in the orchestration tier to normalize legacy system responses · Where APIs don't exist, implement screen scraping or database replication as interim solutions · Accept that some legacy systems may never be fully modernized--the orchestration layer handles translation
+4.4 Tradeoff: Speed vs. Perfection The phased migration approach prioritizes delivering value to Veterans quickly over architecting the 'perfect' solution. This means some technical debt will be created in early phases.
+Acceptance: This is an acceptable tradeoff. Veterans benefit from improved navigation and identity services in Phase 1 even if the underlying architecture isn't fully modernized. The key is to avoid accumulating debt faster than it can be paid down.
+5 Lessons Learned from Comparable Deployments
+
+5.1 UK Government Digital Service (GDS): GOV.UK
+Context: The UK consolidated hundreds of government websites into GOV.UK, creating a single front door for citizens to access all government services.
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+9
+
+Key Lessons: · User needs, not organizational structure, must drive navigation - GDS found that citizens don't care which department delivers a service; they care about completing their task · Start with high-volume transactions - Early wins on common services (tax filing, driver's license renewal) built credibility for tackling harder problems · Design systems prevent fragmentation - A comprehensive design system ensured consistency even as hundreds of teams built services
+5.2 US Digital Service: Login.gov Context: USDS built Login.gov as a shared identity service for federal agencies, solving the 'every agency has its own login' problem.
+Key Lessons: · Incrementalism works - Login.gov started with a handful of agencies and expanded gradually as the service proved reliable · Recovery is harder than enrollment - Account recovery generated disproportionate support burden; designing for this upfront is critical · Security and usability are not opposites - High-assurance identity verification can be user-friendly with progressive profiling
+5.3 Healthcare.gov (Lessons from Failure and Recovery) Context: The 2013 Healthcare.gov launch famously failed due to integration complexity and lack of testing under real-world load.
+Key Lessons: · Test with real data and real load - Integration testing in production-like environments is non-negotiable · Break dependencies - The site required real-time verification from multiple agencies; circuit breakers could have prevented cascading failures · Recovery is possible - Within months, a dedicated team fixed the site by simplifying architecture and improving monitoring
+6 Conclusion and Next Steps
+The replacement of VA.gov represents an opportunity to fundamentally transform how the federal government serves Veterans in the digital age. This is not simply a technology refresh--it is a commitment to putting Veteran needs ahead of organizational convenience.
+Core Principles of Our Approach: 1. Identity as Foundation: Secure, compassionate identity services enable all other improvements
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+10
+
+2. Journey Over Org Chart: Navigation organized around Veteran life events, not VA bureaucracy 3. Incremental Over Big Bang: Phased migration that maintains service continuity while delivering value quickly 4. Composable Architecture: API-first design that integrates legacy systems today while enabling future innovation 5. Federated Governance: Balance central standards with business line autonomy to prevent experience debt
+6.1 Proposed Follow-On Engagement We welcome the opportunity to discuss this approach in greater detail and address specific VA concerns. Suggested topics for follow-on discussions:
+· Deep dive on identity architecture and integration with existing credentials · Workshop on journey mapping for key Veteran cohorts · Technical review of API gateway design and legacy system integration patterns · Governance model definition with VA stakeholder input · Pilot project definition for Phase 1 wrapper implementation
+The VA's mission--to care for those who have borne the battle--deserves a digital experience that is as excellent as the service Veterans provided to our nation. We look forward to partnering with the VA to make this vision a reality.
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+11
+
+Appendices
+Appendix A - Company Overviews
+
+Ibis Public Sector is a digital experience and technology modernization firm focused exclusively on serving Federal, State, and Local government agencies. Headquartered in Alexandria, Virginia, Ibis Public Sector is a subsidiary of Reingold, Inc., and operates with a Top-Secret facility clearance, ISO 9001/20000/27001 certifications, and a DCAA-approved accounting system. The firm delivers through prime and partner contract vehicles, including GSA MAS, Air Force Platform One BOA, Air Force Architecture & Integration IDIQ, and the Carahsoft partner network.
+Ibis Public Sector specializes in end-to-end digital experience modernization, integrating humancentered design, accessibility-driven UX, application and platform engineering, secure cloud, DevSecOps, data modernization, and cybersecurity. The firm applies a Total Experience Framework that aligns research, content, design, engineering, security, and operations to deliver modern, secure, and scalable digital experiences for high-traffic, mission-critical government platforms. Ibis brings deep experience modernizing public-facing and internal digital services across more than 17 federal agencies--including DoD, DHS, U.S. Air Force, and U.S. Census-- supporting millions of users through enterprise portals, data platforms, and customer experience programs that balance usability, performance, security, and compliance at scale.
+
+CX Studios is a customer experience (CX) strategy and digital transformation firm that integrates humancentered design, datadriven decisionmaking, and Six Sigma-based quality engineering to help organizations deliver seamless, intuitive experiences across every customer touchpoint. Our structured, measurementdriven approach minimizes defects, reduces operational friction, and ensures consistent performance within complex digital ecosystems.
+Our methodology balances human factors with modern technology solutions, enabling organizations to design, build, and optimize experiences that are accessible, personalized, and scalable. We employ a disciplined process framework that supports rigorous evaluation, continuous improvement, and reliable execution across both digital and physical channels.
+Our team brings deep experience delivering CX transformation programs for large federal and regulated organizations--including the U.S. Department of Defense--where we have applied Six Sigma methodologies, advanced analytics governance, humancentered design, and crossfunctional enablement to drive scalable, missionaligned transformation.
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+Ibis - CX Studios / RFI Response / Replacement Model for VA.gov
+
+12
+
+CX Studios is recognized for its proprietary CX Modernization Accelerator--a versionagnostic, NoCode/LowCode solution that reduces timetomarket by more than 50% while providing an enterprisegrade digital foundation. This accelerator enables rapid deployment of modernization initiatives while maintaining governance, consistency, and operational quality.
+
+Appendix B - Salesforce Solution
+The VA has an existing Salesforce Enterprise License Agreement (ELA). One approach is to leverage this ELA to build the platform on Salesforce Government Cloud Plus providing VA with a FedRAMP High authorized enterprise platform consisting of five layers--Digital Experience (Experience Cloud), Identity, Digital Service and Automation (Service Cloud, Agentforce, Marketing Cloud), Data and Analytics (Data 360 with Tableau Next), and Integration (MuleSoft)--to unify service delivery, automation, and data across all benefit portfolios. This unified approach enables personalized self-service, coordinated omnichannel engagement, and real-time service orchestration
+
+The information on this page is subject to the nondisclosure statement on the proposal cover page.
+
+Solicitation Number 36C10B26Q0131
+
+

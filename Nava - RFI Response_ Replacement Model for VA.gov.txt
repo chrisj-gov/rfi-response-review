@@ -1,0 +1,257 @@
+Request for Information: Replacement Model for VA.gov
+Prepared by Nava Public Benefit Corporation for the U.S. Department of Veterans Affairs (VA)
+
+TECHNOLOGY ACQUISITION CENTER
+Department of Veterans Affairs February 4, 2026
+
+Point of contact
+Rohan Bhobe Co-Founder and CEO contracts@navapbc.com 630 5448106
+
+Nava Public Benefit Corporation
+601 13th Street NW, 12th Floor Washington, DC 20005
+navapbc.com
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+
+Corporate Information
+Nava Public Benefit Corporation (PBC) is pleased to submit this response to the U.S. Department of Veterans Affairs (VA) Request for Information (RFI) regarding the Replacement Model for VA.gov. Nava is a public benefit corporation on a mission to make government services simple, effective, and accessible to all. As a CMMI Maturity Level 3 rated organization, for both Development and Services, we provide trusted, modern digital services. Our integrated teams guide agencies constrained by legacy systems to a future with intuitive user experiences built on secure, reliable, and human-centered website redesign and modernization.
+Nava is a recognized leader in digital services, specializing in modernizing legacy platforms, including websites, for federal and state agencies. With a strong focus on human-centered design and agile methodologies, we have successfully delivered large-scale IT modernization projects that meet user and business needs. Our team consists of experts in software and infrastructure engineering, product management, generative AI, design, research, and content management.
+The table below contains Nava's corporate information:
+
+Corporate Detail
+
+Response
+
+Company Name
+
+Nava PBC
+
+Company Address
+
+601 13th Street NW, 12th Floor Washington, DC 20005
+
+Point of Contact
+
+Rohan Bhobe, CEO and Co-Founder
+
+Phone Number
+
+(630) 544-8106
+
+Email
+
+contracts@navapbc.com
+
+NAICS Codes
+
+541511 (Primary), 541512, 541519, 518210
+
+System for Award Management Unique Identity Identification Number
+
+E9T7F9N2ERR4
+
+Existing Contractual Vehicles
+
+GSA MAS: 47QTCA18D008M CMS ACME BPA: 75FCMC23A0006
+
+0
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+1.0 Executive Summary
+The Department of Veterans Affairs (VA) serves 15 million visitors and nearly 2 million authenticated users each month on VA.gov. At that scale, even small points of friction drive outsized call center volume, repeat visits, and abandoned tasks. Veterans arrive with a clear goal, and VA.gov must guide them from intent to completion across every handoff. Today, high-value journeys can stall early. For example, community care can take up to 19 days to complete initial referral steps before an appointment is even scheduled.
+VA.gov has already proven its value by delivering critical information and enabling key tasks. The next evolution should build on that foundation by connecting experiences across systems without disrupting live services. VA does not need a multi-year replacement effort. Nava recommends three Veteran-centered principles to modernize safely and measurably. First, separate experience from systems by adding an orchestration layer that understands who the Veteran is, where they are in a journey, and what should happen next. Second, design around Veteran workflows, not benefit silos by organizing services into task-based flows that work across the Veterans Health Administration (VHA), Veterans Benefits Administration (VBA), and National Cemetery Administration (NCA) so Veterans can complete journeys without navigating organizational boundaries. Third, modernize incrementally by starting with the most difficult journeys, reusing proven Application Programming Interfaces (APIs), and scaling what works.
+Nava delivers modernization by centering the Veteran experience. In nine weeks, we redesigned the VA.gov 21-526EZ document uploader and cut confusing labels from 90% to 34% by aligning language and categories to how Veterans actually organize their documents. We enhanced Max Ratings to remove guesswork and reduced unnecessary applications by 30% by clearly showing when a Veteran has already reached the maximum rating. We also helped VA implement an Artificial Intelligence (AI) classification model that has saved approximately 172 days of manual processing time and now classifies 100% of conditions claimed on disability forms, reducing delays caused by incorrect classifications.
+This approach pays off quickly and compounds over time. We build on VA's existing investments, create workflows once around Veteran mental models, and reuse them across channels to avoid costly, disruptive platform resets. Aligned with VA leadership's "problem first, then tech fit" approach, we deliver measurable improvements while preserving service continuity. The result is a VA.gov that guides Veterans through complete journeys today and continuously improves to serve them better tomorrow.
+1
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+2.0 What "Feels Antiquated" on VA.gov Today
+Veterans come to VA.gov seeking help with healthcare, benefits, and documents, but the experience still feels like navigating multiple systems stitched together rather than one unified service. High-value journeys like scheduling appointments, accessing community care, or checking claims status force Veterans to repeat the same information across different tools, lose context when switching between web and phone and in-person channels, and wonder what happens next with limited transparency. The frustration is particularly acute in scheduling, where the fragmentation between VA Medical Center (VAMC) appointments and Community Care creates confusion. VA's community care scheduling process can take up to 19 days just to complete the initial steps from creating a referral to reviewing it, before an appointment is even scheduled. Additionally, Compensation and Pension exams for disability benefits are scheduled through third-party contractors who contact Veterans by phone or email, and Veterans cannot initiate the scheduling themselves, adding complexity that burdens both Veterans and staff. For administrators managing these disparate services, the temptation to rip everything out and start fresh is understandable, especially when systems that should talk to each other don't, and when Veterans end up on the phone because the digital tools cannot complete their journey.
+These are experience orchestration problems, not failures of modern web development. VA.gov functions well as a publishing and transaction surface, providing information and completing individual tasks effectively, but it struggles to act as a journey conductor that maintains context while guiding Veterans through complete experiences across multiple systems. What Veterans and administrators are experiencing is the gap between individual tools that work in isolation and the connected, contextual experience that complex journeys require. This gap can be bridged by a journey conductor, an intuitive and centralized intelligence that would manage context and state, navigating between disparate backends.
+3.0 Description of Relevant Ideas, Capabilities, and Approaches
+3.1 Guiding Principles for a Next-Generation VA Digital Front Door
+Principle 1: Separate "Experience" from "Systems"
+Veterans come to VA.gov for many needs. A smoother experience comes from tying each Veteran's journey to their account, not treating VA.gov as the system itself. When VA.gov is treated as the system, every improvement requires changing underlying infrastructure. A better approach treats VA.gov as one
+2
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+channel among many: web, mobile app, phone, and in-person, all connected through a shared layer that understands each Veteran's situation. Implementing a robust, event-driven service mesh and API gateway would manage all interaction between the experience layer and backend systems (VHA, VBA, NCA).
+That experience layer sits between Veterans and VA's systems. It recognizes the Veteran, tracks progress, and routes them to the right service at the right time. If a Veteran starts a disability claim online and later calls for help, a representative can see exactly where they left off. If a policy change affects benefits, the system can notify the Veteran and guide them to next steps. This separation gives VA flexibility to improve services, add capabilities, and retire legacy systems without breaking the Veteran journey.
+Identity and continuity across channels at national scale. Nava's dedicated team has delivered identity capabilities that work across multiple "surfaces," including a Login.gov in-person identity verification service available at nearly 20,000 USPS locations, which helps Veterans complete verification even when remote proofing was difficult. Nava also engineered the HealthCare.gov Scalable Login System capable of handling extreme peak conditions and validated performance with a one billion user load test sustaining 7,754 transactions per second for an hour with 128ms p90 response time and zero errors, demonstrating the reliability needed when millions depend on access.
+Principle 2: Design Around Veteran Workflows, Not Benefits Silos
+Veterans come to VA.gov with specific goals in mind, but they don't approach those goals the way VA does. When someone needs to see a doctor, they're thinking "I need care," not whether that's a Veterans Health Administration (VHA) or Veterans Benefits Administration (VBA) issue. When checking on a pending decision, it's "I'm tracking something." When gathering paperwork for an employer, it's "I need proof or documents." Right now, VA.gov often expects Veterans to figure out which part of VA manages what before they can access the right service.
+A workflow-first design meets Veterans where they are and guides them to outcomes. Instead of leading with categories like Health Care, Disability, and Records, the platform can offer task-based paths that work across VHA, VBA, and NCA. Those paths should connect digital tools and human support when needed. These pathways will be flexible enough to connect third-party providers to Veteran experiences, such as scheduling, through partner APIs that grant controlled access. For example, an "I need care" path could support scheduling, clarify next steps, and connect the Veteran to a coordinator in one place.
+Measurable usability improvements in real VA.gov journeys. Nava has improved Veteran workflows by targeting the steps that create the most confusion and fixing them quickly. In a VA.gov disability claim flow, Nava helped reduce confusing document labeling behavior from 90% selecting "Other" to 34% after a focused redesign delivered in nine weeks. Nava has also supported cross-site
+3
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+information architecture and content improvements for Veterans, including streamlining and consolidating large sets of health and benefits information so Veterans can more easily use the services
+Principle 3: Incremental Evolution, Not a Big-Bang Rebuild
+Replacing the entirety of VA.gov does not need to happen all at once to deliver a better experience for Veterans and their families. Large platform replacements carry enormous risk. Services can go down, Veterans lose access to critical tools, and years of work can be lost if something goes wrong. An incremental approach allows a team to improve VA.gov gradually, tackling the most frustrating journeys first - appointment scheduling, claims status checks, disability ratings - and learning from each change before moving to the next. This means Veterans start seeing improvements in weeks or months rather than waiting years for a complete overhaul, and VA avoids the danger of disrupting services that millions of people depend on every day.
+Making changes incrementally allows VA to migrate high-friction journeys one at a time, test new approaches in parallel with existing systems, and reuse proven APIs that securely connect multiple vendors to Veterans. VA could start with appointment scheduling, building on existing scheduling APIs while adding an orchestration layer that routes Veterans to the right type of care. Once that proves reliable, the same approach can extend to claims tracking and document requests. The legacy experience stays available until the new one is ready.
+Incremental transitions that protect continuity of service. Nava's work with the New Jersey Unemployment Insurance (UI) Portal includes building a self-service claimant portal plus an API that connects the claimant-facing front end to the staff-facing back end, using an iterative rollout that directs a higher percentage of users to the new intake application with each launch. The intake application is intuitive and allows users to apply for benefits in fewer steps than the legacy application, lets people save and finish their application later, and is accessible on all devices. From the time they begin to the time they hit submit, 50% of claimants complete the initial application in under 28 minutes.
+3.2 Conceptual Replacement Model
+Proposed Model: Composable Experience Platform
+Layer 1: Identity, Context, and State
+Instead of building a new VA.gov website from scratch, a more effective approach would create a layered model where new capabilities sit on top of existing systems. Further, leveraging a provider model that abstracts the underlying platform or solution decouples the user experience and reduces risks of lock-in
+4
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+and the accumulation of technical debt. The foundation of this model starts with identity, context, and state: the essential information that allows VA to recognize each Veteran, remember their situation, and understand where they are in any process. This layer would establish a unified Veteran identity that works the same way whether someone logs in through the website, mobile app, or speaks to a representative
+Building this foundation layer would enable persistent session context across visits and channels, meaning the system remembers not just who you are, but what you were working on and where you left off. If a Veteran starts filling out a benefits application on their laptop and picks it back up on their phone the next day, the system would recognize them and bring them right back to where they were. The layer would also track the journey state, answering "where am I in this process?" for every interaction. By establishing this foundational layer first, VA creates the infrastructure to build better experiences on top of existing systems without replacing everything at once.
+Secure identity options that expand access. Nava addressed Login.gov's challenge of adding a remote biometric check by incorporating Acuant-based document and selfie capture and comparison into the flow. Login.gov's own engineering documentation describes document authentication vendors used to capture pictures of a user's ID or passport and face, including an Acuant SDK, and it explicitly references progressing through document and selfie capture and validating the "Biometric Comparison" experience.
+Layer 2: Workflow Orchestration
+Once the system knows who a Veteran is and where they are in their journey, the next layer handles what should follow. This workflow orchestration layer acts like an intelligent traffic controller, coordinating all the moving parts that make up a complete Veteran experience. It uses rules and events to decide when to schedule appointments, determine which benefits someone qualifies for, send notifications at the right time, and hand off tasks between different systems or people.
+What makes this layer powerful is that it's completely separate from how Veterans actually interact with VA. This separation means VA can update the logic behind the scenes via configuration logic without rebuilding every interface or requiring complex code deployments. To mitigate the risk of 'Over-customization' (Section 4.0), the rules engine for this layer must be highly declarative, allowing business logic to be updated by policy owners through configuration rather than requiring new code deployments. This streamlines the "path to production" for required changes and reduces the security documentation burden associated with non-platform business process updates. A Veteran can start a process on the website, continue it over the phone, and finish it through the mobile app, with the orchestration layer ensuring everything stays coordinated. The rules engine handles the complexity across multiple VA systems, while Veterans simply see a smooth experience.
+5
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+Orchestration pipelines that route the right information reliably. Nava built and operated CDC ReportStream, a data routing pipeline designed to move time-sensitive information across a complex ecosystem. Nava reports 40,000,000 test results delivered and 190 years of manual reporting time saved, showing how an event-driven orchestration layer can reduce operational friction while improving reliability and timeliness.
+Layer 3: Experience Surfaces
+The top layer of the platform is what Veterans actually interact with: the experience surfaces. This includes VA.gov on the web, the VA mobile app, and future interfaces like conversational or AI assisted tools. Each of these surfaces connects to the same underlying identity, orchestration, and data layers, which means improvements made to one benefit all the others. When VA adds a new capability or fixes a problem in the core system, that fix automatically flows through to every way Veterans access services.
+The VA mobile app already demonstrates how well this model can work. Rather than building a completely separate system, the mobile app reuses the same web modernization investments, APIs, and services that power VA.gov, while providing an interface optimized for phones. Future surfaces, like AI assisted interfaces that could help Veterans find the right form or understand their benefits through conversation, will be prioritized. These AI tools will access the same Identity, Context, and State and Workflow Orchestration layers to ensure responses are accurate, personalized, and actionable. This composable approach means VA can experiment with new interfaces and adopt emerging technologies without disrupting existing services or forcing Veterans to choose between competing tools.
+Usability-focused surfaces built on shared services and APIs. On Simpler.Grants.gov, Nava supports experience improvements like saved searches, bookmarked opportunities, and email notifications so users can stay oriented and take next steps without losing context. For CMS, Nava redesigned and improved an API-facing experience for Medicare data exchange and reported impact signals that tie usability to adoption, including 28,773,413 enrollees' claims data served by AB2D since June 2025 and a 115% increase in average site visitors per month.
+3.3 Case Study: Disability Benefit Crew
+Our goal is to improve services by orienting each feature around Veterans' experiences and expectations. Doing so alleviates frustrations when documents miscategorization causes delays, when long applications can be avoided, and when they cannot see an end to the paperwork standing between them and assistance. The case studies below demonstrate how incremental modernizations can deliver a large impact.
+3.3.1 Timesaving Feature to Max Claim for Increase (CFI) Application
+6
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+Nava's team developed a timesaving and clarifying feature that informs Veterans of their rating at-a-glance and eliminates needless applications. When Veterans who are at the maximum rating apply to increase their benefits, it triggers a burdensome task for claims processors who must spend time adjudicating claims that will eventually be denied.
+The Max Ratings API gathers data on maximum ratings for each disability and surfaces this data on VA.gov, making the claims application process more transparent for Veterans. This API implementation and notification has reduced these applications by 30%, freeing valuable processor time for fruitful tasks.
+To eliminate confusion and unnecessary work, Nava's team created an API that connects data from the VA rating schedule, to determine whether the current rating was the highest possible for a condition, to the online application screen. By pulling data from the disability rating schedule, Nava's team was able to inform veterans when they have reached rating maximums and cannot apply for an increase. If the Veteran has reached the maximum, the message "You're already at the maximum rating for this disability." is displayed whenever appropriate on different conditions. The Max Ratings API gathers data on maximum ratings for each disability and surfaces this data on va.gov, making the claims application process more transparent for Veterans. Implementing this API and notification has reduced these applications by 30%, freeing valuable processor time for fruitful tasks.
+3.3.2 Document Uploader
+Nava's team developed a streamlined document labeling system that helps Veterans accurately categorize their securely uploaded files and reduces unnecessary work for claims processors. When Veterans uploaded private medical records to support disability claims, 90% selected "Other" as the document label because only two options were available. This created confusion for Veterans and triggered time-consuming manual review by claims processors.
+To eliminate this inefficiency, Nava's team conducted targeted research with claims processors to identify the most common mislabeled document types. By adding two new dropdown options, "Disability Benefits Questionnaire (DBQ)" and "Medical Treatment Record from Non-Government Facility," the team provided Veterans with meaningful choices that matched their actual documents.
+The improved document uploader reduced "Other" selections from 90% to 34%, freeing claims processors to focus on substantive claim reviews rather than document categorization. This nine week fix improved both Veteran experience and claims processing efficiency, with plans to expand the solution across all document upload screens and explore AI assisted labeling.
+3.3.3 Disability Application Stepper (In-progress)
+7
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+Nava's team is developing a navigation feature that will reduce Veteran anxiety and confusion during the lengthy disability benefits application process. When Veterans navigate the multi-step application, many become uncertain about how many steps remain and whether they are completing the process correctly. This uncertainty creates stress for Veterans who fear their claim may be denied due to a misstep.
+Nava's team is addressing this challenge by implementing a stepper component that will display all application steps in a clear, sequential list. By showing exactly where they are in the process and what comes next, the team is aligning the complicated VA application with Veteran expectations. Veterans will be able to see their progress at a glance and understand the full scope of the application before they begin.
+This visual progress indicator will transform how Veterans experience the application process on VA.gov, making it less intimidating and more manageable. The stepper is expected to help Veterans feel more in control of their application journey, reducing anxiety about the process and building trust in VA's systems. This navigation enhancement requires no changes to the underlying application programming, demonstrating how thoughtful interface design can significantly improve user experience.
+3.4 A Role for Artificial Intelligence (AI)
+Nava's deep experience implementing targeted AI use cases at the state and federal levels, which reduces manual processes and operational overhead while creating more intuitive experiences through AI-enhanced services. We are collaborating with National Artificial Intelligence Institute (NAII) to identify AI use cases, shape AI-powered solutions, run pilots, iterate with users, and scale solutions. Through this collaboration with visionary teams at the VA, under the Artificial Intelligence (AI) Solution Technical Configuration, Nava is improving veteran outcomes by responsibly applying AI to enterprise workflows and user experiences. This work will operationalize AI technologies that improve Veteran health outcomes and alleviate workload burden. Simplifying the document upload and triage process with AI. Nava's Disability Benefits Crew team is developing an AI tool that would scan documents uploaded into the portal and automatically sort them according to the preset categories used by processors. This would eliminate the need for Veterans to determine which file goes where and move them to the next step in the claims process faster.
+Nava (in collaboration with Agile Six) are using AI to shift the burden away from Veterans and reduce processing time. We are using Machine Learning (ML) to enhance the disability contention classifier which now classifies 100% of conditions claimed on VA.gov disability forms. Classifications are a required field in the Veterans Benefits Management System (VBMS) and if this field is not filled in, the condition is sent to an "error" state. This state prevents automated steps further in the process from moving forward until the classification is addressed manually. Incorrect classifications could delay adjudication or connect the Veteran to the wrong exam. By incorporating the ML feature into the
+8
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+VBMS, Nava's Team have saved the VA approximately 4,131 hours or 172 days of working time since implementation.
+4.0 Limitations, Risks, Tradeoffs, and Lessons Learned
+Any significant modernization effort involves navigating challenges and making deliberate choices. The composable, incremental approach offers substantial benefits but requires careful governance, sustained architectural discipline, and realistic expectations about pace of change.
+Risks:
+Governance complexity across administrations. Coordinating experience design across VHA, VBA, and NCA requires clear decision-making authority to prevent competing priorities from fragmenting the experience. We recommend a dedicated Digital Front Door Product Council with executive product owners from each service branch and a VA OCTO representative empowered as the ultimate decision-maker, with both the authority and availability to remain fully immersed in the work.
+Over-customization of orchestration logic. Flexibility can become a liability if every journey becomes highly customized. Each custom workflow adds a maintenance burden and makes the system harder to evolve. Success requires establishing standards and reusable patterns early, resisting one-off solutions, and designing configurable components rather than custom code.
+Change management for internal staff. Moving from siloed tools to shared orchestration changes how VA staff work. Call center representatives, claims processors, and coordinators will need training to use systems that provide cross-administration visibility. Success requires investing in change management as heavily as technical implementation.
+Tradeoffs:
+Slower visible transformation versus lower risk. The incremental approach means Veterans won't see dramatic changes overnight. Improvements arrive journey by journey rather than a big reveal of "VA.gov v2." Building a foundation and orchestration capabilities takes time before visible improvements accelerate. The tradeoff is a longer runway to the full vision in exchange for maintaining service continuity, learning as you go, and avoiding catastrophic risks of big-bang replacements.
+Architectural discipline over vendor speed. Maintaining a vendor-agnostic architecture requires saying no to proprietary integrations that promise faster delivery but create lock-in. Once locked into closed tool ecosystems, VA may be unable to adopt emerging technologies or respond to evolving Veteran needs.
+9
+
+Nava Public Benefit Corporation VA Replacement Model for VA.gov February 4, 2026
+This means sometimes choosing slower initial progress to preserve long-term flexibility and VA's control. Success requires sustained commitment to resist vendor pressures.
+Lessons Learned from Similar Efforts:
+VA product ownership matters more than tooling. Successful transformations require a strong product owner within the agency who owns the vision, makes decisions, and advocates for users. We would deliver a vendor-agnostic suite of systems entirely under VA's control. The lesson is to invest as much in building VA's internal product capacity as in building the platform itself.
+Replacing experience succeeds more often than replacing platforms. Organizations that successfully modernized changed what users see first (Experience Orchestration) because it allows for a faster, less disruptive path to value while allowing a longer, controlled retirement of legacy backends. Efforts that tried to replace entire platforms often failed or took years longer. This reinforces introducing orchestration to improve journeys, then gradually retiring backend systems as needed.
+Strong analytics and feedback loops are non-negotiable. Successful transformations implement robust analytics, track user behavior, gather qualitative feedback, and use this data to drive decisions. For VA, this means instrumenting every journey, monitoring completion rates and drop-off points, conducting regular user research, and creating tight feedback loops between measurement and prioritization.
+5.0 Cost Reductions and Savings Over Time
+This incremental modernization approach enables sustained cost control by reducing friction and duplication in Veteran-facing services. VA handles tens of millions of digital interactions and assisted contacts each year. At that scale, small improvements in clarity, reuse, and reliability add up quickly. Centralized journey orchestration can reduce inconsistent behavior across systems, with an estimated 15-30% reduction in experience-related incidents and 10-20% faster recovery when issues occur. Reusable workflow logic across web, mobile, and assisted channels can enable 20-35% improvement in delivery efficiency. Configuration-based workflows could reduce effort for policy-driven updates by 20-30%. Clearer journeys and targeted AI have already reduced unnecessary disability increase claims by approximately 30% and are projected to avoid approximately 15,500 manual processing hours annually (approximately $547K). Even a 1-3% reduction in assisted-channel demand means hundreds of thousands fewer calls each year. This incremental path avoids large-scale, high-risk platform resets while continuously improving Veteran experience. These savings come from simpler paths, shared services, and clearer accountability rather than organizational disruption. As more journeys move onto shared orchestration, improvements compound: reliability increases, delivery accelerates, and the cost per improvement declines.
+10
+
+Appendix
+
+Appendix
+
+A.1 Past Performance
+
+A.1.1 VA Disability Benefits Crew
+
+Customer (Agency)
+VA
+
+Contract #
+SPRUCE 36C10B25D0002 / 36C10B25N00020
+002
+
+POC
+Robert Grey robertgrey@navapbc.com
+
+Total Contract Value
+42,758,270.48
+
+Period of Performance 5/19/2025 -
+3/20/2026
+
+Prime/Sub? Sub
+
+Nava's Disability Benefits Crew supports the end-to-end digital experience for Veterans applying for disability benefits through VA.gov. The team maintains and enhances the online VA Form 21-526EZ (Application for Disability Compensation and Related Compensation Benefits) and related forms including VA Form 21-4142 (authorization to release medical information from private providers), VA Form 21-0781 (statement in support of claimed mental health disorders due to in-service traumatic events), and VA Form 21-0966 (intent to file). The digital portfolio serves the hundreds of thousands of Veterans who file disability claims online each year, providing capabilities such as pre-fill from existing VA records, document upload functionality, in-progress form saving, and online submission tracking. This work directly supports VA's mission to provide faster, more reliable, and more transparent claim submission and processing compared to paper-based alternatives.
+The contract scope includes maintaining core application reliability, improving user experience, eliminating silent submission failures, and strengthening data reliability and system observability. The team has focused on reducing Veteran and staff burden through automation, better error handling, and evidence submission improvements. Key technical work involves modernizing legacy systems integration, ensuring alignment with VA.gov design standards and accessibility requirements, and implementing AI-driven solutions to support staff processing. These solutions include a document classification tool and a natural language processing classifier that determines appropriate Disability Benefits Questionnaires for user-submitted contentions. The team operates with a focus on zero Veteran data loss in digital submissions and faster decision times, while ensuring claims forms remain consistently updated within six months of paper version changes.
+
+A.1.2 VA Automated Benefits Delivery (ABD)
+
+Customer (Agency)
+VA
+
+Contract # 36C10B24P0010
+
+POC
+Robert Grey robertgrey@navapbc.com
+
+Total Contract Value
+$1,264,024.23
+
+Period of Performance 7/5/2024 -
+5/27/2025
+
+Prime/Sub? Sub
+
+Nava worked with the VA's Office of the Chief Technology Officer (OCTO) Benefits Delivery Team to streamline the disability benefit application process on VA.gov through targeted improvements that reduce burden for both Veterans and staff. One key achievement was redesigning the document uploader screen where Veterans label private medical records to support their claims. The original screen offered only two label options, leading 90% of Veterans to select "Other," which created significant problems for claims processors who had to manually review each document and caused issues for VA's automated processes that rely on accurate labels. Through targeted research with claims processors and iterative design, Nava helped VA add two new dropdown options: "Disability Benefits Questionnaire (DBQ)" and "Medical Treatment Record - Non-Government Facility." This nine-week fix reduced "Other" selections from 90% to 34%, helping claims processors quickly locate important documents and enabling VA's automated processes to correctly route documents, order appropriate medical exams, and include relevant materials in automated claims reviews.
+Beyond improving the user interface, Nava is building tools that use Application Programming Interfaces (APIs) to unlock and surface siloed medical data, reducing the manual effort required by staff to make decisions on each claim and decreasing the number of duplicative medical exams Veterans must undergo. The team implemented a machine learning model within the Veterans Benefits Management System (VBMS) that now classifies 100% of conditions claimed on VA.gov disability forms, a critical step since missing classifications send conditions to an error state that prevents automated processing and can delay adjudication or connect Veterans to the wrong exam. Since implementation, this model has saved approximately 4,131 hours or 172 days of working time, with projected annual savings of 15,583 manual classification hours (649 days or $546,845) once the model has run for a full year. These savings come not from cutting services or replacing systems but from strategically adding automation and intelligence that eliminates repetitive manual work, freeing VA staff to focus on Veterans who need human attention and judgment while building on VA's existing foundation.
+
+A.1.3 GSA Login.gov (Fearless)
+
+Customer (Agency)
+GSA
+
+Contract #
+47QPCA24F0038 / 47QPCA21A0009
+
+POC
+Ann O. Duffey, JD duffy_ann@bah.com
+
+Total Contract Value
+$2,515,416.50
+
+Period of Performance 5/24/2024 -
+8/23/2025
+
+Prime/Sub? Sub
+
+Nava supported Login.gov and its federal agency partners by strengthening Login.gov's identity proofing for higher-risk transactions as part of the effort to meet NIST SP 800-63 IAL2 requirements. In October 2024, General Services Administration (GSA) announced that Login.gov would offer an independently certified IAL2 identity verification option that adds one-to-one facial matching so Login.gov can confirm a live selfie matches the photo on a government-issued ID, while stating it does not do one-to-many facial identification and does not use the images for any purpose other than identity verification. This enhancement is designed to help agencies protect against identity theft and fraud while keeping the experience as easy and secure as possible for the public, at the scale Login.gov operates today, which GSA reports as 50+ federal and state agencies, 500+ applications, and 300+ million annual sign-ins.
+Within Login.gov's existing document authentication experience, Nava addressed the challenge of adding a remote biometric check as part of IAL2 by incorporating Acuant-based document and selfie capture and comparison into the flow. Login.gov's own engineering documentation describes document authentication vendors used to capture pictures of a user's ID or passport and face, including an Acuant SDK, and it explicitly references progressing through document and selfie capture and validating the "Biometric Comparison" experience. In parallel, Login.gov also offers an in-person verification pathway at participating U.S. Postal Service retail locations, supporting users who have trouble verifying online or prefer not to submit photos. Together, these capabilities reflect the kind of security-forward identity and authentication features that can benefit VA.gov by reducing fraud risk and expanding secure, usable pathways for Veterans to prove identity and recover access when they hit friction.
+
+A.1.4 HHS Grants.gov Scaled Platform (Swift Call #2)
+
+Customer (Agency)
+HHS
+
+Contract # 47QTCA18D008M
+
+POC
+Keith Harding keith.harding@hhs.gov
+
+Total Contract Value
+$39,088,022.03
+
+Period of Performance 9/9/2024 -
+9/8/2028
+
+Prime/Sub Prime
+
+The Department of Health and Human Services (HHS) oversees Grants.gov, the federal government's digital gateway for grantmaking that disburses more than $300B in grants each year and serves as the single access point for over 900 grant programs across 26 federal grant-making agencies. With the goal of making Grants.gov "the simplest, most accessible, and easiest" way to find and apply for assistance, HHS tapped Nava to help scale modernization efforts through Simpler.Grants.gov, the beta site where HHS is building modern architecture for the next generation of Grants.gov, while operating transparently via open-source code, a public roadmap, and shared analytics.
+In addition to modernization, Nava helped HHS improve usability through user-centered practices and continuous community feedback: a revamped search experience and redesigned opportunity listings focused on plain language, improved relevancy, and practical usability fixes like making it easier to share searches and save searches/opportunities, plus opt-in email notifications tied to saved searches and bookmarked opportunities. Nava also supports a Co-Design effort that gathers cohorts of community
+
+members for six to eight months, including grantwriters, nonprofit directors, community organizers, technical professionals, and small business owners, to provide ongoing feedback on planning and design, while platform changes such as Login.gov authentication are explicitly intended to reduce steps and friction for account creation.
+
+

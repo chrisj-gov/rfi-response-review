@@ -1,0 +1,387 @@
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+Date of Submittal: Feb 05, 2026 12:00 PM ET
+
+Submitted To:
+
+Submitted By:
+
+(N): Allison Fulton (E): allison.fulton@va.gov (P): (512) 981-4477 (N): Evan Schlisserman (E): evan.schlisserman@va.gov (A): Eatontown , NJ 07724 USA
+
+COGENT Infotech Corporation 200 Vesey Street, 24th Floor, New York, NY 10281
+Manu Mehta, President manu.mehta@COGENTinfo.com
+Phone: (412) 246-0708 Fax: (412) 774-1515
+Unique Entity Identifier (UEI): EV26J8KZJJA3
+
+Phase I - Corporate Experience Brief
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2024
+
+DUNSPNaguemi ber: 141938386 CAGE Code: 4VEV7
+
+GSA MAS Contract Number: 47QTCA24D0023
+
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+
+1. Capability Statement
+
+COGENT Infotech Corporation (COGENT) is a U.S.-based IT consulting and technology firm with 23 years of experience delivering and operating secure, high-availability Health IT and digital service platforms for Federal, State, and Local Government customers. We have supported 200+ public-sector contracts, providing end-to-end delivery and sustainment for mission systems that must remain continuously accessible where outages, broken workflows, or degraded performance can affect patient services and operational outcomes.
+Our approach supports modernization of large, high-traffic public-facing platforms while maintaining uninterrupted operations. COGENT executes modernization through governed, incremental delivery to reduce risk, maintain continuity, and validate outcomes throughout the transition. We support legacy-to-modern integration so new capabilities can be delivered while continuing to interface with existing enterprise services through modular, API-driven architecture designed for scalability, adaptability, and resilience in regulated environments.
+COGENT delivers solutions aligned to Health IT access and service workflows, including identity proofing, authentication (sign-in), account recovery, and guided navigation across services. We combine human-centered design, platform engineering, and operational readiness to deliver experiences that are secure, usable, and consistent, while meeting governance and security expectations.
+Our teams instrument platforms with analytics and service performance metrics to track availability, responsiveness, task completion, drop-off, and error trends, enabling continuous improvement without disrupting day-to-day operations. COGENT also supports the operating model and governance needed for long-term sustainment, including release management, change control, content and workflow stewardship,
+
+COGENT Value Proposition Proven Scale: 10,000+ projects delivered, including 20+ similar digital modernization engagements. Established Partner: Founded 2003; built for multi-year, mission-critical delivery and sustainment. Proven Health IT Customer Base: Delivered and supported digital and enterprise Health IT services for public health agencies, state health and human services, county health systems, and provider organizations, including: Tarrant County Public Health; Washington Health Benefit Exchange; CalOptima Health; Fulton County Board of Health; New York State Office of Mental Health; Texas Health and Human Services Commission; Idaho Department of Health and Welfare; Florida Department of Health; Illinois Department of Healthcare and Family Services; UCLA Health; OU Health; San Mateo County Health System. Nationwide Presence: Pittsburgh, PA; Dallas/Irving, TX; Boca Raton, FL; New York, NY; Washington, DC; Hollywood, FL. Rapid Staffing at Scale: ARIA staffing platform with 10M+ resumes, 98% retention, and 250+ ready candidates for fast ramp-up and resilient backfill. Zero-Disruption Modernization: Phased delivery with parallel testing, controlled cutovers, and rollback-ready releases to sustain uninterrupted operations. End-to-End User Journeys: Strengthens identity proofing, sign-in, account recovery, and guided navigation to improve completion and reduce failures. Integration-First Delivery: Modular, API-driven approach that modernizes the front end while integrating legacy and emerging back-end services. Secure-by-Design, Audit-Ready: Built for regulated environments with security embedded from design through delivery and oversight-ready evidence. Metrics-Driven Improvement: Measures availability, speed, completion, drop-off, and errors to prioritize fixes and prove outcomes. Surge Capacity for Pilots and Waves: Crossfunctional teams (product, design, engineering, content, accessibility, DevSecOps, analytics) scale quickly for pilots, migrations, and remediation.
+and IT service management practices.
+
+Sources Sought Response
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2026
+
+Page 1
+
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+
+COGENT's delivery is supported by a mature, standards-based framework focused on quality and security. This includes ISO 9001 (Quality Management), ISO/IEC 20000-1 (IT Service Management), and ISO/IEC 27001 (Information Security Management) certifications, a CMMISVC Level 3 appraisal, and a CMMC Level 1 Final Self-Assessment valid through July 30, 2026 (UID: S100014387). We bring strong staffing depth and speed-to-fill for mission programs through an established workforce engine for recruiting, vetting, onboarding, and surge support. COGENT uses the ARIA Intelligence tool to improve workforce readiness by accelerating candidate identification and skills matching, supporting standardized screening, and improving visibility into staffing pipelines and coverage. Our proprietary pipeline includes 10M+ resources, supported by 450+ recruiters, an internal database of 10M+ records, and 10,000+ active candidate profiles. This enables rapid ramp-up, dependable backfill for attrition, and surge staffing to sustain service levels throughout modernization waves.
+
+Our Core Competencies
+
+Content Strategy & Governance
+
+Digital Identity & Authentication Integration
+
+o Standardized content models, templates, and
+
+o Multi-IdP integration (e.g., Login.gov, ID.me, DS
+
+reusable patterns across services
+
+Logon) and future IdP onboarding
+
+o Lifecycle governance with clear ownership
+
+o OAuth 2.0 / OIDC / SAML authentication flows
+
+(Create, review, publish, retire)
+
+with secure token handling
+
+o Section 508/WCAG compliance enforcement and o MFA and step-up authentication for protected
+
+reporting
+
+transactions
+
+o Headless / API-first CMS patterns (e.g.,
+
+o Session continuity across IdP redirects and secure
+
+Drupal/AEM where applicable)
+
+session management
+
+o Taxonomy, metadata, workflow approvals, and o Account recovery/restoration with fraud controls
+
+audit trails
+
+(rate limiting, risk signals) and audit logging
+
+Navigation & Information Architecture
+
+Platform Architecture & Integration
+
+o Intent-driven, task-first navigation replacing
+
+o Modular, API-driven architecture enabling
+
+organization-first structures
+
+incremental modernization
+
+o Consistent labels, layouts, and task discovery
+
+o Decoupled experience layer from backend
+
+patterns across services
+
+constraints
+
+o Unified dashboards/entry points for cross-service o Secure integration across benefits, claims, health,
+
+access
+
+and records platforms
+
+o Metadata-driven discovery and improved
+
+o Container-ready delivery patterns
+
+findability/search relevance
+
+(Docker/Kubernetes where applicable)
+
+o Journey-based wayfinding and "next best step" o Resilience engineering: retries, queues, circuit
+
+guidance
+
+breakers, graceful degradation
+
+Security, Compliance & Federal Operating Model DevSecOps & Delivery Governance
+
+o Secure-by-design delivery aligned to NIST 800- o CI/CD pipelines with gated approvals and
+
+53 and CISA guidance
+
+controlled promotion
+
+o Role-based access control, least privilege, and
+
+o Infrastructure as Code for repeatable, governed
+
+session security
+
+environments
+
+o Encryption in transit/at rest and zero-trust-aligned o Automated regression/end-to-end testing and
+
+patterns
+
+quality gates
+
+o Continuous monitoring, vulnerability
+
+o Security testing: SAST, DAST, dependency/SCA
+
+management, WAF/DDoS protections
+
+scanning integrated into pipelines
+
+o Audit-ready documentation and evidence to
+
+o Progressive delivery (blue/green/canary) with
+
+support oversight and compliance
+
+rollback readiness and runbooks
+
+Sources Sought Response
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2026
+
+Page 2
+
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+
+Our Core Competencies
+
+Analytics & Continuous Improvement o Instrumentation for task completion, drop-off,
+and recovery success rates o Behavior analytics and controlled
+experimentation (A/B where permitted) o Enterprise performance monitoring (APM) and
+error trend analysis o KPI/OKR scorecards and dashboards tied to user
+outcomes and service health o Privacy-safe analytics (data minimization and
+role-based access to insights)
+
+Scalability, Reliability & Performance o Government cloud-ready scalability patterns
+(AWS/Azure GovCloud where applicable) o Auto-scaling for peak traffic and surge events o Reliability engineering with SLIs/SLOs, capacity
+planning, and incident playbooks o Disaster recovery and failover architecture with
+tested procedures o Load/performance testing and tuning for distributed
+systems
+
+Operating Model & Workforce Scalability
+
+Migration & Modernization Support
+
+o Cross-functional teams (design, content,
+
+o Incremental migration waves with risk-managed
+
+engineering, security, DevOps) aligned to
+
+sequencing and dependencies
+
+delivery outcomes
+
+o API abstraction to modernize without a full
+
+o Governance linking product, design, engineering,
+
+platform rewrite
+
+and operations for sustained execution
+
+o IA/workflow remediation plus content cleanup and
+
+o ITSM-aligned operations
+
+modernization during transition
+
+(incident/problem/change) with measurable SLAs o Parallel-run strategy with controlled cutover and
+
+o Tiered support model (L1/L2/L3), escalation
+
+rollback readiness
+
+paths, and on-call rotation
+
+o Automated migration validation (parity checks, link
+
+o Surge-ready staffing and resilient backfill to
+
+integrity, regression testing) and decommission
+
+maintain service levels
+
+planning
+
+COGENT has performed services closely aligned with the scope and challenges described in this request across multiple public-sector clients. Our teams have modernized and sustained hightraffic, citizen-facing digital platforms where continuity of service is critical, security and privacy requirements are stringent, and changes must be introduced through governed, low-risk releases. We have delivered end-to-end capabilities spanning experience design, platform and integration engineering, identity and access workflows (including sign-in and account recovery), content governance, analytics-driven continuous improvement, and IT service management for long-term operations. Cogent brings this background to support VA's objectives through a proven replacement approach that improves user outcomes while maintaining stable operations throughout phased modernization.
+
+Our Clients
+
+Sources Sought Response
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2026
+
+Page 3
+
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+2. Relevant experience with similar challenges.
+Cogent supported Washington Health Benefit Exchange on modernization and sustainment of Washington Healthplanfinder, focusing on (1) customer access workflows (sign-in/account recovery), (2) stable enrollment and eligibility user journeys including verification and Document Center document submission, (3) operational readiness for Open Enrollment surge periods, and (4) privacy-first handling of sensitive customer information.
+Challenge: Washington Health Benefit Exchange runs a high-traffic, citizen-facing enrollment marketplace where updates must be delivered without disrupting customer access. The biggest risks are (1) sign-in/account recovery issues that block enrollment, (2) breaks in end-to-end enrollment/eligibility workflows especially when verification requires document submission, (3) failures caused by dependencies on multiple partner/dependent systems, and (4) heightened privacy/compliance constraints due to sensitive personal data.
+Mitigation: Cogent mitigated these risks by (1) using phased releases with strict release readiness checks and rollback plans to protect availability, (2) prioritizing and hardening identity/signin/account recovery flows through focused testing and production monitoring, (3) mapping integration dependencies early and validating end-to-end scenarios across partner systems before release, (4) stabilizing verification/document-submission journeys with clear user prompts and workflow validation to prevent processing delays, and (5) operating with privacy-first controls in design, testing, and operations to reduce compliance and data-handling risk.
+3. Responses to the Topics and Questions in this Request Replacement approach
+· Use a phased replacement approach to maintain continuity of service while modernizing VA.gov capabilities.
+· Treat modernization as an integrated effort across experience, platform, content, governance, analytics, and the operating model, not technology alone.
+· Design for scalability, adaptability, and resilience with release discipline appropriate for a highly visible public service.
+· Start with the highest-impact "front door" journeys first (sign-in, recovery, navigation to top tasks), then expand capability-by-capability to reduce risk and accelerate measurable improvements.
+· Run legacy and modern components in parallel only where needed, and retire legacy functions in controlled waves to reduce long-term operational burden.
+Relevant experience with similar challenges (WHBE)
+· Supported Washington Health Benefit Exchange on a statewide public marketplace where availability, secure access, and workflow stability were mission-critical.
+· Delivered change while preserving service continuity and coordinating multiple dependent systems and partners.
+· Supported enrollment-season surge readiness by aligning release timing, operational readiness, and monitoring to peak usage periods to protect availability and performance.
+
+Sources Sought Response
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2026
+
+Page 4
+
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+· Stabilized document-driven verification workflows (including Document Center submission pathways) where users must provide supporting documents to complete eligibility/enrollment actions.
+· Operated in a privacy-sensitive environment handling high-risk personal data, requiring disciplined controls across delivery, testing, and operations.
+Key workflows (identity proofing, sign-in, account recovery, navigation)
+· Identity proofing: Apply step-up verification only when needed, reduce repeat proofing, and keep the user on task.
+· Sign-in: Standardize entry points, error handling, and session behavior; ensure users can return to where they left off.
+· Account recovery: Provide multiple secure self-service options, clear status messaging, and a safe fallback path without dead ends.
+· Navigation: Use task-first information architecture and consistent patterns to reduce drop-offs and improve completion.
+· Instrument these journeys end-to-end (entry to completion) so friction and drop-off are visible and prioritized through data, not opinion.
+Known limitations, risks, and tradeoffs
+· Integration dependencies can constrain release timing; mitigate through early dependency mapping, interface contracts, and end-to-end validation.
+· Running legacy and modern components in parallel reduces disruption but increases operational complexity; mitigate through strong governance, rollout controls, and clear ownership.
+· Stronger identity controls can increase user drop-off; mitigate through measured step-up verification and monitoring of friction points.
+· Peak-period changes increase operational risk; mitigate with freeze windows/stricter controls during surge periods, plus rollback-ready deployments and heightened monitoring.
+· Document/verification workflows are error-prone and create downstream rework; mitigate with clear user prompts, validation checks, and status transparency to reduce incomplete submissions.
+Lessons learned from past deployments
+· Define completion to include operational readiness (monitoring, support playbooks, rollback) before broad rollout.
+· Instrument key user journeys early and use analytics to drive iteration and quickly correct friction.
+· Use controlled releases and phased cutovers to keep services stable while moving capabilities to the modern platform.
+· Treat governance as a delivery accelerator (intake/triage, decision forums, change controls, release readiness) so dependencies and risks are managed early instead of late.
+
+Sources Sought Response
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2026
+
+Page 5
+
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+· Capture and reuse risk decisions (limitations/tradeoffs and mitigations) as living artifacts so each release becomes faster, safer, and more repeatable.
+4. Descriptions of Relevant Technologies and Approaches Identity, Authentication, And Account Security
+· Standards-based federation and authorization using OIDC/OAuth 2.0, with SAML where required for legacy integrations
+· Step-up authentication based on risk and transaction sensitivity, with support for phishingresistant methods (for example WebAuthn/FIDO2)
+· Centralized session and token management, consistent sign-in entry points, and secure account recovery patterns with audited fallback paths
+· Identity event logging and audit trails for access, recovery, and privilege changes
+Navigation, Findability, And Customer Experience
+· Task-based information architecture and reusable navigation components to keep patterns consistent across benefit portfolios
+· Search relevance tuning using analytics signals (top queries, zero-result searches, failed refinements) and managed synonyms/best-bets
+· Journey instrumentation from entry to completion to identify drop-off points and prioritize fixes based on evidence
+Platform and Modernization Approach
+· Phased replacement model that supports parallel run where needed, with controlled cutovers and retirement of legacy capabilities in waves
+· Decoupled front-end and back-end using an API-first approach to reduce dependency bottlenecks and enable faster iteration
+· Content delivery approach that supports governed publishing, consistent templates, and controlled content lifecycle (create, review, publish, retire)
+Integration Approach
+· API gateway and integration layer patterns to standardize interfaces across legacy and emerging systems
+· Contract testing and end-to-end validation for critical user journeys to reduce integrationdriven outages
+· Versioned schemas and backward-compatible changes to support incremental releases without breaking downstream consumers
+DevSecOps and Release Discipline
+· CI/CD with automated testing, security scanning, and gated deployments aligned to highvisibility operational expectations
+· Feature flags and progressive delivery (canary/blue-green) for safe rollouts and rapid rollback
+· Infrastructure as code for repeatable environments and faster recovery
+
+Sources Sought Response
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2026
+
+Page 6
+
+Department of Veteran Affairs (VA) Replacement Model for VA.gov
+Sources Sought Number: 36C10B26Q0131
+Observability and Operations
+· Unified monitoring across user experience and platform health (journey success rates, latency, error rates, availability)
+· Incident response runbooks, release readiness reviews, and problem management practices to drive permanent fixes
+· Operational dashboards that tie customer-impacting issues to root causes and prioritize remediation
+Privacy, Security, And Accessibility
+· Privacy-by-design controls for sensitive data handling (data minimization, encryption in transit/at rest, least privilege, secrets management)
+· Compliance-ready evidence generation through automated logging, configuration baselines, and change traceability
+· Accessibility engineering embedded in delivery (automated checks plus manual validation) to ensure inclusive access to services
+5. Any additional information relevant to VA's objectives.
+· Prioritize continuity of service as the top requirement; modernize in phases with rollback-ready releases.
+· Start with the highest-impact "front door" improvements: sign-in, account recovery, search, and top-task navigation.
+· Use governance that speeds delivery: intake/triage, clear decision points, release readiness, and ownership.
+· Measure veteran impact with journey analytics (success rate, drop-off, time-to-complete), not just uptime.
+· Standardize reusable patterns for identity, navigation, content, and integrations to reduce cost and accelerate future changes.
+
+Sources Sought Response
+
+February 5, 2026
+
+"Use or disclosure of data contained on this sheet is subject to the restriction"
+
+© COGENT Infotech Corporation 2026
+
+Page 7
+
+

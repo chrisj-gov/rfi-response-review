@@ -1,0 +1,124 @@
+Stanford Hacking for Defense | VA.gov RFI Response
+RESPONSE TO REQUEST FOR INFORMATION
+Replacement Model for VA.gov
+Benefits Discovery & Delivery
+A Partnership Proposal from
+Stanford University � Hacking for Defense
+Gordian Knot Center for National Security Innovation Michael Kappaz � Luke Allard � Jack Davidson
+Stanford Graduate School of Business
+February 4, 2026 � kappaz@stanford.edu
+Page 1
+
+Stanford Hacking for Defense | VA.gov RFI Response
+You're going to get a lot of responses to this RFI from defense contractors and IT firms. This isn't one of those.
+We're a team from Stanford's Hacking for Defense program--a nationally recognized initiative where the Department of Defense and federal agencies partner with Stanford students to tackle their hardest problems using Silicon Valley innovation methods. Think of it as a rapid R&D lab: small teams go deep on a problem, interview hundreds of stakeholders, build and test prototypes, and deliver actionable insights--all in months, not years, and at zero cost to the agency. It's the same lean methodology that produced Google, LinkedIn, and TurboTax--applied to a problem that matters far more than photo filters or social networking. Our team--out of the Gordian Knot Center for National Security Innovation and Stanford Graduate School of Business--is currently partnering with county VSO offices across California and has built a national network of VSOs, veterans, policy experts, and former VA leadership across Georgia, Tennessee, Virginia, and beyond. We've interviewed over 80 veterans directly and sat with service reps and directors to understand where the digital experience actually breaks down. What we heard led us to a perspective that's less about replatforming a website and more about reimagining what a veteran's front door to the VA should feel like. Our response follows. It doesn't fit neatly into the typical RFI mold--and that's kind of the point. If there's someone on the program side or within the CTO's office who would value having Stanford's innovation ecosystem as a thought partner on this effort, we'd be grateful for the introduction. At worst, it's a fresh perspective. At best, it's a zero-cost way for the VA to partner with one of the country's top innovation programs to get this right for veterans.
+WHY THIS PARTNERSHIP IS DIFFERENT
+A dedicated team of Stanford students working on veteran benefits discovery and delivery for 10 weeks through Hacking for Defense--in parallel with, not instead of, your traditional procurement. 100+ stakeholder interviews. Tested prototypes with real veterans and service delivery partners. A tested MVP with strategic recommendations.
+Cost to the VA: zero. No contract.
+No vendor lock-in. Open-source work product the VA can use, build on, or incorporate.
+Think of it as a free option on innovation. While your formal RFI process runs, a team of Stanford's best engineers, designers, and operators will be testing solutions with real users in real environments. You lose nothing. You potentially gain everything.
+Page 2
+
+Stanford Hacking for Defense | VA.gov RFI Response
+The Problem
+Scope: We are focused on the benefits discovery and delivery portion of VA.gov--and the authentication experience surrounding it. Not the entire platform. Specifically: how veterans find, understand, and access the benefits they've earned. Every year, hundreds of thousands of veterans separate from military service having earned benefits they will never receive. Not because they're ineligible--because they don't know what's available, can't navigate the process, and fall through the cracks of a system designed for administrators, not users. We surveyed over 80 veterans and the data is stark. Disability filing is veterans' #2 transition priority--yet the top pain points are getting connected to the right help (34.5%), gathering evidence (34.5%), and simply knowing where to begin (27.6%). Where do they turn? 86% rely on friends. 48% go to Reddit. Only 45% use the VA website. Only 17% cite TAP. Two-thirds say VA disability income is essential--yet there is no central source of truth guiding them through the process step by step.
+The consequence is predictable: veterans submit poorly developed claims, triggering unnecessary C&P exams, extending processing timelines, and driving down trust. Those who get frustrated turn to "claims sharks"--predatory companies spending billions in marketing that legitimate services can't match, charging veterans 33% of retroactive benefits or 5x their monthly increase for services available at no cost. Their business model depends on the system staying broken.
+Page 3
+
+Stanford Hacking for Defense | VA.gov RFI Response
+
+What's the Solution?
+Honestly? We don't know yet. And neither does anyone else.
+The history of government IT is littered with expensive platforms built on confident assumptions that turned out to be wrong. Requirements written in conference rooms. Software delivered years later to users who were never consulted. If you want to get this right, you need to start small, test with real veterans, and iterate.
+We're probably the only team responding to this RFI that considers our solution a hypothesis. And that's exactly why you should pay attention.
+We're three graduate students at Stanford who've spent six months interviewing veterans, shadowing claims processors, and mapping workflows nobody has documented. We have hypotheses. But we know they're wrong in ways we haven't discovered yet--and we have a methodology for finding out.
+
+What Is Hacking for Defense?
+Hacking for Defense is a Stanford course created by Steve Blank--father of the Lean Startup movement--and Colonel Joe Felter, former Deputy Assistant Secretary of Defense. Government agencies submit problem statements. Student teams spend 10 weeks applying the methodology that built Google, Airbnb, and Dropbox to solve them. It's a full-contact sprint: 10-15 stakeholder interviews per week, weekly MVP presentations, real-time feedback, and constant iteration. Teams collectively conduct 1,100+ interviews per cohort.
+Designed for exactly this kind of problem: big, vague, important, and unsolved by traditional approaches. Now taught at 70+ universities. Sponsored by OSD, IARPA, Navy, Air Force, Space Force, CENTCOM, FBI--and the VA itself.
+
+The Methodology: Build, Measure, Learn
+The traditional approach to government IT goes something like this: spend months writing requirements, years building to spec, and then discover on delivery day that the thing you built doesn't match how anyone actually works. The VA has been through this cycle before--eBenefits, vets.gov, VA.gov--each one an improvement, each one still designed primarily from the inside out.
+The Lean Startup method inverts that entire sequence. Instead of starting with a requirements document and building toward it, you start with a hypothesis and build the smallest possible thing that tests whether you're right. Then you put it in front of real users--not in a focus group, not in a demo, in their actual workflow--and watch what happens. What do they ignore? Where do they get stuck? What do they do that you never anticipated? That data tells you what to build next. Not opinion. Not intuition. Evidence.
+
+1. BUILD
+Hypothesis  smallest test
+
+THE LEAN STARTUP METHOD
+
+
+
+2. MEASURE
+
+
+
+Real users  real data
+
+ Repeat every week for 10 weeks 
+
+3. LEARN
+Update hypothesis  repeat
+
+This matters because the hardest part of building for veterans isn't the technology--it's the assumptions. Everyone thinks they know what veterans need. The lean method is designed to systematically surface the assumptions you didn't even know you were making, and replace them with observed behavior before you've spent years and millions building on a wrong foundation.
+
+Page 4
+
+Stanford Hacking for Defense | VA.gov RFI Response
+Our Hypothesis
+Based on six months of field research--interviews with veterans, claims processors, VSO directors, and former VA leadership across California, Georgia, and Washington--here is what we believe to be true. These are hypotheses, not conclusions. The sprint exists to validate or invalidate them. 1. Veterans need a "Waze," not a website. Turn-by-turn guidance from separation to benefits--not another portal to navigate. A single entry point that asks simple questions and routes them to the right resources at the right time. 2. Text-first beats app-first. Our field research suggests veterans are more responsive to SMS with links to mobile web forms than to downloading another app. Meet them where they are. 3. Self-service with human-in-the-loop. Routine tasks--status checks, document uploads-- should feel self-service. Complex decisions--claims strategy, evidence framing--should seamlessly connect to a service rep with full context. 4. The VA's partner network is underleveraged. VSOs are trusted, local, often veterans themselves. But they're drowning in admin. A well-designed platform doesn't replace them--it multiplies them. 5. Better intake solves downstream problems. If veterans arrive with complete, welldocumented claims, unnecessary exams drop, processing accelerates, and satisfaction rises. The leverage point is upstream.
+Some of these will be right. Some won't. The point is that we'll find out by testing--not guessing.
+How We'd Scope the Sprint
+We believe California's county VSO offices offer the ideal sandbox. We are already partnering with San Diego County, San Luis Obispo County, and Fresno County--representing a cross-section of the veteran population from recently separated post-9/11 veterans to Vietnam-era claimants. These counties have opened their offices, shared their workflows, and committed to iterating alongside us. Using these partners as a channel, we'd test and refine a more effective method for veterans to discover and access benefits--one where they feel guided, not lost. This is a low-risk way to experiment at small scale and build evidence for what works before expanding. What we want from the VA as a sponsor: the ability to work toward a product that lets veterans self-serve seamlessly--with VSOs as a human-in-the-loop when a veteran wants or needs that personal touch. Not replacing the ecosystem. Enhancing it, with the veteran at the center.
+Page 5
+
+Stanford Hacking for Defense | VA.gov RFI Response
+Conceptual Architecture
+The core design principle is simple: a veteran separating from the military shouldn't need to become an expert in VA bureaucracy to access what they've earned. Today, that's exactly what's required. Veterans have to know which benefits exist, which forms to file, which office to visit, and in what order--before they can even begin. The ones who succeed are the ones who happen to know the right person. That's not a system. That's luck. We're designing around the opposite assumption: that the product should do the navigating, not the veteran. Think of it less like a portal and more like a guide--something closer to Waze than to a government website. A single entry point that meets the veteran wherever they are in their transition, asks a few simple questions, and begins routing them toward the benefits and resources they're eligible for--disability compensation, education, healthcare, home loans, employment support--without requiring them to know those categories exist in advance. The experience is mobile-forward by design. Our field research shows that veterans--especially younger, post-9/11 cohorts--don't want to download another app or sit at a desktop. They respond to text. So our working model starts with SMS: a veteran receives a message, taps a link, and lands on an authenticated mobile web experience where they can answer intake questions, upload documents, e-sign forms, and track status. Text serves as the notification and nudge layer-- appointment reminders, missing document alerts, status updates--while the authenticated web layer handles anything involving PII. No app store. No login portal. Just a text that says: here's your next step. This isn't a speculative design pattern. The private sector is already proving it works in an almost identical domain. Assured--a Palo Alto-based company that has raised over $65 million and is now the most widely deployed AI platform in property and casualty insurance--has built exactly this kind of intelligent claims layer for the insurance industry. Their system captures structured data directly from claimants through an intuitive, self-service experience, integrates 50+ external data sources, uses AI to triage complexity, and routes claims to the right adjuster with full context already attached. Over 50 million claimant interactions have run through their platform, with 70% handled autonomously. The parallel to veteran benefits processing is striking: complex eligibility rules, document-heavy intake, human expertise needed for hard cases, and a user population that just wants to know what they're owed and how to get it. We have established relationships with Assured's leadership and will be leveraging their experience as thought partners and technical mentors as we design and test our approach--learning from what's already working at scale in the private sector and adapting it for a population that deserves it even more.
+Page 6
+
+Stanford Hacking for Defense | VA.gov RFI Response
+Below is our current working concept--an intelligent orchestration layer connecting veterans, the VA, and service delivery partners. This is a starting point, not a finished design. It will evolve as we test with real users.
+Behind the veteran-facing experience sits a lightweight AI triage layer. When a veteran engages, the system collects baseline information--service history, separation date, what they're looking for-- and uses that to assess complexity, surface relevant benefits they may not have considered, and route them appropriately. Simple cases (a straightforward initial disability claim with documentation ready) can be fast-tracked with minimal human touch. Complex cases (appeals, multi-condition claims, situations requiring evidence development strategy) get routed to an experienced VSR with full context already attached--no re-explaining, no lost paperwork. The veteran gets to choose: do I want the fastest available rep, or the most experienced one in my area? Do I want to handle this virtually, or do I want to walk into an office? The system adapts to the veteran's preferences rather than forcing them into a single channel. The broader vision extends beyond claims. A veteran's transition doesn't end when a disability rating comes back. It includes education decisions, career pivots, home purchases, healthcare enrollment, and family support--each with its own maze of eligibility, deadlines, and paperwork. The product we're testing is designed to grow with the veteran across that full journey, surfacing the right resource at the right time, and connecting them to the right human when it matters.
+Page 7
+
+Stanford Hacking for Defense | VA.gov RFI Response
+What We've Already Done
+100+ stakeholder interviews with veterans, senior claims processors, front office administrators, state and county VSO directors, former VA leadership, and technology stakeholders. Co-design partnerships in progress with San Diego County, San Luis Obispo County, and Fresno County (on-site workflow mapping completed). Deep workflow documentation: we know how information flows through five different intake channels, that forgotten homework drives the majority of follow-up calls, and that wet signature requirements block virtual service delivery.
+VOICES FROM THE FIELD "I got out in 2016. Veterans come in and say, `I never knew I could still file.' They just didn't know." -- Veteran & Office Admin, San Diego County "I initially filed and they gave me nothing. I was medevac'd out of Iraq. I read the 38 CFR cover to cover while hospitalized. It really is a maze." --Veteran & Senior Claims Processor, 17 years experience "As a veteran, I can't look into my own records. How does a veteran truly know what's going on with their claim if they can't see what the examiner wrote?" --State Director (veteran), Georgia
+Our Network
+This project emerged from Stanford's Gordian Knot Center for National Security Innovation and Stanford GSB's Startup Garage (130+ companies, $2.5B in alumni funding). Over six months, we have engaged directly with current/former VA senior leadership--including the CTO and Chief AI Officer, the former Principal Deputy Under Secretary for Benefits, the former Assistant Deputy Under Secretary for Automated Benefits Delivery, and the Lighthouse API program team--to ground our understanding of the VA's digital architecture, automation roadmap, and institutional dynamics. We have exploration pilot commitments with San Diego County (the nation's largest county operation, 200,000+ veterans), and leadership within the California Association of County Veterans Service Officers representing all 58 counties. We maintain active relationships with IAVA, VFW and its 24-organization transition working group, and Wounded Warrior Project. Our advisory network includes companies applying AI to insurance claims adjudication, ML researchers across Stanford engineering, successful technical founders in the Stanford ecosystem, legal specialists in federal benefits law, former White House Innovation Fellows, and senior VA digital transformation veterans who helped build the systems this RFI seeks to replace.
+Page 8
+
+Stanford Hacking for Defense | VA.gov RFI Response
+The Team
+Michael Kappaz
+Stanford MBA '26, Innovation Scholar at the Gordian Knot Center for National Security Innovation. Investment Fellow at Costanoa Ventures, where he sourced and evaluated early-stage defense and dual-use technology companies--working directly with founders to de-risk ventures from first check through scale. Previously at Blackstone and Decisive Point Group. Spent five years as a Navy submarine officer, culminating as Operations Officer responsible for mission planning and execution on a fast-attack submarine. Served in a $500M nuclear weapons acquisition program office, giving him firsthand understanding of how government program managers evaluate, procure, and field technology. Notre Dame, BS Aerospace Engineering.
+Luke Allard
+Stanford Joint MBA/MS Electrical Engineering '27, Knight-Hennessy Scholar. Senior AI Engineer at MITRE, where he was lead developer on reinforcement learning systems for U.S. Space Command, built RAG pipelines for intelligence analysis, and designed autonomous UAV landing systems for GPS-denied environments. 1st place, AGI House Consumer AI Hackathon. Former Marine Corps signals intelligence officer with operational deployment experience. UPenn MS Robotics, Naval Academy BS Controls Engineering.
+Jack Davidson
+Stanford MBA '26 / Yale Law JD '26. Former Product Manager at Meta, where he led global trust and safety systems at platform scale--building and shipping the enforcement infrastructure behind election integrity across 3+ billion users, redesigning the global fact-checking pipeline to achieve 100%+ efficiency gains, and creating Meta's first user-level misinformation accountability system (measurable 4.5% reduction in content prevalence). Startup co-founder (Botha Chan Fellow). Previously Rocketship.vc, Norm AI (regulatory AI). Dartmouth, summa cum laude, Phi Beta Kappa.
+We recruit additional team members from Stanford's CS and AI departments--ranked #1 globally, the programs that produced the founders of Google, Instagram, LinkedIn, and OpenAI--alongside the d.school (birthplace of design thinking) and Stanford's policy programs.
+H4D Teaching Team
+Steve Blank -- Eight-time entrepreneur who literally wrote the book on how startups are built. Creator of the Lean Startup methodology. Architect of NSF I-Corps, the federal government's primary engine for turning research into companies--3,000+ teams, 1,300+ startups, billions in economic value. Joe Felter -- Retired Colonel, former Deputy Assistant Secretary of Defense. Co-founded H4D to prove that Silicon Valley's innovation methods could solve the Pentagon's hardest problems. Perry Fellow at Stanford CISAC. Advises senior defense leadership on technology strategy. Steve Weinstein -- 30-year Silicon Valley veteran. Former CEO of MovieLabs, the joint R&D lab created by all six major Hollywood studios to solve technology problems none of them could crack alone. Pete Newell -- Retired Colonel, CEO of BMNT. Pioneered the Army's Rapid Equipping Force, which got battlefield-ready technology to soldiers in months while the traditional acquisition system was still writing requirements documents. The person DOD calls when the normal process is too slow. Jeff Decker -- Stanford researcher, former Army special operations, H4D Program Director. Runs the day-to-day engine--matching teams to problems, managing sponsor relationships, and ensuring the methodology translates into real outcomes.
+Recent H4D guest speakers include former Secretary of Defense Jim Mattis, former National Security Advisor H.R. McMaster, and Anduril founder Palmer Luckey.
+Page 9
+
+Stanford Hacking for Defense | VA.gov RFI Response
+
+The Ask
+Sponsor a Hacking for Defense problem statement on veteran benefits discovery and delivery. Spring quarter 2026 (April-June).
+
+What You Provide
+A problem sponsor 15+ warm introductions Brief weekly check-ins
+
+What You Receive
+100+ stakeholder interviews Tested MVP + white paper Open-source work product Strategic recommendations Silicon Valley talent pipeline
+
+We're not asking you to bet on us. We're asking you to let us bet on you.
+No cost. No contract. No risk. Just the chance that something extraordinary comes out of it.
+Michael Kappaz kappaz@stanford.edu � (240) 672-3689
+Stanford GSB � Gordian Knot Center for National Security Innovation
+
+Page 10
+
+

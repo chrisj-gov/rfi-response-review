@@ -1,0 +1,207 @@
+VA.GOV REPLACEMENT MODEL
+February 5, 2026
+Melissa Goshorn
+VP, Growth and Delivery Excellence
+
+Get in Touch
+
+521 C Street, Suite 105 Quantico, VA 22134
+
+Email: info@sgl-360.com www.sgl-360.com
+
+VA.GOV REPLACEMENT MODEL
+
+Department of Veteran Affairs Request for Information (RFI): VA.GOV REPLACEMENT MODEL
+February 5, 2026
+
+A. COMPANY INFORMATION
+
+NAICS:
+
+Company Name: SGL360
+
+521 C Street, Suite 105, Quantico, VA 22134
+
+https://sgl-360.com
+
+DUNS: 119383626
+
+CAGE CODE: 0QKQ5
+
+513210, 541511, 541512, 541519, 541611, 541612, 541614, 541618, 541690,
+
+541720, 541990, 561210
+
+Alfredo Versoza Managing Director
+
+Company Contacts Paras C. Shah Managing Member
+
+Vinny Raj Managing Member
+
+Phone: 910-308-8954
+
+Phone: (571) 246-7552
+
+Phone: (412) 657-2219
+
+aversoza@sentinelgrpllc.com
+
+paras@docme360.com
+
+vinnyraj@digilentconsulting.com
+
+Government-Wide Contracting Vehicles: SGL360 acts as a subcontractor on all listed vehicles GSA Multiple Award Schedule - IT Professional
+Services Schedule and NASA Solutions for Enterprise-Wide Procurement (SEWP)
+
+Current Business Status and Socioeconomic Status: Service-Disabled Veteran Owned Small Business (SDVOSB), HUBZone, 8(a)
+
+Effective August 1, 2025, VOSB and SDVOSB joint venture designations will no longer be reflected in Small Business Search. As such we are instructed to utilize the majority partner's company status; Sentinel Group LLC's is the majority partner in this JV, UEI to verify status: S6JWVMZKSRD9.
+SGL360 has met the key requirements below: 1. The VOSB or SDVOSB partner must be certified by the SBA. (Sentinel Group LLC is SDVOSB Certified; SAM UEI: S6JWVMZKSRD9) · The joint venture must be properly designated in SAM.gov as a VOSB or SDVOSB joint venture, with the certified partner clearly identified. (SGL360 has the self-certified SDVOSB JV Identified on the sam.gov) · The joint venture agreement must: · Designate the certified VOSB or SDVOSB as the managing venturer (Sentinel Group LLC). · Assign a named employee from the certified firm as the Responsible Manager (Alfredo Versoza) · Comply with SBA regulations regarding structure and performance responsibilities.
+13 CFR 128.402 stipulates when a Joint Venture can submit an offer on a VOSB or SDVOSB contract.
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 1
+
+VA.GOV REPLACEMENT MODEL
+INTRODUCTION TO SGL360
+SGL360, a Service-Disabled Veteran-Owned Small Business (SDVOSB), 8(a), and HUBZone-certified Joint Venture, is pleased to submit this response to the Request for Information (RFI) focused on VA.gov Replacement Model. SGL360 brings together the complementary strengths of its JV partners, Sentinel Group, DocMe360, and Digilent Consulting, to deliver best-in-class digital services grounded in deep domain expertise, enterprise-scale delivery across the Department of Veterans Affairs (VA), and a strategic partnership with WordPress VIP.
+Together, our team has a proven track record of partnering with VA program offices to design, pilot, and scale mission-critical solutions that enhance VA workflows, improve operational efficiency, and deliver measurable, Veteran-centered outcomes.
+VA.GOV AS THE DIGITAL FRONT DOOR TO VETERANS' SERVICES
+Where Veterans Begin Their VA Journey.
+VA.gov is more than a website. It is a complex, interconnected digital ecosystem that brings together Veteran-facing capabilities such as My HealtheVet, VA Forms, Ask VA, VA Enterprise Notifications, and dozens of backend systems into a unified experience. It serves as the primary digital front door to the Department of Veterans Affairs (VA) where millions of Veterans, caregivers, families, and survivors engage with VA to access healthcare, benefits, services, and trusted information. For many users, VA.gov is VA.
+As Veterans increasingly expect seamless, intuitive, and personalized digital experiences comparable to leading consumer platforms, VA.gov plays a critical role in shaping trust, usability, and outcomes across the entire VA ecosystem. Every interaction, sign-in, navigation, content discovery, application submission, status tracking, and follow-up directly influences a Veteran's ability to successfully access care and benefits. When the digital front door works well, it reduces friction, improves access, and enables VA staff and systems to operate more efficiently. When it does not, barriers compound quickly.
+Modernizing or replacing VA.gov is therefore not simply a technical refresh. It is a strategic transformation on how Veterans experience VA as a whole. A next-generation VA.gov must:
+§ Serve as a unified entry point across healthcare, benefits, memorial services, and emerging digital offerings
+§ Provide clear, personalized pathways that reflect Veterans' life events, eligibility, and intent not VA's internal organizational structure
+§ Enable secure, seamless identity, authentication, and recovery experiences without introducing unnecessary burden
+§ Scale reliably to support millions of users while integrating with a complex portfolio of legacy and modern systems
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 2
+
+VA.GOV REPLACEMENT MODEL
+§ Operate within VA's highly regulated, mission-critical environment while remaining adaptable to future needs
+VA's vision for a premier, Veteran-centric digital experience requires a platform and operating model that balances continuity, modernization, security, governance, and long-term resilience. Replacing VA.gov presents an opportunity to re-imagine the digital front door not as a single destination, but as an experience layer that orchestrates services across VA, supports continuous improvement, and evolves alongside Veterans' expectations.
+SGL360 has partnered with WordPress VIP (WP VIP), a secure, enterprise-grade digital experience platform currently trusted by the VA, as well as other large-scale public- and private-sector organizations. This partnership brings proven capabilities in scalable content management, modern experience delivery, accessibility, and security aligned with the demands of highly regulated environments. Together, SGL360 and WP VIP offer a foundation that supports VA's vision for resilient, adaptable, and Veteran-centric digital front door, while enabling interactive modernization without disrupting continuity of service.
+UNDERSTANDING THE VA.GOV ECOSYSTEM
+One Veteran Journey, Many Connected Systems.
+VA.gov operates as the experience layer across a complex ecosystem of Veteran-facing platforms, services, and workflows. While Veterans experience VA.gov as a single front door, it must seamlessly coordinate multiple enterprise capabilities that are foundational to service delivery.
+SGL360 understand VA.gov as an orchestrator of a broad and interconnected ecosystem, encompassing the following key components, among others:
+§ My HealtheVet - A cornerstone of the Veteran digital health experience that relies on VA.gov for sign-in, navigation, and consistent experience across clinical and administrative services.
+§ VA Forms - The primary digital intake mechanism for VA benefits, healthcare, and services which integrate with downstream VA systems.
+§ Ask VA - A critical engagement and case-management channel that supports Veteran questions, follow-ups, and issue resolution when journeys extend beyond a single transaction.
+§ VA Enterprise Notifications - The communications backbone that reinforces trust and continuity by delivering confirmations, reminders, and status updates tied directly to VA.gov interactions.
+A replacement model for VA.gov must recognize these capabilities as interdependent, ensuring modernization efforts strengthen orchestration rather than introduce fragmentation.
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 3
+
+VA.GOV REPLACEMENT MODEL
+PROVEN VA.GOV WORDPRESS VIP PLATFORM EXPERTISE
+Already Trusted. Already Operating. Already Delivering.
+Modernizing VA.gov demands more than a capable platform. It required a partner with deep institutional knowledge of VA's digital ecosystem, an understanding of how mission-critical services operate at scale, and a proven ability to deliver change without disrupting access for millions of Veterans.
+SGL360 is already operating inside this environment. Today, SGL360 serves as the trusted partner providing comprehensive WordPress VIP platform support for VA, helping maintain continuity of service for millions of users across high-visibility properties including news.va.gov, careers.va.gov, digital.va.gov, and more. This active role gives our team first-hand experience supporting one of the federal government's most complex and heavily trafficked digital ecosystems.
+Through this work, SGL360 has developed unmatched familiarity with VA.gov's operating realities, including platform governance, content workflows, accessibility requirements, security constraints, release management, and the day-to-day coordination required to support multiple VA stakeholders. We understand how VA.gov functions not just as a public website, but as a mission-critical experience layer that must remain stable, secure, and trusted while continuously evolving.
+ENTERPRISE SECURITY, COMPLIANCE & FEDERAL GOVERNANCE
+Purposed-Built for VA's Regulated, Mission-Critical Environment
+Delivering a modern digital front door for VA requires more than technical capability. It demands a platform and team that understands federal security, compliance, and governance as operational imperatives rather than afterthoughts. VA.gov must operate reliably within a highly regulated environment while continuously evolving to meet Veteran needs, all without comprising security, privacy, or trust.
+WordPress VIP's FedRAMP-authorized platform, combined with SGL60's deep federal compliance and delivery experience, provides a secure and proven foundation aligned with VA's stringent requirements. Our team has successfully navigated complex authorization pathways across multiple VA enterprise platforms, demonstrating an ability to deliver secure solutions at scale while maintaining continuous compliance.
+Our team has achieved ATO (Authority to Operate) approval for the Clinical Decision Support (CDS) Platform and its applications, including Oracle Health ATC (Authority to Connect), with continuous ATO documentation updates and proactive POA&M remediation within eMASS and ServiceNow's Continuous Authorization and Monitoring (CAM) tools. We have successfully gone live at six Oracle Health sites, demonstrating our ability to harmonize VistA and Oracle Health data. On VEText, we completed migration to the VA Enterprise Cloud (AWS) while redesigning the portal for full 508 compliance. Our work supporting My HealtheVet includes maintaining high-performing APIs, ensuring integration readiness for
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 4
+
+VA.GOV REPLACEMENT MODEL
+high-traffic portals, and delivering responsive operational support. This cross-platform security and compliance track record positions SGL360 to seamlessly extend these capabilities to VA.gov.
+SCALABLE, VETERAN-CENTRIC DIGITAL EXPERIENCE TRANSFORMATION Accelerating VA's digital modernization while enhancing the Veteran experience. By combining WordPress VIP's enterprise scalability with DocMe360's cross-platform VA integration experience (VEText, VA Notify, MyHealtheVet, Ask VA, CDS Platform), this team delivers a unified, resilient digital front door that seamlessly connects Veterans to benefits, healthcare, and services
+SOLUTION APPROACH
+Modernize with Confidence. Deliver Value Without Disruption.
+SGL360 recommends a phased modernization approach that transforms VA.gov into a premier, Veterancentric digital experience while maintaining uninterrupted service for millions of users. This approach is grounded in direct, hand-on experience delivering and operating mission critical digital solutions across the VA enterprise.
+SGL360 has supported VA programs including VEText, VA Notify, the Clinical Decision Support Platform, and VA National Rideshare Program. Today, we also serve VA's trusted WordPress VIP support partner for VA.gov, news.va.gov, and content migration initiatives. This firsthand experience gives our team a deep understanding of VA's technical landscape, governance processes, Section 508 accessibility requirements, design system standards, and regulatory environment.
+Together, this experience positions SGL360 to deliver a modernization approach that addresses the full scope of VA.gov transformation, including experience design, platform architecture, content strategy, integrations, and long-term operational resilience.
+Phase 1: Ecosystem Assessment & Content Strategy -- Conduct a comprehensive assessment of VA's digital ecosystem, including Veteran user research, full content audit, and systems and integration inventory. This phase establishes a Veteran-centric information architecture and defines a unified roadmap that guides all subsequent modernization activities.
+Phase 2: Website Rebuild & Parallel Ecosystem Analysis -- Begin rebuilding VA.gov on WordPress VIP while a dedicated team conducts parallel build, buy, or modernize solution analysis across the broader ecosystem. Running these efforts in parallel accelerates delivery while ensuring modernization decisions are informed, deliberate, and aligned with enterprise goals.
+Phase 3: Website Launch & Integration with Existing Systems -- Deploy the modernized VA.gov with integrations to current production systems, providing immediate value to Veterans while build/buy/modernize determinations are finalized. Our proven experience integrating VA systems
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 5
+
+VA.GOV REPLACEMENT MODEL
+through VEText, VA Notify, and the CDS Platform ensures seamless connectivity and minimal disruption to service continuity.
+Phase 4: Continuous Evolution & Modernized System Integration -- As build/buy/modernize solutions are completed across the ecosystem, the website evolves to incorporate new integrations and capabilities. This rolling phased approach--executed by multiple coordinated teams following a single grand schedule--ensures VA.gov continuously improves while maintaining platform stability and delivering incremental value to Veterans.
+This recommended approach directly addresses VA's modernization imperatives: maintaining continuity of service, integrating with legacy and emerging systems, operating within the regulated federal environment, supporting long-term scalability and resilience, and delivering a more seamless customer experience for Veterans and their families.
+LIMITATIONS/RISKS/TRADEOFFS
+Coordinated Modernization in a Complex Ecosystem
+The VA.gov ecosystem is inherently complex, encompassing dozens of integrations and solutions ranging from highly customized commercial solutions to bespoke VA applications. No single vendor can, or should, own the entire ecosystem. Effective modernization requires unified governance, shared principles, and coordinated execution across multiple teams.
+The primary tradeoffs involves build, buy, and modernize decisions. Success depends on conducting parallel analysis while continuing to deliver visible, Veteran-facing improvements that demonstrate momentum and value.
+RELEVANT EXPERIENCE
+1. MAINTAINS CONTINUITY OF SERVICE FOR MILLIONS OF USERS
+Veterans and their families depend on uninterrupted access to benefits and services--any downtime directly impacts their wellbeing. As the enterprise platform powers approximately 43% of the web, WordPress VIP has extensive experience ensuring continuity of service for mission-critical digital properties. Our federal portfolio includes The White House (whitehouse.gov), NASA (nasa.gov and science.nasa.gov, which migrated from Drupal), and multiple VA properties including department.va.gov, discover.va.gov, and news.va.gov. We also support high-traffic commercial sites such as Chick-fil-A, Dow Jones, and New York Post--collectively serving tens to hundreds of millions of monthly users without interruption.
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 6
+
+VA.GOV REPLACEMENT MODEL
+2. INTEGRATES WITH A DIVERSE PORTFOLIO OF LEGACY AND EMERGING SYSTEMS
+Modernizing VA.gov cannot mean ripping out existing systems overnight--it requires seamless integration with both legacy infrastructure and emerging technologies. WordPress VIP's REST API architecture enables departments and agencies to modernize at their own pace, serving content to websites, mobile apps, and other digital channels from a single source. This low-code approach frees engineering resources for higher-priority work while maintaining connections to existing systems.
+On the enterprise side, WordPress VIP connects with CRM platforms, marketing automation tools, and Digital Asset Management systems through secure APIs and a pre-built integration center. For authentication, we support SAML 2.0, OAuth 2.0, and Application Passwords--enabling plug-and-play integration with identity providers like Azure and Okta while maintaining single sign-on across environments.
+Intelligent Chatbot Integration: Veterans deserve timely, accurate answers to their questions. Intelligent chat capabilities can provide 24/7 support while reducing burden on VA staff. WordPress VIP enables a flexible, VA-controlled approach that allows chatbot functionality to be integrated directly with existing enterprise solutions such as Ask VA or, when appropriate, through vetted third-party chatbot technologies. Integrations may leverage Ask VA to surface guided assistance, FAQs, and caserelated information within the VA.gov experience, or use approved third-party plugins and managed integrations available through the WordPress VIP Dashboard Integrations Center, all evaluated for performance, accessibility, and security prior to deployment. This flexibility allows VA to meet immediate Veteran needs while preserving optionality for future expansion, including enterprise-grade chatbot solutions that support contextual guidance and personalized experiences all aligned with VA security, privacy, and governance requirements.
+3. OPERATES WITHIN A REGULATED, HIGHLY VISIBLE FEDERAL ENVIRONMENT
+Operating within the federal environment demands proven compliance credentials, not promises--and lengthy ATO processes should not delay modernization efforts. WordPress VIP is authorized at FedRAMP Moderate, enabling its use across federal use cases where security, compliance, and continuity are mandatory. This authorization was a critical prerequisite for the existing VA sites as well as for adoption by The White House and NASA--agencies that would not have selected the platform without this designation.
+Our public-sector portfolio includes whitehouse.gov, nasa.gov, department.va.gov, discover.va.gov, digital.va.gov, the Federal Maritime Commission (fmc.gov), cto.mil, and the Office of the National Coordinator for Health IT (healthit.gov). Notably, former VA technical leadership has publicly documented their decision to select WordPress VIP specifically for its FedRAMP authorization and suitability for secure, large-scale government operations.
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 7
+
+VA.GOV REPLACEMENT MODEL
+Accelerated Authority to Operate: WordPress VIP's FedRAMP Moderate Authorization (FedRAMP Marketplace) streamlines the ATO process so agencies can move faster. Our platform includes ~345 validated NIST SP 800-53 security controls covering encryption, access management, continuous monitoring, and incident response--maintained through ongoing security scans, monthly reporting, and annual independent audits. Agencies inherit our FedRAMP boundary rather than spending months on security assessments. We maintain ongoing compliance as threats evolve (with additional GovRAMP, TXRAMP, and SOC 2 authorizations), while our fully managed platform handles security updates, disaster recovery, and compliance automation--freeing your team to focus on mission delivery.
+4. SUPPORTS LONG-TERM SCALABILITY, ADAPTABILITY, AND RESILIENCE
+VA.gov must scale to meet surging demand, adapt to evolving requirements, and remain resilient against disruptions--all while VA focuses on serving Veterans. WordPress VIP provides enterprisegrade infrastructure designed for exactly this challenge:
+Scalability: Our container-based infrastructure with built-in auto-scaling handles traffic spikes effortlessly. TIME.com manages 100K+ requests per second during peak events using our platform. Our global CDN, edge caching, asset optimization, and Enterprise Search grow with your traffic without manual intervention.
+Adaptability: We support WordPress single-sites, multisite deployments, and headless CMS options with Node.js hosting. Integrated GitHub repositories enable continuous deployment and rollback in seconds, while our 55K+ plugin ecosystem lets you evolve your technology stack without vendor lock-in.
+Resilience: Application self-healing with preconfigured health checks automatically recovers from issues before they impact users. We provide DDoS mitigation, hourly backups, 24/7 monitoring, and geographical redundancy for disaster recovery.
+5. OFFERS A MORE SEAMLESS CUSTOMER EXPERIENCE
+Every interaction a Veteran has with VA.gov should feel intuitive, trustworthy, and efficient--reflecting the respect they've earned through their service. WordPress VIP enables implementation of VA Design System components in a repeatable, recyclable way, so your team focuses on the Veteran experience rather than duplicating work or writing code from scratch.
+Our enterprise platform directly supports the seven core VA Experience Standard categories:
+Comprehension & Usability: The intuitive WordPress Block Editor empowers content teams to create clear, accessible experiences without developer dependencies. Built-in design system support and pattern libraries maintain VA standards while enabling rapid iteration through reusable templates and site layouts.
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 8
+
+VA.GOV REPLACEMENT MODEL
+Consistency & Credibility: Our infrastructure has handled 100K+ requests per second (demonstrated during NASA's digital transformation) with zero downtime--critical when Veterans depend on your services. Enterprise search works across sites to help Veterans find what they need, as we demonstrated with discover.va.gov.
+Efficiency & Findability: Hybrid CMS capabilities and flexible content modeling structure information architecture to meet Veterans where they are--on the web, in mobile apps, or at kiosks. Parse.ly analytics provide insights to continuously optimize navigation and reduce friction.
+Health & Safety: WordPress VIP provides continuous security monitoring, automatic updates, and meets stringent federal requirements while maintaining 99.99% uptime SLAs.
+Member Portal & Personalized Access: Veterans need secure, personalized access to their benefits and health information--delivered through a portal experience that feels cohesive, not fragmented. Our work with DentalPlans.com demonstrates this capability: a high-traffic online marketplace with a robust member portal, consolidated under a single WordPress multisite architecture. This migration delivered measurable improvements in flexibility, security, and resource allocation--with DentalPlans.com continuing successfully on WordPress VIP since 2022.
+Digital Forms & Self-Service: Streamlined digital forms reduce the administrative burden on Veterans and accelerate access to earned benefits. On discover.va.gov, we supported development of key "Popular Online Resources" features--including several forms--designed to help Veterans quickly find and access critical information and services.
+SGL360 + WPVIP: YOUR TRUSTED VA PARTNERS
+SGL360 brings deep, hands-on experience across the VA enterprise that directly complements WordPress VIP's platform capabilities. As a trusted advisor to the Office of the VA Chief Technology Officer (OCTO) and OIT Product Engineering, we have delivered mission-critical digital solutions including VEText (the VA's enterprise SMS notification system serving all VA Medical Centers), VA Notify, the Clinical Decision Support Platform, Ask VA, and the VA National Rideshare and Foodshare Programs. Our team has direct integration experience with VA's core systems--VistA/CPRS, VA Profile, Master Patient Index, VA Single Sign-On, and VA.gov/Vets API--as well as proven expertise navigating ATO and ATC processes within the VA Enterprise Cloud (VAEC) environment. This combination of WordPress VIP's FedRAMP-authorized platform and DocMe360's VA-specific delivery experience positions our team to help VA modernize VA.gov while maintaining continuity, ensuring compliance, and keeping Veterans at the center of every decision.
+
+www.sgl-360.com | info@sgl-360.com
+
+page | 9
+
+VA.GOV REPLACEMENT MODEL
+PROCUREMENT STRATEGY
+SGL360 recommends a procurement approach that enables the VA to work on the right thing, with the right vendor, at the right time. This will allow the VA to move quickly while minimizing acquisition risk, and preserving flexibility. Based on our experience supporting enterprise programs across the VA, the following contract vehicles provide the most effective paths forward.
+RECOMMENDED OPTION 1: NASA SEWP (PREFERRED PATHWAY)
+SGL360 recommends procuring WordPress VIP and supporting VA.gov replacement model services through NASA SEWP, leveraging our SDVOSB reseller partner ArchiTECHture Solutions. Through this pathway, the VA can quickly begin Phase 1 and then Phase 2 of the va.gov replacement, with a clear path to expansion as system decisions are finalized.
+ALTERNATIVE OPTION 2: MULTI-AWARD INDEFINITE DELIVERY/INDEFINITE QUANTITY (IDIQ) As an alternative, VA may consider establishing a Multi-Award IDIQ contract vehicle to support the VA.gov modernization initiative. This approach would enable VA to pre-qualify multiple vendors--including SGL360--based on demonstrated technical capabilities, past performance, and relevant experience, then issue task orders competitively among the award holders as specific needs emerge. A Multi-Award IDIQ offers significant advantages for a complex, long-term initiative like VA.gov replacement: streamlined task order competition reduces procurement lead times, access to specialized expertise across multiple vendors ensures best-fit solutions for diverse workstreams (experience design, platform development, content migration, integration), and built-in flexibility allows VA to scale resources up or down based on evolving requirements. This vehicle also supports VA's stated goals of maintaining service continuity while enabling parallel modernization efforts across the digital ecosystem.
+FLEXIBLE PATH TO PILOT AND SCALE
+SGL360 is prepared to support the VA through either procurement pathway and can adapt to additional vehicles if required. However, NASA SEWP via ArchiTECHture Solutions is the recommended option to enable the fastest path to execution while maintaining acquisition rigor and small business alignment.
+The procurement strategy is designed to help the VA move quickly, reduce risk, and procure specialized vendors with confidence in both the technology and the acquisition approach.
+We appreciate the opportunity to provide input through this RFI and look forward to continued collaboration in shaping the future of VA.gov at the VA.
+
+www.sgl-360.com | info@sgl-360.com
+
+p a g e | 10
+
+

@@ -1,0 +1,372 @@
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+Department of Veterans Affairs (VA)
+Replacement of VA.gov
+RFI RESPONSE
+February 2nd, 2026
+
+Submitted by Gaurav Pawar, CEO JourneyBlazers, LLC 10432 Balls Ford Rd, Suite 300
+Manassas, VA 20109
+gpawar@journeyblazers.com JourneyBlazers.com (301) 828-6874
+
+Page 1
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+Table of Contents
+Table of Contents.........................................................................................................................2 1. Introduction and Cover Letter................................................................................................ 3 2. Disclaimer from Salesforce.................................................................................................... 4 3. Executive Summary | Solution Overview.............................................................................. 5 4. Response to RFI Requirements............................................................................................. 9
+4.1 Descriptions of Relevant Ideas, Capabilities, and Approaches......................................... 9 Digital Experience (VA.gov Replacement)......................................................................... 9 Identity, Authentication, and Navigation...........................................................................10 Digital Service Delivery, Automation, and AI....................................................................10 Agentforce and the Veteran Digital Buddy................................................................. 10 Marketing Cloud as a Proactive Engagement Layer........................................................10 Data and Analytics (Veteran 360).................................................................................... 11 Enterprise Integration (MuleSoft)..................................................................................... 11
+4.2 Case Studies and Examples from Similar Environments.................................................11 4.3 User journey workflows for identity proofing, sign-in, recovery, and navigation.............. 12
+Identity Proofing and Registration....................................................................................12 Sign-In and Authentication...............................................................................................12 Account Recovery............................................................................................................12 Navigation........................................................................................................................ 12 4.4 Known Limitations, Risks, and Tradeoffs.........................................................................13 4.5 Lessons Learned from Similar Deployments................................................................... 13
+
+Page 2
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+1. Introduction and Cover Letter
+
+Dear Ms. Fulton and Mr. Schlisserman,
+
+On behalf of JourneyBlazers LLC, thank you for the opportunity to respond to the Department of Veterans Affairs' Request for Information, Replacement Model for VA.gov. We appreciate VA's thoughtful approach to exploring next-generation models for delivering a secure, resilient, and Veteran-centric digital experience.
+
+JourneyBlazers LLC is a Salesforce-focused digital transformation consulting firm with deep experience supporting public sector and highly regulated organizations. We are a Women-Owned Small Business (WOSB) and Minority-Owned Business Enterprise (MBE), with an 8(a) Small Business certification currently pending with the U.S. Small Business Administration. Our firm specializes in helping government and mission-driven organizations modernize constituent-facing digital experiences while maintaining continuity of service, security, and compliance.
+
+We recognize that replacing VA.gov is not simply a website modernization effort, but a complex transformation spanning experience design, identity and access, platform architecture, content governance, analytics, and operating models. In environments like VA--where scale, trust, availability, and integration with diverse legacy systems are paramount--success depends on adopting a flexible, composable platform approach that can evolve over time without disrupting Veterans' access to critical services.
+
+Through this response, JourneyBlazers shares a conceptual approach for leveraging the Salesforce platform as a modern digital experience and service delivery foundation for VA.gov. Salesforce's secure, FedRAMP-aligned ecosystem--combined with its capabilities across Experience Cloud, Service Cloud, Data Cloud, and API-driven integration--offers VA the ability to deliver personalized, life-event-driven journeys for Veterans while integrating seamlessly with existing identity providers, backend systems, and benefit portfolios. Our perspective emphasizes incremental modernization, strong governance, and resilience, ensuring continuity of service for millions of users.
+
+JourneyBlazers brings hands-on experience implementing Salesforce solutions for public sector agencies and regulated enterprises, including large-scale digital experience platforms, data unification initiatives, and constituent service transformations. We are particularly focused on enabling agencies to move beyond siloed interactions toward holistic, user-centric experiences that improve outcomes for both constituents and internal teams.
+
+We welcome the opportunity to participate in any follow-on discussions, workshops, or exploratory pilots that may result from this RFI. Thank you for considering JourneyBlazers' perspective, and for your continued commitment to improving the digital experience for Veterans and their families.
+
+Respectfully submitted,
+
+JourneyBlazers LLC Gaurav Pawar CEO gpawar@journeyblazers.com
+
+Page 3
+
+
+
+
+
+
+
+
+
+
+
+2. Disclaimer from Salesforce
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+Salesforce is a leading provider of innovative cloud services, continuously advancing our technology. We have made a diligent effort to provide accurate and current responses to your request as of the date of this response. Please be aware that Salesforce's procedures and policies may evolve over time, and we regularly introduce multiple major release upgrades each year. Consequently, the information provided herein may be subject to change.
+Use of Salesforce's online software services will be detailed in the applicable agreement executed by Salesforce's authorized reseller. The agreement will delineate the rights and responsibilities of the parties and state that any purchases are not contingent upon the delivery of future functionality or features, nor dependent on any public comments made by Salesforce regarding such future functionality or features.
+While we strive to provide comprehensive and accurate information, please note that the responses provided herein are for informational purposes only and are not intended to form part of a final contract. All information shared in this response is subject to the confidentiality terms outlined in the applicable agreement between you and Salesforce's authorized reseller.
+This response includes confidential and proprietary data that shall not be disclosed outside the recipient organization and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this response. If a contract is awarded to a Salesforce authorized reseller in connection with the submission of this data, then the recipient shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. Except to the extent prohibited by the express terms of the solicitation, the confidential and proprietary data herein is provided with the expectation that it will be exempt from disclosure under applicable federal, state, or local laws.
+This document is provided for informational purposes only. It represents AWS's current product offerings and practices as of the date of issue of this document and is subject to change. Customers are responsible for making their own independent assessment of the information in this document and any use of AWS's products or services. This document does not create any warranties, representations, contractual commitments, conditions or assurances from AWS, its affiliates, suppliers or licensors. The responsibilities and liabilities of AWS to its customers are controlled by AWS agreements, and this document is not part of, nor does it modify, any agreement between AWS and its customers. For current prices for AWS services, please refer to the AWS website at www.aws.amazon.com.
+
+Page 4
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+ 3. Executive Summary | Solution Overview
+
+JourneyBlazers proposes a modern replacement model for VA.gov that transforms it from a primarily informational website into a secure, identity-enabled, Veteran-centric digital service platform. This approach uses VA's existing Salesforce Government Cloud Plus environment as a FedRAMP High-authorized enterprise digital engagement foundation, enabling VA to deliver personalized, resilient, and scalable digital experiences while preserving continuity of service.
+
+Instead of implementing a new monolithic web platform, this approach designates Salesforce as the digital front door and orchestration layer--integrating experience, identity, service delivery, data, analytics, and backend systems into a unified Veteran experience. The solution is designed to support millions of users, operate within a highly regulated federal environment, and evolve incrementally without disrupting Veterans' access to benefits, healthcare, and services.
+
+The proposed solution uses Salesforce as an enterprise digital engagement platform composed of six integrated layers, each addressing specific VA objectives. 
+
+Page 5
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+3.1 Digital Experience Layer (VA.gov Replacement)
+
+The Digital Experience Layer is delivered using Salesforce Experience Cloud. It serves as both the public VA.gov website and the authenticated Veteran portal.
+
+Key capabilities include:
+
+ Public informational content and guidance  Secure authenticated Veteran dashboards  Digital forms and guided applications  Personalized navigation and recommendations  Mobile-responsive, Section 508-compliant design
+
+This layer replaces the existing fragmented portal model with a single enterprise Veteran workspace. Thus it simplifies the Veteran experience and also eliminates the need to navigate multiple disconnected systems.
+
+3.2 Identity and Access Layer
+Salesforce integrates with VA's existing enterprise identity ecosystem, including ID.me, Login.gov, and DS Logon, acting strictly as a federated relying party and not as a credential authority.
+Key characteristics:
+ Reuse of existing VA identity investments  Preservation of LOA3 compliance  Single sign-on across VA services  Secure, persistent sessions across channels
+This approach maintains VA's identity strategy while enabling seamless cross-service navigation and improved user experience.
+This approach aligns with and preserves VA's established identity strategy. It also enables seamless cross-service navigation and enhances the overall user experience.
+
+3.3 Digital Service Delivery and Automation Layer
+The Service Delivery Layer uses Salesforce Service Cloud, Flows, Agentforce, and Marketing Cloud to manage all transactional and support interactions as structured service workflows.
+Capabilities include:
+ Enterprise case and request management  Workflow orchestration and task routing  Omnichannel engagement (web, chat, secure messaging, contact center)  AI-assisted triage and automation
+
+Agentforce and the Veteran Digital Buddy
+
+Page 6
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+Agentforce enables FedRAMP High-authorized agentic AI that provides 24x7 Veteran assistance. The Veteran Digital Buddy can:
+
+ Answer benefit and service questions  Guide Veterans through applications  Check claim or appointment status  Initiate service requests  Escalate seamlessly to human agents with full context
+
+AI interactions are grounded in authoritative VA data and workflows. This ensures accuracy, security, and continuity of service.
+
+3.4 Marketing Cloud as the Engagement Layer
+While Experience Cloud provides the place for Veterans to take action, Marketing Cloud provides the timing and orchestration that drives meaningful engagement.
+Marketing Cloud enables:
+ Proactive, event-driven outreach (e.g., claim updates, appointment reminders)  Omni-channel communications aligned to Veteran preferences  Hyper-personalized messaging based on eligibility, status, and life events  Increased portal adoption and reduced call center and paper mail volume
+This transforms VA.gov from a reactive website into a relationship-based engagement platform.
+
+3.5 Data and Analytics Layer
+The Data and Analytics Layer is implemented using Salesforce Data 360 and Tableau to create a unified Veteran profile across systems.
+Key principles:
+ Data remains in authoritative source systems  Logical unification without duplicating systems of record  Real-time identity resolution and segmentation  Operational and leadership dashboards
+This layer enables personalization, analytics, and AI-driven decisioning while respecting data governance and privacy requirements.
+
+3.6 Enterprise Integration Layer
+MuleSoft Anypoint Platform provides the API-led connectivity layer that unifies VA's technology landscape.
+Key functions:
+ Secure integration with legacy and modern systems  Real-time and event-driven data synchronization
+
+Page 7
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+ Abstraction of backend complexity  Reusable APIs that accelerate future innovation
+
+Integrated systems may include VBMS, Caseflow, VistA or Cerner, scheduling platforms, payment systems, and the Master Veteran Index.
+
+Figure 1: Veteran 1 Experience on modernized va.gov with Agentforce, Salesforce SaaS and PaaS clouds, Data 360 and Mulesoft
+
+Page 8
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+4. Response to RFI Requirements
+
+4.1 Descriptions of Relevant Ideas, Capabilities, and Approaches
+JourneyBlazers proposes replacing VA.gov with a platform-based digital engagement and service orchestration model built on Salesforce Government Cloud Plus. This approach redefines VA.gov from a static, navigation-heavy website into an identity-enabled, personalized, and service-driven digital front door that adapts to Veterans' needs in real time.
+Rather than requiring Veterans to understand VA's internal organizational structure, benefits portfolios, or backend systems, this model provides a "no wrong door" experience. Veterans interact with VA through a single digital entry point that understands their identity, eligibility, service history, and current context--then routes them seamlessly to the appropriate services, workflows, and resources.
+Key elements of this approach include:
+ Treating VA.gov as a secure service platform, not a content-only website  Using identity and data context to drive navigation, personalization, and automation  Leveraging agentic AI to guide Veterans, reduce friction, and extend service availability  Orchestrating engagement across web, mobile, messaging, and contact centers  Preserving continuity of service through phased migration and API-led integration
+This approach aligns with VA's need to modernize while maintaining resilience, scalability, and trust in a highly visible federal environment.
+
+Relevant Technologies and Architectural Approach
+The proposed solution uses Salesforce as an enterprise digital engagement platform composed of six integrated layers, each addressing specific VA objectives.
+Digital Experience (VA.gov Replacement)
+Salesforce Experience Cloud delivers both the public VA.gov website and the authenticated Veteran portal. This enables VA to unify public information, secure transactions, and personalized services within a single experience.
+Capabilities include:
+ Personalized "My VA" dashboards  Guided applications and digital forms  Context-aware navigation and recommendations  Section 508-compliant, mobile-responsive design  Consistent experience across web and mobile channels
+This layer consolidates today's fragmented portals into a single Veteran workspace, improving usability and reducing abandonment.
+
+Page 9
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+Identity, Authentication, and Navigation
+Salesforce integrates with VA's enterprise identity providers (ID.me, Login.gov, DS Logon) as a federated relying party, preserving VA's existing identity strategy and LOA3 compliance.
+Key capabilities:
+ Single sign-on across all VA services  Multi-factor authentication and session security  Seamless navigation without re-authentication  Secure account recovery and device verification
+MuleSoft orchestrates identity and session continuity across systems, ensuring Veterans can move between services without disruption.
+
+Digital Service Delivery, Automation, and AI
+Salesforce Service Cloud along with Flows and Agentforce, form VA's enterprise service execution engine.
+All Veteran interactions--questions, applications, claims, appointments, and support requests--are managed as structured workflows with full lifecycle tracking.
+Agentforce and the Veteran Digital Buddy
+Agentforce enables FedRAMP High-authorized agentic AI that acts as a digital concierge for Veterans.
+The Veteran Digital Buddy can:
+ Answer benefit and service questions using authoritative VA data  Guide Veterans through complex applications step by step  Check claim, payment, or appointment status in real time  Initiate service requests and updates through backend systems  Escalate to human VA representatives with full context preserved
+This capability extends VA's service availability to 24x7 while reducing call center demand and Veteran wait times.AI responses are grounded through the Einstein Trust Layer, ensuring data is VA-approved and not used to train external models.
+
+Marketing Cloud as a Proactive Engagement Layer
+Marketing Cloud provides the timing, orchestration, and personalization that transforms VA.gov from a passive portal into an ongoing relationship.
+Key functions include:
+ Event-driven notifications (e.g., claim status changes, appointment reminders)  Omni-channel outreach based on Veteran preferences  Hyper-personalized messaging tied to eligibility and life events
+
+Page 10
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+ Increased portal adoption and reduced paper mail volume
+
+Marketing Cloud ensures communications remain synchronized with real-time service activity, preventing outdated messages and repeated inquiries.
+
+Data and Analytics (Veteran 360)
+Salesforce Data 360 and Tableau provide a unified Veteran profile by logically connecting data across VA systems while preserving systems of record.
+Capabilities include:
+ Identity resolution across benefits, healthcare, and service systems  Real-time personalization and segmentation  Operational dashboards for frontline teams  Executive and leadership analytics
+This layer enables VA to shift from reactive service delivery to proactive, data-informed engagement.
+
+Enterprise Integration (MuleSoft)
+MuleSoft Anypoint Platform serves as the API-led integration and orchestration layer, abstracting the complexity of VA's backend environment.
+Key benefits:
+ Secure, reusable APIs for legacy and modern systems  Real-time data synchronization across platforms  Event-driven integration to support responsiveness  Faster delivery of new digital services
+This allows backend modernization to proceed independently without disrupting the Veteran experience.
+
+4.2 Case Studies and Examples from Similar Environments
+Salesforce technologies have been successfully deployed across many large-scale public sector and highly regulated environments. They modernize digital engagement, improve service delivery, and increase operational efficiency. These implementations show that Salesforce can serve as a secure, enterprise-grade digital front door which integrates smoothly with complex backend systems.
+Within the Department of Veterans Affairs, Salesforce Experience Cloud is already being used at national scale across multiple programs, supporting both internal staff and external partners. These implementations manage sensitive Veteran data and integrate with core VA systems. They provide secure, role-based access--all while meeting federal security and compliance requirements.
+
+Page 11
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+Some of the examples are portals supporting fiduciary accounting submissions, eligibility verification, caregiver records management, visitor engagement reporting, policy libraries, grants administration, and vendor collaboration. Together, these implementations support hundreds of thousands of records and users. They also demonstrate Salesforce's ability to operate reliably within VA's technical and governance environment.
+
+Beyond VA, Salesforce Experience Cloud has been used by other federal agencies to deliver public-facing data portals and mission-critical digital services. For example, a large federal agency responsible for administering loans and grants across dozens of programs implemented a Salesforce-based digital portal and analytics platform to consolidate data from more than 70 programs into a single, user-friendly interface. This solution significantly reduced response times to data requests, improved transparency, and gave both the internal leadership and the public access to timely insights through interactive dashboards. The platform grew to support hundreds of dashboards and delivered information quickly without the need of additional standalone systems.
+
+Across these environments, a few common success factors stand out. e.g. include the use of API-led integration to connect legacy systems, configuration-first platform design to reduce custom development, and unified data models to improve visibility and decision-making. These case examples show how Salesforce can support millions of users, handle sensitive data, and evolve incrementally. This makes it well suited to serve as the foundation for a modernized VA.gov experience.
+
+4.3 User journey workflows for identity proofing, sign-in, recovery, and navigation.
+Salesforce supports end-to-end user journeys for identity proofing, sign-in, recovery, and navigation.
+Identity Proofing and Registration
+ Customizable, headless registration flows  One-time password (OTP) verification via email or SMS  Secure onboarding integrated with VA identity providers
+Sign-In and Authentication
+ Single sign-on with MFA  Federated authentication across VA services  Persistent secure sessions
+Account Recovery
+ Device activation and session security  Guided recovery flows prior to granting access  Configurable security controls to reduce fraud risk
+Navigation
+
+Page 12
+
+
+
+
+
+
+
+
+
+
+
+RFI response: Replacement of VA.gov | JourneyBlazers
+
+ Seamless movement across services without re-authentication  Consistent context across web, mobile, and contact center channels
+
+4.4 Known Limitations, Risks, and Tradeoffs
+Key risks include migration complexity, organizational change, and adoption at national scale.
+These risks are mitigated through:
+ Phased migration and parallel operations  API-led integration instead of system replacement  Configuration-first design over custom development  Early Veteran usability testing and feedback loops  Reuse of VA's existing Salesforce ELA and GovCloud Plus environment
+Together, these strategies avoid high-risk "rip and replace" efforts and they enable the continuous modernization as well.
+4.5 Lessons Learned from Similar Deployments
+Experience from public sector implementations point to various critical lessons:
+ Incremental modernization reduces risk and improves adoption  AI delivers more value only when it is grounded in authoritative data and workflows  Platform consolidation matters. It drives long-term cost avoidance  Unified data models reduce rework and "swivel chair" operations  Reusable APIs accelerate innovation. They also help to reduce sustainment costs
+By consolidating portal, CRM, AI, marketing, analytics, and integration capabilities on Salesforce Government Cloud Plus, VA can reduce redundancy, lower operations and maintenance costs, and establish a durable foundation for future modernization.
+
+Page 13
+
+

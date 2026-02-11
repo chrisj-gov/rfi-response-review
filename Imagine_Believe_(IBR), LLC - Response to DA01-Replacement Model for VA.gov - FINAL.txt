@@ -1,0 +1,462 @@
+Department of Veteran Affairs
+Technology Acquisition Center Replacement Model for VA.gov Sources Sought - No. 36C10B26Q0131
+
+Request for Information
+
+Submitted: February 5, 2026
+Submitted by:
+Imagine Believe Realize, LLC (IBR)
+1017 Pathfinder Way, Suite 100, Rockledge, FL 32955 Phone: (407) 459-1830 | Fax: (407) 264-8767 | Email: info@teamibr.com CAGE Code: 737X4 | Unique Entity ID: NFTMKA5GEBZ9 | TIN: 26-0295155
+
+Primary Point of Contact:
+David Chafin President
+Mobile: (321) 230-7555 Email: dchafin@teamibr.com Imagine Believe Realize LLC. 1017 Pathfinder Way, Suite 100
+Rockledge, FL 32955
+
+Authorized Negotiator: Contracts Point of Contact:
+
+David Chafin President
+Mobile: (321) 230-7555 Email: dchafin@teamibr.com Imagine Believe Realize LLC. 1017 Pathfinder Way, Suite 100
+Rockledge, FL 32955
+
+Brian Curry Senior Contracts Manager Mobile: (321) 468-3994 Email: bcurry@teamibr.com Imagine Believe Realize LLC. 1017 Pathfinder Way, Suite 100
+Rockledge, FL 32955
+
+Submitted To:
+Evan Schlisserman, Contracting Officer Evan.Schlisserman@va.gov (848) 377-5248
+
+This RFI response includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to evaluate this RFI response. If, however, a contract is awarded as a result of - or in connection with - the submission of this data, the Government shall have the right to duplicate, use or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. This restriction applies to all pages of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+Table of Contents
+1 Organization Overview ................................................................................................1
+1.1 Understanding the Challenge ...............................................................................................1 1.1.1 Core Competencies Relevant to VA.gov ..................................................................1 1.1.2 Relevant Experience with Similar Challenges ..........................................................2
+1.2 Approach to Enhanced Digital Identity, Authentication, and Navigation ...........................3 1.2.1 Identity Proofing Approach: Achieving Near-Universal Success.............................3 1.2.2 Authentication That Balances Security and Usability...............................................4 1.2.3 Account Recovery Without Frustration ....................................................................4 1.2.4 Navigation and Task Completion Improvements......................................................4 1.2.5 Intelligent Assistance ................................................................................................5 1.2.6 Accessibility and Inclusive Design ...........................................................................5
+1.3 Approach to VA.gov Replacement ......................................................................................6 1.4 Maintaining Continuity of Service and Integrating Legacy Systems ..................................7 1.5 Security, Accessibility, and Compliance in Federal Environment ......................................7
+1.5.1 Security Approach in Regulated, High-Visibility Environment ...............................7 1.5.2 Privacy and Trust.......................................................................................................7 1.5.3 Accessibility ..............................................................................................................7 1.5.4 Resilience Against Emerging Threats .......................................................................8 1.6 Scalability, Adaptability, and Resilience .............................................................................9 1.7 Measurement and Continuous Improvement .....................................................................10 1.8 Lessons Learned Applicable to VA.gov ............................................................................10 1.9 Commitment to VA's Mission ...........................................................................................10 1 APPENDIX 1: Graphics ...................................................................................................................... 11 2 Appendix 2: Liferay Company Overview .......................................................................................... 14 2.1 Liferay Case Study.............................................................................................................15
+List of Figures
+Figure 1: Various Demographics of VA User Population .......................................................................... 11
+Figure 2: How VA.Gov can Support Veterans through all Stages ............................................................. 11
+Figure 3: Step up Authentication based on Risk to System ........................................................................ 12
+Figure 4: Proposed Modernization Path VA.gov........................................................................................ 12
+Figure 5: Support for Multiple Identity and Authentication Capabilities ................................................... 13
+
+February 5, 2026
+
+i Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+
+EXECUTIVE SUMMARY
+
+The VA.gov replacement is not a technology refresh, it is a mission-critical modernization that must
+
+maintain continuity of service for millions of Veterans while improving user experience, platform
+
+architecture, content strategy, governance, and analytics across a complex ecosystem of legacy and
+
+emerging systems.
+
+Imagine Believe Realize, LLC (IBR) is a mission-focused digital services firm specializing in human-
+
+centered design, agile delivery, and low-code/no-code modernization for federal agencies. Since 2014, our
+
+software and systems engineering solutions have driven positive change for the Department of Defense and
+
+numerous federal agencies. IBR maintains mature standard operating procedures validated by adherence to
+
+industry best organizational certifications and appraisals including CMMI-DEV Maturity Level 3, ISO
+
+9001:2015 (Quality Management), ISO 27001:2022 (Information Security), ISO 20000-1:2018 (IT Service
+
+Management), and ISO 14001:2015 (Environmental Management), and CMMC Level 2.
+
+TEAM IBR OVERVIEW: IBR leads this effort as prime contractor, partnering with Liferay, Inc., the
+
+global provider of a leading Digital Experience Platform (DXP) serving thousands of enterprises and
+
+government agencies worldwide. Together, Team IBR delivers enterprise-grade platform capabilities
+
+combined with federal program execution excellence through a phased replacement model that prioritizes
+
+risk reduction via incremental modernization, parallel operations, feature toggles, and timely rollback
+
+capabilities. Our approach embeds human-centered design (HCD), security, privacy, and accessibility from
+
+sprint one, with measurable outcomes tracked through continuous optimization and real-time observability.
+
+Furthermore, our work on DoW recruit-to-retire portfolios like Navy HR, USMC HR, and Air Force HR
+
+allows us to design a VA.gov experience that feels like a seamless continuation of their service, rather than
+
+a disconnected administrative restart.
+
+Team IBR proposes Liferay Digital Experience Platform (DXP) as the foundational architecture for this
+
+transformation. Liferay DXP is engineered specifically for mission-critical, highly regulated environments,
+
+offering a unified solution that balances modern user experience with the rigorous governance and security
+
+required by the federal government.
+
+Liferay is not a new entrant to the VA ecosystem; it is a proven partner. The Liferay platform currently
+
+powers the MyHealtheVet experience on VA.gov, facilitating secure, authenticated healthcare journeys for
+
+millions of Veterans. By leveraging Liferay for the broader Replacement Model, the VA utilizes a platform
+
+already vetted for security and interoperability within its own environment. This significantly de-risks the
+
+transition from legacy systems to a modern, identity-aware architecture.
+
+In the 2025 Gartner® Critical Capabilities for Digital Experience Platforms, Liferay achieved the highest
+
+ranking for the "Authenticated Experience" use case. This independent validation confirms Liferay's
+
+superiority in managing the exact type of secure, personalized, and role-aware digital journeys that the
+
+VA.gov Replacement Model requires.
+
+CORE CAPABILITIES: IBR delivers large-scale portal modernization with Liferay DXP in high-visibility
+
+federal environments, directly targeting VA's key success criteria. Our identity solutions achieve 95%+
+
+proofing success rates in federal environments serving diverse populations, significantly above industry averages of 70-80% and approaching VA's
+
+Mission-Critical Scale: 1M+ Users, 99%+ Uptime My Navy Portal serves over 1 million registered users with 25M+ annual visits while maintaining 99%+ uptime during
+
+target of near-universal success. We implement phone-unlock simplicity through FIDO2 passkeys,
+
+complex migrations, demonstrating capability to deliver at scale.
+
+biometric authentication, and adaptive multi-factor authentication that reduces friction while maintaining
+
+AAL2 phishing resistance. Our HCD Center of Excellence brings proven accessible design execution from
+
+system architecture to plain-language content and usability testing at scale, achieving WCAG 2.1 AA and
+
+Section 508 conformance validated through continuous accessibility testing with screen readers, keyboard
+
+navigation, voice-guided interfaces, and assistive technologies. We implement secure authentication
+
+patterns across IAL2/AAL2-compliant environments, handle sensitive identity data in ATO-bound systems,
+
+February 5, 2026
+
+ii Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+
+and maintain federal compliance throughout delivery.
+
+Team IBR proposes the use of the industry-leading Liferay DXP to provide:
+
+Secure, Authenticated, and Veteran-Centric Experiences: Liferay DXP is purpose-built for secure,
+
+role-aware digital journeys at federal scale, evidenced by its current role in powering the MyHealtheVet
+
+experience on VA.gov.
+
+Integration-Centric Modernization: Liferay serves as an experience layer that connects to diverse
+
+legacy and emerging back-end systems via APIs, enabling a unified digital experience and supporting a
+
+phased modernization approach without requiring all legacy components to be replaced simultaneously.
+
+Strong Governance and Content Operations: a single governed platform for enterprise web publishing,
+
+featuring workflow automation, content reuse, editorial approvals, and multi-site management, which
+
+improves consistency, compliance, and speed across benefit portfolios.
+
+Long-Term Scalability and Resilience: Liferay DXP is designed for mission-critical enterprise scale,
+
+with a commitment to continuous investment in a modular, extensible, and cloud-native architecture to
+
+ensure adaptability and resilience over time.
+
+VETERAN-CENTERED PERSPECTIVE: IBR employs Veterans who are both technical practitioners and
+
+actual users of VA digital services. Our team includes four original members of the Centers for Adaptive Warfighting (CAW), including a founder and retired Marine, whose work operationalized "Warfighter-Centered Design", a
+
+Veteran-Centered Design by Veterans Our team includes four original members of the Centers for Adaptive Warfighting (CAW), including a founder and retired Marine, who operationalized "Warfighter-Centered Design"ensuring solutions are built through the lens of service
+
+disciplined HCD adaptation that ensures experience, transition realities, and operational constraints.
+
+solutions are designed through the lens of service experience, transition realities, and operational
+
+constraints. Team IBR welcomes the opportunity to participate in follow-on engagement and provide
+
+detailed workflow illustrations, architectural patterns, and pilot plans aligned to VA's modernization
+
+priorities.
+
+February 5, 2026
+
+iii Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+
+1 Organization Overview
+
+Company Name: Company Address: Point of Contact:
+
+Imagine Believe Realize, LLC 1017 Pathfinder Way, Suite 100, Rockledge, FL 32955 David Chafin, CEO, (321) 230-7555, dchafin@teamibr.com
+
+1.1 Understanding the Challenge
+
+VA.gov is the digital embodiment of a national promise to Veterans, families, caregivers, and survivors often during "moments that matter" when time, clarity, and trust are critical. As shown in Appendix 1: Figure 1, VA serves a diverse user population across generations, ability levels, and technology access scenarios, making inclusive design mission-critical. The core challenge is delivering a cohesive, reliable, accessible experience across a complex ecosystem of benefits, health, identity, and content services without disrupting access to critical services.
+The VA.gov replacement must address five interdependent realities:
+Trust is fragile in high-stress engagements. Veterans often engage VA services during urgent circumstances to include medical crises, disability claims, housing instability, survivor benefits, or civilian transition. Fragmented navigation, confusing authentication, error loops, or broken recovery paths are not minor usability issues; they erode trust, suppress completion, and increase reliance on phone and in-person channels.
+Identity and navigation are inseparable foundations. Veterans need consistent pathways across applications, content, and transactional services. Brittle sign-in and recovery cause task abandonment. Confusing post-login navigation means improved authentication alone will not improve outcomes.
+Modernization must maintain continuity. VA.gov cannot afford a "big bang" cutover. The platform must continue serving millions while components are modernized, requiring incremental migration, parallel operations, and controlled rollout.
+Integration complexity drives user experience complexity. VA's service portfolio depends on many legacy and emerging systems with distinct data models, security constraints, and performance behaviors. Successful replacement requires modern API patterns, eventing, caching, and experience-layer abstraction that minimize negative impacts on availability and reliability of the system.
+Compliance and visibility heighten risk. VA.gov operates in a regulated environment with strong expectations for security, privacy, accessibility, and performance. Modernization must incorporate these as engineering and product constraints from day one through governance, testing, monitoring, and release discipline.
+The right replacement model is a program of disciplined, incremental transformation that reduces Veteran burden and improves outcomes while preserving continuity, integrating complex systems, and maintaining security and accessibility.
+Company Overview and Relevant Capabilities. Imagine Believe Realize, LLC (IBR) is a Small Business specializing in large-scale digital platform modernization for DoD and Federal Civilian agencies. We deliver high-visibility portal replacements, human-centered experience design, identity and authentication integrations, cybersecurity, content governance, and cloud transformation in regulated federal environments.
+
+1.1.1 Core Competencies Relevant to VA.gov
+
+Large-Scale Portal Operations and Modernization. IBR operates the MyNavy Portal (MNP), the second most visited DoD website in FY2024 with 1M+ registered users and 25M+ annual visits. MNP demonstrates our capability to deliver at VA.gov scale through flexible content management, threat-tested cybersecurity, Human-Centered Design implementation, and continuous performance monitoring. We have
+
+February 5, 2026
+
+1 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+maintained over 99% system uptime during complex migrations.
+Service-to-Veteran Lifecycle Continuity. The transition from active service to Veteran status should be seamless, not an abrupt disruption. IBR brings deep experience delivering systems at scale that deal with everything from "recruit-to-retire" across the DoD, including MyNavyHR, the Marine Corps' Manpower Information Technology Systems Modernization (MITSM), and the Air Force's Recruiting Information Support System (AFRISS).
+This unique vantage point ensures we understand the career milestones, digital interfaces, and administrative logic Service Members are accustomed to. We leverage this "recruit-to-retire" expertise to build VA.gov experiences that feel familiar and intuitive, stemming from the systems they used in uniform, minimizing the anxiety and cognitive load often associated with navigating a new agency.
+Platform Replacement Using Incremental Migration. IBR has executed large-scale platform replacements using the Strangler Fig Method to transition legacy systems from monolithic, on-premises architectures to resilient, distributed cloud-first architectures. We successfully transitioned over 30 HHS enterprise web applications from on-premise environments to AWS cloud in 24 months, reducing implementation timelines by 50%, cutting ATO assessment costs up to 70%, and achieving automationenabled provisioning in under one hour with 100% security compliance.
+Identity and Authentication in High-Security Environments. As part of MNP, IBR developed and operates the Identity and Credential Access Management (ICAM) solution integrating Okta with MFA, SSO, and CAC/PIV authentication across multiple systems within the MyNavy HR portfolio. Our experience delivering authentication solutions for high-security federal web environments positions us to understand the complexities VA faces integrating Login.gov, ID.me, and emerging credential providers.
+Human-Centered Design and Accessible Experience Delivery. IBR operates an HCD Center of Excellence (CoE) that standardizes best practices for Design Thinking, Usability, and Human Factors Engineering. Our proven HCD process has been successfully applied across numerous government clients, including the Air Force, Navy, and Marine Corps, as well as civilian federal agencies. We design end-toend service journey maps, build design systems and plain-language content standards, and validate usability through rapid prototyping and iterative delivery.
+Technical Architecture. Our Liferay DXP's headless CMS architecture, demonstrated through MNP's mobile application, decouples content delivery from presentation, enabling dynamic, efficient delivery across devices. We implement API-first platforms that abstract frontend user experiences from backend system complexity, providing flexibility for new system integration without disrupting user experiences.
+Creating Guided Digital Experiences. Our approach ensures Veterans, caregivers, and beneficiaries successfully access care and benefits quickly and confidently. WalkMe embeds real-time, contextual guidance directly into VA.gov, transforming complex processes into clear, Veteran-centered experiences. Operating like "GPS for digital services," WalkMe overlays step-by-step assistance within live applications without requiring system changes, helping users complete tasks at the moment help is needed.
+1.1.2 Relevant Experience with Similar Challenges
+MyNavy Portal (MNP): Modern Digital Experience at Scale Description: Enterprise portal supporting large, dispersed user community with high visibility and missioncritical content and workflows. Over the last 10 years, IBR has served as trusted partner to the Navy Program Executive Office for Manpower, Logistics and Business Solutions (PEO MLB) and OPNAV N1, to design, develop, deliver, and support the Navy HR Single Point of Entry (SPOE). The foundation of the SPOE capability is MNP, powered by Liferay DXP and extended by Navy HR mobile apps and the Navy HR Identity, Credential, and Access Management (ICAM) system providing single sign-on through Okta. These capabilities are in production, at scale, supporting more than one million active users globally with 99+% system uptime. We built consistent experience frameworks supported by style guides and design
+
+February 5, 2025
+
+2 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+systems, applied journey-based organization transforming legacy Navy Knowledge Online (NKO) to MyNavy Portal focused on Career and Life Events tracking service member journey from recruitment through retirement, implemented independent remote identity proofing leveraging MyAuth to facilitate credential establishment, supported headless and API-based patterns enabling multi-channel delivery, obtained and maintained RMF ATO for IL2 capabilities in AWS GovCloud, and developed "Hopper," a Tier 0 self-service GenAI chatbot designed to reduce more than 300,000 annual HR inquiries. This experience directly parallels VA's challenge of serving millions of Veterans through a central digital platform supporting complete lifecycle journeys, with identity proofing implementation demonstrating capability to integrate independent verification solutions meeting federal security standards while maintaining user-friendly workflows. USPS Enterprise Web Portal: Modernizing Access and Governance Description: Over the last four years, IBR established the new USPS Digital Experience Platform (DXP) and Content Management System (CMS) serving as the common user experience and central access point to all HR information, resources, and tools for more than 630,000 existing and 2,800 prospective USPS employees nationwide. We aggregated content scattered across multiple legacy environments into enterprise portal experience with search and SEO improvements, established documented governance shifting from person-dependent content management to role-based repeatable workflows, delivered modern responsive interface with consistency patterns, integrated platform with multiple backend systems, and provided dedicated technical training enabling government personnel to independently manage and maintain platform. This project demonstrates IBR's capability to aggregate scattered content, implement enterprise search, and establish governance processes, all challenges VA faces with modernizing VA.gov.
+U.S. Census Bureau DAHRTS: Identity Verification in Federal Environment Description: The Decennial Administrative Recruiting, Hiring and Training System (DAHRTS) for the U.S. Census Bureau supports public applicant intake, hiring operation, and lifecycle case management while maintaining strict compliance with federal security and PII requirements. We implemented secure workflows for user onboarding, authentication, and controlled access to sensitive processes, supported compliance-driven engineering practices appropriate for federal oversight, and designed flows mindful of diverse technology access and varying digital literacy. This demonstrates our experience with secure account creation workflows, recovery workflows, clear communication, and designing for varying digital literacy levels directly applicable to VA's user experience challenges. MyHealtheVet: VA.gov (U.S. Department of Veterans Affairs) Description: Liferay DXP currently serves as the portal layer on VA.gov, facilitating secure, authenticated access for Veterans to MyHealtheVet services. Liferay supports secure, authenticated Veteran healthcare interactions enabling Veterans to request and store key portions of their VA electronic health record in a personal eVault. This confirms the platform's practical compatibility integrating with existing Veterans Health Administration practices, delivers secure authenticated services on a federal scale, and provides clear proof that Liferay is suitable for VA.gov's top priority: consistently and reliably delivering authenticated Veteran journeys.
+1.2 Approach to Enhanced Digital Identity, Authentication, and Navigation
+Identity is a journey, not a login screen. IBR views identity as an end-to-end journey: identity proofing (when required), sign-in (routine access), step-up authentication (high-risk actions), recovery (device loss, forgotten credentials), and post-login navigation and task completion.
+1.2.1 Identity Proofing Approach: Achieving Near-Universal Success
+VA seeks authentication as simple as unlocking a phone while achieving near-universal (approaching 100%) identity proofing success. A replacement model must not assume smartphone ownership, reliable broadband, high digital literacy, or consistent device access.
+
+February 5, 2025
+
+3 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+Leverage VA's In-Person Footprint for Identity Establishment. VA possesses a unique advantage that commercial identity providers lack: an extensive in-person footprint through VA Medical Centers, Regional Offices, and community-based outpatient clinics. Veterans already visit these facilities and have established trust relationships with VA staff. Implementation Approach. Veterans visiting VA facilities for any reason could optionally complete a a brief identity proofing process. VA staff would verify government-issued ID, capture a photograph, and optionally collect biometrics (fingerprints, facial recognition). The Veteran would simultaneously enroll a FIDO2 security key or passkey tied to their personal device (smartphone, tablet, or computer). Once this one-time in-person enrollment is complete, the Veteran can subsequently authenticate to VA.gov using only their enrolled device and biometric (fingerprint or face unlock) or device PIN, achieving the goal of authentication as simple as unlocking a phone while maintaining the highest identity assurance. Advantages of This Approach.Veterans who struggle with remote identity verification due to thin credit files, expired IDs, or complex digital workflows can successfully complete in-person proofing, dramatically increasing success rates toward the 100% target. This leverages existing infrastructure requiring no new physical locations or significant facility modifications, builds on trust relationships where Veterans trust VA staff and facilities, provides one-time friction with lifetime ease where initial in-person enrollment requires visiting a facility once with frictionless authentication for all future VA.gov access, and supports diverse populations including Veterans without smartphones, those with disabilities, those with limited digital literacy, and those who prefer in-person interactions. For Veterans who can complete it successfully, continue supporting Login.gov and ID.me remote proofing options.
+1.2.2 Authentication That Balances Security and Usability
+Not all actions require the same assurance. Low-risk informational access should remain simple allowing Veterans to access general information with minimal authentication including email-based magic links or lower-assurance credentials. Medium-risk profile actions should use strong but usable authentication methods requiring AAL2 authentication optimized for ease using passkeys, biometrics, or remembered devices. High-risk actions should trigger step-up authentication and risk checks requiring AAL2 with additional context validation, and for unusual access patterns (new device, new location, high-risk action), prompt for step-up authentication. Appendix 1: Figure 3 illustrates this risk-based authentication model, showing how transaction types trigger appropriate authentication assurance levels based on sensitivity and fraud risk.
+1.2.3 Account Recovery Without Frustration
+Recovery is frequently the most painful step. Veterans need graceful recovery paths that acknowledge the reality that access problems will occur and provide clear, achievable solutions. IBR recommends leveraging VA's extensive physical footprint to enable in-person recovery at any VA facility, allowing Veterans who have lost access to regain it through a trusted, face-to-face interaction. We also propose phone-based assisted recovery, where VA contact center staff trained in identity verification assist Veterans through workflows in real time, providing human support when digital self-service fails. For Veterans with partial account access, we recommend progressive recovery workflows that provide graduated pathways balancing security requirements with accessibility needs, allowing Veterans to regain full access incrementally rather than starting from zero. All recovery processes should feature clear guidance and plain language with predictable outcomes and visible next steps, ensuring Veterans understand exactly what they need to do and what will happen when they do it. Critical to success is the reduction of "looping" failures where Veterans repeatedly enter the same information or encounter vague errors that provide no path forward, creating frustration and abandonment.
+1.2.4 Navigation and Task Completion Improvements
+
+February 5, 2025
+
+4 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+Authentication is only the first step. Veterans must find information and complete tasks successfully. We recommend organizing VA.gov around Veteran goals and life events rather than VA organizational structure. Veterans should find pathways for "Apply for disability benefits" or "Schedule a medical appointment" without needing to understand which VA administration handles these services. This approach proved successful in our transformation of Navy Knowledge Online to MyNavy Portal, where we focused on Career and Life Events tracking a user's journey from recruitment through retirement. Key navigation improvements include clear post-login landing experiences aligned to "next best action," search that supports plain language, synonyms, and Veteran terminology, guided workflows with progress indicators for complex processes, consistent design patterns throughout so Veterans can transfer knowledge from one task to another, and clear, jargon-free language with simplified forms broken into manageable sections with pre-filled information VA already knows. Errors in digital submissions like missing information, incorrect entries, or incomplete forms can also significantly delay decisions and service delivery. Implementing WalkMe proactively prevents these issues by guiding users through validated, prescriptive paths, ensuring required information is entered correctly before submission. Organizations leveraging WalkMe have achieved up to 87% fewer submission errors, improving data quality and accelerating downstream processing. We experienced this during the User Acceptance Testing for the Marine Corps Manpower Information Technology Systems Modernization (MITSM) program, where the integration of WalkMe resulted in a more than 22% increase in Net Promoter and System Usability Scores. For VA, this means faster adjudication, fewer resubmissions, and more timely delivery of care and benefits.
+1.2.5 Intelligent Assistance
+IBR successfully developed a proof of concept using a large language model AI chatbot for MyNavy Portal. Named "Hopper," this bot crawls and indexes content across the portal, enabling users to receive fast, contextually relevant answers, dramatically reducing search overhead. For VA.gov, IBR recommends AIpowered conversational interfaces where Veterans ask questions in natural language and receive relevant answers, links, and guided workflows; intelligent search with semantic understanding surfacing relevant results even when Veterans use different terminology; guided workflows that walk Veterans through complex multi-step processes with plain language explanations and progress indicators; and proactive benefit recommendations based on Veteran profile and eligibility. Any AI-enabled features must include oversight and escalation paths where AI systems operate within clearly defined human governance structures, accuracy monitoring to ensure AI outputs remain reliable over time with detection of declining performance and hallucinations, transparency allowing users to clearly distinguish between AI-generated content and authoritative validated sources, and bias and safety controls to detect, mitigate, and monitor bias and unsafe behavior throughout their lifecycle.
+1.2.6 Accessibility and Inclusive Design
+IBR will apply inclusive design patterns pragmatically across all digital touchpoints. Our approach prioritizes predictability through consistent layout, clear progress indicators, and stable navigation that allows Veterans to develop transferable knowledge across the platform. We ensure transparency by providing plain-language explanations of processes, making data use visible and understandable, and displaying clear system status at every interaction point. Error clarity is central to our design philosophy, eliminating "dead ends" and circular loops while providing actionable error messages that guide Veterans toward successful task completion. We implement progressive disclosure strategies to reduce cognitive load by presenting only the information and options needed at each step, preventing overwhelm while maintaining access to more detailed information when Veterans need it. Recognizing that digital-only solutions leave some Veterans behind, we design multiple paths to completion that accommodate online self-service, assisted digital options, and in-person-friendly recovery processes, ensuring that every Veteran can access their benefits regardless of their digital comfort level or circumstances.
+
+February 5, 2025
+
+5 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+1.3 Approach to VA.gov Replacement
+VA Objective: Replace VA.gov in a way that maintains continuity, improves experience across benefits portfolios, integrates complex systems, and remains secure, accessible, and resilient. IBR Recommended Approach: A Phased, Incremental Replacement Model IBR recommends a replacement program executed through phases that maintain service continuity while progressively modernizing the experience and underlying platform. Phase 0 (Optional): Alignment and Readiness (30-60 days)
+· Confirm priority "moments that matter" and define outcome metrics · Establish governance and decision points (product, content, security, platform) · Define reference architecture and integration strategy · Set accessibility and security quality gates and evidence expectations Phase 1: Discovery and Foundation (Research + Architecture Baseline) Comprehensive User Research: We will begin with comprehensive user research across diverse Veteran populations, leveraging HCD methodologies to engage users through site visits and journey mapping. We will conduct site visits at VA Medical Centers, Veterans Service Organizations, and community settings to ensure our research includes Veterans who may not actively use VA.gov today but need these services. This means conducting research with Veterans representing the full spectrum of capabilities and circumstances: aging-related challenges, cognitive impairments, physical limitations, low digital literacy, rural connectivity constraints, and those without smartphones. Appendix 1: Figure 1 illustrates these diverse VA user demographics that will be represented in our research activities. Current State Assessment: We will develop a comprehensive Current State Assessment documenting VA.gov's existing architecture, integration points, content inventory, user journeys, and pain points. This assessment will identify opportunities for quick wins that can be delivered early while establishing the foundation for long-term transformation. Lifecycle-Based Content Organization: We will work with VA to develop a lifecycle-based content and service organization framework for Veterans, from transition to civilian life through end-of-life benefits, ensuring content and services are organized around Veteran needs rather than VA organizational structures. Appendix 1: Figure 2 illustrates how VA.gov can support Veterans through lifecycle stages with this approach. Phase 2: Incremental Modernization and Migration (Strangler Pattern) Rather than attempting a risky "big bang" replacement, we will incrementally replace VA.gov capabilities with modern equivalents. We will employ the Strangler Fig Method to transition enterprise systems from monolithic architectures to resilient, distributed cloud-first architecture using AWS GovCloud, minimizing risk by deploying incremental changes. Appendix 1: Figure 4 depicts our proposed modernization path for VA.gov, illustrating the phased Strangler Fig approach that enables progressive transformation while maintaining continuous service delivery. Dual-Track Delivery Model: We will establish a dual-track delivery model where one team maintains the current platform while another builds the modern replacement. Rigorous Testing: Each new capability goes through rigorous user testing with diverse Veteran populations before being promoted to production. Progressive Traffic Shifting: As each new capability reaches production readiness and passes accessibility, security, and usability standards traffic gradually shifts from legacy to modern systems using intelligent routing that can be instantly reversed if problems are detected. Optimization and Continuous Improvement: Once core capabilities have been modernized, we will focus on optimization, advanced features, and continuous improvement based on analytics and user feedback. Why this model works for VA: · Minimizes risk by avoiding large cutovers
+
+February 5, 2025
+
+6 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+· Produces value early while building durable platform foundations · Aligns technical modernization with experience outcomes and governance
+1.4 Maintaining Continuity of Service and Integrating Legacy Systems
+Continuity of service for millions of Veterans is paramount. IBR brings proven experience maintaining over 99% system uptime during complex migrations. Continuity Strategy: We maintain existing pathways while introducing new components through parallel operations and progressive cutover. Legacy and modern systems run in parallel with routing rules steering traffic subsets to new services by journey, region, or cohort. Intelligent routing enables instant reversal if problems are detected, with backend changes invisible to end users, minimizing disruption. WalkMe modernizes user experience without reengineering backend systems, overlaying human-centered guidance across existing applications. This "modernize in place" approach reduces risk, accelerates timelines, and delivers immediate Veteran-visible improvements. We release behind feature flags, deploying new capabilities to small populations first, monitoring performance before expanding access. Every deployment includes tested rollback procedures executable within minutes, with rapid rollback protecting mission outcomes when issues arise. Upgrades occur during low-traffic periods with rolling updates when possible. We design modern VA.gov as an API-first platform abstracting frontend experiences from backend complexity. Standardized API interfaces and mapping layers reduce coupling, providing flexibility (integrate new systems without disrupting user experiences), reusability (leverage APIs across mobile apps and other VA services), and centralized security (API gateways provide authentication, authorization, rate limiting, and threat protection)
+1.5 Security, Accessibility, and Compliance in Federal Environment
+1.5.1 Security Approach in Regulated, High-Visibility Environment
+IBR delivers security as a continuous engineering practice, not a compliance afterthought. We have extensive experience supporting clients during annual Authority to Operate (ATO) maintenance cycles, including updates to System Security Plans (SSP), Security Assessment Reports (SAR), and POA&M documentation. We collaborate with agency ISSMs to ensure platform controls remain aligned with RMF and FedRAMP frameworks. DevSecOps Approach: Our DevSecOps approach embeds security scanning tools (Twistlock, SonarQube, Fortify) in the CI/CD pipeline to check for vulnerabilities early in the development cycle. IBR's development processes incorporate Continuous Integration and Continuous Delivery (CI/CD) practices using GitLab as the foundation for DevSecOps pipelines. Security Practices Include:
+· Secure SDLC with automated testing gates and evidence capture · Threat modeling for identity and high-risk transactions · Dependency management and vulnerability remediation SLAs · Logging/monitoring aligned to incident response and reporting needs · Risk-based and adaptive authentication that adjusts assurance levels based on transaction
+sensitivity and fraud risk
+1.5.2 Privacy and Trust
+Veterans must understand what data is being collected, why it is needed, how it will be used, and how to recover when something fails. We prioritize transparency and clarity in content and UI behavior because it directly reduces abandonment and increases trust.
+1.5.3 Accessibility
+The platform must conform to WCAG 2.1 AA and Section 508 requirements. IBR treats accessibility as a
+
+February 5, 2025
+
+7 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+first-order requirement from Sprint Zero, not something to be retrofitted. Our experience confirms that retrofitting accessibility is exponentially more expensive and time-consuming than building it in from the start. Accessibility support includes screen readers, keyboard navigation, captions, and assistive technologies, with automated and manual testing integrated into sprint increments and design systems that enforce accessibility patterns across teams.
+1.5.4 Resilience Against Emerging Threats
+IBR's defense-in-depth approach addresses VA's specific concerns regarding AI-generated synthetic identities, deepfake biometric attacks, large-scale credential theft, and long-term cryptographic threats through layered security controls proven on mission-critical federal platforms. Behavioral Analytics and Anomaly Detection. AWS GuardDuty provides AI-driven behavioral modeling and anomaly detection, identifying suspicious activities like abnormal login patterns. For VA.gov, we implement session behavior analysis establishing baseline authentication patterns for each Veteran, tracking login times, geographic locations, device fingerprints, and transaction sequences. When deviations occur (login from unusual location followed by high-value benefit changes), the system triggers step-up authentication or flags the session for review, countering account takeover while minimizing friction for legitimate users. Our Salesforce Shield and Event Monitoring implementations track anomalous behavior in real time, providing the foundation for similar capabilities within Liferay-based platforms where session analytics detect synthetic identity usage through pattern inconsistencies. Continuous Threat Intelligence and Vulnerability Management. IBR maintains continuous monitoring using DoD-approved SIEM integration, automated vulnerability scans, prioritized patching, and documented remediation. Our threat intelligence integrates real-time feeds from CISA, FBI IC3, and commercial providers to identify emerging attack patterns targeting federal identity systems, correlating feeds against authentication logs to detect credential stuffing campaigns, phishing infrastructure, or new attack vectors. Regular vulnerability scans with DISA STIGs application and security documentation updates in eMASS ensure continuous RMF compliance. Security assessments occur within each development sprint, with critical vulnerabilities patched within hours and threat intelligence automatically updating detection rules to counter emerging synthetic identity techniques and deepfake attempts. Zero Trust Architecture with Continuous Validation. IBR implements Zero Trust Architecture principles through Identity, Credentials, and Access Management (ICAM), ensuring continuous authentication, segmented access, and least-privilege controls. Rather than granting access once at login, our model validates every request against current context: user identity, device health, network location, and transaction sensitivity. We leverage Okta's SaaS-based identity management for centralized, secure authentication with controlled access, reducing the attack surface and enabling adaptive, risk-based access controls. For Veterans accessing benefit information (low-risk), validation requirements remain minimal. When submitting disability claims or updating direct deposit information (high-risk), the system requires fresh authentication, device verification, and may invoke additional factors. This continuous validation mitigates credential theft impact because stolen credentials alone cannot authorize sensitive transactions without matching device, location, and behavioral context. Phishing-Resistant Authentication with Cryptographic Proof. IBR implemented comprehensive Single Sign-On and Multi-Factor Authentication serving millions of DoD users, including CAC-less and CACfree access leveraging Okta MFA, requiring collaboration with DoD CIO to obtain exceptions based on innovative MFA approaches. Our implementation supports FIDO2/WebAuthn standards enabling passwordless authentication using public key cryptography. Unlike traditional MFA where phishing sites can intercept one-time codes, FIDO2 cryptographically binds authentication to the legitimate VA.gov domain; phishing sites cannot complete the authentication challenge even if a Veteran is tricked into visiting them. For Veterans using biometric unlock on modern smartphones, this delivers intuitive security meeting VA's goals of user experiences as easy as unlocking their phones while exceeding NIST AAL2
+
+February 5, 2025
+
+8 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+
+requirements. Liferay's OAuth 2.0 and SAML 2.0 integration capabilities provide the federation framework to broker these FIDO2 credentials across VA's digital ecosystem. AI-Resistant Identity Verification and Fraud Detection. To counter AI-generated synthetic identities and deepfake biometric attacks, IBR proposes multi-modal verification combining government authoritative data sources with liveness detection. Our DHS implementation provides advanced AI/ML capabilities for person identification and master profile creation, combining multiple sources and validating against open-source data. For VA, this means cross-referencing identity proofing attempts against VA enrollment records, DoD personnel databases for Veterans with military service records, and IRS data for financial history validation. Synthetic identities, which typically lack authentic cross-system correlation, trigger additional verification requirements. Liveness detection during biometric capture prevents deepfake attacks by requiring real-time interaction (random gestures, orientation changes) that pre-recorded or AIgenerated video cannot replicate. AWS WAF leverages ML to detect sophisticated web threats and botdriven attacks using behavioral analysis, while Security Hub aggregates and prioritizes security alerts from AI-driven sources, enabling detection of coordinated synthetic identity campaigns. Cryptographic Resilience and Post-Quantum Preparation. IBR implements FIPS 140-2 validated cryptography and NIST-approved algorithms (FIPS 140-2 Annex A: AES or Triple DES) with continuous compliance through the NIST Cryptographic Algorithm Validation Program. Our cryptographic architecture uses crypto-agility principles, separating cryptographic primitives from application logic so algorithms can be updated without application redesign. As NIST finalizes post-quantum cryptographic standards, VA.gov infrastructure can adopt quantum-resistant algorithms through configuration updates rather than platform rewrites. We implement perfect forward secrecy for all TLS connections, ensuring that even if long-term keys are eventually compromised by quantum computing advances, past sessions remain protected. All sensitive Veteran data is encrypted at rest using AES-256 with hardware security module (HSM) key management, and field-level security protects sensitive data through encryption in transit and at rest, MFA, and role-aligned access controls. Risk-Based and Adaptive Authentication. Recognizing VA's specific interest in risk-based and adaptive authentication that adjusts assurance levels based on transaction sensitivity and fraud risk, IBR implements dynamic authentication policies evaluating risk signals in real-time. Each Veteran interaction receives a risk score based on device trust (known vs. new device), behavioral consistency (matches historical patterns), network reputation (trusted location vs. TOR exit node), and transaction sensitivity (viewing pay statements vs. changing beneficiary designations). See Appendix 1: Figure 5 for Support for Multiple Identity and Authentication Capabilities. Low-risk scores allow seamless access; medium-risk scores trigger additional verification (confirming via authenticator app); high-risk scores require full reauthentication with multiple factors. This approach balances security and usability by applying friction only when risk warrants it, directly supporting VA's need to align different Veteran actions and services to different assurance levels. These integrated capabilities create resilient authentication infrastructure that adapts to emerging threats while maintaining the inclusive, accessible experience required to serve Veterans of all ages, abilities, and circumstances.
+1.6 Scalability, Adaptability, and Resilience
+VA.gov must handle massive scale (16M+ unique users per month, 10M+ authentications), adapt to evolving needs, and remain resilient against threats. Our cloud-native approach using AWS GovCloud provides horizontal scalability where services automatically scale during peak demand and down during low-traffic, global distribution through CloudFront CDN ensuring fast load times regardless of location, and multi-region deployment with automated failover. Recognizing connectivity constraints, we implement Progressive Web App (PWA) capabilities maximizing accessibility for geographically dispersed users, optimized assets through image compression and lazy loading, and offline-first design where critical content remains accessible during connectivity interruptions with seamless synchronization when restored. We break down applications into loosely coupled microservices communicating through language-agnostic
+
+February 5, 2025
+
+9 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+APIs, with each microservice containerized with Amazon EKS for orchestration supporting automated deployment, scaling, and monitoring. This allows VA to adapt quickly where new services can be added, existing services enhanced or replaced, and emerging technologies adopted without wholesale replacement.
+1.7 Measurement and Continuous Improvement
+IBR recommends an outcome-based measurement model that establishes clear metrics tied to VA's objectives. Our measurement framework tracks identity proofing success rates by demographic factors to identify disparities, while monitoring authentication friction through metrics such as time to authenticate and abandonment rates. We continuously measure task completion rates to ensure Veterans successfully accomplish common tasks, and we validate accessibility conformance through both automated and manual testing processes. User satisfaction is captured through regular surveys and Net Promoter Score tracking, while support contact volume serves as a proxy for user experience quality, with the understanding that fewer support calls typically indicate a more intuitive system. Performance metrics including time to interactive, API latency, and error rates provide technical health indicators that directly correlate to user experience. Qualitative Veteran feedback loops are strategically tied to release cycles to ensure that realworld user insights inform development priorities and technical decisions. Measurement is not a reporting exercise; it is the mechanism by which VA.gov improves continually without large disruptive releases. WalkMe provides actionable insight into real Veteran behavior, identifying where users struggle, abandon tasks, or require assistance. These insights allow VA leaders to prioritize improvements based on evidence, ensuring digital investments translate into measurable Veteran outcomes. These metrics will be provided in a report to the government for tracking progress. Periodically we will reevaluate the metrics that are collected and adjust to include additional measurements to align with the goal of continuously improving the platform and the Veteran's experience.
+1.8 Lessons Learned Applicable to VA.gov
+Drawing from our experience across MyNavy Portal, USPS Enterprise Web Portal, and Census DAHRTS, IBR has identified critical lessons directly applicable to VA.gov modernization. The most successful transformations begin with deep understanding of user needs, pain points, and journeys before selecting platforms or architectures. The Strangler Fig Method employed across our projects demonstrates that incremental replacement of legacy capabilities dramatically reduces risk compared to "big bang" migrations, succeeding when built as a sequence of small, measurable outcomes. Scattered content and inconsistent governance create user confusion regardless of platform capabilities, making content governance, ownership models, and standardized processes as critical as technical improvements for protecting continuity and quality over time. Our experience across DoD and civilian agencies confirms that accessibility must be treated as a first-order requirement from Sprint Zero, with design consistency as the foundation of trust and accessibility at scale. MyNavy Portal's transformation from organization-centric to task-based navigation dramatically improved user success rates, demonstrating that Veterans should find content organized around their goals and life events, not VA's organizational structure. Plain language and task-based design drive measurable improvements in user success.
+1.9 Commitment to VA's Mission
+IBR recognizes that VA.gov is a critical gateway through which millions of Veterans access earned benefits and services. We approach this opportunity with deep respect for Veterans' service and commitment to ensuring every Veteran can successfully navigate VA's digital services regardless of circumstances, abilities, or technical sophistication. Our objective is to reduce Veteran burden, increase successful task completion, protect continuity of service, and ensure improvements work for Veterans with the greatest barriers, not only those with the newest devices and strongest connectivity.
+
+February 5, 2025
+
+10 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+1 APPENDIX 1: Graphics
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+
+Figure 1: Various Demographics of VA User Population
+
+Figure 2: How VA.Gov can Support Veterans through all Stages
+
+February 5, 2025
+
+11 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+Figure 3: Step up Authentication based on Risk to System
+
+Figure 4: Proposed Modernization Path VA.gov
+
+February 5, 2025
+
+12 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+
+Figure 5: Support for Multiple Identity and Authentication Capabilities
+
+February 5, 2025
+
+13 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+2 Appendix 2: Liferay Company Overview Please refer to the next page for information on Liferay Company Overview.
+
+February 5, 2025
+
+14 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Liferay: A Flexible Path to a Modern Digital Experience for Government Agencies
+Many agencies are striving to offer more modern, personalized, and responsive experiences to the citizens, employees, and businesses they serve. They increasingly understand that delivering a good customer experience has important benefits beyond simply meeting people's rising expectations -- it also leads to better customer engagements, citizen trust, and mission outcomes. Leaders at the Veterans Affairs Department, for example, understand that the difference between a good and bad customer service can even translate into life or death when it comes to the mental health, support, and treatment of veterans today. Recognizing this, governmentwide initiatives such as the President's Management Agenda (PMA) and the 21st Century Integrated Digital Experience Act (IDEA) are pressing agencies to meet specific objectives as they improve their digital experiences for citizens, employees, and other stakeholders. These objectives include: modernizing websites, improving customer satisfaction with federal digital services, offering customers more self-service options, and enabling users to track their status and get estimates of waiting and response times. Yet, many agencies struggle to meet these goals due to constraints brought on by legacy systems, fragmented data, outdated data, or an inability to personalize digital services for specific individuals.
+The U.S. Navy's Sea Warrior Program Office replaced a group of legacy portals with a modern, consolidated solution based on Liferay DXP, creating a single site for Navy career management information. The solution: · Consolidates human resources, education, and training information in a
+single interface · Automatically personalizes homepages and permissions according to rank · Improves web experience for 870,000 potential users
+1
+liferay.com
+
+Liferay DXP
+Liferay's DXP (Digital Experience Platform) offers a seamless, integrated way to meet these challenges while supporting federal agency digital transformation strategies, including the specific mandates of the PMA and 21st Century IDEA Act. With Liferay DXP, agencies can build modern, responsive citizen, personnel, self-service portals and websites on a modern platform that is secure, responsive, and intuitive:
+Intranets: Create protected, customized intranets that enable employees to find the information they need when they need it, speeding productivity, increasing efficiency, and raising job satisfaction. Secure, modern intranets help employees better manage their benefits and career planning, for example, which can mean higher satisfaction and better employee retention.
+Service portals: Build specialized portals that authenticate users so they can securely access appropriate, useful information, and collaborate with others. Such personalized portals, whether for citizens or government employees, can make it easier for users to quickly find what they need, thus increasing trust and improving mission outcomes.
+Websites: Design sites that appeal to citizens and employees, improve user experience, and boost engagement. More appealing websites also efficiently deliver services, freeing employee time.
+
+Why Liferay
+Liferay helps agencies provide digital experiences that increase user trust and satisfaction, improve mission execution, and reduce costs. Through its rich experience in portal development, the company has a deep and thorough understanding of the unique needs of government digital experiences. Liferay has built Liferay DXP as an integrated product from the ground up, rather than cobbling together a collection of point solutions over time. Recognized as best in class by Gartner's Magic Quadrant for Digital Experience Platforms for the last 10 years, this enterprise-grade platform is one of the world's most popular open-source software platforms for digital services and citizen experience. The platform provides agencies everything they will need to build sites that offer the right information to the right person at the right time.
+Integrated: Leverage APIs, RESTful APIs, message bus, and other Liferay tools to bring together fragmented data and disparate systems, bridging modern apps with mission-critical legacy systems and even homegrown software. Integrate multiple logins for different apps with single sign-on (SSO) capability.
+Modular: Modular architecture increases efficiency, saves costs, and enables content to be easily updated and re-purposed. Create forms and automate repetitive processes.
+Open source: The company's active open-source community continuously contributes to and improves the code base.
+
+2 liferay.com
+
+Cloud-based: Cloud architecture simplifies infrastructure management, speeds development and scales easily as traffic grows. Secure: Liferay adheres to secure development process, adopts OWASP and CWE/SANS security standards, conducts robust security testing and verification, and meets EU General Data Protection Regulation (GDPR), ISO 27001, and SOC 2 standards. Customizable: Use the no-code interface that comes with Liferay or build your own applications in a low-code environment.
+This government-wide, public-facing website, managed by the Health and Human Services Department, consolidates information on more than 1,000 federal grant programs. Faced with an ineffective legacy system, HHS chose to host grants.gov on Liferay DXP, improving search and user experience. It is now the fourth most highly trafficked government website, with 4 million visitors a week. The site: · Integrates 17 legacy solutions into one platform · Improves search and user experience led to a 98-percent increase in usage · Enables collaboration across 26 federal agencies
+About Liferay
+Liferay helps organizations solve digital challenges with omnichannel intranet, portal, commerce, and integration solutions. Our platform is open source, which makes it more reliable, innovative, and secure. We try to leave a positive mark on the world through business and technology. Thousands of organizations in financial services, healthcare, government, insurance, retail, manufacturing, and multiple other industries use Liferay for one platform, endless solutions. Learn more about how Liferay helps government agencies at liferay.com/solutions/industries/government Liferay is available on GSA's Schedule 70 and SEWP via Carahsoft. Learn more at carahsoft.com/vendors/liferay
+3
+liferay.com
+201208
+
+Department of Veterans Affairs Sources Sought Notice ID: 36C10B26Q0131
+Replacement Model for VA.gov Capability Statement
+2.1 Liferay Case Study Please refer to the following page for an overview of the Liferay case study.
+
+February 5, 2025
+
+15 Imagine Believe Realize LLC
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+

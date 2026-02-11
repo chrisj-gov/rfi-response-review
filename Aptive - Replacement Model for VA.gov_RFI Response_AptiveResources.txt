@@ -1,0 +1,158 @@
+Sources Sought Notice #36C10B26Q0131
+Replacement Model for VA.gov
+February 3, 2026
+Aptive Resources, LLC Point of Contact Rachele Cooper CEO and Founder rachele.cooper@aptiveresources.com 703-598-0697
+Submitted by Aptive Resources, LLC 110 N. Royal Street, Suite 400 Alexandria, VA 22314
+This information package includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of-or in connection with-the submission of this data, the Government will have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction.
+
+Replacement Model for VA.gov Sources Sought Response
+
+1. Company Overview Aptive Resources is a Service-Disabled Veteran-Owned and Woman-Owned business and an ISO 9001, ISO 20000, and ISO 27001-certified federal contractor with CMMI Level 3 maturity. With more than 250 professionals supporting over a dozen federal agencies, Aptive specializes in complex, high-visibility federal initiatives where reliability, governance, and sustained operational performance are essential.
+Aptive has supported enterprise-scale digital platforms and modernization efforts across the Department of Veterans Affairs (VA), Department of Defense, and civilian agencies, working in environments that demand continuous availability, regulatory compliance, and public trust.
+2. Understanding VA's Objectives and Constraints Aptive understands that replacing VA.gov is not solely a technical migration. Meaningful improvement requires coordinated evolution across user experience and design, platform architecture, content strategy, analytics, governance, and operating models.
+Based on our experience supporting similar federal platforms, a VA.gov replacement effort must:
+· Maintain uninterrupted service for millions of Veterans, families, and stakeholders
+· Integrate with a diverse ecosystem of legacy and emerging systems
+· Operate within a highly regulated, highly visible federal environment
+· Improve usability, clarity, and trust without compromising security or compliance
+· Support long-term scalability, adaptability, and resilience
+We view VA.gov not as a single website, but as a federated service ecosystem that must balance user changing needs, policy requirements, and operational realities over time.
+Based on Aptive's experience supporting large-scale, high-availability federal digital platforms, replacing VA.gov is best understood as a phased modernization effort rather than a single cutover event. In practice, agencies pursuing similar transformations typically adopt one or a hybrid of the following established approaches, each with distinct benefits and tradeoffs.
+Incremental Replacement
+This approach incrementally replaces legacy capabilities while legacy and modern components operate in parallel. New functionality is introduced in a controlled manner, allowing VA to maintain uninterrupted service while validating performance, security, and user experience improvements over time.
+This option is commonly used in federal environments where downtime and large-scale migration risk are not acceptable.
+Federated Digital Platform Model
+Under this model, VA establishes shared platform services, such as identity, navigation, design systems, analytics, and hosting, while individual benefit portfolios retain ownership of their content, workflows, and backend systems.
+
+February 3, 2026
+
+1
+
+Use or disclosure of data contained on this sheet is subject to the restrictions on the title page of this proposal or quotation.
+
+Replacement Model for VA.gov Sources Sought Response
+
+This approach supports consistency at the enterprise level while allowing portfolios to modernize at different speeds based on readiness, funding, and policy constraints.
+Experience-Layer Decoupling
+This approach focuses on modernizing the front-end user experience independently of legacy benefit processing systems. By decoupling presentation and navigation layers from backend systems, VA can improve usability, accessibility, and clarity without disrupting mission-critical transactions.
+This model is particularly effective for reducing user confusion and improving task completion while backend modernization continues in parallel.
+In practice, a successful VA.gov replacement effort would combine elements of all three approaches to balance operational risk, user experience improvements, and long-term sustainability.
+
+3. Relevant Capabilities and Approaches 3.1 Large-Scale Digital Modernization Aptive supports modernization efforts serving broad user populations where downtime is not acceptable. Our approach emphasizes phased transformation, introducing new capabilities while preserving service continuity. This includes:
+· Incremental platform evolution rather than wholesale replacement · Release sequencing aligned to operational risk and user impact · Parallel operation of legacy and modern components during transition periods This approach reduces disruption while allowing VA to test, learn, and adapt as modernization progresses. 3.2 Complex System Environment Integration VA.gov operates within a complex ecosystem that includes legacy benefit systems, modern cloud platforms, identity services, analytics tools, and external partner integrations. Aptive supports: · Dependency mapping and interface analysis · Integration planning across heterogeneous systems · Cross-organizational coordination among technical, content, security, and policy stakeholders Our experience shows that successful replacement efforts explicitly plan for system interdependencies rather than treating them as downstream technical details. 3.3 Governance and Operating Model Design Sustainable modernization requires governance models that evolve alongside the platform. Aptive helps agencies establish: · Clear ownership and decision rights across portfolios
+
+February 3, 2026
+
+2
+
+Use or disclosure of data contained on this sheet is subject to the restrictions on the title page of this proposal or quotation.
+
+Replacement Model for VA.gov Sources Sought Response
+
+· Defined escalation paths for experience, policy, and technical conflicts · Repeatable review and release processes that balance speed and control For platforms like VA.gov, governance is not overhead, it is a core enabler of scale and resilience. 3.4 Human-Centered Experience Design Aptive applies human-centered design to improve how users find information, understand options, and complete critical tasks. Our approach aligns: · User research and journey mapping · Content strategy and information architecture · Organizational processes that sustain experience improvements We emphasize designing within policy, accessibility, and security constraints, recognizing that federal user experience improvements must often occur within fixed guardrails. 3.5 Risk-Informed Implementation Planning Aptive identifies risks, dependencies, and tradeoffs early in the modernization lifecycle. Our planning approach supports: · Realistic sequencing of technical and organizational change · Change readiness across internal teams and stakeholders · Proactive communication to maintain trust during transition This risk-informed discipline is essential in environments where service disruption directly affects access to benefits and care.
+
+4. Relevant Experience with Similar Challenges 4.1 Department of Veterans Affairs
+
+Aptive supported the modernization, operation, and continuous improvement of VACareers.va.gov, a national VA digital platform serving millions of users annually. This work required uninterrupted service delivery during periods of elevated demand and policy change.
+
+Our support included:
+
+· Integration across legacy and modern systems
+
+· Compliance with VA Tier 1 branding, Section 508/WCAG 2.0 AA, and cybersecurity controls
+
+· Continuous release management enabling updates without service disruption
+
+· Human-centered redesign efforts that improved navigation, accessibility, and task completion
+
+· Support for identity-adjacent workflows and ATO documentation aligned with NIST RMF
+
+February 3, 2026
+
+3
+
+Use or disclosure of data contained on this sheet is subject to the restrictions on the title page of this proposal or quotation.
+
+Replacement Model for VA.gov Sources Sought Response
+
+4.2 USAJOBS As prime contractor, Aptive supported the redesign of USAJOBS and 16 affiliated Intelligence Community career sites, an effort closely aligned with VA.gov in scale, visibility, and operating constraints. Key parallels included:
+· A high-availability, public-facing federal platform · Federated governance and content ownership · Strict accessibility, security, and regulatory requirements · Continuous improvement rather than one-time redesign 4.3 U.S. Citizenship and Immigration Services (USCIS) Aptive provides enterprise IT, cloud security, and governance support to USCIS, an agency operating large-scale, hybrid environments handling sensitive personal data. Our work includes: · Identity and access management support · Security planning and audit readiness · Modernization sequencing that preserves system availability · Governance structures supporting long-term sustainability
+
+5. Risks, Tradeoffs, and Lessons Learned
+5.1 Risks, Limitations, and Tradeoffs Based on Aptive's experience supporting large-scale federal digital platforms, VA.gov replacement efforts involve a series of deliberate tradeoffs. Clear articulation of these tradeoffs early in planning helps agencies make informed decisions, align stakeholders, and reduce downstream risk. No single approach eliminates complexity; rather, successful efforts balance continuity of service, user experience improvements, and long-term sustainability.
+
+The following considerations reflect common decision areas encountered during enterprise-scale platform modernization.
+
+Decision Area
+
+Primary Benefit
+
+Associated Tradeoff
+
+Incremental (phased) replacement
+
+Maintains uninterrupted service and reduces risk of large-scale failure
+
+Requires operating legacy and modern components in parallel for extended periods
+
+Federated digital platform governance
+
+Enables portfolio-level autonomy while establishing enterprise standards
+
+Increases coordination, decision-making complexity, and governance overhead
+
+Experience-layer decoupling
+
+Accelerates usability, accessibility, and navigation improvements
+
+Requires disciplined API design and strong interface contracts with backend systems
+
+February 3, 2026
+
+4
+
+Use or disclosure of data contained on this sheet is subject to the restrictions on the title page of this proposal or quotation.
+
+Replacement Model for VA.gov Sources Sought Response
+
+Decision Area
+
+Primary Benefit
+
+Associated Tradeoff
+
+Progressive identity and Reduces user friction and unnecessary Requires careful alignment across policy,
+
+authentication
+
+authentication steps
+
+security, and identity assurance levels
+
+Shared design systems and navigation
+
+Improves consistency and trust across VA.gov
+
+Limits portfolio-specific customization and requires adherence to enterprise standards
+
+Continuous delivery operating model
+
+Enables faster iteration and responsiveness to user needs
+
+Demands mature release management, testing automation, and organizational readiness
+
+5.2 Lessons Learned
+Based on Aptive's experience supporting large-scale federal digital platforms, effective replacement efforts are grounded in phased modernization to manage operational risk, early alignment on governance and decision rights across portfolios, and explicit ownership of identity-dependent user journeys. Successful programs also design within policy, security, and compliance constraints rather than attempting to work around them, and establish operating models built to support continuous evolution rather than one-time transformation.
+Common challenges include fragmented portfolio ownership, unclear accountability, underestimating the governance and change management effort required to sustain modernization, and insufficient alignment between technical and organizational change. Addressing these risks requires early agreement on operating models, clear accountability for cross-cutting services such as identity and navigation, and governance structures that mature alongside the platform.
+By acknowledging these tradeoffs upfront, VA can more effectively sequence modernization activities, set realistic expectations, and sustain progress without compromising reliability, trust, or continuity of service.
+6. Closing Summary
+Aptive brings proven experience supporting the evolution of large, mission-critical federal digital platforms. We help agencies modernize responsibly, balancing reliability, integration, user experience, and long-term sustainability, while operating effectively within complex, highly regulated environments.
+We appreciate the opportunity to contribute to VA's planning efforts and welcome follow-on discussions to explore approaches, workflows, and lessons learned in greater detail.
+
+February 3, 2026
+
+5
+
+Use or disclosure of data contained on this sheet is subject to the restrictions on the title page of this proposal or quotation.
+
+

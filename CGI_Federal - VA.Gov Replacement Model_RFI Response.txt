@@ -1,0 +1,399 @@
+THE U.S. DEPARTMENT OF VETERANS AFFAIRS (VA)
+
+Replacement Model for VA.gov
+
+Response to Request for Information (RFI)
+
+Solicitation ID: 36C10B26Q0131
+
+Submitted On: February 5, 2026
+
+Submitted To: Allison Fulton, Contract Specialist allison.fulton@va.gov Evan Schlisserman, Contracting Officer evan.schlisserman@va.gov
+
+Submitted By: CGI Federal Inc. 12601 Fair Lakes Circle Fairfax, Virginia 22033 703-227-6000 www.cgi.com CGI Confidential
+
+This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate the response. If, however, a contract is awarded to this offeror as a result of-or in connection with-the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in sheets marked with the following legend: `Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response'.
+
+VA Replacement Model for VA.gov
+TABLE OF CONTENTS
+1. Company overview .................................................................................................................1 2. Relevant experience................................................................................................................1 3. Responses to topics and questions.........................................................................................1
+3.1 Descriptions of relevant ideas, capabilities, and approaches ............................................1 3.2 VA.gov as a Managed Service..........................................................................................2
+3.2.1 Key advantages of a Managed Service model for VA ...........................................2 3.3 Additional Ideas and Approaches .....................................................................................3 3.4 Case studies or examples from similar environments.......................................................3 3.5 User journey workflows for identity proofing, sign-in, recovery, and navigation ...........3
+3.5.1 Insight Gathering....................................................................................................4 3.5.2 Journey Mapping....................................................................................................4 3.5.3 Prototyping .............................................................................................................4 3.5.4 User Testing ...........................................................................................................4 3.5.5 Launch and Learn...................................................................................................5 3.5.6 Continuous Improvement .......................................................................................5 3.5.7 Measuring and improving the user experience ......................................................5 3.5.8 Accessibility incorporated from the outset.............................................................5 3.6 Limitations, risks, and tradeoffs........................................................................................6 3.6.1 Cloud Migration .....................................................................................................6 3.6.2 Updating the content ..............................................................................................6 3.6.3 O&M Support.........................................................................................................7 3.6.4 Application Development ......................................................................................7 3.6.5 Change Management..............................................................................................7 3.6.6 Maintains continuity of service for millions of users.............................................7 3.6.7 Integrates with a diverse portfolio of legacy and emerging systems. ....................8 3.6.8 Operates within a regulated, highly visible federal environment...........................8 3.6.9 Supports long-term scalability, adaptability, and resilience. .................................8 3.7 Lessons learned from past deployments ...........................................................................9 4. Relevant technologies and approaches ...............................................................................10 4.1.1 CGI Partners .........................................................................................................10 5. Additional Information Relevant to VA's Objectives .......................................................10 6. Appendix of Visuals & Past Performance Information....................................................11 6.1 Past Performance ............................................................................................................14
+
+February 05, 2026
+
+i
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+1. COMPANY OVERVIEW
+CGI Inc. has over 91,500 consultants and professionals worldwide and in 10 industries across more than 400 locations. CGI Federal Inc., (CGI) a subsidiary to CGI Inc., has over 9,300 professionals with headquarters in Fairfax, Virginia, and offices across the U.S. to serve in close proximity to our clients. Our facilities include an office in Austin, TX, staffed with over 70 personnel and with state-of-the-art training and collaboration facilities, located near the VA Financial Services Center and Austin Information Technology Center. CGI draws on the collective experience of our global firm to access the highest caliber resources to apply their expertise in support of our VA clients. Our range of end-to-end services includes Strategic IT Systems, Systems Integration, and Managed IT Services.
+2. RELEVANT EXPERIENCE
+CGI has supported U.S. Federal digital modernization efforts across agencies such as Centers for Medicare & Medicaid Services (CMS), Department of Labor, Department of Interior, Federal Aviation Administration (FAA), and Department of Treasury successfully delivering awardwinning front-end experiences, content management modernizations, and cloud migration solutions at scale. We are pleased to share our insight and perspectives to support VA in modernizing the VA.gov experience to deliver a premier, modern, secure, and Veteran-centric digital experience.
+
+Figure 1: Digital Transformation Programs delivered at scale by CGI Refer to Appendix for further information.
+In the above programs, CGI was tasked to provide accurate, timely, and useful information to 65M+ Medicare beneficiaries. CGI collaborated with CMS stakeholders to improve all aspects of the user experience, including the speedy implementation of legislative mandates, and site updates to meet agency priorities and enhancements initiatives.
+3. RESPONSES TO TOPICS AND QUESTIONS
+3.1 Descriptions of relevant ideas, capabilities, and approaches
+Aligning with VA's goal to provide a best-in-class online experience to Veterans, their families, caregivers, and survivors, and to provide focused innovations for VA.gov, CGI recommends a human centered approach to drive choices in technology, architecture, and experience.
+To deliver on the goals of a seamless and modernized VA.gov experience, and align with the recent Executive Order of "Improving our Nation by Better Design," a national initiative to improve experiences for Americans by enhancing the design of government interfaces, we offer our CGI Human Centered Design Approach as a framework. This approach enables VA to deliver an experience that can rival and exceed those provided by commercial digital-first brands and enhance the public's trust in the high-impact services delivered by VA, fully aligning to the goals of the National Design office. VA can meet the spirit of the Executive Order by improving how Americans experience their government -- online, in person, and the spaces in between.
+Drawing inspiration from our global work in the private sector, we incorporate familiar experiences from the commercial world in relevant areas, like digital banking, healthcare,
+
+February 05, 2026
+
+1
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+entertainment, and online retailers, offering VA.gov users a recognizable, seamless, and streamlined online experience. 3.2 VA.gov as a Managed Service Increasingly, companies and agencies are looking for partners to deliver digital transformation programs via a managed service business model, due to the benefits of speed, scalability, cost management, and ready access to expert IT support. Our managed service model enables organizations to concentrate on their core operations, while CGI manage IT services at scale, enhancing efficiency, security, and agility. As VA services, benefits, and priorities shift and expand, the ability to rapidly update VA.gov is a vital element of the managed service model.
+
+Figure 2. CGI Hybrid Managed Service Model
+The CGI Hybrid Managed Service model offers secure, scalable data storage and 24/7 support. The model employs a hybrid financial approach that blends capital expenses, consumption-based pricing, and flexible licensing to match budgets and growth trajectories. Strict compliance to standards, including FedRamp and all enterprise-grade security requirements, and adherence to robust Service Level Agreements (SLAs) ensure VA professionals have flexible and scalable resources to deliver this vital communication and engagement channel.
+3.2.1 Key advantages of a Managed Service model for VA
+A managed service business model delivers a variety of benefits to our customers in relation to speed, scale, flexibility and access to new technologies.
+ Business Value: delivering updates and enhancements to the site at speed according to SLA agreements.
+ Scalability and flexibility: Managed services offer the advantage of being able to scale up or down seamlessly to accommodate evolving needs.
+ Access to Expertise: VA obtains the advantage of engaging with a team of specialists proficient in various IT domains, including cybersecurity, cloud computing, and disaster recovery without the necessity of hiring and maintaining highly skilled staff.
+ Proactive and Enhanced Support: Managed Service Providers (MSPs) employ a proactive methodology and a combination of MSP-provided and VA-provided tools (as required) to monitor systems, detect potential issues before they result in downtime, and ensure swifter response times. SLAs dictate technical architecture meet a 99.99% uptime requirement.
+
+February 05, 2026
+
+2
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+ Enhanced Security and Compliance: MSPs possess specialized expertise in cybersecurity and can assist businesses in adhering to intricate compliance requirements, thereby mitigating the risk of breaches and their associated costs.
+ Access to the Latest Technology: MSPs are tasked with remaining up-to-date with technological advancements, offering VA access to state-of-the-art tools and solutions.
+ Cost efficiency: VA can bypass the substantial expenses associated with recruiting, training, and retaining an internal IT workforce. Instead, VA incurs consistent subscription fees and consumption pricing to achieve cost reductions.
+3.3 Additional Ideas and Approaches
+According to "VA Serving American Veterans Trust" report in FY2024*, VA.gov recorded over 50 million visitors, nearly five million logged-in users, and more than half a million form submissions, underscoring the importance of VA.gov as a primary connection point between VA and its constituents. Given the critical importance of this channel for communication, outreach, and engagement with veterans and caregivers, innovation in this domain must be driven through the lens of an iterative human-centric approach, we offer the following foundational ideas that should be central considerations for the future of VA.gov.
+ Flexible and scalable resourcing to streamline changes and updates aligned to business processes.
+ Streamlining login and identity verification process, currently very complicated.  Managing process and teams to revise, review, and refresh content and site architecture.  Embracing a mobile first approach, designing all user experiences to be seamless and easy
+to use, whether you're engaging through a desktop, laptop, or a mobile phone.  Integrating agentic AI capabilities and intelligent content customization to offer
+personalization of the experience for each user. Modernized human-centered experiences apply the `Know Your Customer' principle to customize the content presented to them.  Leveraging AI-enabled assistance, transforming the experience from searching for answers to delivering actionable outcomes on an individual customer basis. For example, VA.gov requests could be formatted conversationally using current day AI capabilities.  Redesigning all forms to be filled in online and signed digitally, versus the current PDF versions of printed documents.  Adding AI and interactive support into the experience at the point of each inquiry.
+3.4 Case studies or examples from similar environments
+To support this response, we have used our long-term experience with CMS as a detailed example of the breadth of engagement where we have partnered with an agency to design develop, deploy innovate, and improve the experience for the more than 65 million beneficiaries of Medicare programs, a program of significant nationwide scale with similar user needs and expectations. This experience is outlined in Section 3.7, Lessons learned from past deployments.
+3.5 User journey workflows for identity proofing, sign-in, recovery, and navigation
+CGI leverages a proven Human-Centered design approach to ensure the delivery of modernized digital experiences that meet and exceed the needs of our industry partners. The key stages in this iterative approach are detailed below. This process can be leveraged to reimagine key steps in the user journey such as sign in, navigation, recovery, and identity. Working backwards from the user
+
+February 05, 2026
+
+3
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+and understanding the current user journey and pain points across the site provides the foundational insights that will inform technology choices around systems, processes and architecture.
+
+Figure 3. CGI Human centered design approach from Insights to Continuous Improvement
+Our approach is designed to be highly collaborative and scalable, ensuring that VA stakeholders and Veterans are fully integrated into the process at each step of the journey. We actively leverage our partnerships with Veteran Service Organizations (VSOs) to convene Veteran, caregiver, and beneficiary user groups to capture insights to inform and test innovations.
+3.5.1 Insight Gathering
+As part of a human-centered design approach, insight gathering involves structured research to understand user needs, behaviors, and pain points. This process typically includes interviews, surveys, and observational studies to collect qualitative and quantitative data. Findings are analyzed and synthesized into actionable insights that guide design, system and architecture decisions, ensuring solutions are aligned with real user and program requirements to deliver measurable value.
+3.5.2 Journey Mapping
+Journey mapping is a structured approach CGI uses to visualize the end-to-end user experience across touchpoints. It identifies key stages, interactions, and pain points in the user's journey, providing a clear view of where improvements can deliver the greatest impact. By mapping these steps, teams gain actionable insights into user needs and expectations, enabling the design of solutions and architectures that enhance usability and user satisfaction. VA has many journey maps in existence, but few that align commercial user expectations (e.g., amazon.com or MyChart Patient Portal) to their interactions with VA.gov as a digital no-wrong-door experience.
+3.5.3 Prototyping
+Prototyping is an iterative process used to validate design concepts and gather user feedback before full development. It ranges from low-fidelity wireframes that outline structure and functionality to high-fidelity, interactive prototypes or clickable demos that simulate the final experience. This progression enables stakeholders and users to visualize solutions early, identify usability issues, and refine designs and process steps efficiently, ensuring alignment with user needs and program objectives.
+3.5.4 User Testing
+User testing is a critical component of human-centered design, ensuring solutions meet real-world needs and expectations. Approaches range from formative testing during early design stages to summative evaluations of near-final products. Common methods include usability testing, A/B testing, and remote or in-person sessions where users complete tasks while feedback and
+
+February 05, 2026
+
+4
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+performance metrics are captured. These insights drive iterative improvements, validate design decisions, and reduce risk before deployment. We engage the VSOs and the user community throughout this process for real-time feedback.
+3.5.5 Launch and Learn
+A soft launch provides a controlled introduction of a new feature to a limited user group before full-scale deployment. This approach allows teams to validate functionality, monitor performance, and gather real-world feedback under production conditions while minimizing risk. Key activities include defining target user segments, implementing feature flags or phased rollouts, tracking usage metrics, and addressing issues promptly. Insights from the soft launch inform refinements, ensuring stability and user satisfaction prior to general release. Through our deep nationwide relationships with local, county, state, and nationwide VSOs and stakeholder groups, we actively monitor user uptake and adoption using validated key performance indicators.
+3.5.6 Continuous Improvement
+Continuous improvement for a newly launched digital experience involves ongoing monitoring, analysis, and iterative enhancements to optimize performance and user experience. Key activities include tracking analytics, conducting regular usability reviews, gathering user feedback, and implementing incremental updates based on data-driven insights. This approach ensures the experience remains aligned with evolving user needs, business objectives, and industry best practices, delivering sustained value over time. The innovation process does not stop once a service is launched, instead we apply continuous improvement, a vital consideration for a dynamic and evolving user experience.
+3.5.7 Measuring and improving the user experience
+Measuring the user experience and applying the data to improve the experience are key elements of the ongoing improvement process for CGI's high performing digital service teams. User experience indicators include task completion rates, time-on-task, click-through rates, and journey completion metrics, complemented by sentiment analysis and intercept surveys. Scoring is based on positive responses across satisfaction, trust, and ease-of-use dimensions; these metrics the feed into and enable data-driven continuous improvements to the Veteran experience.
+3.5.8 Accessibility incorporated from the outset.
+VA.gov serves a variety of users and CGI recognizes the importance of making the digital experiences accessible to individuals with disabilities by providing comparable and optimized access to content and functionality. CGI has an internal Human Factors Practice (HFP) that provides testing support and compliance training on best practices of Section 508 of the Rehabilitation Act, as well as the World Wide Web Consortium (W3C) Web Accessibility Initiative's (WAI) Web Content Accessibility Guidelines (WCAG).
+In summary, decisions concerning system architecture, content management, navigation, and editorial style should be tailored around enabling the future VA.gov solution to share information and guide Veterans and other end users in the most streamlined, engaging, informative, and personalized way possible. The Federal government has outlined core principles in the 21st Century Integrated Digital Experience Act, Public Law 115-33 that continue to drive digital transformation initiatives, and CGI aligns with these principles and has integrated these into previous Federal modernization efforts. Included in these principles are the following requirements:
+
+February 05, 2026
+
+5
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+ Is accessible to individuals with disabilities in accordance with section 508 of the Rehabilitation Act of 1973 (29 U.S.C. 794d)
+ Has a consistent appearance.  Does not overlap with or duplicate any legacy websites and, if applicable, ensure that legacy
+websites are regularly reviewed, eliminated, and consolidated.  Contains a search function that allows users to easily search content intended for public use;  Is provided through an industry standard secure connection.  Is designed around user needs with data-driven analysis influencing management and
+development decisions, using qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test the website, web-based form, web-based application, or digital service to ensure that user needs are addressed.  Provides users of the new or redesigned website, web-based form, web-based application, or digital service with the option for a more customized digital experience that allows users to complete digital transactions in an efficient and accurate manner; and  Is fully functional and usable on common mobile devices.
+3.6 Limitations, risks, and tradeoffs
+CGI recommends decoupling the three core layers of system architecture: UX, business logic, and data components. This approach ensures flexibility, adaptability, and a future-oriented solution across the program, allowing for data migration, content updates, adaptability and system resilience. Below is an outline of our experience and lessons learned at CMS.
+3.6.1 Cloud Migration
+CGI designed and developed CMS.gov and the CMS intranet using Web Content Management System (WCMS). In 2019, CGI helped CMS migrate the website and content from Percussion into Drupal 8 (a SaaS WCMS), hosted in the Acquia Cloud, aligning with the U.S. Digital Playbook drive towards open solutions. This migration included a redesign of the sites implementing a new design system that aligns with the Digital.gov design systems. CGI migrated 4 sites within CMS.gov, and approximately 200,000 pieces of content implementing a new content strategy and information architecture allowing CMS to leverage content within Drupal for multiple channels including their websites, Medicare publications, marketing communications, or mobile applications.
+3.6.2 Updating the content
+At CMS, this process included content analysis, identifying redundant, outdated and trivial content, content type definition and mapping, creating migration scripts, developing content types, configuring Drupal to support navigation, taxonomies, user authentication, grouping of content, permissions, configuring the editorial experience, training, user's manuals, and user support. All artifacts created for each of these actions have been stored in CMS's Confluence so these items can be shared easily, and updates can be made quickly ensuring users are getting the most recent information as possible.
+Drupal code is managed in GIT and uses Cloud Bees Jenkins for automated code deployment. All Drupal sites implemented SOLR search allowing users to find information sitewide, single signon with multifactor authentication (MFA), HTML with CSS and APIs to reshape CMS content and allow access to other channels, such as mobile devices and a page to host CMS Podcasts. CMS's first mobile application was developed by CGI, the Department of Health and Human
+
+February 05, 2026
+
+6
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+Services' (HHS) Guidance Portal. The mobile application integrated with Drupal, allowing CMS to use the same content to other channels, giving users a consistent experience across multiple channels or platforms. CGI offers federal clients CMMI Level 3 Services and CMMI Level 5 Development capabilities and processes. This provides consistent delivery processes and practices that drive down project risks and costs while giving high quality products that help clients achieve or exceed their goals or missions with the best outcomes.
+3.6.3 O&M Support
+CGI has supported CMS's mission since 1999 and has been a trusted partner providing development, enhancement, and maintenance services for CMS' external websites. CGI built and maintained CMS' external websites: Medicare.gov, MyMedicare.gov, and cms.hhs.gov. CGI delivers efficient agile software development service, as well as operations & maintenance (O&M) services, while supporting alignment to the U.S. Digital Services Playbook. In providing these services, we adhere to CMS Expedited Life Cycle (XLC) for SDLC activities, including integration with interfacing CMS applications and third-party systems/tools.
+3.6.4 Application Development
+In support of CMS websites, CGI has performed application development and maintenance services using agile development and Dev Ops best practices. For this task order, CGI manages Agile teams of 6 to 12 FTEs each, who deliver 75+ releases annually for 3 major applications. Over our 10-year history, CGI has surged as needed to meet requirements ranging from 80 to 150 FTEs in a 2- to 3-month timeframe. CGI has built over a dozen integrated tools, such as the Provider Search and Comparison Tool and the Health Plan tool as part CMS' external websites. CGI works collaboratively with a variety of Government teams, infrastructure contractors, and other contractor teams to deliver services to CMS.
+3.6.5 Change Management
+Change management is essential to the success of federal modernization programs because it ensures that technology, process, and cultural shifts are adopted effectively across the organization. Federal initiatives involve complex stakeholder environments, regulatory requirements, and mission-critical operations, making structured change management vital to minimize disruption and resistance. Providing clear communication, training, and engagement strategies, change management fosters user adoption, aligns stakeholders, and sustains long-term benefits of modernization efforts. As VA considers the modernization of VA.gov, a comprehensive change management plan is needed to ensure users are informed and effectively adopt the new tools and ways of working.
+3.6.6 Maintains continuity of service for millions of users.
+CGI Federal ensures continuity of service for millions of users by leveraging scalable, cloud-based architectures that provide flexibility, reliability, and efficiency. Our solutions utilize key aspects of cloud technology, such as elastic scaling, automated resource management, and robust security measures, to accommodate fluctuating user demands and maintain high service levels. For example, our implementation of Salesforce's multi-tenant architecture allows seamless scaling from one to one to millions of users, ensuring uninterrupted service delivery. Additionally, our recent FAA Notice to Airmen (NOTAM) modernization project was specifically designed to meet stringent service level requirements, addressing scalability and user capacity on a national scale. CGI maintains strategic alliances with major government Cloud Service Providers (CSPs),
+
+February 05, 2026
+
+7
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+including AWS, Azure, and Google, enhancing our ability to deliver cutting-edge solutions tailored to our clients' needs.
+3.6.7 Integrates with a diverse portfolio of legacy and emerging systems.
+CGI excels in integrating a diverse portfolio of legacy and emerging systems, drawing on our extensive experience and proven methodologies. Our work on the VA Financial Management Business Transformation (FMBT) project demonstrates our ability to seamlessly integrate modern solutions with existing legacy systems, ensuring continuity and enhanced functionality. A prime example of our expertise is the CMS API Gateway, which serves as a robust centralized interface gateway. This solution supports the translation of multiple protocols, facilitating a wide range of communication solutions across a national network of systems and applications. The CMS API Gateway acts as a clearinghouse, enabling the monitoring, management, and resolution of communication and transaction activities while ensuring consistent and timely data delivery. In addressing integration challenges, we recognize that legacy systems often rely on older communication protocols and translation standards. Our modernization solutions are designed to accommodate these factors, providing robust integration that bridges the gap between legacy and emerging technologies. Through our comprehensive approach, CGI ensures that clients can leverage their existing investments while embracing new capabilities
+3.6.8 Operates within a regulated, highly visible federal environment.
+CGI understands that operating within a regulated, highly visible federal environment requires expertise in a wide range of federal regulations and standards. Our solutions are designed with a deep understanding of security requirements such as FISMA, ATOs, and FedRAMP; privacy considerations including the Privacy Act and PII requirements; accessibility standards like Section 508; and Identity and Access Management (IAM) protocols, including CAC and PIV card authentication. With over 40 years of experience developing solutions for the U.S. and other governments, addressing these regulations and standards is embedded in our corporate and standard delivery processes. CGI has established specific Centers of Excellence to leverage expert knowledge and experience in these unique federal regulatory capabilities. For example, our work with the Department of Homeland Security involved implementing robust security measures and identity management solutions, while our collaboration with the Department of Veterans Affairs ensured compliance with privacy and accessibility standards. These examples demonstrate CGI's commitment to delivering solutions that meet the stringent requirements of the federal environment
+3.6.9 Supports long-term scalability, adaptability, and resilience.
+Our strategic alliance partnership with leading Cloud Service Providers (CSPs) enables us to implement scalable solutions in a cost-effective and standardized manner, ensuring that our clients can efficiently expand their capacity. By leveraging modern software development approaches, such as containerization, we enhance the continuous adaptability of our solutions. Containerization allows for consistent environments across development, testing, and production, reducing deployment times and improving reliability. This approach also facilitates microservices architecture, enabling independent scaling and updates of different application components, which enhances resilience and flexibility.
+CGI is also leaning into modular architecture and Low-Code/No-Code solutions like Salesforce, Pega, and Microsoft Dynamics to provide a robust suite of solutions aligned with the specific goals
+
+February 05, 2026
+
+8
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+of the applications, users, and timelines of the program. Our modular approaches are designed to take advantage of current technology while supporting the concept that new modules or components of the solution can be reused, enhanced and interchanged as technologies advance.
+Additionally, our developers are using emerging AI tools in software development, such as Google's Genesis, to enhance productivity and our ability to transition just about any legacy application to a modern platform. This has been a critical element of the NOTAMS modernization efforts, where we successfully transitioned legacy systems to a modern, scalable architecture, resulting in improved performance and user satisfaction. These efforts demonstrate our commitment to delivering innovative, adaptable, and efficient solutions that meet the evolving needs of our clients.
+3.7 Lessons learned from past deployments
+CGI possesses extensive expertise in digital transformation, cloud migration, digital content migration, change management and mobile application development across a range of industries. For more than 20 years, CGI has supported CMS in developing and enhancing the Medicare.gov and CMS.gov websites, which has resulted in joint awards. Due to page constraints, we will share an in-depth review of this successfully delivered program, as it has a scope and complexity similar to the VA modernization project.
+Award-winning Responsive Design
+Both CMS and CGI have received more than a dozen awards for design, content, technical innovation, and accessibility, including the 2013 Government Computer News (GCN) Award for the Medicare.gov redesign and Assets framework conception, the Government Solutions Center Pioneer Award for Citizen Centric Web Sites, and the Winner of the US Health and Human Services (HHS) sponsored Health 2.0 challenge.
+The results of this effort yielded a significant usage of mobile and tablet devices for CMS, with mobile traffic for the CMS websites increasing by 275% since 2012. CGI's Agile delivery methods with mature DevSecOps practices hosted in AWS Cloud enabled CMS to modernize their technology stack and enhance their websites in a phased approach and gradually supported CMS in collecting user feedback and adjusting based on user data and behavior. These sites and the 30+ associated web applications were delivered with a design language playbook that integrated the Medicare brand identity guidelines, to provide a consistent brand and 508 compliant experiences through all layers of the site, across both the desktop and mobile interface.
+We transformed the enterprise architecture, including migrating to the AWS virtual private cloud, providing DevSecOps capabilities, practices, and automation on AWS. We provide full systems and product development and maintenance support services, enabling CMS websites and systems to provide accurate, timely, and useful information to 65M+ Medicare beneficiaries. CGI collaborated with CMS stakeholders to improve all aspects of the user experience, implementation of legislative mandates, and agency priorities and enhancements. As a result, CMS achieved reduced operational costs and call center volumes.
+ Increased online enrollments during Medicare Open Enrollment period for 5 straight years, registering over 1.1M enrollments during the 2021 period, with a 52% increase in online enrollments during a 3-year span that aligned with CMS initiatives related to customer selfservice.
+
+February 05, 2026
+
+9
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+ In 2020, the site saw an 80% increase in site logins and a 535% increase in account registrations from the previous year after implementing a new design for beneficiary registration for an authenticated experience.
+ CGI implemented an online payment feature, integrated with Pay.gov, adopted by more than 60% of credit card users, resulting in more than $1B in payments since release in July 2020.
+ CGI's Mobile-first designs for Medicare.gov gave access to Medicare information using mobile devices, increasing overall traffic for the website of over 50M views annually.
+ Increased total number of releases by 235% within 2 years of implementing SAFe Agile in their program.
+4. RELEVANT TECHNOLOGIES AND APPROACHES
+4.1.1 CGI Partners
+To deliver innovative programs such as the VA.gov modernization, CGI actively partners with and integrates the products and services of best in breed companies across the commercial and federal space, from the large hyperscalers and platform providers to small SDVOSBs and WOSBs, such as Human Spark. We create bespoke teams tuned to specifically to the program's modernization needs. CGI has a long history of collaborating with leading platform providers to deliver innovative solutions at scale, enjoying prized alliance partnership status with the leading providers such as AWS, Microsoft, Salesforce and Google.
+
+Figure 4: CGI Platform & Cloud partners
+CGI partners strategically with Acquia, delivering content management migration solutions for the Department of Treasury and the Department of Interior. The Acquia Platform offers a secure, Federal Risk and Authorization Management Program (FedRAMP) approved, PaaS cloud environment for the Drupal Web Content Management System (WCMS), advanced multi-site management, powerful developer tools, and SaaS capabilities for personalization, journey orchestration, key elements for a future VA.gov solution. The Acquia Platform components are built with an API-first approach to make it easy to tailor the solution to a customer's specific needs and environment. Acquia brings vast experience of enabling the delivery of modern cloud based digital experiences across a range of business categories from Consumer brands to Federal agencies.
+5. ADDITIONAL INFORMATION RELEVANT TO VA'S OBJECTIVES
+CGI fully understands that meaningful improvements to VA.gov can only be delivered by aligning efforts across experience design, platform architecture, content strategy, governance, analytics, and operating models - building the appropriate team of partners and products is foundational to success of the program. CGI aims to support VA in modernizing the VA.gov experience by incorporating user-centric design, leveraging familiar commercial sector experiences, and integrating advanced technologies such as Agentic AI for a seamless and personalized user experience.
+In the following Appendix, we provide examples of our process and deliverables ranging from insights gathering through to launch and continuous improvement and would welcome engaging
+
+February 05, 2026
+
+10
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+further with VA stakeholders to gather more detailed understanding of the scope, scale and timeline of this exciting initiative, so we can partner with VA to deliver a best-in-class digital experience to our Veterans and their families, caregivers, and survivors.
+6. APPENDIX OF VISUALS & PAST PERFORMANCE INFORMATION
+The following visuals showcase the CGI User centered design approach for developing modernized, seamless digital experiences, starting with engaging directly with users to understand current pain points and ideating future possibilities that inform the innovation program.
+
+Figure 1: CGI Human centered design insight gathering session. CGI engaged with Veteran user groups to gather experiences and insights into VA's Loan Guarantee and Special Adaptive Housing programs.
+
+February 05, 2026
+
+11
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+Figure 2: Example of User journey map. CGI created this artifact to inform the user insight gathering process for SAH/SHA program.
+
+Figure 3: Example of low fidelity wireframes, developed to support VA's Experience Action. Center. Developed as an unsolicited proposal to improve Action Center scheduling.
+
+February 05, 2026
+
+12
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+VEAC Workflow
+Demo Link
+
+Step 1 Veteran receives text message from VEAC and lands on VA.gov event page
+
+Step 2 Event page includes button to start booking
+
+Step 3 Veteran chooses to not login
+
+Step 4 Selects type of service to learn about
+
+Step 5 Selects time, topics, and writes questions
+
+Step 6 Enters contact information
+
+Step 7 Confirmation page shows details
+
+© 2023 CGI Federal
+
+18
+
+Figure 4: Detail of clickable demo, incorporating the VA design system, developed for Veteran Experience Action Center as an unsolicited proposal to improve Action Center scheduling.
+
+Figure 5 Examples of various digital touchpoints developed by CGI during long term engagement with Medicare and CMS modernization programs, as cited in the response.
+
+February 05, 2026
+
+13
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+Figure 6. With our partner Human Spark, we analyzed the public data from VA.gov and reviewed the current mobile user experience to inform the recommendations in this response. We
+welcome the chance to discuss these findings with VA stakeholders.
+
+6.1 Past Performance
+For scope and scale comparisons, we provide several contract references as indicated below, delivered in support of CMS, Department of Interior, Department of Treasury and Department of Labor.
+
+Drupal Platform as a Service (PaaS) Web Content Management System (CMS)
+
+Customer
+
+Department of the Interior
+
+Contract #
+
+IND13PC00021-140D0421F0536
+
+Total Dollar Value
+
+$5.7M
+
+Period of Performance
+
+09/2019 - 06/2025
+
+Contract Description and Relevance to RFI
+
+CGI migrated DOI websites from an IBM hosted environment to a cloud-based PaaS Drupal CMS. The migration was a lift and shift of Drupal version 7 (D7) and version 8 (D8) websites to Acquia's Enterprise Cloud Platform. Once migrated, CGI supported site upgrades to the latest Drupal version, site redesigns, and porting of non-Drupal sites to Drupal on the new platform. These efforts implemented transformative, secure, cloudbased web hosting and content management services. This transformation reduced DOI's web presentation costs and internal engineering risk, improved levels of service for both internal and external customers and provided a predictable cost model for ongoing website and content management operations. CGI, with our partner Acquia, implemented a modern, user-focused, flexible, scalable, secure, and highly available web hosting environment.
+
+Customer
+
+OCC Content Management System Department of Treasury, Office of the Controller of the Currency (OCC)
+
+February 05, 2026
+
+14
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+VA Replacement Model for VA.gov
+
+OCC Content Management System
+
+Contract #
+
+2031JW25A00003-2031JW25F00061
+
+Total Dollar Value
+
+$17M
+
+Period of Performance
+
+06/2025 - 06/2030
+
+Contract Description and Relevance to RFI
+
+CGI has been contracted to modernize OCC's content management system and digital services to enable faster updates and improved user experience. The new system is based on Acquia's Drupal-based cloud-hosted platform, and is intended to enhance site performance, strengthen security and provide increased transparency tracked by key metrics.
+
+CMS Website Operations and Maintenance Services
+
+Customer
+
+Health and Human Services, Centers for Medicare & Medicaid Services (CMS)
+
+Contract/Task Order #
+
+HHSN316201200011W-HHSM500201500141U
+
+Total Dollar Value
+
+$57M
+
+Period of Performance
+
+08/2015 - 02/2021
+
+Contract Description and Relevance to RFI
+
+CGI has collaborated with CMS since 1999 to support the development, modernization, and maintenance of the CMS websites: Medicare.gov, MyMedicare.gov, and CMS.gov; CMS' page views are over 450 million hits each year and include over 32 million MyMedicare.gov registrations, 400 million health care-related transactions, an estimated 1.1 million annual online plan finder enrollments, and over 18 million Part D enrollments. Development of modernized websites, including Drupal cloud migration, content management, front end user experience, and change management, helped CMS deliver health care information in a way that complies with federal legislative and executive mandates, promotes data transparency and accessibility, and improves the customer experience. Details of the deliverables within this program are outlined in more detail within this RFI.
+
+February 05, 2026
+
+15
+
+Response to RFI
+
+CGI Proprietary and Company Confidential - © 2026 CGI Federal Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+

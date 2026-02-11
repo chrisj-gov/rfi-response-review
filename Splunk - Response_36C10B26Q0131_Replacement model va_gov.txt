@@ -1,0 +1,143 @@
+Department of Veterans Affairs
+Replacement Model for VA.gov
+Splunk LLC 7900 Tysons One Pl #1000
+McLean, VA 22102
+February 4, 2026 Kayley Cerney | Account Executive | Splunk | 571-426-4737 | kcerney@cisco.com
+Neil Sethi | Account Executive | Splunk | 706-288-8399 | nesethi@cisco.com
+
+Splunk: The Trusted Data Foundation for a Secure, Resilient, and Veteran-Centric VA.gov
+Executive Summary
+Modernizing VA.gov is a mission-critical effort that requires continuity of service, enterprise-grade security, and a seamless, Veteran-centric digital experience - all delivered within a highly regulated federal environment. Success depends not only on new front-end capabilities, but on a resilient data and operational foundation that can integrate legacy and modern systems while enabling continuous improvement at scale.
+Splunk serves as that foundation. Already operating as a core component of VA's enterprise digital ecosystem through the Enterprise Logging Warehouse, Splunk enables VA.gov modernization with reduced risk by leveraging existing, proven capabilities across security monitoring, observability, analytics, and governance. Splunk provides full-stack visibility across identity, applications, infrastructure, and user journeys - allowing VA to maintain uninterrupted service during transition while improving performance, reliability, and trust.
+By embedding security, compliance, and real-time operational insight into the fabric of VA.gov, Splunk enables VA to deliver a secure, resilient, and continuously improving digital experience for Veterans, their families, and stakeholders.
+Response to Request for Information
+Replacement Model for VA.gov
+1. Company Overview
+Splunk is a leading provider of enterprise data analytics, security, observability, and digital resilience solutions for large-scale, mission-critical environments. Headquartered in San Francisco, California, Splunk supports federal civilian, defense, and intelligence agencies operating within highly regulated and high-visibility environments. Splunk has proudly partnered with the Department of Veterans Affairs for more than a decade.
+2. Understanding of the VA.gov Modernization Challenge
+VA's intent to replace VA.gov represents a transformation of the nation's primary digital entry point for Veteran benefits, healthcare, and services. As described in this RFI, success requires more than a new front-end platform. The replacement must maintain uninterrupted service for millions of users, integrate a
+Page 2
+
+diverse portfolio of legacy and emerging systems, operate within a regulated federal environment, and support long-term scalability, adaptability, and resilience - while delivering a seamless, Veteran-centric digital experience.
+Splunk recognizes that these outcomes require a shared operational and data foundation that spans experience design, platform architecture, identity, security, analytics, and governance. Without this foundation, modernization efforts risk fragmentation, operational blind spots, and increased transition risk.
+3. Splunk's Approach: A Data Foundation for VA.gov Modernization
+Splunk enables VA.gov modernization by serving as the data foundation and operational nervous system across the digital ecosystem. Rather than introducing a parallel or duplicative platform, Splunk builds on its existing VA footprint to reduce risk, preserve continuity, and accelerate coordination across teams during platform replacement.
+Today, Veterans face a fragmented experience, with critical information scattered across paper records, disparate hospital systems, and multiple benefits databases. The Splunk Digital Command Center brings all these digital signals together--creating a unified, real-time view of every Veteran's care journey.
+With Splunk, the VA gains the ability to proactively monitor and manage essential systems. The platform can instantly identify when a component of the VA.gov site is at risk of downtime, when a veteran's claim encounters a processing bottleneck, or when sensitive health data faces unauthorized access. By translating complex data into actionable insights, Splunk ensures that the systems supporting Veterans are fast, secure, and reliable.
+The following sections respond directly to the RFI's focus areas, including continuity of service, identity and authentication workflows, integration of legacy and emerging systems, regulated operations, scalability, and Veteran experience.
+3.1 Continuity of Service and Resilience
+Splunk has expertise providing observability across both legacy systems and modern cloud-native services, enabling VA to monitor availability, performance, and system dependencies end-to-end. This capability supports uninterrupted service delivery during platform transition and migration activities. AIdriven analytics and predictive insights help identify emerging issues early, reducing the likelihood of service degradation or user impact during change events.
+Splunk's Observability suite is proven at scale to deliver real-time monitoring and analytics across massive, distributed environments without performance bottlenecks. This scalability ensures VA can confidently manage growing dynamic workloads, support mission-critical applications, and maintain system reliability, all while providing unified visibility and insights for optimal performance of VA.gov.
+Page 3
+
+3.1.1 Modernizing VA.gov with Splunk + AppDynamics
+The modernization of the VA.gov website is a critical initiative to enhance the digital experience for clinicians, staff, and veterans. By integrating Splunk and AppDynamics, VA can deliver a seamless, easy-touse site that proactively ensures exceptional performance and reliability. Key benefits of this approach include:
+Unified Full-Stack Observability: Combining Splunk's comprehensive observability platform with AppDynamics' application performance monitoring provides complete visibility across the entire digital ecosystem--from network and infrastructure to applications and user experience. This unified approach enables VA to detect and resolve issues faster, minimizing downtime and disruptions for all users.
+Proactive Monitoring and Real-Time Insights: Splunk's real-time streaming analytics and AppDynamics' detailed transaction tracing allow VA to monitor every interaction on VA.gov without sampling, ensuring 100% visibility into performance. This empowers the VA's OIT teams to identify and address potential problems before they impact clinicians, staff, or veterans.
+Enhanced User Experience for Clinicians and Veterans: With digital experience monitoring capabilities, VA can optimize the site's responsiveness and usability, delivering a reliable and intuitive platform for virtual visits, claims processing, and accessing benefits. Real-user monitoring (which is a passive monitoring technology) and session replay features help continuously improve the site based on actual user behavior.
+Operational Efficiency and Collaboration: The integrated solution breaks down silos between application, infrastructure, and security teams, reducing tool sprawl and enabling streamlined workflows. AI-powered analytics and predictive alerting accelerate root cause analysis and incident resolution, freeing resources to focus on mission-critical tasks.
+Security and Compliance: Leveraging AppDynamics and Splunk's combined security and observability capabilities ensures that VA.gov remains resilient against cyber threats while maintaining compliance with federal regulations.
+3.2 Security, Identity, and Compliance
+Splunk strengthens VA.gov security by providing real-time monitoring, anomaly detection, and fraud identification across identity proofing, authentication, and access workflows. These capabilities support next-generation digital identity initiatives while minimizing friction for Veterans. Splunk also automates the collection and reporting of FISMA and FedRAMP audit evidence, embedding compliance into day-today operations and reducing manual reporting burden.
+At scale, Splunk's observability platform applies AI-driven analytics and dynamic baselining to continuously learn normal behavior across VA.gov services and Veteran usage patterns. This intelligence
+Page 4
+
+creates a foundation for proactive security posture management; emerging anomalies--such as unauthorized access patterns, potential cyber threats, or release-driven regressions--are detected early. By correlating operational health with security telemetry, the VA can enable remediation of both performance bottlenecks and vulnerabilities before Veterans are impacted. This "Observability at scale" approach reduces mean time to detect and resolve (MTTD/MTTR) incidents, supports secure and compliant change events, and preserves data integrity and uninterrupted service delivery throughout migration and modernization activities.
+Together, AppDynamics and Splunk provide the VA with a resilient, secure, and Veteran-centric observability foundation. This unified visibility ensures continuity of service, hardens the VA's cyber resilience, protects Veteran trust, and enables confident modernization within a Zero Trust framework without sacrificing availability, performance, or information security.
+3.3 Veteran-Centric Digital Experience
+Splunk enables continuous improvement of the Veteran experience through real-user monitoring (RUM), user journey analytics, and performance visibility across web and mobile channels. By analyzing sign-in, recovery, navigation, and benefit workflows, VA can identify friction points, improve page responsiveness, and maintain consistent service quality across benefit portfolios--supporting measurable improvements in reliability and usability without disrupting access.
+Splunk delivers continuity of service during VA.gov modernization by providing full-stack observability across front-end Veteran experiences and back-end mission systems, spanning legacy platforms and modern cloud-native services. Through the AppDynamics Observability suite, VA gains real-time visibility into how Veterans experience critical digital journeys - such as sign-in, benefits access, healthcare scheduling, and claims workflows - while simultaneously monitoring the downstream application services, APIs, databases, and infrastructure that support those interactions.
+AppDynamics enables VA to correlate user experience metrics (latency, errors, abandonment) with application and service performance, allowing teams to rapidly identify whether issues originate in the browser, mobile experience, application logic, third-party dependencies, or underlying infrastructure. This front-to-back correlation is especially critical during platform transitions, where parallel operation of legacy and replacement components can introduce hidden dependencies and failure points.
+3.4 Integration Across Legacy and Emerging Systems
+VA.gov modernization requires seamless integration across legacy systems, enterprise services, APIs, and modern cloud platforms. Splunk provides a unified analytics and observability layer that spans these environments, ensuring consistent visibility, governance, and operational awareness as systems evolve.
+Page 5
+
+This approach supports long-term scalability and adaptability while avoiding brittle point-to-point integrations.
+
+3.5 Coordinated Operating Models and Governance
+
+Splunk enables coordination across IT operations, cybersecurity, experience teams, and leadership by acting as a shared "single pane of glass." Centralized dashboards and analytics improve situational awareness, support cross-functional decision-making, and enable enterprise governance aligned to VA's operating model objectives.
+
+4. Relevant Experience with Similar Mission-Critical Challenges
+
+Splunk's experience with challenges similar to the VA.gov replacement effort is demonstrated through its active role in multiple mission-critical VA programs operating at national scale. These environments require uninterrupted availability, secure integration of legacy and modern systems, realtime operational insight, and coordinated governance across stakeholders.
+
+Representative VA Use Cases and Outcomes
+
+VA Mission Area
+Veterans Crisis Line
+Electronic Health Record Modernization (EHRM)
+Telehealth Services
+Enterprise Cybersecurity & Reporting
+Enterprise Command Centers
+
+Similar Challenge Addressed
+24×7 availability, zero tolerance for downtime
+Large-scale legacy to modern system integration
+High-volume, userfacing digital experience Regulated, highly visible federal operations
+Coordination across operating models
+
+How Splunk Is Applied
+End-to-end monitoring and real-time alerting
+Unified visibility across legacy and cloud systems
+Real-user monitoring and journey analytics
+Centralized security monitoring and compliance analytics
+Cross-domain dashboards and analytics
+
+Outcome Alignment (Non-Contractual) Supports continuous service availability and rapid issue detection
+Improves transition awareness and reduces migration risk
+Enables identification and reduction of experience friction Enhances security posture visibility and audit readiness Improves enterpriselevel situational awareness and decision support
+
+Page 6
+
+Collectively, these deployments demonstrate Splunk's ability to address the same continuity, integration, security, scalability, and experience challenges inherent in replacing VA.gov - without introducing unnecessary operational risk.
+5. Additional Information Relevant to VA's Objectives
+By leveraging existing VA investments and enterprise governance models, Splunk reduces modernization risk, accelerates time-to-value, and enables incremental improvement without disrupting Veteran access to benefits and services. Splunk's role as a shared data and operational foundation supports continuous optimization, transparency, and trust as VA.gov evolves.
+6. User Journey Workflows Supporting VA.gov Modernization
+VA.gov modernization requires clear visibility into how Veterans interact with the platform across critical digital journeys. Splunk supports these workflows by providing end-to-end insight across identity, applications, infrastructure, and user experience - enabling continuous improvement without increasing user friction.
+Identity Proofing & Authentication
+Splunk monitors authentication events, error rates, and anomalous access patterns across identity providers, supporting secure access while maintaining a seamless sign-in experience.
+Sign-In & Session Continuity
+Splunk tracks login success rates, latency, and downstream dependencies, enabling rapid differentiation between localized issues and systemic service impacts.
+Account Recovery
+Splunk observes recovery workflows to identify failure points and friction that may prevent Veterans from completing account recovery, enabling data-driven improvements.
+Navigation & Benefit Access
+Splunk analyzes user paths across VA.gov pages and services, identifying bottlenecks, performance issues, and broken dependencies that impact usability and accessibility.
+7. Known Risks, Limitations, and Tradeoffs
+VA.gov replacement presents inherent risks that must be actively managed during modernization:
+· Transition Complexity: Parallel operation of legacy and replacement systems increases complexity. Mitigation: Unified observability across environments preserves visibility and control.
+Page 7
+
+· Data Volume and Signal Management: High telemetry volume can introduce noise. Mitigation: Filtering, prioritization, and analytics focus attention on mission-relevant signals.
+· Change Velocity: Rapid updates may introduce instability. Mitigation: Continuous baselining and anomaly detection support controlled change.
+· Toolchain Fragmentation: Over-specialization can create visibility gaps. Mitigation: Splunk serves as an integration layer rather than a point solution.
+These tradeoffs are manageable when addressed proactively through governance and observability.
+8. Phased Approach to VA.gov Replacement
+Splunk supports a phased modernization approach that reduces risk while enabling incremental improvement:
+Phase 1 - Baseline & Visibility
+Establish end-to-end observability across current VA.gov and dependent systems; baseline performance and experience metrics.
+Phase 2 - Parallel Operations
+Monitor legacy and replacement components simultaneously to identify dependencies and risks early.
+Phase 3 - Incremental Transition
+Support gradual traffic shifts and feature rollouts, validating stability and experience before expansion.
+Phase 4 - Optimization & Continuous Improvement
+Use analytics and user journey insights to refine performance, usability, and scalability over time.
+9. Measuring Success for a Modernized VA.gov
+While specific targets are determined by VA, Splunk enables objective evaluation of modernization success through metrics such as:
+· Service availability and reliability across critical journeys · Authentication success and recovery completion rates · Page load times and transaction latency · Reduction in unplanned outages or degraded experiences · Improved cross-team situational awareness and response times
+These indicators help VA assess whether VA.gov is delivering a secure, resilient, and Veteran-centric digital experience.
+Page 8
+
+Appendix A: RFI Compliance Crosswalk
+
+VA Requested Information Company / Organization Overview Relevant Experience with Similar Challenges Responses to RFI Topics & Questions Technologies and Approaches Additional Information Relevant to VA Objectives
+
+Where Addressed Section 1 Section 4 Sections 2-3, 6-8 Section 3 Sections 5, 9
+
+Follow-On Engagement
+
+Splunk welcomes the opportunity to participate in follow-on discussions, architecture walkthroughs, or workflow demonstrations to further support VA's planning and evaluation efforts.
+
+Page 9
+
+

@@ -1,0 +1,181 @@
+Department of Veterans Affairs (VA) Replacement Model for VA.gov Sources Sought Opportunity 36C10B26Q0131
+February 5, 2026
+Submitted to: Department of Veterans Affairs
+Attn: Allison Fulton, Allison.Fulton@va.gov Evan Schlisserman, Evan.Schlisserman@va.gov
+Prepared by: Phronesis Global Training Solutions
+(PGT Solutions) 7797 Seafield Rd. Meggett, SC 29449 www.PGTSolutions.com
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+TABLE OF CONTENTS Table of Contents ............................................................................................................................ i 1. Company Overview ............................................................................................................. 1 2. Relevant Experience with Similar Challenges................................................................... 1 3. Responses to Topics and Questions.................................................................................... 1 4. Descriptions of Relevant Technologies and Approaches .................................................. 5 5. Additional Information Relevant to VA's Objectives ........................................................ 7 6. Appendices........................................................................................................................... 8
+
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. i
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+1. COMPANY OVERVIEW
+Phronesis Global Training Solutions (PGT), a fully remote Service-Disabled Veteran-Owned Small Business (SDVOSB) and Women-Owned Small Business (WOSB), brings more than 12 years of expertise in healthcare-oriented enterprise architecture, strategic advisory, and information technology (IT) modernization services for our federal and commercial clients. By leveraging architecture-based approaches to bridge strategy and execution, we have notably helped transform complex requirements into actionable and mission-driven solutions. Highlights of our work include but are not limited to: Strategic Health IT Leadership, Enterprise Architecture (EA), Transformation and Modernization, Digital Transformation and Automation, Interoperability and Innovation, Data Management and Analytics, and AI-Driven Insights and Secure Platforms.
+Our approach emphasizes leveraging data, standardization, and predictive planning that helps implement initiatives as well as shaping future strategies to enhance care delivery, optimize resources, and improve outcomes for Veterans.
+2. RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES
+PGT has successfully performed two large IDIQs of similar size, scope, and complexity for the Department of Veterans Affairs (VA); the Veterans Health Administration (VHA) Health Architecture Modernization (HAM) (Period of Performance: 3/21/22 - 12/9/27) and the VHA Health Enterprise Architecture (HEA) (Period of Performance: 12/10/18 - 12/9/22). Both contracts included providing overarching IT modernization, formalizing joint strategic plans between the VA and other government agencies, the Cerner EHR Modernization Initiative, comprehensive strategic planning throughout the VHA, and improved business processes for thousands of stakeholders. Each project was performed in a complex, demanding environment requiring coordination of data across thousands of stakeholders and supported business units responsible for the strategic and tactical goals of the VHA.
+In one contract, we engaged over 1000 stakeholders including 2 boards, 5 councils, 15 committees, and VA field offices/components across the country. PGT works with stakeholders to evolve IT strategy with our IT strategic plan, ensuring it provides direction for the development, acquisition, and maintenance within the organization. Our structured approach includes coordination, preparation, communication, and convening of dedicated work groups to assess topics and mature the IT strategy so that it can better inform other agency planning documents and IT governance.
+3. RESPONSES TO TOPICS AND QUESTIONS
+Executive Summary PGT proposes Veteran-controlled digital credentials and AI-powered navigation that use VA's already-authorized identity providers (e.g., Login.gov/ID.me) and a production-ready Aries Cloud Agent (ACAPy) maintained by the OpenWallet Foundation, federal standards (W3C VC v2.0, NIST SP 800634), and proven implementations (Canada's verifiable credentials deployments, Georgia DOL's AI virtual assistant). Veterans authenticate once, receive portable credentials they control, and navigate VA.gov with intelligent guidance.
+A. Relevant Ideas, Capabilities and Approaches Problem 1: Authentication Friction Locks Out Veterans Evidence: 30% of ID.me identity proofing attempts fail. Veterans report login loops, excessive
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 1
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+verification steps. International Veterans, those with PO boxes, individuals without Social Security Numbers (SSNs) excluded. Veterans re-prove identity separately to VA, Social Security Administration (SSA), Department of Defense (DoD), and Internal Revenue Service (IRS) (three to five separate processes).
+PGT Solution: Portable Verifiable Credentials After the one-time Login.gov/ID.me authentication, VA issues cryptographically signed W3C Verifiable Credential to Veteran's mobile wallet. Veteran presents same credential to any agency/employer/lender (no re-proofing). Verification happens cryptographically (relying party validates VA's signature) without data sharing.
+Why It Works: · One proof, unlimited reuse: Veteran proves identity once, credential accepted by SSA, DoD, state agencies, lenders, etc. · Open standards: W3C VC v2.0, NIST SP 800-63-4 compliant, not proprietary vendor lockin. · Veteran control: Credential stored in Veteran's wallet, they decide when/where to present. · Selective disclosure: Prove attributes without revealing underlying data (prove "over 60" without birthdate).
+Real-World Impact: Veteran applying for VA loan presents credential to lender. Lender verifies VA's signature cryptographically, checks revocation status (real-time API), extracts claim: "Serviceconnected disabled, 30% rating." Instant approval, no multi-day VA coordination, no exposing full service record/SSN.
+Problem 2: Navigation Chaos Wastes Veteran Time Evidence: Veterans describe VA.gov as "disjointed," "hard to navigate". Information architecture reflects VA org chart (VHA, VBA, NCA) vs. Veteran tasks. Search for "disability check" returns no results (VA uses "disability compensation").
+PGT Solution: AI-Powered Intelligent Guidance Three-component system transforms Veteran experience:
+1. Virtual Assistant (RAG + LLM) a. AI understands Veteran intent through context, not keywords. Veteran asks "Am I eligible for VA healthcare?" System analyzes authenticated profile (service history, disability rating, income), applies eligibility rules, responds: "Yes, Priority Group 5. Here's an enrollment application. Your service dates pre-filled." Handles routine inquiries 24/7, routes complex cases to humans.
+2. Intelligent Form Pre-Fill a. Forms auto-populate from VA records (name, address, service dates, disability rating) via secure API integration. Real-time validation. Conditional logic ("Because you answered YES to ...). Contextual help on complex fields. Result: 50%+ faster completion, <10% abandonment.
+3. Enhanced Semantic Search a. Maps Veteran language to VA terminology: "disability check" maps to "disability compensation," "my healthcare" maps to "VA medical benefits." Personalized ranking for authenticated users (Vietnam Vet searching "health issues" sees Agent
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 2
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+Orange resources first).
+Accessibility: Section 508/Web Content Accessibility Guidelines (WCAG) 2.1 AA compliant (voice navigation, real-time captioning, multi-lingual, keyboard-only, screen reader optimized).
+Measurable Outcomes: 30 - 40% call center tier-1 volume reduction, 50%+ faster form completion, 24/7 availability (vs. business hours), increasing Veteran NPS.
+B. Case Studies from Similar Environments · Canada - BC Government Digital Credentials o Challenge: Citizens proved identity separately to provincial/federal agencies (health, licensing, tax). Repetitive proofing, privacy concerns. o Solution: British Columbia deployed Hyperledger (Aries+Indy). Citizens receive verifiable credentials, store in wallet, present to services. Verifiers validate cryptographically without contacting issuer. o Outcomes: Over 2.4M verifiable credentials issued, with throughput at 2,600 credentials per minute. ACA-Py proves scale. o Relevance: Proves government-issued credentials work at scale. Same technology stack, similar population scale (18M Veterans). o Lessons: Start with high-value credentials (disability rating), extensive user testing with elderly populations, recovery pathways critical. · Georgia DOL - AI Chatbot for Unemployment Benefits o Challenge: COVID surges created 50x normal call volume. 4+ hour wait times. Citizens abandoned unemployment claims or filed incorrectly. o Solution: RAG + LLM chatbot for tier-1 inquiries. Answers common questions, guides workflows, routes complex cases to humans. Section 508 accessible. o Outcomes: 2.5 million interactions since 2022, 97% accuracy rate. Demonstrates RAG+LLM approach works for high-complexity eligibility. o Relevance: VA faces similar call center burden. GA-DOL proves AI handles highcomplexity domains (conditional eligibility like VA benefits) accurately. · TRM Labs - FedRAMP High for Blockchain o Challenge: Federal agencies needed blockchain transaction analysis, but vendors could not achieve FedRAMP High. o Outcomes: FedRAMP High achieved December 2024, contracts with ICE/DHS/Treasury, demonstrates blockchain-related SaaS meets FedRAMP high bar. o Relevance: If VA pursues Hyperledger Fabric (Phase 2), TRM demonstrates authorization pathway exists.
+C. User Journey Workflows
+Workflow 1: Credential Issuance (Newly Separated Veteran)
+Current State: Identity proofing delays for overseas Veterans, hours of form completion across sites, manual re-entry of service history VA already has.
+
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 3
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+Proposed State:
+1. Veteran authenticates via Login.gov/ID.me (one-time). 2. VA queries DOD (DD-214), generates credential (DID, claims, FIPS 140-2 signature),
+delivers to wallet. 3. VA benefits application: form pre-filled (name, service dates from credential), Veteran adds
+condition descriptions only (15 minutes). 4. SSA disability application: Veteran clicks "Present Credential," approves sharing disability
+rating, SSA verifies cryptographically (no VA API call), SSA issues own credential instantly. 5. Future use: State benefits, presents VA credential, instant approval.
+Total Time: Less than a day (credential issuance), 30 minutes (all applications) Improvement: One identity proof (not three separate processes), credential reusable across agencies, dramatic reduction in active form completion time, and international Veterans no longer needs expired US driver's license for each agency (VA credential issued once, accepted everywhere).
+Workflow 2: AI Guidance (Vietnam Veteran) Current State: 3+ hours (password reset, navigation, call center wait), high abandonment, high frustration.
+Proposed State:
+1. Veteran authenticates, dashboard shows: "Welcome back. As Vietnam Veteran with Agent Orange exposure, you may qualify for additional healthcare. Apply?".
+2. Voice navigation: Veteran says "I want to apply for VA healthcare," AI responds (text + audio): "You qualify Priority Group 3, free healthcare. Start application?".
+3. Guided application: Pre-filled (name, service dates, disability rating), contextual help ("VA disability compensation does NOT count as income"), real-time validation ("Birthdate incorrect").
+Total Time: 12 minutes, zero frustration. Improvement: >90% time savings, voice removes typing burden, contextual help eliminates confusion, instead of "no results," AI suggests and can pre-fill.
+Workflow 3: Credential Recovery (Veteran's Lost Device). Current: 3 - 5 days identity re-proofing.
+Proposed: Multiple recovery pathways (backup codes = 5 min, biometric + security questions = 15 min, in-person at VAMC = 1 hour). Lost credential immediately revoked with audit trail." In-person recovery options ensure Veterans without smartphones or biometric devices can still recover access.
+D. Known Limitations, Risks and Tradeoffs 1. Technology Adoption Curve
+· Risk: Low digital literacy or no smartphone. · Mitigation: Paper or codes (laminated card), assisted enrollment at Veterans Affairs Medical
+Centers (VAMCs), desktop wallet, gradual transition (credentials additive, not replacing Login.gov/ID.me). · Tradeoff: Dual systems increase complexity initially but ensure zero disruption.
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 4
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+2. Distributed Ledger Authorization Risk · Risk: Any Phase 2 distributed ledger would require TRM authorization. · Mitigation: Phase 1 uses ACA-Py + did:web (no blockchain). Phase 2 pilot Fabric under H.R. 3455 support, fallback to did:web if not authorized. · Tradeoff: did:web less tamper-resistant than blockchain but simpler, sufficient for most use cases.
+3. AI Hallucination Risk · Risk: LLM generates incorrect information. · Mitigation: RAG grounds responses in VA authoritative content (regulations, FAQs), humanin-loop for benefits determinations, confidence scoring (low confidence, leading to human escalation), audit logging, conservative design ("I'm not sure, let me connect you with specialist"). · Tradeoff: Conservative AI routes more to humans initially, limiting call center reduction, but protects Veterans.
+4. Biometric Privacy Concerns · Risk: Perceived as invasive. · Mitigation: Opt-in (not mandatory), zero-knowledge proofs (biometric never leaves device), transparent controls (Veteran sees/deletes data), multi-modal (face/iris/voice/fingerprint), Privacy Act/VA Directive 6502 compliant. · Tradeoff: Optional reduces coverage but likely achieves 60 - 70% uptake.
+E. Lessons Learned from Past Deployments 1. Start with High-Value, Low-Complexity Credentials (BC): Focus first on disability rating credentials (high value for loans/benefits, low complexity, frequent use, easy to explain). Expand incrementally. 2. Recovery Pathways Critical: Design multiple recovery options from Day 1. Low confidence in recovery kills adoption. Target: >95% recover within 24 hours. 3. Accessibility Cannot Be Retrofitted (Federal 508 reviews): Design for accessibility from start adds to development costs, retrofitting adds more. Voice-first, keyboard navigation, screen reader optimization, multi-modal biometrics, test with disabled Veterans (30%+ of pilot). 4. Trust Builds Gradually (Estonia e-Residency): Technology alone doesn't drive adoption. Transparent communication is essential: "Your credential, your control," Veteran testimonials, VSO partnerships, gradual rollout (not mandatory). Target: >75% "feel more in control".
+4. DESCRIPTIONS OF RELEVANT TECHNOLOGIES AND APPROACHES
+Technology Stack (Layered Architecture)
+Layer 1: Credential Issuance
+· ACA-Py (Aries Cloud Agent - Python, OpenWallet Foundation) Production-ready, open-source verifiable credential agent, now maintained by the OpenWallet Foundation, with v1.5.0 released January 29, 2026. ACAPy supports Aries Interop Profile features, DIDComm messaging, and multiple verifiable credential formats
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 5
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+including W3C Verifiable Credential Data Model-based credentials. It is deployed in government environments such as the Government of British Columbia's OrgBook initiative, which demonstrated issuance of millions of credentials with capacity of approximately 2,600 credentials per minute. ACAPy runs on standard enterprise stacks (e.g., PostgreSQL on RHEL, containerized deployment) and can be configured to use FIPSvalidated cryptographic libraries to align with federal requirements.
+· W3C Verifiable Credentials v2.0 W3C Recommendation defining a standard, cryptographically signed credential format (issuer DID, subject DID, claims, digital signature) suitable for government and cross-border use. Verification: check signature (proves VA issued), check revocation (real-time API), extract claims (no VA coordination required).
+· Decentralized Identifiers (did:web) Phase 1 uses did:web (HTTPS-based, no blockchain, TRM-compliant). Example: did:web:va.gov:issuers:vba resolves via https://va.gov/.well-known/did.json. Simple, fast to deploy, proven (EU Digital Identity Wallet, Singapore). Phase 2 option: did:indyon Hyperledger Fabric if VA desires greater decentralization.
+· OIDC4VCI / OIDC4VP OpenID Foundation specifications extending OAuth 2.0 and OpenID Connect for verifiable credential issuance and presentation. A High Assurance Interoperability Profile 1.0 for OpenID4VCI/VP is being adopted in European digital identity initiatives to ensure crosswallet, crossissuer interoperability. These protocols build directly on the OIDC/OAuth 2.0 foundations already used by federal identity providers (e.g., Login.gov, ID.me)
+Layer 2: Intelligent Guidance
+· RAG Architecture Retrieval Augmented Generation prevents hallucinations: retrieves relevant documents from VA knowledge base (M21-1 manual, VA.gov content, FAQs), feeds context to LLM, LLM generates grounded response. If no answer in knowledge base: "I don't have that information, let me connect you with specialist."
+· Semantic Search Engine Enterprise-grade search platform mapping Veteran language to VA concepts using natural language processing (NLP). Example: Veteran searches "disability check" and system suggests "disability compensation" and "monthly payment". Personalized ranking based on authenticated user profile (Vietnam Veteran searching "health issues" sees Agent Orange resources first). Supports fuzzy matching, synonym expansion and contextual relevance scoring.
+· Model Context Protocol (MCP) Securely connects AI to VA APIs (VA Profile, VBA, DOD, VistA). Centralized credential management, rate limiting, access controls. Audit trails log every API call (timestamp, system, data, Veteran). Aligns with VA's AI Strategy directive to experiment with MCPs.
+
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 6
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+· Human-in-Loop (HITL) AI provides information/guidance. Humans make determinations. AI handles eligibility screening (rule-based), status inquiries, form guidance. AI routes to human for benefits determinations, appeals, complex cases, low confidence (<80%).
+Layer 3: Advanced Security (Phase 3)
+· Biometric Binding + Zero-Knowledge Proofs Links credential to Veteran's biometric (face/iris/fingerprint). Stolen credential can't be presented without biometric match. ZKP: biometric never leaves device, cryptographic proof generated ("person matches biometric") without transmitting data. Partners: Trust Stamp (biometric-bound credentials with ZKP), Veridas (iBeta Level 1 & 2 certified liveness detection).
+· Continuous Authentication Re-verify identity for sensitive actions: direct deposit change, address update, filing claims, accessing medical records. System prompts biometric challenge or MFA. Audit log records transaction with timestamp, action, verification method.
+Standards Compliance
+
+Standard NIST SP 800-63-4
+W3C VC v2.0
+OIDC
+Section 508/WCAG 2.1 AA VA Directive 6500/10
+
+PGT Implementation IAL2/3 via Login.gov/ID.me; AAL2/3 via MFA + biometric; FAL3 via verifiable credentials
+SD-JWT credentials, cryptographic signatures, DID-based issuance
+OIDC4VCI, OIDC4VP
+Voice navigation, captions, keyboard-only, multi-modal biometrics Encryption at rest/transit/use, AC, Logs, Credential lifecycle, federation, Multi-Factor Authentication (MFA)
+
+5. ADDITIONAL INFORMATION RELEVANT TO VA'S OBJECTIVES
+Alignment with VA Strategic Priorities · Veteran-Centric Experience: Personalized (AI tailors content to profile), proactive (notifies of benefits qualified for), seamless (credentials eliminate re-verification), accessible (mobile wallet, voice navigation). · Modernization: Speed (credential verification in seconds vs. days), security (biometric binding, ZKPs, audit trails), interoperability (W3C standards enable cross-agency acceptance), modern stack (ACA-Py, RAG/LLM, proven in production). · Operational Efficiency: 30 - 40% call center reduction = $8-12M annual savings, pre-filled
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 7
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+forms reduce staff burden, cross-agency credential reuse eliminates duplicate proofing (~$1525/event), open standards reduce vendor costs ($40M/year federal-wide contracts).
+Implementation Roadmap
+
+Phase Phase 1 (Months 1-9)
+Phase 2 (Months 918)
+Phase 3 (Months 1836)
+
+Activities and Deliverables
+· ACA-Py on RHEL, disability rating credentials, VAMC pilot (500 Veterans), scale to 50,000, expand to 3 VAMCs.
+· Deliverables: 50,000 Veterans with credentials, 30%+ cross-agency reuse, NPS >70, TRM compliance validated.
+· RAG/LLM virtual assistant, smart forms (MCP API integration), semantic search, pilot 10,000 Veterans, national rollout.
+· Deliverables: 100,000+ using AI, 30-40% call center reduction, 50% faster forms, NPS >70.
+· Privacy Impact Assessment (PIA), VSO engagement, biometric platform selection (Trust Stamp/Veridas), VAMC pilot (1,000 Veterans, opt-in), ZKP circuits, continuous authentication.
+· Deliverables: 40-50% biometric adoption initially (grows to 60-70% over 5 years), significant hijacking reduction, complete audit trail, >75% Veterans "feel more secure."
+
+Success Metrics
+· Credentials: Total issued, % eligible Veterans, presentations/Veteran/month, cross-agency reuse %, verification success rate.
+· AI Guidance: Total interactions, AI resolution rate, response time, call center reduction, form completion time, abandonment rate.
+· Security: Hijacking incidents (pre vs. post), biometric success rate, revocation volume/time, fraud attempts detected.
+· Veteran Satisfaction: NPS, CSAT, trust in VA digital services, "Would recommend credentials?"
+· Operational Efficiency: Cost/credential, cost/AI interaction (vs. call), processing time (pre vs. post), staff time saved.
+6. APPENDICES
+References
+· Biometric Update.com. "GAO finds major gaps in IRS biometric ID verification program oversight." June 2025.
+· Biometric Update.com. "Trust Stamp makes the case for ZKPs for age." September 2025.
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 8
+
+Sources Sought - 36C10B26Q0131 Replacement Model for VA.gov
+
+2/5/26 PGT Solutions
+
+· GovCIO Media, "VA Website Redesign Essential for Improved Customer Experience," March 2020.
+· Hyperledger OrgBook Case Study. "BC aims to cut government red tape with Hyperledger Indy."
+· Lewis, Patrick, et al. "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." May 2020.
+· LF Decentralized Trust, "ACA-Py Graduates To Active Status." February 2021. · NIST. "Digital Identity Guidelines." July 2025. · OpenWallet Foundation. "ACA-Py (Aries Cloud Agent - Python) v1.5.0." January 29, 2026 · Pew Research Center. "Mobile Fact Sheet." November 2025. · StateScoop, "Chatbot Snapshot: How State, Local Government Websites Use AI." July
+2024. · TRM. "TRM Labs Achieves FedRAMP® High Authorization." December 2024. · U.S. Congress. "H.R. 3455 - Veterans Affairs Distributed Ledger Innovation Act." 119th
+Congress, May 2025. · U.S. Department of Veterans Affairs. "Building the Future: VA's Strategy for Adopting
+High-Impact Artificial Intelligence." January 2026. · Veridas. "Veridas passes the iBeta PAD Level 2 evaluation." April 2022. · W3C. "Verifiable Credentials Data Model v2.0." May 2025. · W3C. "Decentralized Identifiers (DIDs) v1.0." July 2022.
+
+Use or disclosure of data contained in this document is subject to the restriction on the title page of this proposal. 9
+
+

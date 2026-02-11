@@ -1,0 +1,166 @@
+Sources Sought Response
+February 04, 2026
+Department of Veterans Affairs Request for Information
+Replacement Model for VA.gov Notice ID: 36C10B26Q0131
+
+Ben Allegretti Consulting, Inc.
+
+Submitted by: Mailing Address: Phone/Fax: Email: Point of Contact Type of Company: Unique Entity Identifier: CAGE Code :
+
+Ben Allegretti Consulting, Inc. (BAC) 188 Woodstream Blvd, Stafford, VA 22556-4629 (540)207-9512 / (FAX) (540)657-1382 benallegretti@bacteam.com Ben Allegretti, President Service-Disabled Veteran Owned Small Business KGVQXEJA4JG4 5WTU1
+
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131
+
+February 4, 2026
+Allison Fulton / Evan Schlisserman Department of Veterans Affairs 23 Christopher Way Eatontown, NJ 07724 USA Allison and Evan, Ben Allegretti Consulting, Inc. (BAC) is pleased to submit our Sources Sought input for Department of Veterans Affairs, Department of Veterans Affairs Request for Information Replacement Model for VA.gov, Notice ID: 36C10B26Q0131. We believe our perspective and expertise provide the Government with efficient, cost effective, and innovative approaches to improving Veteran experience and the VA's service. Please contact my Vice President, Rixon Rafter at rixonrafter@bacteam.com, 703-887-7251 with any questions you may have. My contact information is also provided below.
+Sincerely,
+Ben Allegretti President, BAC, Inc. benallegretti@bacteam.com 540-207-9512
+i Department of Veterans Affairs, Request for Information, Replacement Model for VA.gov, Notice ID: 36C10B26Q0131
+
+1 INTRODUCTION
+
+The U.S. Department of Veterans Affairs (VA) is replacing the current VA.gov website with a best-in-class online experience that provides Veterans, their families, and other stakeholders access to benefits, healthcare services, and information. The replacement site will be a premier, modern, and secure site with a Veteran-centric digital experience.
+
+VA recognizes that replacing VA.gov is not solely a technical challenge but also requires an approach with coordination across experience design, platform architecture, content strategy, governance, analytics, and operating models. As such, the VA released two separate Requests for Information, the Replacement Model for VA.gov RFI and the related Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov.
+
+VA is seeking to modernize all aspects, from technical solutions to user experience of VA.gov. Based on our expertise and relevant experience, this document provides recommendations to assist the VA in planning, designing, implementing, and maintaining a modern, resilient, and Veteran-centric replacement model for VA.gov.
+
+2 COMPANY OVERVIEW
+
+Ben Allegretti Consulting, Inc. is a SDVOSB with 19 years as a prime and subcontractor supporting the VA. This response represents the BAC Team (BAC) that combines the expertise and experience of Ben Allegretti Consulting, Gowan Communications, and User-View.
+
+Teammate
+
+BAC Team Members
+Capabilities, Expertise, and Knowledge
+Ben Allegretti Consulting (BAC) is a Service-Disabled Veteran Owned Small Business (SDVOSB) specializing in delivery of human factors engineering, clinical informatics, healthcare management consulting, SAFe® practices, and health information system services to the VHA. BAC has provided continuous, on-theground support to the VHA for over 19 years including HFE and FIS support services. BAC has made substantial, measurable, positive changes in the quality of care and outcomes for Veterans and experience for VA providers because of our work with CIDMO.
+Since 2012, Gowan Communications Group has specialized in creating web strategies and building websites to deliver on that strategy. Our team has more than 60 years of combined experience, spanning web strategy, content strategy, design, content development, and website development.
+User-View is a small business, founded in 2005. Our team employs scientific methodology, creativity, and user-centered design and development process. Drawing from our education and experience, our process assures business, technology and user requirements will have a positive impact on the definition, design, development, and implementation of our client's health information systems.
+
+2.1 General Information
+A1. Organization Name A2. Company Ownership A3. Business Size Designation for NAICS 541512
+
+Ben Allegretti Consulting, Inc. (BAC) Private, Service-Disabled Veteran Owner Small Business
+
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+2.2 Capability and Experience Information
+
+a. Company Name b. Company Address c. Company Point-of-Contact (POC) d. Company Phone, Fax, Email Address
+e. Company CAGE Code and SAM UEID f. Type/Size of Business: NAICS 541512 g. Federal Supply Schedule Number (if applicable)
+
+Ben Allegretti Consulting, Inc. (BAC) 188 Woodstream Blvd, Stafford, VA 22556-4629 Benjamin Allegretti 540-207-9512, 540-657-1382, benallegretti@bacteam.com 5WTU1 KGVQXEJA4JG4 Small Business Not Applicable
+
+3 RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES
+Some digital experience challenges Veterans, Veteran's family members, and Veteran stakeholders face are unique to the VA. However, many challenges are similar to those that nonVA healthcare consumers and stakeholders face. These work examples present our relevant experiences with challenges similar to those that the VA is facing.
+BAC has extensive experience working on projects that aim to improve the experience of Veterans, including digital projects. Please see the case study on VA Mobile App Management for an example.
+Our team also has decades of experience in consumer healthcare digital experiences. Our work with non-VA health systems and health-related organizations includes content strategy projects for NC State Counseling Center and UT Southwestern Medical Center, among many other healthcare systems.
+4 RESPONSES TO GOVERNMENT TOPICS / QUESTIONS AND DESCRIPTIONS OF RELEVANT TECHNOLOGIES AND APPROACHES
+VA must modernize in a way that:
+· Maintains continuity of service for millions of users. · Integrates with a diverse portfolio of legacy and emerging systems. · Operates within a regulated, highly visible federal environment. · Supports long-term scalability, adaptability, and resilience. · Offers more seamless customer experience.
+
+To meet these modernization objectives, VA should consider the following:
+4.1 Replacement Model Informs Technical Approach
+VA solicited input on two separate but related RFIs. Moving forward, the VA should maintain a degree of separation while also maintaining the connection between the two efforts. The work associated with the Replacement Model should occur ahead of substantial work on the Technical project begins. Output from the Replacement Model will result in a full understanding of user and stakeholder needs, functional requirements, and nonfunctional requirements for VA.gov and
+
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+related digital services. Beginning the Technical project without a full understanding of user needs and requirements may result in rework and/or subpar solutions that do not satisfy user and stakeholder needs.
+4.2 Total Life Cycle Approach Activities conducted as part of the Replacement Model effort must account for the total life cycle of VA.gov and related digital services. Planning, requirements development, and potential pilot efforts should address the current state and address the design, development, testing, transition/deployment, and maintenance/optimization of the future state of VA.gov and related digital services. Strategy, governance, and editorial operations will be key functions necessary for a successful site and a more seamless experience. Lack of strategy, governance, and editorial operations results in delayed decision making, inefficient operations, and increased costs.
+4.3 Integrated Human-Centered Design Approach Whichever development approach, e.g., Scaled Agile Framework (SAFe ®), VA and their partner undertake, a lean integrated Human-Centered Design (HCD) process should be included. A sound HCD process ensures that the site is optimized, effective, and satisfying to the user and to stakeholders. Applying HCD evidenced-based best practices and integrating user-based feedback to the design of VA.gov will increase the likelihood of providing a best-in-class online experience to Veterans, their families, and stakeholders. Not integrating HCD process into the process runs the risk of a site with competing priorities, complex navigation, and chaotic user experience.
+4.4 Content Strategy Approach Building on the HCD approach, the VA should consider creating a content strategy for the site to meet user and organizational needs and provide a roadmap for the project. A content strategy process could include:
+· User interviews: Interview Veterans to learn what they want from the site.
+· User testing: Test the current site with Veterans to learn how the current state is working for them.
+· Stakeholder interviews: Interview organizational leaders to understand business and technical requirements.
+· Metrics analysis: Review the current site data to see how the site is performing against the defined goals.
+· Competitive analysis: Review other large healthcare and governmental sites to look for opportunities to improve.
+· Content inventory: Index the current site and the connections to it and from it.
+· Site map (information architecture): Develop a new structure for the site based on the goals and requirements defined earlier in the process.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+· Keyword research: Perform keyword research to help optimize content development and allow content to perform well in AI search overviews and in organic search results.
+· Content types: Define the types of content needed to achieve the goals of the site.
+· Wireframes: Produce sketches of how information would be structured within the content types.
+· Content matrix: Map the new site structure with the existing content and identify new content to be developed.
+4.5 Consider the Veteran and Veteran's Family as Healthcare Consumers
+Consumer healthcare digital experiences and technologies offer opportunities to expand and improve digital experiences for Veterans and their family members. Consider Veterans and their family members as part of a wider group of healthcare consumers. Healthcare consumers want personalization and Veterans as healthcare consumers are not different. Consumer digital experiences offer a wide array of personalization. Before authentication, consumer digital experiences offer personalized site structure and content based on an individual's browsing and purchasing behaviors. Post authentication, consumer digital experiences use personal information to offer services like matching patients with doctors, clinical trials, and personalized health and wellness recommendations. The VA has a strong history of providing mobile apps to meet Veterans' wellness, chronic disease, mental health, and other targeted needs. Leaning on personalized digital experiences that are already in place, e.g., Veteran mobile app experiences, and incorporating consumer health-informed experiences into VA digital Veteran-facing platforms, will result in higher Veteran satisfaction compared to status quo.
+4.6 Embrace Changes in Web Browsing due to Artificial Intelligence
+Artificial Intelligence (AI) has changed web browsing behavior and interactions with care delivery organizations' websites. Search engines present AI summaries ahead of specific websites in search results. This presentation of search results has changed the way healthcare consumers find information and interact with care delivery organizations' websites. Our experience indicates healthcare consumers first gather information via AI summaries before clicking into a healthcare organization's website. This behavior has increased the user's requirement for health organizations to meet user's action needs with higher priority compared to information seeking needs. Both actions needs, e.g., finding a physician, making an appointment, etc., and information seeking needs, e.g., symptom finder, specific disease information, are important to users, but providing fast and easy access to actions must be addressed in the initial entry point(s) to an organization's website.
+4.7 Use Analytics to Optimize User Experience
+Many organizations use analytics to identify user behaviors (entry/exit page, page time, number of hits on a page, etc.) associated with their website. However, analytics only tell you where to look to optimize; they do not tell you why the behavior occurred. For example, the dwell time (time spent with a web page open) on a specific page may be long because the user is confused and having to read the content over and over again for understanding or the dwell time on that
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+same page may be long because the user is very engaged with the content thus reading and thinking and carefully consuming the content on the page. To best use analytics to Optimize User Experience, the VA team must incorporate methods, e.g., HCD methods to understand the analytics and gain actionable insights from the analytics.
+4.8 Accessibility VA requires that VA.gov adhere to Web Accessibility regulation. Many VA teams include additional accessibility requirements to enhance Veteran's digital experience. The VA serves a diverse population of Veterans with unique needs. Activities conducted as part of the Replacement Model should prioritize broad and deep understanding of these unique users and lay caregiver needs, the various contexts and environments where these needs are pertinent to interaction with VA.gov, and the specific tasks and workflows impacted by these unique needs. This broad and deep understanding can be translated into VA.gov and other digital services requirements that will certainly impact technology platforms and platform integrations needed to best serve Veterans with unique accessibility needs.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+5 APPENDIX 1: CASE STUDIES 5.1 Case Study: NC State Counseling Center Content Strategy
+In 2022, NC State University experienced a crisis when several students tragically died by suicide. As part of the university's response, leadership sought to completely revamp their Counseling Center website to more quickly address student needs and get them the mental health care they need. NC State turned to Gowan Communications Group to guide the revamp. We had successfully helped NC State on several other web content strategy projects before. We provided content strategy, information architecture, and writing and editing services to meet their needs. Summary
+· We implemented a user-centered content strategy. · By focusing on the primary audience, we created a site structure and content voice and
+style that helped students get the help they needed. · The updated site improved how students accessed and understood care. It also helped the
+Counseling Center team streamline operations. The Challenge
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+The existing site offered a lot of content, but it was organized more to match the needs of the Counseling Center team than students. The site had been redesigned in 2015, but content had been added organically, without thought about how the audience would access it. As a result, the site had put up several barriers to students quickly accessing care and understanding what services were available to them.
+Research and Strategy
+We began the project with student interviews, followed by stakeholder interviews. These interviews helped us understand the needs of the primary audience as well as the goals of the organization.
+Additionally, we reviewed the current site analytics to understand how actual use matched with goals. We also performed a competitive analysis to find opportunities to incorporate effective implementations and learn what didn't work well.
+We found the site needed to:
+· Rethink site organization and use of calls-to-action to help people get to the most wanted content quickly.
+· Create content that addresses the needs of two types of visitors: those new to the Center and those who know what they need.
+· Update the content tone to talk to students, not at them - make it more conversational. · Add more images throughout. · Make it easy to find phone numbers to call when in crisis. · Add/expand profiles for each counselor, including a photo, expertise, and some
+information to help students feel like they may be a good match. · Establish a review cycle to keep information on site accurate and up to date. · Increase links from other NC State sites. Implementation Based on the findings from research, we created a new site structure to improve access to the most wanted content, while maintaining what is working.
+We performed a content inventory that found all the existing content and connections on the site. We then mapped that content against the new site map to produce a content matrix, which identified new content that needed to be created to meet the site's goals.
+Working with the site's existing content types, we partnered with the Counseling Center team to write new content and edit existing content to match the new voice and style. We focused on keeping content brief and easy to understand and added clear calls to action throughout the site.
+Impact
+As part of NC State's overall initiative to improve student access to mental health, the Counseling Center website became a valuable resource for students seeking help.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+With a new structure that better mapped to student needs and revised content that made it easier for them to understand the available services, the updated site helped them quickly access care. A website can't solve the mental health challenges that affect students, but it can make getting the help they need easier. Gowan was honored to be part of the solution for NC State students.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+5.2 Case Study: UT Southwestern Search Content Strategy
+We now exist in an AI-summary search result world. Healthcare websites need to shift their content strategy from being focused on just informing prospective patients about services. Content needs to be formatted to help AI bots digest the content quickly. But they can't forget about visitors, websites still need to help visitors quickly achieve their goals. Gowan Communications Group has worked with UT Southwestern Medical Center since 2012 on their websites. We helped them redesign their patient care site, utswmed.org, in 2017, revamping over 10,000 pages of content into a new, more audience-focused structure. Since then, we've provided content strategy, content management, writing and editing, and web strategy support. When UT Southwestern wanted to adjust to the current search landscape, they turned to us to help them with content strategy and to implement the content updates.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+Summary
+· We helped UT Southwestern update its content strategy to better align with AI summaries.
+· We implemented the new approach in its content, balancing visitor goals with organizational needs.
+· The site has shifted its focus and continues to perform well for visitors and UT Southwestern.
+The Challenge
+In 2025, AI became more integrated into the search experience. AI summaries appeared at the top of Google search result pages, answering questions that visitors previously would click through to a website for. The impact on websites has been significant, reducing overall traffic. But websites still have a purpose: AI bots use the website content to help answer the questions, and the websites enable transactions that you can't accomplish through search results. The key is balancing the needs of bots against the real client: prospective patients.
+Strategy
+Working with us and other web strategy partners, UT Southwestern set a goal to improve placement in AI summaries. At the same time, they recognized that once visitors arrived on their site, they wanted to quickly take action on their needs.
+To help AI search engines better digest their content, we shifted the content to be focused on questions and answers. When content is structured this way, AI bots can match searches with answers and the site is more likely to be featured as a featured links next to the summary.
+But the content also needs to work for visitors on the site. A healthcare website is primarily a tool to help patients connect with providers and get the care they need. We stressed the need to make user goals part of the strategy so that visitors could accomplish their goals once they arrived.
+Implementation
+We created content templates that answered common questions about conditions and treatments. For example:
+· What Is [Treatment]? · Why Choose UT Southwestern for [Treatment]? · What Conditions Does [Treatment] Treat? · What Are the Benefits of [Treatment]? · What Should Patients Expect Before [Treatment]? · What Should Patients Expect During [Treatment]? · What Should Patients Expect After [Treatment]? · What Support Services for [Treatment] Does UT Southwestern Offer?
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+· What Clinical Trials Are Available for [Treatment]? This format matches how AI bots seek information and addresses visitor questions about why they should select UT Southwestern over other options. The pages also feature a prominent Appointment button and links to providers who offer the service, the most valuable function the site can serve for both visitors and the organization. We are rolling this updated format out to the site as we update pages as part of an annual content review process. Impact Changing the content templates to meet best practices for AI search has allowed utswmed.org to continue to perform well in search. UT Southwestern has seen a reduction in overall click-through rates, but because we revamped the copy for AI summaries, key condition and treatment pages have not been affected. In addition, we've differentiated the site and its content by maintaining a focus on user needs and promoting the transactions that they want to make when they arrive, namely, making an appointment with a qualified provider who can help them with their health.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+5.3 Case Study: Human Factors Support for Office of Connected Care VA App Management
+The Department of Veterans Affairs identified and continues to promote the use of digital technologies as an essential part of the overall strategy to support Veterans, Caregivers, and Healthcare Providers care needs. The Office of Connected Care (OCC) has set up multiple access points for mobile applications. However, these access points were developed by different entities and provided different user experiences that could cause users confusion and possibly be a detriment to VA's initiative to promote the use of mobile applications. During Indefinite Delivery, Indefinite Quantity (IDIQ) VA36C7761R0010 Task Order 1 with the Human Systems Integration (formerly Human Factors) team, Ben Allegretti Consulting (BAC) supported (2020 - 2021) OCC to develop tools in support of providing a consistent experience across all VA mobile app access points. Using a human-centered design approach, we developed design criteria for VA mobile application access points and the VA App Store. We also developed guidance documents for creating and maintaining the VA App Store and individual VA mobile applications. Summary
+· We helped OCC map the experiences of multiple VA mobile app access points.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+· We conducted a comprehensive review and expert evaluation of the multiple VA app access points that highlighted where platforms, e.g., App Store, Google Play, and VA mobile access points, adhered to and deviated from usability best practices.
+· We developed design criteria for VA mobile application access points. We also developed guidance documents for creating and maintaining the VA App Store and individual VA mobile applications.
+The Challenge
+As part of its focus on promoting the use of mobile apps to Veterans, Lay Caregivers, and Healthcare providers to be flexible, OCC set up multiple access points for mobile applications. However, these access points were developed by different entities and provided different user experiences that could cause users confusion and possibly be a detriment to VA's initiative to promote the use of mobile applications.
+Research and Strategy
+As part of a comprehensive review and expert evaluation of the VA's mobile app access points, we mapped functionality of each VA mobile App access point, identified common user interface layout, interactions, features, and best practices to inform design criteria for VA mobile application access points and the VA App Store.
+Starting with the initial design criteria informed by our comprehensive review and expert evaluation, we conducted iterative rounds of user feedback to inform design criteria. Using the initial design criteria, we created a prototype access point. After two rounds of user feedback, where each round resulted in actionable insights to improve the design criteria, we finalized the design criteria and finalized an interactive access point prototype based on the design criteria.
+We conducted an evaluation of the download steps of the VA iOS and Android apps from their native platforms. Based on this evaluation, we identified usability issues and design considerations to take into account with platform requirements when implementing VA mobile apps via Apple App Store and GooglePlay.
+Implementation
+We created a Design Criteria document that includes criteria for VA App Library, VA app access points, and native platforms, such as Apple App Store and GooglePlay.
+We produced a VA App Library Prototype to illustrate the Design Criteria and interactions. The design criteria supported a process to ensure adherence to design criteria and app placement options including flexibility for new requirements and business rules.
+Two checklists were created. A checklist was created to apply the design criteria to the current VA App Library template and assess any changes needed to be compliant with the Design Criteria. Also, a VA App-specific Checklist was created to apply the design criteria to each existing VA app and assess changes needed to be compliant with the design criteria.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+A matrix (Excel document) was created that compiled information about all existing VA apps to identify inconsistencies between existing VA apps. Impact In addition to creating and providing tools for use by business owners and app developers, user testing identified participant preferences associated with the use of the various access points and provided actionable insights specific to a "VA App Library" including naming, app grouping, filtering, app search capability, etc. Use of these tools supports a unifying strategy to provide a consistent VA digital technology across platforms to Veterans, Lay Caregivers, and Healthcare Professionals.
+Department of Veterans Affairs Request for Information Replacement Model for VA.gov/Notice ID: 36C10B26Q0131 Use or disclosure of this information is subject to the restriction on the title page of this proposal
+
+

@@ -1,0 +1,74 @@
+February 5, 2026
+U.S. Department of Veterans Affairs (VA) Technology Acquisition Center 23 Christopher Way Eatontown NJ 07724
+Attn: Allison Fulton, Contract Specialist; Evan Schlisserman, Contracting Officer
+RE: Replacement Model for VA.gov sources sought; 36C10B26Q0131
+
+The following information presents FWI's experience and capabilities to support the Replacement Model for VA.gov requirement.
+We are a professional communications and administrative services company that specializes in providing nearly identical services for several government agencies, including for the U.S. Army III Corps (III Corps), the U.S. Department of Energy (DOE), and the National Science Foundation (NSF).
+Listed below is our corporate information.
+
+Company Name:
+Point of Contact (POC):
+Corporate Contact:
+CAGE Code: Unique Entity ID: GSA MAS: GSA OASIS+ SB Domain 1 and Domain 2: GSA OASIS+ 8(a) Domain 1 and Domain 2: GSA 8(a) STARS III: GSA HCaTS Pool 2 8(a): Socioeconomic Status: CMMC Level: Facility Clearance:
+
+FedWriters, Inc. (dba "FWI") Mitchell Cho, President and CEO phone: 202-271-0312 email: mitchell.cho@fedwriters.com address: 3975 University Dr., Suite 440, Fairfax, VA 22030 phone: 703-872-7848 web: fedwriters.com 65RV7 CMVLQH8CKYQ5 GS00F217GA 47QRCA25DS424 47QRCA25DA355 47QTCB21D0137 47QREB21D0039 Small Disadvantaged Business Level 2 (3CPAO) Top Secret
+
+Please do not hesitate to contact me if you have any questions or would like any additional information.
+
+Respectfully,
+Mitchell Cho President and CEO
+
+i
+
+Respondents are requested to include
+1. Company or organization overview (name, location, and brief description of relevant capabilities).
+A mature Small Business with a Top Secret facility clearance, FWI draws on our world-class capabilities in comprehensive website management and digital solutions. These core capabilities tie into the foundation of FWI, where our mantra, "clear, compelling, and compliant," guides each and every project from planning to production.
+Our success with managing government programs has not gone unnoticed. FWI was ranked #50 on Inc. Regionals list of fastest-growing companies in the Mid-Atlantic; #146 on the Inc. 500 list of fastest-growing companies; #3046 on the Inc. 5000 list of the fastest-growing private companies; #2760 on the Inc. 5000 list of the fastest-growing private companies; #3 on the Virginia Chamber of Commerce list of fastest-growing companies in Virginia; and #137 on the Inc. 500 Regionals list of fastest-growing, private companies in the DC Metro region.
+We also hold several industry certifications, including Capability Maturity Model Integration (CMMI) Maturity Level 3 for both Services and Development (Defined Processes), International Organization for Standardization (ISO) 9001:2015 (Quality Management), ISO 27001:2013 (Information Security), ISO 20000:2018 (IT Service Management), ISO 22301:2019 (Security and Resilience), and ISO 14001:2015 (Environmental Management).
+
+NASA Aeronautics Research Mission Directorate website
+
+DOE Office of Clean Energy Demonstrations Liftoff Reports website
+
+NOAA Labs Library website
+
+West Point Insider Threat Program website
+
+Figure 1. Examples of Government Websites FWI's has Modernized and Maintained.
+
+Headquartered in Fairfax, VA, FWI was founded in 2010 by a former U.S. Marine with a background in grant writing, regulatory development, and strategic planning.
+
+1
+
+In our support to more than 80 government and commercial clients--including every military branch of the U.S. military. FWI leverages our corporate experience, proven capabilities, and core mission, "to communicate the business of government with high-quality writing, research, and technology services," to support our clients' goals and their agency's mission.
+For instance, we provide website optimization and design for the U.S. Army III Corps under a $2.4M contract, conducting website management, design, and optimization while adhering to military branding guidelines to improve navigability, searchability, and layout. We also maintain high-value communication content for Army.mil, NSF.gov, and NASA.gov.
+FWI is committed to exceeding the expectations of the VA staff by continuously improving our performance through responsiveness, attention to detail, and technical capabilities. Our corporate leadership is committed to ensuring quality and contract success as all program activities are ultimately held accountable to the President and CEO of FWI, Mr. Mitchell Cho.
+2. Relevant experience with similar challenges.
+The following lists some of FWI's recent PRIME contracts most relevant to the Replacement Model for VA.gov requirement.
+DOE Office of Clean Energy Demonstrations (OCED) Technical Writing: FWI provides technical writing and design support to the Office of Award Policy, Cost Analysis, and Oversight as well as other offices within OCED. We design documents and webpage mock-ups in close coordination with the OCED Communications Team using the content management system, Drupal. FWI also makes recommendations for web content, documents, webpage layouts, and visuals. We write, edit, and revise documents in accordance with Federal Plain Language Guidelines, which may be posted to OCED's website. FWI ensures all deliverables comply with existing laws and regulations concerning web accessibility, design, and content.
+Contract No.: 47QTCB21D0137 / 89243623FCD000003 Type: Time & Materials Value: $4,477,644 PoP: 01/06/2023 - 07/05/2025 POC: Dvora Wilensky, COR, 240-702-5027, dvora.wilensky@hq.doe.gov
+NSF Directorate for Geosciences (GEO) Web Support: FWI supports the GEO Directorate with end-to-end web publishing support by advising on and maintaining GEO sites and web applications (Drupal, PIMS, eClear, ePublish and Document Routing System). We deliver web pages, web content, layouts, documents, and graphics for GEO sites. FWI participates in regular meetings with the Office of Legislative & Public Affairs (OLPA) and the Web Implementation Group (WIG) to design and build webpages on the modernized NSF external website environment. Our support also includes remediating digital content to adhere to Section 508 accessibility standards.
+Contract No.: 47QTCB21D0137 / 49100424F0058 Value: $2,512,349 PoP: 04/01/2024 - 03/19/2025 POC: Simona Gilbert, COR, 703-292-7216, sgilbert@nsf.gov
+III Corps Communications and Public Affairs Support: Under this follow-on contract to our 3-year multimedia contract with III Corps (W9115122F0007), FWI continues to support the U.S. Army III Corps Public Affairs Office with effective communication strategy development,
+2
+
+planning, and execution. We conduct website optimization and design for Fort Cavazos and U.S. Army websites while adhering to branding guidelines to improve navigability, search ability, and layout. We conduct social media strategy and management for Facebook, Twitter, and Instagram. FWI also designs and publishes multimedia, video, and graphic design products to improve the public understanding of III Corps and Fort Hood while effectively communicating the III Corps mission and initiatives through social media platforms and traditional websites.
+Contract No.: GS00F217GA / W9115124F0063 Value: $2,462,687 PoP: 03/08/2024 - 03/09/2029 POC: Shawn T. Jenkins, CO, 254-287-7679, shawn.t.jenkins.civ@army.mil
+Defense Intelligence Agency (DIA) Office of Corporate Communication (OCC) Visual Art (COMVISART) Services: FWI provides a range of design and communication support to the DIA OCC. Our visual information specialists and web developers produce and edit graphic designs; proofread all material; assist with video/podcast production; and maintain DIA internal and external websites. We also perform data maintenance, data transfers, web design and development, and editing and proofreading support.
+Contract No.: HHM40221C0078 Value: $2,814,393 PoP: 09/30/2021 - 09/29/2026 POC: Robert Kanizar, COR, 202-231-5028, robert.kanizar@dodiis.mil
+3. Responses to the topics and questions in this request.
+FWI has a strong background in developing a variety of web products. In support of several government clients, we create and maintain engaging, plain language websites to help communicate technical and scientific concepts to the public. FWI will implement web, graphic, and user experience (UX) and user interface (UI) design strategies to produce cohesive, userfocused web design layouts, and web pages. This entails tracking web metrics using platforms such as Google Analytics to design and publish effective visual and written content.
+FWI offers our expertise in the production, design, and development of websites, microsites, applications, and graphical user interfaces. We conduct applications testing and database development, optimizing machining and product quality. FWI will manage web products and provide web-redesign, as well as UX design. Our staff will implement web, graphic, and UX design strategies to produce cohesive, user-focused web design layouts, infographics, widgets, badges, data dashboards, interactive graphics, and more.
+Highlights of our web product development approach include:
+· Rapid prototyping. Quickly fabricating preliminary wireframes and prototypes to evaluate design and functionality for proof of concept.
+· Quality control reviews. Building, testing, and reviewing written and graphic web components to recommend changes and ensure successful deployment of web products.
+· UX design. Improving design and navigation to help users scan content, including ensuring content complies with Section 508 and Plain Language standards.
+3
+
+Examples of FWI's Web Product Development. For instance, we provide III Corps with website services to improve the public understanding of III Corps and Fort Hood. This entails effectively communicating the III Corps mission and initiatives through traditional websites and social media platforms. We provide website management, design, and optimization within Army website branding guidelines to improve navigability, searchability, and layout. FWI is currently entrusted to manage , replace and update high-value internal and external web content for the DIA, NASA.gov, Army.mil, Cyber.Army.mil, and NSF.gov.
+Examples of Government Web Products FWI has Designed.
+4. Descriptions of relevant technologies and approaches. FWI brings a proven track record in developing and maintaining user-focused, plain language websites for government clients, effectively communicating complex technical and scientific information to the public. Our approach combines rapid prototyping, quality control reviews, and robust UX/UI design strategies, including Section 508 and Plain Language compliance, to create engaging, accessible, and cohesive web experiences. We leverage web metrics platforms like Google Analytics to continuously refine content and design, ensuring optimal navigability, searchability, and user engagement. For example, our support of III Corps demonstrates our expertise in managing and optimizing websites to enhance mission communication through effective content and brand-consistent design. 5. Any additional information relevant to VA's objectives. FWI brings extensive, directly relevant experience that uniquely positions us to support VA's website replacement initiative, with expertise spanning multiple federal agencies including DOE, DIA, and the NSF. FWI is ready to leverage this proven track record to help VA deliver a premier, modern, secure, and Veteran-centric digital experience that serves our nation's Veterans with the excellence they deserve.
+4
+
+

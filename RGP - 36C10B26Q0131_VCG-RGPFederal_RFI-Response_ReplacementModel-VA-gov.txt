@@ -1,0 +1,639 @@
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248
+(+1) 214.777.0600
+
+Replacement Model for VA.gov.
+
+Solicitation Overview
+
+Solicitation identifiers: 36C10B26Q0131
+
+Notice ID 365357
+
+Agency / Buying office
+
+Department of Veterans Affairs, Technology Acquisition Center (TAC), 23 Christopher Way, Eatontown, NJ 07724
+
+Solicitation / RFP (or RFI) number
+
+36C10B26Q0131
+
+Title / requirement name
+
+Replacement Model for VA.gov
+
+Due date/time + time zone
+
+02-05-2026 12:00 PM EASTERN TIME
+
+Offeror legal name Doing Business As (DBA) UEI and CAGE code Business size/status Primary address Website
+
+Offeror Overview VERACITY CONSULTING GROUP, LLC RGP Federal K5FNK7A27Z83 and 7LHY9 Large 15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 rgpfederal.com
+
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 1
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 (+1) 214.777.0600
+A VA.gov Modernization that Honors the Stakes
+Executive Summary.
+Modernizing VA.gov is a continuity preserving evolution; not a rebuild. Veterans Affairs (VA) can improve experience, identity, content, and platform capabilities without interrupting access to care, benefits, claims, prescriptions, or secure communications. This approach has the secret sauce that delivers incremental, composable modernization guided by Veterancentered design, strong governance, and measurement.
+We Know Veterans Affairs.
+VA.gov is so much more than just another website; it's a lifeline for Veterans and the central access point for high-volume, high-stakes services across benefits, healthcare, and support. RGP understands replacing VA.gov is much more than a technical rebuild, but also a holistic modernization effort that must balance secure, scalable platform capabilities with a deeply human-centered experience. Through years of partnering with the Department of Veterans Affairs on digital modernization, content strategy, and human-centered design initiatives, we have gained firsthand insight into how Veterans navigate digital services and how critical accessibility, trust, and clarity are to their experience.
+Our work within VA's ecosystem has also given us an understanding of the operational and technical constraints, from VAEC GovCloud and stringent security/privacy requirements to complex integrations across EVSS, VBMS, MHV, Caseflow, VA Profile, and evolving Login.gov/ID.me identity flows. We recognize delivering a best-in-class digital experience requires alignment across design, technology, operations, and program offices. A continuity-first, experience-led approach will help the VA confidently modernize while honoring the realities of its mission and environment.
+An Evolving VA.GOV That Protects Veterans.
+The successful future of VA.gov will not be defined by a single redesign or a major system replacement. It will be a steady, confident evolution of strategy, operations and engineering that preserves trust for every Veteran every day. In this future state, VA.gov becomes a calm, intuitive, dependable service companion that adapts to Veterans' needs while modernizing safely behind the scenes. The details of implementation look different depending on the circumstances but follow these common guiding principles:
+Let the experience lead. This goes for both Veterans and service providers and it starts with understanding the real problems each user group is facing. Armed with this understanding, we can define the desired future state.
+Enable technology evolution. To support an ever-changing digital environment,
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 2
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248
+(+1) 214.777.0600
+technology must be adaptable. The ideal technology ecosystem is composable and decoupled from specific tools to allow for changes without requiring full re-platforming.
+Make governance intentional. The best digital experiences are governed by standards, processes and guardrails that enable accelerated portfolio delivery and ensure maintenance over time.
+Measure to guide incremental improvements. Measured outcomes steer future upgrades and ensure your time and resources are spent on efforts that bring the best outcomes.
+What might the future state look like for Veterans? The following scenarios aren't hypotheticals. They reflect patterns we've already seen work across VA programs and elsewhere. They grow directly out of lessons learned from real initiatives that have improved clarity, connection, and continuity for a wide variety of users. This is how we can apply those same principles to a VA.gov modernization.
+Morning Clarity: "Show Me What Matters Today".
+James, a 42-year-old Army Veteran and father of two, will soon begin his morning commute. He has a question about one of his healthcare benefits, so before he leaves for work, he goes to VA.gov to find the answer. He notices a new AI search feature has been added to the site. He types his question into the search field and VA.gov surfaces the right information, giving him quick clarity that eases the stress of a day full of competing demands. By starting with AI powered search, James found a faster path to content beyond what traditional site navigation could offer.
+AI search is a singular improvement that can make a big impact in a variety of different ways. Using information already on the site, natural language processes models interpret search queries and recommend results. Summarized search results in common language and accompanied by links help James navigate directly where he needs to go without ever clicking a navigation menu.
+Over time, incremental improvements can be made using this AI tool to improve Jame's experience even more. When James signs in to VA.gov again, he not only has access to AI search, but now he sees a personalized "Today View" that brings together his most
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 3
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 (+1) 214.777.0600
+important information:
+§ Details for an upcoming physical therapy appointment § Dosage and refill reminders, for his prescriptions § Update about his education benefits § Previews and direct link to his secure messages
+Through our work with the Office of Connected Care, we introduced experience patterns that aggregate cross-product signals (appointments, medication refills, and secure messages) into simplified, Veteran-facing views. Similarly, our leadership of VA Profile / Master Data Management unified fragmented data sources, enabling millions of accurate, real-time updates to flow into digital touchpoints. These capabilities directly support the foundation of James's future "Today View" and incremental improvements could be made to enable AIenhanced search to surface the right information instantly, reducing dependence on navigation menus and eliminating guesswork. See Appendix pages A-21 and A-22 for more information.
+One Seamless Path to Benefits: "Online or In-person, it's the Same Experience".
+Theresa, a 34-year-old Marine Corps Veteran, is ready to apply for her benefits. The process is now standardized for both the online and in-person experience, and the traditional long forms are replaced with step-by-step incremental data entry.
+1. She begins the process of creating an account using ID.me/Login.gov.
+2. Once she has an account, the personalization AI sees she has not applied for benefits and prompts her to do so. The experience walks her through step-by-step.
+3. If she gets stuck, an AI chatbot (supported by the same or similar algorithm used for AI search) offers to chat and provides links to helpful information. She never feels locked out, confused, or out of control.
+4. On the backend, the platform enables Theresa to complete her service applications in multiple sessions by saving her progress at regular intervals.
+5. Using the existing VA Profile (or something similar), the information she enters can also be shared with multiple VA service providers so she does not need to fill out multiple applications.
+6. Once she's applied, she logs in to a personalized space where she can see the status of her application and view other information that helps her know what to do next.
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 4
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248
+(+1) 214.777.0600
+
+Our work on past VA modernization efforts, including support across Veteran, caregiver, beneficiary personas for impactful journeys such as:
+
+§ applying for live pension benefits § service-related disability application § survivors pension/compensation § health care enrollment
+
+§ finding a home § looking for a job § scheduling a burial and memorial
+
+We have replaced monolithic, multipage applications with guided, stepwise journeys that preserved progress and reduced abandonment. We also introduced assisted-support patterns across the Veteran Community Care journey. These same design and workflow principles power Theresa's seamless application experience. See Appendix pages A-24, A-26, A-27, and A-28 for more information.
+
+A Clear, Supported Content Ecosystem: "Make Providing the Best Experience Easy".
+Linda, a 54-year-old VA employee, has worked for Veterans Affairs for more than a decade. She knows all the tips and tricks that help veterans be successful and does her best to share that information on VA.gov via articles, forums and chat support. She is now able to manage her content with a clear model that distinguishes different types of content, keeps track of versions and history and help ensure the right stuff is published to the right groups at the right time using their simplified content technology ecosystem. Modern content management ensures information is correct, consistent, and automatically updated everywhere it appears. Content becomes an engine of clarity rather than confusion for both Veterans and those providing services.
+
+The final pieces of the puzzle are the new features Linda has access to that transform how she creates and publishes content across channels like website and mobile apps. Templates are created that support how the AI algorithm interprets content which makes content faster to publish and easier to update. The content management software reminds Linda when content needs to be reviewed and updated to ensure the best search results are always being provided. It also provides a clear process for retiring out-of-date content as to not bog down search results.
+
+In our work at Performance Food Group and many other clients, we developed modular content types, lifecycle governance, and authoring workflows that ensure canonical information is accurate and automatically distributed across channels. By establishing version control, automated review reminders, and content dependencies, we enabled
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 5
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 (+1) 214.777.0600
+teams--like Linda's--to manage large, complex content estates with clarity and confidence. See Appendix pages A-25, A-26, A-30 for more information.
+How To Accomplish This Vision.
+Across all these stories, the most powerful part of the future VA.gov is not any single feature, but the steady consistent improvements that build an intelligent content ecosystem focused on improving the experience for all user groups overtime. An intelligent content ecosystem considers all parts of a content supply chain (strategy, operations, and engineering) and makes them work together toward a singularly focused goal. Accounting for the rippling effect a change to one area has on the other two is the secret recipe for success that many organizations miss in their modernizations.
+Strategy Guides Meaningful Modernization.
+Effective content ecosystems emerge from clear messaging strategy and a well-defined content strategy. Most organizations have at least a basic messaging strategy, meaning they understand the types of information they want to communicate to certain audiences. However, content strategy is often a significant blind spot that requires understanding the experience and needs of the users, the types of content they use, the channels they frequent, how they interact with content on those channels to overcome. Aligning those things to best meet the goals of the organization creates a strong strategy that serves as the foundation for a cohesive future-state experience and informs operational and engineering decisions.
+Every organization approaches these complex problems somewhat differently, but successful strategies are based on user experience research, content and channel assessments, persona development, user journey mapping, and other human-centered insights. The information defined by these activities is directive but works in conjunction with operations and engineering to create the user experience and the foundation of the content ecosystem. Although strategy development can feel overwhelming, the process can be efficiently completed when supported by the right internal stakeholders. And in the case of Veterans Affairs, much of this groundwork has already been explored through related initiatives--giving you a strong head start.
+Operations Sustain and Enable Delivery.
+Strategy defines a vision for an ideal future state void of limitations. Operations (and engineering) keep that future state safely tethered to reality. Operations focus primarily on the processes that support the end-user experience throughout the content lifecycle and the people who execute and/or support those processes. Operations look different in every organization, each with their own limitations and tradeoffs, but the best operational models to have some common elements:
+Service Design Mindset. Organizations that design operations in service to the strategy and keep that as a guiding principle in all decision-making get the best outcomes. Developing a service design mindset involves activities like service blueprinting, process mapping and content organization design to bring processes and people into alignment.
+Embedded Standards and Controls. An ecosystem that isn't governed will not be maintained. Embedding standards and controls into processes and systems is an
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 6
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 (+1) 214.777.0600
+essential ingredient to success that many organizations address as an afterthought. Creating meaningful standards can be part of creating the strategy, but operations is where policy and process are established that support their enforcement. This includes things like program and product management, technology managed workflows and procedural guardrails.
+Intentional Change Management. Changes to other areas of the content ecosystem almost always mean operational changes as well. Organizations that intentionally plan change management as part of implementation get faster more complete behavioral alignment from employees. Meaningful change management involves more than just communications and training.
+Content operations at the VA are complex. A range of workflows for publishing content and content teams are spread throughout an org structure where content operations standards unenforced, highly varied, or non-existent. Simplifying these processes and structures and embedding standards and governance will be critical to establishing better operational practices and maintaining them overtime. This will require behavioral change from employees, but this is manageable with intentional change management practices embedded into the newly established ecosystem.
+Engineering Builds the Modern Content Foundation.
+Content engineering is primarily completed within the technology, systems, and platforms themselves, but it also includes some process and people considerations specific to ensuring solutions align with the strategy and are supported and maintained overtime.
+Content technology ecosystems evolve in complexity over time due to changing priorities and needs. Often, technology limitations are the primary factor dictating the user experience. This situation is stifling and falls short of meeting user needs. To avoid this, modern technology solution designs are componentized and modular to increase their flexibility and adaptability.
+We believe Veterans Affairs is having similar challenges with a decoupled content management architecture that facilitates parallel teams implementing a wide range of capabilities. This decoupling allows the VA to separate content management from application code, eliminates a real time production CMS, and promotes the separation of concerns between teams. The paradigm is sound, but it has inadvertently led to a dual-track frontend architecture:
+§ Track one contains React components with hard-coded content invoking a Ruby on Rails service layer.
+§ Track two contains liquid templates, YAML, and markdown files rendered at build time from the content in Drupal.
+These dual tracks have created inconsistent content operations, confusing authoring workflows, and tight couplings between components. In addition to creating issues for operations and engineering, these things can also stagnate the user experience as the VA must spend more resources on technology and operations than experience improvement.
+A decoupled headless content management system is the modern solution to many content
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 7
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 (+1) 214.777.0600
+woes. It serves as the single source of truth which is critical for enabling seamless and efficient operations across multiple existing channels (websites, mobile apps, chatbots, AI systems) as well as any future platforms. Additionally, a decoupled architecture dramatically accelerates development as teams can build new experiences by simply connecting to existing content APIs, eliminating the need to recreate or duplicate content for each channel. Launching new applications becomes straightforward: developers tap into the same content repository while building channel-specific experiences and updates made once in the CMS instantly propagate across all touchpoints. It's an engineering solution that provides the most flexibility for strategic and operational change while still providing high-quality service.
+Platform Modernization Without Disruption.
+Not all technology problems require a complete re-platform. The headless CMS approach would build upon the solid architectural principles already in place on VA.gov and unlock the full potential of a content management system. VA.gov would become a single, composable, API-driven content platform that continues to power the existing React applications and use existing service layers. This would reduce development friction caused by tight couplings and competing paradigms and increase development and operational efficiency without the disruption of a "big bang" re-platform.
+Moving toward an architecture that fully embraces the headless and composable paradigm is possible with technologies employed on VA.gov today. React is currently used as the primary technology in the experience layer, and its component-first architecture is ideal toward this end. However, to fully leverage the power of a headless CMS there are patterns that should be followed:
+Establishing a single approach to pull content from the CMS is critical. A strength of composable architecture is it facilitates using any technology to consume content from a central repository. While VA.gov is comprised of multiple React applications, it is a single user experience. As such, using consistent technology would maximize the portability of components and reduce duplicative functionality. Embracing JSX over Liquid templates would be a solid step toward this consistency.
+Refactoring existing React components to exclude hard-coded content. Content residing in a codebase presents multiple challenges. Operationally, changes to content require developer intervention disrupting delivery cycles. Content cannot easily be used across channels as it can housed in a CMS. Furthermore, providing multi-lingual experiences to users becomes more challenging.
+While we see moving content from application code to the CMS as an essential step from a technical perspective, it also provides the opportunity to revisit how the content is structured. Intentional content modeling practices help ensure optimization not only today, but also when new features and cross-channel delivery happen in the future. Focusing on reusability instead of organizing content by page, establishing clear content hierarchies, including metadata for each content type, and favoring structured content over rich text are all examples of content modeling activities that could help.
+Once content is in order, the content structure makes clear how to optimize the build and deployment of the React application. For example, for pages that change infrequently,
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 8
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248
+(+1) 214.777.0600
+using static generation (SSG) served from a CDN can increase performance, while pages requiring authentication or containing personalized user content would benefit from server side-rendering (SSR). To create a maximally scalable foundation, configuring incremental builds and/or on-demand page generation is the best solution. This approach supports a scalable and extensible site that will easily handle spikes in usage.
+Guided by principles of continuity-first, the headless CMS approach incrementally decouples Drupal dependencies where needed, introduces a single supported content layer, and removes content from the React codebase. Capabilities can evolve without platform lock-in, and clear standards and reusable design patterns can be used to accelerate delivery across teams with security, privacy, and accessibility embedded at every layer. Every release becomes an opportunity to advance the Veteran experience-- offering gentle transitions, empathetic content, and a coherent journey powered by a modern, composable architecture that can grow with VA's mission for decades to come.
+Decouple identity providers and inject tiered identity proofing. Decoupling the id.me and login.gov identity providers from VA.gov reduces friction for both users and development teams. By introducing a third-party SSOe solution, the implementation of managing each provider workflow is abstracted away from VA.gov. This ensures a smoother login, MFA, and identity verification process. Another way to reduce friction is to reduce the identity proofing process for VA.gov users that have a relationship with Veteran that either receive benefits or are responsible for Veteran care. By introducing a tiered identity proofing process that leverages a subset of MPI data stored in VA Profile, users can access areas of VA.gov based on their tier. This allows more users to make use of VA.gov and provides immediate access reducing support call volume and foot traffic into VA medical centers.
+Reducing Friction, Enabling Innovation.
+Following architectural best practices fundamentally shifts where development teams spend their time. Decoupling content from consuming channels and building frontends with scalable patterns results in a technical foundation that supports rapid change rather than resisting it. By removing technical friction and redirecting energy toward innovation, teams can focus on high-value outcomes like the AI-enabled search referenced in the scenarios.
+Implementing an AI-driven search solution starts with defining the searchable content. We then convert it into embeddings, a format that captures meaning and concepts. These embeddings are stored in a vector database (like Pinecone or Supabase). When a Veteran enters a query, the system finds the most relevant benefits from your curated content and sends them to an LLM which generates a conversational answer tailored to their situation. The Veteran gets a helpful, plain-language responses that guide them directly to the right benefits and enrollment pages.
+Other opportunities for innovative and high-value outcomes for Veterans may not come with as many caveats. The AI-driven personal to-do list referenced in the scenarios above is an example. Such a solution would consist of fetching contextual information about the loggedin user using data from the identity provider and the Ruby on Rails service layer. This data would then be fed through a rules engine (custom business logic) for determining eligibility, sequencing and prioritization of workflow actions. These results would then be provided to an LLM which generates a personalized greeting and summary of next steps. In this case the AI is
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 9
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 (+1) 214.777.0600
+not changing the mechanics through which the user interacts with the system as it does in search but is being leveraged to add value by creating a personalized experience focused on helping Veterans to find what they need more efficiently.
+Risks & Tradeoffs.
+Risks and tradeoffs must be considered with any technical change. While we believe fully embracing a headless CMS as the core of a resilient content ecosystem that powers multiple channels will reduce operational friction and enable innovation, there are potential side effects to consider:
+How the React applications consume data from the CMS. This is necessary to mitigate a tight coupling to specific data structures or vendor lock-in. A certain amount of this may be acceptable and can be managed through development standards. However, adding an abstraction layer between the CMS and content consumers that normalizes data into a consistent shape would help keep application code CMS-agnostic. While this approach allows full control of the data model, it does introduce another layer to maintain and debug. A pragmatic approach is to be intentional about any coupling and ensure it is isolated rather than permeating the entire codebase.
+How user experience changes impact different sets of users. While chat-based interfaces and LLMs may be considered ubiquitous, such an experience may feel novel to some users of VA.gov. The intended purpose of this feature is akin to the fundamental principles of web accessibility - removing barriers to entry. To that end, the feature cannot be considered a success if it enhances the experiences for some users while becoming a burden for others. Careful thought should be taken in the nuances of the experience with offramps provided for users who feel comfortable with a more traditional approach.
+Lessons Learned.
+RGP has implemented intelligent content ecosystem solutions for a wide variety of clients over the years. We know this works because we've seen it, but we have also learned some lessons along the way that are critical to success:
+You must consider the whole ecosystem, not just the technology. People, processes, and strategy are critical to headless CMS projects (and content projects in general). An architecture can be technically sound, but if content teams find the system difficult to use, or if stakeholders don't understand the underlying value, the effort falls apart. Organizational readiness is key to support this transition through establishing processes and delineating of content ownership.
+Content editing and preview experiences must be frictionless. The people using the system to create experiences for Veterans should be empowered by the features and flexibility offered by a headless architecture. This can be achieved through ensuring robust preview functionality, inline editing where possible, clarity around required vs optional fields, and specifying character limits if necessary. Additionally, including content editors in the CMS selection process can support adoption.
+Moving content uncovers hidden issues that must be addressed. More than copying data from one system to another, content migration can expose issues with the content itself, not just the technology. These issues are common and appear in almost every migration, but they must be addressed as they can heavily impact every area of the content ecosystem as well as project
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 10
+
+15950 North Dallas Parkway, Suite 330 Dallas, TX 75248 (+1) 214.777.0600
+budgets and timelines. Examples of these types of issues include things like removing out-of-date content, refactoring content structure, or addressing inconsistencies between existing content and new content models.
+Conclusion.
+Improvement without the overhaul is possible with an intelligent content ecosystem built on strong strategy, supportive operations and composable technology solutions that can adapt to the needs of the moment. By incrementally implementing a headless CMS in place of other less flexible alternatives, VA.gov can become the world-class experience Veterans deserve without disrupting services and experiences along the way. It's modernization that honors the stakes. We know this works because we have seen it in action. Included in the Appendix of this document in the following pages are an expanded sampling case studies with details on the solution, their implementation and how RGP supported the effort.
+© 2026 Resources Connection, Inc. Confidential | rgpfederal.com | 11
+
+APPENDIX
+VA.gov Modernization Strategy.
+January 2026
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-1
+
+Appendix Contents
+
+A-3
+
+Executive Summary
+
+A-4
+
+Capabilities Overview
+
+A-7
+
+Our POV
+
+A-18
+
+How We Can Help
+
+A-19
+
+Success Stories
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-2
+
+Accelerating Impact: Designing What's Next for Veterans Affairs.
+
+Shaping the Next Generation of VA.gov
+VA.gov is more than a website. It is the digital front door to healthcare, benefits, records, appeals, and secure communications for millions of Veterans and their families. Modernizing this sprawling ecosystem requires more than a new platform; it requires addressing identity, navigation, content, governance, and system integration holistically. RGP brings deep VA experience across Office of Connected Care, ICAM, Master Data Management, and multi-portfolio digital strategy. We understand the technical, operational, and regulatory environment, and the Veteran expectations that must guide every modernization choice. Our approach is incremental, composable, and continuity-first, ensuring VA.gov evolves safely while remaining fully operational.
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-3
+
+EXPERIENCE & TECHNOLOGY CAPABILITIES FOR VA.GOV
+
+Capabilities Overview.
+
+ Veteran-centered research and insights  Identity, authentication, and account recovery flows  Experience architecture and design systems  Structured content strategy & governance  Scalable platform architecture & integration  Measurement frameworks & analytics  Modern DevSecOps practices  AI-assisted navigation, Search, and content readiness
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-4
+
+What Experience
+Means for VA.gov.
+For Veterans, experience means
+ Knowing exactly what to do next  Never losing progress  Being able to sign in easily and recover gracefully  Consistent, plain-language content  Navigation based on intent--not bureaucracy  Trust that their data and identity are protected
+
+Anything that can be
+seen, heard, felt, or touched
+
+Environment & Surroundings
+
+Communications
+
+Interactions & Touchpoints
+
+EX Experience
+
+For VA teams, experience means
+ Governed components and templates  Clear workflows and lifecycle rules  Faster, safer publishing  Tools that support--not slow--delivery
+
+Includes any touchpoint, interface, system, platform, or device a user interacts with through the organization
+
+Processes
+
+Tools, resources & support at users' disposal
+Culture
+Personalities & Behaviors
+Organizational structure, leadership style, attitudes, aspirations, compensation & benefits
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-5
+
+We're Building the Future of Digital.
+
+Research & Insights
+
+Design & Innovation
+
+People-First Strategy
+
+Content Strategy & Copywriting
+
+Strategic Tech Enablement
+
+Development & Engineering
+
+Veteran Experience
+
+Intent-based navigation
+
+Unified status models
+
+Trust-first identity and recovery
+
+Accessibility & inclusive design
+
+Content Strategy & Governance
+
+Structured content model
+
+Taxonomy aligned to Vet intent
+
+Lifecycle governance and review automation
+
+Architecture & Platform
+
+Composable experience layer Session continuity across apps
+
+API-first integration Secure, scalable VAEC alignment
+
+Analytics & Measurement
+
+Task completion KPIs A/B and feature flag testing
+
+Drop-off and friction mapping Equity and accessibility metrics
+
+©©2 022062 6ReRseosuorucrecsesCoCnonnencetciotino,nI,nIcn.cC. oCnofnidfiednetniatila|l r|grpgfpefdeedrearla.cl.ocmom | A-6
+
+ARCHITECTURE, EXPERIENCE, CONTINUITY
+Our POV.
+
+ Unified experience layer with diverse back ends  Content and identity patterns are standardized  Changes are incremental, not disruptive  Governance enhances speed instead of slowing it  Measurement validates every improvement
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-7
+
+Composable Transformation Strategy.
+Modernization should evolve VA.gov safely, not replace it in a single move. Composable capabilities allow for incremental improvements without completely replatforming. Experience patterns (identity, forms, navigation) are introduced centrally, reused everywhere. Centralized governance ensures consistency across benefit portfolios.
+Design + Content + Identity + Analytics = The Foundation For A Cohesive VA.Gov.
+Real-time measurement guides what to fix next.
+
+Modernization should be incremental, not disruptive.
+Skip the costly big-bang replatform. Composable approaches cut technical debt, speed delivery, and enable flexible, best-of-breed integration.
+Consistency creates confidence in your brand.
+Centralize design systems and governance to maintain brand voice while enabling local flexibility and compliance.
+
+Personalization must start with audience insight.
+Combine UX design with dynamic content to create experiences that engage stakeholders and build trust.
+Measurement is the foundation of meaningful content.
+Use analytics and AI to turn messaging into insights for datadriven decisions and ongoing optimization.
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-8
+
+Imagine What is Possible for Veterans.
+Imagine a VA.gov were Veterans see only what matters today--appointments, refills, claims, messages--in one Today View. Navigation is driven by "I want to..." instead of "Where does this live?" Identity friction disappears with progressive verification and reuse of known attributes. Status is clear, consistent, and always tells Veterans whether they need to act. Content is structured, current, and written in plain language. Teams across VA publish confidently due to strong governance and templates. Modernized experiences can launch without breaking continuity.
+
+Opportunity
+
+Description
+
+Impact
+
+Personalized "Today View"
+
+Unify what matters now in one place: appointments, refills, claims appeals updates, secure messages Surface next-best actions based on context and in-progress tasks
+
+Faster task completion and fewer wrong turns Improved continuity of care through clear, timely reminders and updates
+
+Plain-Language Search + Guided Assistance
+
+Natural-language questions return summarized answers and direct links to the right task Reduce dependence on menus and VA terminology
+
+Lower abandonment and reduced help-desk burden More equitable access for Veterans with different levels of digital comfort
+
+Save-and-Resume Applications
+
+Break long forms into manageable steps with autosave and return-to-task behavior Support multi-session completion across devices
+
+Reduced drop-off and fewer re-starts Higher completion rates for benefits and care-related workflows
+
+Contextual Identity + Recovery
+Structured Content + Lifecycle Governance
+
+Guide Veterans into the right sign-in/proofing path based on what they are trying to do Provide clear recovery options that preserve context and progress
+
+Fewer lockouts and fewer "identity loops" Stronger trust and security without unnecessary friction
+
+Standard templates and content types that stay consistent across VA.gov Automated review prompts and retirement paths to keep guidance current
+
+Less conflicting information and better search quality Faster updates when policy changes, improving Veteran confidence
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | | A-9
+
+Unify what matters now in one place
+Personalized "Today View" + Chat-Based Navigation
+
+Actions based on context and inprogress tasks
+© 2 02 6 R©es2o0u2r5ceRseCsoounrnceecstiCoon,nInnecc. tCioonn,fiIdncen. Ctiaolnf|idrgepntfieadl e| rraglp.c.coomm| | A-10 10
+
+Summarized answers and direct
+links
+Plain-Language Search + Guided Assistance
+
+Reduce dependence on menus and VA
+terminology
+© 2 02 6 R©es2o0u2r5cReessCoounrnceecs tCioonn, nInecc.tCioonn, fIindce.nCtioanl f|idregnptifaeld|errgapl..ccoom m || A-11 11
+
+Break long forms into manageable
+step s
+Save-and-Resume Applications
+
+Support multisession completion
+across devices
+© 2 02 6 R©es2o0u2r5ceRsesCoounrnceecstiCoonn, Innecc. tCioonn,fIindce.nCtioanl f|idrgenptfieadl e| rraglp.c.coomm| | A-12 12
+
+Identity Management that Meets the Moment.
+VA.gov's future-state architecture introduces a composable, headless content platform that unifies content across all React components while preserving the site's high-performance static delivery model. An SSOe-based identity layer simplifies authentication and supports role-based, tiered identity proofing, ensuring the right level of verification for Veterans, spouses, and dependents. Enrollment becomes streamlined and adaptive, leveraging VA Profile's MPI-backed data to reduce friction and maintain consistent, authoritative identity records.
+© 2 02 6 R©es2o0u2r5ceRsesCoounrnceecstiCoonn, Innecc. tCioonn,fIindce.nCtioanl f|idrgenptfieadl e| rraglp.c.coomm| | A-13 13
+
+The single static site is highly optimized and performant
+Contextual Identity + Recovery
+
+SSOe provider reduces the complexity and friction of the login and identity process, decoupling the providers from VA.gov
+Enrollment is only necessary if the user does not have an account
+
+VA Profile is one of the down stream systems
+
+MPI updates necessary to keep records updated with keys from ID.me & login.gov
+
+Can tap into VA
+Profile for this proofing - keeps a copy of the MPI
+
+© 2 02 6 R©es2o0u2r5ceRseCsoounrnceecstiCoon,nInnecc. tCioonn,fiIdncen. Ctiaolnf|idrgepntfieadl e| rraglp.c.coomm| | A-14 14
+
+Consistency Across VA.
+When present, complexity is the silent tax on everything content teams do. Streamlining convoluted systems simplifies the content supply chain, reducing friction, duplication, and the risk that things fall through the cracks. It also allows you to create better content models, reusable content types and clear content lifecycle governance. The result is a more scalable, resilient operation that can adapt as needs change, and bring real value to Veterans and their families without being held back by yesterday's tech and processes.
+© 2 02 6 R©es2o0u2r5ceRseCsoounrnceecstiCoon,nInnecc. tCioonn,fiIdncen. Ctiaolnf|idrgepntfieadl e| rraglp.c.coomm| | A-15 15
+
+Governed Fields, Not Just Free Text
+Structure Content + Lifecycle Governance
+
+Consistent Meta Data Across Tenants
+Standardized Content Types
+© 2 02 6 R©es2o0u2r5ceRseCsoounrnceecstiCoon,nInnecc. tCioonn,fiIdncen. Ctiaolnf|idrgepntfieadl e| rraglp.c.coomm| | A-16 16
+
+Veteran Experience Reimagined.
+VA.gov serves as a critical front door for Veterans, caregivers, and families. Where reliability, accessibility, and trust are non-negotiable. Modernization must happen in measured steps that preserve continuity of service while reducing friction in the moments that matter most (identity, navigation, forms, and timely, accurate content).
+With our expertise across experience strategy, content governance, and platform enablement in regulated environments, we can help VA move from reactive updates to a steady, insight-driven modernization model. Establish shared design and content standards. Enable safe incremental releases and use measurement to prioritize what to improve next, so VA.gov becomes more coherent, more scalable, and easier for both Veterans and VA teams over time.
+
+VA.gov Operations "A Day in the Life"
+Midday
+ Collaborate with benefits/health content teams
+ Use component library to build new pages without engineering support
+ AI-assisted authoring suggests structured snippets and plain-language improvements
+End of Day
+ Analyze campaign performance and engagement trends
+ Identify optimization opportunities for tomorrow
+ Use insights to refine strategy and accelerate impact
+
+Morning
+ Review Veteran task completion dashboards
+ Check alerts on pages with rising drop-offs
+ Publish updated content templates with automated compliance checks
+Afternoon
+ Launch incremental features behind feature flags
+ Validate improved navigation using analytics
+ Prepare next sprint's experience improvements
+Employees
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | | A-17
+
+How We Can Help.
+STRATEGY & IN SIGHTS
+Journey-led modernization roadmap Identity and navigation assessment Content ecosystem analysis
+EXPERIEN CE DESIGN
+Design system for VA.gov Identity + recovery patterns Intent-based navigation models
+TECHNOLOGY ENABLEMENT
+Composable architecture blueprint API gateway/service orchestration Session continuity design
+DELIVERY & OPTIMIZ ATION
+Incremental modernization execution Parallel-run release management Measurement framework + optimization loops
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | | A-18
+
+MESSAGING, MEASUREMENT, PL ATFORM
+Our Success Stories.
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-19
+
+Driving Outcomes That Matter.
+We help clients across federal, healthcare, and commercial sectors turn complexity into clarity by uniting insight, design, architecture, and analytics. From modernizing Veteran-facing platforms to transforming enterprise workflows and regulated healthcare journeys, or stories show how thoughtful governance and incremental modernization deliver impact at scale.
+Impact Across Every Dimension
+Personalization at Scale Compliance Built-in Technical Foundations
+Content that Converts Automation Everywhere Insight-Driven Decisions
+Rapid Activation Scalable Systems
+
+Healthcare & Regulated Environments
+HUMAN-C ENTERE D, COMPL IANCE -READY EXPERI ENCES
+We design digital experiences that meet strict regulatory and privacy requirements while delivering clarity and confidence for users. Whether improving Veteran interactions, personalizing healthcare journeys, or supporting enterprise platforms, our solutions balance innovation with governance, so users receive accurate, trustworthy information every time.
+Employee Experience
+MO DE RN, U NI FIE D I NTE RNAL P LA T FORM S AT SC A LE
+We streamline internal ecosystems by consolidating fragmented tools, improving navigation, and delivering personalized, role-based content. Our work enables employees to find what they need quickly, stay productive, and engage with organizational processes through intuitive, accessible interfaces supported by strong content governance.
+Customer Experience
+C OM P OSA BL E A RC HIT EC TU RE & C OHESI V E JO U RNEY S
+We build unified design systems and experience patterns that scale across complex portfolios that reduce inconsistencies, accelerate delivery, and ensure users encounter predictable, intuitive interactions. By pairing UX strategy with flexible technical foundations, we help organizations deliver seamless journeys across products, services, and channels.
+Workflow Transformation
+A U TO MA TE & S I MP LI FY AC RO S S C RI TI CA L P RO CE S SE S
+We reduce friction in multi-step workflows by mapping pain points, automating repetitive tasks, and integrating legacy systems into smoother, more transparent user experiences. From benefit applications to enterprise service delivery, we help teams streamline operations while preserving control, compliance, and auditability.
+Analytics & AI
+ME AS U REM ENT FRA M EWO RKS THA T DRI V E IM P ROV EM ENT
+We turn data into actionable insights through structured measurement frameworks, dashboards, and experimentation models. By analyzing where users struggle--and where systems slow them down--we help organizations prioritize improvements, personalize at scale, and demonstrate measurable impact across their digital ecosystem.
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-20
+
+Government & Public Sector
+Enhanced Veteran Care Through Data Transmission
+Thanks to a longstanding relationship, RGP continues to co-create with several teams to envision and enhance OCC's portfolio.
+
+The Challenge
+The Office of Connected Care (OCC) within the VA aims at making healthcare more accessible to veterans through digital products. Tasked with creating and maintaining a variety of apps under the Connected Care umbrella, the OCC ensures veterans can choose the healthcare options that work best for them.
+The Solution
+RGP helped stand up a UX Center of Excellence and Innovation that prioritizes rapid experimentation and user feedback to improve veteran experience. Our team is embedded in various stages throughout the development process for multiple OCC applications --from the initial discovery phase, where we establish the overall needs and requirements for the products, extending to the validation phase, where we ensure the products effectively serve veteran and provider needs.
+
+Data Transmission Human-Centered Design
+
+Data & Artificial Intelligence
+
+Customer Service & Call Center
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-21
+
+Government & Public Sector
+Improving Health Data Management for Veterans
+RGP was selected to lead the VA Profile project, a Master Data Management solution that provides a 360-degree view of all veteran data across departments and channels.
+
+The Challenge
+The U.S. Department of Veterans Affairs (VA) offers a wide range of essential services-from healthcare to home loans-to more than 22 million veterans and their families. They faced a significant challenge caused by siloed data systems. Even updating basic information, like addresses, was a cumbersome process that could involve multiple phone calls and in-person visits to different offices. They needed a comprehensive data management solution to connect veteran data across departments, channels and systems to revolutionize the customer experience.
+The Solution
+With a goal of improving the customer experience, RGP was selected to lead the VA Profile project, a Master Data Management solution that provides a 360-degree view of all veteran data across departments and channels. For the first time ever, veterans can now easily update their own contact information online or by phone, with that data being distributed seamlessly across the entire agency. The results? Since the first phase went live, the VA has successfully processed over 7 million address updates alone, earning recognition from the White House.
+
+Data & Artificial Intelligence
+
+Customer Experience Usability
+
+Web Experience
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-22
+
+Government & Public Sector
+Unifying ICAM Content to Improve Access and Clarity
+To stay compliant in this environment and plan for the future, stakeholders need access to timely, accurate, and easily consumable information about ICAM services.
+
+The Challenge
+Information about ICAM products and services can currently be found In 7 different websites across the VA. But with multiple ICAM websites to reference with some duplicate Information, some application owners are confused about where to go to learn about, access, and manage these services. The role of ICAM at VA is now more important than ever. In the face of rapidly changing organizational structure, limited resources, and emphasis on efficient delivery, ICAM is the backbone, ensuring the right employees have access to the right resources at the right time.
+The Solution
+With the goal of unifying ICAM products and services content in one location and One Voice, RGP was chosen by the VA to lead and manage the effort utilizing a product management methodology. The Initial scope for the effort Includes consolidating ICAM content from ICAM PMO and IAM Into the ICAM Services Portfolio website. Our approach focuses on vision and alignment with key client leaders; targeted content workshops per ICAM product to make Informed decisions about the content strategy; refinement of the site organization and taxonomy and documentation of knowledge, processes and best practices.
+Product Management Content Strategy Information Architecture
+Governance Human-Centered Design Engineering Enablement
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-23
+
+Government & Public Sector | Education
+Cutting-Edge UX Connects Academics to Opportunities
+To help students and educators better understand what NSF offered, we distilled the organization's value into a clear mission statement featuring succinct and accessible language.
+
+The Challenge
+The National Science Foundation (NSF) Education & Training Application (ETAP) aims to promote academic innovation by connecting students and educators to scholarships and training opportunities. However, vague brand messaging surrounding its mission statement, combined with a labyrinth of unclear application steps and deadlines, led to applicant frustration and help-desk overload. The inconsistent experience also made it hard for principle investigators (PIs) who use ETAP to complete to create an post outside opportunities, review applicants and report their awards to NSF.
+The Solution
+RGP collaborated with NSF to implement a range of innovative features and best practices for its overall experience These solutions provided applicants and PIs with step-by-step guidance for application ease-- from an applicant`s initial assessment to final notification. Additionally, we uncovered ways to support PIs, making it easier to list program offerings from universities around the world by establishing an intuitive backend experience.
+Advisory, Research & Strategy Customer Experience
+Program & Project Management Human-Centered Design
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-24
+
+Manufacturing & Distribution | Experience & Tech Strategy
+Reimagining Customer Connections Through Personalization
+Pairing human-centered design with a modern Sitecore framework to elevate every interaction and streamline how teams create and manage digital content.
+
+The Challenge
+Performance Food Group needed to modernize a fragmented digital ecosystem marked by inconsistent branding, disjointed user journeys, and a rigid CMS that slowed content creation. With content scattered and new pages or microsites difficult to launch, teams struggled to keep pace with audience expectations. They required a solution that unified brand, design, and technology into a cohesive, human-centered experience supported by a flexible, scalable content foundation.
+
+The Solution
+RGP combined human-centered design with a scalable CMS implementation to deliver a cohesive and flexible digital ecosystem. Our UX team established a modern brand identity, clear content taxonomy, intuitive user flows, and a unified design system that shaped a seamless experience across the public site and emerging microsites. In parallel, our technical team built a modular, component-based Sitecore framework that brought these designs to life--enabling rapid creation of new pages and microsites without custom development. We streamlined content operations by centralizing workflows and equipping content authors with hands-on training, ensuring long-term adoption and confident ownership of their new tools.
+
+Sitecore
+
+Customer Journey
+
+Customer Experience
+
+Human-Centered Design
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-25
+
+Cybersecurity | Experience Strategy
+Creating an Immersive Web Design to Amplify Training
+RGP enhanced a brand's perception and increased member engagement through personalization strategies and compelling user journey design.
+
+The Challenge
+(ISC)2, the world's leading cybersecurity consortium, was facing challenges providing a user-centric, member-focused website experience. Existing members found it difficult to track and maintain professional certifications, sign up for and attend continuing education events and contribute research to whitepapers necessary to advance their careers. The organization was in need of refinements to their primary website--and needed a new platform to support their bold vision of modernizing their online presence with a focus on authentically connecting with new and existing members.
+The Solution
+With a re-platform to Sitecore driving the experience, RGP dove deep into every part of the organization--conducting user research, 1:1 interviews, vision workshops and analyzing data and systems to define a vision. By defining and delivering a personalized user experience across all touchpoints, we enhanced the brand's perception and demonstrated the value of membership, resulting in increased enrollment, robust community engagement and an improved bottom line.
+
+Member Experience Web Experience
+
+Replatform
+
+Sitecore
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-26
+
+Healthcare | Experience Strategy
+Streamlining Organ Donation Membership
+By integrating the entire digital experience, RGP empowered users to efficiently manage the application process and enhance the network's membership.
+
+The Challenge
+This private, non-profit organ donation and transplant organization was looking to expand membership within their hospital network; however, they faced challenges due to an outdated and traditional paper-based organ sharing application process. With over 30-page hardcopy forms, the legacy system involved extensive manual paperwork and documentation, causing significant delays, coordination challenges, and communication gaps among network members. To drive membership growth, the organization recognized the need for a modern digital platform that could automate and streamline the application process, enhance communication, and improve transparency on both sides of the experience.
+The Solution
+RGP conducted a comprehensive approach to automate and streamline their application process--utilizing inventory management techniques, process mapping, and modern design strategies. The team implemented conditional logic to digitize and streamline the process, leveraging their expertise in Salesforce to enhance user experience and improve data management. By integrating the entire digital experience, Veracity empowered users to efficiently manage the application process and enhance the network's membership.
+
+Salesforce
+
+Advisory, Research & Strategy Customer Experience
+
+Data & Artificial Intelligence
+
+Human-Centered Design
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-27
+
+Financial Services & Insurance | Claims Modernization
+Building for Lasting Transformation
+RGP provided a blueprint for the entire end-to-end claims servicing process, introducing streamlined processes to improve the employee experience.
+
+The Challenge
+To stay ahead of emerging competitors, a prominent global insurer embarked on a transformation journey to enhance its relationship with policyholders, sales partners, and employees. Customers needed simpler ways to check and submit claims, sales partners wanted streamlined access to customer information for better customer support, and employees aimed to expedite the claims processing workflow. They needed to build a positive workforce and customer experience while improving claims across all lines of business.
+The Solution
+RGP's strategic approach aimed to deliver exceptional customer experiences, empower sales partners, and streamline processes for employees. By harnessing our expertise in service design and experience research, we identified key areas for improvement across people, processes, and technology to shape a comprehensive, end-toend claims experience blueprint that establishes unparalleled standards of excellence--and empowers our clients' transformation.
+
+ServiceNow
+
+Customer Experience Change Management
+
+Human-Centered Design
+
+Program & Project Management
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-28
+
+Technology | Product Strategy
+Driving Product Strategy and Delivery at Light Speed
+As healthcare shifts toward a more consumer-driven market, we delivered a digital product that helped our client quickly deliver a consistent, innovative user experience.
+
+The Challenge
+Our client, a Fortune 500 company, is a leading provider of technology services, including IT, digital, consulting, and business process outsourcing. The company has a large footprint in the healthcare technology sector, currently processing 50% of all health insurance claims nationwide. Recognizing the shifting landscape of modern healthcare, they wanted to create an innovative product for the health insurance space that addresses various healthcare audiences-- members and consumers, employees, employers, brokers, and providers--and deliver value in a consumer-driven, competitive market.
+
+The Solution
+They enlisted RGP to help with product strategy, product delivery, user experience, design, and architecture modernization. We helped refine the vision and strategy, created a comprehensive product design system, and developed a cloud solution that will serve as the model for all platform iterations. We delivered more than just a solution for our client's members, shoppers, employers, employees, brokers, and providers--we provided insurance companies and their users with endto-end digital experiences, innovating their connection to healthcare.
+
+Human-Centered Design
+
+User Experience
+
+Design System
+
+Solution Architecture
+
+Cloud Solution
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-29
+
+Financial Services & Insurance | Akumina
+Transforming Employee Experience Through Intranet
+Leveraging our deep Akumina expertise, we validated requirements, covering every aspect from user needs to design, content, build, and implementation.
+
+The Challenge
+With a workforce of 10k+ employees, this life insurance company was committed to providing its associates with a modern, user-friendly employee experience. They aimed to design a personalized and welcoming intranet, complete with intuitive features such as welcome messages, access to commonly used applications, company events, and more. To help realize this next-generation employee experience, they sought a partner with expertise in creating cutting-edge employee portals and comprehensive digital workplace solutions.
+The Solution
+Leveraging our deep Akumina expertise, RGP worked collaboratively with the organization to validate their requirements, covering every aspect from user needs to design, content, build, and implementation. We utilized an easily maintainable and flexible architecture, enabling the company to proactively adjust and process future capability changes or additions, ensuring the solution was future-proofed and capable of meeting the needs of tomorrow. With a strategic implementation approach, we worked with an agile team to implement the solution in phases, ensuring both scalability and security. The result: a cuttingedge employee experience aligned with future needs.
+
+Akumina
+
+Employee Experience
+
+Digital Workplace Solutions
+
+Human-Centered Design Award-Winning Intranet
+
+© 2 02 6 Resour ces Connection, Inc. Confid ential | rgpf ede ral.c om | A-30
+
+Let's Connect.
+Roshni Ghosh Chief Growth Officer roshni.ghosh@rgp.com
+
+©©22002265RReessoouurrcceess CCoonnnneeccttiioonn,, IInncc.. CCoonnffiiddeennttiiaall || rrggppffeeddeerraall..ccoomm | A-31
+
+

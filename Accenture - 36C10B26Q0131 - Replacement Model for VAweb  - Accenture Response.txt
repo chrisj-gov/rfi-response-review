@@ -1,0 +1,271 @@
+Replacement Model for VA.gov
+Request for Information: 2/5/2026
+Copyright © 2025 Accenture. All rights reserved.
+
+Contents
+
+Accenture Federal Services (Accenture) brings 40 years of experience solving the toughest problems across defense, national security, civilian, health, and public safety. We are also part of a global network doing best-in-class work in experience design, platform architecture, content strategy, governance, analytics, and operating models for the top commercial enterprises.
+
+Table of Contents
+01 About Accenture 02 Our Understanding 03 Our Approach
+
+Submitted To: Allison Fulton 23 Christopher Way Eatontown, NJ 07724
+Submitted By: Accenture Federal Services LLC 800 N. Glebe Road, Suite 700 Arlington, VA 22203-1807
+CAGE Code: 1ZD18 UEI: C47BNA8GM833
+Primary Point of Contact: Wesley Mesirow wesley.k.mesirow@afs.com (202) 802-1882
+
+09
+
+Appendix: Past Experience
+
+Department of Education: Federal Student Aid 10
+Digital Platform
+
+Health Answers by Pfizer: Empowering patients 12
+to take control of their personal health and wellness journeys
+
+Department of Energy: Energy.gov CMS Support 13
+Services
+
+Citizenship and Immigration Services:
+
+14
+
+my.uscis.gov Personalized and Integrated
+
+Account
+
+This document includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to evaluate this document. If, however, a contract is awarded to this offeror because of - or in connection with - the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. This document contains trade secrets and commercial or financial information which are privileged and confidential and exempt from disclosure under the Freedom of Information Act, 5 U.S.C. 552. Furthermore, this information is prohibited from disclosure under the Trade Secrets Act, 18 U.S.C. 1905. The data subject to this restriction are contained in all sheets of this document.
+Copyright © 2026 Accenture. All rights reserved -- unpublished work. Accenture and its logo are trademarks of Accenture.
+Copyright © 2026 Accenture. All rights reserved.
+
+About Accenture
+
+We power federal agencies to reinvent how they work and deliver greater value for their mission. Together, we can help you deliver outcomes faster, continuously innovate, and fundamentally change how the government serves America.
+
+Working with Accenture means access to the world's largest tech-powered creative group, with experience across commercial sectors. We deliver reinvention that creates results at a pace and scale unprecedented in the federal government, implementing proven commercial solutions, mission expertise, and new technologies that enable agencies to meet and exceed the rising expectations of users and customers.
+
+We are a world-class US federal business
+
+#9
+on Washington Technology's Top 100 Federal Providers
+
+60+
+Federal clients including all 15 Cabinet-level Departments
+
+IDC MarketScape
+Recognized AI Leader
+2025 Worldwide AI Services for
+National Civilian Government
+
+Red Dot
+Agency of the Year
+Awarded to Accenture Song, our creative agency,
+in 2025
+
+Mission-ready, commercial-tested solutions
+Agencies benefit from access to Accenture Song's commercial experience and to The Forge, where we've assembled proven innovation accelerators that drive mission impact and reduce timeto-market.
+
+Future-ready Digital Platform transformation
+A trusted transformation partner for high-risk, high-profile, missioncritical partners. We ensure agencies are future-ready--built to scale and adapt to evolving customer needs.
+
+Proven Veteran Affairs delivery experience
+We are a long-time partner for the VA, including the Digital GI Bill Modernization effort, Community Care Authorizations and Referrals (CCRA) for Integrated Veterans Care, and the VHA's Office of Connected Care (OCC).
+
+Copyright © 2026 Accenture. All rights reserved.
+
+1
+
+Copyright © 2026 Accenture. All rights reserved.
+
+Our Understanding
+Accenture is confident in our ability to support VA as you plan for the reinvention of VA.gov, including experience design, platform architecture, content strategy, governance, analytics and operating models. These activities must work together seamlessly and be delivered with accuracy, security, and a strong focus on Veterans and their families. We bring proven experience improving web design, modernizing digital services, and delivering accessible, usercentered tools.
+Accenture has been a long-time partner for VA, and has extensive experience building, launching, and maintaining functionality on VA.gov. We launch and maintain many products on VA.gov as part of the Digital GI Bill modernization effort within VBA's Education Service. With that experience, we recognize that there are areas for improvement of VA.gov.
+The Opportunity
+Continued emphasis on building trust and confidence: The VA can continue to fulfill its commitment to reshaping its digital brand to better align with its customers' needs. By evolving the current experience to meet commercial expectations and measuring outcomes to ensure customers feel confident when engaging with their benefits. When Veterans feel recognized and supported, the VA builds trust, satisfaction, and long -term adoption.
+Deliver a digital experience that evolves to meet customer needs: By using existing data responsibly, the VA.gov experience can be further catered and personalized to meet the needs of Veterans, caregivers, dependents, and survivors where they are--guiding them to the benefits and actions most relevant to their needs. A more personalized experience can reduce errors, remove barriers, and help more people access their benefits.
+Enable faster enhancements through scalable operation models: A complex network of teams support and maintain the VA digital experience. VA can enable faster enhancements by strengthening investment in scaling these processes through efficient governance, centralized standards that guide collaborative delivery, and measurement of veteran centered improvements.
+Develop a more connected and intelligent VA.gov platform: By further integrating the latest technology and evolving towards AI-enabled experiences, the VA can provide clear, consistent guidance across all services. A more connected platform helps Veterans get answers faster, reduces friction between benefit lines, and builds confidence in VA as a single, trusted partner.
+
+A VA.gov redesign is not just a technical update -- it's a strategic investment in operational efficiency. It improves service delivery, ensures compliance, builds Veteran trust, and provides a scalable foundation for digital innovation.
+
+Copyright © 2026 Accenture. All rights reserved.
+
+2
+
+Copyright © 2026 Accenture. All rights reserved.
+
+Our Approach
+
+Accenture's approach leads with brand strategy and brings that brand to life through the website - making VA.gov's digital experience Veteran-centric by making site visitors feel at home. With a site that feels modern and personal, our approach isn't about a website, it's about improving the overall perception of VA.
+Accenture can be an all-in-one partner, with expertise in experience design, platform architecture, content strategy, governance, analytics and operating models.
+
+Meet Veterans where they are by aligning services to their needs
+Each Veteran has different needs, and VA already knows a lot about what benefits are available to whom. VA.gov should show Veterans and their families what they need to know when they need to know it. Authenticated users should have a highly adaptive experience that anticipates their needs and reduces barriers.
+
+Reposition brand strategy to increase
+mission impact
+For Veterans and their families, VA.gov is the site that shows them not only the benefits they have earned by their service, but how these benefits can change their lives. Visiting the site should make Veterans feel proud and appreciated by their country. It should focus on the outcomes of their benefits, showing what can be achieved with VA's support in home ownership and the education of their children, among many other benefits.
+
+Reduce barriers and streamline delivery operations
+Implement proven, scalable methodologies to deliver measurable outcomes--establishing consistent systems and processes that improve quality and reduce operational burden. By streamlining workflows, modernizing publishing that are intuitive, reduce friction, drive adoption, and enable VA to deliver mission outcomes with speed and confidence.
+
+Unify and update technology
+Our approach is fundamentally human-centered, leveraging our technological expertise to improve the user experience. A key differentiator is our ability to integrate disparate data sources from across various benefit lines, breaking down silos to create a unified understanding of the veteran experience. Our strategy de-risks innovation by rapidly creating and validating proof-of-concepts with stakeholders and target users before committing significant resources.
+
+We've seen first-hand impact of a reimagining digital solutions -- focused not just on visual updates, but on mission impact, customer satisfaction, and delivery of services at scale.
+
+Copyright © 2026 Accenture. All rights reserved.
+
+3
+
+Copyright © 2026 Accenture. All rights reserved.
+
+AMceectoVuetnetraLnsawnhdeirne gthPeyaagreeby aligning
+services to their needs
+Whether on desktop or mobile, authenticated users should have access to the appropriate benefit or service in a timely manner while adapting to their needs without unnecessary barriers. Veterans have a wide variety of needs, but VA also has a lot of information about them already that can be leveraged to personalize the presentation--acknowledging the branch of service, for instance.
+User pages should provide recommended actions, automated reminders and follow-ups for appointments and applications. The Veteran should feel seen and taken care of in any interaction with VA.
+Past Experience:
+Our work with FSA (see Appendix Page 13):  Web site with 40 features to users, 13 natively on the mobile app, with a shared source
+of truth.  Virtual Assistant with 4.4M+ annual session interactions across web, mobile app and
+IVR channels, reaching over 1.5 million users and maintaining a handle rate of 79%.
+4 Copyright © 2026 Accenture. All rights reserved.
+
+RBerpaonsitdionRyeofurrebsrahnd strategy to increase
+mission impact
+The new website and mobile design should emphasize the benefits Veterans will receive from VA. It should seize the opportunity to instill pride and gratitude for the dream of home ownership and attaining higher education. Imagery of Veterans taking advantage of what the VA offers should dominate. The site should look modern and welcoming, emphasizing how easy it is to claim and receive benefits. The site should communicate to a Veteran that they are valued, and that the site is there to serve them.
+5 Copyright © 2026 Accenture. All rights reserved.
+
+Reduce barriers and streamline delivery operations
+Related Account Linking and Management
+Users of VA.gov are often family members who are receiving benefits from the Veteran and representatives who are assisting completing the tasks necessary to receive benefits.
+Due to challenges with the current state organizational structure and governance of VA.gov, even small changes can be cumbersome to turn into reality. There are many places where making a small change in the user experience of VA.gov could have a large impact on the delivery of benefits for certain Veterans and their families.
+Within the Education Service space, there is a challenge with Veterans completing applications for benefits that their dependents should be completing (VA forms 22-1990e and 22-5490). Today the application only presents a warning to Veterans that they may be using the incorrect form.
+
+A simple update to the application to use a referral type user flow could help redirect Veterans and their families to the appropriate process, reduce Veteran Claim Examiner workload for invalid claims, and speed up benefit delivery to Veterans and their families.
+
+Other Areas to Impact
+A similar issue exists for linking actions between Veterans and their Power of Attorney (POA) representative. Today, Veterans need to print out and get a physical signature from their POA in order to complete a representation agreement. This is an unnecessary burden on Veterans that delays benefits and could be resolved with better digital integrations across systems.
+Copyright © 2026 Accenture. All rights reserved.
+
+Past Experience:
+In our work with DOE (see Appendix):  We facilitated collaborative content planning
+across 39 offices, supporting more than 300 content owners with templates, guidance, and governance.
+6
+
+In Practice Unify and update technology
+New technology is only as effective as the people who use it, both employees and customers. Accenture has the technological expertise and the management experience to reinvent the governance of VA.gov so it delivers effectively.
+Accenture recognizes that modernizing VA.gov is a complex challenge extending beyond technology to include experience design, governance, and operating models. Technology is only as effective as the people who use it, and our offerings are designed to reinvent VA.gov by placing the needs of Veterans and VA employees at the center of the transformation.
+
+Our Approach
+We begin by mapping the complete "Front Stage" experience to understand every interaction a veteran has with identity, authentication, and navigation, and connecting it to the "Back Stage" processes and systems that support it. This methodology provides a holistic view of the customer journey, ensuring that any brand-focused modernization effort maintains service continuity and delivers a truly seamless experience. This enables design solutions that integrate with your diverse portfolio of existing and emerging systems while ensuring long-term scalability and resilience.
+Our Differentiators
+Our ability to integrate disparate data sources from across various benefit lines, breaking down silos to create a unified understanding of the veteran experience. This integrated data foundation enables a consolidated CMS and modernized architecture where stakeholders can collaborate effectively. Leveraging this, we can deploy cuttingedge, AI-enabled solutions at scale. This includes intelligent assistants that can instantly answer Veteran questions about healthcare and other benefits, accurately direct requests, and simplify site navigation, freeing up VA staff to focus on more complex support needs.
+Our Impact
+Ultimately, our strategy de-risks innovation by rapidly creating and validating proof-of-concepts with stakeholders and target users before committing significant resources. By partnering with AFS, the VA can gain a unique advantage, delivering industry-disruptive experiences that provide constant relevancy and unparalleled service for this generation of Veterans and the next.
+
+Past Experience:
+With Pfizer, we developed a conversational AI chatbot to answer health questions.
+· Draws on 3 million comprehensive articles from multiple medicallyevaluated sources, and within seconds, LLMs enable the platform to locate the most accurate answers and present the content in an easily digestible, personalized manner
+With DOE's energy.gov, we provide comprehensive CMS support services
+ Continually striving for a more knowledgeable and engaged user base through training revamp, implementation of new certification system, custom training, and regular focus groups
+ Content Governance System will give content owners and offices greater autonomy over their content:
+ Biweekly releases and maintenance of the backlog have led to continual enhancements of the functionality, security, and performance of the Energy.gov
+
+7 Copyright © 2026 Accenture. All rights reserved.
+
+Scalability
+Accenture's approach to the reimplementation of VA.gov is flexible and scalable. Significant improvements could be made within a short amount of time with less effort by focusing on a Refresh of the current site. A larger Redesign could make a greater impact by totally upgrading the look-and-feel of the desktop and mobile experiences.. At the greatest level of effort, a full Reimagination of VA.gov could transform how users interact with not only the site, but with Veterans Affairs with in-depth personalization and AI-enabled tools.
+Accenture is ready to partner with you to scale and adapt VA.gov to meet the evolving needs of veterans.
+
+Our approach is Flexible and Scalable
+
+Refresh
+
+Updated look and feel Smoother login process
+
+Redesign
+
+Commercial-level look and feel Upgraded mobile experience
+
+Reimagine
+
+Personalization Built-in AI tools
+
+Marketing Reinvention
+February 12, 2026
+The Forge
+1201 New York Ave NW, Washington, DC 20005
+Join us in-person at The Forge in DC to learn more about the latest tech and solutions that are changing how agencies create, communicate, and connect right now. Then get hands-on with AI-powered tools that are transforming end to end marketing for agencies--from recruiting, to outreach and engagement, to promotion and personalization.
+Register today
+8 Copyright © 2026 Accenture. All rights reserved.
+
+Appendix:
+Relevant Past Experience
+Copyright © 2025 Accenture. All rights reserved.
+
+Federal Student Aid
+Digital Platform
+Background & Problem: Historically, federal student aid has been challenging for borrowers to navigate. The end-to-end process was fragmented and often confusing for students, families, and other users, with multiple parties supporting aid applicants and recipients. There were multiple websites with different information that lacked a consistent look, feel, and approach to engage or assist customers.
+We delivered an enterprise-wide, Federal Student Aid (FSA)-branded Digital Platform using technologies such as Drupal, Angular, Spring Boot and Akamai Content Delivery Network (CDN). The platform is FSA's "digital front door" for all customer interactions, consolidating multiple customer-facing websites onto StudentAid.gov and expanding the functionality available in the myStudentAid mobile app.
+
+Digital Platform: The Digital Platform is an AWS GovCloud PaaS solution consisting of an integrated and automated suite of AWS and other infrastructure services that provide a flexible, secure, scalable, and resilient platform for web and mobile applications, microservices, serverless applications, and other integration components. DCC utilizes a DevSecOps approach that emphasizes consistent and controlled environment configuration management to reduce risk due to the concurrency of release cycles to support the pace of application and architecture changes and DCC business requirements. It incorporates new cloud services as they become available and FedRAMP authorized, which avoids the buildup of technical debt and allows for new features and capabilities to be deployed securely.
+The technical architecture of the Digital Platform decouples the front and back-ends. This allows for flexibility for multiple features and scalability for potential future tenants to utilize the same back-end APIs as the Digital Platform. This also allows the front-end to seamlessly integrate with third-party vendor protocols without front-end degradation. Front-end users are provided with one digital brand and the best user experience regardless of back-end integration complexities. Scalability during peak periods (where a high number of concurrent users access the platform) is managed dynamically, providing a seamless experience for the end user.
+Drupal is leveraged as the content management system (CMS), enabling near real time content changes across all pages on both web and mobile app channels. Content is centrally managed in Drupal and is decoupled from the user-facing application, allowing the JavaScript front-end to render the HTML for the user after receiving the JSON payload from the Drupal-REST API.
+
+Key Takeaways:
+Our partnership with FSA benefitted from our Digital Platform, Web and Mobile, and Virtual Assistant expertise:
+ Two user platforms, desktop and mobile app, one digital platform
+ Real-time, centrally-managed content changes
+ Web site with 40 features to users, 13 natively on the mobile app, with a shared source of truth.
+ Virtual Assistant with 4.4M+ annual session interactions across web, mobile app and IVR channels, reaching over 1.5 million users and maintaining a handle rate of 79%.
+
+10 Copyright © 2026 Accenture. All rights reserved.
+
+Federal Student Aid
+Digital Platform
+Web & Mobile Apps: DCC consolidates all services, including account and loan information and various financial tools, into a single source accessible to customers through StudentAid.gov, a cloud-hosted, DevSecOps-enabled, enterprise-wide Digital Platform that hosts over 235 million visits annually. DCC services were formerly available through a myStudentAid mobile app, an easy, one-touch platform enabled with accessible, personalized features for users. At the time of the app's decommission, it was fully operable and contained a full suite of financial tools. StudentAid.gov offers a suite of 40 features to users, 13 of which were also available natively on the myStudentAid mobile app. The StudentAid.gov website and the myStudentAid mobile app were two separate user channels in the Digital Platform--with two different user experiences--but were developed as a single, shared codebase. By leveraging JavaScript modules and the ability of the Angular and Ionic frameworks to expose libraries, code is shared between both platforms which allowed for a single source of truth for business logic and reduced maintenance costs by effecting changes in one place. Aidan® Virtual Assistant: Accenture collaborated with FSA to deliver Aidan®, a Virtual Assistant (VA) that harnesses AI technology. It is the first application of a VA in the federal loan process by a government agency and promotes customer self-service through a new channel for on-demand 24/7 support. Using the Accenture Conversational AI Platform, which leverages Natural Language Understanding (NLU) rather than rule-based chat technology, Aidan® automates and personalizes customer care, and supports FSA customers by answering frequently asked questions about nearly all aspects of federal financial aid and providing borrower-specific information like current loan balances or how to make a payment. VA has helped FSA achieve operational efficiencies by conducting 4.4M+ annual session interactions with Aidan® across web, mobile app and IVR channels, reaching over 1.5 million users and maintaining a handle rate of 79%. FSA selected Accenture's Conversational AI Platform because it was a vendor agnostic. Its modular microservices architecture integrates as many different AI services as needed. The intuitive user interface offers the ability to switch through them quickly, creating a modern solution.
+11 Copyright © 2026 Accenture. All rights reserved.
+
+Pfizer
+Health Answers
+Challenge
+Pfizer is one of the world's largest pharmaceutical and biotechnology companies, with research and development, manufacturing, and distribution facilities around the world. As the latest step in its multi-year commitment to making healthcare more accessible and convenient for all, Pfizer engaged us to help address a gap in the market: ensuring trustworthy health and wellness information is available to all, at no cost.
+Solution
+Health Answers by Pfizer is a new consumer-facing product that leverages the latest advances in generative AI within a conversational interface to personalize responses to users' health and wellness questions. Partnering closely with Pfizer's innovation and product teams, we led strategy, design, and engineering of the new platform -- in what ended up being a two-year engagement from day one to launch, involving 70+ colleagues across our global studios. The platform leverages a database of over 3M comprehensive articles from multiple medically-evaluated sources, and within seconds, LLMs enable the platform to locate the most accurate answers and present the content in an easily digestible, personalized manner.
+Results
+The new Health Answers by Pfizer platform launched in February 2025. We continue to work with Pfizer on various initiatives, and we are currently helping ideate and concept opportunities across additional channels.
+12 Copyright © 2026 Accenture. All rights reserved.
+
+Energy.gov
+CMS Support Services
+
+Accenture supports the Office of Public Affairs with Energy.gov Program/Project Management Services, Content Management System (CMS) User Support Services, Application Services, and Web Services and Design.
+
+Accenture supports the continued maintenance, modernization and optimization of digital services and applications using an operations and maintenance (O&M) backlog. This backlog contains user stories documenting fixes and enhancements for future Energy.gov version updates to be released on a biweekly basis. Accenture also maintains a secure and performant Drupal application codebase.
+Accenture also provides comprehensive CMS User Support Services. This includes the creation and distribution of the CMS new user training curriculum, provisioning and maintenance of resources for existing users via the internal CMS Support Site, and continued support for CMS User training and support requests through the CMS Support Inbox and ServiceNow Ticketing System. The CMS Support Team provides functional testing during sprints in preparation for biweekly deployments of new features and enhancements.
+The existence of disparate websites for different Offices within the Department requires consolidation within Energy.gov. Moreover, changes to the legislative and political landscape require the creation of new office groups. The client requires support to integrate in these new sites into Energy.gov, provide training and support to the individuals who will be building out site content, and promote consistent brand messaging and style across the Energy.gov site.
+
+Key Takeaways:
+ Continually working towards creating a more knowledgeable and engaged CMS User Base through training material revamp effort, implementation of new training completion certificate system, custom training sessions, and regular focus groups
+ Content Governance System/Workflow will give content owners and offices greater autonomy over their content
+ Biweekly releases and maintenance of the user stories backlog have led to continual enhancements of the functionality, security, and performance of the Energy.gov site
+
+13 Copyright © 2026 Accenture. All rights reserved.
+
+My.uscis.gov
+Personalized and Integrated Account
+The myUSCIS website is a subsite of uscis.gov that includes publicly available and accountbased resources to assist in the immigration process. Accenture supported the myUSCIS program with eight Agile teams (four scrum and four Kanban) supporting four products that integrate with over 15 systems/connections.
+
+Accenture focused on being Agile where continuous integration and continuous deployment (CI/CD) were at the forefront of our processes to provide personalized online services through digital tools, an authenticated account, and integration with additional USCIS systems, promoting a streamlined user experience for applicants, petitioners, and representatives. To improve the myUSCIS user experience and create a consistent UX across multiple channels, the Accenture team utilized design thinking methods - allowing to solve complex challenges by integrating people with business and technology driven by the human centered, collaborative, creative and iterative mindset of a designer. The team also supported and maintained the USCIS Civics Test Study Tools (Mobile App), which helps users test their knowledge on U.S. history and government in preparation for the civics portion of their naturalization interview. The team supported the web application, as well as the Civics mobile app, available on both Android and iOS
+
+Key Takeaways:
+Provided personalized online services through authenticated account.
+ Used design thinking methods to create human-centered experiences
+ Integrated site with additional USCIS systems.
+ Supported web and mobile application
+
+User journey describing experience of usingmyUSCIS 14
+Copyright © 2026 Accenture. All rights reserved.
+
+

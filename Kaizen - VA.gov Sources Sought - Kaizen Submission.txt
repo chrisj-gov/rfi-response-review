@@ -1,0 +1,141 @@
+Sources Sought
+Department of Veterans Affairs
+Technology Acquisition Center Replacement Model for VA.gov
+Solicitation Number: 36C10B26Q0131 February 5, 2026
+
+Dear Evaluation Team, Kaizen is pleased to submit this response to the Department of Veterans Affairs' Sources Sought Notice for a replacement model for VA.gov. We deeply understand the significance of this initiative, as VA.gov serves as the primary digital front door for millions of Veterans, their families, and stakeholders seeking benefits, healthcare, services, and critical information. Delivering a premier, modern, secure, and Veterancentric digital experience is not merely a technical challenge; it represents a vital commitment to those who have served our nation.
+As a specialized provider of user-centered digital platforms for government agencies, Kaizen brings extensive experience modernizing mission-critical public-facing systems that serve diverse populations with complex needs. Our work with major state and local government agencies, including platforms serving millions of users annually, has given us deep insight into the operational realities, compliance obligations, and user experience challenges that federal agencies must navigate.
+We recognize that meaningful improvements to VA.gov require coordinated excellence across experience design, platform architecture, content strategy, governance, analytics, and operating models. The VA's stated objectives align precisely with Kaizen's core capabilities:
+· Maintaining continuity of service for millions of users during transformation · Integrating with diverse legacy and emerging systems through flexible API architecture · Operating within a regulated, highly visible federal environment with proven compliance expertise · Supporting long-term scalability, adaptability, and resilience through modern cloud-native design · Offering seamless customer experience through human-centered design and accessibility
+Kaizen was founded on the belief that government agencies should have access to the same high-quality digital experiences as those available in the private sector. Our team includes veterans from leading technology companies like Palantir, Tesla, Airbnb, Spotify, and Anduril, bringing private-sector innovation to public-sector challenges. We take great care in understanding agency missions and translating them into accessible, intuitive platforms that build trust and deliver measurable outcomes.
+The enclosed submission provides detailed information on our relevant experience, technical approach, and capabilities for supporting the VA's vision. We are honored by the opportunity to support the Department of Veterans Affairs in this essential mission and welcome the possibility of follow-on discussions to explore how Kaizen can best serve America's Veterans through digital excellence.
+Sincerely,
+February 5, 2026
+Nikhil Reddy, Chief Executive Officer
+2
+
+Introduction
+Kaizen specializes in delivering user-centered, cloud-based platforms for public sector agencies across the nation. Our experience modernizing mission-critical systems has given us a deep understanding of the operational realities, compliance obligations, and governance requirements federal agencies must balance. We design secure, accessible, and mobile-first digital services that reflect agency missions, strengthen public trust, and support long-term modernization goals.
+User Experience Excellence
+· Human-centered design approach with the Veteran community at the core of every decision · Accessibility leadership meeting and exceeding WCAG 2.1 AA and Section 508 requirements · Mobile-first, responsive design ensuring seamless experience across all devices · Plain language content design improving comprehension and reducing cognitive load
+Technical Architecture
+· Cloud-native, microservices-based architecture supporting scalability and resilience · API-first design enabling integration with legacy and emerging systems · Modern development practices including DevSecOps, CI/CD, and infrastructure-as-code · Performance optimization delivering fast page loads even under high traffic
+Federal Compliance and Security
+· SOC 2 Type II certified, PCI DSS compliant, HIPAA-aligned security program · Active pursuit of FedRAMP Moderate authorization · Risk Management Framework (RMF) documentation and ATO support expertise · Zero Trust architecture alignment with federal security standards
+Content Management and Governance
+· Intuitive CMS enabling rapid content updates by non-technical staff · Workflow and approval processes supporting multi-stakeholder governance · Content strategy services ensuring information is findable, understandable, and actionable · Analytics and optimization supporting continuous improvement
+Proven Delivery
+· Agile methodology with sprint-based delivery and continuous stakeholder engagement · Track record of successful large-scale government digital transformations · Comprehensive training and change management ensuring user adoption · Ongoing support and partnership model beyond initial launch
+3
+
+Relevant Experience, Capabilities, and Approaches
+Relevant Experience with Similar Challenges
+Kaizen has successfully delivered modern, accessible, and secure digital platforms for major government agencies serving millions of constituents with complex needs. While our direct experience is primarily at state and local levels, the challenges, user populations, compliance requirements, and technical complexity are directly analogous to VA.gov replacement.
+Project Highlight: State of Maryland Department of Natural Resources
+Challenge: The Maryland Department of Natural Resources (DNR) needed to modernize its digital presence to serve over 6.2 million annual visitors seeking information about state parks, wildlife, boating, fishing licenses, and outdoor recreation. The existing system was outdated, difficult for staff to update, not mobile-friendly, and created barriers for users seeking time-sensitive information about park access and conditions.
+Our Approach: Kaizen worked in close partnership with DNR leadership to design and implement a comprehensive digital transformation including:
+· User Research: Conducted stakeholder interviews, user surveys, and usability testing with diverse Maryland residents including older adults, mobile-primary users, and users with disabilities
+· Modern Architecture: Built cloud-native platform with 99.9% uptime SLA and ability to scale during peak seasons (summer weekends, holidays)
+· Accessibility First: Achieved WCAG 2.1 AA compliance across all interfaces with particular attention to users with visual, motor, and cognitive disabilities
+· Content Management: Implemented intuitive CMS enabling DNR staff across 75+ locations to publish updates without IT involvement
+· Mobile Optimization: Delivered mobile-first responsive design with 60% of traffic now on mobile devices
+· Rapid Deployment: Launched initial platform in 60 days from contract signing, demonstrating agile capability
+Outcomes · 67,000+ completed user reservations within 3 months via digital platform · 98% capacity achieved for most-visited DNR location post-launch with zero security incidents · 40%+ adoption of modern payment methods (Apple Pay, Google Pay) improving user convenience
+4
+
+· Zero overflow issues during peak periods due to proactive capacity management · 5-second average check-in time at parks using digital QR codes vs. previous manual
+processes · Eliminated call center volume for reservation inquiries by 41% through improved self-service
+This engagement demonstrates Kaizen's ability to: · Modernize mission-critical public-facing systems serving millions · Balance multiple stakeholder needs across decentralized operations · Achieve rapid deployment without sacrificing quality or security · Deliver measurable improvements in user experience and operational efficiency · Navigate complex federal compliance requirements (Maryland DNR operates under federal partnerships and regulations)
+Relevant Ideas, Capabilities, and Approaches for VA.gov Replacement
+1. Human-Centered Design Methodology
+Philosophy: Replacing VA.gov must start with deep understanding of Veteran needs, pain points, and goals. Technology decisions should flow from user needs, not the reverse.
+Our Approach · User Research: Extensive discovery with diverse Veteran populations (age, era of service, disability status, tech comfort, geographic location), including family members, caregivers, and VSOs · Persona Development: Research-based personas representing key segments (recently separated tech-savvy service member, Vietnam-era Veteran, caregiver/family member, older Veteran with disabilities) · Journey Mapping: Complete mapping of critical tasks (applying for disability, scheduling healthcare, checking claim status, accessing education benefits, finding facilities) identifying pain points and improvement opportunities · Usability Testing: Iterative testing with Veterans throughout design and development, including accessibility testing with assistive technology users · Continuous Feedback: Post-launch surveys, analytics revealing struggle points, and regular research cycles
+2. Modern Platform Architecture
+Technical Vision: Cloud-native, microservices architecture supporting scalability, resilience, integration flexibility, and rapid evolution.
+Key Capabilities
+5
+
+· Cloud-Native Design: Deployment on VA Enterprise Cloud or approved commercial cloud with containerized microservices, auto-scaling for traffic spikes, and geographic distribution
+· API-First Approach: Headless CMS separating content from presentation, RESTful and GraphQL APIs enabling clean integration with VistA, VBMS, eBenefits, MHV, and other VA systems
+· Microservices for Flexibility: Independent services for authentication, content, search, forms, and notifications allowing updates without full system downtime
+· Performance and Resilience: Sub-2-second page loads, 99.9% uptime SLA, automated failover, CDN delivery
+· DevSecOps Pipeline: Automated testing, CI/CD, infrastructure-as-code, blue-green deployments
+Integration Strategy: Our API-first architecture enables clean integration points with VA's existing systems, abstracting VA.gov from upstream changes and enabling gradual migration from legacy systems.
+3. Accessibility and Inclusive Design
+Commitment · Accessibility is not a compliance checkbox; it's fundamental for serving Veterans, many with service-connected disabilities. · Standards: WCAG 2.1 AA, Section 508, plain language, preparation for WCAG 2.2
+Design and Development Practices · Semantic HTML: Proper heading hierarchy, accessible forms, ARIA attributes · Keyboard Navigation: All functionality keyboard-accessible with visible focus indicators · Visual Design: Sufficient color contrast (4.5:1 minimum), information not conveyed by color alone, resizable text · Assistive Technology Support: Regular testing with JAWS, NVDA, VoiceOver, Dragon NaturallySpeaking · Cognitive Accessibility: Clear language, consistent patterns, progressive disclosure, error prevention
+Testing: Automated accessibility audits in CI/CD pipeline plus manual testing with screen readers and Veterans who use assistive technologies.
+4. Content Strategy and Management
+Information Architecture · User-task-oriented structure ("I need healthcare" vs. "Veterans Health Administration") · Top tasks identified through research prominently featured
+6
+
+· Clear navigation paths with related content connections
+Content Model · Structured content types (benefit overview, eligibility checker, facility locator, form) · Reusable components assembled into pages · Consistent templates reducing cognitive load
+Plain Language · 6th-8th grade reading level where possible · Active voice, short sentences, defined technical terms · Examples making abstract concepts concrete
+Content Management System · Visual page builder with drag-and-drop, WYSIWYG editing · Component library of accessible, on-brand elements · Customizable approval workflows based on content type · Version history, scheduled publication, audit logging · Multilingual support for Spanish content
+5. Search and Navigation
+Intelligent Search · Natural language understanding, spelling correction, synonym expansion · Auto-complete based on popular queries · Faceted filtering by content type, benefit area, location · Relevance ranking considering freshness, authority, engagement · Search analytics identifying content gaps
+Navigation Architecture · Clear mega-menu with task-oriented categories · Breadcrumbs showing location in site hierarchy · Contextual "related content" and "next steps" · Mobile-optimized with touch-friendly targets
+6. Forms and Transactions
+Design Principles · Progressive Disclosure: Show only relevant questions, multi-page with progress indicators, save-and-return · Input Assistance: Input masks, inline validation, examples, contextual help · Accessibility: Proper labels, error messages linked to fields, keyboard navigation
+7
+
+· Mobile Optimization: Appropriate input types, large touch targets, single-column layout
+Common Patterns · Eligibility checkers helping Veterans determine benefit qualification · Benefit finders providing personalized recommendations · Claim status tracking with clear status, timeline, and required actions
+Integration · Prefilling from user profile · API submission to backend systems (VBMS, etc.) · Email/SMS confirmation
+7. Mobile Strategy
+Approach: Mobile-first responsive design recognizing Veterans increasingly use mobile devices as primary internet access.
+Key Features · Touch-friendly controls (44x44 pixel minimum) · Sub-3-second page loads on 4G · Click-to-call, maps integration, camera for document upload · Biometric authentication (Face ID, Touch ID)
+Progressive Web App (PWA) Capabilities · Add to home screen for app-like experience · Push notifications for claim updates and appointments (with permission) · Offline access to critical information
+8. Security and Compliance
+Standards and Certifications · Current: SOC 2 Type II, PCI DSS Level 1, HIPAA compliance, ISO 27001 alignment · Federal: FISMA, NIST 800-53 Rev 5, pursuing FedRAMP Moderate
+Security Architecture · Zero Trust Principles: Never trust/always verify, least privilege, microsegmentation, continuous monitoring · Defense in Depth: Multiple security layers (network, application, data, endpoint) · Authentication: MFA for admin access, RBAC, just-in-time provisioning · Data Protection: TLS 1.3 in transit, AES-256 at rest, minimal collection, proper retention/ disposal
+8
+
+Development Security · Secure SDLC with threat modeling · SAST, DAST, SCA in CI/CD pipeline · Software Bill of Materials (SBOM) maintained · Weekly vulnerability scanning, penetration testing
+RMF Support: Full support for System Security Plan, control implementation, evidence collection, assessment coordination, and continuous monitoring.
+9. Analytics and Continuous Improvement
+Philosophy: Launch is the beginning of continuous learning and improvement.
+Capabilities · Google Analytics 4 or federal-approved platform, Digital Analytics Program (DAP) · Custom event tracking, conversion funnels, user flows · Search analytics showing what users seek · Form completion and abandonment tracking · Device/browser breakdown, geographic distribution
+Qualitative Feedback · "Was this page helpful?" on every page · Feedback widget, periodic surveys · Call center data analysis, VSO feedback
+Improvement Process · Monthly analytics reviews, quarterly deep dives · Hypothesis-driven optimization with A/B testing where appropriate · Regular content audits identifying outdated or low-performing pages
+10. Identity, Authentication, and Personalization
+SSO Integration: Support for SAML 2.0, OAuth 2.0, OpenID Connect integrating with VA's chosen identity providers (complementing Notice ID: 365357 on next-generation authentication).
+Progressive Authentication · Public content accessible without sign-in · Authentication required only when necessary · Clear value proposition for creating account · Saved progress for authenticated users
+Personalization Opportunities
+9
+
+· Dashboard showing relevant benefits and action items · Notifications for claim status, appointments, prescription refills · Recommendations based on profile · Saved searches and favorite facilities
+
+User Journey Considerations · Remote and in-person identity verification options · Graduated assurance levels based on service sensitivity · Biometric options where appropriate · Clear account recovery processes
+
+Conclusion
+
+The Department of Veterans Affairs has a tremendous opportunity to transform how millions of Veterans, their families, and other stakeholders access benefits, healthcare, services, and information. Replacing VA.gov is not merely a technology upgrade; it's a chance to fundamentally improve the digital experience and, by extension, the lives of those who served our nation. Kaizen brings:
+· Proven Experience: Track record of successful large-scale government digital transformations serving millions of users
+· Technical Excellence: Modern, secure, scalable architecture built on cloud-native principles · User-Centered Design: Deep commitment to accessibility, usability, and human-centered
+design · Federal Compliance: Understanding of and experience with federal security, privacy, and
+accessibility requirements · Partnership Approach: Collaborative, transparent engagement model focused on shared
+success · Public Sector Mission: Purpose-built company dedicated to serving government agencies
+
+We recognize the complexity and stakes of this initiative. Veterans deserve a digital experience that matches the quality of their service to our nation. We're committed to delivering that experience in partnership with the VA. We welcome the opportunity for follow-on discussions to explore VA's specific needs, answer questions about our capabilities and approach, and demonstrate how Kaizen can best support this critical mission.
+
+Thank you for your consideration.
+
+Respectfully,
+Nikhil Reddy, Co-Founder & CEO nikhil@kaizenlabs.co (408) 623-7000
+
+KJ Shah, Co-Founder & COO kj@kaizenlabs.co (925) 922-3272
+
+10
+
+Solution Design Example Images
+
+To support your review process of our submission, Kaizen has provided examples of the types of designs we would seek to incorporate for this project. We would love the opportunity to walk through this system in a live demonstration with the VA project stakeholders leading this initiative as part of this Sources Sought solicitation process. Note: Per the instructions of the solicitation, this section does not contribute to the 10-page limit.
+12
+
+13
+
+14
+
+

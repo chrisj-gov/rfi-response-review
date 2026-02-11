@@ -1,0 +1,971 @@
+Solicitation 36C10B26Q0131
+Replacement Model for VA.gov
+
+Introduction to Team MSI
+Management Science & Innovation, LLC 11130 Sunrise Valley Drive Suite 310, Reston VA 20191 Management Science & Innovation (MSI) is an SBA-certified HUBZone small business with more than two decades of experience providing cloud and infrastructure modernization, cybersecurity and risk management, and software engineering and delivery solutions to many civilian Federal agencies, including the Internal Revenue Service, Office of Personnel Management, General Services Administration, Department of Housing and Urban Development, and Centers for Disease Control and Prevention. We specialize in the rapid, secure, and effective design and development of innovative technologies including artificial intelligence, machine learning, Application Programming Interfaces, sensory tools, and intelligent automation. The hallmark of our digital transformation is our rapid, Leaninspired delivery model, effective program management, and relentless focus on results to drive mission delivery.
+Code and Theory One World Trade Center 69th Floor, New York NY 10007 Code and Theory is a digital-first creative agency with 25 years of experience transforming how complex organizations serve their audiences. Our parent company, Stagwell, offers a 13,000+ person global network that can augment any enterprise-scale delivery capabilities when needed. Our Government Experience (GX) practice applies this expertise specifically to public sector digital transformation, which has fallen behind virtually every other industry by most measures of satisfaction and trust. We bring a unique combination of commercial-grade innovation, mission-critical reliability, government-scale delivery, and deep healthcare expertise and as a GSA Multiple Award Schedule holder have proven Section 508 and U.S. Web Design System compliance expertise. Most recently, Code and Theory was awarded the Covered California website redesign in a full and open competition, marking our first major state health exchange engagement since the launch of the GX practice in 2024.
+Our Understanding of VA's Needs: Centering the Veteran in Digital Transformation
+Team MSI understands that the U.S. Department of Veterans Affairs (VA) is not merely looking for a website refresh, but a total evolution of its digital flagship to move beyond traditional transactional interactions to a more anticipatory service model. We recognize that for the Veteran, the "system" is often viewed as a single entity; therefore, any friction in navigation or authentication reflects on the VA's broader mission of care and service to its constituents (including Veterans, service members, and their families and caregivers throughout their lives. Team MSI's approach acknowledges that this transformation is a high-visibility effort requiring the maintenance of service continuity for millions of users while simultaneously implementing a modern architecture.
+To truly improve and redefine the user experience with VA.gov, emphasis needs to be foremost on simplicity and replicating a human-to-human experience. A Veteran-centric design must account for the diverse needs of the stakeholder community and address the collective experience of all users, ranging from tech-savvy younger Veterans to older retirees who may require specific accessibility
+1
+
+considerations to the family members and caregivers who frequently interface with VA.gov on behalf of Veterans. For each of these unique users, accessing VA.gov should be as seamless as if they had a VA caseworker sitting side by side with them, walking them through the process to ensure they get the information they need and that no question goes unanswered. The goal is to provide a best-in-class online experience that serves as a secure and intuitive entry point for healthcare, benefits, and services. From initial sign-in to the delivery of benefits and services, every digital touchpoint must reinforce trust and accessibility. The section below details Team MSI's understanding of these critical outcomes that the VA is seeking to achieve through the replacement of VA.gov.
+Minimize Administrative Burden on Veterans and Caregivers: Team MSI recognizes that one of the most significant non-technical pain points for Veterans is the time tax, or the cumulative burden of navigating complex authorization requirements and processing delays. Veterans often wait months for benefits to be processed, and the confusion surrounding disability claims or healthcare appeals remains a top complaint. A premier digital experience must do more than just digitize forms; it must actively reduce this burden by:
+· Anticipating User Needs: Move from a reactive model to a proactive one that uses data to alert Veterans of eligible benefits before they even apply and minimize the number of interactions they must have with the system (whether that be through VA.gov, contacting their local VA hospital, etc.) in order to get what they need.
+· Eliminating Silent Failures: Address critical system gaps where submitted forms fail to reach downstream systems without alerting the user, an issue that has impacted tens of thousands of claims in recent years.
+· Streamlining External Care: Improve the maze of processing requirements that makes private providers hesitant to accept VA benefits, thereby expanding the real-world healthcare options available to Veterans.
+Improve Accessibility and Close the Digital Divide: While modernizing VA.gov, Team MSI understands that the VA must prioritize the millions of Veterans with service-connected or general disabilities. Recent audits have shown that many critical VA IT systems still fall short of Section 508 compliance. Furthermore, a significant portion of the Veteran population (particularly older adults and those in rural areas) faces a digital divide characterized by limited broadband access and lower digital literacy. To be truly Veteran-centric, the new model must:
+· Ensure Universal Accessibility: Move beyond "vendor self-declarations" and implement rigorous, continuous 508-compliance testing throughout the development lifecycle.
+· Support Human-Centered Design: Incorporate direct feedback from Veterans with vision, hearing, or cognitive impairments to ensure the navigation is orienting rather than confusing.
+· Prioritize Plain Language: Determine what the most common knowledge gaps are among users and ensure that information is readily available and easily digestible by a wide audience.
+· Design for Low-Bandwidth Environments: Ensure that the site remains functional and performant for Veterans who lack high-speed internet, modern devices, or general technological literacy.
+Reduce Technical Debt and Cultural Risk Aversion: Team MSI understands that failed IT modernization efforts are often tied to high levels of technical debt, or the accumulation of outdated code and unsupported platforms. Additionally, a culture of extreme risk aversion within federal agencies can lead to change fatigue, where employees and users alike perceive new technologies as a threat rather than a tool. This rings particularly true for a large and complex site such as VA.gov that is managed by numerous product manager and developers who feel a strong sense of ownership - and perhaps protectiveness - over the current system. A replacement strategy for VA.gov must address these organizational pain points by:
+2
+
+· Implementing Agile Governance: Move away from "big bang" releases in favor of smaller, iterative updates that demonstrate time to value quickly.
+· Managing the "Make/Buy" Tension: Assist the VA in assessing when to build custom solutions versus procuring commercial-off-the-shelf products to minimize future technical debt.
+· Fostering a Culture of Innovation: Provide the necessary training and change management to ensure that VA staff feel empowered, rather than overwhelmed, by the transition to new digital tools. Reinforce the message that the new system is for the benefit of the entire organization and user community and foster a sense of collective ownership among developers and product managers to facilitate buy-in.
+Break Down Data Silos and Interoperability: A core challenge in replacing VA.gov is the fragmentation of data across the enterprise. The VA operates within a diverse portfolio of legacy and emerging systems. Currently, these disparate systems often create data silos where Veteran information, such as medical records, disability ratings, and education benefits, exists in isolation. These silos prevent a truly seamless customer experience because they require the Veteran to repeatedly provide the same information via multiple channels or navigate different interfaces for different services. The Veteran wants and needs to interact with the VA as one entity.
+Team MSI understands that a successful replacement model must implement a unified data layer that breaks down these barriers. This involves creating a platform architecture that facilitates real-time data exchange between portfolios while adhering to federal security regulations. By centralizing the view of the Veteran, the VA can provide a single source of truth, allowing for personalized navigation where the website remembers the Veteran's status and proactively offers relevant services, thereby fulfilling the mandate for a more integrated digital experience.
+Improve Data Cleanliness and Governance: Closely tied to the challenge of silos is the issue of data cleanliness. Team MSI recognizes that the effectiveness of the new VA.gov is directly dependent on the quality of the underlying data. Years of legacy operations across multiple departments can lead to redundant, obsolete, or trivial data, as well as inconsistent data formats. If the data is dirty, even the most modern front-end interface will fail to provide accurate information to Veterans, leading to frustration and erosion of trust. Our understanding of the VA's scope includes the necessity of a rigorous data governance and strategy effort that involves:
+· Data Normalization: Ensure that Veteran identity and benefit data are standardized across all integrated systems to prevent authentication errors or benefit delays.
+· Deduplication: Resolve conflicting records that may exist between healthcare and benefits databases to ensure the Veteran sees a consistent profile.
+· Scalable Architecture: Build a system that maintains data integrity as it scales to support millions of concurrent users and evolving benefit portfolios.
+Ensure Continuity of Service and Risk Mitigation: Team MSI acknowledges that the VA cannot "turn off" the current site to launch the new one - the modernization must happen while maintaining 100% service continuity. We understand the risks and tradeoffs involved in such a transition, particularly regarding identity proofing and secure sign-in. Our approach incorporates lessons learned from past large-scale federal and private sector deployments to ensure that the transition is phased, tested, and resilient. By focusing on experience design, platform architecture, and a robust operating model, Team MSI is prepared to help the VA transition to a resilient and adaptable digital experience that meets the high standards our nation's Veterans deserve.
+Our Technical Approach
+Unlike traditional government contractors focused primarily on compliance and technical requirements, Team MSI leads with human-centered design that drives measurable outcomes including increased enrollment and higher user satisfaction. When we invest in better experiences, we
+3
+
+aren't just improving usability - we're advancing equity, unlocking efficiency, and rebuilding public trust. That's not just a nice-to-have, it's mission-critical.
+Digital transformation in government too often stops at surface-level digitization carried out by scanning PDFs, launching microsites, or checking compliance boxes. Real modernization demands more. It means rethinking workflows, re-architecting systems, and rebuilding experiences from the ground up with the Veteran at the center and the mission in clear focus. Team MSI doesn't simply digitize existing processes, we modernize and optimize them from the ground up. Our approach is grounded in experience-led transformation that puts the user at the center of every design decision. We bring full-stack capabilities spanning strategy, design, content, technology, change management and communications under one roof, eliminating the coordination overhead that slows traditional multi-vendor projects.
+Team MSI brings full-stack capabilities, from strategy through implementation, ensuring seamless execution by a balanced team of engineers, business analysts, and creatives. We deliver front-end development with modern JavaScript frameworks like React, Vue, and Next.js, combined with responsive design that works beautifully across devices. Our back-end development spans Node.js, Python, and Java environments. We handle database design and optimization for performance at scale. DevOps and infrastructure automation enable rapid, reliable deployments. We also use proprietary AI tools, from persona-led research to real-time contextual design, always with data ethics and transparency at the core.
+The section below outlines our multi-faceted approach to helping VA deliver the digital experience our nation's Veterans deserve - one that maintains continuity of service while fundamentally improving usability, accessibility, and trust in government.
+
+Foundational Discovery and Research
+
+We replace assumptions with evidence by conducting deep-spectrum research that maps the technical
+
+landscape against the lived experiences of Veterans, their families, and caregivers. This foundation ensures we
+
+aren't just building for the VA organization but architecting for the diverse human needs that the VA serves.
+
+Veteran-Centered Research
+
+Stakeholder Alignment
+
+We will evaluate and conduct extensive qualitative
+
+VA is a complex organization providing a wide variety
+
+and quantitative research with Veterans, their
+
+of benefits and services to our nation's Veterans.
+
+families, and caregivers to understand current pain
+
+Success requires cross-VA collaboration and
+
+points and friction in accessing benefits. We explore alignment on shared vision and success metrics,
+
+how commercial digital experiences shape Veterans' governance models and decision-making authority,
+
+mental models and expectations, accounting for the integration priorities and sequencing, and resource
+
+diversity of needs across age, disability status,
+
+allocation and staffing. We facilitate structured
+
+technical literacy, and benefit types. Understanding workshops, stakeholder interviews, and ongoing
+
+trust factors and concerns about data privacy and
+
+working sessions to build consensus while
+
+security is foundational to our approach. Our research maintaining momentum. Our approach ensures that
+
+methods include contextual inquiry, usability testing, technical decisions serve organizational goals and
+
+journey mapping, and large-scale surveys to ensure that all stakeholders understand their roles in
+
+we hear from representative Veteran populations, not transformation.
+
+just the digitally savvy.
+
+Technical Assessment
+
+Equity-First Approach
+
+We conduct comprehensive technical discovery to
+
+Access to VA benefits should never be limited by
+
+understand the legacy system inventory and
+
+digital barriers. We design for Veterans with varying
+
+interdependencies, integration requirements and API levels of digital literacy, rural Veterans with limited
+
+capabilities, data architecture and quality, current
+
+connectivity, Veterans with disabilities requiring
+
+infrastructure and security posture, and technical
+
+assistive technologies, Veterans who speak English as
+
+debt levels. This assessment informs our phased
+
+a second language, and Veterans who prefer or
+
+approach, ensuring we sequence work to deliver value require non-digital channels. Equity isn't an add-on;
+
+early while managing technical risk. We identify quick it's embedded in our design process from day one.
+
+wins that build momentum alongside longer-term
+
+Every design decision is evaluated through an equity
+
+architectural improvements.
+
+lens to ensure we're expanding access, not creating
+
+new barriers.
+
+4
+
+Team MSI Technical Capabilities
+
+Inclusive Research Operations  Recruitment of representative Veteran cohorts (e.g., disabled, rural, elderly)  Remote research platform management  Research repository and insight tagging  Incentive management and ethical compliance
+Data-Driven Discovery  Legacy system data profiling  Clickstream and heat-map analysis of current state  Search query intent analysis  Market and commercial benchmark analysis
+
+Experience Design Principles
+
+In today's world, people don't compare their government experiences to other government agencies, they
+
+compare them to the best digital experiences in their lives. Veterans who can order anything on Amazon,
+
+manage complex finances through mobile banking apps, and access telehealth services from leading hospitals
+
+rightfully expect VA.gov to meet the same standard. Our design approach balances innovation with reliability,
+
+ensuring VA.gov serves all Veterans effectively. We center on the human experience because great services
+
+aren't just functional, they're usable, inclusive, and intuitive.
+
+Accessibility and Inclusion
+
+Privacy and Personalization
+
+Section 508 compliance is our baseline, not our goal. Every Veteran's journey is unique. Their service
+
+We go beyond checking boxes to ensure VA.gov
+
+history, benefit needs, family situation, and personal
+
+works exceptionally well for Veterans with disabilities. circumstances shape what they need from VA.
+
+We implement the U.S. Web Design System as our
+
+Personalization isn't about creating more work for
+
+foundation, then test extensively with Veterans who Veterans - it's about making their experience easier by
+
+use assistive technologies. Clear language and
+
+remembering context, respecting their time, and
+
+content design reduce cognitive load for all users.
+
+adapting to their needs. Done right, personalization
+
+Accessibility is built in by default, not retrofitted after rebuilds trust by showing Veterans that VA values
+
+the fact. Regular accessibility audits and continuous their individual circumstances and is working to serve
+
+improvement ensure we maintain high standards as them more effectively.
+
+the platform evolves.
+
+We design intelligent personalization that adapts to
+
+· Multi-Modal Access: Not all Veterans can or
+
+each individual Veteran, reducing burden by learning
+
+want to access services from a computer. In fact, and remembering context across touchpoints. For
+
+growing numbers access many of the most
+
+example, we pre-fill forms with information VA
+
+critical commercial services from mobile and
+
+already has, eliminating redundant data entry. The
+
+other devices. We design responsive web
+
+system surfaces relevant benefits based on service
+
+experiences that work beautifully across devices, history and life events, remembers preferences and
+
+mobile apps for on-the-go access, and voice
+
+past interactions, and anticipates next steps in multi-
+
+interfaces for hands-free interaction. Print-
+
+step processes. Veterans see clear progress and
+
+friendly versions of critical content support those status across ongoing interactions. By eliminating
+
+who prefer or need paper documents. Clear
+
+redundant questions that frustrate Veterans, we show
+
+pathways to phone and in-person support
+
+respect for their time and reduce the burden of
+
+ensure digital services complement rather than accessing earned benefits.
+
+replace traditional channels.
+
+We also ensure that personalization uses Veteran
+
+· Plain Language Content Strategy: Government data to reduce redundant form filling and surface
+
+language can be impenetrable. We write content relevant content and next steps. We provide
+
+in plain language without bureaucratic jargon,
+
+transparency about what data is used and why, give
+
+explain eligibility and processes clearly, and
+
+Veterans control over their privacy preferences, and
+
+break complex topics into digestible chunks. We never sacrifice security for convenience. Veterans
+
+anticipate and answer common questions before who prefer not to use personalization features can opt
+
+Veterans need to ask. Our tone is respectful
+
+out while maintaining full access to services. The
+
+without being patronizing.
+
+result is an experience that feels helpful rather than
+
+intrusive, where privacy and personalization work
+
+together, not against each other.
+
+Identity Proofing and Authentication
+
+Navigation and Information Architecture
+
+5
+
+Security is critical, but authentication shouldn't become a barrier. We design workflows that balance strong identity verification with usability, providing multiple pathways for identity proofing including online, in-person, and assisted options. Our systems support credential recovery when Veterans lose access, integrate seamlessly with Login.gov and other trusted identity providers, and clearly communicate security measures to build trust rather than create anxiety. Continuity and Trust Veterans depend on VA.gov for critical services such as healthcare appointments, disability claims, education benefits. Any disruption can have serious consequences. Our phased modernization approach maintains service continuity throughout transformation. We favor progressive enhancement rather than big-bang replacement, running systems in parallel during transition periods. Extensive testing and validation occur before any cutover, with clear communication to Veterans about what's changing and when. We build easy rollback capabilities into every release for risk mitigation, ensuring that if issues arise, we can quickly restore service. We learned from Healthcare.gov's troubled launch, and numerous other major failed government systems, that transformation must be steady and reliable. Our approach delivers continuous improvement while maintaining the trust Veterans place in VA services.
+
+We design navigation that reflects how Veterans think about their needs, not how VA is organized internally. Our information architecture is taskoriented rather than organization-oriented, using progressive disclosure to avoid overwhelming users. We maintain consistent patterns across benefit portfolios so Veterans can transfer their learning. Smart defaults based on Veteran profile and history reduce cognitive load, while clear pathways accommodate both common and edge cases. User Feedback We capture implicit feedback from user behavior and provide explicit feedback mechanisms through ratings and comments. Machine learning improves relevance over time, while A/B testing validates personalization strategies. Continuous refinement based on outcomes ensures the system gets smarter with use. We share learnings across benefit portfolios so improvements in one area benefit Veterans accessing other services. Personalization isn't about creating more work for Veterans - it's about making their experience easier by remembering context, respecting their time, and adapting to their needs. Done right, personalization rebuilds trust by showing Veterans that VA values their individual circumstances and is working to serve them more effectively.
+
+Team MSI Technical Capabilities
+
+Accessibility Testing and Compliance  WCAG 2.1 AA/AAA compliance  Automated accessibility testing  Manual testing with assistive technologies  Testing with users who have disabilities  Accessibility audit and remediation  Ongoing accessibility monitoring
+Design Systems/Component Libraries  U.S. Web Design System implementation  Custom design system development  Component libraries for consistency and velocity
+
+ Design tokens for theming and branding
+ Documentation and governance  Design system evolution and
+maintenance
+User Research and Journey Mapping  Qualitative research (interviews, contextual inquiry, ethnography)  Quantitative research (surveys, analytics, A/B testing)  Journey mapping across touchpoints  Persona development grounded in research  Jobs-to-be-done frameworks  Service blueprinting
+
+Platform Architecture
+
+Our technical approach balances modern best practices with the realities of VA's complex technical
+
+environment. We bridge the gap between legacy constraints and cloud-native possibilities through a
+
+decoupled, API-first architecture. This approach ensures high availability and scalability while enabling us to
+
+modernize critical services incrementally without disrupting the continuity of care Veterans rely on.
+
+Cloud-Native Development
+
+API-First Architecture
+
+Cloud platforms provide the scalability and resilience Integration with VA's diverse systems requires flexible,
+
+that VA.gov demands. Our cloud-native approach
+
+well-documented APIs. We design RESTful and
+
+6
+
+leverages AWS, Azure, or GCP based on VA's strategic GraphQL APIs for different use cases, backed by
+
+direction, uses containerization for portability and
+
+comprehensive documentation and developer portals.
+
+consistency, and implements auto-scaling to handle API versioning ensures backward compatibility as
+
+variable traffic during enrollment peaks and benefits systems evolve. Rate limiting and security controls
+
+announcements. This efficient resource utilization
+
+protect system integrity. Our API-first thinking
+
+reduces infrastructure costs while improving
+
+enables future integrations without major rework.
+
+reliability.
+
+Microservices
+
+Headless Content Management System
+
+Monolithic systems create cascading failures when one component breaks. Our microservices approach decomposes functionality into independently deployable services, enabling teams to work in parallel without blocking each other. We can selectively scale high-demand services while leaving others at baseline capacity. This architecture facilitates gradual modernization, because there's no need to rebuild everything at once. When issues do occur, the impact is contained to individual services rather than bringing down the entire platform.
+
+Content must flow seamlessly across channels. We implement a headless CMS that decouples content from presentation, allowing the same content to appear appropriately formatted on web, mobile, voice, and other channels. Content modeling supports reuse and consistency across touchpoints. Workflow tools enable distributed content teams to collaborate effectively. Preview and staging environments provide quality control before publication. API delivery enables true omnichannel content distribution.
+
+Service Design and Optimization
+
+API Design
+
+ End-to-end service design
+
+ RESTful API design and
+
+spanning digital and physical
+
+implementation
+
+channels
+
+ GraphQL for flexible data queries
+
+ Process optimization and workflow  ETL and data pipeline
+
+improvement
+
+development
+
+ Stakeholder mapping and
+
+ API management and gateway
+
+ecosystem analysis
+
+configuration
+
+ Service prototyping and testing
+
+ Continuous improvement
+
+Cloud Platforms
+
+methodologies
+
+ Amazon Web Services (AWS)
+
+ Microsoft Azure
+
+Usability Testing and Iteration
+
+ Google Cloud Platform (GCP)
+
+ Moderated and unmoderated
+
+ Cloud architecture and migration
+
+usability testing
+
+ Cost optimization and FinOps
+
+Team MSI Technical Capabilities
+
+ Remote and in-person testing  Prototype testing throughout
+development
+
+practices  Multi-cloud and hybrid cloud
+strategies
+
+ First-click testing and tree testing
+
+ Eye tracking and heat mapping
+
+Modern Frontend Engineering
+
+ Iterative refinement based on findings
+
+· React/Next.js and Vue.js
+framework implementation
+
+Artificial Intelligence and Machine Learning
+ Natural Language Processing (NLP) for content clarity
+ Predictive modeling for user behavior
+
+· State management (Redux,
+TanStack Query)
+· Server-side rendering (SSR) for
+performance
+· Performance budgeting and
+core web vitals optimization
+
+ AI-assisted translation and
+
+localization
+
+ Responsible AI auditing and bias
+
+detection
+
+Security and Resilience
+Trust is the cornerstone of the Veteran experience; therefore, our security posture moves beyond perimeter defense to a proactive Zero-Trust model. We integrate automated threat detection and multi-region
+7
+
+redundancy to ensure that sensitive data remains protected and services remain resilient against any
+
+disruption.
+
+Zero-Trust Security Model
+
+Continuous Monitoring and Threat Detection
+
+We implement a zero-trust security model that never Real-time security monitoring and alerting identify
+
+trusts and always verifies, even for internal systems.
+
+potential threats as they emerge. Automated threat
+
+Identity-based access controls with multi-factor
+
+detection and response contain incidents before they
+
+authentication ensure only authorized users access
+
+escalate. Regular security testing and penetration
+
+sensitive data. Network microsegmentation limits
+
+testing identify vulnerabilities proactively. Rapid
+
+lateral movement if credentials are compromised.
+
+vulnerability management and patching cycles close
+
+Continuous validation of security posture catches
+
+security gaps quickly. Well-rehearsed security
+
+configuration drift and emerging threats. Least-
+
+incident response procedures ensure the team can
+
+privilege access principles ensure users and systems respond effectively under pressure.
+
+have only the permissions they need.
+
+Disaster Recovery and Business Continuity
+
+Federal Security Standards Compliance
+
+Multi-region deployment provides geographic
+
+We ensure FedRAMP compliance for cloud services
+
+redundancy if one region experiences an outage.
+
+and FISMA compliance for information systems. Our
+
+Automated backups with tested restore procedures security controls align with NIST frameworks including
+
+ensure data can be recovered when needed. Failover 800-53 and the Cybersecurity Framework. We
+
+capabilities keep critical services running during
+
+support ATO preparation and maintenance,
+
+infrastructure failures. Regular disaster recovery drills understanding the documentation and evidence
+
+validate our procedures and train the team.
+
+required. Continuous compliance monitoring ensures
+
+Documented business continuity plans provide clear we maintain our security posture as the platform
+
+guidance during crises.
+
+evolves.
+
+Identity and Access Management
+
+DevSecOps and Automated Security
+
+ Login.gov and ID.me integration
+
+ Static/Dynamic Application
+
+ SAML/OAuth 2.0/OpenID Connect
+
+Security Testing (SAST/DAST)
+
+Team MSI Technical
+
+implementation
+
+ Infrastructure as Code scanning
+
+Capabilities
+
+ Multi-factor authentication (MFA)
+
+ Software Bill of Materials (SBOM)
+
+workflow design
+
+management
+
+ Credential recovery and help-desk  Automated compliance reporting
+
+automation
+
+System Integration
+
+VA.gov must integrate with dozens of complex backend systems, including both modern and legacy, presenting
+
+a technical risk with a tradeoff between moving quickly and planning integrations thoroughly. We mitigate this
+
+through a phased approach with abstraction layers that isolate the frontend from backend complexity, allowing
+
+us to modernize the user experience while gradually improving integration depth.
+
+Diverse System Portfolio
+
+Event-Driven Architecture
+
+We design integration approaches appropriate for
+
+Publish-subscribe patterns provide loose coupling
+
+each system's capabilities. Modern APIs connect to
+
+between systems, allowing them to evolve
+
+systems that support them. Integration middleware
+
+independently. Event streaming enables real-time
+
+bridges to legacy systems that predate modern
+
+data synchronization across distributed systems.
+
+standards. Event-driven patterns enable real-time
+
+Event sourcing creates immutable audit trails that
+
+updates where responsiveness matters. Batch
+
+support compliance requirements. Asynchronous
+
+processing handles high-volume data transfers
+
+processing improves performance by allowing
+
+efficiently. Abstraction layers shield the frontend from systems to work concurrently rather than waiting for
+
+backend changes, reducing the ripple effects of
+
+sequential operations.
+
+system updates.
+
+Data Governance and Master Data Management
+
+Phased Legacy System Sunset
+
+Data quality and consistency are critical when
+
+Modernization does not require replacing everything
+
+integrating diverse systems. Master data
+
+immediately. We prioritize based on business value
+
+management establishes authoritative sources for key and technical risk, tackling the highest-impact
+
+entities like Veterans and claims. Data quality rules
+
+opportunities first. The strangler fig pattern gradually
+
+and validation prevent garbage from entering the
+
+replaces legacy functionality without requiring a full
+
+system. Data lineage and audit trails track how
+
+rewrite. We maintain legacy systems until their
+
+information flows and transforms. Privacy and security replacements are proven and stable. Careful planning
+
+8
+
+controls protect sensitive data throughout its lifecycle. Data standards and canonical models ensure consistent interpretation across systems.
+
+for data migration and system retirement prevents data loss. We document lessons learned to improve with each system we modernize.
+
+Team MSI Technical Capabilities
+
+System Integration  SOAP and legacy protocol support  Enterprise service bus integration
+Legacy Modernization Patterns  Strangler Fig pattern implementation  Mainframe-to-Cloud data synchronization  Protocol translation  Change Data Capture
+
+Data Engineering and Orchestration  Master Data Management (MDM) for Veteran profiles  Data lineage and provenance tracking  ETL/ELT pipeline development  Event streaming (Kafka/RabbitMQ)
+
+Content & Communications
+
+We treat content as a mission-critical interface, utilizing plain language and task-oriented architecture to
+
+eliminate bureaucratic jargon. By centralizing content through a headless CMS, we ensure Veterans receive
+
+clear, consistent, and scannable information across every digital and physical touchpoint.
+
+Information Architecture
+
+Content Design
+
+VA serves multiple missions, each with its own unique We use progressive disclosure to show what is
+
+complexities. Our information architecture organizes needed when it is needed, preventing information
+
+content around Veteran tasks rather than VA org
+
+overload. Scannable content with clear headings and
+
+charts, providing clear pathways into each benefit
+
+short paragraphs respects Veterans' time. Visual
+
+area. We surface relationships between related
+
+hierarchy guides attention to what matters most.
+
+benefits, so Veterans discover programs they are
+
+Smart defaults and inline help reduce the learning
+
+eligible for. The architecture enables both browsing curve. Error messages explain both the problem and
+
+for discovery and direct search for known needs. It
+
+the solution rather than just flagging failures.
+
+scales gracefully to accommodate new benefits and Confirmation and messages reduce anxiety by clearly
+
+programs as VA's mission evolves.
+
+communicating what just happened and what comes
+
+next.
+
+Multi-Channel Communication
+
+Continuous Improvement
+
+Veterans receive information through numerous channels, and we ensure consistency across all of them. Email notifications include clear calls to action. SMS updates deliver time-sensitive information to mobile phones. In-app messaging reaches logged-in users at the moment of relevance. Print materials serve those who prefer or require physical documents. We coordinate closely with VA contact centers so phone agents have the same information as digital channels. Social media integration extends reach where appropriate.
+
+We establish a content ownership model with clear responsibilities for creation, review, and maintenance. Editorial calendars and workflow tools coordinate distributed content teams. Content performance metrics track readability, findability, and task completion rates. A/B testing enables continuous optimization based on evidence. Regular content audits identify outdated or underperforming content for updates. A comprehensive style guide and content standards ensure consistency across pages.
+
+Information Architecture
+
+ Multilingual content strategy
+
+ Content inventory and audit
+
+ Content workflow and governance
+
+ Card sorting and tree testing
+
+ Editorial calendars and planning
+
+ Taxonomy and metadata design
+
+ Content performance
+
+ Navigation design and optimization
+
+measurement
+
+Team MSI Technical Capabilities
+
+ Search strategy and implementation
+ Findability and discoverability
+
+Multi-Channel Communications  Email marketing and automation
+
+optimization
+
+ SMS and push notifications
+
+ Social media strategy and
+
+Content Strategy and Design
+
+execution
+
+ Content modeling and structure
+
+ Public and media relations
+
+ Plain language writing and editing
+
+ Stakeholder communications
+
+9
+
+Operating Model and Governance
+
+Sustainable transformation requires the right operating model, not just during initial delivery, but for ongoing
+
+evolution. In an agency with as much organizational complexity as the VA, there must be clear governance
+
+structures in place, with empowered product owners who can make tactical decisions quickly while ensuring
+
+strategic alignment with the broader goals of the transformation initiative.
+
+Agile Delivery with Sprint-Based Rollouts
+
+Cross-Functional Product Teams
+
+Waterfall does not work for modern digital services. Silos kill velocity. We organize around dedicated
+
+Our agile approach uses two-week sprints that deliver product teams with end-to-end ownership from
+
+working software continuously. Regular demos and
+
+conception through deployment. Each team includes
+
+stakeholder feedback sessions keep everyone
+
+a mix of skills such as design, engineering, content,
+
+aligned. We favor incremental releases over big-bang and QA, eliminating handoff delays. VA stakeholders
+
+launches, reducing risk and enabling faster learning. and subject matter experts embed with teams to
+
+Sprint retrospectives continuously improve our
+
+provide domain expertise and decision-making
+
+processes, allowing us to adjust based on what we
+
+authority. Stable teams build expertise over time
+
+learn rather than rigidly following an outdated plan.
+
+rather than constantly reforming around projects.
+
+We move with urgency, applying agile processes and Clear product ownership ensures someone is
+
+sprint-based rollouts to deliver value early and often. accountable for outcomes, not just outputs.
+
+Continuous User Feedback Loops
+
+Clear Decision-Making Frameworks
+
+Usability testing occurs throughout development, not just at the end. Beta programs with Veteran volunteers provide real-world validation before full release. Analytics and user behavior tracking reveal how Veterans actually use the system versus how we expected. Support ticket analysis identifies pain points that surface after launch. Regular surveys and feedback mechanisms capture sentiment and suggestions. Advisory groups representing diverse Veteran populations provide ongoing guidance on design decisions.
+
+Transformation stalls without clear decision authority. We establish RACI matrices that define who is Responsible, Accountable, Consulted, and Informed for each type of decision. Escalation paths resolve blockers quickly when teams cannot reach consensus. Regular steering committee meetings provide executive oversight without micromanagement. Authority is delegated to appropriate levels so teams can move quickly on tactical decisions while leadership focuses on strategic direction. Transparent decision documentation ensures everyone understands the rationale behind key choices.
+
+Change Management and Adoption
+
+New technology only succeeds if people adopt it. Our change management approach begins with stakeholder
+
+engagement and communication plans that prepare people for what is coming. We provide comprehensive
+
+training for VA staff on new systems and processes. Support materials and resources help Veterans navigate
+
+changes. Phased rollout allows for adjustment based on early feedback before full deployment. Success
+
+metrics track adoption rates and satisfaction levels to identify problems early. Ongoing support during and
+
+after transition ensures no one is left behind.
+
+Analytics and Measurement
+
+Digital Transformation Roadmaps
+
+ Analytics implementation and
+
+ Current state assessment
+
+configuration
+
+ Future state visioning
+
+ Dashboard and reporting design
+
+ Gap analysis and prioritization
+
+ User behavior analysis
+
+ Phased implementation planning
+
+ Conversion optimization
+
+ Resource and budget planning
+
+ Performance monitoring
+
+ Risk assessment and mitigation
+
+ Data visualization
+
+Team MSI Technical
+
+Capabilities
+
+Agile Program Management Tools
+
+ Jira/Confluence or Azure DevOps
+
+administration
+
+ Automated sprint reporting and
+
+velocity tracking
+
+ RACI and decision-log
+
+management
+
+ Product roadmap visualization
+
+tools
+
+10
+
+Appendix A: Relevant Experience
+Team MSI has selected seven case studies across the private and public sectors to showcase our deep expertise and track record of results. These case studies reflect our reputation for delivering high quality, error-free results in the most complex, fast-paced, and high-stakes environments.
+
+Case Study #1: New York State Digital Platform - Government-Scale Consolidation
+
+Challenges
+
+Solutions
+
+New York State needed to consolidate 170 disparate state agencies onto a single digital platform, making it one of the most ambitious state government digital consolidations in the country. Each agency had unique needs, stakeholders, and legacy systems.
+
+We delivered a comprehensive website and content management system implementation that unified 170 agencies while respecting their individual needs. The platform provides consistent user experience, shared design systems, and coordinated governance across a massive, complex organizational landscape.
+
+Relevance to the VA
+
+Results
+
+A VA website must bring together content and information across its many Administrations and Offices. This project resulted in a comprehensive website and content management system implementation unifying 170 agencies while respecting their individual needs. The platform provides consistent user experience, shared design systems, and coordinated governance across a massive, complex organizational landscape.
+
+· 170 state agencies consolidated onto a single platform
+· One of the largest state government digital consolidations in the country
+· Established Code and Theory's credibility in complex multi-stakeholder government transformation
+
+11
+
+Case Study #2: Hoag Hospital - Healthcare Experience Innovation
+
+Challenges
+Hoag Hospital needed to transform their digital healthcare experience to serve diverse patient populations with varying needs, technical literacy levels, and healthcare journeys, all within a highly regulated healthcare environment.
+Relevance to the VA Hoag Hospital demonstrates our ability to transform complex healthcare systems while navigating regulatory requirements, the type of experience that translates directly to VA's healthcare delivery mission. We understand how to design for diverse patient populations with varying levels of digital literacy and complex healthcare needs.
+
+Solutions We delivered a comprehensive healthcare system digital transformation that puts patients at the center. The platform balances regulatory requirements with exceptional user experience, making complex healthcare navigation intuitive and accessible. Results
+· Successful digital transformation of complex healthcare system
+· Patient-centered design for diverse healthcare journeys
+· Regulatory compliance balanced with exceptional user experience
+
+12
+
+Case Study #3: Sutter Health - Sensitive Healthcare Access
+
+Challenges
+
+Solutions
+
+Sutter Health needed a mental health community app for teens, one of the most vulnerable and privacy-sensitive populations. The application required exceptional privacy controls, age-appropriate design, and accessibility while addressing serious mental health needs.
+
+We developed a sensitive healthcare application that balances robust privacy protections with engaging, age-appropriate design. The app creates a safe space for teens to access mental health resources and community support.
+
+Relevance to the VA The Sutter Health app demonstrates our ability to design healthcare experiences for vulnerable populations with complex privacy and accessibility needs, which is directly applicable to VA's mission serving Veterans with diverse healthcare needs, especially when it comes to critically important mental health services.
+
+Results
+· Successfully launched sensitive healthcare application for vulnerable populations
+· Exceptional privacy, accessibility, and ageappropriate design
+· Demonstrates a holistic approach to healthcare access
+
+13
+
+Case Study #4: NBC Election Hitboard, Mission-Critical Reliability
+
+Challenges NBC needed a real-time, secure data visualization system to power their national election coverage by creating a platform with zero tolerance for errors, downtime, or inaccuracy under the most intense public scrutiny imaginable. Relevance to the VA
+The NBC Election Hitboard demonstrates our ability to deliver mission-critical systems with zero-error reliability, a standard Veterans should expect when accessing their hard-earned benefits. When stakes were highest and tolerance for failure was zero, we delivered.
+
+Solutions
+We built a high-stakes, real-time data platform that delivered accurate election results visualization across 30,000+ hours of coverage. The system handled massive data flows, realtime updates, and high concurrent usage during peak election moments.
+Results · Zero errors in 30,000+ hours of election
+coverage · Zero downtime during critical election night
+coverage · Flawless performance under intense public
+scrutiny and technical demands
+
+14
+
+Case Study #5: Educational Testing Service - A Future-Ready Transformation
+
+Challenges Educational Testing Service (ETS), a standardized testing giant and trusted solutions organization, sought to support their evolved strategic vision by showcasing a compelling overview of their business. To position themselves for successful B2B growth and bolster their reputation globally, ETS needed a comprehensive brand transformation. Looking to grow their B2B business, ETS faced significant hurdles posed by emerging challenges and everevolving technological advancements disrupting the testing and assessments industry. Although well-known, the overall corporate brand lacked a clear mandate and equity. Relevance to the VA The VA brand has evolved significantly since inception, maintaining elements of patriotism while modernizing in the digital age. A VA website must reflect traditional elements of service while meeting its digital branding strategy goals for human-centered design, personalization, and accessibility. This ETS project demonstrates our ability to position a complex organization as a pathbreaker beyond its core mission and setting the brand up for success across different business models (B2B, B2C, B2G). As the VA embarks on expanded services (e.g., AI-powered care), it would benefit from a partner who has helped businesses successfully market and expand their services.
+
+Solutions
+In a community-amid environment, we positioned ETS as a pathbreaker in an evolving landscape. We reimagined ETS's brand identity system and digital experience, including a redesigned logo and digital platform. The new branding symbol, an upward diagonal, represents progress, ascending as a bold centerpiece, created by an upward diagonal that superimposes ETS's commitment to advancing the science of measurement to power human progress.
+Results
+· +888% user growth with ETS Solutions, their new B2B arm
+· 100% accessibility score at launch per Google Lighthouse
+· +12% positive sentiment for the new ETS and TOEFL brands
+
+15
+
+Case Study #6: Minnesota Star Tribune - Redefining Local News in America
+
+Challenges As local news publications shuttered, the Minnesota Star Tribune faced an existential moment. The 154-year institution faced both an awakening of challenges: the onslaught of AI and disruptions in technology, consumer behavior, revenue and monetization, and talent recruitment.
+
+Solutions
+Research signaled that the paper served a passionate community deeply invested in its stories about news, leading us to double down and change the Star Tribune's framing from "Voice of the North" to "The voice of the North" to life.
+
+In particular, the publication's digital experience relied on outdated technology, affecting speed, quality, and communication across the newsroom. At this critical moment in the newspaper's history, the Star Tribune partnered with Code and Theory to transform its business and brand.
+
+This transformation brings that positioning to life under six months, we delivered a comprehensive transformation that entails a modern web experience that's more accessible and best-inclass technology designed to help set up the paper for the future.
+
+Relevance to the VA The Star Tribune transformation demonstrates our ability to modernize legacy institutions without disrupting critical operations. We delivered a six-month comprehensive transformation for a trusted 154-year institution, delivering the rapid, reliable type of delivery VA needs while maintaining continuity of service for Veterans.
+
+Results
+· #1 infrastructure supported highest traffic day ever
+· 32% of monthly subscriber goal met in first 24 hours post-launch
+· 20M press impressions in The New York Times, Washington Post, and Adweek
+
+16
+
+Case Study #7: RealClearPolitics ContextLens AI - Responsible AI at Scale
+
+Challenges RealClearPolitics needed to overhaul their content architecture and deliver AI-powered polling insights while maintaining the transparency and credibility essential to their mission as a trusted source of political information. Relevance to the VA RealClearPolitics demonstrates our ability to apply AI responsibly in high-stakes environments where transparency and trust are non-negotiable. Our approach to AI-powered personalization and assistance can help Veterans access benefits more easily while maintaining complete transparency about how their data is used.
+
+Solutions We delivered an AI-powered platform that provides real-time polling insights with complete transparency about methodology and data sources. The system balances cutting-edge AI capabilities with the explainability and trust required for high-visibility public information. Results
+· Three-second real-time response for AIpowered polling insights
+· Successful content architecture overhaul · Maintained transparency and credibility
+while deploying advanced AI
+
+17
+
+Appendix B: Sample Journey Maps
+18
+
+19
+
+20
+
+

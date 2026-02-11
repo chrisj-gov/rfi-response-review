@@ -1,0 +1,199 @@
+Replacement Model for VA.Gov
+How Red Hat can help the Department of Veterans Affairs
+February 2, 2026
+
+Red Hat Point of Contact:  Sandi Tighe, Account Executive
+
+
+
+
+
+
+
+
+
+stighe@redhat.com
+
+Treatment of Red Hat's proposal
+This response document contains Red Hat trade secrets, including but not limited to sensitive pricing information, and may not be disclosed to a third party without Red Hat's prior written consent. The exchange of information under this response shall be protected under any applicable agreement between the parties related to the treatment of confidential information. In the absence of such agreement, the recipient of this response shall protect the information contained herein in the same manner as it protects its own confidential information and may not be shared with any third party.
+This is a proposal for a potential business relationship, and is neither a contract nor an offer that could be accepted by the other party. If the parties decide to enter into a business relationship, they will memorialize the terms of that relationship in a separate agreement between them or their respective business partners.
+Copyright © 2026 Red Hat, Inc. Red Hat, Red Hat Enterprise Linux, the Red Hat logo, and JBoss are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.
+
+Executive Summary
+The U.S. Department of Veterans Affairs (VA) aims to deliver efficient, high-quality IT services that support caregivers and Veterans, relying on robust IT systems to modernize their VA.Gov portal. VA.Gov is the "single digital front door" for Veterans, providing a centralized platform for managing all VA benefits and services. The mobile app alone sees more than 865,000 active monthly users.1 However, successful modernization depends on the VA's ability to integrate fragmented legacy systems, while maintaining the consistency and stability needed to coordinate advancements in user experience, content strategy, and backend analytics. The VA requires a solution that is interoperable, consistent and Veteran-centric.
+Red Hat can support the modernization of VA.Gov portal with a highly secure and reliable technology foundation that keeps critical VA systems running smoothly. Red Hat enterprise platforms, such as Red Hat OpenShift Container Platform (Red Hat OpenShift), enable consistent, high-performance IT operations across data centers, cloud environments, and edge locations. Red Hat OpenShift AI enhances this foundation by accelerating data insights with secure, scalable AI capabilities. While, Red Hat OpenShift Virtualization, enables teams to run containers and virtual machines (VMs), side-by-side for management ease. For simplicity, we refer to this multi-capability offering as "Red Hat OpenShift" in this document. We also offer automated management and patching via Red Hat Ansible Automation Platform to reduce downtime and mitigate the risk of human error. (It is worth noting, Red Hat Ansible Automation Platform is already being used significantly at the VA, automating more than 20,000 devices.) For a full description of relevant technology please see Question 4.
+In our approach, we adhere to open standards and interoperability to support seamless data exchange across the Veteran care continuum, while built-in security and compliance features help protect sensitive information. With our tools, platform and approach, Red Hat can support the VA in delivering the resilient, efficient, and high-quality technology environment needed to support a comprehensive portal for all Veterans and stakeholders to access benefits, healthcare, services, and information.
+Note: Red Hat often leads digital transformation efforts; our role on this opportunity is as a key technology enabler with certified, security-hardened, and DoD-accredited software. It is our intention to collaborate with a certified integrator to deliver a full solution.
+Interoperable. The VA's large, distributed healthcare system must coordinate across multiple facilities, legacy and modern IT systems, and numerous workflows, making it difficult to streamline operations, reduce redundancy, and deliver timely services to Veterans without delays or resource strain. An interoperable foundation is crucial for the VA because it directly supports integration with a diverse portfolio of legacy and emerging IT systems. It is also important for resolving current interoperability and data flow issues. Foundational
+
+1https://digital.va.gov/delightful-end-user-experience/milestone-moment-va-health-and-benefits-mobile-app-approachi ng-two-million-downloads/
+
+Department of Veterans Affairs | Red Hat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+interoperability ensures smooth and reliable data exchange across the VA network, which is necessary to deliver a seamless and Veteran-centric experience.
+Red Hat OpenShift provides an interoperable hybrid cloud platform, guaranteeing the VA can seamlessly integrate all its diverse legacy and emerging systems, in support of VA.Gov.
+Red Hat OpenShift provides an interoperable hybrid cloud platform, enabling the VA to interoperability is what enables the VA to retain on-premise components, while expanding to public clouds. By serving as a modern foundation, the platform helps resolve existing issues, such as legacy technical debt and fragmented data flow between older and newer systems. Robust interoperability capabilities maintain continuity of service for millions of users.
+Consistent. Because the VA has a vast, complex system that relies on diverse and legacy IT systems, it can be difficult to ensure consistent, stable, timely, and reliable access to legacy Veteran information through the VA.Gov portal. The chosen solution must support long-term scalability, adaptability, and resilience for a platform serving millions of users. Continuity-of-service is also a critical necessity to support this Veteran-centric interface.
+Red Hat OpenShift ensures consistency and high performance with a standardized container layer that runs identically across all environments, regardless of infrastructure.
+Red Hat OpenShift consolidates and manages VM workloads with uniform policies and controls, improving consistency and simplifying operations, and enables data-driven insights that can enhance decision-making, workflows, and clinical outcomes. Automated updates and patching, lifecycle management, and standardized platforms reduce errors and variability, helping IT teams deliver reliable services.
+Veteran-centric. To deliver a premier, modern digital gateway for Veterans, the VA must transition to a seamless, secure, and unified service platform. However, achieving this vision requires overcoming significant backend hurdles, including legacy system fragmentation, data-sharing silos, and complex regulatory demands that currently impede efficient information transfer and workflow integration.
+The VA can significantly elevate the Veteran experience on VA.Gov with Red Hat OpenShift, as a scalable, resilient foundation for hybrid cloud integration to overcome legacy fragmentation and complex regulatory demands.
+While the VA manages the VA portal itself, Red Hat OpenShift serves as the critical foundation that streamlines operations and integrates disparate systems through a standardized container layer. This architecture ensures the Veteran has reliable access to data across all environments, providing a secure and consistent experience for Veterans and their families. The platform not only ensures technical stability but also powers the AI-driven chatbots and backend analytics essential to the VA's modern content strategy. Drawing on deep historical expertise from programs like VAPO (Please see description under Question 2.), Red Hat continues to partner with the VA to transform legacy architectures into modern, Veteran-centric, data-driven service environments.
+
+Department of Veterans Affairs | Red Hat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+
+Requested Information
+1. Company or organization overview (name, location, and brief description of relevant capabilities).
+Red Hat, LLC
+100 E. Davie Street, Raleigh, NC 27601
+As a key technology enabler, Red Hat provides the certified, security-hardened, and DoD-accredited software foundation necessary to power this initiative. Red Hat's relevant capabilities for the VA.gov modernization are centered on a secure and flexible hybrid cloud foundation powered by Red Hat OpenShift.
+Red Hat OpenShift is an interoperable platform that enables the VA to seamlessly integrate its diverse portfolio of legacy and emerging systems. It provides the consistency and resilience necessary for the large-scale, high-traffic VA.Gov website, while also including Red Hat OpenShift Virtualization for managing VM workloads.
+Red Hat OpenShift AI can support the desired Veteran-centric experience by enabling AI-driven chatbots and facilitating critical backend data analytics, aligning with the VA's goals for content strategy and governance. Finally, Red Hat Ansible Automation Platform offers automated management and patching to reduce downtime and ensure service continuity throughout the transition.
+2. Relevant experience with similar challenges.
+Red Hat has significant and relevant experience with similar large-scale modernization challenges, as detailed in the following:
+Department of Veterans Affairs - VA Platform One
+Red Hat OpenShift serves as the enterprise PaaS foundation for the Department of Veterans Affairs (VA) through its VA Platform One (VAPO) initiative. By adopting a containerized approach, the VA provides a consistent development and security experience across on-premise data centers, edge locations, and multi-cloud environments like AWS and Azure. This modernization effort, which includes mission-centric extensions like the VA Logistics Integration Platform (VALIP), reduces costs by minimizing environment drift and automates critical security compliance through tools like Red Hat Advanced Cluster Management and Advanced Cluster Security.
+Washington Health Benefit Exchange (WHBE)
+Red Hat supported the WHBE Healthplanfinder website with the container platform, integration tooling, and hands-on expertise needed to keep the site reliable, scalable, and continuously available during massive traffic growth. Red Hat OpenShift enabled the Exchange to modernize its backend into a microservices-based architecture that could scale on demand without downtime, while Red Hat Application Foundations (including 3scale API Management, AMQ, and Fuse) improved how the website integrated with identity systems, eligibility services, and
+
+Department of Veterans Affairs | Red Hat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+
+third-party partners. Working alongside Deloitte, Red Hat Consulting helped deploy the platform, migrate APIs, and redesign operations so maintenance, patching, and scaling could occur invisibly to users--allowing the site to support 160% growth, add over 57,000 new users, improve transaction performance, and eliminate outages during critical enrollment periods.2
+State of Tennessee Department of Human Services (TDHS)
+Red Hat supported the TDHS citizen-facing websites by providing the cloud-native platform and integration backbone. The Red Hat foundation enabled multiple fragmented services to be delivered through a single, reliable digital entry point. Red Hat OpenShift underpinned the KRIS Connected Platform, enabling KPMG to run the portals and digital services as scalable, secure microservices that could be updated, expanded, and scaled on demand without disrupting access for citizens. Red Hat Integration connected the websites to legacy eligibility, benefits, and case-management systems through APIs, ensuring consistent data flow and performance, while Ansible Automation Platform supported repeatable, reliable operations. Together, Red Hat's platform, consulting, and training helped ensure the TDHS portals remained available, responsive, and secure as usage grew--supporting millions of Tennesseans with unified, always-on access to critical human services.3
+3. Responses to the topics and questions in this request.
+We have provided a description of our proposed solution below.
+4. Descriptions of relevant technologies and approaches.
+In this document, our solution - Red Hat OpenShift is composed of Red Hat Enterprise Linux (always a component of Red Hat OpenShift), Red Hat OpenShift Container Platform, Red Hat OpenShift Virtualization and Red Hat OpenShift AI. This combination provides the VA with capabilities for software development, platform management, virtualization (running both containers and VMs on the same platform), and AI for accelerating actionable insights and intelligence.
+Red Hat OpenShift Container Platform is a container application platform that includes an enterprise-grade Linux operating system, container runtime, networking, monitoring, registry, and authentication and authorization solutions. Industry recognized4 Red Hat OpenShift provides a consistent hybrid cloud foundation for building and scaling containerized applications and is based on a Red Hat Enterprise Linux foundation. Red Hat OpenShift delivers high IT performance for the VA across any infrastructure, including cloud, edge, virtualized, or bare-metal environments. It is extensible to emerging Kubernetes-based frameworks and technologies, making it easier for
+
+2 https://www.redhat.com/en/resources/washington-health-benefits-exchange-case-study
+3 https://www.redhat.com/en/success-stories/kpmg 4 Gartner Magic Quadrant
+
+Department of Veterans Affairs | Red Hat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+
+teams to do more with containers. Benefit from greater productivity with Knative, Istio, and machine-learning / artificial intelligence.
+Red Hat OpenShift Virtualization is an included feature of Red Hat OpenShift, providing a modern, unified platform for organizations to run and deploy their new and existing VM workloads. The solution allows for easy migration, modernization, and management of traditional VMs on a trusted, consistent, and comprehensive hybrid cloud application platform.Red Hat OpenShift Virtualization lets you preserve existing virtualization investments while embracing modern management principles. Modernize and gain the capability to:
+ Migrate and run VMs at scale across hybrid cloud environments.  Manage VMs alongside containers and serverless workloads.  Integrate AI without disrupting legacy workloads.
+Red Hat OpenShift AI is a comprehensive platform designed to run on top of Red Hat OpenShift Container Platform, working in conjunction with it to provide a robust environment for AI/ML workloads.
+Red Hat Ansible Automation is a robust automation tool designed for enterprise environments. It manages the underlying Ansible technology, which is widely adopted by thousands of organizations to automate diverse IT tasks. These tasks include configuration management, system provisioning, workflow orchestration, application deployment, and overall life-cycle management.
+A key capability of the platform is Event-Driven Ansible (EDA). EDA can continuously monitor the portal and/or integrate with third-party monitoring tools. Should the portal become unavailable for any reason, EDA can automatically initiate remediation workflows. This feature includes the ability to leverage AI for automatic issue resolution (self-healing), significantly reducing the need for human intervention.
+Red Hat Application Foundations is a unified suite of tools that increase developer productivity by providing API Management, data streaming, enterprise integration, application security, migration, and framework capabilities needed to deliver cloud-native applications. When used with Red Hat OpenShift®, Red Hat Application Foundations provides the tools to connect modern development practices to an enterprise application platform.
+Red Hat Runtimes accelerates the delivery of cloud-native applications by providing developers with a curated, secure, and highly scalable set of frameworks and middleware optimized for consistent performance across any environment. It's a comprehensive collection of products, tools, and components designed to streamline the development and maintenance of cloud-native applications. It provides a curated set of lightweight runtimes and frameworks--including Quarkus, Spring Boot, Node.js, and Eclipse Vert.x--giving developers the flexibility to choose the right tool for specific microservices or serverless architectures. Beyond just frameworks, the solution integrates essential middleware capabilities such as Red Hat Data Grid for in-memory caching, Red Hat AMQ for high-performance messaging, and Red Hat build of Keycloak for identity and access management. Optimized for Red Hat OpenShift, this portfolio enables a consistent, enterprise-grade development experience that accelerates time-to-market while ensuring portability and security across hybrid cloud environments.
+
+Department of Veterans Affairs | Red Hat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+5
+
+Red Hat Advanced Developer Suite empowers teams to deliver secure, high-quality code faster by providing a unified, self-service platform that automates the software supply chain and reduces the complexity of building cloud-native and AI-driven applications. It is a comprehensive internal developer platform (IDP) designed to boost engineering productivity, while securing the entire software supply chain. It bundles a curated set of tools that enable platform engineers to provide developers with a self-service, "golden path" experience--abstracting away infrastructure complexity, so teams can focus on writing code. The suite is anchored by the Red Hat Developer Hub (based on Backstage) and integrates deeply with Red Hat OpenShift to provide a consistent environment for building cloud-native and AI-infused applications
+Red Hat Cloud Services provide a production-ready, managed platform that enables organizations to build and scale applications across major public clouds (Amazon, Azure, Google, etc.), while Red Hat's SRE teams handle the underlying operational complexity. Red Hat Cloud Services include hosted and managed platform, application, and data services that streamline the hybrid cloud experience, reducing the operational cost and complexity of delivering cloud-native applications. With RedHat OpenShift as the foundation, Red Hat Cloud Services offers a secure, flexible, and scalable cloud platform that provides enterprise-grade security and compliance, proactive support and monitoring, and enables businesses to focus on their core operations.
+For the second consecutive year (2025), Gartner® has recognized Red Hat® as a Leader in the 2025 Magic QuadrantTM for Cloud-Native Application Platforms,5 validating Red Hat OpenShift as a premier, secure solution for managing AI, virtualized, and containerized workloads. By abstracting infrastructure complexity through fully managed services--jointly engineered with major hyperscalers like AWS, Azure, Google, and IBM--Red Hat enables organizations to accelerate software delivery and focus on innovation across the entire hybrid cloud.
+5. Any additional information relevant to VA's objectives.
+Red Hat is a long-standing and trusted technology partner of the U.S. Department of Veterans Affairs (VA), supporting mission-critical systems with secure, enterprise-grade open-source solutions. Red Hat technologies are widely deployed across the VA to enable infrastructure modernization, automation, and scalable application platforms that align with federal security and compliance requirements. In addition, Red Hat maintains an enterprise agreement with the VA that provides eligible programs access to pre-negotiated, discounted rates on Red Hat software subscriptions, support, and related services. This enterprise agreement simplifies procurement, ensures consistent licensing and support across the organization, and delivers cost efficiencies that help VA programs maximize value while advancing their mission to serve Veterans.
+
+5 https://www.redhat.com/en/red-hat-named-leader-2025-cloud-native
+
+Department of Veterans Affairs | Red Hat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+6
+
+Conclusion
+By leveraging Red Hat OpenShift as the secure, interoperable foundation for VA.Gov, the VA can transform its fragmented legacy environment into a premier, Veteran-centric digital gateway. This action-oriented approach bridges the gap between complex backend systems and modern service delivery, ensuring that the "single digital front door" remains resilient and consistent for millions of users. Through strategic integration of standardized container layers, automated management via Ansible, and AI-ready infrastructure, the VA can eliminate data silos and scale innovation. In collaboration with a certified integrator, Red Hat provides the DoD-accredited, security-hardened platforms necessary to resolve technical debt and deliver a seamless, high-performance experience that prioritizes the needs of Veterans, their families, and their caregivers. For more information, please reach out to: Sandi Tighe, stighe@redhat.com
+
+Department of Veterans Affairs | Red Hat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+

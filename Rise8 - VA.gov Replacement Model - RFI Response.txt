@@ -1,0 +1,961 @@
+[INSERT COVER PAGE]
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+Executive Summary
+VA.gov is the primary digital front door for Veterans to access healthcare, benefits, and critical services. While progress has been made consolidating Veteran-facing experiences, persistent issues with reliability, identity friction, data consistency, and failed transactions show the current operating model has reached its limits. These challenges are reflected in Veteran feedback, public issue tracking, and the lived experience of teams delivering and operating VA.gov. As a company where more than a third of our team are Veterans who use these services, Rise8 has seen firsthand how digital breakdowns affect trust, outcomes, and access to care.
+Based on this understanding, Rise8 proposes a replacement model for VA.gov that moves beyond incremental fixes to establish a durable, platform-based foundation for Veteran digital services. VA.gov is increasingly being asked to evolve beyond a page-centric website into a resilient digital platform that can orchestrate complex Veteran journeys across many backend systems, tolerate partial failure, and improve continuously without disrupting access to mission-critical services.
+Team Rise8. Rise8 anticipates leveraging proven commercial technologies and partners where they accelerate delivery and reduce risk. This includes Mechanical Orchard for behavior-preserving modernization of high-risk legacy systems and mainframes, Thoughtworks for digital platform transformation and data-driven delivery at enterprise scale, Palantir as a platform and data capability provider supporting deployment operations, data integration, and low/no-code workflows. Rise8 brings a strong culture and mindset rooted in collaboration, user-centered outcomes, and service to the mission, and we view this effort as a true partnership where we work alongside VA teams to help drive and sustain meaningful change for Veterans.
+Rise8 serves as the delivery lead, establishing the secure path to production, journey-centric standards, integrating the required Commercial Off-The-Shelf (COTS) and Free and Open Source Software (FOSS) solutions, and governance needed to migrate from the current VA.gov platform to a future state that reduces duplication, simplifies operations, and aligns delivery around Veteran outcomes.
+Proposed Solution. Rise8 proposes replatforming VA.gov onto a modern, commercial platform-as-a-service (PaaS) running on Palantir Apollo in AWS and operated under a continuous Authorization to Operate (cATO). The platform replaces today's page-centric model with a resilient foundation that enables VA and third-party teams to deliver applications and data capabilities independently while inheriting shared security, deployment, and
+operational controls through a unified path to production.
+This model is intentionally designed for the realities of the VA.gov environment, including dozens of systems of record, multiple lines of business, and a diverse vendor landscape. It centers on establishing a unified, technology-agnostic platform and path to production that allows VA to modernize the core system once, while continuing to execute modular contracts around the edges as needs evolve. Rise8 brings this approach through a non-traditional delivery model, complemented by best-in-class OEM capabilities and deep government experience, while leveraging partnerships with incumbent teams such as Thoughtworks and Oddball, with whom we have worked on VA Notify and currently supports Rise8 as a subcontractor on Accelerate Cybersecurity Excellence (ACE) for VA.gov. The result is a VA.gov replacement that improves reliability and trust for Veterans, reduces operational burden for VA teams, and enables sustained modernization without locking VA into a single vendor or monolithic contract.
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 1
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+Understanding of the Problem
+As a company with Veterans who actively rely on VA services, Rise8 approaches this problem with both professional and personal urgency. Our understanding is built upon what our Veterans experience directly and with what we have observed while delivering and operating mission-critical platforms across the Department of War, civilian agencies, and VA. Today, Rise8 directly supports VA leading cATO and developer experience in the Lighthouse Program, operates the Watchtower program focused on reliability and observability for VA.gov, and leads the ACE program to define a path for cATO for VA.gov, providing firsthand insight into the challenges and opportunities shaping the future VA.gov platform. It is especially difficult to see Veterans turning to places like Reddit asking whether there is an outage or whether a system is down when they are simply trying to access care or benefits, underscoring how reliability issues quickly become trust issues. These experiences reinforce a central conclusion: the current VA.gov model is being asked to do more than it was designed to do.
+Based on our direct experience supporting VA programs, our lived experience as Veterans who actively rely on VA.gov, and recent feedback observed in Veteran forums and public issue tracking, including reports of service disruptions as recently as January 2026, several consistent themes continue to emerge across VA.gov experiences.
+ Identity and access friction, including challenges with sign-in, identity verification, session timeouts, and multi-factor authentication that prevent Veterans from getting started or resuming work.
+ Unreliable application and form workflows, where pages fail to load, save, or complete, often resulting in lost progress and the need to restart submissions.
+ Evidence and document submission failures, including upload errors, restrictive file requirements, and unclear failure states when submitting supporting documentation.
+ Inconsistent or confusing scheduling experiences, driven by the need to coordinate across multiple backend scheduling systems with differing availability and behavior.
+ Difficulty accessing or downloading medical records, including failed downloads and temporary unavailability of critical documents.
+ Data mismatches across VA systems, such as profile or contact information not aligning between VA.gov and downstream systems like My HealtheVet.
+ Broken links and dead ends, including missing confirmation pages or navigation paths that block Veterans from completing next steps.
+ Lack of clarity around required evidence, leaving Veterans unsure what documentation is needed or how to obtain it even when digital workflows function correctly.
+These challenges reflect common patterns across large government digital platforms. When a website is expected to coordinate complex, long-running workflows across many systems of record, page-centric and synchronous models begin to break down. Downstream failures propagate directly to the user experience, forcing Veterans to restart workflows, lose progress or identity context, and seek assistance through call centers with limited insight into what went wrong. For VA teams, this increases support burden, duplicates effort, and obscures whether issues are isolated defects or systemic failures, driving sustained reliance on programs such as Watchtower and response models like Code Yellow to maintain availability. These pressures are compounded by an operating model where teams often lack clear end-to-end ownership, requiring coordination across multiple groups to deliver changes, encouraging release batching, and making incremental improvements to reliability and user experience increasingly difficult.
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 2
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+We understand this challenge not just as technologists, but as Veterans and capability providers who experience the same friction and failure patterns in VA.gov ourselves. These issues are personal, and they reinforce a shared responsibility to do better for the people who rely on these services. Addressing this challenge requires a shift in how VA.gov is conceived and operated, moving beyond treating the platform as a website and toward a resilient digital platform capable of orchestrating Veteran journeys across systems, tolerating partial failure, and improving continuously based on real Veteran outcomes at scale.
+Solution Summary
+To maintain continuity of service for millions of Veterans, Rise8 proposes an end-to-end, full-stack replacement model for VA.gov operating under a cATO. This model combines a secure commercial cloud foundation, modern platform-as-a-service, application development (custom and low-code/no-code), data and AI, and behavior-preserving legacy modernization to
+deliver a resilient, journey-centric digital platform.
+This COTS-first approach meets most needs using proven commercial technologies, with custom development applied selectively where it adds clear value. This allows VA.gov to evolve safely over time while maintaining uninterrupted access to critical services in a highly visible and regulated environment. At its core, the solution establishes a journey-centric digital platform that decouples Veteran experience from backend system behavior.
+ IaaS - AWS: Delivers a secure, FedRAMP High-authorized cloud foundation with compliance, elasticity, and predictable costs.
+ PaaS - Palantir Apollo: Provides autonomous, policy-driven continuous deployment, environment parity, controlled rollouts, and cATO to unify DevSecOps and reduce operational overhead.
+ Low-Code/No-Code - Palantir Foundry: Enables VA teams to rapidly build and iterate workflows, dashboards, and operational tools without heavy coding.
+ Custom Software Development (Greenfield & Brownfield): Supports full-code applications deployed on Apollo by any team, inheriting platform-level security, observability, and deployment controls.
+ Mainframe & Legacy Modernization - Mechanical Orchard Imogen: Allows incremental, behavior-preserving modernization of legacy systems through production data capture, AI-assisted code generation, and closed-loop verification to minimize risk.
+ Data Integration, Governance & AI - Palantir Ontology + AIP: Creates a governed semantic model of journeys and systems while delivering AI-powered analytics, automation, predictive insights, and natural-language interfaces.
+ cATO: Enables ongoing RMF authorization via automated evidence, continuous monitoring, and CI/CD policy gates, powered by SAST, DAST, and container scanning commercial software tools for early vulnerability detection, SBOM generation, and real-time compliance.
+To integrate cleanly with VA's diverse portfolio of legacy and emerging systems, the platform supports multiple delivery and modernization paths without fragmenting governance or security. Third-party and custom application teams can deploy containerized services onto the Apollo-managed platform, inheriting security, observability, and deployment controls while integrating with systems of record through standardized interfaces. Low-code and no-code development using Palantir Foundry enables rapid creation of workflows, analytics, and
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 3
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+operational capabilities that integrate data across systems without creating new systems of record, supporting adaptability and faster iteration.
+To operate effectively within a regulated federal environment, the platform is authorized using a continuous ATO model, building on Rise8's experience achieving the first ongoing Authorization at VA. We believe that achieving continuous delivery as part of DevOps in the federal government, subject to FISMA, requires a truly continuous application of the NIST RMF. As a result, security, compliance, and operational controls are embedded directly into the SDLC through inherited controls and continuous evidence generation, enabling continuous delivery while maintaining alignment with RMF. Platform operations, deployment, and configuration management are supported using Palantir Apollo, providing consistent, repeatable deployments across environments and reducing configuration drift.
+To support long-term scalability, adaptability, and resilience, the platform also enables behavior-preserving modernization of legacy and mainframe systems using Mechanical Orchard's Imogen. By capturing real data flows from existing systems and incrementally rebuilding workloads into modern, idiomatic software, Imogen allows VA to reduce backend constraints safely while avoiding high-risk cutovers and maintaining service continuity.
+To offer a more seamless and reliable Veteran experience, Veteran intent, progress, and recovery are managed at the platform level rather than embedded in individual applications or frontend flows. This allows VA.gov to tolerate partial system failures, preserve progress across sessions and identity events, and provide clear, transparent experiences even when downstream systems are degraded.
+Technical Considerations
+This section outlines the technical considerations for the proposed VA.gov replacement approach, with Attachment 1 illustrating the cATO-authorized platform architecture that supports multiple delivery paths, integrates with existing systems of record, and enables incremental modernization.
+PLATFORM
+Problem. We recognize that VA.gov operates in one of the most complex digital environments in the federal government, requiring coordination across dozens of systems of record, lines of business, delivery teams, and over fifty vendors. Much of this coordination has evolved through a largely bespoke, do-it-yourself model, with heavy reliance on FTE effort to build, operate, and maintain platform capabilities embedded within page-based applications and frontend workflows. As workloads and integrations have grown, this approach has driven a super-linear increase in operational burden and staffing needs, making it harder to maintain resilience, preserve user progress during partial failures, and introduce change without unintended downstream effects. Shifting toward proven commercial platform capabilities, while maintaining optionality through open standards and open-source integration patterns, provides a path to sub-linear scaling of platform operations and improved sustainability without vendor lock-in.
+Solution. We trust we can help VA address these challenges by introducing a platform-centric approach that reduces coupling between Veteran experience and backend system behavior while preserving VA ownership and control. Recognizing the central role of Drupal as the CMS for content management, we propose a collaborative process to better understand the current architecture and determine the most appropriate modernization path for the monolith. This
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 4
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+includes assessing whether containerizing Drupal components on a PaaS like Apollo adds value without overkill, while ensuring non-technical users retain intuitive CMS tools for page updates.
+Palantir Apollo, as the core PaaS foundation, delivers autonomous, policy-driven continuous deployment that unifies Dev, Sec, and Ops teams. It enables rapid, reliable release of new features and updates with full rollback support, environment parity, centralized configuration management, and controlled rollout strategies (such as canary or blue-green deployments). Apollo reduces manual coordination and operational risk by automating deployments across heterogeneous environments--including cloud, on-prem, or disconnected setups--while embedding security, compliance, and governance as first-class concerns. By containerizing backend workloads (where appropriate) on Apollo, VA gains consistent lifecycle control, auto-discovery of software assets, observability into deployment landscapes, and streamlined remediation, freeing teams to innovate rather than orchestrate infrastructure.
+As a result, a modern, commercially-built PaaS can orchestrate Veteran intent, progress, and recovery across systems using asynchronous, event-driven patterns with resiliency by design, integrated selectively around the Drupal core. This allows journeys to persist across sessions, identity events, and partial system outages while maintaining consistent experience and state.
+Benefit to the VA and Veterans. This approach reduces complexity and increases delivery efficiency by centralizing orchestration and operational concerns that are currently duplicated across applications and vendors. By managing journeys at the platform level and modernizing selectively, VA can improve experiences not only for Veterans, but also for clinicians, claims processors, schedulers, call center staff, and operational teams who depend on the same digital workflows and data. Specifically, this approach enables VA to:
+ Decouple Veteran and staff experiences from backend availability and failure modes, reducing disruption across care, benefits, and operations
+ Reduce rework caused by session loss, identity interruptions, and partial failures that affect Veterans and internal users alike
+ Enable faster iteration for both public-facing and internal capabilities through standardized deployment and operational controls
+ Improve reliability and scalability across clinical, benefits, and administrative workloads by applying consistent platform patterns
+Key Takeaway. Instead of expending time and resources firefighting outages and managing brittle operations, VA can use a modern, commercial PaaS architecture operations to meet 4 9's of availability, allowing teams to focus on delivering and improving Veteran-facing capabilities.
+Past Experience. Rise8 has delivered and operated platform-scale capabilities in environments comparable to VA.gov in size, complexity, and criticality. This includes building, deploying, and operating modern delivery models in hybrid, on-premise, and cloud environments within mission-critical programs, leveraging technologies such as RedHat OpenShift, Palantir Apollo, Rancher, Azure AKS, and VMware Tanzu/Pivotal Cloud Foundry to enable secure, rapid software delivery at scale. We also bring direct, hands-on experience with VA.gov through multiple high-impact programs. Rise8 leads VA Watchtower, delivering real-time observability, monitoring, and incident response capabilities that improve uptime, accelerate crisis response, and reduce operational firefighting across the VA.gov ecosystem.
+CYBERSECURITY & PRIVACY
+Problem. We recognize the ongoing need for VA to balance rigorous cybersecurity and privacy requirements under RMF with the ability to deliver and continuously improve digital services at
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 5
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+pace. Operating VA.gov across a large, multi-vendor ecosystem requires significant coordination, and traditional, document-centric authorization approaches can introduce friction and inconsistency as the platform scales. As the number of applications, integrations, and data flows increases, maintaining a uniform cybersecurity and privacy posture aligned with VA-specific overlays while enabling frequent change becomes increasingly difficult, placing additional burden on delivery teams and security stakeholders alike.
+Solution. We know we can help VA address these challenges by embedding cybersecurity and privacy protections directly into the platform and delivery process, rather than treating compliance as an external gate. Our approach integrates RMF into the DevSecOps lifecycle through engineering practices that make secure and privacy-aware behavior the default. This enables teams to meet VA cybersecurity and privacy requirements without slowing delivery, allowing VA to maintain strong risk management while continuing to deliver digital services that Veterans and staff rely on.
+We are already applying this approach today through our work supporting VA Lighthouse, where Rise8 led the implementation and approval of VA's first cATO. This effort established a cybersecurity and privacy model with automated controls and continuous evidence generation aligned to VA RMF processes and overlays, enabling secure delivery at pace. These lessons are further informing ongoing strategy and planning within VA, including work underway through VA ACE. A secure path to production enforces identity, access control, encryption, logging, and network segmentation standards consistently across workloads, while authorization evidence is generated continuously through normal delivery and operations.
+Palantir Apollo and Foundry provide the operational foundation needed to embed security directly into platform delivery at scale. Apollo enables consistent, secure container deployment and configuration management across environments, reducing configuration drift and the risk introduced by manual or environment-specific practices. Foundry complements this by providing a governed data foundation and ontology that supports secure access control, lineage, and auditability, and enables low- and no-code workflows to operationalize delivery and compliance insights without duplicating systems of record. Together, this approach aligns with ACE principles by emphasizing automation, continuous evidence generation, and RMF-aligned controls integrated throughout the SDLC.
+To further advance continuous delivery, Rise8 also initiated the cATO Manifesto and open-sourced our cATO playbook, sharing patterns for embedding security, compliance, and continuous delivery as an operational capability rather than a periodic milestone.
+Benefit to the VA and Veterans. This approach reduces delivery friction and operational risk by embedding cybersecurity and privacy protections directly into how software is built, deployed, and operated. By standardizing controls at the platform level, VA can:
+ Eliminate duplicated cybersecurity and privacy implementations across apps and vendors  Reduce configuration drift through centrally enforced identity and security policies  Detect and remediate security and privacy issues earlier through controls automation  Shorten authorization timelines by generating RMF evidence continuously
+Key Takeaway. Instead of spending time navigating manual approvals, late-stage reviews, and reactive cybersecurity and privacy compliance activities, VA can embed RMF-aligned protections into the platform and delivery process, improving risk posture while enabling teams to deliver capabilities faster and with greater confidence.
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 6
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+Past Experience. Rise8 led the design, implementation, and approval of the first continuous Authorization to Operate within VA, achieving Ongoing Authorization for the VA Lighthouse platform within VA OIT. Building on that success, Rise8 has been engaged to support the Office of the CTO in developing the strategy and implementation plan to extend continuous authorization and a modern, commercial PaaS architecture security practices to broader VA environments, including informing the future evolution of VA.gov through ACE. These efforts demonstrate Rise8's ability to improve security posture, dramatically reduce time to authorization, and enable frequent, compliant delivery at scale without compromising operational readiness.
+DATA AND ANALYTICS
+Problem. We recognize that VA.gov generates significant operational and experience data, yet deriving consistent, actionable insight across systems, tools, and vendors remains challenging. Data is scattered, siloed, inaccurate, even missing or potentially lost. Existing analytics approaches are often fragmented and focused on page-level or system-level metrics, which makes it difficult to understand how Veterans experience end-to-end journeys or where failures occur across system boundaries. This limits the ability to prioritize improvements based on Veteran impact and to address root causes with confidence.
+Solution. We are confident we can help VA make better, faster decisions by elevating data and analytics to core platform capabilities that reflect real Veteran journeys and system behavior end to end. Journey-level telemetry captures Veteran progress, completion, abandonment, and recovery across systems. Platform observability correlates backend behavior with Veteran outcomes, enabling root-cause analysis across organizational and technical boundaries.
+Palantir's core data capabilities, including its Ontology and Artificial Intelligence Platform (AIP), provide the foundation for integrating, governing, and reasoning over data across VA systems. Ontology and AIP are distinct but complementary components within Palantir's ecosystem. Ontology focuses on creating a structured, semantic model of data entities and relationships, while AIP builds on this by incorporating AI-driven workflows for advanced analytics, automation, and decision-making.
+Ontology provides a shared, governed understanding of relationships between Veteran journeys, platform components, delivery pipelines, and systems of record. This enables consistent analysis, data lineage tracking, and fine-grained access control without duplicating authoritative data sources. By modeling data semantically, Ontology allows VA teams to query and visualize complex interconnections intuitively, supporting faster issue resolution and proactive improvements in Veteran experiences.
+AIP provides AI-powered tools for operationalizing insights, including natural language processing, predictive modeling, and automated workflows. Integrated with Ontology, AIP enables low- and no-code applications and analytics via Palantir Foundry, allowing VA teams to experiment with improvements, automate routine tasks, and derive actionable intelligence from journey-level telemetry while preserving data integrity and compliance.
+Mechanical Orchard's Imogen provides data analytics-driven legacy modernization by capturing real data flows from existing systems to create precise behavioral specifications. These specifications drive a closed loop of AI-assisted code generation and verification, allowing critical workloads to be rebuilt incrementally into modern, idiomatic software. Imogen validates new implementations against production realities, minimizing risks in high-stakes migrations and avoiding the lengthy integration and regression testing typical of traditional approaches.
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 7
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+Benefit to the VA and Veterans. Treating data and analytics as platform capabilities enables VA to move from reactive reporting to proactive, outcome-driven decision-making that improves Veteran experience while reducing operational burden. This approach helps VA:
+ Prioritize improvements based on measurable Veteran outcomes rather than anecdote  Reduce time to diagnose issues by correlating failures across systems and journeys  Improve coordination across product, platform, and operations teams using shared data  Demonstrate modernization progress through objective, outcome-based metrics
+Key Takeaway. Instead of relying on fragmented reports and ad hoc analysis to understand issues after they occur, VA can use platform-level, journey-centric analytics to proactively identify problems, prioritize improvements, and focus effort on critical mission outcomes that matter most to Veterans.
+
+Past Experience. Rise8 has delivered data-informed platforms in complex, mission-critical environments, including our work with the U.S. Space Force on the Warp Core platform. Warp Core leverages Apollo for secure, continuous deployment and operations, Foundry for low-code/no-code application development and analytics, and Ontology to unify disparate datasets across the global space enterprise. Through this effort, Rise8 integrated delivery telemetry, operational metrics, and outcome data to enable real-time ingestion, processing, normalization, analysis, and visualization. Ontology provided the semantic foundation for modeling relationships between mission systems, sensor data, ground infrastructure, and workflows--delivering consistent lineage, access controls, and cross-domain insights without duplicating sources.
+
+Implementation Plan
+Today, VA.gov serves as a mission-critical digital front door coordinating Veteran journeys across dozens of systems, teams, and vendors. While the platform has delivered meaningful value, evolving it under the current model increases risk of service disruption, operational strain, and negative Veteran impact. The approach below establishes a replacement platform in parallel and incrementally migrates high-impact journeys, selectively modernizes backend constraints, and uses data to guide optimization and decommissioning--avoiding a single cutover or large-scale rebuild. Over time, this transition moves VA.gov from a tightly coupled website to a resilient digital platform that supports continuous improvement, modular delivery, and sustained modernization, while improving Veteran experience and operational efficiency at each step.
+
+Phase
+
+Milestones & Key Activities
+
+Phase 1: Establish the Replacement Platform
+
+ Stand up the replacement digital platform in parallel with the existing VA.gov environment
+ Establish journey orchestration, observability, and data integration capabilities  Implement a secure, a modern, commercial PaaS architecture path to production with
+inherited controls  Enable standardized deployment, security, and operational patterns across environments  Onboard delivery teams incrementally without altering Veteran-facing behavior
+
+Phase 2: Migrate High-Impact Veteran Journeys
+
+ Prioritize Veteran journeys based on impact, failure rates, operational burden, and dependency complexity
+ Migrate high-friction workflows such as forms, evidence submission, claims interactions, and scheduling
+ Operate legacy and replacement journeys side by side with controlled traffic shifting  Measure reliability, completion, and recovery to inform migration sequencing
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 8
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+Phase 3: Replatform and Modernize Backend Capabilities
+
+ Decouple replatforming from system-of-record replacement to preserve continuity of service
+ Apply Mechanical Orchard's Imogen to capture real data flows and modernize selected legacy workloads
+ Incrementally rebuild critical components into modern, idiomatic software  Validate behavior continuously against production realities while avoiding high-risk
+cutovers
+
+Phase 4: Optimize, Measure, and Decommission
+
+ Use platform analytics and observability to measure improvements in completion, reliability, and recovery
+ Apply outcome data to guide further migration and modernization decisions  Decommission legacy components only after replacement value is proven  Continue evolving the platform through incremental change and continuous improvement
+
+Acquisition Paths
+VA can engage Rise8 through multiple established acquisition pathways that support rapid execution, modular delivery, and alignment with VA procurement priorities.
+ SBIR Phase III IDIQ. Enables direct award without competition and can typically be placed on contract in less than a month. Well suited for initiating platform stand-up, architecture, discovery, and early migration efforts, with the ability to scale over time.
+ Mentor-Protégé Joint Venture with Thoughtworks. Combines Rise8's SDVOSB status with Thoughtworks' deep experience delivering large-scale digital platforms in complex, regulated environments, while enabling scalable execution.
+ VA SPRUCE. While Rise8 is a prime contractor on VA's SPRUCE vehicle and it can be used to procure discrete support activities, it is the least preferred option for the VA.gov replacement effort. In practice, SPRUCE is typically executed as a firm-fixed-price level-of-effort model focused on procuring labor categories rather than outcomes, often driving pricing competition that prioritizes staffing volume over performance.
+ Vets First Contracting Program. As an SDVOSB, Rise8 enables VA to prioritize Veteran-owned businesses in accordance with Vets First requirements while serving as the prime integrator and selectively leveraging specialized partners.
+We recommend VA initiate this effort through Rise8's SBIR Phase III IDIQ, which enables direct award without competition and can typically be placed on contract in less than a month. This vehicle is uniquely suited to the phased approach outlined in this response, allowing VA to begin platform stand-up, architecture, and discovery quickly, then scale delivery incrementally as migration progresses and outcomes are demonstrated. VA Lighthouse has already successfully issued task orders through this IDIQ via the TAC, establishing a proven precedent within VA's own acquisition organization.
+Closing
+We know that this RFI is intentionally broad and that VA is seeking perspectives that challenge the status quo rather than reinforce it. Our response is designed to do exactly that by presenting a differentiated approach that combines non-traditional delivery models with proven commercial platforms, grounded in real-world experience operating at scale in complex government environments. Rather than proposing another incremental iteration of the current model, we have outlined a practical path to replatform VA.gov in a way that enables long-term resilience, adaptability, and Veteran-centered outcomes.
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 9
+
+
+
+RFI RESPONSE
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+
+
+
+
+REPLACEMENT MODEL FOR VA.GOV
+
+Replatforming VA.gov is not easy, nor should it be approached lightly. The value of doing so lies in what it allows VA to stop doing, continue doing, and most importantly, what it allows VA to start doing. Instead of spending time and effort managing brittle integrations, poor security processes, fragmented analytics, and heavy vendor coordination overhead, VA can focus on improving Veteran journeys, reducing operational burden, and delivering capabilities faster with greater confidence. A modern platform built off proven enterprise commercial technologies, allows VA to shift from managing complexity reactively to governing it intentionally, using data, automation, and standardized delivery practices to drive continuous improvement.
+This comparison illustrates how investing in a modern, commercial PaaS architecture allows teams to continue delivering core features, while improving delivery velocity and security by reducing operational overhead, late-stage rework, and environment-specific complexity. In practice, this shift directly addresses the reliability issues Veterans experience on VA.gov today by enabling teams to spend less time stabilizing the platform and more time improving availability, resilience, and feature quality.
+
+Rise8 is here to help VA make that shift. We bring experience delivering platform-centric transformations in highly regulated environments, familiarity with VA's technical and organizational landscape, and an ecosystem of partners that complement VA's internal capabilities. We believe that achieving the future state outlined in this response requires a fresh approach. One that treats VA.gov not as a website to be maintained, but as a digital platform to be operated and evolved. One that modernizes incrementally, manages risk deliberately, and measures success by mission outcomes that matter to Veterans.
+Rise8 stands ready to work alongside VA to help drive that change and deliver a VA.gov platform built to serve Veterans today and adapt for the future.
+Appendix materials accompanying this response include the proposed architecture diagram, Rise8 capabilities statement, the VA Lighthouse case study, and the USSF Kobayashi Maru case study. We welcome the opportunity to engage directly with VA to discuss this approach, answer questions, and explore how it can be applied to support the future of VA.gov.
+
+RISE8, INC.
+
+RFI RESPONSE
+
+PAGE 10
+
+VA.gov Digital Platform (cATO-Authorized)
+
+Journey Orchestration Secure Path to Production (cATO)
+
+Platform Observability & Telemetry Identity Context
+
+Platform Operations & Deployment (Palantir Apollo)
+
+Deployment & Configuration Management
+
+Environment Parity
+
+Controlled Release & Rollback
+
+Shared Data Ontology & Arti cial Intelligence Later (Ontology + AIP)
+
+Claims Systems
+
+Cross-System Data Integration Health Systems Scheduling Systems
+
+Lineage, Governance Identity & Access Systems
+
+Benefits & Records
+
+Analytics / Intelligence
+
+Claims Systems
+
+Full-Code Application Delivery
+VA & Third-Party Teams Containerized Applications Inherit Platform Security
+& Observability
+
+Health Systems
+
+Scheduling Systems
+
+Identity & Access Systems
+
+Benefits & Records
+
+Low-/No-Code Work ows & Analytics
+Built on Governed Data Ontology Rapis Workflow & Insight Development
+Appropriate Use Cases Only
+(Enabled by Palantir Foundry)
+
+Legacy & Mainframe Modernization
+Behavior-Preserving Refactoring Incremental Modernization Continuous Validation Against Production Behavior
+(Mechanical Orchard / Imogen)
+
+TOGETHER, WE CREATE CONTINUOUS IMPACT
+Capabilities Overview
+
+Contact
+POC NAME PHONE NUMBER EMAIL ADDRESS WEBSITE CAGE CODE SAM UEI PRIMARY NAICS SOCIO-ECONOMIC STATUS FCL ADDRESS
+
+Carlo Viray 813-575-4080 sales@rise8.us rise8.us 8C8E8 FZG5H96FF1V4 541511 SDVOSB Secret & TS 601 S Harbour Island Blvd Ste 109 Tampa, FL 33602
+
+Table of Contents
+
+1.0
+
+About Us
+
+04
+
+2.0
+
+About You
+
+08
+
+3.0
+
+How We Help You Succeed
+
+11
+
+4.0
+
+What Makes Us Different
+
+16
+
+1.0
+About Us
+
+OUR PURPOSE IS TO MAKE THE WORLD WORK BETTER...
+A future where fewer bad things happen because of bad software
+
+OUR MISSION
+Continuously deliver valuable software that users love.
+
+We start small. One valuable capability users love, continuously delivered to one production environment to produce outcomes that create mission impact.
+Incredible engineering. Product mindset. User-centered design.
+7 RISE8 CAPABILITIES
+
+Then we scale. With our portfolio advisory and end-to-end software development capabilities-there's no limit to what we can build and the impacts we can have on the world.
+Think big. Start small. Scale fast.
+8 RISE8 CAPABILITIES
+
+2.0
+About You
+
+"One of the things I've always found
+is that you've got to start with the customer experience and work backwards for the technology. You can't start with the technology and try to figure out where you're going to try to sell it.
+- STEVE JOBS
+
+Engagement Objectives
+
+"We need to
+
+"
+
+INNOVATE
+We help you intake new, raw ideas and convert them into valuable products in operations.
+
+MODERNIZE
+We work with you to bring your systems to the modern era, no matter your constraints.
+
+ACCELERATE
+Already have a great start? We can pair in and give you a boost without skipping a beat.
+
+TRANSFORM
+If your organization is mired in bureaucracy and legacy approaches, we help you make change and make it stick.
+11 RISE8 CAPABILITIES
+
+DIAGNOSE
+When you have problems but don't know what to do or where to start, we do a full diagnostic and build you a get-well plan.
+
+RESCUE
+If your project is failing, our crisis response teams jump in and help you get things back on track quickly.
+
+3.0
+How We Help You Succeed
+
+Our capabilities executed by small, empowered balanced teams, continuously deliver valuable software users love with cATO to any cloud, any platform, any network...
+Resulting in mission impacts that transform culture.
+13 RISE8 CAPABILITIES
+
+Skills & Capabilities
+
+"We are looking for help with
+
+"
+
+CLOUD & PLATFORM
+ On-prem and cloud infrastructure
+ Software defined networking  Platform Engineering &
+Operations  Site Reliability Engineering  Migration, modernization,
+& optimization
+
+APPLICATIONS & DATA
+ Custom software development
+ Application transformation  Data science and
+engineering  Modern systems integration  Artificial Intelligence &
+Machine Learning
+
+CYBERSECURITY & COMPLIANCE
+ Security Engineering  Data privacy  Governance, risk &
+compliance  Continuous Delivery Risk
+Management Framework (CD-RMF)©  Authorization to Operate for Continuous Delivery
+
+14 RISE8 CAPABILITIES
+
+Skills & Capabilities
+
+"We are looking for help with
+
+"
+
+PRODUCT & EXECUTION
+ Product & portfolio management
+ Value stream mapping  Scaled software organization
+management  Outcome-oriented
+roadmaps  Workshop facilitation
+
+RESEARCH & DESIGN
+ User research  Domain research  User & employee experience
+design  Service design  Stakeholder experience
+design
+
+STRATEGY & OPERATING MODEL
+ Vision & Alignment  Business/Mission strategy  Acquisition/Procurement
+Strategy  Digital operating model
+implementation  Change Management  Workforce upskilling &
+enablement
+
+15 RISE8 CAPABILITIES
+
+Skills & Capabilities
+"We are looking for help with CLOUD & PLATFORM
+CYBERSECURITY & COMPLIANCE
+RESEARCH & DESIGN
+16 RISE8 CAPABILITIES
+
+"
+APPLICATIONS & DATA
+PRODUCT & EXECUTION
+STRATEGY & OPERATING MODEL
+
+Balanced Teams
+Start small
+We believe that balanced teams of product, design, and engineering--accounting for mission, users, and architecture--create the best outcomes with the least risk.
+We start with 1-3 teams deploying real working software to solve a real problem for a real user in a real operations environment.
+
+DESIGN
+Designers focus on the collective experience of the product.
+Our designers practice Lean UX, UCD and design thinking. They're the voice of the user and ask, "Does this solve a real user problem?"
+
+ENGINEERING
+PMs lead a team to deliver a product that creates meaningful mission value.
+Our product managers are masters of lean startup and lean enterprise. They ask, "Will it help the mission?"
+
+PRODUCT
+Engineers champion all technical decisions for the product.
+Ours practice Extreme Programming (XP) and select the technologies and the path-to-prod. They ask, "How feasible is it to build?"
+
+17 NAME OF PRESENTATION HERE
+
+Balanced Teams
+Start small
+We believe that balanced teams of product, design, and engineering--accounting for mission, users, and architecture--create the best outcomes with the least risk.
+We start with 1-3 teams deploying real working software to solve a real problem for a real user in a real operations environment.
+
+DESIGN
+Designers focus on the collective experience of the product.
+Our designers practice Lean UX, UCD and design thinking. They're the voice of the user and ask, "Does this solve a real user problem?"
+
+ENGINEERING
+PMs lead a team to deliver a product that creates meaningful mission value.
+Our product managers are masters of lean startup and lean enterprise. They ask, "Will it help the mission?"
+
+PRODUCT
+Engineers champion all technical decisions for the product.
+Ours practice Extreme Programming (XP) and select the technologies and the path-to-prod. They ask, "How feasible is it to build?"
+
+18 NAME OF PRESENTATION HERE
+
+Transform Culture
+OLD MODEL Change thinking to change behavior
+WHAT WE DO
+VALUES AND ATTITUDES
+CULTURES
+
+NEW MODEL Change behavior to change thinking
+
+When your team and stakeholders see the results of working in a new way, it changes attitudes and beliefs and this transforms culture--creating room to scale.
+We help transform your culture through action--specifically critical outcomes in prod. Real. Rapid. Reliable.
+
+19 RISE8 CAPABILITIES
+
+4.0
+What Makes Us Different
+
+What you can expect
+Outcome focused
+01. Real mission results; achieved through 02. Continuous delivery (w/cATO) and a 03. Digital operating model leveraging 04. Domain expertise and 05. Workforce enablement;
+21 RISE8 CAPABILITIES
+
+Real Results. No Theater.
+Outcome focused
+Execution teams focus here
+
+Rise8 focuses here
+
+Senior leaders focus here
+
+Employees, time, money
+
+The work they do
+
+A new feature
+
+What people do with it
+
+22 RISE8 CAPABILITIES
+
+What result it generates
+
+Real results. No theater.
+We say, "Prod or it didn't happen." Producing real results requires the ability to continuously deliver to production...
+23 RISE8 CAPABILITIES
+
+Continuous Delivery
+An exercise in risk reduction
+Continuous Delivery (CD) is the ability to get features, configuration changes, bug fixes, and experiments into production safely and quickly in a sustainable way. Production is not an arbitrary designation, it is the setting where software is put into operation for its intended uses by end users.
+24 RISE8 CAPABILITIES
+
+RISK
+
+TIME
+
+With validation
+
+No validation
+
+Continuous Delivery
+Elite SW delivery performance as defined by DORA
+
+PERFORMANCE LEVEL Elite High
+Medium
+Low
+
+DEPLOYMENT FREQUENCY
+On demand
+
+CHANGE LEAD TIME
+Less than one day
+
+Between once per day and once per week
+
+Between one day and one week
+
+CHANGE FAILURE RATE
+
+FAILED DEPLOYMENT RECOVERY TIME
+
+5%
+
+Less than one hour
+
+10%
+
+Less than one day
+
+Between once per week and once per month
+
+Between one week and one 15% month
+
+Between one day and one week
+
+Between once per week and once per month
+
+Between one week and one month
+
+64%
+
+Between one month and six months
+
+25 RISE8 CAPABILITIES
+
+Implement a Digital Operating Model
+
+26 RISE8 CAPABILITIES
+
+Starting With The Answer Customer On Periphery Solution Led Process Driven Waste Silos Opaque
+
+Problem + Opportunity Statements Customer At The Center Evidence Based Learning Driven Precision + Accuracy Everyone Accountable Clear
+
+MOVE AT THE SPEED OF RELEVANCE
+There is a new digital imperative, and to avoid disruption, enterprises must own digital. We treat enterprise transformation as if our world depends on it.
+
+PAIR WITH RISERS
+Paired programming Paired leadership Paired scaling Paired everything Paired continuous delivery of valuable software that users love.
+
+BUILD A DIGITAL ORGANIZATION
+Build transformation leaders Build digital employees Build culture Build new processes Build apps and platforms Build-in security and reliability Build impact, together.
+
+27 RISE8 CAPABILITIES
+
+WE'RE READY
+Are you Ready to Rise?
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+U.S. DEPARTMENT OF VETERANS AFFAIRS
+VA Lighthouse modernization improves secure service delivery for Veterans
+The Department of Veterans Affairs (VA) Office of Information Technology (OIT) needed a faster, more efficient way to approve and deploy new digital services without compromising security. We partnered with VA Lighthouse Developer Experience (LDX) program to integrate security and privacy into the continuous delivery process instead of treating it as a separate step. This approach reduced the authorization process from years to days, improved overall system security posture, and established VA as the first non-DoD agency to achieve continuous Authorization to Operate (cATO).
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+The Challenge
+VA LDX program creates a secure portal to VA critical data through open APIs for Veterans, VA application development teams, and external partners. These APIs help Veterans access their health records, benefit information, and services more easily, while allowing developers to build tools that improve Veterans' experiences. The Lighthouse Delivery Infrastructure (LHDI) platform serves as the technical foundation that supports the LDX program. The LHDI platform simplifies development, deployment, and operation of critical VA applications, to help deliver digital services faster to Veterans while maintaining a healthy security and privacy posture. Through these efforts, VA strives to provide Veterans more control over their health information, improve digital services, and accelerate the delivery of valuable software without sacrificing quality.
+VA | Lighthouse 2.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+While the Lighthouse program has always adhered to the National Institute of Standards and Technology (NIST) Risk Management Framework (RMF) to achieve an Authorization to Operate (ATO) for platforms and applications, VA's waterfall approach to assess and authorize federal system's often conflict with continuous delivery models. In fact, these longer cycles actually lead to poor security and privacy posture, expensive rework, and ultimately delay value realization for Clinical Teams, Veterans, their Families and Caregivers. Security Approval Bottlenecks
+ATO took an average of 568 days to complete, with teams waiting months (sometimes years) before releasing software
+Security vulnerabilities remained unresolved, with critical issues taking 143 days on average to be addressed
+These delays created risk exposure with 74 Plan of Action & Milestone (POA&M) deficiencies per system in production
+Teams often get stuck waiting in queue when responding and validating compliance tasks
+Security and Privacy teams required longer cycles because of lacking system context
+These software bottlenecks had real consequences: Veterans with service-connected injuries waited longer for treatment authorizations, claims for benefits sat unprocessed while Veterans struggled financially, and innovations that could improve quality of life for disabled Veterans remained stuck in security approval limbo. Meanwhile, VA staff were overwhelmed by manual paperwork rather than focusing direct Veteran care and support.
+VA | Lighthouse 3.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+With a growing demand for secure digital services, VA needed to find a more efficient way to serve Veterans that prioritized both security and speed, or risk further delays in Veterans' access to care, increased security vulnerabilities, and continued failure to meet congressional mandates for improved service delivery.
+The Approach
+We partnered with VA Lighthouse to transition assessment and authorization (A&A) from annual or lower frequency ATO renewals to a modern Continuous Risk Management Framework (cRMF) that aligns with agile software development lifecycle (SDLC) practices. This accelerated software delivery without sacrificing security or compliance. We validated our strategies in three phases:
+01.   Demonstrate immediate impact by building and delivering one greenfield Clinician-facing application to production in 90 days or less.
+02.   Onboard three additional Clinician/Veteran-facing applications following agile practices within the first year.
+03.   Scale adoption and operations of cATO by providing capabilities for self-service, real-time continuous monitoring, and Key Performance Indicator dashboards.
+VA | Lighthouse 4.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+We embedded cRMF into Lighthouse agile SDLC practices via a comprehensive shift in culture, process, and technology. For the latter, we fully digitized the workflow and then added automation via our SecRel Pipeline. Specifically, the pipeline automated the attestation of crucial security and compliance checks with every code change, including Static Application Security Testing (SAST) and Software Composition Analysis (SCA), container scanning, and runtime monitoring.
+SecRel Pipeline Automation
+
+Static Application Security Testing (SAST) and Software Composition Analysis (SCA)
+
+Container and image scanning
+
+Runtime monitoring
+
+End-to-end security and privacy attestation
+
+We also eliminated roughly 70% of security and privacy control response effort for application development teams by establishing component-based system authorization boundaries and a controls inheritance model that pre-validated security and privacy controls at the infrastructure and platform layers. This reduced the compliance burden on application teams and accelerated delivery.
+Rather than managing project-based scheduling for assessing federal systems, we embedded technical assessors with delivery teams, reducing schedule-based queuing problems, decreasing batch sizes, and shortening feedback loops with development teams. This created shared learning environments where developers, security, and privacy personnel could collaborate in real-time. The cultural shift improved quality, reduced risk, accelerated continuous delivery of secured software, and enhanced employee/contractor morale.
+At the infrastructure level, we deployed a Continuous Integration/Continuous Delivery (CI/ CD) pipeline using AWS Elastic Kubernetes Service (EKS), Terraform for Infrastructure as Code (IaC), and ArgoCD to create a highly available environment with automated backups, encryption, and storage autoscaling.
+VA | Lighthouse 5.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+To improve risk management assurance and security workflows, we:
+
+01.
+INTERVIEWS
+
+Conducted stakeholder interviews with Authorizing Officials (AOs) and mapped user journeys to improve interactions between developers, security assessors, and privacy officers.
+
+02.
+CONTROLS
+03.
+DOCUMENTS
+
+Embedded technical security control assessors alongside developers to provide real-time feedback and cybersecurity education.
+Authored VA Lighthouse cATO Playbook, a guide standardizing best practices for continuous compliance, risk assessment, and security automation.
+
+Interested in adopting your own cATO Playbook? Check out our Continuous Delivery Risk Management Framework (CD-RMF) Playbook, derived from our internal Rise8 playbook and continuously improved by the government IT community.
+VA | Lighthouse 6.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+
+Mission Results
+As a result of our partnership with VA Lighthouse, we captured the following improvements:
+
+01.   84% faster approvals: ATO time dropped from 568 days
+
+to 87 days
+
+02.   7 5% faster security fixes: Vulnerability remediation improved from 143 days to 35 days
+
+03.   9 7% fewer security issues: POA&Ms dropped from 74 to
+
+just 2 per system
+
+04.   G overnment milestone: The VA became the first non-DoD agency to achieve continuous ATO (cATO)
+
+VA | Lighthouse
+
+7.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+And for the Veterans and VA staff who rely on these applications every day, these outcomes supported the following VA mission impacts:
+F aster benefits processing: Veterans submitting claims on VA.gov now experience fewer delays due to improved classification accuracy (from 50% to 75%), reducing processing time from weeks to days. This means fewer follow-up calls, external records reviews, and exam reorders to verify legitimate claims. I mproved claims handling: Manual claim merging previously took VA staff 10 minutes per claim. Automation now handles this instantly, saving 149 hours over three months. M ore accurate claim approvals: Automated claim classification prevents processing delays, reducing stress for Veterans Service Representatives and allowing cases to move forward faster. C ongressional mandate fulfilled: The Automated Benefits Delivery Virtual Regional Office (ABD-VRO) project achieved the first authorized release to production in just 87 days with only two PO&Ms and no critical/high vulnerabilities, directly addressing a congressional mandate to improve disability claim processing time before the end of 2022. VA's Chief Information Officer granted Ongoing Authorization after reviewing these results from the first four systems using our cATO approach. For the first time, VA application development teams can release software changes quickly and securely, focusing more on improving Veteran experiences and spending less time getting through the accreditation and approval process.
+VA | Lighthouse 8.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+
+Veteran-Facing Impact*
+cATO doesn't just make life for IT better, our work with VA Lighthouse strengthened the infrastructure, delivery pipelines, and secure development practices behind key Veteran-facing services. These improvements drove broad downstream impacts that continue to deliver value across the VA.
+
+OUTCOMES
+
+VOLUME
+
+Claims submissions and status checks
+
+Monthly
+2M across VA.gov, mobile app, third-party platforms
+
+Mission Act eligibility lookups
+
+110K across CTB and VA.gov
+
+Facility API calls
+
+16M across VAHC, VCL, and VA.gov
+
+Direct deposit transactions fulfilled
+
+528K
+
+Health information access
+
+225K
+
+Home loan submissions
+
+4K
+
+Cumulative impact to date
+
+Service-Disabled Veteran-Owned Small 13K Businesses (SDVOSBs) digitally qualified
+
+Veterans receiving free/subsidized telecom services (FCC)
+
+325K
+
+CMS healthcare.gov validations for ACA coverage exemption or subsidies
+
+280K
+
+Veterans positively identified for Veteran Interoperability Pledge Signees
+*These outcomes reflect cumulative totals as of March 2025.
+
+25K
+
+VA | Lighthouse 9.
+
+CONFIDENTIAL - FOR INTERNAL USE ONLY
+
+Success by the Numbers
+
+METRIC
+Time to achieve ATO
+Mean time to remediate security vulnerabilities
+
+BEFORE RISE8 APPROACH 568 days 143 days
+
+Unresolved POA&Ms
+
+74
+
+Benefits Processing
+
+50% classification accuracy
+
+Claim Merging
+
+10 minutes per claim
+
+**Due to these efforts, VA is the first non-DoD agency to achieve cATO**
+
+AFTER RISE8 APPROACH 87 days (84% faster)
+35 days (75% faster)
+2 per system (97% reduction)
+75% classification accuracy (25% improvement)
+Instant
+
+Tech Stack
+Security & Compliance: SecRel Pipeline, automated vulnerability scanning, common control inheritance model C I/CD & Automation: GitLab, GitHub Actions, Terraform, ArgoCD, Python
+Infrastructure: AWS EKS, Helm, Vault, AWS RDS, AWS S3
+Monitoring: Datadog, synthetic monitoring, SLA/SLO dashboards
+Security Tools: SonarQube, Fortify, Anchore, BridgeCrew, Trufflehog, Bash scripts
+
+Key Practices
+A utomated security testing (SAST, SCA, container scanning) B lue-Green Deployments for frictionless updates E mbedded security assessors for compliance integration C ontinuous monitoring with live dashboards and alerts I aC for efficient provisioning and scalability U ser journey mapping and stakeholder interviews P hased release strategy with continuous user feedback
+
+VA | Lighthouse 10.
+
+This work was completed as part of VA Continuous Risk Management Framework (cRMF) Support contract under the Product and Technology Ecosystem Management Services vehicle, with Rise8 serving as a subcontractor from September 2021 to September 2025.
+rise8.us | growth@rise8.us | +1 (813) 575-4080 601 S Harbour Island Blvd, Suite 109 Tampa, FL 33602
+
+CONFIDENTIAL - FOR GOV STAKEHOLDERS ONLY
+U.S. SPACE FORCE
+Kobayashi Maru Section 31 improves software delivery for Guardian operations
+The U.S. Space Force (USSF) depends on responsive, secure software to track threats, manage space assets, and coordinate with allies worldwide. However, their legacy acquisition processes couldn't keep pace with requirements. When outdated software development methods created dangerous gaps in Space Command and Control (Space C2) capabilities, Kobayashi Maru's Section 31 paired with Rise8 to scale and sustain its modern delivery model. Together, we introduced a new approach to building and deploying mission-critical software for faster decision-making and more secure operations.
+
+The Challenge
+Delivering software at the pace of space operations is no small task. By 2018, efforts to modernize Space C2--initially led by the U.S. Air Force through the Joint Space Operations Center (JSpOC) Mission System (JMS) program--had hit a wall. Their traditional acquisition process, built for hardwarecentric programs that once governed software delivery, was not designed to support the realities of modern software development. As missions advanced, application development was slow, deployment environments were inconsistent, and operators were left wrestling with clunky manual workflows that lagged.
+USSF | KM 2.
+
+Tired of these limitations, Air Force leadership stood up Kobayashi Maru (KM), an agile software initiative named after the famously unwinnable Starfleet Academy scenario from Star Trek. Now part of the U.S. Space Force (USSF) under the Space C2 Program at Space Systems Command (SSC), KM is responsible for delivering software to key units, including the Combined Space Operations Center (CSpOC), the 18th Space Control Squadron (18 SPCS), and the National Space Defense Center (NSDC).
+Modeled after the Air Force's Kessel Run, KM's mission is to challenge bureaucratic inertia and prove that fast, secure, operator-aligned software delivery is possible inside government.
+To drive that mission forward, KM leadership established Section 31 (S31), an embedded software factory and core engine for digital transformation. Formed in 2019 under SSC, S31 was tasked with delivering operational software and applications to frontline units, including CSpOC and 18 SPCS. Built by Guardians for Guardians, S31 applies agile software development, lean product management, and user-centered design (UCD) with continuous delivery infrastructure to build applications that directly support mission operations.
+But even with the right structure, S31 hit roadblocks that slowed delivery and diluted impact:
+ Resource gaps left core operational units underserved. As USSF leadership prioritized Space Domain Awareness (SDA) capabilities for the 18th SPCS, S31 had fewer resources to support CSpOC, the true nerve center for Joint Space C2. In practice, sustainment took priority over development, leaving innovation underfunded and frontline needs unmet.
+ Technical debt created constant drag. S31 inherited legacy software that was difficult to maintain, expensive to update, and nearly impossible to integrate with modern cloud infrastructure. Teams were stuck fixing brittle, outdated codebases instead of building new solutions.
+ Deployments were fragmented and unreliable. Without consistent environments across Impact Level 4 (IL4), Impact Level 6 (IL6), and on-premises systems, teams struggled with testing, version control, and getting code to production. Even minor updates could take weeks to reach users, including those at coalition operations centers in Canada, the United Kingdom, and Australia. Supporting multinational users introduced additional challenges, including classification boundaries, data-sharing constraints, and environment-specific deployment issues.
+USSF | KM 3.
+
+ Operators struggled with cognitive load. Operators are trained to act decisively, but poorly designed tools and redundant processes chipped away at that confidence until friction became an expected part of the job.
+ Workarounds became the norm. Without reliable tools, operators resorted to deprecated systems and manual processes. Even routine actions like creating a single space task could take 45 minutes, while operators manually managed radio frequency (RF) deconfliction using outdated tools and incomplete data.
+Despite KM's ambitious vision and S31's early momentum, the delivery environment still constrained speed, scalability, and impact. Critical software was slow to ship, hard to scale, and rarely met operator expectations. Decisions that should have taken minutes stretched into hours or days, directly impacting national security and the Space Force's ability to respond to threats. Without a better approach to software delivery, the Space Force risked losing ground in one of the most contested domains of modern warfare.
+USSF | KM 4.
+
+The Approach
+As Section 31 drove digital transformation within Space C2, they paired with us early to mature agile practices, stabilize its pipelines, and expand continuous delivery across environments. Together, we focused on three areas:
+1. Building reliable environments and pipelines for secure software delivery across security boundaries S31 supports applications across on-premises and cloud networks, spanning multiple classification levels (IL4 and IL6), each with distinct compliance and operational requirements. To reduce friction and establish repeatability, we:  Developed and deployed secure development and production environments across IL4, IL6, and on-premise to support consistent integration and deployment processes.  Standardized delivery pipelines using GitLab CI, Infrastructure as Code (Terraform), and GitOps (ArgoCD) for consistent, auditable software releases  Maintained version parity across environments, allowing developers to build and test at the unclassified level and promote code to IL6 without direct access to SIPRNet, eliminating environment-specific bugs and deployment delays  Delivered continuous updates to CSpOC operators without compromising security controls
+2. Putting users at the center of the development process with user-centered design Legacy systems were difficult to modify, and vague requirements with excessive rework often slowed new development. User-centered design was already central to S31's approach, and we worked alongside teams to deepen and operationalize those practices in daily development:
+USSF | KM 5.
+
+ Paired engineers, product managers, and UX designers directly with operationally deployed Guardians, using feedback loops to build features that meet mission needs. Guardians test recent updates, identify issues, and shape the next iteration based on realtime input.
+ Brought SupraCoders onto the development teams to apply their expertise and operational experience, helping them adopt software development practices while training them to ship features that solve real mission problems.
+ Implemented Extreme Programming (XP) and test-driven development (TDD) to increase software reliability and reduce rework
+ Shifted from project-based to product-based development, focusing on iterative improvements based on operator feedback loops
+3. Automating security and compliance from day one Traditional security release processes treat compliance as a final checkpoint, leading to rework, delays, and elevated risk. We moved security into the development workflow by:  Integrating automated security scans (static code analysis, container scanning, and runtime validation) directly into CI/CD pipelines  Enforcing Zero Trust principles through role-based access control (RBAC), microsegmentation, and least-privilege defaults  Eliminating manual compliance tasks by building applications to meet security requirements from the start, not as a post-facto checklist  Pairing continuous automated testing with user-centered design to meet Developmental Test and Operational Test requirements, avoiding the large, infrequent test events that often uncover issues late and delay releases
+Beyond implementing these technical changes, we paired 1:1 with Guardians, civilian staff, and contractors to teach modern development methods like Extreme Programming (XP), user-centered design, and lean product management practices. By building real products for real users, these teams ensured that capabilities were operationally valuable. Many carried those practices into future assignments, expanding government ownership of software development and helping sustain a culture of continuous delivery across the organization.
+These changes helped the government move from rigid, slow-moving processes to a modern software delivery model where Guardians could build, test, and deploy new capabilities faster with less risk and better alignment to mission needs.
+USSF | KM 6.
+
+Impact
+Together, Section 31 and Rise8 built and matured delivery pipelines, engineering practices, and security workflows to deliver at a speed and scale that matches mission needs. In close partnership with Guardians, we developed and deployed the full suite of applications supporting daily operations. Operators no longer wait weeks or months for critical updates. Instead, real-time needs and feedback shape weekly releases with updates to mature applications as needed to support pipeline, security, and platform improvements.
+
+USSF | KM
+
+7.
+
+Operational Applications
+SpaceBoard is the first S31 app developed by Rise8. It's a high-interest event tracking tool
+designed to give operators real-time awareness of space activities like launches, reentries, and sensor status, all displayed on a centralized "big board." This tool improves coalition coordination and mission awareness across 1,600+ global users, enabling rapid and unified situational understanding among allies such as the US, UK, Canada, and Australia.
+SureFire is a radio frequency deconfliction support tool designed to manage and process RF
+coordination requests for space assets for safe and conflict-free mission execution. It replaces the outdated FlightCheck system, improving mission risk management and operator workflows while providing coalition partners with access and automating RF safety decisions.
+SpaceDesk drastically reduces Space Support Request (SSR) management times, improving the
+speed and efficiency with which operators handle requests for support and information. It also boosts transparency by transforming email-based updates into a status-tracking system.
+Vue is a satellite-object identification (SOI) matching optimization tool that helps task satellites to
+appropriate ground-based radars for collection missions. It significantly boosts processing capacity of objects and slashes user rates, dramatically increasing accuracy and reducing manual processing time.
+BlueStat is a sensor maintenance management tool that centralizes sensor data into a single
+application. It replaces the need to navigate multiple legacy systems, reducing sensor maintenance workflow time from 41 minutes to just 30 seconds. It's used by Space Force theater watch officers to simplify sensor management, maintenance tracking, and operational oversight.
+
+[SOD] [MSP] [CSTO]
+
+Relay Tasking Suite Rise8 built an integration suite of responsive applications to address
+each stage of the Space Tasking Cycle. These applications work together to decrease the time and cognitive load necessary to produce and disseminate plans, directives, and task orders.
+Relay Strat is a digital tool that manages Space Operations Directive (SOD), simplifying the production, version control, and dissemination of SODs from eight to under five hours. It enables strategists to manage contributors and share directives, providing real-time access on SIPRnet.
+Relay Plans is a Master Space Plan (MSP) production and visualization tool that enables operators to create an MSP in 15 minutes using live data. It improves decision-making and situational awareness by providing a self-service viewer role for SIPRnet access.
+Relay Tasks simplifies the creation and distribution of Combined Space Tasking Orders (CSTO), which allocate space assets, sensors, and satellites to tactical units. It reduces tasking order production time by half while standardizing formats and enabling dynamic tasking of sensor units.
+
+USSF | KM 8.
+
+Key Outcomes
+ Faster deployment cycles. Initial production releases that once took months now happen in as little as 64 days, with a 3.2-day deployment frequency achieved across classified applications.
+ Significant operator time savings. Improved workflows have saved--and continue to save--warfighters over 34,000 hours across nine mission applications, eliminating manual, redundant, or inefficient tasks with automation and better design.
+ Resilient RF deconfliction. The SureFire application replaced the deprecated legacy FlightCheck system, automating RF deconfliction and preventing disruption when coordinating space assets.
+ Faster space tasking. The Relay Tasks application cut space tasking order production time by 50%, allowing operators to adjust asset allocations in near real-time.
+ Reduced operator fatigue. NASA Task Load Index measurements showed a 36% reduction in cognitive burden for users of updated applications, reflecting better interface design, fewer manual steps, and improved decision support.
+ Streamlined strategic planning.  The Relay Strat application reduced Space Operations Directive (SOD) production from 8 hours to under 5.  The Relay Plans application enabled the creation of a Master Space Plan (MSP) in just 15 minutes using live data, replacing a process that relied on stale, weeks-old information.
+ Faster support workflows.  Space Desk reduced Space Support Request time from 45 minutes to 3 minutes.  Bluestat cut the time to access sensor status and planned maintenance windows from 41 minutes to 30 seconds.
+ Improved DORA performance metrics:  88.4% test coverage  5.8% change in failure rate  2-hour mean time to recovery (MTTR)
+USSF | KM 9.
+
+Space Domain Awareness
+ Connected coalition coordination. Spaceboard, the first application we built and deployed for S31, supports coalition partners, bridging the gap between allies such as Australia, Canada, Britain, and others for joint space domain awareness.
+ Improved object tracking accuracy. The Vue application increased space object identification (SOI) processing capacity from 20 to 1,500 objects per week while slashing error rates from 30% to under 3%. Tasks that consumed over 100 hours per week now take less than one hour.
+With faster deployments, real-time operational insights, and automated decisionsupport tools, Space Force Guardians can focus on the mission instead of their software. The transition from slow, disjointed development to continuous software evolution has made KM's Section 31 a model of how military organizations can build, scale, and maintain technology that keeps pace with operational demands.
+
+Tech Stack
+CI/CD & Automation  GitLab CI  Terraform  ArgoCD  GitOps workflows  Automated integration and testing pipelines
+Application Infrastructure  Azure Kubernetes Service (AKS)  Tanzu Kubernetes Grid Integrated (TKGi)  Tanzu Application Services (TAS)  On-premise environments (IL4, IL6)
+
+Application Development  Spring Boot  Java/Kotlin  React  Material UI  Graph QL and SQL  Keycloak  NATS Messaging  RabbitMQ  Kafka
+Security & Monitoring  Anchore, Sigstore, Privy (vulnerability scanning and image signing)  Istio and Calico (network segmentation and workload isolation)  RBAC  Prometheus, Grafana, and Loki (real-time monitoring and alerting)
+
+USSF | KM 10.
+
+Key Practices  Agile, product-based team structure  Embedded product managers and UX designers  Extreme Programming (XP) and test-driven development (TDD)  Continuous delivery across classification levels  DevSecOps integration  Paired programming with internal Guardians and contractors  Real-time user feedback and iteration  Secure-by-default architecture
+Contract Information
+This work was awarded under the Space and Missile Systems Center (SMC), DevSecOps Support for Space Command and Control (Space C2) Contract for the SMC Cross Mission Ground and Communications Enterprise Directorate (SMC/ECX). Note: The program has undergone multiple reorganizations, with the shift to Space Systems Command. Contract period of performance: May 15, 2020 - October 1, 2026 rise8.us | growth@rise8.us | +1 (813) 575-4080 601 S Harbour Island Blvd, Suite 109 Tampa, FL 33602
+
+

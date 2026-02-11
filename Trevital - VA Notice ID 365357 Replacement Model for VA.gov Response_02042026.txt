@@ -1,0 +1,421 @@
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 1
+
+U.S. Department of Veterans Affairs (VA)
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+COMPANY OVERVIEWS:
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 2
+
+A Digital Services Company focused on Modernization and Open Source Solutions
+
+Company Name GSA Schedule Contract Number Unique Entity ID (UEI) NAICS Code(s) Company Address Point of Contact: Business Size Business Classification
+
+Trevital LLC GSA MAS #47QTCA24D004N
+FUT8HHHNY1M8 541511, 541512, 541611, 611430 and others 9336 Copenhaver Drive, Potomac, MD. 20854 Laura Glynn, (703)608-6701, LGlynn@trevital.com Small $27.5M SBA Certified Women Owned Small Business, Economically Disadvantaged Women Owned Small Business, Small Business, Small Disadvantaged Business
+
+Trevital has partnered with Acquia to deliver a proven, scalable, and secure digital experience platform capable of supporting the U.S. Department of Veterans Affairs' vision for a modern, Veteran-centric replacement of VA.gov. Together, Trevital and Acquia bring complementary strengths that combine deep federal digital transformation expertise with a mature, enterprisegrade digital experience platform trusted by large, complex organizations.
+
+Trevital serves as the prime integrator and strategic delivery partner, providing leadership in Agile project management, user research/testing, human-centered experience design, enterprise architecture, Drupal content management system development, content strategy, governance, analytics, testing, and program execution within regulated federal environments. Trevital has extensive experience modernizing large-scale, public-facing digital platforms while maintaining continuity of service, integrating with diverse legacy systems, and meeting federal security, accessibility, and compliance requirements.
+
+provides the underlying digital experience platform, built on open-source Drupal, that enables secure, scalable, and flexible content and experience delivery at enterprise scale. Acquia's FedRAMP-authorized cloud offerings, robust API-first architecture, and proven support for high-traffic government websites make it well suited to serve as the foundation for VA's nextgeneration digital presence. Acquia's platform supports modular content management, personalization, analytics, and seamless integration with backend systems and emerging technologies.
+The Trevital-Acquia teaming approach is designed to reduce risk while accelerating value delivery. Trevital applies agile, incremental modernization strategies and strong governance models, while Acquia provides a stable, secure, and extensible platform that can evolve over time without vendor lock-in. This partnership enables VA to modernize its digital experience in phases, ensuring uninterrupted service for millions of users while continuously improving usability,
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 3
+
+performance, and accessibility. Together, Trevital and Acquia offer VA a tightly aligned team with shared experience supporting mission-critical federal programs. Our combined capabilities position VA to deliver a resilient, scalable, and Veteran-focused digital experience that meets today's needs while remaining adaptable to future mission requirements.
+Understanding of the Replacement Model for VA.gov:
+Trevital understands that the U.S. Department of Veterans Affairs (VA) is undertaking a mission-critical initiative to replace VA.gov with a modern, secure, and Veteran-centric digital platform that serves as VA's primary entry point for benefits, healthcare, services, and information. This effort is foundational to delivering a best-in-class digital experience for Veterans, their families, caregivers, and other stakeholders. Replacing VA.gov is not a traditional website refresh. It requires an enterprise-wide transformation that aligns experience design, platform architecture, content strategy, data and analytics, governance, and operating models--while continuing to reliably serve millions of users in a highly regulated, publicly visible federal environment. VA must modernize without disrupting services, integrate with a complex ecosystem of legacy and emerging systems, and meet stringent federal security, privacy, and accessibility requirements, all while delivering a more seamless, intuitive, and scalable customer experience.
+Trevital, together with our teammate Acquia, brings proven experience supporting large federal organizations (CMS, HHS, ASPR, HUD, EOP) through enterprise-scale digital transformations comparable in scope, complexity, and risk to replacing VA.gov. Our teams have successfully modernized mission-critical, public-facing platforms while maintaining operational continuity for high-volume user populations. Across prior engagements, Trevital has led integrated efforts spanning human-centered design, modern cloud-based architectures, content governance, and data-driven decision-making--consistently operating within regulated environments and ensuring compliance with federal security and accessibility standards. Drawing on these lessons learned, Trevital offers proven approaches that minimize risk through phased modernization, enable incremental value delivery, and position VA to achieve a resilient, adaptable, and Veteran-focused digital experience that supports today's mission while remaining flexible for future innovation.
+Team Trevital's Response to RFI Questions:
+Descriptions of relevant ideas, capabilities, and approaches:
+Relevant Ideas and Our Capabilities: The Trevital team solutions are specifically designed to address VA.gov's challenges of modernizing large-scale, public-facing digital platforms within a highly regulated federal environment and meet the VA's mission:
+Drupal CMS 2.0 is an open-source content management system (CMS) that serves as the foundation for Acquia's digital experience platform.
+ Technology and Approach: Drupal offers a robust, modular, and API-first architecture, enabling flexible and scalable content and experience delivery at an enterprise level. Its opensource nature promotes community-driven security and innovation, preventing vendor lock-in and allowing for custom development.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 4
+
+ Focus on VA's Mission: As an open-source platform, Drupal aligns with federal mandates for modern technology while providing a flexible, future-proof foundation that can adapt to VA's evolving needs and future innovation. It provides the core content management capabilities needed to organize the vast amount of information required for VA.gov, ensuring all users-- Veterans, families, caregivers, and stakeholders--have access to organized, up-to-date, and accessible information on benefits, healthcare, and services.
+Acquia Cloud will serve as a key Platform as-a-Service (PaaS) and implementation partner within the Drupal-based solution, providing the enterprise-grade CMS capabilities, cloud infrastructure, and governance features required to support VA.gov at scale. Acquia's FedRAMP-authorized cloud platform will host and operate the Drupal CMS, delivering high availability, scalability, security monitoring, and compliance aligned with federal requirements. Acquia's Drupal expertise will support the implementation of structured content models, editorial workflows, and API-first content delivery that integrate seamlessly with VA.gov's decoupled frontend architecture. In addition, Acquia's tooling and services will assist with content governance, performance optimization, and operational reliability, enabling VA teams to manage content efficiently while maintaining strict security, accessibility, and compliance standards. Working in close collaboration with Trevital, Acquia will help ensure the CMS foundation remains resilient, scalable, and adaptable as VA's digital ecosystem evolves.
+Acquia Personalization (VWO): Acquia Personalization is designed to deliver tailored digital experiences to individual users based on their context and behavior. This solution uses data-driven insights, including location and activity data (e.g., Acquia Alert using IP address), to dynamically modify content, navigation, and calls-to-action for a personalized experience. It enables rapid creation of personalized experiences and can use Agentics (AI) to push relevant information based on a user's profile.
+Agentic AI - Acquia's Agentic AI capabilities will be incorporated as a governed, tool-bounded layer that enhances both content operations and Veteran-facing experiences without introducing platform or compliance risk. Within the Drupal CMS, Acquia Agentic AI will support VA editors and content managers by assisting with content drafting, updates, summarization, metadata generation, and accessibility improvements, all within existing editorial workflows and subject to human approval before publication. For Veteran-facing use cases, Acquia's agentic capabilities will be integrated through controlled service interfaces to support guided interactions--such as benefit discovery, form navigation, and next-step explanations--while operating under strict permissions, audit logging, and privacy controls. All AI actions will be transparent, traceable, and policy-driven, with no AI-generated content or decisions delivered without appropriate safeguards. This approach allows VA to leverage Acquia's AI innovations to improve efficiency, clarity, and personalization while maintaining full control, trust, and compliance across the VA.gov ecosystem.
+Acquia Source - Acquia Source powered by Drupal CMS is an enterprise-grade Software-as-aService (SaaS) platform that empowers teams to build, launch, and manage modern digital experiences faster.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 5
+
+ Technology and Approach: Acquia Source combines the flexibility of the open-source Drupal CMS with an integrated, partially managed platform, AI-powered content creation (including a Writing Assistant), and a visual, drag-and-drop page builder (Drupal Canvas). This low-code DXP approach is designed to streamline project delivery and reduce technical overhead. It includes core enterprise capabilities such as a Global Content Delivery Network (CDN), high availability (99.95% uptime), enterprise-grade security with phishing-resistant Multi-Factor Authentication (MFA), and APIs for headless content delivery.
+ Focus on VA's Mission: As a fully managed SaaS solution, Acquia Source accelerates the VA's ability to deliver a next-generation Veteran-centric experience quickly and efficiently. The enterprise-grade security, compliance and monitoring are critical. The AI-powered tools and visual builder enable VA teams to rapidly create and publish fresh, search-optimized, and accessible content, ensuring Veterans have immediate access to the accurate information, benefits, and services they need. Its scalability and reliability ensure uninterrupted service for millions of users, directly supporting the VA's mission-critical operations.
+Acquia DAM (Digital Asset Management)
+Acquia DAM is a centralized platform for managing, organizing, and distributing digital assets like images, videos, and documents.
+ Technology and Approach: Acquia DAM provides a single source of truth for all digital content, ensuring brand consistency and compliance across all digital channels. Features include metadata tagging, version control, and automated publishing workflows.
+ Focus on VA's Mission: For a site as large and complex as VA.gov, managing thousands of assets efficiently is critical. DAM would empower the VA to organize educational materials, forms, and service-related media, ensuring all content is Section 508 compliant and accessible. This centralized management reduces content sprawl and ensures brand and messaging consistency, which helps Veterans trust the information they receive.
+Acquia Content Optimization - Acquia Content Optimization provides tools to test, analyze, and improve content performance to maximize its effectiveness.
+ Technology and Approach: This solution typically includes A/B testing, multivariate testing, and content analytics to determine which content variations drive the best user engagement and conversion rates. It relies on data to guide content strategy and refinement.
+ Focus on VA's Mission: The VA's mission-critical information needs to be consumed and understood easily. Content Optimization allows the VA to continuously test and refine the presentation and clarity of information about complex benefits and services. By ensuring that the most effective content is prioritized, the VA can improve user outcomes, reduce confusion, and make it easier for Veterans to complete critical tasks.
+Web Governance - Web Governance refers to the established policies, standards, and processes that guide the content, design, and technical aspects of a website.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 6
+
+ Technology and Approach: Within the Acquia platform, this is supported by features that enforce content workflows, user permissions, brand guidelines, and automated checks for accessibility and security compliance. Trevital, as the prime integrator, provides leadership in governance and content strategy.
+ AI accessibility scans automatically scans the site to find any possible issues that may hinder accessibility, provide an overview of the site, tags improvements and makes recommendations to ensure WCAG, 508 compliance, and 508 score.
+Search - Acquia offers an AI powered Search solution we integrate, SearchStax, to enhance the users digital experience and to quickly find information needed and eliminate a zero return result.
+Acquia Campaign Studio - Trevital will modernize Acquia Campaign Studio (Mautic) as an integrated, privacy-first engagement capability that supports VA.gov's evolving digital experience without introducing vendor lock-in or compliance risk. Our approach focuses on upgrading and hardening the platform to align with VA security and accessibility standards, implementing API-driven integrations with Drupal and VA.gov frontend applications, and refactoring existing campaigns into modular, reusable journeys. Campaign logic and messaging will be simplified and governed through clearly defined templates, approval workflows, and consent controls to ensure Veterans receive timely, relevant communications without overpersonalization or data exposure. We will also enhance reporting and analytics to provide VA with actionable insights into engagement effectiveness while maintaining strict controls around data usage, retention, and transparency. Through phased modernization, Acquia Campaign Studio will evolve from a point-solution into a scalable, compliant engagement layer that supports VA's longterm digital strategy.
+Our Approach:
+Acquia Agentic AI for VA.gov Replacement: Trevital and Acquia propose an integrated, agentic AI-enabled digital experience platform to support the replacement of VA.gov with a modern, secure, and Veteran-centric web presence. This solution recognizes that VA.gov replacement is not solely a technology migration, but an enterprise transformation spanning experience design, content operations, governance, analytics, and platform architecture--executed without disrupting critical Veteran services.
+Purpose-Built for VA.gov Modernization: The proposed solution embeds Drupal's Agentic AI capabilities within the Acquia Digital Experience Platform (DXP) and applies it through Trevital's human-centered design, federal delivery, and platform modernization expertise. Together, the solution enables the VA to modernize VA.gov in a phased, low-risk manner while improving usability, consistency, and service outcomes from day one. Agentic AI is used to assist, guide, and optimize--not replace--VA teams or decision-making, ensuring trust, transparency, and compliance in a highly visible federal environment.
+Role of Agentic AI in the VA.gov Replacement
+Veteran-Centric, Journey-Based Experiences: Drupal's Agentic AI capabilities enables taskoriented digital agents that support Veterans across VA.gov's most complex and high-value journeys, including benefits access, healthcare services, and life-event-based interactions by:
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 7
+
+ Guiding Veterans through multi-step and cross-system workflows.  Providing contextual assistance based on eligibility, prior interactions, and intent.  Reducing friction caused by fragmented content and organizational silos. Trevital designs these experiences using Veteran research, usability studies, and service blueprints, ensuring AI supports real user needs rather than abstract technical capabilities.
+AI-Enabled Content and Experience Platform: As part of the VA.gov replacement, AI is natively embedded within the CMS and experience layer, enabling the VA to modernize content operations at scale. These capabilities include:
+ AI-assisted content structuring, tagging, and lifecycle management.  Intelligent content recommendations aligned to Veteran intent and context.  Support for consistent, plain-language messaging across VA.gov domains. Trevital establishes governance models, editorial workflows, and operating practices that ensure AI-assisted content meets VA standards for accuracy, accessibility (Section 508), and clarity. Secure, Governable AI for a Federal Environment: The VA.gov replacement requires AI that can operate responsibly within a regulated ecosystem. Drupal's Agentic AI capabilities paired with Acquia's native AI tooling supports: · Human-in-the-loop review and approval workflows. · Clear controls over AI scope, data usage, and system actions. · Auditability and transparency aligned with federal trust requirements. Trevital works with VA stakeholders to define where AI can assist, recommend, or automate-- ensuring adoption is deliberate, measurable, and aligned with VA policy. Seamless Integration with VA Systems: VA.gov integrates with a diverse portfolio of legacy and emerging systems. Drupal Agentic AI supports this complexity by: · Integrating with APIs, identity services, analytics platforms, and backend benefit and healthcare systems. · Coordinating across systems using agent-based orchestration. · Supporting incremental modernization without disrupting live services. Trevital leads integration strategy, API governance, and phased rollout planning to maintain continuity of service for millions of Veterans. Data-Driven Continuous Improvement: Agentic AI enables VA.gov to evolve continuously by analyzing behavioral data, content performance, and journey outcomes. This allows the VA to: · Identify usability and content gaps in near real time. · Optimize journeys based on Veteran behavior and feedback. · Improve service delivery while preserving transparency and explainability. Trevital applies these insights through iterative design, usability testing, and performance optimization cycles. Trevital + Acquia Delivery Model Trevital Tasks: · Veteran and stakeholder research, interviews, and focus groups · Journey mapping and service design · UX/UI and accessibility design, application development · Governance, operating model, and change management · Systems integration and phased migration strategy · Measurement, analytics, and continuous optimization
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 8
+
+Acquia Tasks: · Acquia DXP and CMS platform · Agentic AI content and website creation · AI Accessibility and Compliance Scanning · Personalization, content intelligence, and orchestration · Security, scalability, and cloud infrastructure · Platform support and long-term evolution
+Value to the VA.gov Replacement Effort: Through this joint solution, the VA gains: · A modern, scalable platform designed for long-term adaptability. · Agentic AI embedded safely within content and experience workflows. · Improved Veteran experiences without service disruption. · Strong governance aligned with federal trust and compliance requirements. · A phased, low-risk path to replacing VA.gov while delivering immediate value.
+VA.gov Replacement Roadmap: Trevital + Drupal Agentic AI built on Acquia-Enabled Approach
+The Trevital + Acquia roadmap enables the VA to replace VA.gov through a phased, outcomedriven approach that maintains continuity of service while progressively introducing agentic AI capabilities. This approach prioritizes trust, usability, and governance from Day 1, while establishing a foundation for long-term innovation and scalability.
+Day 1: Stabilize, Govern, and Deliver Immediate Value
+Objective: Establish a secure, governed foundation for VA.gov replacement while delivering measurable improvements to Veteran experience without disruption to live services. We will implement the following Key Activities:
+· Deploy Acquia DXP and CMS as the foundational platform for VA.gov replacement. · Establish AI governance, content standards, and human-in-the-loop approval workflows. · Migrate and rationalize priority content and high-traffic pages. · Implement core analytics and experience measurement capabilities.
+Agentic AI Capabilities · AI-assisted content tagging, structuring, and metadata normalization. · Content quality support for plain language, accessibility, and consistency. · Journey insight agents that identify friction points and content gaps.
+Veteran Impact · More consistent, accessible, and understandable content. · Reduced duplication and outdated information. · Improved discoverability of benefits and services.
+Risk Posture: Low risk. AI operates in assistive and advisory roles only, with full human oversight.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 9
+
+Year 1: Optimize Journeys and Integrate Services
+Objective: Improve end-to-end Veteran journeys and operational efficiency by embedding agentic AI into VA.gov experiences and integrations. Key Activities:
+· Redesign priority Veteran journeys using research and usability testing. · Integrate VA.gov with backend systems via APIs and shared services. · Expand personalization and contextual assistance. · Implement cross-domain content governance and operating models. Agentic AI Capabilities: · Task-oriented digital agents that guide Veterans through multi-step processes. · Context-aware content recommendations based on eligibility and intent. · Agent-based orchestration across CMS, analytics, and service systems. Veteran Impact: · Reduced friction when navigating benefits, healthcare, and services. · Clearer guidance during complex or life-event-based interactions. · Faster access to the right information and next steps.
+Risk Posture: Moderate, managed risk. AI assists in navigation and guidance, with guardrails and monitoring in place.
+Future State: Intelligent, Adaptive VA.gov Experience
+Objective: Enable a continuously improving, Veteran-centric digital ecosystem that adapts to needs, behaviors, and policy changes over time. Key Activities:
+· Expand AI-driven optimization across all VA.gov domains. · Introduce advanced journey orchestration across multiple VA systems. · Operationalize continuous improvement and experimentation. · Scale governance models for long-term adaptability. Agentic AI Capabilities: · Proactive agents that anticipate Veteran needs and recommend next-best actions. · Cross-system coordination to support complex, multi-agency workflows. · Predictive insights to inform content strategy, service design, and policy communication. Veteran Impact: · Personalized, proactive digital experiences. · Reduced need to understand VA organizational structures. · Greater confidence and trust in VA digital services.
+Risk Posture: Measured innovation. AI capabilities expand incrementally based on proven outcomes, policy approval, and Veteran trust.
+User journey workflows for identity proofing, sign-in, recovery, and navigation.
+For VA.gov future state, Trevital will design and implement end-to-end user journey workflows that make identity proofing, sign-in, account recovery, and navigation intuitive, secure, and accessible--while minimizing friction for Veterans and their families. Drupal will serve as the central experience and content orchestration platform, enabling consistent journeys across VA.gov while integrating seamlessly with identity services, backend systems, and analytics.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 10
+
+Role of Drupal in User Journeys - Drupal will function as the system of engagement for VA.gov, responsible for:
+· Orchestrating user-facing workflows and states (signed out, partially authenticated, fully authenticated).
+· Delivering personalized, contextual content based on user status, eligibility, and task. · Managing navigation, messaging, and recovery guidance consistently across the site. · Integrating securely with VA identity providers, authentication services, and downstream
+systems through APIs. This architecture allows VA to evolve user journeys independently of backend systems while maintaining security, performance, and governance. Identity Proofing - Drupal will support identity proofing journeys by guiding users through clear, step-by-step experiences while integrating with VA-approved identity proofing services. Drupal will:
+· Present identity proofing content and instructions using structured, reusable content models.
+· Dynamically adjust messaging based on proofing status, errors, or interruptions returned from identity services.
+· Preserve user context across redirects to third-party or shared identity providers. · Surface contextual help, FAQs, and escalation options without breaking the flow. · Log journey events and drop-off points for analytics and continuous improvement. This approach ensures identity proofing is understandable and Veteran-centered, while allowing identity services to evolve independently.
+Sign-In - Drupal will enable a unified sign-in experience across VA.gov by acting as the consistent front-end layer for authentication flows. Drupal will:
+· Detect authentication state and tailor page content, calls to action, and navigation accordingly.
+· Support single sign-on patterns by coordinating sign-in and session state across VA services.
+· Integrate sign-in entry points directly into task flows, reducing unnecessary interruptions. · Provide clear feedback during session timeouts and re-authentication events. · Maintain consistent sign-in language, design patterns, and error handling across
+experiences. By centralizing experience logic in Drupal, VA can ensure predictable, secure sign-in journeys across the ecosystem. Account Recovery - Drupal will manage account recovery journeys by providing structured guidance and recovery pathways while securely integrating with authentication and identity systems. Drupal will:
+· Deliver clear, sequential recovery instructions tailored to the user's situation. · Dynamically display available recovery options and next steps. · Prevent dead ends by offering alternate recovery paths and support escalation. · Retain user context and return users to their original task whenever possible. · Support accessibility and plain-language requirements across all recovery content.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 11
+
+These workflows will be tested across common and edge-case scenarios to ensure resilience and trust. Navigation - Drupal will provide the foundation for task-oriented, adaptive navigation across VA.gov. Drupal will:
+· Power global, local, and contextual navigation using structured AI augmented taxonomies and content relationships.
+· Adapt navigation and wayfinding based on authentication state and service eligibility. · Support personalized dashboards and "next best action" guidance for signed-in users. · Enable consistent breadcrumbs, progress indicators, and return paths. · Ensure navigation remains accessible, responsive, and consistent across devices. Navigation structures will be continuously informed by analytics and user research to align with real Veteran mental models. Governance, Scalability, and Continuous Improvement - Drupal's enterprise CMS capabilities will enable: · Centralized governance of journey content, messaging, and navigation patterns. · Modular workflow components that can be reused across benefits, healthcare, and
+services. · Rapid iteration based on analytics, A/B testing, and usability findings. · Long-term scalability without re-platforming as VA services and identity systems evolve. · Hosted and maintained on Acquia's FedRAMP Moderate platform as a service
+
+Known limitations, risks, and tradeoffs.
+Drupal and Acquia provide a highly extensible, federated platform well-suited to VA's diverse benefit portfolios, but this flexibility requires strong governance to avoid over-customization, inconsistent content models, and operational complexity--particularly in a multi-site environment. Integration with legacy VA systems may require adapters or asynchronous patterns where APIs are immature, and incremental migration alongside existing VA.gov capabilities adds transitional complexity. Similarly, agentic AI capabilities depend on data quality and must be carefully scoped to maintain trust, transparency, and effective human handoffs. These AI components are designed to guide and assist Veterans--not make authoritative determinations-- trading strict determinism for improved personalization, navigation, and efficiency.
+Lessons learned from past deployments.
+Acquia's platform is purpose built to handle and support traffic spikes with their elastic infrastructure and has demonstrated the ability to do so with some of the highest trafficked events in recent history including the publication of the Epstein Files, Mueller Report, and live-streaming of the Olympic Games. That being said, foresight into expected high traffic events is always a positive. Proactively planning for peaks of user interaction helps ensure connected experiences that don't flinch even with staggering volume.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 12
+
+APPENDIX:
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 13
+
+PAST PERFORMANCE:
+
+Trevital, LLC is a Digital Services, small business, small disadvantaged business, following a SAFe® Agile methodology, implements Best Practices within products we develop, 18+ years working in Drupal and PaaS, certified developers, Acquia Partner building custom content management systems. Expertise project management, human centered design, content strategy, developing content management systems for high visibility web application development (Whiteshouse.gov, Medicaid.gov, Insurekidsnow.gov, act-iac.gov, HHS.gov, ASPR.gov, usdoj.gov, AHRQ.gov), Drupal experts (Drupal 7-11) and FedRAMP Cloud managed services (ACQUIA (AWS) and Pantheon). Our teams work closely with other contractors on security, ATOs, licenses, software upgrades and maintenance. We conduct user research through focus groups, one-one-one interviews, surveys, use heatmap technologies, conduct Quality Assurance, WCAG, 508 compliance checks, and ensure business readiness and communication using digital campaigns, creative materials and outreach through omni-channels.
+
+Name of the project:
+
+Medicaid Website Development and Operations (DevOps) and Maintenance Support for Medicaid.gov and Insurekidsnow.gov
+
+Client organization name and point of contact:
+
+Centers for Medicare and Medicaid Services, Thomas Young, Thomas.Young@cms.hhs.gov
+
+Contract Number :
+
+HHSM-500-2017-00028I/75FCMC20F0001
+
+Period of Performance:
+
+10/27/2020 - 9/26/2023
+
+Total Dollar amount :
+
+$10,648,137
+
+Description of tasks performed & experience gleaned from that performance, aligned to the requirement(s) of the VA: Trevital, supported Medicaid.gov, InsureKidsNow.gov and Scorecard (Data Visualization) websites aligned with the best practices of the U.S. Digital Services Playbook that leverages the SAFe® Agile methodology within a Drupal 10 Framework. Trevital's team successfully addressed the technical debt and end of life issues, upgrades from D8 to D9 then to Drupal 10, Hyper Text Pre Processor (PHP) update, Solr Views and search enhancements, and content management back-end system (CKEditor5) by adding the Drupal layer feature to enable content contributors the ability to create pages, features and manage content. All Websites follow USWDS, OMB Federal Web Standards, CMS and HHS policies, W3C and Web Accessibility Initiatives (WAI) standards and are tested for Section 508 compliance using Siteimprove and JAWS and content follows Plain language Act of 2010. Trevital brought forward innovative solutions to improve human center design and the customer experience by creating a Mega Menu, implementing a content strategy, Solr Index views were created across the websites, taxonomy, session management, and continuous UAT sessions for continuous content feedback loops. Weekly stakeholder and change control meetings, sprint planning meetings, backlog grooming, user story and EPIC discussions, and web site features based on the PM's decades of Drupal expertise in website design, features, user testing, and development. Provided 24/7/365 support for incidents, collaborated with Acquia, Akamai, on issues, worked with Office of Comm on license upgrades. Support Tealium, Foresee, Qualtrics, updated the data.medicaid.gov on the DKAN platform using Tableau, Socrata, developed APIs to connect data to other HHS websites. Project Management: Trevital's Project Manager, aligned with PMBOK, created roadmaps, project plans, and work breakdown structures, and managed user stories and change control with the Product Owner. Agile ceremonies included daily standups, sprint planning, backlog refinement, and retrospectives. The PM led scrum-of-scrums meetings with the IV&V team and content contributors, producing weekly and monthly reports with Jira, New Relic, and Drupal metrics. Trevital's Quality Management (QM) approach involved Quality Planning, Assurance, Control, and Continual Process
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 14
+
+Improvement (CPI) to ensure service quality and deliverables. The PM collaborates with the COR to address defects and propose corrective actions (CAP). All project documentation, including the Project Management Plan, system design, testing, UI/UX design, and release plans, were stored in Confluence. Agile Methodology: Our approach is based on SAFe practices, CMMI Level 3 processes aligned with the CMS TLC and features a product-based, integrated development process, built using standard Agile Scaled practices, and mature sprint practices in a matrixed organization including 16 FTEs across all 3 websites. The Medicaid/IKN team works in partnership with CMS to define sprint tickets (in Jira) to ensure requirements are fulfilled and expectations are met. The COR and stakeholders attend the sprint ceremonies and daily standup calls. We recorded requirements from the client or requests from other teams and place them in the backlog. We create Sprints from the backlog of tickets, with prioritization from the client, bugs or requests deemed high priority by the client can be pointed and added to a current sprint as needed. Reports: Atlassian JIRA and Confluence were used for project tracking, reports, and open lines of communication. We submitted a Weekly Summary and Monthly Status Report that included staffing, budget, risks/issues and mitigation, milestones achieved, tasks completed, burn down, velocity, Epic, Sprint, Control Chart, and cumulative flow diagram. Strategic Planning and Governance Support: Trevital has extensive experience in creating and organizing web content that aligns with branding and messaging through structured governance processes, particularly under the CMS Medicaid and CHIP programs. Under the CMS Medicaid and CHIP programs, we maintained multiple public-facing websites and subdomains, ensuring all digital content was consistent with CMS's branding and messaging. We collaborated directly with CMS stakeholders to shape and implement content strategies that supported evolving priorities, improved usability, and met user needs. To manage this at scale, we applied Agile methodologies and used tools like JIRA, Confluence, and GitHub to support workflow transparency, approvals, and version control. Our process included continuous coordination with SMEs to ensure content was accurate and accessible, embedding Section 508 compliance into our governance model. We also maintained detailed documentation, FAQs, and training materials--all designed to enhance end-user experience--while staying tightly aligned with strategic direction. Operations and maintenance of Drupal Environment: Our Dev team was responsible for the daily upkeep and performance of the Dev, Test, Staging, and PROD environments in Acquia, performance optimization such as varnish caching and database tuning, security monitoring and updating vulnerability and regular patches along with monitoring for threats, backup and disaster recovery on a regular basis and restoration planning, providing regular user management tasks including role-based and authentication, and monitoring and logging of the systems health, uptime, debugging issues, and 508 reports. Maintenance tasks focus on long-term sustainability and continuous improvement of the Drupal system which included Drupal core and module updates such as patches and security releases our team monitors on Drupal.org site, bug fixes and issue resolution discovered, refresh of content by reviewing, updating and optimizing, codebase and custom module updates by enhancing and refactoring custom functionalities, 508 compliance and accessibility monitoring, and providing user training on demand via Slack channel, and updating user and technical manuals available within Confluence or request. Help Desk support and Automated Tracking Tool Support is handled through Jira tickets and Slack channels for instant communication supporting CMS vendors, content contributor teams, and IV&V teams. Stakeholders submit a request for features and new capabilities that are entered into the backlog, some issues are brought forward to our COR during the change control meeting. Designated personnel handled immediate requests and issues. Content Management Environment: Trevital developed a custom content editing solution within Drupal that allows content creators to generate dynamic layouts and content-rich pages using a component library and the Drupal Layout API for Medicaid and Insurekidsnow.gov websites. This ensures consistency and responsiveness across the site and allows content creators to build dynamic pages independently of the development team using an intuitive drag and drop interface. This content editing solution can be applied in a traditional or headless Drupal
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 15
+
+implementation. Additionally, we have developed plugins for CKEditor5 to provide custom functionality around styling, accessibility, linking, object embedding and inserting media to further enhance the content editing experience and provide added capabilities to content teams. Our team established rolebased access and permissions through the Drupal console to support content contributors, defines permissions and checks users as they access the sites along with other methods such as routes, entities, and forms. Our team manages the roles and permissions for the content contributors, with each role will only allow access to approved sections and sub-sections. Content Strategy: Our team reviewed the original structural design of the shared information environments of the websites to establish the sitemap of the content contained with the sites and establish the architecture. Throughout the process we define the hierarchical design to include the structuring of content, data, and interactions - we are able to modify the content based on the outcomes and modified the content accordingly. Development and Accessibility: Our team used a containerized solution based on Docker (ex Lando and Docksal) for our local development. When combined with Acquia CLI, this allows our developers to quickly spin up environments, services (such as SOLR), automate build steps, and integrate/sync with Acquia environments. It also eliminates the need to spend time configuring Docker and ensures our developers can easily maintain a local environment that mirrors the server environment, regardless of local operating system. We developed custom tooling around Lando to aid in developer workflows and server actions. Drupal Environment Administrator Support: Trevital ensured a secure, high-performing, and scalable Drupal environment, implement robust caching mechanisms such as Varnish and Redis to enhance performance, alongside SSL and firewalls for security. Regular security updates and compliance checks, including GDPR and HIPAA, was enforced to maintain data integrity. Efficient core, module, and user management was achieved using Git for version control, with updates managed via Composer. Enforcing role-based access control and integrating SSO solutions like Simple SAML (mini-orange) OAuth enhanced authentication security, while audit logs and admin activity monitoring improve accountability. A strong backup and disaster recovery plan included automated daily backups, failover strategies, and regular recovery testing. Performance optimization was driven by monitoring tools such as New Relic, database tuning, and load testing, while CI/CD pipelines enable automated deployments. For scalability and ongoing support, high-availability setups with Kubernetes were considered, along with thorough documentation, user and technical training, and a structured Jira ticketing system for issue resolution. Operations: Monitoring: Trevital maintained 24/7/365 system availability with total unplanned system downtime of less than 10 minutes per month. Trevital achieved 100 percent availability of the websites, exceeded all the defined BPA Service Level Agreements (SLAs). The team achieves this high level of availability by 1) managing administration activities that include issue identification, tracking, analysis, and resolution; 2) code generation, testing, and documentation; 3) change incorporation, maintenance of code, specialized configurations, customizations, and process automation such as scripts, templates, and workflows; 4) performance tuning and monitoring; 5) service application and system administration; and 6) managing user and group permissions. These applications use a heterogenous technology stack which includes Solr, Drupal (including Drupal Publishing) and MySQL Server databases. ARS security controls, WAF, cloud environment, containerization, OWASP: We conduct regular security scans of our Remote Administration (RA) environments, monitoring security advisories from Drupal.org for critical updates, which are promptly tested and applied as hotfixes. Access is controlled via SSO, with additional authentication mechanisms securing an "Edit" domain for developers and testers. Multi-factor authentication (MFA) is implemented using Simple SAML and the miniOrange Drupal module, adhering to NIST 800-53a standards. The Akamai Edge Web Application Firewall (WAF) protects against threats like DDoS, SQL injections, and XSS. Trevital is alerted to security issues
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 16
+
+and coordinates with Akamai, Drupal, and CMS/DCO. We use Docker and Acquia Kubernetes for containerization and follow OWASP best practices to mitigate top security risks under CMS guidance. Training: identified target audiences (content editors, site administrators, developers) and their specific roles. We created training modules to cover key areas like site structure, content creation, user management, and configuration. Provided hands-on learning environment, demonstrating tasks step-bystep through guided walkthroughs, videos, and live sessions. Provided user guides and practice exercises and incorporate real-world scenarios to make the training relevant and ensure learners can apply their knowledge directly to the project.
+
+Reference #2
+
+Trevital, LLC
+
+UEI number
+
+FUT8HHHM1NY8
+
+Contract/order number
+
+75A50224C00014
+
+Contract/order title
+
+Drupal Website Migration and Modernization for ASPR.gov
+
+Performance dates
+
+09/30/2024 - 09/29/2027
+
+Dollar value
+
+$4,464,000,00
+
+Government Organization
+
+Department of Health and Human Services, Administration for
+
+Strategic Preparedness and Response (ASPR)
+
+Description of the Work Experience Similar to DOT WA3: Trevital is responsible to Migrate ASPR.gov from
+
+SharePoint built on ASP.net into a new Drupal Content Management System instance utilizing Drupal 11 in the
+
+Acquia FedRAMP managed cloud environment built by our team. Analyzed needs for licensing and tools by
+
+conducting a thorough analysis of the client's requirements to recommend appropriate licensing and tools within
+
+the Acquia ecosystem, ensuring cost-effective solutions that met scalability and performance needs. Developing a
+
+custom content editing solution within Drupal that allows content creators to create dynamic layouts and content-
+
+rich pages using a component library and the Drupal Layout Application Programming Interface (API). This
+
+ensures consistency and responsiveness across the site and allows content creators to build dynamic pages
+
+independently of the development team using an intuitive drag and drop interface. Additionally, we developed
+
+plugins for CKEditor5 to provide custom functionality around styling, accessibility, linking, object embedding and
+
+inserting media to further enhance the content editing experience and provide added capabilities to content teams.
+
+Our team establish role-based access and permissions through the Drupal console to support content contributors,
+
+define permissions and checks users as they access the sites along with other methods such as routes, entities, and
+
+forms. We configured the hosting, development, testing, staging, and production environments to support Drupal
+
+development and configuration management best practices as well as register the ASPR.gov domain provided by
+
+the customer for the environment.
+
+Project Management: Trevital's Project Manager leads the scrum team using an Agile methodology, managing
+
+Jira tickets (Kanban board) and Confluence for XLC project documentation. The manager acts as the daily liaison
+
+with the customer and stakeholders. Our approach integrates the CMS XLC with Agile/Scrum to meet
+
+Medicaid.gov SOO requirements, prioritizing and developing solutions through the Agile process, with releases
+
+approved by the COR and stakeholders. We include TLC requirements in each Sprint and deliver results for gate
+
+reviews by the Technical Review Board (TRB). All artifacts adhere to the TLC life cycle and are submitted on time
+
+in Confluence.
+
+Strategic Planning and Governance Support: To maintain efficient operations, reduce risks, ensure compliance,
+
+and drive innovation, Trevital first understands the business objectives. Then we establish a Web Governance
+
+Framework that includes comprehensive documentation, policy development, and structured decision-making
+
+processes, next we created a Medicaid Web Governance Charter that defines roles, responsibilities, and content
+
+management policies for the Drupal-based CMS and any future platforms. Additionally, we facilitate monthly
+
+governance meetings to review web infrastructure performance, compliance updates, and user experience
+
+enhancement. We support the development of roadmaps, policies, and performance metrics that guide
+
+implementation and long-term sustainability, ensuring that technology investments deliver measurable value and
+
+adhere to compliance, security, and best practice standards.
+
+Operations and maintenance of Drupal Environment: Trevital set up a Drupal environment in Acquia, we
+
+began by provisioning a new application within the Acquia Cloud platform. Once created, we can use Acquia's
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 17
+
+Cloud IDE or connect via Git to manage our Drupal codebase. The environment includes separate Dev, Stage, Test, and Prod instances, each with its own database and file system. We deploy Drupal by pushing code to the appropriate branch, importing a site database (if needed), and syncing files using Acquia's command-line tools (like BLT or Acquia CLI). Configuration management is handled through Drupal's config export/import system, and Acquia provides tools for performance, security, and access control throughout the process. Help Desk support and Automated Tracking Tool Support: Trevital provides users with timely assistance for technical issues, content updates, and platform-related questions through our dedicated support team. It ensures smooth day-to-day operations by resolving incidents, managing service requests, and offering guidance on best practices. Automated Tracking Tool Support complements this by implementing and maintaining Jira that monitor tickets, track performance metrics, and streamline workflow management. This tool enhances visibility, accountability, and response times, ensuring efficient and consistent support delivery. User Research and UX Design: Our team engages with stakeholders and external users to understand expectations, navigation preferences, and usability needs. User-centered design (UCD) ensures a better experience by identifying who will use the product, how, and why, while incorporating continuous user feedback. We prioritize intuitive navigation and content discovery based on user personas. Using MAZE software, we validate hypotheses through low- and high-fidelity prototypes to track user journeys. Our UX team works with engineers, SMEs, and business users to integrate UCD principles, ensuring usability, accessibility, simplicity, and consistency across tools and devices. Trevital aligns with USWDS design principles for an optimal user experience. Website Design, Redesign, and Migration Projects and New Websites on Platform: This involved creating a digital experiences to meet user needs and organizational objectives. This includes user research and usability testing to enhance the user experience (UX) and user interface (UI) design, content strategy, and accessibility compliance. Redesign and migration efforts focus on updating legacy systems, improving performance, and seamlessly moving content to modern, scalable Drupal platform. The new website follows a structured process-- from discovery and wireframing to development and launch--this ensures responsive, secure, and user-centered solutions that align with branding and functional requirements. Content Management Environment: Trevital has developed a custom content editing solution within Drupal that allows content creators to create dynamic layouts and content-rich pages using a component library and the Drupal Layout API. This ensures consistency and responsiveness across the site and allows content creators to build dynamic pages independently of the development team using an intuitive drag and drop interface. This content editing solution can be applied in a traditional or headless Drupal implementation. Additionally, we have developed plugins for CKEditor5 to provide custom functionality around styling, accessibility, linking, object embedding and inserting media to further enhance the content editing experience and provide added capabilities to content teams. Content Strategy: All content development tasks follow an Agile approach and incorporate design thinking from inception through deployment. An existing backlog of epics and user stories (create new ones, as needed) are continuously created and reviewed along with CMS and other stakeholders to prioritize based on impact, scale, urgency, and other factors. Each selected group of user stories go through a sprint-based development, testing, and deployment process to push the enhancements into the production environment. We use Jira to maintain and update the backlog, epics, and user stories and Confluence to develop job aids, user guides and product roadmaps. Designing and configuring complex search solutions using the Search API: The Drupal Search API provides a framework for integration with various back-ends. On Medicaid.gov, Trevital has implemented the SOLR search platform to power Views, providing dynamic faceted search filters, the ability to search inside pdfs, fuzzy/full-text search, custom fields, and more. Through use of SOLR, site Views are more performant and scalable that databasepowered views. Dynamic facets allow users to drill down and refine search results by category or attributes, while filters are recalculated and displayed to reflect the narrowed categories. Search.gov: Trevital's approach to Search.gov integrates the federal search platform directly into Drupal websites, enabling a unified and accessible search experience. Our team implemented the Search.gov module, which allows site administrators to configure search settings and display results within the Drupal theme. The integration ensures compliance with federal standards, supports faceted search, and allows customization of search results pages to match site branding. It is a scalable, and user-friendly to deliver relevant content across government websites. Disaster Discovery: Acquia and Drupal environments involves a comprehensive strategy to ensure business continuity and data protection. Trevital works closely with Acquia who provides automated daily backups of code, databases, and files across all environments (Dev, Stage, Prod), with options for manual backups as needed.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 18
+
+ATO: Trevital also supports the program application and infrastructure hosted in both HHS data centers and AWS GovCloud establishing an Authority to Operate [ATO] at the FISMA Moderate Enhanced level) and monthly patch cycles for infrastructure and applications to maintain the ATO. Training: To ensure the client's internal team could efficiently manage the new platform, we provided comprehensive training sessions covering Drupal's content management system, module use, and platform operations. New Media Development: We implemented the Drupal social-media-share module to connect the Twitter and Facebook accounts to share continuous feeds on both platforms. This approach enables channels full flexibility to add more services, email, modify configurations and disable services upon request. We are reviewing video hosting options.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 19
+
+CASE STUDIES:
+Fannie Mae:
+Introduction: Acquia's partnership with Fannie Mae is a centerpiece of the organization's broader digital transformation. Facing the challenge of managing a massive, siloed web ecosystem, Fannie Mae partnered with Acquia to consolidate their infrastructure into a unified Digital Experience Platform (DXP). The following tables demonstrate the technical modernization and user friendly approach that was followed to accomplish Fannie Mae's requirements:
+1. Enterprise Site Consolidation:
+
+Problem: Fannie Mae previously managed seven different, non-integrated platforms, which was expensive to maintain and created a fragmented user experience.
+Solution: They migrated their flagship site (fanniemae.com) and six others onto Acquia Site Factory.
+Outcome: "Create Once, Publish Everywhere": Content marketers can now syndicate content across multiple domains simultaneously, significantly reducing manual work.
+ Cost Efficiency: Drastic reductions in expenditures related to hosting, licensing, and support fees.
+ Speed to Market: The use of uniform, responsive templates allowed the team to launch campaign landing pages and update sites much faster than previously.
+2. "Know Your Options" Portal (Emergency Response)
+Problem: Fannie Mae launched during the 2008 housing crisis; this portal became a critical lifeline during the COVID-19 pandemic.
+
+Solution: The Transformation: The site was re-architected to include a robust Loan Lookup Tool. Outcome: When the pandemic hit, this became the most visited site in Fannie Mae's ecosystem. The scalability of the Acquia platform ensured it could handle the surge in traffic, while a new API allowed lenders to quickly process loans.
+3. Personalization & Crisis Communication
+Problem: Fannie Mae uses data to drive meaningful engagement, specifically during natural disasters.
+
+Solution: Using Acquia Personalization, Fannie Mae targeted homeowners and renters in wildfire-impacted areas with relief information.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+Outcome: 38% of visitors in targeted states clicked on the personalized content, ensuring critical resources reached the people who needed them most.
+
+Page 20
+
+TREVITAL - AI open-source LMS
+Problem: HHS/CMS needs a Modern AI open source driven Learning Management System (LMS) that enables content contributors to use an approach to creating eLearning modules that automatically generate content, quizzes, certifications, and dashboards.
+Solution: Using properties off of Drupal entities including user profiles attributes we are able to automatically generate targeted content which retains persistent storage and is available to be used as further content properties for additional content generation. Use current user attributes off other entities to be able to generate content specific for that user based on their profile.
+Outcome: Trevital created the Trevital AI Open-Source LMS with all these features with KPI reducing half the contractor instructional designers, developers, and costs.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+DIAGRAMS: Trevital integration for content optimization:
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 21
+
+Description: The diagram above illustrates the integrated digital experience ecosystem supporting VA.gov, showing how Acquia Agentics AI, Drupal, and Trevital work together to deliver a secure, personalized, and continuously improving Veteran experience.
+At the center, Trevital serves as the experience intelligence and orchestration layer for VA.gov. It is depicted as a central hub responsible for Targeting, Recommendations, Experimentation, and Variation, enabling data-driven personalization and optimization across Veteran-facing journeys.
+On the left, Acquia Agentics AI provides advanced AI and decisioning capabilities that enhance VA.gov experiences, including:
+· Predictive Insights to anticipate Veteran needs and intent · Personalization models that tailor content and pathways · AI Optimization that continuously improves outcomes based on performance data
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 22
+
+These capabilities integrate bidirectionally with Trevital, forming a closed feedback loop that supports learning, adaptation, and continuous improvement.
+On the right, Drupal represents the VA.gov content and experience platform, encompassing:
+· Content & Sites that power VA benefit, health, and service information · User Data from authenticated and unauthenticated Veteran interactions · CMS & Tools used by VA teams to manage, govern, and publish content at scale
+Drupal supplies structured content and behavioral data into Trevital, while receiving optimized, personalized content decisions and experience variants in return.
+Surrounding the Trevital core are visual elements representing Targeting, Recommendations, Experimentation, and Variation, reinforcing a continuous optimization lifecycle aligned to VA.gov KPIs such as task completion, reduced friction, and improved Veteran satisfaction.
+Overall, the image conveys a FedRAMP-ready, composable architecture for VA.gov, where:
+· Drupal delivers governed content and experiences, · Acquia Agentics AI provides intelligence and automation, and · Trevital acts as the connective tissue that operationalizes personalization,
+experimentation, and measurable experience improvement across all VA benefit portfolios.
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+VA.gov Digital Experience KPI Scorecard:
+
+U.S. Department of Veterans Affairs Replacement Model for VA.gov February 4, 2026 3:00 PM EST
+
+Page 23
+
+Use or disclosure of data contained in this sheet is subject to the restriction on the title page of this proposal
+
+

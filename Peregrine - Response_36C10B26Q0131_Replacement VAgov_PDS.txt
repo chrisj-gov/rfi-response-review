@@ -1,0 +1,840 @@
+FEBRUARY 5, 2026
+DEPARTMENT OF VETERANS AFFAIRS
+Replacement Model for VA.gov
+RFI 36C10B26Q0131
+PEREGRINE DIGITAL SERVICES, LLC
+POINT OF CONTACT Angelo "Joe" Punaro, Managing Member Peregrine Digital Services, LLC 4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 571-766-6670 contracts@peregrinedigitalservices.com
+Data contained on ALL pages of this response provided by Peregrine contain trade secrets and/or privileged confidential commercial or financial information. Peregrine submits this information to the Government in confidence and understands it is received with that intent. This enclosed information shall not be released or disclosed outside the Government under the FOI Act (U.S.C. 552) or under any circumstances. This data shall not be disclosed outside the Government and shall not be duplicated in whole or in part, for any purpose other than to evaluate this response. This restriction does not limit the Government's right to use the information contained within the furnished response if it is obtained from other sources without restrictions. Restriction on disclosure and use of data, and FAR 3.104-4, Disclosure, Protection, and Marking of Contractor Bid or Proposal Information and Source Selection Information.
+Peregrine Digital Services, LLC (Peregrine) 4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+Table of Contents
+
+VA Bridge: A Veteran-Centered Digital Ecosystem
+
+1
+
+1 VA's Reimagined Digital Experiences (VA Bridge)
+
+3
+
+2 How We Realize the VA Bridge Future (Implementing and Integrating)
+
+7
+
+APPENDIX
+
+11
+
+1 Company Overview
+
+11
+
+2 Relevant Experience
+
+11
+
+2.1 Vets.gov to VA.gov
+
+11
+
+2.2 VA Lighthouse Delivery Infrastructure (LHDI)
+
+12
+
+2.3 Enterprise Event Bus (Pilot Program) and Resilient Improvements to Systems and
+
+Experience (RISE)
+
+14
+
+2.4 Low Code No Code (LCNC) Experience
+
+15
+
+2.5 Veteran Unmet Needs Experience
+
+16
+
+2.6 Build vs. Buy Sample Scenarios
+
+21
+
+3 Figures and Mockups
+
+25
+
+3.1 Page mockups for a reimagined VA.gov
+
+25
+
+3.2 Mobile app
+
+31
+
+3.3 Underlying technical architecture diagram
+
+32
+
+Peregrine Digital Services, LLC (Peregrine) 4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+A Replacement Model for VA.gov
+"We are dealing with Veterans, not procedures--with their problems, not ours." - General Omar Bradley, First Administrator of the Veterans Administration
+Improving VA.gov requires both a technical update and a commitment to closing the gap between the expectations of a modern digital experience and the daily reality facing Veterans. The launch of the redesigned site we supported in partnership with VA marked significant progress, bringing industry standards to government and strengthening Veteran trust.
+As VA.gov has matured into a stable national platform, many of the remaining improvements reside in cross-cutting services with overlapping ownership, not in any single experience surface. Veterans feel the visible friction in moments like sign-in and account recovery, but deeper trust and utilization gaps stem from what happens underneath: services that perform unevenly across systems, data that does not stay consistent across channels, and application workflows that still require too much manual effort. Addressing these issues is an organizational challenge and a technical one, and the bridge between today's ecosystem and the next-generation experience is aligning teams around shared outcomes for end-to-end journeys.
+There is tremendous opportunity for meaningful improvements through a partnership between vendors and VA, and between subject matter and technical leaders at VA. The approach must avoid service disruption for Veterans while moving toward a seamless user experience.
+VA Bridge: A Veteran-Centered Digital Ecosystem
+Peregrine is an SBA-certified SDVOSB mentor-protégé joint venture between Ad Hoc and IronArch Technology. Together, we bring over a decade supporting VA. Our presence was a disruptive force that brought commercial digital delivery and product practices, high engineering standards, strong platform and security discipline, deep Veteran empathy, and the operational maturity required to improve high-visibility systems without negatively impacting the services they enable. A more detailed company description and summary of our work supporting the transition from vets.gov to VA.gov can be found in Appendix Section 2.1.
+Our vision for the replacement model of VA.gov is a digital ecosystem called VA Bridge. This is not a single technology decision or a front-end reskin; it is a coordinated evolution of experience, data, and organizational accountability. VA Bridge introduces key components that are currently missing in VA's digital ecosystem, which are listed below and described further in Section 1:
+ Automated Provisioning and Proactive Eligibility: Use trusted VA/DoD data to precreate accounts, smooth ID proofing, and prefill applications based on eligibility.
+ Omnichannel Excellence and Modern Discoverability: Keep the same profile and inprogress tasks consistent across VA.gov, mobile, support, and AI/agentic channels.
+ Proactive Personalization Through the Action Center: A reimagined "My VA" that turns eligibility and life events into ready-to-complete actions.
+ Population-Specific Adaptations: Tailor journeys by life stage and context (transitioning, established, returning, rural).
+
+Peregrine Digital Services, LLC (Peregrine)
+
+1
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+The benefit of these components to the Veteran is a delightful experience discovering, applying for, and accessing VA services. VA Bridge builds trust by making the digital experience consistent and dependable, the way Veterans expect. Veterans spend less time searching and applying for benefits, less time waiting for decisions, and less time fixing issues caused by inconsistent data, so they can focus on getting care, securing benefits, and providing security for their families. This effort will be successful only if it is implemented with discipline by a trusted partner who brings modern, rigorous engineering practices, has a proven track record of successfully delivering without service disruption, and has deep experience in safely bringing commercial best practices and tools, including AI/LLMs, into a federal environment.
+Implementing VA Bridge Across the Ecosystem
+VA Bridge is implemented through an additive, risk-mitigated approach that preserves stability while enabling rapid progress. Our high-level implementation strategy, informed by more than a decade of successful delivery and modernization at VA, includes:
+ Data as the Integration Layer: We leverage the Enterprise Event Bus (EEB) to power event-driven workflows across health and benefits.
+ Benefits Discovery Service (BDS): This utility continuously evaluates eligibility and reacts to changes in policy or Veteran circumstances.
+ Hybrid Build and Buy Approach: VA will use commercial capabilities where they accelerate delivery and reduce cost, while keeping mission-critical, policy-heavy Veteran experiences custom.
+ Shared Platform Services: By strengthening VA-owned APIs, we strengthen the connective tissue between legacy systems and modern experiences.
+This implementation model is made successful by a clearly defined, time-bound assessment of today's VA systems: what is working, what isn't, and where targeted replacement delivers the most value for Veterans and VA Staff. The outcome this assessment supports is faster access to benefits and care, fewer repeated steps across channels, and more reliable outcomes throughout the service journey. Our implementation of VA Bridge is discussed in more detail in Section 2.
+Integration with VA Systems
+The VA Bridge model extends across surfaces and utilities to ensure a unified experience:
+ Surfaces: VA.gov, the VA Mobile App, and non-VA agentic/AI products.
+ Utilities: Login.gov/ID.me, BDS, EEB, and VANotify for proactive communications.
+ Platforms: Lighthouse for reliable, secure, standardized API access.
+ Staff-Facing Systems: Ensuring that staff tools are synchronized with the Veteran experience to eliminate disconnects between systems.
+These are the right integration points because they use VA-owned systems to connect channels without duplicative one-off integrations. Peregrine is positioned to deliver successfully because we know which modern VA components compensate for legacy gaps and how best to leverage them to reduce waste and cost. Examples of these changes can be found in Appendix Section 3.
+Success depends on an organizational structure rooted in Service-Level Objectives (SLO). These shared metrics hold teams accountable for end-to-end journeys instead of isolated system
+
+Peregrine Digital Services, LLC (Peregrine)
+
+2
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+metrics such as uptime. By organizing VA teams into service verticals with shared SLOs focused on the complete Veteran journey, VA can improve internal dependability and more quickly resolve conflicts across the service chain, from backend systems, to core APIs, to Veteran-facing tools. This structure will ultimately be measured by end-to-end task completion and increased benefit utilization for eligible Veterans and other beneficiaries including Caregivers.
+The transformation enabled by VA Bridge moves VA away from fragmented, forms-based interactions and toward a holistic, Veteran-based ecosystem grounded in three elements: shared platform components that connect the experience end to end; a low-risk implementation strategy that replaces constraints without disrupting service; and integration across VA.gov, the VA Mobile App, and other channels so Veterans are never the manual bridge between systems. In this proactive state, VA anticipates needs, pre-populates interactions, and surfaces timely, relevant actions based on data VA already has. The figure below summarizes how these components work together to deliver a unified experience across channels while preserving continuity, strengthening trust, and improving Veterans' health and well-being.
+
+1 VA's Reimagined Digital Experiences (VA Bridge)
+The future of VA digital services moves beyond a static web portal to become a VA Bridge ecosystem where the experience is replicated consistently across every channel. Whether a Veteran is using the mobile app, speaking to a contact center agent, or engaging with emerging agentic AI surfaces, the information provided remains accurate and synchronized. Even in automated surfaces such as a chatbot, Veterans must have the same level of visibility and control as they do on all parts of VA.gov, ensuring that automation-enabled support is not a black box, but a transparent extension of VA services. Of course, human support should remain an available option. By using the Enterprise Event Bus to support a real-time, event-driven architecture, VA triggers immediate updates across all systems the moment a change occurs (see Appendix Section 2.3 for our Event Bus pilot and VA RISE continuation). Our implementation of this
+
+Peregrine Digital Services, LLC (Peregrine)
+
+3
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+architecture already handles an average of 15,000 events daily, processing critical triggers like Claim Lifecycle Status updates to ensure Veterans receive immediate, accurate feedback. This technical backbone eliminates the silos between health and benefits, creating a connected journey that feels like a single partnership rather than a series of disconnected programs. Key components of the VA Bridge ecosystem and their impact on Veterans are summarized in the table below.
+
+VA Bridge Component
+
+What it does
+
+How it works
+
+Veteran impact
+
+Proactive Architecture and Automated Provisioning
+
+Starts the Veteran's digital relationship earlier and eliminates avoidable admin work.
+
+When Veteran data changes (health status, eligibility, life events), systems publish real-time events and other systems consume them to trigger updates, complete tasks, or recommend next steps, keeping VA.gov, mobile, and assisted channels aligned.
+
+Faster start, fewer identity hurdles, less repeated data entry, smoother transition into VA services.
+
+Omnichannel Excellence and Modern Discoverability
+
+Keeps the Veteran's journey consistent across channels so tasks do not restart.
+
+Maintains a shared profile and task record that stays in sync across VA.gov, the VA Mobile App, and assisted channels, so identity state and "in progress" status carry forward.
+
+Less friction when switching channels, fewer dropped tasks, more confidence that VA "knows where I am."
+
+Action Center on VA.gov
+
+Turns VA data into clear, timely next steps.
+
+A single VA.gov hub that surfaces personalized tasks, alerts, and prepopulated actions driven by eligibility signals and life events.
+
+Less searching, clearer priorities, fewer missed benefits, faster time to enrollment or application completion.
+
+PopulationSpecific Adaptations
+
+Tailors the experience to a Veteran's life stage and access constraints.
+
+Adjusts what is shown and how it is delivered based on signals like transition status, prior engagement, geography and connectivity, and care or benefits context.
+
+More-relevant guidance, better support for high-need moments, improved access for rural and returning Veterans, reduced overwhelm.
+
+These key components of VA Bridge increase delivery speed by giving teams shared foundation services, including the Enterprise Event Bus, VA-owned APIs, and a common task and profile record, so new experiences can reuse trusted data flows instead of building one-off integrations. This reduces rework, lowers operational overhead, and makes change safer because improvements can ship incrementally and be measured, rather than bundled into high-risk cutovers. In section 2, we discuss and provide representative examples of the cost and risk profile of the two extremes in build vs. buy, fully custom rebuilds that are slow and expensive to sustain and fully bought platforms that can accelerate delivery early but create long-term risk through lock-in, customization burden, and fragmented journeys.
+Proactive Architecture and Automated Provisioning
+At the core of this transformation is a proactive architecture designed to anticipate Veteran needs before they are manually expressed. For VA.gov, this means using trusted data sources to automatically trigger the right next steps for a Veteran, such as account setup, ID verification, partially prefilled applications, and nudges through timely notifications. This model replaces the traditional reactive "apply-and-wait" system with a continuous evaluation of eligibility based on data VA already possesses. A critical component of this architecture Veterans experience before
+
+Peregrine Digital Services, LLC (Peregrine)
+
+4
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+they transition is automated account provisioning, which initiates the digital relationship during the 180-day transition window for Transitioning Service Members (TSM). By leveraging authoritative DoD identity sources, such as the Defense Enrollment Eligibility Reporting System (DEERS), the definitive source for identity, affiliation, and benefits eligibility, and strong DoD credentials like the Common Access Card (CAC), the system can automatically create a secure VA.gov profile and trigger identity verification early, ensuring a warm handoff from military service to Veteran status. Of course, realizing this component requires deep alignment between VA and DoD, and VA should not shy away from this partnership, which our teams have experience in pursuing and strengthening.
+This proactive foundation enables a "zero data entry" profile, where health and military records are automatically pulled to prepopulate claims and applications. Automated provisioning not only reduces the administrative burden on the Veteran, but also enhances security by ensuring that digital identities are centrally managed and instantly updated as a Veteran's status changes. This shifts the responsibility of identifying eligibility from the Veteran to VA, significantly increasing the uptake of earned benefits.
+Omnichannel Excellence and Modern Discoverability
+This vision draws inspiration from leading commercial sectors that have mastered the omnichannel experience, and it applies the same best practices with discipline, using proven COTS capabilities where they create durable value and measurable Veteran outcomes. Done well, this approach increases delivery speed and lowers long-term cost by reducing one-off integrations, avoiding duplicate solutions across portfolios, and focusing custom engineering on the VA-specific policy and service complexity that cannot be bought off the shelf.
+Like Marriott, where a traveler's preferences follow them from the mobile app to the check-in desk, VA will ensure that a Veteran's profile and progress are consistent across all touchpoints (VA.gov, mobile app, contact center, etc.) because they rely on a shared task and profile record that is kept accurate as data is updated. Drawing from modern banking, where a customer can start an application on a phone and finish it in a branch, the Veteran will be able to start an application, like the VA healthcare enrollment application (10-10EZ) on a phone and finish it in a VAMC or Community-Based Outpatient Clinic (CBOC) enrollment office without restarting, with VA providing seamless task completion.
+The experience is further enhanced by AI agentic support built directly onto trusted platform services. Unlike traditional chatbots, these autonomous agents can perceive context and signals in real time to decide on the best course of action. Because they are integrated with the Benefits Discovery Service (BDS), these agents proactively discover and recommend benefits by analyzing existing data to identify qualifying conditions before the Veteran even asks. When our research team investigated Veterans' unmet needs (Appendix Section 2.5), we found people who felt they received so much information as part of their transition that they were overwhelmed and unsure how to move forward. VA services like BDS provide the critical context and connective tissue between "backstage" systems and Veteran experiences. The figure below shows the difference between the current reactive process and the VA Bridge proactive state.
+To ensure Veterans can find what they need in an increasingly AI-driven digital world, the platform is built for SEO and GEO (Generative Engine Optimization) readiness. This ensures VA content is optimized to be the primary, authoritative answer cited by AI-mediated discovery tools like LLM-based assistants. By maintaining highly structured, agent-ready data,
+
+Peregrine Digital Services, LLC (Peregrine)
+
+5
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+VA ensures that whether a Veteran starts their journey on a search page or through a conversational AI, they are guided directly to the correct Action Center task.
+
+Proactive Personalization through the Action Center
+This philosophy is anchored by a centralized, dynamic Action Center, which serves as the nextgeneration My VA, accessible immediately through the VA.gov home page. By pulling military personnel and health records to prepopulate benefits, VA reduces irrelevant content and guides the Veteran toward the next right action. When key life events occur, such as a change in disability status or a new medical diagnosis, accurate guidance and prompts appear in this Action Center. Borrowing from the airline industry's "proactive re-accommodation" model, VA can move beyond simple guidance and notifications. If legislation or a Veteran's medical status triggers a new eligibility status, the Action Center should not just alert them, but present a prepopulated, ready-to-complete application for the relevant benefit.
+Population-Specific Adaptations
+Service Members and Veterans are not a monolithic group. The Action Center experience is designed to adapt dynamically to the Veteran's current life stage and geographical context:
+ Transitioning Veterans: For those in the critical first 1.5 years post-separation, the platform provides a personalized progress bar that features automated check-ins to ensure they are connected to health and employment resources before challenges escalate.
+ Established Veterans: Active users see an Action Center that surfaces high-priority medication cards, appointment alerts with concrete, time-bound language, and real-time status updates for Community Care referrals.
+ Returning Veterans: The system maintains a low-friction connection over time. EEB and BDS combine to reengage Veterans after years away, surfacing new benefits like those under the PACT Act that may not have existed during their last interaction.
+ Rural Veterans: For those navigating access constraints, the interface handles lowbandwidth scenarios while their Action Center suggests cross-government benefits like computing, phone, and internet benefits.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+6
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+The figure below shows the difference between the current military-to-civilian transition via a manual handoff and the VA Bridge seamless provisioning.
+The health experience further integrates these principles by moving from vague appointment requests to real-time scheduling and frictionless telehealth regardless of where Veterans receive their care. By recognizing when a user is searching for urgent information and instantly surfacing the Veterans Crisis Line, the platform shifts from a passive tool to a life-saving partner. This model ensures that every interaction is part of a sustained, two-way relationship that respects the Veteran's story through trauma-informed approaches.
+2 How We Realize the VA Bridge Future (Implementing and Integrating)
+Realizing VA's vision for the future of VA.gov requires aligning customer experience, access to authoritative data, and end-to-end accountability. The graphic below illustrates a modernization approach to maintain or replace existing systems of record, improving experiences or processes that create friction for Veterans and staff, and building shared platform services that every surface can use. This enables modernization without disrupting service delivery, all while maintaining reliability, security, and continuity.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+7
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+As shown on the left in the figure above, the current state presents VA channels functioning like separate front doors. VA.gov, the mobile app, the contact center, and clinic-based workflows use different authentication paths, pull data through one-off integrations, and maintain separate representations of where a Veteran is in a given process. This produces inconsistent, frequently conflicting views of progress, which results in duplicative data entry, task abandonment, and reduced trust. Underlying these issues are channels that are tightly coupled to legacy systems and platform-specific logic, resulting in brittle integrations, slowed delivery, and increased regression risk making cross-channel consistency difficult to sustain.
+As shown on the right, VA Bridge modernizes in place through modular replacement rather than a "big bang" rebuild. We introduce an access layer that standardizes identity, profile, eligibility, and a shared task status record used across channels. This provides an authoritative source of progress so Veterans can start a journey in one channel and continue in another without losing context. The model also enables a practical build/buy boundary: Commodity capabilities (e.g., CIAM/IAM) can be acquired and integrated behind VA-defined interfaces, while VA-specific policy, entitlement rules, and decisioning remain in VA-controlled services. When a system of record changes state, it publishes an event through the Enterprise Event Bus (e.g., a claim is received or eligibility is updated). Subscribed services then update task status and drive consistent next-step guidance and notifications across VA.gov, mobile, the contact center, and clinical settings. Backed by VA-owned APIs and a service-oriented architecture (including Lighthouse), channels stop depending on brittle point-to-point integrations and platform-specific logic.
+Data Access as the New Integration Layer
+Integration with a diverse portfolio of legacy and emerging systems is achieved by treating data access as the new integration layer. Rather than forced, high-risk migrations, we advocate for a Service-Oriented Architecture (SOA) as the guiding pattern, with microservices used selectively where they reduce coupling and improve deployment safety. This architecture unties the knots where frontend tools are currently forced to leech data directly from rigid backend systems. By adopting an API-first approach, the API becomes the central point of the service rather than any single human-facing application, allowing VA to launch new Veteran-facing experiences much faster and at a lower cost.
+Operating within a regulated, highly visible federal environment requires pulling the best of VA's software factory capabilities. We leverage the VA Design System to ensure frontend experiences are accessible and consistent. By maturing the "golden path" development pioneered by VA Lighthouse, we can move security and compliance from manual, email-based "black boxes" into automated, digital workflows. More detail about our experience working on the Lighthouse Platform can be found in the Appendix Section 2.2.
+We must also prioritize development environments with production-like quality and performance. Historically, gaps such as testing constraints have meant teams cannot validate changes in pre-production environments, making integrations in higher environments a risky proxy for reality. We want to close this gap by providing standardized environments and preapproved "Signed Golden Images" that accelerate the path to an Authority to Operate (ATO).
+The data access layer should begin with a small set of high-priority journeys followed by hardening the shared services those journeys depend on. This will follow four key steps:
+
+Peregrine Digital Services, LLC (Peregrine)
+
+8
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+To support long-term scalability, adaptability, and resilience, our strategy treats data as the pivot point. Through open standards and a modular, service-oriented platform, VA can ensure that performance expectations are shared across an entire service vertical. This allows for a shift from traditional Service-Level Agreements (SLA) toward SLOs that focus on whether a Veteran can actually complete a task, such as finding a clinic appointment or submitting a claim in one sitting.
+A Strategic Hybrid Approach: Build vs. Buy
+A primary challenge in this evolution is the decision to build versus buy without fragmenting the Veteran experience. We recommend a hybrid approach with clear guardrails. VA is not opposed to Commercial Off-the-Shelf (COTS) or SaaS solutions; in fact, VA should adopt LowCode/No-Code (LCNC) and SaaS where they accelerate delivery. However, these systems must expose their data through VA-owned APIs and Veteran-centric interfaces. Systems must expose their data internally, and VA business logic should not be embedded inside vendor platforms in ways that cannot be reused across channels. Additional considerations for these choices can be found in Appendix Section 2.6.
+Our rules of thumb for this decision-making process are:
+ Buy when the capability is a commodity (e.g., identity, document storage) and does not encode VA-specific policy complexity.
+ Build or keep custom when the capability is mission-critical, policy-heavy, or tightly coupled to eligibility, adjudication, enrollment, or care delivery.
+ Do not buy if the solution forces fragmented experiences, requires duplicate data models, or uses channel-specific logic that cannot be shared across the VA Bridge ecosystem.
+An example use case where we propose a "Buy" decision is identity management. VA (and other agencies like HHS) leverage CIAM/IAM solutions such as Login.gov, ID.me, and Okta to manage authentication for external and staff users, and VA should not spend its resources recreating this widely solved pattern. That said, these solutions can still cause friction, and shifting identity at scale is a major change. VA should weigh any "rip-and-replace" decision against continuity of service, migration risk, and measurable Veteran value. Another scenario we can consider is application processing solutions. Our teams have built VA products on top of prominent CRMs such as Dynamics and Salesforce (Appendix Section 2.4), and based on that experience, it is appropriate for VA to procure out-of-the-box solutions to support staff adjudication workflows that follow established processes. However, those implementation details and technology choices should be abstracted away from the Veteran experience and must meet developer expectations, including exposing APIs, providing accurate documentation, and offering reliable support.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+9
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+VA should also transition from a "capital purchase" model of buying software toward a "continuous service" model. It is cheaper to build a system and update it continually than to wait years for a massive, risky "rip-and-replace" project. This shift ensures technology remains current, secure, and genuinely helpful to Veterans.
+Our goal is to steer technology decisions toward a unified Veteran journey, rather than to local and short-term expediency that provides isolated quick wins for individual programs and Product Owners. By setting clear architectural and experience standards, VA can hold teams accountable to move quickly while still delivering a consistent, integrated VA Bridge experience. The first step of VA Bridge, which can be completed prior to procurement in partnership with VA, is a time-bound assessment across journeys, systems, teams, and technology to identify what is already working, what is creating the biggest reliability and data consistency cliffs, and where targeted replacement delivers the most Veteran and staff value for the least risk in the least amount of time. Any premature cost-saving promise that skips this holistic view will regrettably optimize locally, then pay for it later through integration rework, duplicate tooling, and inconsistent outcomes that are disjointed from the end-to-end journey.
+3 Conclusion
+A successful VA.gov replacement is defined by a shift in perspective where technology becomes an enabler of outcomes, not an obstacle. Success is measured in Veteran outcomes, higher task completion, less time spent navigating VA, fewer dead ends that stall progress, and stronger trust and benefit utilization. Achieving these outcomes requires alignment across user experience, data, and prioritization so that end-to-end journeys perform consistently across modalities.
+This replacement will deliver measurable cost and labor savings in both implementation and operations. VA Bridge drives these savings by reducing one-off integrations, consolidating repeated effort into shared platform services, and lowering the cost of change. When teams can reuse VA-owned APIs, identity patterns, event-driven data flows, and a common task and profile record, they spend less time rebuilding the same capabilities across portfolios, fewer defects escape late in delivery, and production support becomes simpler because failures can be isolated and corrected without destabilizing other services. The result is faster release cycles with less rework, fewer manual interventions, and a smaller operations burden per additional journey brought onto the platform.
+Our transformation strategy starts with the highest-friction journeys and the backend services that create the sharpest cliffs across benefits and healthcare. We use a definitive replacement trigger: If a legacy system cannot reliably expose data through standard interfaces, VA either replaces that system over time or introduces a VA-owned interface layer that protects the Veteran experience while reducing coupling and operational risk. Improving backend and frontend in tandem makes experience gains durable and prevents modernization from degrading as systems evolve.
+To avoid repeating this cycle in three to five years, the strategy prioritizes long-term sustainability and reduced cost of change. Sustainable savings come from shared standards, reusable services, and governance that prevents fragmentation from reappearing as new tools, vendors, and platforms are introduced. We anchor this replacement in a modern, service-oriented architecture used by leading private-sector organizations, including hospitality and modern banking. Our approach creates a resilient, adaptable ecosystem capable of evolving alongside the Veterans it serves.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+10
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+APPENDIX
+1 Company Overview
+Peregrine is an SBA-certified SDVOSB mentor-protégé joint venture between Ad Hoc and IronArch Technology. Together, we bring modern digital delivery practices, strong platform and security discipline, and the operational maturity required to improve high-visibility systems without disrupting the services they power.
+Ad Hoc established its place in federal digital services by recruiting senior technical talent from the private sector and pairing that expertise with product management, human-centered design, accessibility, and delivery rigor. That model has been proven in high-stakes environments where reliability, security, and public trust matter, including major "fix and stabilize" work on HealthCare.gov and long-term stewardship of complex digital platforms once they become national infrastructure. Ad Hoc's approach emphasizes small, empowered cross-functional teams, measurable outcomes, and engineering quality that holds up at real-world scale. IronArch strengthens this foundation with strong delivery execution and technical capabilities across secure federal environments, bringing additional depth in engineering, cloud, and operational support that helps large programs scale responsibly. As a joint venture, Peregrine combines longterm stewardship and platform experience with the capacity to move quickly, integrate across complex system boundaries, and improve the Veteran and staff experience while protecting continuity of service.
+Within the Department of Veterans Affairs, Peregrine's experience spans more than a decade, including foundational work on Vets.gov and VA.gov and adjacent platform efforts that enable consistent delivery across portfolios. Our teams have partnered with VA to design, build, operate, and scale national digital services supporting Veterans and their families, from early proof-of-concept and migration through enterprise-scale operations. That work resulted in a secure, highly available platform serving more than 13 million authenticated users and supporting hundreds of thousands of weekly transactions in a highly regulated environment. It also built practical, operational insight into the decisions that make large platforms succeed, and the constraints that emerge as they mature, across identity and authentication, platform services and APIs including Lighthouse, content and navigation, accessibility, security, analytics, and cross-vendor coordination.
+2 Relevant Experience
+2.1 Vets.gov to VA.gov
+Overview
+Vets.gov and VA.gov helped the Department of Veterans Affairs consolidate a fragmented public web presence into a unified, API-driven digital front door where Veterans can find, apply for, track, and manage benefits and services. Ad Hoc served as prime and led a cross-functional team of roughly 45 people across product management, research, content, design, and engineering, organized into small product teams shipping iteratively with end users and business owners. The core constraint throughout this work was simple: improve the experience and platform without service disruption as traffic, products, and integrations scaled.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+11
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+What we did
+We replaced fragmentation with a platform model that made it easier to deliver consistent experiences across multiple products and teams, while integrating a diverse set of legacy and enterprise systems through a shared API layer. We modernized delivery and operations by building enterprise CI/CD and DevSecOps infrastructure capable of daily deployments with 99.8% uptime, along with monitoring and operational practices that supported frequent, safe releases. We also focused on the cross-cutting journeys that drive trust at scale, identity, sign-in, and account recovery, including improving the login experience by moving from a pop-up flow to a single-page flow, which materially reduced authentication-related errors.
+Outcomes and proof points
+VA.gov scaled to support more than 13.77 million monthly unique logged-in users and approximately 333,600 average weekly transactions, including form submissions, benefit status checks, and letter downloads. The platform handled about 1,955,775 digital forms and applications submitted annually while maintaining strong availability and security in a regulated environment. The team deployed roughly 26 products and enhancements per year across 5-6 product teams, supported by platform tooling and shared standards that reduced duplication and made multi-team delivery sustainable. VA's public web presence was migrated to Amazon Web Services GovCloud, improving scalability and performance while maintaining compliance requirements.
+Why it matters for VA.gov replacement
+This case study maps directly to the RFI's stated objectives and the types of evidence VA is requesting. First, it demonstrates continuity of service at national scale, improving and expanding a high-traffic digital front door while maintaining high availability and avoiding disruptive cutovers as usage and dependence on the platform grew. Second, it demonstrates integration in a complex ecosystem, using a shared API layer and platform patterns to connect a diverse portfolio of legacy and enterprise systems without forcing a single, monolithic replacement. Third, it demonstrates delivery in a regulated, highly visible environment, with security, privacy, and accessibility embedded in how the platform was built and operated, not bolted on after release, supported by monitoring, operational rigor, and compliant cloud hosting.
+It also provides a concrete example of coordinating across experience design, platform architecture, content strategy, governance, analytics, and operating models, which the RFI identifies as essential. The program's cross-functional product teams paired Veteran research and content design with platform engineering, enabling iterative improvements that scaled across multiple services and vendors through shared standards. From an operating model standpoint, the platform approach created a repeatable way to deliver consistent experiences while supporting frequent deployments and safe change management.
+2.2 VA Lighthouse Delivery Infrastructure (LHDI)
+Overview
+The Department of Veterans Affairs Lighthouse program is a core part of VA's digital modernization strategy that provides secure, standardized access to VA data through world-class APIs, a public developer platform, and a delivery platform that reduces the burden on VA teams. Lighthouse began in 2018 as a smaller initiative within the Vets.gov to VA.gov modernization,
+
+Peregrine Digital Services, LLC (Peregrine)
+
+12
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+where Ad Hoc served as prime, and it has since grown to support both external partners and internal VA delivery teams.
+What we did
+We helped mature Lighthouse as shared "connective tissue" across VA's digital ecosystem, enabling reliable integration with diverse legacy and emerging systems while operating under stringent security and compliance expectations. This included work on the public API platform, including developer.va.gov, documentation, consumer support, and self-service sandbox access, plus platform experience improvements that made it easier for developers to understand APIs and access paths. We also supported the delivery platform and the broader delivery infrastructure ecosystem through leadership, stakeholder coordination, and user research related to the ATO process, helping improve clarity and usability for teams moving through regulated delivery workflows. Where multiple vendors contributed to the delivery infrastructure and secure release pipeline, our role emphasized end-to-end perspective, standards, and diplomacy across system stewards to reduce friction and improve outcomes.
+Outcomes
+Lighthouse supports production at national scale and enables Veteran impact across multiple domains. Reported platform impact includes 231 apps in production and high-volume APIenabled experiences, including claims submissions and status at roughly 2M Veterans per month across VA.gov, third parties, and mobile, facilities information at 16M monthly API calls supporting channels such as VA.gov and the Veterans Crisis Line, and high-volume eligibility and validation services used across government and partner ecosystems. Lighthouse has also enabled major developer experience improvements, including the launch of a redesigned developer portal and redesigned delivery infrastructure experiences such as code.va.gov, with recognition from VA stakeholders for improved usability, transparency, and operational effectiveness.
+Why it matters for VA.gov replacement
+Lighthouse reinforces the core replacement point of view in this RFI. The fastest way to improve Veteran-facing experiences without risking disruption is to strengthen VA-owned platform capabilities that standardize access to data and services across the enterprise. When that foundation is strong, front ends stop compensating for brittle integrations and teams stop rebuilding the same connections portfolio by portfolio.
+It also reflects the reality VA is operating in. Lighthouse has to integrate with a wide mix of legacy and emerging systems, keep security and privacy front and center, and still make it easier for teams inside and outside VA to deliver. That same balance, continuity, integration, regulated delivery, and long-term adaptability, is exactly what VA is asking industry to address for a nextgeneration VA.gov model.
+Finally, Lighthouse shows how VA can reduce fragmentation over time. Shared API standards, common developer tooling, and clearer delivery workflows create a repeatable path for teams and vendors to plug in services while maintaining a cohesive experience. That is how VA can move faster, stay resilient, and keep ownership of its digital ecosystem as needs and technology continue to change.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+13
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+2.3 Enterprise Event Bus (Pilot Program) and Resilient Improvements to Systems and Experience (RISE)
+Overview
+Peregrine delivered and maintains the production MVP for VA's Enterprise Event Bus. The MVP includes a Kafka-based event-streaming platform running in production, a working data stream that proves enterprise event sharing, and a repeatable onboarding approach for bringing new systems on as producers and consumers. The MVP launched into production in April 2024 and we continue to support stewardship and expansion as Peregrine through the Resilient Improvements to Systems and Experience (RISE) contract.
+The RISE program was launched in 2024 as part of VA's Veteran Experience Services (VES) portfolio within the Office of Information & Technology (OIT). This initiative aims to address systemic challenges that prevent Veterans from easily accessing benefits, understanding their status of claims and applications, and receiving timely updates, while also helping VA teams leverage data more effectively. The RISE contract focuses on four key programs:
+ BDS: An API that simplifies the process for Veterans to understand and access their benefits by using VA's existing data to recommend timely, relevant benefits.
+ Submission Traceability: Improves transparency by mapping form submission flows and identifying key events from application systems, enabling Veterans, staff, and users to track the status of benefit and health applications.
+ CX Data Modeling: Enhances data usability and understanding by improving the structure and documentation of the Customer Experience Insights (CXI) data, fostering better analysis and decision-making.
+ Enterprise Event Bus: Reduces system complexity through asynchronous event processing that bridges silos and decouples the VA's interconnected systems. The focus is on providing access to events from existing systems that are valuable to a broader audience by filtering, enriching, or transforming event payloads, making them easier for other systems to use. This approach unlocks a wide range of use cases, ultimately improving the quality and timeliness of Veteran interactions.
+The rest of this write up is focused on how we specifically evolved the Event Bus pilot program.
+What we did
+We started by learning the real problem across the enterprise, not just inside one system. We interviewed developers across 13 VA and contractor teams spanning benefits, health, platform, and core identity and profile systems to understand where data handoffs break down, where coupling blocks change, and which use cases would deliver value quickly. That work surfaced more than 20 viable use cases and informed a practical pilot strategy. We selected early streams based on impact and feasibility, then proved the approach through integrations in lower environments before moving to production. Along the way, we built reusable onboarding scripts, established an event catalog in CODE VA, and created a lightweight portal of engineering resources so teams could adopt the Event Bus without starting from scratch.
+We then focused on getting production right. The platform runs as Kafka plus containerized services in AWS EKS with infrastructure-as-code and a modular CI/CD pipeline. We implemented observability with dashboards that show system health and Kafka metrics,
+
+Peregrine Digital Services, LLC (Peregrine)
+
+14
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+performance tested the system prior to promotion, and validated capacity at millions of events per hour. Security controls were embedded in delivery, with automated scanning prior to release, threat modeling for new components, and signed images as part of the release process. We also tested disaster recovery through game day scenarios and produced a playbook that supports oncall and operational tasks.
+Outcomes
+The Event Bus MVP is live in production and demonstrates that VA can move from point-topoint integrations to enterprise publish and subscribe patterns. The production rollout included a defined client onboarding process, an event catalog for discoverability, and monitoring and disaster recovery practices that support ongoing operations. We established a backlog of roughly 25 prospective integrations and use cases, prioritized by Veteran value and technical and business lift, and we built early streams that demonstrated feasibility across both modern and legacy environments, including VistA.
+Why it matters for VA.gov replacement
+This work is directly relevant to the replacement goals in the RFI because it solves one of the underlying causes of Veteran-facing friction, which is that VA systems often cannot share timely, reliable state changes across channels. When the enterprise can publish events such as status changes, submissions, and eligibility updates, VA.gov, the mobile app, and the contact center no longer need to rely on brittle polling, manual reconciliation, or inconsistent downstream views of the same Veteran's situation. That reduces the risk of service disruption during change, because experiences can evolve while backend systems continue operating, and it improves the odds of a seamless customer experience because updates propagate consistently across touchpoints.
+The Event Bus also supports long-term adaptability. It decouples systems so VA can replace or modernize components selectively without breaking every connected journey, a prerequisite for any realistic VA.gov replacement approach. Just as important, it was built for a regulated, highly visible environment with security, observability, and recovery practices embedded from the start, which aligns with the operational expectations VA described in the RFI.
+2.4 Low Code No Code (LCNC) Experience
+Peregrine uses a practical hybrid approach inside VA's complex digital environment, combining custom engineering with enterprise platforms when they reduce cycle time and long-term maintenance burden. Across VA, our teams work directly in ecosystems built on Microsoft (Dynamics 365 and the Power Platform), Salesforce, and enterprise workflow platforms commonly used for case management and process automation, including ServiceNow, Pega, Appian, and Oracle. Our approach is consistent: use LCNC where the work is configurationheavy and benefits from faster iteration, keep VA policy logic and integrations in VA-owned services and APIs, and avoid embedding mission-critical business rules inside vendor workflows that cannot be reused across channels. This hybrid approach leads to the least amount of risk to service disruption, rapid time to value, and ultimate cost savings.
+We maintain a trusted network of large firms and Service-Disabled Veteran-Owned Small Businesses (SDVOSBs) with formal platform alliances, as well as direct commercial vendor relationships. This structure allows us to provide senior platform talent with key certifications (e.g., Salesforce Certified Application Architect, Microsoft Power Platform Solution Architect,
+
+Peregrine Digital Services, LLC (Peregrine)
+
+15
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+Oracle Cloud Infrastructure Architect) and to efficiently scale this expertise via our longstanding partnerships. For example, we regularly work alongside Summit-tier Salesforce partners with thousands of certified practitioners, giving VA rapid access to specialized architects, administrators, developers, and security experts as needs arise, without forcing a one-size-fits-all platform approach or over-customizing vendor products. In regulated environments, we apply the same standards we use for custom builds, including security, auditability, accessibility, observability, and disciplined release practices, so platform-based delivery meets federal expectations.
+Representative examples of our experience:
+ AskVA: Delivered as a Dynamics-based solution, AskVA's case management and workflow automation take advantage of LCNC's flexibility. This enables iterative enhancements and rapid response to evolving Veteran and stakeholder needs.
+ VA 10-10: The 10-10 Enrollment application utilized Salesforce to streamline and enhance benefits enrollment processes, offering improved maintainability and empowering business users for continuous improvement.
+ VA Lighthouse API: API-first architecture, with deep Salesforce integration, delivers secure, seamless access to enterprise VA data and services. This integration reduces technical debt and assures interoperability for future digital initiatives.
+2.5 Veteran Unmet Needs Experience
+Veteran Unmet Needs is a critical, prioritized framework for understanding the gaps between Veteran expectations and their actual experience when interacting with VA. This framework, including a list of 66 distinct Unmet Needs, was developed by our research team between 2022-2024, and serves as a foundation for evidence-based strategic planning. It guides decisions on budgeting, contracts, and staffing to address systemic issues - moving beyond isolated perspectives to provide a VA-wide view of where services are falling short.
+This research is directly relevant to VA's VA.gov replacement objectives because it shows where experience breakdowns are truly cross-cutting. Many of the highest-impact unmet needs repeat across categories and channels, especially around identity friction, unclear status and next steps, inconsistent data, and the need to restart tasks when switching between VA.gov, the mobile app, the contact center, and in-person support. These patterns reinforce VA's premise that meaningful improvements require coordination across experience design, platform architecture, content, governance, analytics, and operating models. They also help translate the RFI's goals, continuity of service, integration across legacy and emerging systems, and a more seamless customer experience, into a prioritized set of real-world problems to solve.
+This research served as one of the sources of evidence base for the VA Bridge approach described in this response. The framework points to a consistent root cause behind many Veteran frustrations: Veterans are too often forced to act as the manual bridge between systems, reverifying identity, re-entering information, and chasing updates across disconnected services. VA Bridge responds by focusing on shared foundations that reduce that burden, a proactive data layer that keeps channels in sync, a centralized Action Center that turns eligibility and status changes into clear next steps, and accountability tied to end-to-end Veteran outcomes rather than isolated system performance.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+16
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+Veteran Unmet Needs are articulated as first-person statements structured into three parts: a When statement (context), a Veteran need statement (the goal), and an Exception statement (the specific obstacle). This structure personalizes the concerns while providing actionable answers for improving services. The list is prioritized primarily by the level of Impact an issue has on a Veteran's life (from Low to Critical), followed by its Reach (percentage of Veterans affected), and finally by Research confidence in the findings. As presented below, the list is ordered into six critical categories; rank is indicated at the beginning of each need statement.
+Receive health care / Receive medical care
+01/66: When getting medical care, I need to see a doctor right away for a serious condition, but the wait time is long, endangering my health.
+04/66: When getting medical care, I need to see a doctor outside VA, but my Community Care request is denied even when I meet the eligibility criteria and have been referred by my VA doctor.
+05/66: When getting medical care, I need to feel safe from harassment, but my experiences in the military or at VA facilities makes me feel unsafe, so I delay getting medical care.
+14/66: When getting medical care, I need to see a provider right away, but there aren't any VA facilities in my rural area.
+33/66: When getting medical care, I need to make an appointment, but my childcare needs make it hard to manage the difficulties of the appointment process.
+34/66: When getting medical care, I need to see multiple VA providers at different VA medical facilities, but they don't communicate directly or share my medical records with each other.
+35/66: When getting medical care, I need to make an appointment, but online scheduling isn't available for many VA facilities and clinics so I have to call or schedule in person.
+36/66: When getting medical care, I need to make an appointment, but when I request an appointment online, I'm not sure when I'm going to hear back, or when my appointment will be.
+37/66: When getting medical care, I need to log in to VA.gov to make a medical appointment, but the login process is hard to navigate.
+38/66: When getting medical care, I need to make an appointment, but VA staff won't allow me to schedule non-urgent future appointments beyond VA's target wait times.
+39/66: When getting medical care, I need to make an appointment at a VA facility I haven't been to before, but I have to call or go in person because I can't register online.
+40/66: When preparing for a medical appointment, I need to be able to reschedule to a time that works for me, but I have to cancel my appointment and make a new one because rescheduling isn't possible online.
+43/66: When getting medical care, I need to share my VA medical records with a Community Care provider, but VA medical facilities and Community Care providers don't communicate and share my medical records with each other.
+48/66: When getting medical care, I need my providers to communicate directly with each other about my medical records, but I have to follow-up with them to avoid delays in receiving care.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+17
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+63/66: When getting medical care, I need to make an appointment, but even when I attempt to schedule online I may have to follow up by phone or in person to fully complete the process of planning and scheduling an appointment.
+64/66: When preparing for a medical appointment, I need accurate information about when and where the appointment is, but I get notifications with missing or incorrect information, putting me at risk of missing my appointment.
+65/66: When getting medical care, I need to know what my options are, but it's hard to sort through multiple sources of information to know all of my options for where, when, and how I can receive care.
+Discover and understand benefits
+02/66: When deciding whether to apply for benefits, I need to know if I'm eligible based on my discharge status, but I may not know that I can apply for a status upgrade if I experienced discrimination in the discharge process.
+08/66: When deciding whether to apply for benefits, I need to understand what benefits I'm eligible for, but VA's eligibility criteria is so complicated that I can't figure it out on my own.
+09/66: When deciding whether to apply for benefits, I need to feel confident in my choice to apply for them, but I feel like I'm asking for help that I don't need or deserve.
+26/66: When deciding whether to apply for benefits, I need help overcoming my reluctance to interact with VA, but I've heard that the process is so hard that it isn't worth it.
+27/66: When deciding whether to apply for benefits, I need to understand what benefits I'm eligible for, but I don't know all the VA benefits that are available.
+28/66: When looking for information about VA benefits, I need VA to offer high-quality plain language information about them, but so much information from VA isn't relevant to me.
+29/66: When deciding whether to apply for benefits, I need to understand what benefits I'm eligible for, but I'm not aware of changes to VA's benefits eligibility criteria over time.
+30/66: When looking for information about VA benefits, I need VA to offer high-quality plain language information about them, but information from VA is difficult to understand.
+31/66: When deciding whether to apply for benefits, I need to understand what benefits I'm eligible for, but I can't independently determine my eligibility without assistance from others.
+32/66: When deciding whether to apply for benefits, I need to feel confident in my choice to apply for benefits, but I struggle to overcome my feelings of shame or weakness around asking for help.
+Apply for benefits
+03/66: When completing my compensation and pension (C&P) exam, I need to feel safe by the provider completing the exam, but I'm concerned my military trauma will be triggered.
+10/66: When submitting a disability claim, I need VA staff to have access to my medical records, but these records are not automatically shared with the appropriate VA Benefit teams, services, or systems.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+18
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+13/66: When submitting evidence for a disability claim, I need assurance that I'm submitting the right documents, but I don't receive any feedback about the evidence I provide.
+15/66: When I'm waiting to receive disability benefits, I need to track the progress of my claim, but the statuses I can view are vague and stay in the same state for a long time.
+16/66: When submitting evidence for a disability claim, I need assurance that I'm submitting the right documents, but I don't understand how to justify my case legally.
+17/66: When submitting an initial disability claim, I need to be able to complete the forms on my own, but there are numerous opportunities for mistakes and form errors when filing.
+18/66: When completing my compensation and pension (C&P) exam, I need to ensure that a thorough exam has been completed and communicated back to VA, but some providers aren't clear with me or VA to help me get the outcome I expect.
+19/66: When submitting a disability claim, I need to be able to complete the forms on my own, but the complexity of the application is especially difficult to navigate while experiencing physical and mental health issues.
+20/66: When applying for disability benefits, I need to receive the approval and rating I'm entitled to, but racial bias in the application process makes my application more likely to be denied.
+42/66: When submitting evidence for a disability claim, I need assurance that I'm submitting the right documents, but I don't understand the implications of the evidence I provide.
+44/66: When submitting a disability claim, I need support to complete my application, but I'm unsure whether or not I can trust the support I do get.
+45/66: When submitting a disability claim, I need to understand VA's decision about my claim and the benefits I'll receive, but decision letters don't clearly communicate how my benefits were determined or what happens next.
+46/66: When applying for multiple benefits, I need to provide my personal information, but I need to write out this information for each individual benefit application, including on different mediums (paper vs. online, for example).
+47/66: When scheduling my compensation and pension exam (C&P), I need a straightforward way to schedule an appointment at a nearby facility, but scheduling occurs with a VA medical facility or with a contracted provider so the process varies.
+49/66: When submitting a disability claim, I need support to complete my application, but I'm unsure about the types of support available to me.
+66/66: When submitting a disability claim, I need to understand the disability claim process, but it's not clear what I should expect throughout the process, including how long it will take to receive decisions.
+Dispute benefits decisions
+06/66: When waiting to hear back about my appeal to the Board of Appeals (BOA), I need for my appeal to be processed faster, but it can take a year or more to know if my appeal is successful, let alone how much compensation I can receive.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+19
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+07/66: When waiting to hear back about my appeal to the Board of Appeals, I need to know my appeal is being worked on, but my appeal status isn't changing in the review queue.
+21/66: When disputing VA's decision about my disability claim, I need to prove my disability is service connected, but I don't know how to legally prove that my conditions are service connected.
+22/66: When disputing VA's decision about my disability claim, I need to prove my disability is service connected, but I don't know how to determine the relevance of my evidence.
+23/66: When disputing VA's decision about my disability claim, I need to prove my disability is service connected, but I don't know what evidence VA needs versus what they already have.
+50/66: When deciding whether to appeal VA's denial of my benefit application, I need help weighing my options, but I don't understand which claim decision review option would work best for me.
+51/66: When deciding to appeal VA's denial of my benefit application, I need to decide whether a claim decision is worth disputing, but I don't understand how VA came to a decision on my claim.
+52/66: When deciding whether to appeal VA's denial of my benefit application, I need help weighing my options, but I don't know what things I can do myself, and what things I might need help with.
+53/66: When trying to get the VA benefits I feel I've earned, I need help from someone else, but I don't know about VA's Accreditation Program.
+54/66: When disputing VA's decision about my disability claim, I need to add new evidence to my denied claim, but I don't know what form to use.
+55/66: When filing a supplemental claim, I need help gathering evidence for my claim, but I'm unaware of VA's obligation to provide this assistance to me and don't request it.
+58/66: When deciding whether to appeal VA's denial of my benefit application, I need help weighing my options, but I'm not sure what 3rd parties can help, or which ones are trustworthy.
+Manage debt
+11/66: When receiving VA benefits, I need VA's payment to be accurate so that I don't incur debt, but I don't know what life changes to report to VA.
+12/66: When receiving VA benefits, I need VA's payment to be accurate so that I don't incur debt, but I struggle to monitor the personal information VA uses to determine my benefit payments to ensure everything is correct.
+24/66: When receiving VA benefits, I need to find out that I owe money to VA right away, so that it doesn't impact my finances, benefits, or credit score, but I'm not getting notifications.
+41/66: When receiving VA benefits, I need VA's payment to be accurate so that I don't incur debt, but the process for updating my personal information is confusing.
+56/66: When managing VA debt, I need to know how to pay, dispute, or get assistance to handle it, but I'm confused about my debt resolution options and I'm uncertain how to choose the best one for me.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+20
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+57/66: When managing VA debt, I need to know specific details about my debt, so that I can decide how to handle it, but I have to do extra work to get that information, which often requires lengthy phone calls to VA.
+Transition to civilian life
+25/66: When transitioning to civilian life, I need to ensure my personal safety and success transitioning out of the military, but outside of the military culture and structure I'm accustomed to, I struggle to navigate the adjustment to civilian life in practical and healthy ways.
+59/66: When transitioning to civilian life, I need to understand the VA benefits that I may be entitled to and how to get them before leaving the military, but I receive so much information as part of my transition that I'm overwhelmed and unsure how to move forward.
+60/66: When transitioning to civilian life, I need access to important military service documents to apply for benefits, but if I fail to do this before leaving the military, the process is complicated and time consuming.
+61/66: When transitioning to civilian life, I need access to important military service documents to apply for benefits, but while in the military I wasn't aware of the specific documents I would need after leaving.
+62/66: When transitioning to civilian life, I need to understand the VA benefits that I may be entitled to and how to get them before leaving the military, but the education I receive isn't specific to my personal situation.
+2.6 Build vs. Buy Sample Scenarios
+This table provides illustrative Build vs. Buy, or Hybrid scenarios that align with the replacement objectives in this RFI and reflect patterns we have seen work at VA scale. The intent is not to prescribe a single vendor stack, but to show where VA typically gets the most value by building VA-owned capabilities (when they encode VA-specific policy, cross-portfolio journey continuity, or long-term differentiation), buying commoditized capabilities (when mature commercial options reduce cost and time-to-delivery), or combining the two with clear guardrails (when VA needs platform speed without surrendering control of data, business logic, or cross-channel consistency). Each scenario includes representative product examples to make the tradeoffs concrete; in follow-on discussions, we can expand on selection criteria, implementation sequencing, cost and sustainment implications, and what "good" looks like for speed to production without service disruption.
+
+Capability Enterprise Event Bus Journey continuity / Task status record
+Identity & assurance
+
+Where it's used
+System-of-record state changes
+Action Center "resume where I left off" Cross-channel progress
+Sign-in/MFA/recovery Step-up for sensitive actions Assisted login
+
+Build vs. Buy BUILD BUILD
+BUY / Hybrid
+
+Example products
+Okta CIAM Auth0 ID.me login.gov Persona Descope
+
+Peregrine Digital Services, LLC (Peregrine)
+
+21
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+Capability
+Authorization (policy-as-code)
+
+Where it's used
+Consistent access control Staff-assisted actions
+
+Build vs. Buy BUILD / Hybrid
+
+Profile + consent/preferences
+
+Account/profile Contact updates Comms preferences Assisted flows
+
+BUILD / Hybrid
+
+Eligibility / entitlement decisioning
+
+Benefits discovery Eligibility gates "what can I do next"
+
+Orchestration
+
+Long-running journeys
+
+(workflow + agentic) Human-in-the-loop handoffs
+
+Action Center agents
+
+BUILD BUY / BUILD
+
+API gateway + developer portal
+Notifications orchestration
+
+Lighthouse + internal APIs Throttling Versioning Docs
+Email/SMS/push Preference-aware messaging
+
+BUY / Leverage BUY / Hybrid
+
+Contact center (assisted digital)
+Search + knowledge grounding for AI
+
+"Help me finish" Secure agent assist Case intake/routing
+Site search Benefit discovery Chat/agent answers with citations
+
+BUY / Hybrid BUY / Hybrid
+
+AI guardrails & safety
+Feature toggles / progressive delivery
+
+Veteran-facing assistants Agent assist Content generation Enforce allowed actions, citation/ grounding, and prompt-injection defenses
+Safe rollouts Canaries Cohort-based releases Fast rollback of journeys
+
+BUY / Hybrid BUY / Leverage
+
+Example products
+Open Policy Agent (OPA) Cerbos Styra
+VA-owned profile + preference store OneTrust Ketch Transcend
+Camunda Temporal LangGraph AutoGen
+Apigee Kong Backstage
+Twilio Knock Courier
+Salesforce ServiceNow Oracle Service Center
+Elastic Azure AI Search Weaviate Pinecone
+Azure AI Content Safety NeMo Guardrails Guardrails AI Presidio
+LaunchDarkly Unleash Flagsmith
+
+Following are descriptions of example products listed in the table above.
+Identity & assurance (CIAM + proofing)
+ Okta CIAM: Enterprise CIAM for login, MFA, recovery, and identity lifecycle. Included as a "standardize identity across channels" option with mature admin and governance.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+22
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+ Auth0: Developer-friendly CIAM (OIDC/OAuth) with fast integration and customizable auth flows. Included for teams prioritizing speed and flexibility in login journeys.
+ ID.me/login.gov: Identity proofing/verification for higher-assurance identity. Included as a representative proofing layer for sensitive actions and step-up requirements.
+ Persona: Modular verification with configurable methods and orchestration. Included to represent more adaptive, risk-based proofing (different journeys can use different checks).
+ Descope: Modern auth platform emphasizing passwordless/passkeys and configurable flows. Included to signal next-gen login patterns that reduce friction and account takeover risk.
+Authorization (policy-as-code)
+ Open Policy Agent (OPA): Open-source policy engine to keep authorization rules out of application code. Included for consistent, auditable access control across services.
+ Cerbos: Authorization layer designed to simplify fine-grained permissions for product teams. Included as a lighter-weight path to policy-as-code adoption.
+ Styra: Platform for governing and operating OPA policies at scale (workflows, visibility, guardrails). Included for "enterprise policy operations" across many teams.
+Profile + consent/preferences
+ VA-owned profile + preference store: Canonical record for contact info, preferences, and identity linking. Included as the core "single truth" that prevents channel-by-channel divergence.
+ OneTrust: Large, mature consent/privacy tooling and governance workflows. Included as a widely adopted option for operationalizing consent and preference management.
+ Ketch: Consent/data control tooling with a more developer-first integration model. Included as a modern alternative that fits API/event-driven architectures.
+ Transcend: Privacy operations automation (requests, controls, auditability). Included for teams prioritizing automated, trackable privacy ops.
+Orchestration (workflow + agentic)
+ Camunda: BPM/workflow engine for auditable, human-in-the-loop processes with SLAs and exceptions. Included for complex journeys requiring explicit process modeling.
+ Temporal: Durable workflow execution for distributed systems (retries, timers, compensation). Included to reduce custom orchestration glue and improve reliability.
+ LangGraph: Framework for building stateful, controlled agent workflows (graph-based). Included to make agent behaviors testable and constrained.
+ AutoGen: Multi-agent framework (planner/retriever/verifier patterns). Included for "agent teams" that collaborate on complex tasks (draft + check + escalate).
+
+Peregrine Digital Services, LLC (Peregrine)
+
+23
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+API gateway + developer portal
+ Apigee: Enterprise API management (policies, analytics, developer onboarding). Included as a common choice for governing large API ecosystems.
+ Kong: Extensible, cloud-native API gateway/platform. Included as a composable alternative favored in platform engineering environments.
+ Backstage: Internal developer portal (service catalog, docs, templates, ownership). Included to support "platform as a product" and reduce friction across teams.
+Notifications orchestration
+ Twilio: Communications platform (SMS/voice and broader messaging ecosystem). Included as a reliable "delivery pipes" option for outbound comms at scale.
+ Knock: Notification orchestration (templates, routing, preferences, multi-channel logic). Included to centralize notification logic and avoid per-service reinvention.
+ Courier: Notification orchestration with provider routing and workflow management. Included as another modern approach to consistent messaging control.
+Contact center (assisted digital)
+ Salesforce: Mature CRM/case management ecosystem with agent workspace patterns. Included as a common assisted-digital case/routing foundation.
+ ServiceNow: Strong workflow + case management + enterprise service operations. Included where governance and workflow rigor are important.
+ Oracle Service Center / Fusion Service: Oracle's customer service workspace and case management path. Included as an enterprise-aligned alternative where Oracle ecosystems are preferred.
+Search + knowledge grounding for AI
+ Elastic: Mature keyword search with relevance tuning and operational maturity. Included as a proven backbone for site search and discovery.
+ Azure AI Search: Managed search frequently used for retrieval + AI patterns. Included as a managed option that supports classic search plus RAG-style retrieval.
+ Weaviate: Vector database for semantic retrieval with metadata filtering. Included for AI-forward "meaning-based" search and grounded assistant answers.
+ Pinecone: Managed vector database optimized for performance/scale. Included as a leading production option for vector retrieval workloads.
+AI guardrails & safety
+ Azure AI Content Safety: Managed safety service for detecting/moderating harmful content categories. Included as a straightforward baseline safety control.
+ NeMo Guardrails: Guardrails framework for constraining LLM behavior (topics, tooluse, grounding patterns). Included for policy-driven controls beyond moderation.
+ Guardrails AI: Output validation/constraints (schemas, required fields, checks). Included to enforce structured, checkable AI outputs.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+24
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+ Presidio: Sensitive data detection/redaction (PII patterns). Included to reduce accidental exposure in prompts, logs, transcripts, and retrieved content.
+Feature toggles / progressive delivery  LaunchDarkly: Enterprise feature management with targeting, experiments, approvals, auditability. Included for safe rollouts and rapid rollback.  Unleash: Open-source feature flags with strong self-host/control options. Included as a platform-owned alternative to commercial flag services.  Flagsmith: Feature flags + remote config, hosted or self-hosted. Included as a lighterweight option for flags and config management.
+3 Figures and Mockups
+3.1 Page mockups for a reimagined VA.gov Landing (home) page A reimagined VA.gov offers a bold, modern design, welcoming Veterans into a support portal with no fluff and minimal burden for the Veteran. Key audiences are addressed:
+ Transitioning Veteran: "Activate your account" button indicates that VA already has relevant DoD data and has created a secure account in advance of transition.
+ Established/Returning Veteran: Once the Veteran activates their account, they can easily view the benefits VA has already determined they are eligible for. (Rather than embark on a daunting search across dozens of potential benefits and submitting individual applications to determine eligibility one by one, as is required now.)
+ Rural Veteran: Designed to be quick-loading regardless of location or device.  Caregivers, family, and VSOs: Explicitly invited to support a Veteran. Action Center (authenticated dashboard) Authenticated Veterans are greeted with a unified Action Center that brings together all of their in-progress and upcoming interactions with VA, across health and benefits:  A proactive, personalized, and streamlined user experience feeds information to Veterans
+exactly when they need it, based on data consolidated from VA and non-VA sources.  Actions needed are visually emphasized with clear indication of next steps.  Upcoming appointments and relevant updates are highlighted, as are new benefits that
+may impact a Veteran, such as the PACT Act.  Driven by a modern underlying architecture, VA.gov saves time for the Veteran,
+connects more Veterans with more benefits they are eligible for, and increases overall trust in VA. Digital Assistant (agentic AI-driven help) Veterans are greeted by a friendly digital assistant that anticipates their needs:
+
+Peregrine Digital Services, LLC (Peregrine)
+
+25
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+ An invitation to a linear conversation provides 24/7 agentic support, leading with known outstanding items that a Veteran is likely to have questions about.
+ Quick actions are suggested based on VA's holistic understanding of a Veteran's up-tothe-minute health and benefits status.
+Landing (home) page
+
+Peregrine Digital Services, LLC (Peregrine)
+
+26
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+Peregrine Digital Services, LLC (Peregrine)
+
+27
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+Peregrine Digital Services, LLC (Peregrine)
+
+28
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Action Center (authenticated dashboard)
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+Peregrine Digital Services, LLC (Peregrine)
+
+29
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+Digital Assistant (agentic AI-driven help)
+
+Peregrine Digital Services, LLC (Peregrine)
+
+30
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+3.2 Mobile app A reimagined mobile app ties in seamlessly with a new VA.gov, perfectly reflecting its secure, modern user experience.
+
+Peregrine Digital Services, LLC (Peregrine)
+
+31
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+3.3 Underlying technical architecture diagram
+
+RFI 36C10B26Q0131 / FEBRUARY 5, 2026
+Replacement VA.gov RFI Response
+
+Peregrine Digital Services, LLC (Peregrine)
+
+32
+
+4201 Wilson Boulevard, Suite 310, Arlington, VA 22203-4128 | www.peregrinedigitalservices.com
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+

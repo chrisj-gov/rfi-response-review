@@ -1,0 +1,314 @@
+
+
+www.araynatech.com
+
+Response to 36C10B26Q0131 for Replacement Model for VA.gov
+
+Dear Allison Fulton and Evan Schlisserman, 
+
+
+
+
+
+Date: February 4, 2026
+
+Arayna Technology Solutions LLC (Arayna), a Small Business, submits this response to Notice ID 36C10B26Q0131, "Replacement Model for VA.gov." We understand the Department of Veterans Affairs (VA) requires information on firms experienced in modernizing complex digital ecosystems to provide a premier, secure, and Veteran-centric digital experience. This document outlines Arayna's capabilities relevant to this requirement and serves as our formal submission of the requested information.
+
+Company Information
+
+ Business Name: Arayna Technology Solutions
+
+ Business Size: Very Small Business
+
+ Address: 16192 Coastal Highway, Lewes DE 19958
+
+ CAGE Code: 9Q5Z2
+
+ EIN: 81-5213369
+
+ UEI: LQKTFZMD19B3
+
+ DUNS: 118113853
+
+ GSA MAS: 47QTCA24D00CG
+
+ Certifications:
+
+ SBA Woman-Owned Small Business (WOSB)
+
+ SBA Economically Disadvantaged Women-Owned Small Business
+
+ SBA 8(a): Pending Application
+
+ Woman-Owned Small Business (WOSB232066)
+
+ Minority-Owned Small Business (DL10509)
+
+ Website: https://araynatech.com/
+
+Point of Contact
+
+ Name: Kiran Nagar
+
+ Phone Number: 978-944-9667
+
+ Email Address: kirann@araynatech.com
+
+Arayna Technology Solutions LLC
+
+1
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+1. Company Overview
+Arayna is an operational technology and information technology company specializing in federal infrastructure modernization, system integration, and data analytics. We deliver solutions that connect legacy and modern systems while maintaining operational continuity which is a core requirement for the VA.gov modernization effort.
+Arayna has various active and completed contracts with the Department of Homeland Security (DHS/ICE), United States Marine Corps (USMC), United States Air Force (USAF), and U.S. Agency for Global Media (USAGM/VOA) and is therefore well experienced with the federal government
+Relevant Capabilities:
+ System Integration: We specialize in bridging disparate systems, legacy mainframes, modern cloud platforms, and everything in between into unified operational environments. Our integration work spans SCADA systems, BAS/BMS systems, web platforms, and enterprise applications.
+ Analytics & Visibility: We deploy monitoring and analytics infrastructure that provides real-time visibility into system performance and user behavior. Our experience includes Power BI dashboards, SmartSheets, Tableau-integrated portals, and custom web-based analytics platforms.
+ Web & Application Development: We build modern, responsive web applications and customer portals using React.js, Node.js, and related technologies. Our development approach emphasizes usability, accessibility, and integration with backend systems.
+ Federal Compliance: We operate within DoD, DISA, NIST, and ATO compliance frameworks. We understand that security and compliance requirements must shape architecture from the outset, not be addressed as an afterthought.
+Arayna is positioned to lead bounded workstreams within the larger VA.gov modernization effort, specifically the legacy system integration and analytics infrastructure, while collaborating effectively within multi-vendor environments typical of large federal initiatives.
+2. Understanding VA's Challenge
+We recognize that replacing VA.gov is not solely a technical challenge. The RFI correctly identifies that meaningful improvements require coordination across experience design, platform architecture, content strategy, governance, analytics, and operating models.
+Key Constraints We Understand:
+ Continuity of Service: Millions of Veterans, family members, and stakeholders depend on VA.gov daily. Any modernization approach must maintain uninterrupted access to benefits, healthcare information, and services. There is no acceptable downtime window for a platform of this scale and importance.
+
+Arayna Technology Solutions LLC
+
+2
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+ Legacy Integration Complexity: VA operates a diverse portfolio of legacy and emerging systems built over decades. These systems contain critical data and business logic that cannot simply be discarded. Modernization must bridge old and new, not abandon functional infrastructure.
+ Regulatory Environment: VA operates within a highly visible, regulated federal environment. Compliance with FedRAMP, Section 508 accessibility requirements, FISMA, and privacy regulations is mandatory. These requirements must inform architecture decisions from day one.
+ Scalability and Resilience: The replacement platform must support long-term growth, adapt to emerging technologies and user expectations, and remain resilient against security threats and traffic surges.
+ Veteran-Centric Design: Ultimately, success is measured by whether Veterans can more easily access the benefits and services they have earned. Technology decisions must serve this mission, not the reverse.
+Arayna's approach detailed in section 5 addresses these constraints through integration-first modernization: connecting legacy systems to modern user experiences without disrupting the services Veterans depend on.
+
+3. Relevant Federal Experience
+Project 1: DHS/ICE - ICE/HSI Hosting Support Services | Period: September 2024 - Present | Location: Remote (AWS)
+Arayna provides continuous hosting and technical support for the Department of Homeland Security, Immigration and Customs Enforcement (ICE), Homeland Security Investigations (HSI) division.
+Scope of Work:
+ Active technical support for deployment, operation, and maintenance of criminal seizure banners, ACP banners, and public service announcement webpages
+ Real-time visitor analytics retrieval and delivery for seized domain names, supporting investigations and operational decisions
+ Maintenance and monitoring of seized and shutdown websites, ensuring proper redirection, uptime, and secure handling of digital assets
+ Continuous hosting and server support, including troubleshooting, request fulfillment, and management of critical business servers
+
+Arayna Technology Solutions LLC
+
+3
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+Relevance to VA.gov: This engagement demonstrates our ability to maintain stable, secure, public-facing federal digital platforms. We manage web hosting infrastructure, domain systems, and analytics which are capabilities directly applicable to VA.gov's needs. Our work requires high availability, security compliance, and rapid response to operational requirements.
+Project 2: USAGM/VOA - Oracle DiVA Support | Period: August 2024 - August 2025
+Arayna provided software support for the U.S. Agency for Global Media, Voice of America's Oracle DIVArchive environment.
+Scope of Work:
+ Software support for Oracle DIVArchive, addressing malfunctions impacting system performance or user workflows
+ Troubleshooting, fixes, and technical guidance based on Oracle documentation and system behavior
+ Annual updates, security patches, and maintenance required for system reliability and compliance
+ Ensuring uninterrupted access to archived media assets essential for VOA's global broadcasting mission
+Relevance to VA.gov: This engagement demonstrates our ability to support large-scale federal content and media platforms. VOA serves a global audience and requires consistent availability--similar to VA.gov's mission of serving Veterans worldwide. Our work maintaining system stability while delivering updates and patches illustrates our phased modernization philosophy.
+Additional Federal Experience
+Project 3: United States Marine Corps - MCAS Cherry Point SCADA Support | Period: September 2024 - August 2025 | Location: MCAS Cherry Point, NC
+Arayna provides mission-critical operational reliability for utility infrastructure across MCAS Cherry Point, ensuring secure control over high-voltage electrical and water/wastewater systems.
+Scope of Work:
+ System Optimization: Ongoing maintenance and optimization of installation-wide VTScada systems for high-voltage distribution and water treatment networks.
+ Full-Stack Support: Comprehensive software and hardware support for VTScada servers, databases, configurations, and system backups.
+ Preventive & Emergency Maintenance: Quarterly on-site log reviews and IT-level improvements, plus emergency response for rapid fault resolution.
+
+Arayna Technology Solutions LLC
+
+4
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+ Cybersecurity Compliance: Ensuring all utility control systems align with rigorous DoD, DISA, NIST, and ATO security requirements.
+ Infrastructure Management: Support for SCADA infrastructure including SEL Relays, RTACs, and VMware vSphere environments.
+Relevance to VA.gov: This project highlights Arayna's expertise in managing high-stakes, secure federal environments where system availability is critical. Our ability to stabilize complex system architectures, maintain strict cybersecurity compliance (NIST/DoD), and provide rapid response to system failures translates directly to the technical resilience and security oversight required for the VA.gov modernization effort.
+
+Project 4: USAF - Multiple Installations Infrastructure Modernization | Period: September 2024 - July 2025 | Location: Hanscom AFB, Eglin AFB, Niagara Falls ARS
+Arayna provides infrastructure modernization, decommissioning, and environmental maintenance services across multiple U.S. Air Force installations, ensuring mission-critical facility uptime and security.
+Scope of Work:
+ Legacy Decommissioning (Eglin AFB & Niagara Falls ARS): Removal of obsolete Nortel telecom cabinets and data center racks. This involved disconnecting power cabling from battery plants and line cabling from active MDF frames with zero disruption to live network equipment.
+ Mission-Critical Data Center Maintenance (Hanscom AFB): Execution of precision cleaning for raised-floor and sub-floor environments. Services were performed to ASHRAE standards using HEPA filtration and anti-static systems to prevent hardware failure and optimize airflow.
+ Security & Compliance: Strict adherence to DoD protocols, DISA standards, and federal environmental requirements for asset disposal and facility safety.
+ Operational Continuity: Close coordination with Air Force personnel to execute technical tasks within specific maintenance windows, avoiding downtime for sensitive military operations.
+Relevance to VA.gov: This multi-site engagement demonstrates Arayna's ability to manage complex physical and digital transitions within highly regulated federal environments. Our experience in decommissioning legacy systems while protecting "live" environments is a direct parallel to the VA's need to modernize VA.gov infrastructure without interrupting access to Veteran benefits. Additionally, our commitment to ASHRAE and DoD standards ensures that the back-end infrastructure supporting the new VA.gov remains resilient and secure.
+
+Arayna Technology Solutions LLC
+
+5
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+4. Technical Approach & Capabilities
+Large-scale federal platforms like VA.gov cannot be modernized through wholesale replacement. The risk of service disruption is too high, and the institutional knowledge embedded in legacy systems is too valuable to discard.
+Arayna advocates for integration-first modernization: building bridges between legacy systems and modern user experiences. This approach allows VA to:
+ Deliver improved Veteran experiences without waiting for complete backend replacement.
+ Preserve functional legacy systems while gradually transitioning to modern architectures.
+ Reduce risk by making incremental, reversible changes rather than wholesale cutovers.
+ Validate improvements with real user data before expanding scope.
+Capability 1: Legacy System Integration
+Methodology:
+1. Assessment: Map existing systems, data flows, dependencies, and integration points.
+2. Abstraction: Design integration layers (APIs, middleware, data services) that present a unified interface to modern front-ends while preserving legacy backend functionality.
+3. Implementation: Build integration components using modern, maintainable technologies.
+4. Validation: Test thoroughly in staging environments before production deployment.
+5. Transition: Gradually route traffic through new integration layers, maintaining fallback capability.
+Application to VA.gov: VA's legacy systems contain decades of benefit information, healthcare records, and service data. Our integration approach would create modern API layers that allow a redesigned VA.gov front-end to access this data seamlessly--without requiring Veterans to notice any backend changes.
+Relevant Experience: Our DHS/ICE work involves integrating domain management systems, hosting infrastructure, and analytics platforms into a cohesive operational environment. Our Bank of America EMCS integration work demonstrates bridging legacy infrastructure with modern monitoring and management systems.
+
+Arayna Technology Solutions LLC
+
+6
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+Capability 2: Analytics & User Journey Visibility
+Methodology:
+1. Instrumentation: Deploy analytics capture points across user touchpoints
+2. Aggregation: Collect and normalize data into unified analytics infrastructure
+3. Visualization: Build dashboards showing user journeys, drop-off points, completion rates, and friction indicators
+4. Analysis: Identify patterns, anomalies, and improvement opportunities
+5. Action: Provide data-driven recommendations for prioritizing modernization efforts
+Application to VA.gov: Before redesigning VA.gov, VA needs visibility into how Veterans currently use the platform. Where do they struggle? Where do they abandon tasks? Which benefit pathways have the highest friction? Analytics infrastructure answers these questions with data rather than assumptions.
+Relevant Experience:
+ Real-time visitor analytics for DHS/ICE seized domains
+ Tableau-integrated customer portal for Genpro providing KPIs, reports, and operational data
+ Power BI dashboard development for Enabled Energy replacing spreadsheet-based reporting
+ PepsiCo global data center monitoring providing real-time visibility across international facilities
+Capability 3: Phased Modernization
+Principles:
+ Bounded scope: Each phase has clear objectives, deliverables, and success criteria
+ Measurable outcomes: Every phase produces data that informs subsequent phases
+ Reversibility: Changes can be rolled back if issues arise
+ Continuity: Service remains available throughout the modernization process
+Application to VA.gov: We recommend VA approach modernization as a series of bounded phases rather than a single large initiative. Begin with analytics and visibility to understand the current state. Use that data to prioritize which benefit pathways to modernize first. Implement changes incrementally, validate with user data, and expand based on results.
+
+Arayna Technology Solutions LLC
+
+7
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+5. Suggested Solution
+Arayna proposes a bounded pilot effort to deploy user journey analytics infrastructure for a specific VA.gov benefit pathway. This pilot would provide immediate value while informing the larger modernization strategy.
+A. Objective:
+Deploy analytics infrastructure to capture, visualize, and analyze how Veterans navigate VA.gov when accessing a specific benefit area--providing data-driven insights to inform platform redesign priorities.
+B. Proposed Scope
+We recommend focusing on either healthcare enrollment or education benefits. Both are high-traffic pathways with significant impact on Veteran outcomes, making them ideal candidates for analytics-driven improvement.
+C. Deliverables:
+ Analytics Instrumentation: Deploy tracking across the selected benefit pathway to capture user interactions, navigation patterns, and task completion behaviors.
+ Real-Time Dashboard: Build a visualization platform showing:
+- User journey maps with traffic volume at each step
+- Drop-off rates identifying where Veterans abandon tasks
+- Time-to-completion metrics for key transactions
+- Device and browser distribution
+- Error rates and system performance indicators
+ Friction Analysis: Produce heatmaps and analysis identifying:
+- Pages with highest abandonment rates
+- Common navigation dead-ends
+- Form fields causing user errors
+- Mobile vs. desktop experience gaps
+ Recommendations Report: Deliver prioritized recommendations for modernization efforts based on observed user friction, including estimated impact and implementation considerations.
+
+Arayna Technology Solutions LLC
+
+8
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+6. Risks & Mitigation
+Our approach to the VA.gov modernization is informed by extensive experience supporting high-stakes federal environments. We don't just react to issues; we anticipate them based on proven performance at the USMC, DHS, and DoD.
+
+Risk Factor
+
+Potential Impact on VA.gov
+
+Mitigation & Proven Approach
+
+Service Interruption / Downtime
+
+Veterans lose access to critical health and disability benefits.
+
+Parallel Transition & Rollbacks: We utilize "Design for Continuity" (proven in our USMC SCADA support experience) using parallel systems and extensive staging before any production push.
+
+Regulatory Non-Compliance
+
+Costly rework, security gaps, and failure to meet FISMA/HIPAA/508 standards.
+
+Compliance by Design: Integrating FedRAMP and Section 508 checkpoints into the initial architecture (proven in our DHS/ICE work) rather than "bolting them on" later.
+
+Stakeholder Misalignment
+
+Project delays due to competing priorities across VA benefit areas and IT teams.
+
+Structured Coordination: Establishing clear decision-making frameworks and documented rationale (proven in our USAGM/VOA engagements) to surface and resolve conflicts early.
+
+Inaccurate UX Assumptions
+
+Redesigning features that don't meet Veteran needs or improve outcomes.
+
+Visibility-First Analytics: Deploying data-monitoring infrastructure (proven at PepsiCo) to establish a baseline before any changes are made, ensuring data-driven prioritization.
+
+7. Conclusion
+Arayna welcomes the opportunity to support the Department of Veterans Affairs in modernizing VA.gov. We bring:
+ Federal credibility: Active contracts with DHS, USMC, USAF, and USAGM demonstrate our ability to deliver in regulated federal environments.
+ Relevant capabilities: System integration, analytics infrastructure, and web application development directly applicable to VA.gov's needs.
+ Practical approach: Integration-first modernization that maintains service continuity while enabling incremental improvement.
+ Specific proposal: A bounded User Journey Analytics pilot that would provide immediate value while informing larger modernization decisions.
+
+Arayna Technology Solutions LLC
+
+9
+
+govt@araynatech.com
+
+
+
+www.araynatech.com
+
+We are prepared to lead bounded workstreams within the larger VA.gov modernization effort, specifically legacy system integration and analytics infrastructure, while collaborating effectively with other contractors and VA teams.
+We are open for follow-on discussions to explore how Arayna can contribute to delivering a premier, modern, secure, and Veteran-centric digital experience.
+
+Arayna Technology Solutions LLC
+
+10
+
+govt@araynatech.com
+
+

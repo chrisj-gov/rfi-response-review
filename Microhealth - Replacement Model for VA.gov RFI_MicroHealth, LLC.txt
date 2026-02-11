@@ -1,0 +1,378 @@
+U.S. Department of Veterans Affairs (VA) Technology Acquisition Center
+Request for Information (RFI)
+
+Notice ID: 365357 - Replacement Model for VA.gov
+
+February 4, 2026, 3:00 PM EST
+
+SUBMITTED BY: MicroHealth, LLC 8229 Boone Boulevard, Suite 500 Vienna, VA 22182 www.MicroHealthllc.com contracts@MicroHealthllc.com CAGE: 6KG35 UEID: C1RQANT6CG57 TIN#: 273231647 BUSINESS TYPE: SDVOSB POC: Mr. Claude Hines, Chief Operating Officer,
+
+SUBMITTED TO: Department of Veterans Affairs Technology Acquisition Center
+ATTN: Allison Fulton Allison.fulton@va.gov
+Evan Schlisserman evan.schlisserman@va.gov 8483775248
+
+This proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of - or in connection with - the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in the following pages.
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+
+Table of Contents
+
+Company Overview & Business Point of Contact.......................................................................... 1
+
+1
+
+Brief Description of Relevant Capabilities ...................................................................... 1
+
+2
+
+Relevant Experience with Similar Challenges................................................................. 2
+
+Grants.gov Information Technology Services ............................................................................. 2
+CDC National Center for Injury Prevention and Control Partners (NCIPC) Portal Support Services ............................................................................................................................ 3
+
+Responses to the topics and questions on this request .................................................................... 3
+
+3
+
+Descriptions of relevant ideas, capabilities, and approaches. .......................................... 4
+
+Identity & Authentication Modernization.................................................................................... 4 Multi-Channel Identity Proofing Strategy ................................................................................... 4
+
+4
+
+Platform Architecture Modernization .............................................................................. 4
+
+API Gateway & Integration Layer ............................................................................................... 4 Data Strategy & Master Data Management ................................................................................. 5 Scalability & Resilience............................................................................................................... 5
+
+5
+
+User Experience & Design System Enhancement ........................................................... 5
+
+Navigation & Information Architecture....................................................................................... 6 Design System Maturity .............................................................................................................. 6 Form Modernization .................................................................................................................... 6
+
+6
+
+Case studies or examples from similar environments...................................................... 7
+
+7
+
+User journey workflows for identity proofing, sign-in, recovery, and navigation. ......... 8
+
+8
+
+Known limitations, risks, and tradeoffs. .......................................................................... 9
+
+Lessons learned from past deployments. ..................................................................................... 9
+
+Additional Information Relevant to VA's Objectives .................................................................. 10
+
+January 08,2026
+
+i
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+Company Overview & Business Point of Contact
+
+Name of Company, Address
+Point of Contact, Phone Number Fax Number, Email address
+
+MicroHealth, LLC 8229 Boone Boulevard, Suite 500 Vienna, VA 22182
+Mr. Claude Hines, Chief Operating Officer | 571-274-3411 Fax number: 855-850-1264 | contracts@microhealthllc.com |
+
+Company Business Size and Status
+Socioeconomic data
+
+Small Business; Service Disabled Veteran Owned Small Business (SDVOSB)
+SDVOSB
+
+1 Brief Description of Relevant Capabilities
+MicroHealth, LLC is a premier federal healthcare information technology partner specializing in digital transformation, enterprise modernization, and mission-critical system integration. Our core competencies directly address VA.gov replacement challenges: federal healthcare IT systems integration and modernization with proven success navigating VA's technical ecosystem including legacy dependencies and stringent security requirements; VA-specific digital transformation through current operational support of VA's Benefits Appeals and Memorials (BAM) Portfolio PMO where we implement Product Line Management, operate the Veterans Information Portal Dashboard, and execute VA's Scaled Agile Framework; user-centered design with comprehensive Section 508 and WCAG 2.1 Level AA accessibility compliance achieving 23% user satisfaction improvement through our Veteran Centered Experience workstream; enterprise architecture and API-first integration with hands-on experience using VA's Digital Veteran Platform API Gateway on multiple current contracts; and Agile delivery reducing deployment cycle time by 37% while maintaining 99.7% uptime across mission-critical systems.
+Beyond VA-specific experience, we bring proven federal digital transformation capabilities from large-scale platform replacements. Our performance on Grants.gov Information Technology Services demonstrates capability to replace aging federal platforms serving sixteen million users annually while maintaining service continuity, migrating ninety servers to AWS cloud in nine months where previous contractors failed, reducing downtime by 92% and cutting costs by over four million dollars, addressing 976 inherited security vulnerabilities with critical issues resolved within two weeks enabling rapid ATO acquisition, implementing modern architecture with APIfirst integration and microservices patterns, and transforming user experience through systematic research reducing application process time by over 200% We have also improved the performance and UX of the Center for Disease Control (CDC) National Center for Injury Prevention and Control (NCIPC) Partners Portal, a secure platform for the CDC and its funded recipients to exchange data and communicate to build scalable prevention programs. MicroHealth changed the publishing process for the platform, resulting in the publication time going from 11 hours to 15 minutes, saving the customer a significant amount of time and money. We also improved the User Acceptance Testing pass rate from 50% at the beginning of the contract to 100%.
+MicroHealth operates within VA's environment today through current contracts including BAM Portfolio PMO support implementing VA's Product Line Management model and leading Veteran Centered Experience initiatives, VA EHRM support providing enterprise design and
+
+February 04, 2026
+
+1
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+technical integration coordinating across clinical and administrative systems, and past performance including VistA Evolution Strategic Planning developing zero-downtime migration methodologies and Veterans Relationship Management integrating seven workstreams into unified capabilities. This is not a company claiming we can learn VA's environment--we understand its complexities from direct operational experience and bring proven methodologies for maintaining absolute service continuity while fundamentally transforming digital experiences that millions of Veterans depend on for access to earned benefits and healthcare services.
+2 Relevant Experience with Similar Challenges
+Grants.gov Information Technology Services
+
+Contract
+
+75N98119D00081, Task Order: 75N98121F00001
+
+Period of Performance
+
+August 2, 2021 - August 1, 2026
+
+Similar in scope and complexity to the VA.gov replacement model initiative, MicroHealth has led the modernization, operations, cybersecurity, and enhancement of Grants.gov, a governmentwide digital platform serving approximately 16 million users annually and more than four million unique visitors weekly. Grants.gov functions as a national digital front door for discovering and applying for federal funding and supports both public applicants and federal agency grantors integrating their systems with Grants.gov services.
+When MicroHealth assumed responsibility, the platform suffered from high latency, degraded performance, and significant inherited security risk caused by antiquated infrastructure, outdated software, and limited technical documentation. MicroHealth conducted deep legacy discovery and reverse-engineering to establish a validated baseline, then developed and executed a phased modernization roadmap. Within nine months--after previous contractor attempts had failed-- MicroHealth migrated Grants.gov from legacy on-premises infrastructure to AWS while maintaining service continuity and achieving a 92% reduction in downtime.
+The modernization included migrating servers from Solaris to Linux, upgrading databases, transitioning from LifeRay CMS to Storyblok, and shifting external integrations from SOAP to REST/JSON through development of 26 APIs. MicroHealth implemented CI/CD pipelines enabling frequent releases and established an API-first architecture that decouples frontend experiences from backend systems, improving application processing time from more than two minutes to less than twelve seconds and reducing login time to under one second. Infrastructure optimization and data center decommissioning generated $4.2M in cost savings and an additional $480K in annual cloud optimization savings.
+Security modernization remediated 976 inherited vulnerabilities, with critical findings resolved within two weeks and a new cloud ATO achieved within 15 days of STIG review. Controls implemented included encryption in transit and at rest, automated patching, MFA, HSTS, centralized monitoring via Security Hub, and strong TLS enforcement, enabling zero unscheduled downtime during operations and migration.
+User experience improvements were driven by systematic research and iterative design, including simplification of navigation, plain-language content rewrites, deployment of USDS/USWDS components for Section 508 compliance, and continuous user feedback collection using GSA Touchpoints. These improvements support the successful processing of
+
+February 04, 2026
+
+2
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+more than 262,000 grant applications in the last calendar year.
+CDC National Center for Injury Prevention and Control Partners (NCIPC) Portal Support Services
+
+Contract
+
+75N98120D00036, Task Order: 75D30124F20299
+
+Period of Performance
+
+September 28, 2024 - September 27, 2026
+
+Similar to the VA.gov replacement model initiative, MicroHealth is providing comprehensive technical support to CDC NCIPC's Partners Portal by delivering operations and maintenance, user experience enhancements, web development, system modernization, and agile development services. The Partners Portal serves as a secure, centralized platform that enables NCIPC to efficiently manage grantee relationships across multiple critical public health programs, including the Overdose Data to Action initiative, Core State Violence and Injury Prevention Program, Comprehensive Suicide Prevention Program, and Injury Control Research Centers. MicroHealth's work focuses on evolving this platform from a basic data collection system into an intelligent, user-centric solution that supports the entire data lifecycle, from initial collection through analysis, visualization, and actionable reporting.
+We leverage cloud-based architectures aligned with CDC's Data Modernization Initiative and HHS's Moving Data Faster strategy to improve the Partners Portal, implementing advanced data analytics capabilities using platforms like Databricks and Azure Data Factory. MicroHealth established continuous integration and continuous deployment pipelines enabling rapid iteration with deployments to User Acceptance Testing environments, fundamentally transforming how CDC delivers public health technology services. In the first year we have had 7 major releases, with our most recent release achieving a 100% pass rate for UAT and zero bugs, representing our exceptional quality control and demonstrating significant maturity in MicroHealth's development and testing processes.
+MicroHealth's enterprise modernization capabilities are shown by our approach to legacy system transformation while maintaining operational continuity. The team proactively identified and remediated a critical cross-site scripting vulnerability in the legacy rich-text editor, conducting comprehensive static code reviews and implementing Content Security Policy headers to enhance security posture. MicroHealth addressed Section 508 accessibility compliance issues inherited from the previous contractor, implementing remediation strategies aligned with Web Content Accessibility Guidelines 2.0 Level A and AA standards.
+Through this partnership, MicroHealth has delivered measurable operational improvements that directly benefit public health professionals nationwide. We reduced report generation time by 72%, cutting document length from 216 pages to 66 pages by eliminating redundant data entry. Our automated linkage systems for Annual Progress Reports pre-populates interventions, intervention steps, and outcomes from work plans, saving recipients approximately 20 to 30 minutes of manual work per report. The successful exercise of the first option period also demonstrates sustained stakeholder confidence in our ability to deliver enterprise-scale transformation that positions NCIPC to more effectively fulfill its mission of preventing injuries and violence nationwide, providing the technological foundation needed to support evidencebased public health interventions.
+Responses to the topics and questions on this request
+
+February 04, 2026
+
+3
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+3 Descriptions of relevant ideas, capabilities, and approaches.
+Identity & Authentication Modernization
+The current transition from legacy credentials (DS Logon, MyHealtheVet) to modern providers (Login.gov, ID.me) represents a critical inflection point. While this consolidation improves security posture, significant accessibility and usability challenges remain.
+Multi-Channel Identity Proofing Strategy
+Veterans approach digital identity from widely different circumstances. Some possess modern smartphones and stable housing, while others rely on shared devices, intermittent connectivity, or lack traditional identity artifacts. A single proofing pathway will inevitably exclude portions of the Veteran population.
+MicroHealth recommends implementing a tiered, multi-channel identity proofing ecosystem that preserves NIST IAL2 compliance while offering multiple validated entry points into VA digital services. Rather than forcing Veterans through a single remote-only workflow, VA would provide a combination of remote, in-person, and assisted proofing channels orchestrated through a common identity layer. This model increases successful proofing rates, reduces abandonment, and ensures Veterans can establish or recover identity regardless of personal constraints.
+Key elements of this approach include:
+
+ Expansion of in-person identity proofing at VA facilities using trained Identity Coordinators and standardized workflows
+ Acceptance of alternative identity artifacts such as VHIC, DD214, and signed Letters Attesting State Residency
+ Support for non-mobile MFA options, including FIDO2-compliant physical security keys  Partnerships with VA homeless services to enable alternative address verification
+
+Comparable federal programs demonstrate that in-person and assisted proofing can operate successfully at national scale and materially improve access.
+4 Platform Architecture Modernization
+Replacing VA.gov requires moving beyond brittle point-to-point integrations toward an APIfirst, microservices-oriented architecture while maintaining continuity with legacy VA systems.
+We recommend establishing a layered platform architecture that decouples frontend experiences from backend systems, enabling incremental modernization without disrupting mission-critical operations.
+API Gateway & Integration Layer
+At the core of the architecture is a unified integration layer that mediates all communication between frontend experiences and backend systems. Rather than allowing each application to integrate directly with downstream systems, VA would expose capabilities through standardized, versioned APIs managed behind an enterprise gateway.
+This model centralizes cross-cutting concerns such as authentication, authorization, throttling, monitoring, and request routing. It also enables VA to evolve backend systems independently of user-facing applications.
+
+February 04, 2026
+
+4
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov Key elements include:
+ An enterprise API gateway serving as the single-entry point for frontend-to-backend traffic
+ Backend-for-Frontend (BFF) services that tailor responses for web, mobile, and kiosk channels
+ Adapter services that wrap legacy systems and expose normalized REST or GraphQL interfaces
+ Event streaming or message bus to support asynchronous, loosely coupled integrations
+Data Strategy & Master Data Management
+Modern digital experiences require consistent, trusted data regardless of which system originally created it. VA must therefore move toward authoritative data services that aggregate and reconcile Veteran information across portfolios while preserving existing systems of record.
+MicroHealth recommends establishing a unified Veteran profile service that assembles identity, benefits, health, appeals, and communications data into a coherent view. This service does not replace systems of record but synchronizes with them using governed bi-directional patterns and conflict-resolution rules.
+Key elements include:
+ Canonical Veteran data models used across APIs
+ Bi-directional synchronization with defined golden sources
+ Data minimization and purpose-based access controls
+ Comprehensive access logging and auditing
+ Support for dynamic consent where applicable
+Scalability & Resilience
+VA.gov must remain available during traffic surges, regional outages, and downstream system disruptions. Scalability and resilience therefore must be designed into the platform rather than treated as infrastructure concerns.
+MicroHealth recommends cloud-native patterns that allow services to scale independently and degrade gracefully when dependencies are unavailable.
+Key elements include:
+ Containerized microservices with horizontal auto-scaling
+ Circuit breakers, timeouts, and bulkheads to isolate failures
+ Multi-region deployments with active-active or active-standby configurations
+ Centralized observability using distributed tracing, structured logging, and real-time monitoring
+5 User Experience & Design System Enhancement
+VA.gov should function as a coherent, Veteran-centered front door rather than a collection of benefit-specific sites. Veterans should be able to understand where they are, what they can do next, and how VA services connect--without needing to understand VA's internal organizational
+
+February 04, 2026
+
+5
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+structure.
+MicroHealth recommends evolving VA.gov toward an intent-driven, personalized experience supported by a mature, governed design system. This approach aligns navigation, content, and interaction patterns around Veteran goals while ensuring consistency, accessibility, and scalability across portfolios and platforms. The experience modernization strategy is organized around three complementary areas: navigation and information architecture, design system maturity, and form modernization.
+Navigation & Information Architecture
+Veterans often approach VA.gov with a specific goal in mind--file a claim, manage healthcare, check application status, or seek support. Organizing the site around organizational silos forces Veterans to translate those goals into internal VA constructs.
+MicroHealth recommends shifting to intent-based navigation that reflects Veteran goals rather than VA program boundaries. Authenticated experiences should further personalize this model by surfacing the most relevant actions and information for each Veteran.
+Key elements include:
+
+ Primary navigation organized by Veteran intent (e.g., Get Benefits, Manage My Care, File a Claim, Get Support)
+ Personalized dashboards displaying active claims, upcoming appointments, messages, and pending tasks
+ Contextual cross-links that surface related benefits and services within relevant journeys  Prominent, intelligent search that returns tools, forms, and content equally
+
+Design System Maturity
+Consistency across VA.gov requires more than visual standards. It requires a governed system of reusable components, patterns, and accessibility practices shared across portfolios.
+MicroHealth recommends building upon the existing USWDS foundation with VA-specific governance and patterns that ensure components evolve in a controlled, enterprise-wide manner.
+Key elements include:
+
+ A Design System Working Group with representation from each benefit portfolio  Centralized component library with documented usage guidance  Automated accessibility testing integrated into CI/CD pipelines, with manual validation
+for complex interactions  Shared design tokens across web and mobile platforms to ensure parity
+
+Form Modernization
+Forms represent some of the most frequent and highest-friction Veteran interactions. Modernization must focus on reducing cognitive load, minimizing manual data entry, and enabling Veterans to complete tasks over time.
+MicroHealth recommends transforming static forms into intelligent, guided digital experiences that adapt to user context.
+
+February 04, 2026
+
+6
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+Key elements include:
+
+ Pre-fill of 70-80 percent of fields using authenticated Veteran data  Conversational, step-by-step form flows with contextual help and inline validation  Automatic save-and-resume across sessions and devices  Mobile-first document upload with orientation correction and OCR
+
+6 Case studies or examples from similar environments.
+CASE STUDY 1: Grants.gov Cloud Migration - Large-Scale Federal Platform Replacement
+Grants.gov supports millions of users who depend on continuous access to search, apply for, and manage federal grant opportunities. When MicroHealth assumed responsibility, prior contractor attempts to migrate the platform to cloud had failed, and the system operated on legacy infrastructure with extensive security exposure and undocumented dependencies. Any modernization effort therefore had to succeed without interrupting service or breaking external integrations.
+MicroHealth began by conducting deep technical discovery and reverse-engineering legacy components to map system dependencies, data flows, and integration points. Based on this understanding, the team designed a phased cutover model that allowed cloud environments to operate in parallel with the legacy platform while individual components were migrated and validated.
+The team migrated servers from Solaris to Linux, upgraded Oracle databases, replaced the legacy CMS with a cloud-native CMS, and converted external interfaces from SOAP to REST/JSON using newly developed APIs. Security controls were embedded throughout migration, including encryption in transit and at rest, automated patching, MFA, HSTS, and centralized monitoring.
+The cloud cutover was executed in nine months with zero unscheduled downtime. Platform downtime was reduced by 92 percent, application processing time dropped from more than two minutes to under twelve seconds, and login time fell below one second. All inherited vulnerabilities were remediated, critical findings were resolved within two weeks, and a new cloud ATO was achieved within 15 days of STIG review.
+Transferable Lessons: rigorous legacy discovery, phased modernization with feedback loops, aggressive security-first remediation, and continuous stakeholder coordination enable high-risk federal platform replacement without service disruption.
+CASE STUDY 2: Grants.gov User Experience Transformation
+Grants.gov users struggled with complex navigation, unclear registration and role assignment processes, and difficulty locating relevant content within a fragmented information architecture. Nearly 10,000 user feedback responses confirmed that unclear navigation structures and ambiguous registration and role assignment workflows were primary drivers of confusion and abandonment, particularly for first-time and infrequent users.
+MicroHealth led a research-driven UX transformation grounded in empirical user data. The team conducted surveys of applicants and grantors (including underserved applicant communities), developed user personas, performed card-sorting and information architecture exercises, and facilitated usability testing and stakeholder focus groups. These findings informed a redefinition
+
+February 04, 2026
+
+7
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+of the applicant user journey, including consolidation of the applicant menu from eleven disorganized options to a small set of task-based landing pages.
+MicroHealth rewrote and consolidated instructional content using plain-language principles, simplified registration by eliminating the organization registration step, and reduced account complexity by removing the need for multiple user accounts. Continuous feedback mechanisms were deployed through GSA Touchpoints, and coordinated communications were established for major releases across email, newsletters, blogs, and social media. MicroHealth also provided escalation support to the Grants.gov Help Desk, resolving more than 1,000 user issues in 2023.
+Within six months, MicroHealth rebuilt 191 pages using the Storyblok CMS, implemented an API-first CMS architecture, and deployed ten high-traffic pages using the USDS design system to ensure Section 508 compliance. The team deployed 27 forms in the first week (158 total new/updated forms), migrated forms to a serverless environment, upgraded integrations with SAM.gov for live data exchange, and transitioned organization identifiers from DUNS to UEI. These changes resulted in faster onboarding, improved discoverability of funding opportunities, and a more maintainable content ecosystem.
+Transferable Lessons: continuous user research, simplified navigation and identity workflows, plain-language content, and integrated feedback loops materially improve trust, usability, and adoption at national scale.
+7 User journey workflows for identity proofing, sign-in, recovery, and navigation.
+The following workflow diagram illustrates recommended improvements to the identity verification and authentication process:
+
+Journey Stage
+
+Veteran Action
+
+System Response
+
+Fallback Option
+
+1. Entry Point
+
+Veteran arrives at VA.gov, selects 'Sign In' or attempts to access authenticated service
+
+Unified login modal presents Login.gov (recommended) and ID.me with clear descriptions of each option
+
+Prominent 'Need Help?' link to guided setup wizard or inperson assistance locator
+
+2. Provider Selection
+
+Veteran chooses identity provider based on their circumstances (Login.gov for new accounts, ID.me if preferred)
+
+System presents preverification checklist: required documents, device requirements, estimated completion time
+
+If lacking requirements, system offers 'Schedule InPerson Verification' with nearest VA facility booking
+
+3. Identity Proofing
+
+Veteran completes identity verification through chosen provider: document upload, biometric capture, knowledgebased authentication
+
+Progressive disclosure of requirements; real-time validation with immediate feedback on document quality, photo clarity
+
+Auto-escalation to video call support if automated verification fails; option to save progress and resume
+
+4. MFA Setup
+
+Veteran configures multi-factor authentication: authenticator app, SMS, security key, or backup codes
+
+Context-aware recommendations based on device type; visual walkthrough for each MFA option with setup testing
+
+For Veterans without mobile devices: offer mail-based MFA codes or physical security key pickup at VA facilities
+
+February 04, 2026
+
+8
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+
+5. Account Recovery
+
+Veteran loses access to MFA method or forgets password; attempts account recovery
+
+Multi-path recovery: personal key code, backup email, backup phone, or challenge questions. Clear timeline expectations for each method.
+
+If automated recovery fails: escalate to VA Help Desk with expedited identity reverification process at facilities
+
+8 Known limitations, risks, and tradeoffs. Transparency regarding implementation challenges:
+
+Risk Category
+
+Potential Impact
+
+Mitigation Strategy
+
+Legacy System Dependencies
+Change Management Resistance
+Security & Compliance
+Resource Constraints
+
+Core benefit systems (VBMS, VistA) may lack APIs or have rate limits that constrain real-time integration capabilities
+
+Phased modernization with adapter layers; implement caching and eventual consistency patterns; parallel run modern and legacy systems during transition
+
+Veterans accustomed to current workflows may resist navigation changes; internal stakeholders may protect legacy processes
+
+Extensive user research with Veteran codesign; gradual rollout with opt-in beta periods; maintain legacy navigation as fallback during transition; comprehensive training for VA staff
+
+New authentication methods may introduce vulnerabilities; API exposure increases attack surface; privacy regulations (HIPAA, Privacy Act) constrain data practices
+
+Security-first architecture with defense in depth; continuous security testing (SAST, DAST, penetration testing); FedRAMP compliance for cloud services; privacy impact assessments for all data flows
+
+Modernization competes with ongoing operations for funding, personnel, and attention; technical debt remediation may be deprioritized
+
+Business case development with clear ROI metrics; phased investment with quick wins to build momentum; leverage Technology Modernization Fund; public-private partnerships where appropriate
+
+Trade-off Decisions:
+ Pace vs. Perfection: Prioritize delivering incremental improvements over waiting for comprehensive overhaul. This creates faster Veteran value but requires diligent technical debt management.
+ Consistency vs. Flexibility: Enforce design system standards for core experiences while allowing portfolio-specific customization. Requires clear escalation process for exceptions.
+ Innovation vs. Accessibility: Balance modern UX patterns with universal accessibility requirements. May slow adoption of cutting-edge features but ensures no Veteran is left behind.
+Lessons learned from past deployments.
+MicroHealth's experience across federal digital transformation initiatives has produced actionable lessons directly applicable to VA.gov replacement. Our Grants.gov cloud migration
+
+February 04, 2026
+
+9
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+MicroHealth, LLC Notice ID: 365357 Replacement Model for VA.gov
+succeeded where previous contractors failed by prioritizing deep legacy discovery and reverseengineering outdated documentation before migration. This upfront investment enabled a ninemonth transition of ninety servers across five environments using a phased approach that incorporated lessons learned from each wave. Early dual-write validation revealed that legacy data relationships were more complex than documented, prompting expansion of validation from two to six months and implementation of hourly automated reconciliation. The result was nearperfect data consistency and zero post-migration incidents.
+Our VA BAM Portfolio work demonstrated that user adoption depends on continuous stakeholder engagement, not one-time requirements gathering. Weekly collaborative refinement increased VIP Dashboard Product Owner adoption from forty percent to ninety-five percent within three months. Embedding risk management into sprint ceremonies enabled identification of forty-two risks before operational impact, compared to eighteen reactive responses previously. Late discovery of Section 508 defects delayed releases and increased costs, driving integration of automated accessibility testing (axe-core) into CI/CD pipelines, which reduced accessibility defects by seventy-three percent and remediation costs by sixty percent. Grants.gov security remediation further demonstrated that focused prioritization can rapidly reduce inherited risk-- remediating 976 vulnerabilities, resolving critical findings within two weeks, and enabling fast ATO. Finally, strategic technology decisions such as moving from LifeRay to Storyblok CMS and from SOAP to REST APIs required greater upfront investment but delivered long-term gains in maintainability and cost reduction, validating that platform-level vision outperforms shortterm expediency.
+Additional Information Relevant to VA's Objectives
+In the interest of promoting competition and allowing the government to obtain the best value, we recommend that this opportunity be made available through the Veterans Technology Services 2 (VETS2) Government-Wide Acquisition Contract (GWAC). VETS2 is a proven vehicle that provides access to a pool of highly qualified Service-Disabled Veteran-Owned Small Businesses (SDVOSBs) with expertise in delivering innovative IT solutions to federal agencies. As a Best-in-Class contract vehicle, VETS2 has been rigorously evaluated and vetted by the government to ensure superior performance and results, while supporting a Veterans-first mission through engagement of firms led and staffed by those who have served. This designation offers agencies the benefits of maximized shared purchasing power, increased operational efficiency, and enhanced data-driven decision-making. Utilizing VETS2 would not only support the government's goal of fostering opportunities for veteran-owned businesses but also ensure a competitive environment that drives quality and cost-effectiveness in service delivery. To further reduce risk and enable informed evaluation, the Government may also consider incorporating a demonstration-based component to allow offerors to showcase representative capabilities and user experience concepts prior to award.
+
+February 04, 2026
+
+10
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal
+
+

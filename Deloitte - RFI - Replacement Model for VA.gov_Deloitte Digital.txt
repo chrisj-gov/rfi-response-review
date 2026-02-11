@@ -1,0 +1,355 @@
+Response to VA.gov Replacement Model RFI
+February 5, 2026
+
+U.S. Department of Veterans Affairs (VA) Replacement Model for VA.gov
+February 5, 2026
+Submitted by: Deloitte Consulting LLP 1919 N Lynn St Arlington, VA 22209
+CAGE Code: 1TTG5 Unique Entity ID: CKV2L9GZKJK3 Business Size: Large
+Technical Point of Contact (POC): Devon Halley, Principal Tel. +1-202-309-0996 Email: dehalley@deloitte.com
+Contracts POC: Kimberly Cunningham, Senior Administrator Tel. +1-404-631-3506 Email: kicunningham@deloitte.com
+This RFI response includes data that shall not be disclosed outside of the Government and shall not be duplicated, used, or disclosed in whole or in part for any purpose other than to evaluate this market research. If, however, a contract is awarded to this Offeror or Quoter as a result of or in connection with the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from other sources without restriction. The data subject to this restriction are contained in this entire RFI response. i | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Deloitte Digital 1919 N Lynn St
+Arlington, VA 22209
+February 5, 2026
+Allison Fulton Allison.fulton@va.gov Evan Schlisserman evan.schlisserman@va.gov
+RE: Notice ID 36C10B26Q0131 RFI - Replacement Model for VA.gov Dear Allison and Evan: Deloitte is pleased to submit our strategic recommendations and capabilities in response to the opportunity to modernize VA.gov. We believe this is not simply a website refresh, but a mission-critical effort to restore clarity and trust for every Veteran who relies on the VA for their care and benefits. Our response provides a blueprint for how to achieve this vision, grounded in a clear-eyed diagnosis of past challenges and a practical, low-risk path forward. Our readiness for this challenge is defined by our current, operational work within mission-critical VA systems, and our experience building large-scale digital platforms for both public sector benefits programs and complex commercial enterprises. This unique combination allows us to translate best-in-class principles from the private sector into practical, secure, and scalable solutions that honor the gravity of the VA's mission. We know how to serve large, diverse populations in regulated environments because we do it every day. We believe the central challenge of this modernization is not technical, but structural. Therefore, our approach is built on a foundational principle: establishing a single, accountable partner responsible for the end-to-end Veteran journey. This model is designed to break the cycle of fragmented delivery, ensuring that all components--from technology to content-- work in concert to create a single, reliable, and human-centered experience for the Veteran. What we have provided here is designed to be a conversation starter. Deloitte would welcome the opportunity to discuss the perspectives posed in our response in greater detail. If you have any questions or require additional information, please contact me at 202-309-0996 or dehalley@deloitte.com. For any contractual questions, please contact Kimberly Cunningham at 404-631-3506 or kicunningham@deloitte.com.
+Sincerely,
+Devon Halley Principal Deloitte Consulting LLP
+As used in this document, "Deloitte" means Deloitte Consulting LLP, a subsidiary of Deloitte LLP. Please see www.deloitte.com/us/about for a detailed description of our legal structure. Certain services may not be available to attest clients under the rules and regulations of public accounting.
+ii | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Executive Summary
+Veterans see a world-class health and benefit system hindered by a frustrating and fragmented digital experience. The root cause is structural: delivery of new features has been distributed across many teams, but accountability for the endto-end Veteran journey has not. This predictable pattern results in teams optimizing their individual components while the overall experience for the Veteran suffers, creating friction for users and increasing long-term operational risk for the VA.
+We Have Solved This Problem at Scale
+Our readiness to address this challenge is demonstrated through current, operational work in complex, regulated environments. As a core partner supporting VA Lighthouse, we help operate a platform that securely handles 160-180 million data requests per month for nearly 200,000 Veterans. For the State of Michigan, we built the integrated benefits portal serving 3.8 million users, and for Eastern Health, we unified 15 disparate clinical applications into a single patientcentered platform. This experience demonstrates we can deliver a seamless digital experience for large populations receiving critical government services. This experience, combined with lessons on reliability at scale from serving clients like Target, allows us to translate the best commercial principles into actionable strategies that serve a public mission.
+
+Our Proposed Blueprint: A 4-Step Plan for a Unified VA.gov
+We recommend a pragmatic approach focused on establishing accountability and delivering tangible value to Veterans quickly.
+
+1. Establish a single accountable partner
+Appoint a single integrator responsible for the entire end-to-end Veteran journey. This closes the gap between distributed delivery and centralized accountability, so all the pieces fit together to serve the Veteran.
+2. Build a guided and personalized experience
+Create an experience that anticipates needs, remembers context from previous visits, and actively guides users to the next logical step. This removes the burden on Veterans to navigate the bureaucracy themselves, reducing confusion and improving task completion.
+
+3. Deploy on a modern, secure platform
+Build the experience on a modular, API-driven architecture that connects securely to legacy systems. This technical engine enables personalization and allows for the rapid, safe deployment of new features without disrupting service for Veterans.
+4. Measure and improve continuously
+Shift the measure of success from shipping features to improving Veteran outcomes. By continuously testing new designs with users, we enable each release to deliver real, measurable value and build trust with every interaction.
+
+To make sure this modern experience serves all Veterans, especially those with lower digital literacy, we can also integrate this work with Deloitte's unique partnership with the Savannah College of Art and Design (SCAD). Their world-class service design expertise will help translate complex VA processes into intuitive, human-centered designs, so that no Veteran is left behind.
+Recommended Next Step: A Strategic Discovery Sprint
+To build momentum and provide the clarity needed for decisive action, we recommend launching a 6-week strategic discovery sprint. This is not a lengthy study; it is a focused, collaborative effort between our senior strategists and your leadership team. This sprint will deliver three concrete outputs:
+1. A joint implementation roadmap for the first 12-18 months. 2. A detailed target architecture for the highest-priority veteran journey (e.g., "Check a claim"). 3. A data-driven business case to support the multi-year modernization effort.
+This approach provides the clarity and confidence needed to take decisive action, and positions the next investment in VA.gov to deliver lasting value for America's Veterans. It is a practical first step that gives VA the opportunity to align on a clear vision and delivery approach before awarding additional large-scale work.
+iii | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Table of Contents
+iii Executive Summary 01 The Opportunity Ahead 02 Why We'll Succeed Where Others Stalled 03 What VA Requires in a Modernization Partner and Why Deloitte Is the Right Choice 05 A Vision for the Future 05 Core Design Principles 06 Our Methodology 07 Technical Modernization and Platform Strategy 08 Coexistence and Transition 08 Content Experience 08 Analytics and Observability 09 Governance, Operating Model, and Sustainability 09 Known Limitations, Risks, and Trade-offs 10 The Path Forward A01 Appendix A - Company Overview A02 Appendix B - Case Studies A05 Appendix C - Future-State Homepage Concepts A09 Appendix D - Advance Human Experience (HE) Assessment (Scope and Intent)
+iv | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+The Opportunity Ahead
+There is no mission in federal service more important than caring for America's Veterans, their families, caregivers, and survivors.
+The Department of Veterans Affairs (VA) stands at an inflection point. Modernizing VA.gov is an opportunity to reimagine how people find answers, take action, and get help faster, more easily, and with greater confidence. Because many Veterans are generally reluctant to ask for help, VA.gov can be the difference between connection and isolation, and sometimes life and death. This is not a website refresh. It is a chance to better connect the nation's largest integrated health system and one of its most complex benefits organizations through a cohesive, mission-driven experience. Our philosophy is that VA.gov is not a standalone product, but the connective tissue across the full ecosystem of channels, including phone, inperson, mobile, correspondence, and assisted services, so a Veteran's journey is guided with clarity, efficiency, and humanity. To realize this opportunity, our response tells a story in three parts. First, we offer a clear-eyed diagnosis of Why We'll Succeed Where Others Stalled, identifying the pattern of fragmented accountability that this modernization must break. Second, we present A Vision for the Future, a tangible view of a more predictive and personalized experience centered on a digital agent that guides Veterans to the outcomes they need. Finally, we detail the engine that drives this vision: a comprehensive strategy for Technical Modernization, Delivery, and Governance, grounded in proven experience and an unwavering focus on Veteran outcomes. This is our blueprint for turning ambition into reality. VA is not a single enterprise. It delivers multiple missions across health care, benefits, memorial services, research, and national emergency response, often at the same time. Many Veterans use sophisticated commercial experiences, and most have operated or are familiar with complex warfighting systems. The challenge is that VA's current platforms were not designed as a single, coherent experience across missions. Multiple logins, fractured navigation paths, inaccessible or outdated content, and inconsistent workflows create unnecessary friction and a poor user experience. Deloitte's assessment of 90-day user submitted feedback reinforces this. The Veterans surveyed praise the quality of VA care, the consolidated nature of the site, and the strength of tools like My VA and the Health and Benefits app. They also voice persistent difficulty finding information, repeated identity prompts, broken workflows, inaccessible layouts, and confusion around claims and appeals, pharmacy refills, medical records, and dependency updates.
+Figure 1. VA.gov is not just HTML and CSS--VA.gov is the culmination of a range of data and services that need to come together to create Veterans' digital experience.
+This modernization is an opportunity to align design, content, architecture, identity, services, data and governance into one coordinated experience because Veterans and their families understand and experience VA as one system. End-to-end integration will take sequenced steps, but meaningful near-term improvements can quickly reduce the biggest pain points, earn trust through visible progress, and sharpen prioritization for the heavier lifts that follow. Each release makes it easier for Veterans and their families to get what they need in real time, reliably and with confidence.
+01 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Why We'll Succeed Where Others Stalled
+VA.gov has been modernized before with significant investment and meaningful progress. Veterans routinely acknowledge what is working, including the consolidated nature of the site and flagship digital tools. That same feedback also indicates that, despite improvements, the experience still too often feels like navigating several different VAs at once. The predictable result is avoidable friction in everyday needs such as checking claim status, managing appeals, refilling prescriptions, accessing medical records, and updating dependents.
+Prior modernizations fell short not from a lack of effort or talent, but because work landed as discrete programs inside a fragmented ecosystem. When a Veteran journey crosses identity, data, content, and workflows owned by different teams and vendors, incremental fixes can improve components, but the overall path remains inconsistent. At VA's national scale, success requires a partner that can take accountability for integration and always-on operating reliability across the whole lifecycle, not just deliver features inside a boundary. In practice: · Strong point solutions exist, but they cannot compensate when upstream or downstream steps break. · Journeys still fail at system disconnection points, including identity, data dependencies, navigation, content, and
+workflow handoffs that span multiple owners. · Veterans judge outcomes, not internal ownership. A Veteran does not experience program boundaries; they
+experience whether the job got done.
+VA must avoid the common patterns to larger digital transformations, where delivery gets distributed, but accountability does not. The predictable result is optimizing parts while no one has the mandate or reach to make the end-to-end journey whole. Other organizations have succeeded by avoiding: · Fragmented delivery that increases coordination overhead and leaves integration risks unmanaged. · Narrow scope that optimize touchpoints instead of journeys. · Design improvements without platform authority, where UX polish cannot overcome identity, integration, data
+latency, or workflow constraints. · Limited accountability for end-to-end Veteran outcomes, including recovery when something fails.
+To avoid this pattern, we recommend that Deloitte serve as the single accountable partner responsible for the entire Veteran journey, not just discrete features. Our methodology, laid out more explicitly in Technical Modernization, Delivery, and Governance, works so that every technical and design decision is measured against one metric: whether the Veteran's task was completed, from start to finish. Our experience has shown that what works is running modernization as an always-on national platform, adapting the operating discipline of leading commercial platforms that operate when trust, uptime, security, and continuous change are non negotiable. That requires a single integrator accountable for end-to-end Veteran journeys, with the engineering and operating discipline to manage the real points of disconnection across VA.gov. With clear accountability and platform discipline, the team can ship safely in small increments and preserve continuity across handoffs, so issues do not become Veteran-facing dead ends.
+02 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+What VA Requires in a Modernization Partner and Why Deloitte Is the Right Choice
+VA can only overcome these challenges with a partner that can deliver an integrated transformation across design, content, identity, platform architecture, governance, and the operating model, while keeping services stable for millions of daily users. Meeting these standards demand a partner with the capabilities to:
+Serve as the single accountable integrator, empowered to innovate and deliver at scale
+· Own end-to-end Veteran journeys across Veterans Health Administration (VHA), Veterans Benefits Administration (VBA), and National Cemetery Administration (NCA), not page-level outputs.
+· Establish clear decision rights, governance, and escalation to accelerate decisions and resolve conflicts. · Innovate with VA to move from pilot to production quickly, prioritizing agentic, personalized assistance through
+rapid prototyping. · Orchestrate cross-team dependencies so Veterans experience one continuous journey across identity, data, workflows,
+and channels.
+What this looks like in practice: Our healthcare experience directly mirrors the VA's challenge of integrating fragmented systems to serve a complex population with a single, human-centered experience. For Eastern Health, we tackled this by unifying disparate cancer screening applications onto a modern integrated platform, eliminating manual steps and providing practitioners with a complete, patient-centered view across the continuum of care. Similarly, for Gateway Health, we defined and launched their "Wholecare" identity, creating a cohesive brand and roadmap for serving at-risk members based on their total needs, not just their clinical diagnoses. This combination of deep systems integration and holistic, mission-driven strategy is central to our approach, and has proven to increase access, improve outcomes, and build trust with the communities we serve.
+Modernize at national scale without adversely impacting Veterans
+· Deliver incremental, reversible releases with clear readiness checks and tested rollback plans. · Operate reliably under peak demand with proactive monitoring and incident response maturity. · Protect Veteran-facing critical workflows during change, including claims, appeals, pharmacy, and records.
+What this looks like in practice: Deloitte has helped large organizations with fragmented business lines deliver a consistent end-to-end service experience, not just a better website. For example, we supported Target's high-volume digital-to-store ecosystem and helped Chipotle modernize a regulated, operationally complex environment into a digital ordering and loyalty platform. The mission differs, but the constraints are similar: modernizing at scale, integrating legacy systems, maintaining continuity across handoffs, synchronizing back office and customer facing services, and sustaining trust through continuous improvement. The core principle through modernization was using feature flags and canary releases to de-risk the deployment of new checkout functions, which is directly applicable to how we will protect mission-critical Veteran workflows like `refill a prescription' or `submit a claim' during modernization.
+03 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Deliver seamless, secure access that removes identity friction
+· Implement consistent single sign-on (SSO) and account recovery across experiences. [Note: this is addressed in depth in the Deloitte response to SAM.gov Notice ID: 365357 - Sources Sought for Exploring NextGeneration Digital Identity, Authentication, and Navigation on VA.gov]
+· Reduce repeated identity prompts while maintaining strong security and fraud controls. · Design authentication as a journey enabler that lowers drop-off and rework in high-need tasks.
+What this looks like in practice: Our proposed direction reflects lessons learned and known tradeoffs from federal and commercial transformations, including identity proofing, recovery, and account management workflows that are consistent across health, benefits, appeals, education, loans, and memorial services. For Macy's, we deployed personalization that integrated identity, preferences, and behavior to tailor experiences in real time, demonstrating how consistent identity signals and experience design can reduce friction and guide next steps.
+Run a Veteran-outcome product operating model that sustains improvement
+· Drive prioritization of roadmaps and content and information architecture choices using agile frameworks such as Jobs to Be Done ( JTBD).
+· Leverage always-on listening tools for digital experience analytics to capture in-the-moment feedback, sentiment, and friction signals across key journeys.
+· Continuously test with Veterans to keep the experience clear, usable, and effective--including checkpoints where new features must pass strict accessibility and mobile performance standards.
+· Measure success by Veteran outcomes after each release, including completion, time-to-task, and confidence.
+What this looks like in practice: Our teams include Veterans, Reservists, and military family members who actively use VA.gov, bringing firsthand customer friction into day-to-day prioritization. We've already performed extensive sentiment analysis through tools already in play at VA (e.g., VSignals, ESignals) and will extend that perspective with always-on listening using tools (e.g., Qualtrics and Medallia) to translate insights into roadmaps and releases. We've applied the same approach at scale elsewhere, including Deloitte's Qualtrics implementation for Kentucky's Cabinet for Health and Family Services (CHFS), where feedback and analytics informed 27 user-driven backlog recommendations and a 14-point increase in satisfaction.
+04 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+A Vision for the Future
+With the right delivery model and clear authority, we will deliver an achievable future state that creates measurable impact.
+VA.gov is positioned to become the one place Veterans rely on for pivotal life moments across health care, benefits, and services, without bouncing between logins, sites, or contradictory steps. Instead of asking Veterans to figure out where to go next, the experience is designed to recognize who they are, understand what they are trying to do, and guide them forward with clear next steps, visible progress, and an easy path to a person when self-service is not enough across web, mobile, phone, inperson, and assisted support.
+After sign-in, each Veteran is met by a personalized digital agent that remembers preferences and context, such as what they recently started, what is pending, what they are eligible for, and how they prefer to communicate. It brings the right actions to the top, explains what is needed and why, and keeps everything in one thread so Veterans do not have to re-tell their story every time they switch
+
+channels. Privacy and security remain foundational, with the agent designed to use only authorized data and to provide clear controls and transparency.
+In practice, when a Veteran comes to VA.gov to track a claim, refill a prescription, review records, update dependents, prepare for separation or transition, or plan for end of life, VA.gov immediately shows the next steps. Veterans see what is required, what happens next, and how to get help. Status becomes plain-language guidance such as "Received," "We are waiting on," "You can do this now," and "Talk to a person," so progress feels predictable.
+Behind the scenes, the future experience is supported by a modern, modular platform that connects to legacy systems while modernization continues, avoiding an all-at-once rebuild. Improvements roll out in small, measurable steps that protect day-to-day use, work reliably on mobile even with limited connectivity, and treat accessibility as a default rather than a retrofit. When self-service breaks, the handoff stays clean and the next channel picks up with context rather than putting the onus of explanation on the Veteran.
+
+Core Design Principles
+This future can be achieved through a dedicated set of design principles, aligning every decision to the product vision to strengthen the experience.
+
+Design principle
+Veteran-first, outcome-first
+Simplify trust and access
+Personalize with purpose
+Communication is part of the experience Mobile excellence and accessibility by default
+Design out dead ends
+Continuous improvement, operationalized
+
+What it means
+
+Example
+
+Measure success by task completion with confidence, not clicks; define progress indicators and completion criteria for every high-need journey.
+
+"Track claim" is complete when the Veteran understands status, next steps, and timelines-- not when they reach a page.
+
+Provide commercial-grade single sign-on (SSO) and recovery; reduce redundant prompts; remove barriers tied to ID.me or Login.gov while maintaining security.
+
+One consistent sign-in and recovery flow across services so Veterans aren't forced to sign in each time they switch tasks.
+
+Make My VA adapt content and pathways based on profile and history to shorten time-to-task and reduce confusion.
+
+A personalized digital agent after sign-in that remembers context and surfaces next-best actions.
+
+Unify notifications, messaging, and status with contextual guidance--end-to-end, not bolted on.
+
+Refill confirmation, shipment updates, and "contact pharmacy" live together.
+
+Design for screen readers, real-world bandwidth, and the devices Veterans actually use.
+
+Forms are optimized for mobile completion and resumability, not just desktop use.
+
+Build in help and supported handoffs that preserve context so Veterans don't repeat identity, intent, or prior steps across channels.
+
+When identity proofing fails or a workflow breaks, the Veteran gets a clear recovery path and supported handoff--not a loop.
+
+Improve every release by fixing root causes where Veterans get stuck, drop off, or request help-- tracked to measurable targets.
+
+If an evidence-upload step drives abandonment, it becomes a prioritized fix with a measurable improvement target.
+
+05 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Our Methodology
+We will treat VA.gov as a product with a clear vision, measurable outcomes, and an operating rhythm that sustains improvement over time. We will start with goal-based workshops to align leaders and delivery teams on the product vision, success measures, decision rights, and a shared backlog and roadmap. In parallel, we will align brand voice and tone and content so the site communicates consistently across benefits, health, and services. Veterans should always know where they are, trust what they see, and know what to do next.
+Next, we will synthesize existing research and analytics across VA to avoid re-learning and quickly pinpoint where the experience breaks today, including identity loops, search failures, dead ends, inconsistent terminology, and drop-offs in high-need workflows. We will then fill gaps with targeted research, including AI-enabled methods to scale insight, while keeping conclusions grounded in direct Veteran feedback and accessibility validation. We view the National Design Studio as a critical partner in this effort and would operate as a force multiplier for their human-centered design expertise. Our role would be to operationalize the design patterns and research insights they generate--providing the engineering and integration power to scale their vision across the enterprise and help codify their standards into the delivery lifecycle.
+We will use the JTBD framework to filter every major design and prioritization decision, promoting coherence. That logic will guide navigation, search, identity, communications, and task flows to work together to complete the job, not optimize isolated pages or tools.
+With that clarity, we will move into rapid prototyping to put end-to-end experiences in front of Veterans and stakeholders quickly. Prototypes will test the system, including SSO and recovery, My VA personalization, integrated communications, and mobile and accessibility behaviors. Continuous usability testing will keep releases aligned, combining quick-turn feedback with deeper evaluations for high-risk journeys such as claims, appeals, pharmacy refills, medical records, and dependency updates. Accessibility will be treated as a first-class requirement from the outset. In parallel, we will design platform-agnostic, AI-ready information architecture and user experience so VA.gov works across web and mobile today and is prepared for emerging engagement modes such as conversational assistance.
+Finally, we will deliver through incremental releases tied to objectives and key results (OKRs). Each release will be judged by outcomes Veterans will feel, including faster completion, fewer authentication failures, fewer dead ends, clearer status, and higher confidence. What works will scale, and what does not will be adjusted quickly, building a durable capability that continuously improves.
+What this looks like in practice: A national intelligence agency asked us to replace a public website that had been patched for decades, redefine its audience, and compete head-to-head with top commercial brands for talent. We started by aligning executives on a clear product vision and measurable outcomes, then combined stakeholder input with direct user research to pinpoint the highest-need intents and expose where the experience broke down. From there, we delivered a full rebrand and end-to-end rebuild across the information architecture, content model, CMS, UX, and search, providing a robust open-source platform that reduced long-term maintenance cost while enabling a modern, high-impact experience. The relaunch drew significant external attention for the upgraded brand, clarity, and usability.
+06 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Technical Modernization and Platform Strategy
+Vision is important, but it must be matched with delivery. This requires architecture that enables change without breakage, a transition approach that protects continuity, content systems that keep information clear and current, and instrumentation that proves each release improves Veteran outcomes.
+
+Architecture principles
+Our architecture enables VA.gov to evolve rapidly without forcing Veterans to relearn the site or locking VA into a single vendor. A modular, API-first design decomposes capabilities into discrete services with clear boundaries. Teams develop, test, and deploy improvements independently--faster and with less risk. APIs enable reuse across VA.gov, mobile applications, and other channels so the same rules and data power consistent experiences.
+An event-driven approach allows systems to react to changes through asynchronous events rather than fragile, tightly timed integrations. This supports timely updates for status changes, evidence receipt, and notifications while improving resilience when parts of the ecosystem are slow or unavailable.
+We see immediate value in modular, independently deployable services behind stable API contracts, so teams can ship improvements faster with less risk while keeping web and mobile experiences consistent. An event-driven backbone then propagates status changes and notifications more reliably and in near real time, even when downstream systems lag, and explicit, swappable interfaces reduce vendor lock-in.
+Building on VA Lighthouse
+This approach mirrors that of VA Lighthouse: expose consistent, well-governed APIs so VA services are delivered faster, with shared truth across internal teams and approved third parties. Lighthouse already delivers measurable impact at enterprise scale:
+· The Veteran Service History and Eligibility API processes 25 to 30 million production calls monthly, supporting eligibility determinations across education, home loans, disability, and pension.
+· Lighthouse serves nearly 200,000 Veterans monthly for medical records access, generating 160 to 180 million third-party API calls per month.
+Deloitte supports this high-visibility platform, helping operate and evolve a backbone that makes 50+ applications and APIs available for Veterans, VSOs, thirdparty users, and stakeholders.
+
+Cloud-native operation at mission scale
+Veterans depend on VA.gov during high-stakes moments where stability is required. A cloud-native, containerized platform delivers dynamic scaling, automated resilience, and faster, safer deployments through consistent runtime environments.
+What this looks like in practice: Deloitte helped Michigan's Department of Technology, Management, and Budget (DTMB) shift from program-centric services to a citizen-centric, mobile-first experience, delivered on an enterprise, cloud-based platform hosted in a FedRAMP-certified government cloud. MI Bridges became a single entry point to apply for and manage benefits across six programs, with document upload, digital notices, multilingual support, and accessibility built in, plus deep integrations (single sign-on, state systems, and 2-1-1 resources). The platform scaled to 3.8M+ registered users and 11M+ applications, drove ~75% mobile usage, and cut application time ~50%, earning multiple state and industry awards.
+Open standards and public developer engagement so VA can scale talent and transparency
+Open standards reduce dependence on proprietary protocols and expand the pool of people who can build and maintain VA capabilities. Public code repositories, strong documentation, and contribution pathways build on VA's proven practice of open-sourcing key components while supporting repeatable, testable approaches to Section 508 accessibility.
+
+07 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Coexistence and Transition
+Our transition strategy is coexistence-first. We modernize incrementally, respect ownership boundaries, and reduce risk by changing the experience in controlled slices, not wholesale rewrites. The goal is modernization, without creating two VA.gov sites.
+
+Multi-vendor discipline
+Modernization stalls when vendors optimize their lanes and integration becomes an afterthought. We operate contractor-to-contractor under government oversight with published API contracts, joint technical working sessions, aligned release windows, coordinated test data, and defined escalation paths when dependencies threaten Veteran outcomes.
+
+Incremental migration without disruption
+We modernize through bounded domains--authentication entry points, progress and indicators, evidence submission steps--while keeping familiar navigation and support channels intact. When legacy and emerging systems run in parallel, we implement clear routing rules, consistent identity handling, and coordinated content patterns so Veterans never experience a split experience.
+
+Release safely to ship with confidence
+We pair velocity with guardrails: feature flags, blue/green deployments, canary releases, and automated gates for security scanning, accessibility checks, performance budgets, and contract tests. End-to-end observability with tracing, journey health dashboards, and SLOs makes triage fast and data-based.
+
+What this looks like in practice: Deloitte partnered with TD Bank to modernize sign-in and authentication across digital channels, establishing a consistent approach, stronger verification for higher-risk actions, and improved oversight and measurement to manage risk and performance.
+Content Experience
+Content is not decoration. It is how Veterans understand eligibility, care, and status. If information is organized around internal VA structures, the experience fails even when the information itself is strong. We design content around user mental models and jobs-to-be-done so people quickly find what they need and confidently complete tasks.
+A Content Management System (CMS) succeeds when it works for Veterans and VA teams who keep the site current. We treat content administrators as first-class users, building for speed, consistency, and compliance through structured content models, shared taxonomy, standardized workflows, plain-language standards, and editorial enablement--including AI-assisted helpers and accessibility checkers. As Veterans increasingly use AI assistants, VA can adapt content structure for both people and AI through clearer question-and-answer language and consistent page patterns--reducing confusion and reinforcing trust.
+What this looks like in practice: At Tiffany & Co., we learned that organizing a complex product catalog around customer intents (`gifting,' `celebrating a moment') dramatically increased engagement compared to organizing it around internal business units (`jewelry,' `watches'). We will apply this exact principle to VA.gov, structuring content around Veteran intents (`preparing for separation,' `managing my health') rather than bureaucratic silos, thereby turning content into a driver of trust and action.
+Analytics and Observability
+Modernization only succeeds if VA can continuously see whether changes improve Veteran outcomes. We embed analytics and observability so every release can be evaluated against OKRs and the product vision. We instrument critical journeys to understand completion, friction, and confidence drivers like time-to-completion, error rates, abandonment and dead ends, cross-device and cross-session behavior, and outcome tracking from intent through completion. Accessibility and performance monitoring are continuous so Veterans can complete tasks regardless of assistive technology use or network variability.
+Together, these technical choices turn the vision into an operable reality: an experience that modernizes continuously, reduces system break points systematically, and proves tangible value to Veterans and their families.
+08 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Governance, Operating Model, and Sustainability
+Sustaining VA.gov as a single product requires governance that protects the end-to-end Veteran journey. Even highperforming organizations can fall into a build trap where continuous releases don't improve outcomes. Decisions should be anchored to shared product direction, measurable value, and clear platform decision rights.
+
+One doctrine, many delivery teams
+One VA.gov experience requires one consistent way of working. A small central team will set and enforce shared standards while delivery teams build and release quickly within those boundaries. The central team sets standards and makes crosscutting decisions for:
+
+· Experience: key journeys, interaction patterns, accessibility, service design
+· Platform: architecture, integration patterns, performance, security, shared services
+
+· Content: publishing standards, governance, taxonomy and metadata, plain language
+· Identity and access: sign-on, recovery, session behavior, trust and security
+
+Fast learning, not just fast shipping
+We aim to improve VA.gov with a clear, repeatable cadence: product roadmaps organized by intents and outcomes, quarterly outcome reviews against OKRs, continuous research and accessibility validation embedded in delivery, and a release-and-learn loop that treats each release as a measurable hypothesis.
+Shipping frequently is valuable but not proof of progress. We'll avoid the build trap by tying releases to measurable improvements in Veteran experience with defined OKRs, analytics plus Veteran validation, and clear decisions to scale, refine, or stop. Velocity means fast learning and fast improvement, not simply fast shipping.
+
+Known Limitations, Risks, and Trade-offs
+Modernizing VA.gov is a multi-year transformation with real constraints. The goal is not to eliminate complexity overnight, but to manage it deliberately so Veterans experience continuity, clarity, and support even while underlying systems modernize. The table below summarizes the key challenges we plan for based on lessons learned from comparable efforts.
+
+Area
+
+Limitation, risk, or trade-off
+
+What we do about it
+
+Phased modernization
+
+You cannot fix everything on day one, and an all-at-once release increases risk.
+
+Break large journeys into shippable cuts that remove friction, reduce dead ends, clarify status, and improve completion, while protecting the end-toend vision.
+
+One Veteran, many journeys
+
+Improving one flow can fragment the overall experience.
+
+Make continuity a requirement of every change, consistent language, predictable status and progress patterns, and consistent help and handoffs across programs.
+
+Organization and governance realities
+
+Misalignment creates rework, and OKRs can drift into activity tracking.
+
+Define a shared, testable definition of a completed journey, use it to anchor JTBD, OKRs, and backlogs, set decision guardrails, and run outcome reviews on a steady cadence.
+
+API-first expansion
+
+More handoffs can break experience, especially identity, data timing, and message consistency.
+
+Treat continuity as non-negotiable, ship small releases with recovery paths, consistent communications, and rollback so issues do not become Veteranfacing dead ends.
+
+Operate and measure
+
+"Always on" expectations raise the bar for monitoring and response, page metrics can hide problems.
+
+Multi-layer monitoring (completion, auth failures, stuck signals, help escalations), always-on feedback loops, rapid response teams, and outcome metrics as release blockers.
+
+09 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+The Path Forward
+VA has already shown that Veteran-centered modernization works when it is delivered safely, measured effectively, and grounded in what Veterans are trying to accomplish. The opportunity now is to turn that momentum into one coherent, end-to-end experience, reducing disconnects across health, benefits, and services while protecting continuity for the millions who rely on VA.gov every day.
+We are prepared to begin immediately, starting with focused workshops to align stakeholders on a unified vision and delivery plan. From the outset, the emphasis remains the same: reduce identity friction, remove dead ends, clarify status and next steps, and when self-service breaks down, provide a clean, supported handoff without Veterans restarting their story.
+This is where the right partner matters. The opportunity now is to convert our shared intent into measurable progress. We bring the combination this work demands: Veteran-journey design grounded in research and data; disciplined delivery that can operate across owners, platforms, and policy constraints; and the governance and measurement needed to turn intent into repeatable outcomes without disrupting what already works. We are ready to move from aligned ambition to delivered results and turn momentum into outcomes Veterans can feel now.
+10 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Appendix A - Company Overview
+Company Name: Deloitte Consulting LLP (Deloitte US)
+Location: United States (nationwide offices and delivery centers)
+Deloitte Consulting LLP is a business and technology consulting firm serving both commercial and Government and Public Services (GPS) clients with end-to-end capabilities across strategy, experience design, engineering, cloud modernization, data and analytics, cybersecurity, and operating model transformation. Deloitte brings particular depth in building, scaling, and operating mission-level digital experiences that must remain secure, accessible, highly available, and continuously improving, even while modernizing underlying systems and integrations. Deloitte's approach emphasizes modular, API-first architectures; resilient integration patterns; and disciplined product, engineering, and operations practices that enable fast iteration without disrupting service continuity or user trust.
+Industry recognition: Deloitte has been recognized as a Leader in the Gartner Magic Quadrant for Digital Experience Services (2024, 2025), including top positioning for Ability to Execute and Completeness of Vision, and achieved the highest scores across use cases in the 2025 Gartner Critical Capabilities for Digital Experience Services report.
+Commercial excellence: Deloitte helps large, high-expectation brands turn fragmented digital estates into cohesive, personalized, omnichannel experiences--the kind customers compare every other experience against. Our commercial work consistently demonstrates the ability to modernize complex platforms while simultaneously improving clarity, speed, conversion, reliability, and continuous delivery-- bringing a practical playbook for moving fast without breaking trust, and for translating bold experience vision into day-to-day execution.
+GPS excellence: Deloitte's Government and Public Services practice is designed for impact and brings experience delivering in environments where governance, security, accessibility, acquisition constraints, and stakeholder complexity are inherent to delivery. Deloitte serves all 15 US cabinet-level agencies and brings capabilities spanning customer experience transformation, cloud and technology consulting, operations, and analytics. Deloitte pairs delivery discipline with modern product and engineering methods, including DevSecOps-enabled pipelines and "secure software supply chain" practices to build, test, harden, and deploy improvements reliably.
+Across commercial and GPS, Deloitte brings repeatable patterns for benefits and eligibility-driven experiences where identity, security, workflow orchestration, content clarity, and measurable outcomes determine success. This combination supports modernization that protects continuity of service while improving completion, trust, accessibility, and the timeliness of user-visible status updates.
+Commitment to Veterans and the VA mission Deloitte is committed to supporting veterans and military-connected families through hiring, development, and long-term community support. This commitment is reflected in Deloitte's Veteran, Military, Spouse and Allies (VMSA) community, which includes more than 3,000 veterans and over 1,000 military spouses, military children, caregivers, and allies. Deloitte has also been recognized multiple times as a "Best for Vets Employer," and has received Military Friendly Employer and Military Spouse Friendly Employer designations. Deloitte supports the community through initiatives such as its Military Spouse Initiative, focused on attracting, supporting, and retaining military spouses in their careers.
+A01 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Appendix B - Case Studies
+
+Ambition
+Michigan's Department of Technology, Management, and Budget (DTMB) aimed to shift from program-by-program self-service to a single, citizen-centric experience that helps residents find answers, take action, and get help without bouncing across systems. MI Bridges was conceived as the connective tissue across benefits, case updates, document exchange, and community referrals--mobile-first, cloudfirst, accessible, and built to scale--so residents and partner organizations could complete end-to-end journeys with clarity and confidence.
+Action
+In close collaboration with DTMB, we treated MI Bridges as a continuously improving product, using iterative, humancentered design and Agile delivery to focus on the moments that matter most. High-impact modules went through multiple rounds of user research and usability testing before and during design sprints, with findings synthesized into repeatable patterns to reduce rework and provide consistency. The platform was implemented on Salesforce Lightning in a secure FedRAMP-certified government cloud, with disciplined integration to state systems through the enterprise service bus (the State of Michigan HUB) to preserve continuity across identity, data, and workflows.
+Achievement
+MI Bridges now provides a reliable, integrated entry point for residents to apply for and manage benefits, upload documents, receive notifications, and connect to local resources--supported by enterprise integrations (e.g., MiLogin single sign-on, Master Person Index, Michigan 2-1-1, caseworker systems, analytics, and messaging). Outcomes include 3.8M+ registered users, 11M+ applications submitted, ~75% mobile usage, a 50% reduction in application completion time (20 minutes to 10 minutes), 600K+ proactive referrals, and 30K+ resources surfaced via 2-1-1 integration, along with multiple state and industry awards for citizen-centric digital delivery.
+Ambition
+Gateway Health wanted to better reflect what it stands for: improving health by addressing not only clinical needs, but also the social determinants of health (e.g., food access, transportation, income) that shape outcomes for underserved, at-risk members. In a crowded market where "health equity" is often more slogan than strategy, they
+
+needed a purpose-led identity that clearly differentiated their approach, strengthened relevance in Pennsylvania, and re-energized employees around a shared mission.
+Action
+We built the brand from the inside out--clarifying mission, vision, and values, then translating that strategy into a human-centered brand proposition: Wholecare. From there, we designed a cohesive visual system to make the idea tangible and consistent across touchpoints, including a new logo inspired by the human form and a modular identity built from simple shapes forming a whole--signaling coordinated, holistic care. Warm, approachable color and imagery choices reinforced authenticity and helped the brand stand apart from more clinical, "sterile" category conventions.
+Achievement
+The new Wholecare brand strengthened internal alignment and created a clearer, more compelling story for members and prospects--supporting both employee engagement and market growth. Within six months, outcomes included ~30,000 new Medicaid members (11% increase), 35% higher website traffic, and a 200% increase in social followers and impressions, alongside recognition from GDUSA Health + Wellness Design Awards (2021), Health Advertising Awards (Gold, Logo Design, 2021), and The One Show (Identity System shortlist, 2021).
+Ambition
+Eastern Health, Newfoundland and Labrador's largest integrated health organization, is responsible for the province's breast, cervical, and colorectal cancer screening programs--but siloed legacy technology was slowing preventive care teams down. Standalone screening applications sat apart from core clinical information systems, forcing practitioners through manual steps to reconcile and record patient data, increasing effort, delays, and the risk of human error that could affect screening accuracy. Given the proven impact of screening on mortality reduction and cost-effective care, Eastern Health engaged Deloitte Digital to modernize and integrate its screening capabilities.
+Action
+To standardize and modernize the technology underpinning the screening programs, we implemented Health Connect, built on Salesforce Health Cloud customer relationship management (CRM). The solution integrated health records with a client registry to speed access to test results, reduce patient wait times, and lower error
+
+A02 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+risk through more automated, connected workflows. Using Agile, user-centered, and co-design methods, we configured Health Connect with end-to-end program capabilities--campaign management, target population and bulk eligibility, analytics and reporting, screening and results communications, and scheduling and follow-up management--so providers could manage screening journeys more consistently and efficiently.
+Achievement
+Eastern Health now has an integrated, patient-centered view of screening initiatives and a scalable foundation for future population-based disease screening programs. The modernization improved access to reliable data and the speed and efficiency of program reporting, strengthened providers' ability to navigate patients across the continuum of care, accelerated screening pathways to enable faster access to therapy when needed, and enabled more direct engagement around support services. The platform also supports integration with third-party tools for security, data encryption, and quality assurance--helping the province advance its position as a leader in preventive care.
+Ambition
+TD Bank set out to modernize customer identity and access as a mission-critical foundation for trust--making it easier for customers to sign in and complete high-value tasks securely across web, mobile, interactive voice response (IVR), contact centers, and branch-assisted channels. With customer identity and access management (CIAM) historically decentralized across regions, TD needed a more unified, scalable approach that reduced friction and inconsistency while strengthening protection for high-risk transactions and meeting evolving regulatory and risk expectations.
+Action
+With Deloitte as a strategic and delivery partner, TD began with a current-state assessment and roadmap, then designed a unified CIAM architecture and operating model to standardize identity journeys end to end. The program elevated identity proofing earlier in the customer journey, enabled continuous authentication for higher-risk actions, and introduced stronger governance, risk, and controls (GRC) with clear metrics (key risk indicators and key performance indicators) to monitor performance. Delivery included modern identity-proofing and fraud defenses-- document verification services (DVS), unified identity proofing (UIDP), and real-time checks (e.g., one-time passwords, identity fraud alerts, out-of-wallet questions, and attribute matching)--paired with orchestration-based authentication and contact-center integration to preserve continuity when customers need assisted support.
+
+Achievement TD's next-generation CIAM platform is improving secure access and reducing identity friction across channels while simplifying the underlying ecosystem for greater agility and scalability. Customer outcomes include more consistent experiences across touchpoints, streamlined onboarding and self-service account management, faster issue resolution through assisted channels, and stronger fraud protection with modern authentication; enterprise outcomes include centralized policy and orchestration management, consolidated identity systems, improved resilience, and architecture alignment with compliance requirements-- creating a durable foundation for future digital innovation.
+Ambition Tiffany & Co. needed to strengthen its global Tiffany. com experience across markets while operating within a complex, multi-site ecosystem. The goal was to reduce customer friction and make it easier for people to discover the right product and confidently take action, while elevating the digital flagship into a cohesive extension of the in-store experience.
+Action We revamped Tiffany.com end-to-end, aligning information architecture, content, and commerce into a more guided journey that connects seamlessly with physical flagship stores. The experience was organized around customer intent--especially gifting and shared moments--and activated through targeted content and personalization designed to resonate with newly defined archetype personas and support global consistency.
+Achievement The new experience delivered a stronger blend of content and commerce, improving product discovery and engagement while deepening customer connection to the Tiffany brand through a richer, more dynamic digital commerce journey.
+Ambition Chipotle's in-restaurant experience was under strain: lines were at capacity, creating friction and limiting throughput even as demand remained strong. They needed a more reliable, end-to-end ordering journey that reduced wait time, expanded access, and helped customers complete high-intent tasks quickly and confidently--without disrupting store operations.
+
+A03 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Action
+We redesigned the ordering experience as a guided, mobile-first journey that brought the speed and simplicity of the counter line into a digital channel. The solution focused on clear next steps, fewer dead ends, and operationally safe rollout--so customers could place orders easily while restaurants maintained continuity during peak demand.
+Achievement
+The result was a smoother, higher-capacity ordering experience that increased customer adoption and improved satisfaction. After launch, traffic doubled, mobile orders increased by 50%, the app rose to 4-5 star ratings on the Apple App Store, and it won a Webby Award for Best User Interface.
+Ambition
+Macy's saw that customers increasingly expect experiences that recognize who they are, reduce effort, and guide them to the right next step--without making them repeat themselves across channels. To meet that expectation at scale, Macy's needed to move beyond isolated, singlechannel campaigns and build connected, end-to-end journeys that feel seamless, relevant, and trustworthy from discovery through purchase and support.
+Action
+We partnered with Macy's and its ecosystem to establish the foundation for integrated journeys: unified data and identity signals, scalable content operations, and realtime experience orchestration using Adobe's technology stack. This enabled consistent decisioning and messaging across touchpoints, with the operating discipline to deliver improvements incrementally without disrupting critical customer workflows.
+Achievement
+By activating data-driven, personalized omnichannel journeys, Macy's improved continuity across channels and reduced customer friction--delivering more timely, relevant offers at scale. Results included 500M+ personalized offers sent since launch, 30M customers regularly reached with personalized offers, 50% of messages to rewards customers now personalized, and 70% loyalty program participation.
+
+Ambition
+Target wanted a mobile shopping experience that felt unmistakably "Target"--capturing the brand's signature wink through a fun, polished, and highly functional app experience. As Target's lead mobile agency, we set out to create a beautiful new way for guests to shop that delivered real utility while adding moments of unexpected delight.
+Action
+We partnered closely with Target to define a mobile strategy that was tightly integrated with business priorities--aligning experience design, feature roadmap, and platform decisions to what would drive guest value and retail outcomes. The work balanced creativity with the operational realities of a large, complex information technology (IT) environment so that the experience could be delivered reliably at scale.
+Achievement
+The result was a lighter, more engaging cross-platform mobile presence that reinvented how guests interact with Target on the go--while supporting commercial performance. Guests could discover trending items, browse weekly ads, build and manage customized lists, access registries, and shop the broader product catalog, delivering a more complete end-to-end shopping journey from inspiration to purchase.
+
+A04 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Appendix C - Future-State Homepage Concepts
+Early design concept directions for a modernized VA.gov homepage designed to reduce friction, highlight status and next steps, and connect users to benefits, health, and records more seamlessly.
+V. 01
+V. 02
+V. 03 A05 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+V. 01
+The Arrival concept reimagines the VA.gov front door to better support Veterans, especially first-time users, by rebalancing hierarchy around clarity, dignity expressed through respectful, human imagery, and task completion rather than early authentication or assumed knowledge. The design prioritizes a prominent search experience for high-intent users while introducing clearly defined service categories (Health and Well-Being, Benefits and Stability, and Life After Service) to help Veterans quickly understand what services exist and where their needs fit. This approach reduces cognitive load, supports outcome-based navigation, and allows Veterans to move confidently toward high-need tasks without being forced into premature sign-in or trial-and-error browsing. The overall approach is designed to feel more intuitive and trustworthy over time, giving Veterans multiple clear ways to begin without overwhelming them. By pairing familiar design patterns with a more human, service-oriented hierarchy, the front door supports both immediate needs and longer-term engagement. The structure also makes it easier to learn from real usage, such as what users are searching for and which tool are being utilized, so the experience can be refined incrementally with each release, improving clarity and speed without requiring constant redesign.
+A06 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+V. 02
+This bold design reflects the Veterans that served our country with boldness and bravery. The Veteran-first approach elevates high-need tasks into clear, scannable tiles. This design helps Veterans get things done fast by putting the most important tasks (like checking a claim status or finding a form) at the forefront. The big buttons, clear text, and tile layout are easy to use on a phone and make content easier to update over time based on what Veterans need most.
+A07 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+V. 03
+This redesign addresses the critical `Burden of Translation' facing our Veterans, who currently must navigate complex agency structures to find basic services. Our solution, the `Digital XO,' replaces this navigation maze with a `Smart Triage' Intent Engine. By inviting users to simply state, `Today I want to check my claim status,' we shift the interaction from passive browsing to active command, using social priming to guide them toward the right outcomes. Below the fold, a data-driven `Intents Grid' hierarchy prioritizes high-volume services like Health and Disability, enabling the majority of traffic to instantly find their destination. This moves VA.gov from a static library to a responsive service platform.
+A08 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+Appendix D - Advance Human Experience (HE) Assessment (Scope and Intent)
+In support of this Request for Information (RFI) response, we conducted a broad scan across VA.gov to understand pattern-level experience themes, then focused a deeper heuristic evaluation on 20+ pages spanning VA health benefits and VA home loan journeys. This advance view is intended to highlight practical, near-term opportunities to reduce friction and improve consistency--particularly where the experience can otherwise feel like "navigating several different VAs at once". What the HE assessment indicates (implications for early work) · Unify consistency and standards: Inconsistent user interface (UI) patterns across pages can undermine confidence
+and force Veterans to relearn behaviors; standardizing templates and component usage improves predictability and reduces errors. · Improve content clarity and reduce cognitive load: Veterans may have to sift through large amounts of information to determine what matters and what to do next; clearer chunking, prioritization, and plain, scannable language reduces cognitive burden and supports confident task completion. · Strengthen layout and visual hierarchy: Standardizing layout and visual hierarchy helps make priorities and system status clear, reduces misclicks, and supports faster understanding; clearer differentiation between primary vs. secondary links and progressive disclosure (e.g., accordions/tabs) can surface high-priority actions first. · Clarify navigation and information architecture (IA): IA is the organization/hierarchy/labeling of content; navigation is the interface mechanism (menus, links, search) that moves users through that structure--both should work together to support findability and understanding. · Consolidate search patterns: Search appearing in multiple locations can create confusion and inconsistent results; consolidating search into a single, predictable pattern and improving query support (e.g., autosuggest) can route users to the right content/tool faster.
+A09 | Copyright © 2026 Deloitte Development LLC. All rights reserved.
+
+

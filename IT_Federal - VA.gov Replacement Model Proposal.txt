@@ -1,0 +1,123 @@
+Request for Information (RFI) Replacement Model for VA.gov
+ Proposal Submitted by:
+IT Federal Sales LLC  
+Proposed Solution: Liferay Digital Experience Platform (DXP) 
+Date: February 4, 2026
+
+U.S. Department of Veterans Affairs Attn: RFI Evaluation Team Via Email: Allison.fulton@va.gov; evan.schlisserman@va.gov  Subject: Response to RFI - Replacement Model for VA.gov (Issued January 14, 2026)  Dear VA Evaluation Team:  IT Federal Sales would like to thank you for the opportunity to provide a response to the RFI re Replacement Model for VA.gov. IT Federal Sales is proud of its history as a service-disabled veteran owned small business (SDVOSB) technology solution provider to federal customers since August 2005. We have maintained a GSA MAS since June 2007 and have established a stellar reputation with both industry partners and government customers and an exceptional record of performance.
+IT Federal Sales is pleased to respond with Liferay Digital Experience Platform (DXP), a proven foundation for enterprise websites and authenticated experiences at federal scale. Liferay DXP enables secure, role-aware service journeys; governed content operations; and an extensible integration architecture--capabilities aligned to the VA's stated goals for long-term scalability, adaptability, and resilience.  As an SDVOSB, IT Federal Sales understands the importance of the VA's objective--to replace VA.gov with a premier, modern, secure, and Veteran-centric digital experience--and that this represents one of the most consequential digital modernization efforts in the federal government. IT Federal Sales recognizes that VA.gov is not only a public information site, but a mission-critical digital front door for Veterans, caregivers, families, and other stakeholders, and therefore must meet the highest standards for continuity of service, accessibility, security, performance, governance, and integration with a diverse portfolio of legacy and emerging systems.  We appreciate the opportunity to participate in follow-on engagement, provide demonstrations, and support technical workshops as the VA continues planning and requirements development.  Respectfully submitted,
+Justin Drunagel Sales Director IT Federal Sales LLC
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+Executive Introduction: About Liferay and Why It Matters for VA.gov Modernization The Department of Veterans Affairs' vision for the VA.gov Replacement Model is a modernization program of exceptional scale and visibility. VA.gov is not simply a public-facing website; it is the Department's primary digital entry point for benefits, healthcare, services, and information. Meaningful improvement requires coordinated modernization across experience design, platform architecture, content strategy, governance, analytics, and operating models--while maintaining continuity of service for millions of users and operating within a regulated federal environment.  Liferay, Inc. is a global Digital Experience Platform (DXP) vendor purpose-built for mission-critical enterprise websites and authenticated portals in government and highly regulated industries. Liferay's flagship product, Liferay Digital Experience Platform (DXP), supports enterprise web publishing and digital service delivery in a single governed platform, combining modern content management with workflow automation, role-based experiences, integration patterns, and operational governance.  Importantly, Liferay's relevance within VA is demonstrated in practice: Liferay is the platform powering the My HealtheVet experience on VA.gov, supporting secure authenticated Veteran healthcare journeys. This is directly aligned to the Replacement Model's critical need to deliver identity-aware, service-oriented experiences at scale without disruption.  Liferay's strategic focus on the public sector--including the U.S. federal ecosystem--further supports the VA's objectives. Liferay is designed for organizations that must meet accessibility mandates, enforce content governance, integrate across complex enterprise portfolios, and sustain long-term scalability and resilience. Liferay's partner ecosystem, including IT Federal Sales and leading federal systems integrators, reinforces a delivery model aligned with federal program execution and lifecycle support.  In addition to deployment credibility, Liferay has received independent analyst recognition. In Gartner's 2025 Critical Capabilities for Digital Experience Platforms research, Liferay achieved the highest ranking in the "Authenticated Experience" use case--validating Liferay's core strength in secure, role-aware digital journeys that mirror VA.gov's most critical functional requirements.  In summary, Liferay DXP provides a strong foundation for VA's replacement model by enabling VA to modernize as an enterprise website and an authenticated digital service platform--supporting phased transformation, continuity of operations, and long-term adaptability at federal scale.
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+1. Understanding of VA Objectives and Replacement Model Considerations IT Federal Sales and Liferay understand that VA is seeking industry input on technologies, approaches, and best practices that can fundamentally improve the digital experience across benefit portfolios. The Replacement Model must maintain continuity of service, integrate with a diverse systems landscape, operate in a regulated federal environment, and remain scalable and adaptable over the long term.  Liferay DXP supports these objectives by providing a governed enterprise web platform that is capable of simultaneously supporting broad public information delivery and secure authenticated service journeys. The platform is well suited for phased replacement strategies where VA can modernize portfolio-by-portfolio while maintaining stability and minimizing risk.
+Highlighted Alignment to VA Objectives
+� Continuity of service supported through phased rollout models and multi-site governance � Secure authenticated journeys supported through role-aware experiences and integration patterns � Strong governance and content operating model controls to improve consistency across portfolios � Long-term scalability and resilience through modular, extensible architecture
+2. Liferay DXP Capabilities for Enterprise Websites and VA.gov-Scale Operations Liferay DXP is designed for enterprise website programs that require consistent user experience, structured content reuse, strong editorial workflows, and scalable operations across multiple sites and program teams. For VA.gov, these capabilities support both the public experience and authenticated service delivery.  Key capabilities include modern content management with structured content types, reusable components, page templates, publishing workflows, and governance controls. These enable VA to standardize experiences while enabling distributed teams to deliver content rapidly under controlled approvals and auditability.
+Key Capabilities and value for VA.gov
+� Enterprise content reuse: reduce duplication and improve consistency across benefit portfolios � Workflow and approvals: enforce governance without slowing delivery � Component-based design systems: accelerate delivery and reduce UI fragmentation � Multi-site management: operate VA.gov as a coordinated enterprise ecosystem
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+3. Experience Design, Accessibility, and Veteran-Centric Outcomes VA's digital services must meet high standards for accessibility and usability. Liferay provides strong support for accessibility-first design and enterprise UX patterns. The platform is compatible with modern front-end approaches and supports responsive, mobile-first experiences.  The platform's personalization and segmentation capabilities can support Veteran-centric experiences that adjust content and journeys based on role, eligibility, preference, and intent signals, improving self-service success rates while ensuring consistent governance.
+4. Platform Architecture, Integration, and Legacy Modernization Approach VA's environment requires integration across many legacy and emerging systems. Liferay is frequently deployed as an integration-centric experience layer, enabling unified experiences that connect to multiple back-end systems via APIs, services, and event-driven patterns. This supports modernization without requiring replacement of all legacy components at once.  This architecture aligns to VA's need to deliver a seamless digital front door while allowing portfolios and underlying systems to modernize on independent timelines.
+5. Governance, Operating Model, and Analytics Enablement VA has recognized that modernization is not solely technical. Liferay supports the governance and operating model maturity needed for an enterprise-scale web program. Capabilities include role-based editorial permissions, structured workflow, staging environments, audit logging, and enterprise reporting.  These controls allow VA to increase speed and quality simultaneously: accelerating content operations while improving consistency, compliance, and visibility into bottlenecks, throughput, and performance.
+6. Liferay Roadmap
+Liferay is continuing to build Liferay DXP into a scalable, extensible, and cloud-native platform that empowers organizations to navigate digital transformation for the challenges of today--and tomorrow. Consistent with this investment strategy, Liferay's published roadmap emphasizes improvements that help agencies modernize with confidence while sustaining continuity of service and adopting new delivery models over time.
+VA's VA.gov Replacement Model will benefit from a platform committed to continuous investment in the areas most critical to federal-scale digital service delivery, including security and identity, content operations at enterprise scale, modular extensibility, performance, and cloud-native operational readiness.
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+ Strategic roadmap focus areas include:
+ Security and identity enablement to strengthen secure authenticated experiences and facilitate integration with enterprise identity ecosystems.
+ Operational governance enhancements to workflows, approvals, delegated administration, and content lifecycle controls to support distributed publishing models with centralized oversight.
+ Extensibility and composability improvements that reduce reliance on heavy custom code while increasing reuse of standard components across sites, portfolios, and teams.
+ Cloud-native scalability and operability, including ongoing investments in performance, resiliency, and deployment flexibility to support high-scale mission environments.
+Artificial Intelligence (AI) is a strategic roadmap dimension for Liferay DXP, particularly for improving content operations, searchability, and end-to-end efficiency in digital experience delivery. As federal agencies scale digital engagement and content velocity, AI-enabled tooling can reduce manual effort, improve consistency, and accelerate time-to-publish while maintaining governance controls. Examples of how AI fits within Liferay DXP include:
+ AI-driven content operations enhancements such as recommendations and improved discoverability of assets and related resources.
+ AI-assisted translation workflows to streamline multilingual publishing across large content libraries.
+ AI image generation to accelerate production of digital assets for pages and campaigns.  AI-powered content creation assistance to help authors draft and refine content faster
+while adhering to tone and editorial standards.
+For additional details on Liferay's published innovation roadmap, please refer to the link here: https://www.liferay.com/roadmap
+7. Summary and Recommended Next Steps
+Liferay DXP provides a strong foundation for VA's VA.gov Replacement Model as both an enterprise website platform and an authenticated service delivery platform. It enables Veteran-centric digital experiences, governed content operations, and integration-centric modernization--while supporting continuity of service and phased transformation strategies.  IT Federal Sales and Liferay welcome the opportunity to participate in follow-on discussions, including demonstrations and workshops to review replacement model patterns, integration architectures, governance models, and journey-level workflows supporting identity proofing, sign-in, recovery, and navigation.
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+Appendix A: Public Sector Customer Stories
+Customer stories referenced below are available through Liferay's Customer Stories hub. These examples demonstrate Liferay's applicability to government enterprise websites, intranets, and authenticated portals with strong governance, workflow, and integration requirements.   Customer Stories Hub: https://www.liferay.com/resources-hub/customer-stories
+My HealtheVet on VA.gov (U.S. Department of Veterans Affairs) https://www.myhealth.va.gov/mhv-portal-web/home  Liferay is the platform powering the My HealtheVet experience on VA.gov, supporting secure authenticated Veteran healthcare journeys. This reflects Liferay's suitability for identity-aware digital service experiences and provides a strong foundation aligned to the VA.gov Replacement Model's objectives for secure, Veteran-centric outcomes.
+Problem / Objective: Deliver secure, authenticated Veteran healthcare self-service and consolidate digital health journeys into VA.gov.
+Solution Approach: Liferay DXP provides the portal experience layer enabling authenticated access and a modernized journey framework supporting key My HealtheVet services on VA.gov.
+Outcomes / Value Delivered:
+ Supports secure authenticated service delivery at federal scale  Enables continuity of operations for Veteran-facing digital health experiences  Demonstrates real-world platform fit within VA's ecosystem
+Relevance to VA.gov Replacement Model: Direct evidence of Liferay suitability for VA.gov's most critical requirement: authenticated Veteran journeys delivered with continuity and reliability.
+My Navy Portal (U.S. Navy)
+https://www.liferay.com/resources/story/my-navy-portal 
+My Navy Portal serves as a consolidated intranet and digital hub for the U.S. Navy, providing a personalized experience for users and consolidating information and tools across multiple systems. Liferay highlights strong user satisfaction, performance, and design despite stringent security and network restrictions, and the program's roadmap includes continued integration of additional systems to support a true one-stop experience.
+Problem / Objective: Provide a consolidated intranet/digital hub for users to access information and tools across multiple systems in a controlled environment.
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+Solution Approach: Liferay DXP served as the unified experience platform, enabling personalization, system consolidation, and scalable delivery under strict security constraints.
+Outcomes / Value Delivered:
+ Centralized access to tools and information (one-stop experience)  Personalized experience supporting user productivity  Scalable integration roadmap for additional systems
+Relevance to VA.gov Replacement Model: Similar complexity to VA.gov portfolio consolidation: multiple systems, multiple audiences, and the need for governed, personalized access.
+Grants.gov (U.S. Federal) https://www.liferay.com/resources/story/grants-gov  Grants.gov selected Liferay as a platform solution as part of modernizing a federal program's digital experience. Liferay describes how Grants.gov pursued a modular architecture approach and integrated thirdparty plugins, custom development, and Liferay applications into a hybrid platform. This case study demonstrates applicability for environments where agencies must unify multiple legacy systems into a modern, improved constituent experience without disrupting services.
+Problem / Objective: Modernize a high-visibility federal platform and improve end-user experience while integrating legacy capabilities and third-party tools.
+Solution Approach: Liferay enabled a hybrid modernization approach combining platform components, integration of plugins, and extensibility to improve services without disruption.
+Outcomes / Value Delivered:
+ Improved platform extensibility and modernization flexibility  Hybrid integration approach supports phased transformation  Enhanced constituent experience while maintaining continuity
+Relevance to VA.gov Replacement Model: Demonstrates modernization approach suitable to VA's phased replacement model and integration-driven experience layer.
+City of Burbank (Public Sector Website Modernization) https://www.liferay.com/resources/story/city-of-burbank  The City of Burbank selected Liferay DXP to modernize its website and citizen digital experiences. Liferay notes the City's emphasis on meeting portal needs and enabling improved citizen experiences under budget and governance considerations. This
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+demonstrates Liferay's suitability for public sector web modernization requiring usability improvements and governance-ready operations.
+Problem / Objective: Modernize a public sector website experience with improved usability and portal delivery requirements.
+Solution Approach: Liferay DXP provided a modern digital experience platform with governance-ready content capabilities.
+Outcomes / Value Delivered:
+ Improved public user experience and navigation  Enabled modernization without large-scale disruption  Supported governance and operational requirements
+Relevance to VA.gov Replacement Model: Illustrates Liferay's ability to serve as a stable, scalable foundation for public sector web modernization.
+NSW Department of Education (Unified Multi-Audience Portals) https://www.liferay.com/resources/story/nsw-department-of-education
+Problem / Objective: Enable unified portal experiences for multiple stakeholder audiences at population scale.
+Solution Approach: Liferay served as a common platform for staff/student/parent portal experiences with consistent access to updated information.
+Outcomes / Value Delivered:
+ Supports multi-audience personalization and segmentation  Scalable platform for large user populations  Enables consistent governance across distributed audiences
+Relevance to VA.gov Replacement Model: Relevant to VA.gov's multi-audience experience needs (Veterans, caregivers, families, providers) while maintaining governance and consistency.
+Appendix B: Relevant Liferay Solution Pages
+ Enterprise Websites: https://www.liferay.com/solutions/enterprise-websites  Public Sector: https://www.liferay.com/industries/public-sector  Resources Hub / Customer Stories:
+https://www.liferay.com/resources-hub/customer-stories
+Appendix C: Case Study Relevance Summary
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+The customer stories referenced in this response demonstrate repeatable patterns that are directly applicable to VA's VA.gov Replacement Model:
+
+ (1) delivery of secure authenticated digital services,  (2) operation of enterprise-scale multi-site web ecosystems,  (3) governance models enabling distributed teams under centralized control, and  (4) integration-driven modernization approaches supporting continuity of service.  The table below summarizes each case study in a format intended to support rapid evaluation and traceability to VA.gov requirements.
+
+Customer / Program Relevant Use Case
+
+Outcome Highlights
+
+Relevance to VA.gov Replacement Model
+
+My HealtheVet on VA.gov (VA)
+My Navy Portal (U.S. Navy)
+Grants.gov (U.S. Federal)
+City of Burbank
+City of Vienna
+NSW Department of Education
+
+Authenticated Veteran healthcare journeys on VA.gov
+Enterprise portal/intranet consolidation with personalization
+Modernization of high-visibility federal platform
+Public sector website modernization
+Government intranet at scale with decentralized departments Multi-audience portals (staff/student/parent) at population scale
+
+Secure, authenticated service delivery; continuity of operations
+One-stop access; personalization; scalable integration roadmap
+Hybrid modernization; extensibility; continuity-friendly approach Improved usability; governance-ready content operations
+Multi-site governance; departmental autonomy; scale and stability Segmentation; large population support; consistent governance
+
+Directly aligned to VA.gov's mission-critical authenticated experience needs Analogous to multi-system portfolio consolidation under strict security constraints Demonstrates phased replacement and integration-centric experience layer patterns Shows enterprise website modernization approach in public sector context Supports VA's needs for decentralized governance models at enterprise scale Relevant to VA's multi-audience portal and personalization requirements
+
+IT Federal Sales Response to VA Solicitation # 36C10B26Q0131
+
+

@@ -1,0 +1,332 @@
+Carahsoft's Response to the
+Department of Veterans Affairs
+Request for Information Replacement Model for VA.gov Solicitation Number 36C10B26Q0131
+Thursday February 5, 2026 Solution Provided By
+Carahsoft Technology Corporation 11493 Sunset Hills Road, Suite 100
+Reston, VA 20190 888.662.2724 | www.carahsoft.com
+Primary Point of Contact Shakeel Nawabe |Government Account Representative
+571.662.3035 | Shakeel.Nawabe @carahsoft.com
+Secondary Point of Contact Proposals@carahsoft.com
+
+February 5, 2026
+Department of Veterans Affairs 23 Christopher Way Eatontown, NJ 07724
+Re: Carahsoft's Response to the Department of Veterans Affairs' Request for Information for Replacement Model for VA.gov, Solicitation Number 36C10B26Q0131
+Dear Allison Fulton and Evan Schlisserman,
+Carahsoft Technology Corp. appreciates the opportunity to respond to the Department of Veterans Affairs (VA)'s Request for Information (RFI): Replacement Model for VA.gov. Carahsoft is proposing an Adobe solution which fully meets VA's requirements for a replacing your website with a premier, modern, secure, and Veteran-centric digital experience. Our team has reviewed and considered VA's requirements outlined in the RFI and has carefully put together a solution that will best meet your needs.
+Carahsoft, The Trusted Government IT Solutions Provider®, is responding as GSA Multiple Award Schedule (MAS) contractor (47QSWA18D008F) and distributor for Adobe. As the Master Government Aggregator® for our vendor partners, Carahsoft has combined extensive knowledge of the technologies we provide with a thorough understanding of the government procurement process, to analyze needs, provide configuration support, simplify the ordering process, and offer special government pricing since 2004. Working with resellers, systems integrators and consultants, our sales and marketing teams provide industry leading IT products, services, and training to support Public Sector organizations across Federal, State and Local Government agencies, Education, and Healthcare markets.
+Please feel free to contact me directly at 571.662.3035/Shakeel.Nawabe@carahsoft.com or Justin Sandilands at 703.230.7551/Justin.Sandilands@carahsoft.com with any questions or communications that will assist VA in the evaluation of our response.
+Thank you for your time and consideration.
+Sincerely,
+Shakeel Nawabe
+Shakeel Nawabe Government Account Representative
+NOTICE
+This proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than evaluation. If, however, a contract is awarded to this Offeror as a result of - or in connection with - the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The entire
+volume is subject to this restriction.
+11493 SUNSET HILLS ROAD | SUITE 100 | RESTON, VA 20190 | TEL 703 871 8500 | FAX 703 871 8505 | WWW.CARAHSOFT.COM
+
+Solicitation Number 36C10B26Q0131
+TABLE OF CONTENTS
+Executive Summary.............................................................................................................. 1
+Prime Contractor: Carahsoft Technology Corp. ........................................................................................................1
+Solution Overview ................................................................................................................ 1
+A Modern, Governed Digital Experience for Veterans...............................................................................................1 A Platform Foundation for Experience-Led Modernization........................................................................................2
+Edge-First Experience Delivery .............................................................................................................................................. 2 Simplified, Governed Content Authoring ................................................................................................................................ 3 A Durable Platform for Experience, Data, and Intelligence .................................................................................................... 3 Guided Experiences That Meet Veterans Where They Are ......................................................................................4 Identity, Navigation, and Experience Flow ................................................................................................................4 AI-Powered Capabilities: Moving from Manual Scale to Intelligent Scale .................................................................5 AI as an Experience Enabler .................................................................................................................................................. 5 Improving Content Operations at VA Scale............................................................................................................................ 6 Accelerating Modernization and Migration Efforts .................................................................................................................. 6 Enabling Insight-Driven Improvement .................................................................................................................................... 6 Governance, Transparency, and Control by Design .............................................................................................................. 6 Trade-offs, Known Limitations, and Design Considerations......................................................................................7 Simplified Authoring Balanced with Design Discipline............................................................................................................ 7 Identity-Aware Design Introduces Experience Complexity..................................................................................................... 7 AI Enables Scale, Not Autonomy ........................................................................................................................................... 7 Legacy Systems Remain Part of the Operating Model........................................................................................................... 7 Relevant Experience and Lessons Learned..............................................................................................................8 Security and Compliance ..........................................................................................................................................8 Conclusion and Path Forward...................................................................................................................................9
+Appendix ............................................................................................................................. 10
+Relevant Experiences/Case Studies .......................................................................................................................10
+In Summary ......................................................................................................................... 13
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+i
+
+Solicitation Number 36C10B26Q0131
+EXECUTIVE SUMMARY
+Prime Contractor: Carahsoft Technology Corp.
+Carahsoft Technology Corp. is The Trusted Government IT Solutions Provider®. Founded in 2004 and based in Reston, Virginia, the company works with a robust and growing ecosystem of thousands of reseller partners, system integrators, IT solutions providers and a deep portfolio of contract vehicles, Carahsoft proactively markets, sells, and distributes emerging and leading IT solutions to government markets in the U.S. and Canada, as well as education, healthcare, critical infrastructure, not-for-profit and commercial markets.
+Technology Portfolio: As the Master Government Aggregator® for our vendor and reseller partners, we deliver solutions for 5G, AI and Machine Learning, Customer Experience and Engagement, Cybersecurity, DevSecOps, Education, FedRAMP Technologies, Geospatial, Healthcare Technology, Law Enforcement Technology, Mobility, MultiCloud, Open Source, Training Technology, Zero Trust and more.
+Proven Execution: Carahsoft has deep expertise in government contracting and procurement. We manage and maintain a wide variety of government-wide and agency-specific purchasing contract vehicles and purchasing agreements for agencies at the state, local, and federal levels. As a result, we now serve as the largest government partner for the majority of our vendors, who have also entrusted other major aspects of their businesses to Carahsoft including partner enablement, commercial sales, renewals and upsell, and help desk services.
+Partner Enablement: Our partner ecosystem encompasses more than 4,000+ government contractors, resellers, and integrators who we support and enable with an entire suite of value-added opportunities that run the gamut from training/certification and pre-sales support to lead generation and business development.
+Growth And Stability: A stable, conservative, and profitable company, Carahsoft has demonstrated impressive growth year after year, with annual revenue of $3.4 million in our first year in 2004 to over $22.2 billion in 2025. In September of 2025, our team of dedicated, highly trained marketing, sales, contracting, and business operations experts processed 26,084 orders worth more than $3.6 billion.
+Awards And Recognition: In recognition of our accomplishments, Carahsoft has received hundreds of awards for service excellence, business performance, and leadership from our customers, partners, and industry. For more information on the hundreds of awards we have received please visit our website at https://www.carahsoft.com/awards.
+SOLUTION OVERVIEW
+A Modern, Governed Digital Experience for Veterans
+The Department of Veterans Affairs effort to modernize VA.gov represents far more than a website replacement. It is an opportunity to fundamentally rethink how digital services support Veterans across moments that are often complex, high-stakes, and deeply personal. VA serves an extraordinarily diverse population, ranging from Veterans who expect intuitive, mobile-first experiences to those with limited digital confidence, accessibility needs, or reliance on caregivers and VA staff. A modern VA.gov must work for all of them, without creating friction or exclusion for those who depend on VA services the most.
+Adobe's mission is to change the world through digital experiences. In the context of VA.gov, that mission translates into a responsibility to design experiences that are clear, inclusive, trustworthy, and resilient at national scale. Adobe proposes a VA.gov foundation built on AEM Edge Delivery Services for content management and experience delivery, integrated with Adobe Experience Platform for data, insights, and personalization. This platform-based
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+1
+
+Solicitation Number 36C10B26Q0131
+
+approach is grounded in experience design, reinforced by governance, and built to evolve responsibly over time. It delivers immediate gains in performance, accessibility, and content operations, while establishing a durable foundation that can adapt as VA policies, priorities, and technologies change.
+
+Equally important is the operational impact on the VA workforce. Digital services cannot scale when routine updates require specialized technical expertise or lengthy handoffs. By enabling content to be authored in familiar tools such as Microsoft Word and governed through structured templates and workflows, Adobe empowers subject matter experts to keep information accurate and accessible, while enforcing governance, accessibility, and compliance as part of the content lifecycle.
+
+Speed without Compromise.
+Adobe Experience Manager separates content from complexity to deliver pages at the edge--fast, resilient, and easy to manage--so the VA can move faster and scale trusted Veteran experiences without traditional CMS overhead.
+
+This foundation enables experiences designed around Veteran intent rather than site structure. Veterans who prefer fast self-service can move efficiently, while those who benefit from guidance, simplified language, or assisted support are not forced into separate or degraded experiences. Navigation and experience flow are designed to introduce authentication when it adds value, preserving clarity and continuity across both authenticated and unauthenticated interactions.
+
+Adobe's platform uniquely combines experience delivery with a unified experience data foundation through the Adobe Experience Platform. This allows VA to understand where Veterans encounter friction, improve journeys over time, and responsibly introduce advanced analytics and AI-driven capabilities under VA governance. These capabilities are not speculative add-ons, but practical tools to improve clarity, reduce operational burden, and better serve Veterans at scale.
+
+A Platform Foundation for Experience-Led Modernization
+Adobe's approach begins with an experience-led platform foundation designed to support modernization at scale. Built on AEM Sites with Edge Delivery Services and connected through the Adobe Experience Platform (AEP), this foundation unifies experience delivery, content operations, and experience data within a single, governed architecture. Together, these capabilities enable a decoupled, edge-first model that prioritizes performance, accessibility, and adaptability, while giving VA the flexibility to evolve experiences, identity integrations, and intelligence independently over time.
+
+Edge-First Experience Delivery
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+2
+
+Solicitation Number 36C10B26Q0131
+Adobe Edge Delivery Services enables VA.gov to deliver experiences globally with high performance, resilience, and scalability. By rendering and serving content at the network edge, VA can deliver fast, reliable experiences regardless of traffic volume or user location, including rural or bandwidth-constrained environments.
+More importantly, Edge Delivery Services shifts VA.gov away from page-centric CMS delivery toward experiencedriven architecture. Experience updates can be deployed independently of backend systems, identity services, and data sources, allowing VA to evolve journeys, navigation, and content models without introducing infrastructure complexity or coordinated cutovers.
+This approach reflects Adobe's broader Experience Cloud philosophy: the experience layer should be fast, flexible, and designed around Veteran needs, while backend systems can evolve on their own timelines and modernization paths.
+This model supports:  Consistently fast page loads and improved end-user reliability  Reduced infrastructure complexity and lower operational and maintenance overhead  Increased resilience and scalability during traffic spikes, surges, and peak demand periods  True semantic content-first authoring for maximum flexibility
+Simplified, Governed Content Authoring
+Adobe's approach is built around content velocity with governance by design. VA subject matter experts can author content in familiar tools such as Microsoft Word, using structured templates and workflows. This allows teams across healthcare, benefits, and services to keep information accurate and current without specialized CMS expertise. Don't just take our word for it - the VA can explore AEM Edge Delivery Services on their own by navigating to https://www.aem.live/ and start building your own site: https://www.aem.live/developer/tutorial
+Unlike traditional CMS platforms that push governance to downstream review cycles or manual checks, Adobe embeds accessibility standards, content structure, and approval workflows directly into the authoring lifecycle. Compliance and consistency are enforced before content is published, which:
+ Reduces rework and operational risk  Improves accessibility and content quality  Accelerates the time required to update and publish changes
+This model reflects Adobe's experience supporting large, distributed content organizations, where accuracy, accessibility, and accountability are as critical as speed and scale.
+A Durable Platform for Experience, Data, and Intelligence
+While this foundation delivers immediate performance and operational benefits, it is intentionally designed to support deeper experience capabilities over time. Adobe's platform uniquely combines experience delivery with a unified experience data foundation, enabling VA to move beyond static content toward insight-driven, adaptive journeys when ready.
+Through the Adobe Experience Platform, VA can unify experience signals across VA.gov, understand where Veterans encounter friction or abandon journeys, and apply those insights to improve clarity, navigation, and service outcomes. Unlike CRM-centric or CMS-only approaches, this model treats experience data as a shared asset across channels, rather than confining it to individual tools or workflows.
+On top of this foundation, VA can introduce advanced analytics and AI-assisted capabilities in a deliberate, governed manner, supporting content quality, journey optimization, and operational insight without replatforming or major architectural rework.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+3
+
+Solicitation Number 36C10B26Q0131
+
+Guided Experiences That Meet Veterans Where They Are
+To illustrate how Adobe's platform supports Veteran-centered digital experiences, consider Sarah, a recently retired Staff Sergeant transitioning from active duty and seeking to enroll in VA healthcare.
+
+VeteranNorth Star Journey
+
+SARAH| Recently retired Army Staff Sergeant navigating VA healthcare enrollment and benefits
+
+DISCOVERY
+
+ENGAGEMENT
+
+DELIVERY
+
+GROWTH
+
+NORTH STAR JOURNEY
+
+Hi James, Let us kn ow h ow you'd prefer to be contacted:
+
+Mail Call Email Text
+
+Hi Sarah,
+Uses these instructions to explore available services and schedule your next appointment with the VA.
+
+www.va.org
+
+VA VA Support
+Hi Sarah! I see your prescription here. What exactly can I help with?
+
+Hi Sarah,
+Enclosed are additional care tips and details regarding your pension eligibility. Call us at 7-77777-7777 with any questions.
+
+James, you have an upcoming appointment with Dr. Amelia.
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Recognition of
+
+Proactive
+
+Tailored Content &
+
+Real-Time
+
+Guided Care & Benefits
+
+Unique Preferences
+
+Messaging
+
+Communication
+
+Cross-Channel Support
+
+Recommendations
+
+Sarah is a recently retired Veteran who visitSsarah receives proactive emails with clearSarahis sent tailored communications on Afterherapplication is submitteSda,,rahhas Shortly afteSr,arahreceives a packet of
+
+VA.gov to understand healthcare instructions on enrolling in VA healthcare how to apply for PACT Act benebfaitsed questions about the statSush.ecalls the VA approval documents and care tips tailore
+
+enrollment and next steps.
+
+and understanding additional benefits she on her service history and potential toxic and is greeted by name; the support agento the toxic exposusreheapplied under, as
+
+may be eligible fo. rM. ultiple emails are exposure.S. hedecided to apply for benefits. has allherinfo and answerhserquestions
+
+well asa information about ongoing
+
+sent, andherpreferred time of
+
+with ease.
+
+healthcare, disability benefits, and next st
+
+communication isresulting inincreasing
+
+in her VA journe.y
+
+likelihood ofherreading.
+
+1:1 CHANNEL PERSONALIZATION Improve engagement using behavioral data & explicit
+preferencese.(g.channel, frequency)
+
+STREAMING DATA COLLECTION Single and re-atilme view of customer for cr-ocshsannel
+personalization
+
+UNIFIED REA-TLIME PROFILE Stitch browsing and chat history to unified profile integrating directly with -ccaelnl ter
+
+NEXT BEST ACTION, R-ETAIMLE JOURNEY ORCHESTRATIO Use AI to identify key moments across channels to surface the next best action, empowering customers to utilize their benefits
+
+© 2023 Adobe. All Rights Reserved. Adobe Confidential.
+
+CAPABILITY
+
+Sarah accesses VA.gov from a mobile device, potentially in a rural or bandwidth-constrained environment. The experience is immediately responsive and clear, delivered through Adobe's edge-first architecture to ensure reliable access regardless of location or device. Rather than navigating dense menus, Sarah is presented with clear entry points that help her understand next steps and what information she will need.
+After signing in, the experience adapts to Sarah's context as a newly transitioned Veteran. Navigation and content emphasize healthcare enrollment and eligibility, guiding her through the process using plain language and VAapproved information. The experience does not interpret policy or make decisions on her behalf. Instead, it reduces uncertainty by helping her understand where to go and what to expect.
+As Sarah completes enrollment, contextual guidance helps clarify unfamiliar terminology, allowing her to complete the process with greater confidence and fewer interruptions. This approach supports Veterans who prefer fast selfservice as well as those who benefit from additional guidance, without forcing separate experiences.
+Sarah's journey illustrates how Adobe enables VA to move beyond page-based navigation toward guided, inclusive experiences that reduce cognitive load and improve completion, while remaining fully governed and adaptable over time.
+Identity, Navigation, and Experience Flow
+VA.gov is not a single experience, but a constellation of public information, authenticated services, assisted workflows, and recovery scenarios. At VA scale, the challenge is not simply verifying identity but designing experiences that remain coherent as identity states change across a Veteran's journey.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+4
+
+Solicitation Number 36C10B26Q0131
+Rather than organizing VA.gov around menus, organizational structures, or system boundaries, experiences can be designed around Veteran intent. Veterans should be guided based on what they are trying to accomplish, such as enrolling in healthcare, checking claim status, or understanding eligibility, with identity and authentication introduced at points where they meaningfully support progress, protect sensitive information, or enable completion of services.
+This approach reduces friction by allowing Veterans to orient themselves before being required to authenticate, while still ensuring that secure access and personalization are applied when appropriate. Clear entry points aligned to Veteran goals, progressive disclosure of complexity, and consistent experience patterns across authenticated and unauthenticated states help preserve continuity and trust.
+AEM serves as the system of record for content, navigation, and experience structure, while identity, authentication, and authorization remain governed by VA-approved providers. By keeping experience delivery decoupled from identity enforcement, VA can evolve identity strategies independently without fragmenting the Veteran experience. Where policy allows, context can be preserved across identity states to reduce repetition and frustration. Where policy requires boundaries, transitions remain explicit and understandable.
+This decoupling is reinforced through Adobe Edge Delivery Services, which allows navigation models and experience flows to be refined over time without destabilizing the platform or requiring replatforming. As VA pilots new identity approaches or navigation paradigms, changes can be reflected incrementally in the experience layer rather than treated as disruptive technical events.
+VA's population also includes Veterans who rely on caregivers, family members, and VA staff to help navigate services. Adobe's experience architecture supports assisted, delegated, and recovery scenarios by enabling shared visibility, VA-governed permissions, and clear re-entry paths when sessions are interrupted or credentials are lost. These patterns ensure that Veterans are not excluded by assumptions about digital confidence or independence, while remaining aligned with VA governance and security requirements.
+As these experiences evolve, VA can use experience signals and tools such as Adobe Sites Optimizer to understand where Veterans encounter friction across identity transitions and refine navigation and guidance accordingly. This allows VA.gov to function as a stable digital front door while continuously improving how Veterans find, understand, and complete services.
+AI-Powered Capabilities: Moving from Manual Scale to Intelligent Scale
+Modernizing VA.gov cannot rely on manual processes alone. The volume of content, the diversity of Veteran needs, and the pace of policy and service change create a level of operational complexity that outgrows traditional digital models. As a market leader, Adobe believes AI has a meaningful role to play in helping VA modernize responsibly, provided it is applied deliberately, transparently, and under strong governance.
+Adobe's AI capabilities are designed to augment human judgment, not replace it. They are focused on areas where scale, consistency, and clarity are difficult to achieve manually, while avoiding domains that require authoritative policy interpretation, eligibility determinations, or benefits decisions. This distinction is foundational to Adobe's approach in regulated federal environments.
+AI as an Experience Enabler
+For Veterans, AI can play a meaningful role in simplifying how services are discovered and understood without inserting automation into decision-making. AI-assisted experiences can help surface relevant information, clarify next steps, and guide Veterans through complex journeys using VA-approved content and terminology - helping earn the Veteran's trust and confidence.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+5
+
+Solicitation Number 36C10B26Q0131
+This is particularly valuable for Veterans who struggle with fragmented navigation, unfamiliar language, or uncertainty about where to begin. By reducing cognitive load and repetition, AI-enabled guidance helps Veterans focus on completing tasks rather than deciphering systems. When ambiguity arises, experiences are designed to defer to authoritative VA content or human support channels rather than attempting to resolve uncertainty autonomously. This allows VA to improve usability and clarity without compromising trust or policy control.
+Improving Content Operations at VA Scale
+One of the most immediate and high-impact applications of AI is within content operations. At VA's scale, maintaining accurate, accessible, and policy-aligned content across thousands of pages is a continuous challenge.
+Adobe applies AI to assist VA teams by identifying outdated, redundant, or conflicting content; flagging accessibility and structural issues early in the authoring process; supporting metadata and content organization; and highlighting content that may require review following policy or program changes. These capabilities reduce manual effort while improving consistency and quality.
+Importantly, AI does not publish or approve content. Human reviewers retain full authority, with AI serving as an intelligent assist embedded directly into the content lifecycle. This model strengthens governance rather than bypassing it.
+Accelerating Modernization and Migration Efforts
+Modernizing VA.gov requires more than improving forward-facing experiences. It also requires addressing legacy content, structures, and delivery patterns that slow progress and increase operational risk at scale. Adobe brings AIpowered capabilities into AEM and Edge Delivery Services to support modernization activities that would otherwise require significant manual coordination across teams.
+Adobe's Experience Production capabilities reduce the time and effort required to prepare content for modern delivery. Rather than relying on large, manual content rewrites, VA can use AI-assisted production workflows to refactor existing content into governed, performance-optimized experiences that align with VA standards. This approach preserves accessibility requirements, SEO signals, and information hierarchy as content is modernized, rather than attempting to retrofit these concerns after migration.
+Enabling Insight-Driven Improvement
+Adobe's platform also enables VA to better understand how Veterans actually experience VA.gov. By analyzing patterns across journeys, content engagement, and abandonment points, VA can identify where Veterans struggle or disengage and focus improvement efforts accordingly.
+These insights allow VA to prioritize improvements based on real usage rather than assumptions, identify opportunities to simplify journeys, and measure the impact of changes over time.
+Governance, Transparency, and Control by Design
+Adobe's AI capabilities are built to operate within federal governance frameworks. This includes clear configuration controls, auditability of outputs, and strict use of VA-approved data and content sources. AI models are applied where they create operational advantage while remaining transparent, explainable, and subject to human oversight.
+Adobe does not position AI as a mandatory dependency for VA.gov modernization. Instead, AI is an integrated capability that allows VA to modernize faster and more effectively than manual approaches alone, when and where VA determines it is appropriate.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+6
+
+Solicitation Number 36C10B26Q0131
+
+Trade-offs, Known Limitations, and Design Considerations
+Modernizing VA.gov is as much a design challenge as it is a technical one. Recent federal priorities, including the America by Design initiative and the establishment of a Chief Design Officer and National Design Studio, reinforce that public-facing digital services must be intuitive, inclusive, accessible, and worthy of public trust. At national scale, achieving that standard requires deliberate design and architectural choices.
+
+Adobe's approach reflects lessons learned from delivering large, mission-critical platforms in public sector and healthcare environments where experience quality, governance, and operational reality must coexist.
+
+Simplified Authoring Balanced with Design Discipline
+Lowering the barrier to content creation is essential for keeping information accurate and timely, but simplicity without structure creates long-term risk. Adobe's document-based authoring approach enables subject matter experts to participate directly in content updates using familiar tools, while enforcing structure, accessibility, and governance through the platform.
+
+This model requires upfront discipline around templates, design standards, and content patterns. That discipline is intentional. It ensures that content remains usable, accessible, and consistent at scale, aligning with federal humancentered design expectations. Platforms that prioritize unrestricted flexibility often shift complexity downstream into review cycles, accessibility remediation, and inconsistent user experiences.
+
+Identity-Aware Design Introduces Experience Complexity
+
+Identity is central to VA.gov, but tightly coupling identity systems to content and
+
+VA & AEM Federated Login Solutions The VA and AEM already work hand-inhand to provide trusted and seamless login and authentication. Adobe
+
+navigation can limit flexibility and introduce risk as policies and technologies evolve. Adobe intentionally separates experience management from identity enforcement, allowing identity to inform the experience without constraining it.
+
+Professional Services have worked with
+
+VA OIT to implement login.gov and Id.me to support VA employee PIV authentication and citizen login
+
+This separation enables VA to design identity-aware experiences that preserve context, support assisted and delegated use, and manage recovery scenarios
+
+experiences that are trusted, fast, and extensible across the VA.
+
+more gracefully. While Adobe provides the architectural foundation for these patterns, VA retains authority over identity policy, permissions, and acceptable
+
+behaviors. Success depends on coordinated design, policy, and governance
+
+decisions rather than technology alone.
+
+AI Enables Scale, Not Autonomy
+AI has the potential to materially improve experience quality and operational efficiency, but only when applied to the right problems. Adobe applies AI where scale and consistency are difficult to achieve manually, such as content analysis, experience measurement, and modernization support.
+
+AI-assisted capabilities require active governance, configuration, and ongoing oversight. They are not substitutes for human judgment, policy ownership, or design intent. This approach reflects lessons learned in regulated environments, where attempts to use AI as an autonomous decision-maker often undermine trust. Adobe's design choice preserves accountability while enabling modernization efforts that manual processes alone cannot sustain.
+
+Legacy Systems Remain Part of the Operating Model
+Decoupling experience delivery from backend systems allows VA to improve VA.gov without forcing premature replacement of legacy infrastructure. While this means backend complexity persists for a time, it avoids the higher risk associated with tightly coupled, end-to-end transformations.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+7
+
+Solicitation Number 36C10B26Q0131
+Adobe's platform is designed to absorb this complexity while enabling forward progress. Over time, as systems are retired or consolidated according to VA priorities, additional efficiencies can be realized without requiring repeated replatforming of the experience layer.
+Relevant Experience and Lessons Learned
+Adobe's approach to VA.gov modernization is grounded in sustained experience supporting large, mission-critical digital platforms in public sector and healthcare environments. These programs operate under conditions that closely mirror VA's reality, including national scale, diverse populations, strict accessibility and security requirements, and continuous public scrutiny.
+The case studies that follow reflect real deployments supported by Adobe Experience Cloud and Adobe Experience Platform capabilities. They are presented to illustrate common patterns, architectural decisions, and lessons learned that are directly applicable to VA.gov modernization.
+Canada.ca: 100% Uptime Since 2015 Canada.ca is a "digital front door" to Government resources and information for the country's 37+ million residents, serving as an online portal for hundreds of departments and agencies. It accounts for more than 70% of the government's online traffic. With two official languages, English and French, content must be provided both. In 2015, Canada standardized on Adobe for its web platform.
+Working closely with Adobe to modernize its digital presence, Canada has achieved remarkable scalability and uptime. The deployment has seamlessly scaled to support 185 million visitors per month while experiencing no downtime or security breaches since 2015. With over 100+ sites completed for Canada.ca, powered by Adobe, the partnership continues.
+"Adobe Experience Cloud gives us the reliability and scale we need to manage billions of visits across over 400,000 pages on Canada.ca. It has also given us agility during times like COVID-19, where the need to keep residents informed has been so critical. And the site has been running at 100% availability, with which we are really pleased." -Director General of Digital Services
+Security and Compliance
+AEM, deployed through Adobe Managed Services, is designed to operate in regulated federal environments where security, privacy, and availability are mandatory requirements. Adobe Managed Services for AEM is authorized at the FedRAMP Moderate level and aligns with federal security standards, including NIST 800-53.
+Security is integrated throughout the AEM delivery lifecycle using DevSecOps practices, continuous monitoring, and automated vulnerability management. Adobe's Security Operations Center provides 24/7 monitoring, threat detection, and incident response to support auditability and operational readiness.
+Security patching, feature updates, and maintenance for AEM are delivered through automated CI/CD pipelines and validated in staging environments prior to production deployment. This approach supports timely remediation while minimizing service disruption and preserving continuity of access for Veterans.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+8
+
+Solicitation Number 36C10B26Q0131
+Conclusion and Path Forward
+Adobe's mission is to change the world through digital experiences. The VA.gov is not just a website, it is the primary way Veterans understand, access, and trust the services promised to them. The quality of that experience directly shapes confidence, outcomes, and equity. Adobe believes the next chapter of VA.gov should be defined by experience leadership, not just technical modernization. That means designing for clarity over complexity, guidance over navigation, and inclusion over assumption. It means building a digital front door that works equally well for a Veteran who expects fast, mobile selfservice and for one who requires plain language, accessibility accommodations, or caregiver support. AEM provides VA with a foundation purpose-built for this challenge. It allows the VA to separate experience from backend complexity, empower content owners without sacrificing governance, and evolve identity-aware, datainformed journeys over time. Just as importantly, Adobe brings a design-led perspective aligned with federal priorities around human-centered design and service excellence. Adobe's platform was built for organizations that must balance innovation with trust, creativity with accountability, and flexibility with control. This is why Adobe is trusted by the world's most regulated industries and by public sector organizations operating at national scale. VA's modernization effort presents an opportunity to set a new benchmark for federal digital service delivery. Not by moving faster for its own sake, but by building an experience that is clear, durable, and worthy of the people it serves. Adobe stands ready to partner with VA in shaping that future, bringing not only proven technology, but a philosophy of experience design grounded in empathy, governance, and long-term stewardship. Adobe welcomes continued engagement with VA to explore this vision through focused demonstrations, architectural discussions, or targeted pilots.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+9
+
+Solicitation Number 36C10B26Q0131
+APPENDIX
+Relevant Experiences/Case Studies
+Federal Civilian | U.S. Census Bureau: 5 million Pages
+State and Local Government | Nevada, Clark County - Adobe Experience Manager with Edge Delivery Services
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+10
+
+Solicitation Number 36C10B26Q0131 State and Local Government | Commonwealth of Pennsylvania - Adobe Experience Manager with citizen centric design
+State and Local Government | LA County Department of Public Social Services - rapid content development and multi-lingual content
+State and Local Government | Oklahoma.gov - Top 10 state in digital modernization with AEM
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+11
+
+Solicitation Number 36C10B26Q0131
+State and Local Government | Virginia Department of Emergency Management - Site deployment in 18 days
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+12
+
+Solicitation Number 36C10B26Q0131
+IN SUMMARY
+Carahsoft Technology Corporation and Adobe appreciate the opportunity to offer this solution for VA's initiative. The Carahsoft Team has proposed a superior and cost-effective solution that fully complies with VA's requirements set forth in Replacement Model for VA.gov Solicitation Number 36C10B26Q0131. We understand the importance of your project goals, and we are confident you will benefit from this solution and our expertise. Carahsoft looks forward to the opportunity to speak with you regarding the details of this proposal, as well as the opportunity to work with Department of Veterans Affairs on this project.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+13
+
+

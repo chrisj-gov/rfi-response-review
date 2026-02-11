@@ -1,0 +1,508 @@
+REPLACEMENT MODEL FOR VA.GOV
+Solicitation No. 36C10B26Q0131
+SOURCES SOUGHT RESPONSE
+FEBRUARY 5, 2026 Point of Contact: Harold Poston Phone: 703.346.7082 harold.poston@abtglobal.com
+
+SUBMITTED TO
+Department of Veterans Affairs Technology Acquisition Center 23 Christopher Way Eatontown, NJ 07724
+Attn: Allison Fulton Allison.Fulton@va.gov
+Attn : Evan Schlisserman evan.schlisserman@va.gov
+
+SUBMITTED BY
+Abt Global LLC 6130 Executive Boulevard Rockville, MD 20852 abtglobal.com
+
+This proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of--or in connection with--the submission of these data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in these data if it is obtained from another source without restriction. The data subject to this restriction are contained in all sheets.
+
+Replacement Model for VA.gov
+Capability Statement
+Contents
+Introduction... ............................................................................................................................... 1 Approach to VA.gov Modernization............................................................................................1 Recommended Approach for VA ................................................................................................. 9 Known Limitations and Trade-offs..............................................................................................9 Appendix A: Team Overview ..................................................................................................... 11 Appendix B: Past Performance - Farmers.gov Digital Modernization .................................. 13 Appendix C: Phased Implementation Timeline........................................................................16
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | i
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+
+Introduction
+
+Abt Global, its wholly owned subsidiary TSPi, and our partners (collectively, the Abt Team) bring deep, firsthand experience modernizing high-visibility, mission-critical federal digital platforms in complex, regulated environments. We have led large-scale transformations where policy, operations, data, and technology must move in lockstep--supporting agencies with millions of users, legacy system dependencies, and zero tolerance for service disruption. This experience positions us well to support the Department of Veterans Affairs (VA) as it evaluates a replacement model for VA.gov consistent with the objectives outlined in this Request for Information.
+Across VA, Department of Health and Human Services (HHS), Department of Labor (DOL), General Services Administration (GSA), and Social Security Administration (SSA), The Abt Team has delivered 26 web-based projects with Authority to Operate (ATO) and have directly supported VA's Enterprise Services Integrated Platform (ESIP) and VA Profile, integrating authoritative Veteran data with VA.gov and other enterprise systems spanning VBA, VHA, and OIT. Together, these efforts provide the Abt Team with a practical understanding of VA's enterprise data environment, governance realities, and the operational constraints that shape digital modernization at scale.
+We understand that replacing VA.gov is fundamentally an organizational and operational challenge, not merely a technical one. Meaningful improvements require coordination across user experience design, platform architecture, content strategy, governance, analytics, and operating models. Our response demonstrates how we've addressed these dimensions simultaneously on large-scale federal platforms, with specific lessons learned from VA's own enterprise data environment. Detailed past performance narratives are provided in Appendix B.
+The Abt Team will provide a fresh, innovative approach to VA.gov by combining a deep understanding of veteran andbeneficiary facing IT projects with a proven track record in federal digital modernization. Our solutions are FedRAMP-compliant, HIPAA/FISMA-aligned, and built for resilience, ensuring both compliance and innovation. By leveraging automation, natural language processing, generative AI, and agile delivery methods, we will empower a premier, modern, secure, and Veteran-centric digital experience enabling VA's goal of providing a bestin-class online experience to our nation's Veterans, their families, and other stakeholders thru VA's central entry point for benefits, healthcare, services, and information.
+
+Approach to VA.gov Modernization
+
+Experience Design and User-Centered Approach
+Experience design and human-centered design are critical to a VA.gov redesign because it is the primary way Veterans, caregivers, and survivors access life-impacting benefits and services. Users often arrive during moments of stress, uncertainty and vulnerability and have to navigate complex eligibility rules, legal language and multi-step processes. A strong approach ensures the redesign is grounded in real user needs, tested with Veterans across abilities and circumstances and focused on completing meaningful outcomes.
+
+We apply human-centered design (UCD) and usability testing to guide solution development and
+
+ensure alignment with user needs, beginning with UCD workshops involving both external end users and internal stakeholders to surface real-world experiences, identify pain points, and clarify
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 1
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+expectations, then conducting follow-up sessions to validate requirements, define use cases, and map features to user stories. We prioritize functionality based on user value and release features iteratively to ensure frequent user feedback; usability testing is embedded throughout the development lifecycle conducted at key milestones to validate workflows, interface design, and accessibility and insights from testing directly inform backlog refinement and product enhancements.
+For the SBA Disaster Credit Management System (DCMS) Modernization, we addressed both external disaster survivor requirements as well as those of many distinct personas operating within DCMS (document gathering, loan officer, underwriting, accounts, approvals, reconsiderations, loan modification, loss verification), with UI/UX manifested through requirements development and validation, design reviews, demonstrations, UX testing, and iterative layering of functionality over time as the system evolved. For VA, this means systematically identifying and addressing the needs of diverse user personas--Veterans, family members, caregivers, VSO representatives, and VA staff--through evidence-based design that validates assumptions before committing to development.
+Platform Architecture Scalability
+VA.gov is a federated platform that has to unify identity, content, forms, status tracking, notifications, and data exchanges across benefits (VBA), health (VHA), and memorial services (NCA). Strong platform architecture reduces right coupling to legacy systems and prevents oneoff builds that are expensive to maintain and enables independent improcements without breaking other services. Abt's strong architecture turns the redesign from a one-time rebuild into a sustainable, evolvable digital service.
+We architect modular, service-based platforms where distinct services handle specific business capabilities; services are designed for reusability across multiple tools and workflows, reducing duplication and improving maintainability. For Farmers.gov serving the US Department of Agriculture's (USDA) Farm Production and Conservation mission, we deployed a technology stack of Salesforce, MuleSoft, ESRI, Microsoft .NET within a modular architecture that integrates with diverse backend systems and data sources (see Appendix B for detailed case study). MuleSoft APIs integrate with USDA's document management system and OneSpan's cloud Signature solution, enabling electronic signatures; MuleSoft APIs also keep data synchronized in real time with other USDA systems such as SAP via change data capture, allowing updates such as profile or relationship status changes to display on the portal in real time.
+For the USPTO.gov serving 2.4 million monthly visitors, we orchestrated a comprehensive infrastructure migration from on-premises to AWS, developing sophisticated CloudFormation templates encompassing Security Groups, RDS, EFS, ElastiCache, EC2 with AutoScaling Groups, LoadBalancer, and CloudFront; the platform now supports 19.29 million quarterly pageviews with 100% system availability maintained consistently from October 2024 through April 2025, surpassing the 99.9% uptime target. VA requires a platform capable of handling millions of concurrent users with zero tolerance for downtime. Our architecture approach delivers this through auto-scaling infrastructure, distributed caching, API-first integration, and proactive monitoring.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 2
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+
+Enterprise Data Integration at VA Scale
+Enterprise data integration is critical to a VA.gov redesign because the platform serves as the primary digital interface between VA, as a complex, multi-line-of-business enterprise, and Veterans as its customers. VA.gov can only deliver a seamless "One VA" experience if it reliably pulls, reconciles, and exchanges data across multiple systems of record that support distinct missions, funding models, and operational authorities.
+
+From a Veteran's perspective, these internal boundaries are invisible and irrelevant. Veterans do not think in terms of VBA versus VHA versus NCA; they expect a single, coherent experience where they can view claims status, appointments, prescriptions, eligibility, documents, and notifications in one place, with consistent terminology, timing, and outcomes. When enterprise integration falls short, Veterans encounter symptoms that feel like poor service, including mismatched statuses, missing history, duplicate data entry, conflicting eligibility results, or unclear next steps. These breakdowns quickly erode trust and increase call center volume, rework, and manual intervention across VA.
+
+From a business and operational standpoint, weak integration shifts complexity onto Veterans and frontline staff rather than absorbing it within the enterprise. Strong enterprise data integration allows VA to manage that complexity centrally by resolving data discrepancies upstream, enforcing authoritative sources, and presenting a unified view of the Veteran regardless of which line of business owns the underlying transaction.
+
+Because VA data includes highly sensitive PII and PHI, enterprise integration must pair technical connectivity with robust governance. This includes role-based access controls, auditing, consent and privacy enforcement, data quality monitoring, and clearly defined source authority and survivorship rules. Together, these controls allow VA.gov to scale safely, maintain accuracy and compliance, and deliver a digital experience that reflects VA's responsibility as both a missiondriven public institution and a service provider accountable to the Veterans it serves.
+
+Through prior work supporting the Enterprise Services Integrated Platform (ESIP) and VA Profile, our teaming partner National Consulting Partners (NCP) gained direct, firsthand experience integrating authoritative Veteran data with enterprise and Veteran-facing platforms, including VA.gov. In this role, NCP supported the delivery of standardized data services that consolidated Veteran identity, contact, eligibility, and service history information from authoritative sources such as the Master Person Index (MPI), VA Profile, VADIR, CorpDB, and VHA enrollment systems. This experience provided practical insight into the operational realities of supplying enterprise-grade data to VA.gov at scale, where data accuracy, timeliness, and consistency directly affect the Veteran experience.
+
+This work highlighted challenges inherent in integrating VA.gov with a diverse portfolio of operational systems. Differences in data semantics, update latency, and source authority frequently required reconciliation logic outside of consuming applications. NCP observed that simply exposing APIs was insufficient to ensure reliable consumption by enterprise VA systems without clear enterprise agreement on canonical data definitions, survivorship rules, and data stewardship responsibilities. Addressing these challenges required upstream orchestration and standardization to prevent VA.gov from absorbing system-level complexity and managing conflicting data representations.
+
+Based on these lessons, we recommend an enterprise data integration approach for VA.gov that
+
+emphasizes the delivery of managed, reusable data products rather than isolated system
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 3
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+
+interfaces. Integration patterns such as a data fabric, domain-oriented data services, or similar enterprise mediation layers enable authoritative data to be exposed through standardized services that incorporate canonical data models, embedded metadata, lineage, and quality controls. For VA.gov, these patterns provide essential context around data values, including source authority, intended business use, update cadence, and confidence, reducing the need for consuming applications to infer meaning or implement custom reconciliation logic across backend systems. By shifting complexity upstream and treating enterprise data as a governed asset, these integration patterns enable VA.gov to integrate more reliably with an evolving ecosystem of operational systems, improve consistency across digital channels, and support scalable delivery of Veteran services.
+Content Strategy and Governance
+Using Scaled Agile Framework (SAFe), we govern rigorous planning, program schedules, and lessons learned; each release, whether focused on maintenance or introducing new features, is meticulously executed to ensure deliverables meet the highest standards of quality and functionality. We are a SAFe Government Solutions Partner (previously SAFe Gold Partner 2020-2025), employing 15 SAFe Practice Consultants (SPCs) who have taught 47 SAFe training sessions covering over 700 trained individuals. During our work on the Money ART contract at USDA, we operate as one of eight Agile Release Trains (ARTs) within the Conservation Solution Train at USDA FPAC, with nearly 70 Agile teams within the eight ARTs, five of which are managed by TSPi. Our Solution and Dependency Managers establish robust communication channels and involve key stakeholders in planning and decision-making processes; we hold Program Increment (PI) Planning sessions to bring together cross-functional teams to coordinate their efforts, synchronize delivery cadences, and plan for regular integration points.
+VA's content governance challenge extends beyond publishing--it requires orchestrating content across multiple lines of business, ensuring consistency, managing lifecycle workflows, and maintaining quality at scale. Our governance framework addresses this through structured roles, clear processes, and tooling that enforces standards without creating bottlenecks. In addition to content governance, data governance is the essential organizational activity that enables data assets to be used in decision support, modeling, analytics, visualization, and more; data governance includes supply chain management to ensure data acquisition, production, and product generation is reliable, sustainable, and meets readiness and quality needs.
+Analytics and Operating Model
+Once in production, our platforms leverage tools such as Splunk, custom monitoring utilities, and the MuleSoft Anypoint Runtime Manager to ensure operational visibility, performance monitoring, and rapid incident response. We serve 4,000+ federal users for the Digital Analytics Program (DAP), covering 8,000+ public-facing government web properties across 60+ cabinetlevel agencies, handling 4.1 billion+ monthly pageviews and 27.5B-33.7B monthly events. Our maintenance and advancement efforts prioritize data quality and streamline pipeline management from collection through database integration; maintaining consistent and accurate data allows for more reliable and comprehensive analyses.
+We use EPA's resources such as Google Analytics, Crazy Egg, and SiteImprove to conduct ROT (Redundant, Obsolete, and Trivial) audits and other web area assessments; we use these tools to conduct regular data analysis of behavioral user data to inform ongoing work and strategies for potential larger website architecture and redesign needs; we analyze and establish a baseline to
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 4
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+
+compare to as regular monitoring occurs, and as relevant, provide evidence-based recommendations to inform website design modifications, including incremental and small design changes to larger-scale redesigns of entire subpages or web areas.
+VA needs analytics that inform strategic decisions, not just report historical activity. Our operating model embeds analytics into every sprint cycle, using behavioral data to validate design decisions, identify friction points, and prioritize improvements based on actual user impact.
+Security and Compliance
+Security and compliance are foundational to a VA.gov redesign because the platform handles some of the federal government's most sensitive data, including PII, PHI, financial information, and service records, all while serving millions of users at national scale. Veterans must be able to trust that their identity, health information, and benefits data are protected every time they log in or submit a claim. Abt builds modern security architecture around zero trust principles, strong identity and access management, encryption, continuous monitoring, and secure integration with downstream systems which reduces risk while still enabling a smooth user experience. Just as important, compliance with federal standards (FISMA, FedRAMP, NIST, Section 508, and privacy requirements) cannot be treated as a documentation exercise at the end; Abt embeds them into design, development, and operations from day one.
+We worked closely with the SBA Office of Disaster Assistance (ODA) security team to achieve an ATO for the modernized DCMS, including compliance with NIST 800-53 requirements; the system provides single sign-on capability, enables two-factor authentication (PIV card) as per FIPS 201 and meets FISMA moderate controls. Our Security Manager has been the Information Systems Security Officer (ISSO) for several custom-built FISMA Moderate applications using a combination of commercial off-the-shelf and Federal Risk and Authorization Program (FedRAMP) products that received an ATO. Our proactive Rally-tracked remediation processes resulted in zero high or very high vulnerabilities across seven consecutive months for the US Patent and Trademark Office (USPTO), meeting the stringent federal requirement to remediate all critical vulnerabilities within 30 days.
+VA operates in one of the most security-sensitive federal environments. Our DevSecOps approach embeds security controls, automated scanning, and continuous monitoring into every development and deployment activity.
+Maintaining Continuity for Millions of Users
+We successfully executed four consecutive Drupal major version upgrades (7891011) for USPTO without service interruption while serving 2.4 million monthly visitors, demonstrating our ability to manage complex technical transitions on high-traffic federal platforms. For Farmers.gov, we achieved 43 on-time deployments between October 2023 and April 2025; during our most recent Program Increment (PI-28), we delivered 102% of features, completing 1,962 story points, and delivered 100% of user stories in PI-28, as we did in PI-27, 26, and 25.
+We design migration strategies based on data criticality, operational risk, technical complexity, and business continuity requirements, recommending a phased approach migrating data in waves aligned with operational priorities. We plan migration execution to minimize operational disruption; during parallel operations periods, the legacy system remains the system of record
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 5
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+
+while the new platform is populated and validated; users continue normal work while we incrementally migrate data, validate accuracy, and prepare for cutover.
+For each migration wave, we identify freeze windows when legacy system data entry stops, migration executes, validation completes, and the new system becomes operational for that data subset; we schedule migrations during low-activity periods--typically weekends--to minimize impact on operations. We maintain complete legacy data backups throughout migration, preserving rollback capability if critical issues emerge. For VA, this means Veterans never lose access to their benefits, applications continue processing, and staff maintain full operational capability throughout the entire modernization effort. Zero disruption isn't aspirational--it's a requirement we've met repeatedly.
+Multi-Vendor Coordination
+Farmers.gov operates within a complex, multi-vendor, multi-organizational environment that includes USDA agencies, third-party developers, infrastructure providers, and an independent verification and validation (IV&V) partner; as the lead application development team, we build and maintain core platform components, including the public website and authenticated portal; our work requires close coordination with other vendors on shared APIs, data structures, and synchronized release schedules. For USPTO we operated within a complex, multi-vendor environment, collaborating with internal stakeholders and external partners to ensure seamless delivery, platform stability, and continuous improvement; to succeed in this environment, we emphasized proactive change management, risk mitigation, and transparent communication across all stakeholders.
+VA's ecosystem involves dozens of vendors, multiple administrations (VHA, VBA, NCA), external partners, and VA central offices. Our approach treats multi-vendor coordination as core capability, not a challenge to be managed--we actively orchestrate across organizational boundaries through structured communication, shared tooling, and dependency management practices that prevent conflicts before they impact delivery.
+
+Technologies and Approaches
+
+Our technology recommendations for VA.gov emphasize architectural patterns, operating principles, and decision frameworks rather than prescribing specific commercial products. This approach allows VA to evolve the platform within its existing ecosystem, leverage investments already made across VA.gov, vets-api, and the VA API Platform, and avoid unnecessary vendor lock in while maintaining flexibility for future innovation.
+
+Experience Layer and Presentation Architecture: We recommend a decoupled, experience driven architecture where content, presentation, and business logic are intentionally separated. Public facing content should continue to favor static or prerendered delivery models where possible to maximize performance, resilience, and security. For authenticated and personalized experiences, modular client applications provide accessible, usable interfaces tailored to Veteran needs.
+
+This model aligns with VA.gov's current pattern of static content generation paired with clientside applications for authenticated workflows. It supports progressive enhancement, strong mobile performance, and accessibility at scale while minimizing runtime dependencies for unauthenticated traffic.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 6
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+API First Backend and Service Contracts: Modernized VA.gov capabilities should rely on a well-defined API first backend layer that provides a consistent contract to frontend applications while insulating them from downstream system variability. This layer serves as the primary integration surface for Veteran-facing experiences and enforces standards for authentication, authorization, error handling, resilience, and observability.
+By centralizing identity and session context, applying consistent resilience patterns such as timeouts and retries, and abstracting system-specific logic out of frontend applications, this approach allows backend systems to evolve without disrupting user experiences. The model builds on VA.gov's existing unified API layer and supports incremental modernization without destabilizing live services.
+Enterprise Data Integration and Mediation: At VA's scale, reliable digital experiences depend on enterprise-managed data services rather than point-to-point integrations. We recommend treating authoritative Veteran data as a governed enterprise asset delivered through managed data products or domain-aligned services. These services encapsulate canonical data definitions, source authority and survivorship rules, latency expectations, update cadence, and embedded metadata for lineage and quality.
+VA should select integration mechanisms--whether API gateways, event-driven platforms, or mediation layers--based on their ability to enforce these enterprise contracts consistently. Tool choice matters less than the governance model that ensures VA.gov consumes trusted, semantically consistent data without embedding reconciliation logic in Veteran-facing applications.
+This approach reflects lessons learned from prior VA enterprise initiatives, where upstream resolution of data semantics, latency, and source authority proved essential. It reduces coupling between VA.gov and backend systems, improves consistency across digital channels, and allows backend modernization to proceed independently over time.
+Cloud Native Infrastructure and Scalability: We recommend a cloud-native architecture that uses containers and elastic scaling to adapt quickly to changing demand, isolate workloads for reliability, and support continuous delivery--all within VA Enterprise Cloud (VAEC) boundaries. Infrastructure-as-Code practices ensure consistent environments, traceable changes, and rapid recovery.
+This architecture operates across VA-approved environments, including AWS GovCloud and Microsoft Azure Government, and allows workloads to leverage provider-specific capabilities such as scalable compute, managed databases, caching, load balancing, auto-scaling, and content delivery networks. By designing for portability, VA can scale horizontally during demand surges, deploy changes with low risk, recover rapidly from incidents, and enforce consistent security and compliance controls. Multi-cloud flexibility preserves VA's strategic options as hosting strategies evolve and strengthens long-term resilience for mission-critical services.
+Identity, Access, and Personalization: VA.gov modernization continues to depend on federated identity models integrated with VA-approved credential service providers while preparing for next-generation identity capabilities. Centralizing identity services and abstracting them from individual applications allows frontend teams to focus on user experience rather than authentication mechanics.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 7
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Personalization draws on authoritative data and explicit user preferences, supported by clear governance that defines how VA uses data, how systems interpret it, and how Veterans understand and control their digital experience.
+Observability, Analytics, and Continuous Improvement: A platform serving millions of Veterans requires deep operational insight. We recommend embedding observability and analytics into the architecture from the outset to capture performance, reliability, and user behavior data that drives both real-time operations and strategic decisions.
+VA should treat analytics as a continuous feedback loop, not a reporting afterthought. Teams can use this data to prioritize backlogs, refine experiences, and guide investments based on measurable Veteran outcomes.
+Lessons Learned and Risk Mitigation
+Organizational Change Management For one "dark release" of functionality on Farmers.gov to collect data that previously had to be manually entered, we encountered a delay due to inadequate testing time; to ensure the release was not canceled, we managed the delay with transparent communication and swift action to address the underlying issues, demonstrating our resilience and dedication to maintaining project momentum. The lesson: technical solutions fail without organizational readiness. We now frontload training, establish champion networks within user communities, and validate operational procedures before deploying technical capabilities. For VA, this means coordinating across regional offices, training staff in waves, and maintaining support infrastructure that prevents capability from sitting unused after deployment.
+Governance at Scale Our recommended approach focuses on building a solid foundation for governance, accelerating progress with pilots, building people capacity through clear roles and training, and monitoring progress and execution to increase effectiveness; our governance approach cascades execution and support down organizational layers. VA's governance challenge isn't creating policies--it's ensuring policies get executed consistently across hundreds of teams. Our framework establishes lightweight governance that provides necessary oversight without creating bureaucratic delays.
+Technical Debt Management During our work on the Olympia/Odin ARTs at USDA, we drove down technical debt at each sprint (including legacy code, outdated technology, workarounds, and security vulnerabilities) by eliminating over two years' worth of defects left behind by the previous vendor in just two Program Increments. Modernization isn't just building new--it's systematically retiring old. Our approach allocates sprint capacity explicitly to debt reduction, tracks debt in the same backlog as features, and makes debt visible to stakeholders so informed trade-off decisions occur.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 8
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+
+Recommended Approach for VA
+
+Based on our experience modernizing large-scale federal platforms, we recommend VA pursue a phased approach that maintains full continuity of service throughout the transition. The phases and timelines described below are notional and intended to illustrate sequencing and dependency management. They can be tailored to VA's priorities, risk tolerance, funding profiles, and operational constraints. At every phase, Veterans retain uninterrupted access to services, staff maintain operational capability, and VA preserves clear fallback options at defined phase gates.
+Phase 1: Foundation (Months 1-6) establishes governance frameworks and cross-functional teams, conducts comprehensive discovery with Veteran and staff user groups, defines target architecture and migration strategy, and deploys pilot capabilities with limited user groups to validate performance, security, and operational procedures.
+Phase 2: Core Capabilities (Months 7-18) migrates high-value services based on user research priorities, implements integration layers connecting legacy systems, deploys analytics and monitoring infrastructure, scales user base incrementally with continuous feedback loops, and establishes content migration and governance workflows. All of this is accomplished while maintaining existing services for the Veteran user population.
+Phase 3: Scale and Optimize (Months 19-36) expands to full user base across all benefit portfolios, retires legacy systems as capabilities fully transition, optimizes performance based on actual usage patterns, matures governance and operating models, and builds internal VA capacity for long-term sustainment.
+This phased approach directly parallels our Farmers.gov execution, where we modernized the Receipt for Service (RFS) application, transitioning it from an outdated on-premise system to a modern, cloud-native platform using ASP.NET Web API on AWS Lambda and an Angular frontend hosted on AWS S3, improving performance, scalability, and user experience while maintaining zero service disruption. Detailed timeline and phase gate criteria provided in Appendix C.
+
+Known Limitations and Trade-offs
+
+Legacy System Dependencies: VA must integrate with a diverse portfolio of legacy and emerging systems. Complete technical modernization of backend systems isn't feasible within reasonable timelines or budgets. Our approach abstracts legacy complexity through API layers, but this introduces additional integration points that require ongoing maintenance.
+
+Cultural and Organizational Resistance: Technology changes faster than organizations. Even superior user experiences face adoption challenges when they disrupt established workflows. Mitigation requires change management investment equal to technical development--not an afterthought but a parallel workstream.
+
+Security vs. Usability Tensions: Operating within a regulated, highly visible federal environment creates inherent tensions between security requirements and user experience. Biometric authentication, for example, improves user experience but faces deployment challenges in VA's security posture. We navigate these tensions through risk-based approaches that layer controls without degrading experience.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 9
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Scale Introduces Unpredictability: No amount of load testing fully replicates production behavior at VA's scale. We mitigate through phased rollouts, feature flags that allow instant rollback, and over-provisioned infrastructure during initial deployment phases--accepting higher short-term costs to reduce risk.
+Vendor Lock-in Risks: Cloud platforms, integration tools, and commercial products create dependencies that limit future flexibility. Our architecture approach emphasizes open standards, containerization, and abstraction layers that reduce switching costs, but complete vendor independence isn't realistic for complex platforms.
+Conclusion
+VA's challenge isn't unprecedented. We've modernized platforms serving millions of users, integrated dozens of legacy systems, maintained zero-downtime availability through major technical transitions, and built governance frameworks that work across complex federal organizations. The difference between modernization success and failure isn't technical capability--it's execution discipline, organizational alignment, and unwavering focus on user outcomes over technical elegance. We bring proven frameworks, battle-tested technologies, and teams that have delivered under the scrutiny federal platforms demand. VA deserves a digital experience worthy of the nation's Veterans. We're prepared to help build it.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 10
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Appendix A: Team Overview
+1. Abt Global / TSPi, LLC
+Abt Global, its wholly owned subsidiary TSPi, and our partners ("The Abt Team"), bring enterprise-scale federal digital transformation capabilities built on direct experience modernizing mission-critical public-facing platforms. We have supported 26 web-based projects with an Authority to Operate (ATO) for federal agencies, including work with Veterans Affairs (VA), Health and Human Services (HHS), Department of Labor (DOL), General Services Administration (GSA), and Social Security Administration (SSA).
+Agile and SAFe Expertise: We are a SAFe Government Solutions Partner (previously SAFe Gold Partner 2020-2025), employing 15 SAFe Practice Consultants (SPCs) who have taught 47 SAFe training sessions covering over 700 trained individuals. This expertise enables us to coordinate complex, multi-team efforts across large federal enterprises, ensuring alignment across organizational boundaries and synchronized delivery of integrated capabilities.
+Drupal and Content Management Excellence: Our Drupal team consists of 13 full-time developers and eight project managers/business analysts with expertise in designing, developing, and supporting enterprise-grade solutions. This includes four developers with Acquia Certifications, one with the prestigious Triple Acquia Certification held by fewer than 200 individuals worldwide, and contributions to over 45 distinct open-source Drupal core/modules.
+Integration and Cloud Architecture: We maintain deep expertise in enterprise integration platforms (MuleSoft, API gateways), cloud infrastructure (AWS, Azure), and modern development frameworks (React, Angular, .NET). Our teams architect solutions that balance innovation with operational stability, security with usability, and scalability with costeffectiveness.
+Federal Experience: Our portfolio includes modernization efforts across federal agencies where we've delivered high-traffic, mission-critical platforms serving millions of users. We understand the unique challenges of federal IT modernization: security requirements, accessibility standards, procurement constraints, multi-vendor ecosystems, and the need to maintain continuity while transforming underlying systems.
+2. National Consulting Partners (NCP)
+National Consulting Partners (NCP) is a Service-Disabled Veteran-Owned Small Business (SDVOSB) that has supported the Department of Veterans Affairs for more than six years, providing enterprise data, analytics, and integration capabilities across VBA, VHA, and OIT.
+VA Enterprise Data Experience: NCP brings deep experience working with VA's authoritative data platforms, legacy and modern systems, and enterprise services to support Veteran-facing and mission-critical operations at scale. Through prior work supporting the Enterprise Services Integrated Platform (ESIP) and VA Profile, NCP gained direct experience integrating authoritative Veteran data with enterprise and Veteran-facing platforms, including VA.gov.
+Authoritative Data Sources: NCP has worked extensively with VA's core data systems, including the Master Person Index (MPI), VA Profile, VADIR, CorpDB, and VHA enrollment systems. This experience provides practical insight into the operational realities of supplying
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 11
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+enterprise-grade data to VA.gov at scale, where data accuracy, timeliness, and consistency directly affect the Veteran experience.
+Data Integration Expertise: NCP understands the challenges of integrating VA.gov with VA's diverse operational systems. Differences in data semantics, update latency, and source authority frequently require reconciliation logic. Simply exposing APIs is insufficient without clear enterprise agreement on canonical data definitions, survivorship rules, and data stewardship responsibilities.
+Enterprise Services Knowledge: NCP's work across VBA, VHA, and OIT provides visibility into how data flows through VA's enterprise architecture and how different administrations consume and produce authoritative data. This knowledge is essential for designing integration approaches that work across organizational boundaries and support consistent Veteran experiences regardless of which benefit or service is being accessed.
+3. Why This Team
+The Abt Global and NCP partnership combines broad federal platform modernization experience with deep VA-specific integration expertise. Abt brings proven delivery on large-scale web modernizations for agencies like USPTO, USDA, and EPA; NCP brings intimate knowledge of VA's data ecosystem from years of work with ESIP, VA Profile, and enterprise services across VBA, VHA, and OIT. Together, we deliver both the technical architecture and development capabilities needed to build modern platforms and the VA enterprise data governance insights essential for successful integration with the department's unique systems. NCP's SDVOSB status combined with Abt's enterprise-scale delivery capacity provides VA with both the socioeconomic value and the execution horsepower this modernization demands.
+Vehicle Name: GSA MAS - IT Services (formerly IT Schedule 70) · Vehicle Number: GS-35F-0128Y · Date of Award: December 20, 2010 · Expiration Date: December 22, 2026
+Vehicle Name: OASIS+ UNRESTRICTED IDIQ OAS+UR · Vehicle #: 47QRCA25DU356 · Date of Award: 12/17/24 · Expiration Date: 12/16/29
+Other vehicle options for consideration: Chief Information Officer - Solutions and Partners 3 Small Business (CIO-SP3-SB)
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 12
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+
+Appendix B: Past Performance - Farmers.gov Digital Modernization
+
+1. Project Overview
+Farmers.gov provides farmers, ranchers, and private forest landowners with a single interface to the full breadth of USDA Farm Production and Conservation (FPAC) services including selfservice applications, educational materials, engagement opportunities, and business tools to increase efficiency and productivity while preserving traditional relationships between local USDA Service Centers and producers. This mirrors VA's challenge: modernizing digital services for millions of beneficiaries while maintaining continuity and trust.
+Client: U.S. Department of Agriculture (USDA) Farm Production and Conservation (FPAC)
+
+Period of Performance: October 2021 - Present
+
+Contract Type: CIO-SP3 Task Order, FFP
+
+Contract Value: $76,837,569.06
+
+Role: Prime Contractor - Lead Application Development Team
+
+2. Scale and Complexity
+Farmers.gov is a public-facing, transactional website with over 25,000 registered accounts, enabling self-service access to a wide array of tools and services. For producers, the portal offers loan and program eligibility information, field and conservation document management, and technical assistance requests; for USDA staff, the portal provides customer profiles, application tracking, payment processing, and detailed loan and land data to improve operational efficiency and service delivery.
+
+The Farmers.gov ecosystem spans multiple USDA organizations and uses a technology stack of Salesforce, MuleSoft, ESRI, Microsoft .NET within a modular, service-based architecture where distinct services handle specific business capabilities like loan applications, field mapping, and conservation activity tracking, connecting with existing systems, data sources, and infrastructures to provide a seamless, enterprise-wide solution. We integrate Salesforce, MuleSoft, OneSpan, Esri, AWS, Angular, JavaScript, ServiceNow, Jira/Confluence, Splunk, SonarQube and Microsoft .NET to unify diverse systems and data sources across USDA's enterprise infrastructure.
+
+This directly addresses VA's stated need to integrate with a diverse portfolio of legacy and emerging systems while operating within a regulated federal environment.
+
+3. Technical Architecture
+
+Modular, Service-Based Design: Farmers.gov uses a modular, service-based architecture where
+
+distinct services handle specific business capabilities; services are designed for reusability across
+
+multiple tools and workflows, reducing duplication and improving maintainability. Farmers.gov
+
+is an enterprise platform that leverages web services to exchange data and perform operations
+
+across different enterprise platforms, both internal and external to FPAC; we unlock backend
+
+USDA data silos and leverage MuleSoft APIs that orchestrate business processes with enterprise
+
+systems and SaaS providers.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 13
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Real-Time Integration: MuleSoft APIs integrate the Salesforce portal with USDA's document management system and OneSpan's cloud Signature solution, enabling farmers to sign documents electronically; MuleSoft APIs also keep Farmers.gov data synchronized in real time with data from other USDA systems such as SAP via change data capture, allowing updates such as profile or relationship status changes to display on the Farmers.gov portal; applications and web services are optimized for performance and scalability, ensuring the system can adapt to future growth and technological advancements, and this holistic approach enhances operational efficiency and ensures the sustainability and resilience of the Farmers.gov platform.
+Technology Stack: · Frontend: Salesforce Experience Cloud, Angular, JavaScript · Backend: Microsoft .NET, ASP.NET Web API · Integration: MuleSoft Anypoint Platform · Cloud Infrastructure: AWS (Lambda, S3, EC2, RDS) · GIS/Mapping: ESRI ArcGIS · Document Management: OneSpan cloud Signature solution · Monitoring & DevOps: Splunk, SonarQube, Jenkins, Bitbucket · Project Management: Jira/Confluence, ServiceNow
+4. Delivered Results
+On-Time Delivery Performance: We achieved 43 on-time deployments between October 2023 and April 2025, demonstrating consistent delivery cadence and release discipline essential for maintaining stakeholder confidence and user trust.
+Program Increment Execution: During our most recent Program Increment (PI-28), we delivered 102% of features, completing 1,962 story points, achieved 86% Salesforce APEX code unit and automation test code coverage exceeding the 75% threshold, and delivered 100% of user stories in PI-28, as we did in PI-27, 26, and 25.
+Application Modernization: We modernized the Receipt for Service (RFS) application, transitioning it from an outdated on-premise system to a modern, cloud-native platform using ASP.NET Web API on AWS Lambda and an Angular frontend hosted on AWS S3, which improved performance, scalability, and user experience. We planned, developed, tested, and delivered the Wetlands Environmental Assessment Tool (WEAT) in Salesforce, automating USDA employee tasks and ensuring environmental compliance.
+5. Agile Release Train Operations
+Farmers.gov is one of eight Agile Release Trains (ARTs) within the Conservation Solution Train at FPAC, with nearly 70 Agile teams within the eight ARTs, five of which are managed by TSPi; TSPi operates under SAFe, which ensures proactive collaboration across enterprise service contracts to achieve seamless integration of IT service delivery across USDA.
+TSPi's Solution and Dependency Managers establish robust communication channels and involve key stakeholders in planning and decision-making processes; we hold Program Increment (PI) Planning sessions to bring together cross-functional teams to coordinate their efforts, synchronize delivery cadences, and plan for regular integration points; our Farmers.gov
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 14
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Dependency Manager identifies and manages dependencies between different teams and ARTs, ensuring we address all dependencies during planning and execution.
+6. Multi-Vendor Coordination
+Farmers.gov operates within a complex, multi-vendor, multi-organizational environment that includes USDA agencies, third-party developers, infrastructure providers, and an independent verification and validation (IV&V) partner; as the lead application development team, we build and maintain core platform components, including the public website and authenticated portal; our work requires close coordination with other vendors on shared APIs, data structures, and synchronized release schedules; a separate infrastructure vendor manages AWS-based environments, while we handle deployments and application stability; we also collaborate regularly with the IV&V partner to ensure deliverables meet functional and security requirements.
+7. Security and Compliance
+From infrastructure provisioning to production monitoring, security and automation are integrated at every stage of the software development lifecycle; all environments are built using AWS CloudFormation templates, ensuring consistent and compliant infrastructure-as-code practices; application code, including MuleSoft APIs, is maintained in Bitbucket Git repositories with branching strategies that support controlled, collaborative development; automated unit testing is implemented using the MUnit framework, and SonarQube is used to enforce code quality, identify security vulnerabilities, and flag code smells early in the process; security is embedded in the CI/CD pipeline, which is managed through Jenkins; builds are triggered automatically and, upon successful validation, are deployed to the Development environment using MuleSoft Maven tools; as the software progresses through testing and staging environments, it undergoes rigorous quality gates and security scans before being promoted to production.
+Once in production, Farmers.gov leverages tools such as Splunk, custom monitoring utilities, and the MuleSoft Anypoint Runtime Manager to ensure operational visibility, performance monitoring, and rapid incident response; this continuous monitoring approach enables real-time detection of issues and enforces compliance with federal security standards.
+8. Relevance to VA.gov Modernization
+The Farmers.gov engagement demonstrates capabilities directly applicable to VA.gov replacement:
+· Enterprise-scale integration with diverse backend systems (legacy and modern) · Multi-vendor coordination in complex federal ecosystems · Zero-downtime deployments while serving active user populations · Real-time data synchronization across authoritative sources · Phased modernization of legacy applications to cloud-native platforms · SAFe governance coordinating multiple teams and organizational boundaries · Security-first DevSecOps meeting federal compliance requirements · User-centered design balancing external users and internal staff needs
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 15
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Appendix C: Phased Implementation Timeline
+1. Overview
+Based on our experience modernizing large-scale federal platforms, we recommend VA pursue a phased approach that maintains full continuity of service throughout the transition. The phases and timelines described below are notional and intended to illustrate sequencing and dependency management. They can be tailored to VA's priorities, risk tolerance, funding profiles, and operational constraints. At every phase, Veterans retain uninterrupted access to services, staff maintain operational capability, and VA preserves clear fallback options at defined phase gates.
+This appendix provides detailed phase descriptions, key activities, deliverables, and success criteria.
+2. Phase 1: Foundation (Months 1-6)
+Objectives Establish the organizational, technical, and operational foundations necessary to support a successful VA.gov modernization while minimizing risk through pilot validation.
+Key Activities Governance and Team Structure (Months 1-2)
+· Establish governance framework including executive steering committee, working groups, and decision-making processes
+· Form cross-functional teams spanning VA administrations (VHA, VBA, NCA), OIT, and contractor personnel
+· Define roles, responsibilities, and escalation paths · Establish communication protocols and collaboration tools · Create stakeholder engagement plan
+Discovery and Requirements (Months 1-4) · Conduct comprehensive discovery with Veteran user groups representing diverse demographics, geographic locations, and benefit portfolios · Engage VA staff across regional offices, call centers, and headquarters to understand operational workflows · Document current state architecture including all VA.gov integrations with backend systems · Catalog authoritative data sources (MPI, VA Profile, VADIR, CorpDB, enrollment systems) and data flows · Identify pain points, gaps, and improvement opportunities through user research · Analyze existing analytics to baseline current performance and user behavior · Review security requirements, accessibility standards, and compliance obligations
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 16
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Target Architecture Definition (Months 3-5) · Define target state architecture including platform components, integration patterns, and technology stack · Design enterprise data integration approach leveraging data fabric or domain-oriented services · Establish API standards, canonical data models, and governance policies · Plan migration strategy including sequencing, dependencies, and risk mitigation approaches · Develop security architecture and compliance framework · Create disaster recovery and business continuity plans
+Pilot Deployment (Months 4-6) · Deploy pilot capabilities with limited user groups (1,000-5,000 users initially) · Implement monitoring and observability infrastructure · Conduct performance testing under realistic load conditions · Validate security controls and compliance posture · Test operational procedures including incident response, change management, and support workflows · Gather user feedback through surveys, interviews, and behavioral analytics · Iterate based on findings before broader rollout
+Deliverables · Governance charter and organizational structure · User research findings and persona definitions · Current state architecture documentation · Target state architecture and migration strategy · Security and compliance framework · Pilot environment with limited user population · Performance baseline and acceptance criteria · Lessons learned and recommendations for Phase 2
+Success Criteria · Governance framework operational with active participation from all stakeholders · User research completed covering representative Veteran and staff populations · Target architecture reviewed and approved by VA technical authorities · Pilot successfully deployed with zero security incidents · Performance metrics meet or exceed baseline (page load times, availability, error rates) · User satisfaction scores from pilot participants equal or exceed current VA.gov · Phase 2 go/no-go decision made based on objective criteria
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 17
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Phase Gate 1 Decision Point Before proceeding to Phase 2, VA evaluates:
+· Are pilot performance, security, and user satisfaction metrics acceptable? · Have all critical technical risks been addressed or mitigated? · Is organizational readiness sufficient for broader rollout? · Do we have executive support and stakeholder buy-in to proceed?
+
+3. Phase 2: Core Capabilities (Months 7-18)
+Objectives Migrate high-value services to the modernized platform, establish production integration with VA enterprise systems, and scale user base incrementally while maintaining full service continuity.
+Key Activities Service Migration (Months 7-15)
+· Prioritize services for migration based on user research findings, business value, and technical complexity
+· Migrate authentication and identity services integrating with VA's existing identity providers
+· Migrate high-traffic benefit information pages and tools · Migrate claims status tracking and application submission workflows · Implement personalized dashboards showing benefits, healthcare, and profile information · Migrate facility locators, eligibility tools, and decision support applications · Each migration follows pattern: develop  test  limited release  monitor  scale 
+full release
+Integration Layer Implementation (Months 7-12) · Deploy enterprise integration layer connecting modernized VA.gov with authoritative data sources · Implement MuleSoft APIs exposing services from MPI, VA Profile, VADIR, CorpDB, and enrollment systems · Establish canonical data models with clear source authority and survivorship rules · Implement data quality monitoring and reconciliation workflows · Deploy real-time synchronization for profile updates, contact information, and eligibility changes · Create API catalog and developer portal for internal VA consumers
+Analytics and Monitoring (Months 8-14) · Deploy comprehensive analytics infrastructure covering user behavior, performance, and business metrics
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 18
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+· Implement real-time monitoring with automated alerting for performance degradation and errors
+· Establish dashboards for executives, product owners, and operations teams · Conduct regular analytics reviews to identify friction points and improvement
+opportunities · Track migration progress against success metrics
+Incremental Scaling (Months 10-18) · Scale user base incrementally with continuous feedback loops · Start with 5-10% of user population, then 25%, 50%, 75%, 100% · Use feature flags to control rollout pace and enable instant rollback if issues emerge · Monitor each scaling increment for performance impacts, error rates, and user satisfaction · Maintain legacy VA.gov as fallback throughout scaling process
+Content Migration and Governance (Months 7-18) · Establish content migration and governance workflows · Train content authors on new platform and governance procedures · Migrate content progressively aligned with service migration schedule · Implement content quality controls and approval processes · Deploy search and navigation optimized for Veteran mental models
+Deliverables · High-value services migrated and operational on modernized platform · Integration layer operational with real-time data synchronization · Analytics infrastructure providing actionable insights · Content governance processes and trained content teams · Incrementally scaled user base with validation at each stage · Performance reports demonstrating stability at scale · Updated architecture documentation reflecting production state
+Success Criteria · Migrated services achieve 99.9%+ uptime · Page load times under 2 seconds for 95th percentile · Zero high-severity security vulnerabilities · User satisfaction scores equal or exceed legacy VA.gov · Integration layer handles peak loads without degradation · Content publishing workflows operating smoothly · VA staff trained and supporting users on modernized platform
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 19
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Phase Gate 2 Decision Point Before proceeding to Phase 3, VA evaluates:
+· Are all core services operational with acceptable performance? · Has the platform demonstrated stability under production loads? · Are integration points with VA enterprise systems reliable? · Is user adoption progressing as expected? · Are operational support capabilities mature enough for full-scale operations?
+4. Phase 3: Scale and Optimize (Months 19-36)
+Objectives Expand to full user base across all benefit portfolios, retire legacy systems, optimize performance based on actual usage patterns, and build internal VA capacity for long-term sustainment.
+Key Activities Full-Scale Expansion (Months 19-24)
+· Expand to full user base across all benefit portfolios (healthcare, disability, education, memorial, pension, life insurance)
+· Complete migration of all remaining services and content · Retire legacy VA.gov infrastructure as capabilities fully transition · Validate all Veteran journeys end-to-end across benefit types · Ensure consistent experience across all channels (web, mobile, call center)
+Performance Optimization (Months 19-30) · Analyze actual usage patterns and optimize based on real user behavior · Tune caching strategies, database queries, and API performance · Right-size infrastructure based on observed load patterns · Implement advanced personalization based on user preferences and history · Optimize search relevance based on query logs and user interactions
+Governance Maturity (Months 19-36) · Mature governance and operating models based on operational experience · Refine content governance processes incorporating lessons learned · Establish regular cadence for platform enhancements and feature releases · Implement continuous improvement processes driven by user feedback and analytics
+VA Capacity Building (Months 19-36) · Build internal VA capacity for long-term sustainment through knowledge transfer · Train VA technical staff on platform architecture, operations, and troubleshooting · Document operational procedures, runbooks, and troubleshooting guides
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 20
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+· Transition support responsibilities progressively to VA teams · Establish contractor-VA partnership model for ongoing operations and enhancements
+Legacy System Retirement (Months 24-36) · Retire legacy systems as capabilities fully transition to modernized platform · Archive legacy data in compliance with federal records retention requirements · Decommission infrastructure and reallocate resources · Document final system state and transition completion
+Deliverables · Fully operational VA.gov serving complete user population · All legacy systems retired or archived · Optimized platform performance based on actual usage · Mature governance and operational processes · VA staff trained and capable of platform sustainment · Comprehensive documentation and knowledge base · Transition plan for ongoing operations
+Success Criteria · 100% of Veteran-facing services migrated and operational · Platform availability exceeds 99.95% · User satisfaction scores exceed legacy VA.gov baseline by 15%+ · Call center volume reduced due to improved self-service capabilities · VA staff capable of handling Tier 1 and Tier 2 support independently · Infrastructure costs optimized based on actual utilization · All federal security and accessibility compliance requirements met
+Phase Gate 3 Decision Point Final validation includes:
+· Are all services operational with acceptable performance at full scale? · Have all legacy systems been successfully retired? · Is VA staff fully capable of sustaining the platform? · Have all contractual obligations been fulfilled? · Is VA ready to assume full operational responsibility?
+
+5. Risk Mitigation Throughout All Phases
+Continuous Service Availability: Throughout all three phases, Veterans maintain uninterrupted access to benefits, applications continue processing, and staff maintain full operational capability. Legacy systems remain operational until replacement capabilities are proven at production scale.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 21
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+Replacement Model for VA.gov
+Capability Statement
+Rollback Capability: Every deployment includes tested rollback procedures. Feature flags enable instant disabling of new capabilities if critical issues emerge. Infrastructure maintains excess capacity during initial deployments to absorb unexpected load spikes.
+Phased Validation: Each phase includes explicit go/no-go decision points based on objective success criteria. VA retains authority to pause, adjust, or halt progression if risks emerge or success criteria are not met.
+Stakeholder Engagement: Regular communication with Veterans, VSOs, VA staff, and other stakeholders ensures transparency and manages expectations throughout the modernization effort.
+This phased approach balances the urgency of modernization with the imperative of maintaining service continuity for millions of Veterans depending on VA.gov for critical benefits and healthcare services.
+
+Abt Global
+
+Solicitation No. 36C10B26Q0131
+
+February 5, 2026 | 22
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+

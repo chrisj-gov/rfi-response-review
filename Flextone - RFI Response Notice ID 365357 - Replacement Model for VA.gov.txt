@@ -1,0 +1,125 @@
+Response to Request for Information (RFI) -
+Replacement Model for VA.gov
+Solicitation: Notice ID 365357 Due: Feb 4, 2026
+Submitted by: Flextone Solutions LLC Stephen Ibitoye, Managing Member
+5 Cowboys Way, Suite 300 Frisco, TX 75034 667-201-9658 stephen@systoneit.com
+Source Selection Information. This document is proprietary and confidential. No part of this document may be disclosed in any manner to a third party without the prior written consent of Flexion Inc.
+
+www.flextonesolutions.com
+GSA MAS Contract: 47QTCA23D001K
+Table of Contents
+1.0 Cover Letter.................................................................................................................... 3 2.0 Response to VA.gov Replacement Model Topics.................................................................. 4
+2.1 Understanding the VA.gov Replacement Challenge........................................................................ 4 2.2 Replacement and Transition Models................................................................................. 4
+Model 1. Incremental Platform Replacement.....................................................................4 Model 2. Hybrid Platform With Federated Capabilities...................................................... 4 Model 3. Full Platform Replacement..................................................................................5 2.3 Continuity of Service..........................................................................................................5 2.4 Identity, Navigation, and Authenticated Experiences.........................................................5 2.5 Governance and Operating Model.....................................................................................5 2.6 Analytics and Measurement.............................................................................................. 6 2.7 Risks, Constraints, and Open Questions...........................................................................6 2.8 Relevant Experience..........................................................................................................6 2.8.1 Web Experience and Content Management Services (WECMS) Digital Modernization Initiative...................................................................................................... 6 2.8.1.2 GSA-TTS 10x Website Redesign.......................................................................... 7 2.8.1.3 GSA-TTS COVID Public Information Websites..................................................... 7 2.8.2 Relevance to VA.gov Replacement................................................................................ 7 2.9 Closing Perspective........................................................................................................... 7 Appendix: Diagrams....................................................................................................................8 Diagram A. Incremental Platform Replacement Using Thin Vertical Slices.............................8 Diagram B. Identity and Navigation as Shared Platform Services...........................................9 Diagram C. Continuity and Parallel Operations Timeline.......................................................10 Diagram D. Governance and Decision Flow During Transition..............................................11 Diagram E. Analytics and Measurement During Platform Transition.....................................12
+
+© Flextone Solutions LLC 2026
+
+2
+
+1.0 Cover Letter
+Flextone Solutions LLC is a joint venture between Flexion Inc. and Systone Iterations, formed under the SBA 8(a) Mentor Protégé Program. Flextone combines Flexions experience delivering large scale, regulated federal platforms with Systones strengths in modern web platforms, design systems, and user centered digital delivery. Together, we support agencies operating high traffic, public facing digital services that must evolve without disrupting access, trust, or mission outcomes.
+Across federal programs, Flextone teams have delivered and operated live production platforms, public websites, and supporting services under strict requirements for accessibility, security, privacy, auditability, and uptime. Our experience includes incremental modernization of in use platforms, integration with enterprise identity providers, governance aware delivery, and continuous operations in environments where availability and public trust are non-negotiable.
+Flextone was formed to address challenges like those outlined in VAs RFI--where modernization must happen in place, at scale, and without compromising reliability or user trust. Our teams are experienced working within highly regulated federal environments where systems serve millions of users, integrate with complex portfolios of legacy and emerging platforms, and operate under constant public scrutiny.
+We approach large-scale digital transformation as a coordinated effort across experience design, platform architecture, content strategy, analytics, governance, and operating models. Rather than treating replacement efforts as purely technical exercises, we focus on continuity of service, incremental delivery, and long-term sustainability. This includes designing solutions that support evolving identity, authentication, and navigation needs while remaining adaptable as policies, technologies, and user expectations change.
+Through this RFI, Flextone seeks to share practical, experience-driven insights drawn from operating and modernizing mission-critical federal digital platforms. We aim to contribute lessons learned, highlight tradeoffs and risks, and offer approaches that support VAs goal of delivering a modern, secure, and Veteran-centered digital experience through VA.gov.
+
+© Flextone Solutions LLC 2026
+
+3
+
+2.0 Response to VA.gov Replacement Model Topics
+2.1 Understanding the VA.gov Replacement Challenge
+VA.gov functions as the front door to VA services, combining identity, navigation, content management, and integration with downstream systems across a complex organizational and technical landscape. Any replacement or re-architecture must preserve Veteran access, authenticated experiences, accessibility compliance, and operational continuity throughout the transition. The core challenge is managing platform evolution while VA.gov remains the primary channel for benefits, health, and service information. Replacement strategies must account for identity continuity, shared navigation patterns, content governance, analytics visibility, and the realities of operating a nationally visible service during change.
+2.2 Replacement and Transition Models
+Model 1. Incremental Platform Replacement
+This model replaces VA.gov capabilities incrementally while the existing platform remains operational, using a thin vertical slice delivery approach. Each slice delivers a complete, end-to-end capability spanning user experience, identity and authentication, navigation, backend services, analytics, security, and operations. Capabilities are migrated route by route or domain by domain, with legacy and new components running in parallel. By validating the entire platform lifecycle early and continuously, this approach reduces transition risk by exercising all platform layers together in production rather than building isolated horizontal components. Integration issues surface earlier, failures are contained, real user feedback is incorporated, and decisions are informed by actual usage and performance data before broader rollout. Navigation and content transition progressively as each slice is validated, supported by controlled cutovers, active monitoring, and defined rollback paths. This preserves continuous Veteran access, limits operational risk, and enables evidence-based scaling before legacy components are retired. Why This Model Fits VA.gov Today: VA.gov must evolve while remaining continuously available, making incremental, end-to-end validation the lowest-risk path to modernization.
+Model 2. Hybrid Platform With Federated Capabilities
+This model establishes a new core platform while federating legacy systems through shared identity, navigation, analytics, and observability services. Legacy and modern components coexist longer-term, with modernization occurring behind common platform services.
+
+© Flextone Solutions LLC 2026
+
+4
+
+This approach improves consistency and enables shared services but introduces increased dependency on centralized identity and navigation layers. It requires strong enterprise alignment and disciplined governance to avoid bottlenecks during transition. Primary Tradeoff: Greater standardization at the cost of increased coordination complexity and dependency risk.
+Model 3. Full Platform Replacement
+This model replaces VA.gov through a coordinated cutover to a new platform. While it offers long-term architectural simplicity, it requires migrating identity, navigation, content, and backend integrations simultaneously. Based on experience with regulated federal platforms, this approach carries the highest risk to service continuity, user trust, and operational stability, with limited opportunity for incremental validation. Primary Tradeoff: Cleaner architecture at the cost of elevated transition and disruption risk.
+2.3 Continuity of Service
+Continuity of service should be treated as a platform requirement rather than an outcome. Flextone recommends parallel run periods with clear success criteria, incremental cutovers aligned to Veteran journeys, explicit rollback and incident response planning, and operational readiness reviews prior to each transition step.
+2.4 Identity, Navigation, and Authenticated Experiences
+Identity and navigation are core platform capabilities. Replacement models must preserve authenticated sessions, maintain consistent sign in and account experiences, align navigation to Veteran mental models, and avoid exposing backend complexity through the user interface. Flextone has implemented identity centric architectures integrating enterprise identity providers with modern delivery pipelines and operational monitoring at scale.
+2.5 Governance and Operating Model
+Successful replacement depends on clear ownership of platform services, content, and navigation, defined decision rights and escalation paths, change management aligned to risk, and metrics tied to Veteran outcomes and platform health. Flextone applies governance aware Agile delivery adapted to regulatory and operational constraints.
+
+© Flextone Solutions LLC 2026
+
+5
+
+2.6 Analytics and Measurement
+Analytics should support transition management and long term service improvement, including availability, latency, error rates, navigation flows, task completion, migration progress, adoption, and operational health during parallel operations. Flextone integrates analytics directly into operational and governance workflows to support near real time insight.
+
+2.7 Risks, Constraints, and Open Questions
+Key risks include identity migration and session continuity, fragmentation of navigation and content ownership, hidden downstream dependencies, governance bottlenecks, and loss of analytics visibility during transition. Open questions include which identity services must remain centralized, how partial migration success should be measured, what governance changes enable modular platforms, and how operational ownership evolves post transition.
+
+2.8 Relevant Experience
+Flextones perspective is informed by experience modernizing live federal platforms under continuous use, operating public facing websites with accessibility and uptime requirements, integrating identity and access controls at scale, redesigning and migrating government websites using design systems and accessibility standards, and embedding analytics into platform governance and operations.
+
+2.8.1 Web Experience and Content Management Services (WECMS) Digital Modernization Initiative
+Customer Name: Centers for Medicare & Medicaid Services (CMS) Office of Communications, Web and Emerging Technologies Group Customer/Client POC Email: Donald Bozimski ; Donald.Bozimski@cms.hhs.gov Total Contract Value: $18,248,738.60 Period of Performance: 3/2/2020 - 3/1/2023 Contract Information: CMS digital services task orders; contract numbers available upon request Flextone team members bring direct experience modernizing and operating some of the federal governments highest-traffic public-facing digital platforms through CMSs WECMS program. CMS.gov and Medicare.gov serve millions of users and function as primary entry points for critical health, benefits, and policy information, with visibility and trust requirements comparable to VA.gov. Under WECMS, teams supported the continuous operation and incremental modernization of live websites within a highly regulated environment. Work was performed under strict requirements for Section 508 accessibility, security, privacy, auditability, uptime, and content governance. Modernization was executed incrementally to preserve uninterrupted public access while improving
+
+© Flextone Solutions LLC 2026
+
+6
+
+performance, usability, and maintainability. Delivery required close coordination across experience design, engineering, content strategy, governance, analytics, and operations, while operating within established CMS review and approval processes and managing dependencies across enterprise systems.
+2.8.1.2 GSA-TTS 10x Website Redesign
+Project Title: 10x Website Redesign Agency: General Services Administration (GSA), Technology Transformation Services (TTS) Public Website: https://10x.gsa.gov Contract Vehicle: GSA TTS digital services task order (details available upon request) Flexion teams supported the redesign and modernization of the 10x program website, a high-visibility federal digital initiative focused on experimentation and service transformation. Work emphasized clear navigation, content clarity, accessibility, and iterative delivery within GSA TTS digital standards and governance.
+2.8.1.3 GSA-TTS COVID Public Information Websites
+Agency: General Services Administration (GSA), Technology Transformation Services (TTS) Representative Public Websites: https://www.covid.gov and https://www.usa.gov/coronavirus Contract Vehicle: GSA TTS digital services task order supporting COVID-19 public information delivery Flexion teams supported the rapid design and delivery of COVID-related public information websites during periods of elevated demand and public scrutiny. Efforts focused on accessibility, clarity, reliability, and national-scale performance. Some work was rapid-response in nature or later subsumed into broader USA.gov efforts.
+
+2.8.2 Relevance to VA.gov Replacement
+Across WECMS, 10x, and GSA-TTS COVID response work, Flextone team members have modernized central federal digital entry points in place using incremental delivery. This experience directly informs Model 1s thin vertical slice approach, enabling end-to-end validation, continuity of service, and risk reduction while evolving highly visible platforms under operational and governance constraints.
+
+2.9 Closing Perspective
+Replacing VA.gov is a service continuity challenge as much as a technical one. Flextone brings experience modernizing live federal platforms where access, trust, and compliance must be preserved throughout change. We welcome the opportunity to contribute insight to VAs planning and replacement strategy.
+
+© Flextone Solutions LLC 2026
+
+7
+
+Appendix: Diagrams
+Diagram A. Incremental Platform Replacement Using Thin Vertical Slices
+The diagram below illustrates parallel operation of legacy and new VA.gov components, with end-to-end capabilities migrated incrementally and validated in production before broader rollout.
+
+© Flextone Solutions LLC 2026
+
+8
+
+Diagram B. Identity and Navigation as Shared Platform Services
+This diagram shows identity, authentication, and navigation operating as shared services across legacy and modern components to preserve consistent Veteran experiences during transition.
+
+© Flextone Solutions LLC 2026
+
+9
+
+Diagram C. Continuity and Parallel Operations Timeline
+This diagram depicts legacy and replacement platforms running concurrently over time, with controlled cutovers and rollback paths to maintain service availability.
+
+© Flextone Solutions LLC 2026
+
+10
+
+Diagram D. Governance and Decision Flow During Transition
+This diagram highlights ownership, approval points, and escalation paths supporting incremental delivery under operational constraints.
+
+© Flextone Solutions LLC 2026
+
+11
+
+Diagram E. Analytics and Measurement During Platform Transition
+This diagram demonstrates how analytics and monitoring span both platforms to track adoption, performance, and operational health.
+
+© Flextone Solutions LLC 2026
+
+12
+
+

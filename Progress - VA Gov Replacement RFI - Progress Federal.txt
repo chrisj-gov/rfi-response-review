@@ -1,0 +1,176 @@
+Department of Veterans Affairs VA.Gov Replacement Model Request for Information
+36C10B26Q0131
+Attention: Department of Veterans Affairs
+Allison Fulton Allison.fulton@va.gov
+Evan Schlisserman evan.schlisserman@va.gov
+Offeror Information: Progress Federal Solutions 8605 Westwood Center Dr. Suite 209 Vienna, VA 22182 Progress.com/Federal
+Offeror POC: Abby Potter Sr. Account Executive Abby.Potter@progressfederal.com 703-712-2189
+DUNS: 086035958 UEI: FTD5T29BW684 Size: Progress Federal Solutions is a large business software and services supplier Facility Clearance: Top Secret, Cage Code: 3HZ37
+NAICS Codes & Business Classification; 513210, 541511, 541519
+Notable Government Contracts: GSA 2GIT: 47QTCA21A000R; GSA MAS; GS-35F-0119Y, 47QSWA18D008F; NASA SEWP V; NNG15SC03B, NNG15SC27B, ITES-SW2; W52P1J-20D-0042, USAF ABMS MAC, JAIC DRAID
+About Progress Federal Solutions: MarkLogic Corporation was acquired by Progress Software Corporation (PRGS on the NASDAQ) in February 2023. We are the FOCI and FCI compliant Federal provider for all Progress Software products and tools, referred to in this response as Progress Federal Solutions. For over 40 years, Progress has been providing visionary software that grows with its customers and solves complex problems with simple direct solutions. Progress Federal Solutions remains an industry leader with vast government experience in the Enterprise Data Platform (EDP) space specializing in NoSQL (any data) which enables organizations to turn data into valuable, linked, and actionable intelligence.
+
+Progress Federal Solutions Proprietary
+
+1
+
+1
+
+INTRODUCTION
+Executive Summary The Department of Veterans Affairs (VA) is evaluating approaches to replace VA.gov with a premier, modern, secure, and Veteran-centric digital experience that can serve as the enduring digital front door for benefits, healthcare, services, and information. VA.gov is not simply a website. It is a national-scale public service platform that must continuously evolve alongside policy changes, benefit expansions, identity services, and Veteran expectations while maintaining uninterrupted availability and public trust.
+Progress Federal Solutions proposes a replacement model grounded in long-term sustainability rather than short-term re-platforming. The approach deliberately separates digital experience delivery from enterprise data, metadata, and policy enforcement so that VA can modernize incrementally without repeatedly rebuilding foundational capabilities. This model recognizes that VA.gov will continue to change over decades, and that stability, governance, and adaptability are as important as user experience.
+Under this model, Progress Data Platform (PDP) serves as the authoritative enterprise data and metadata foundation for VA.gov, governing how data is ingested, secured, audited, integrated, and delivered across digital experiences. Progress Sitefinity serves as the digital experience and content management layer, enabling VA to design, publish, and evolve Veteran-facing experiences with strong accessibility, workflow, and governance controls.
+Together, these platforms support VA outcomes that are central to this request: continuity of service for millions of users, reduced integration fragility, improved governance and oversight, resilience under changing policy and demand, and the ability to deliver a more seamless and trusted Veteran experience across all benefit portfolios.
+VA OBJECTIVES AND OPERATING CONTEXT VA has clearly articulated that replacing VA.gov is not solely a technical exercise. Meaningful improvement requires coordination across experience design, platform architecture, content strategy, governance, analytics, and operating models. Progress's proposed replacement model is explicitly designed to address this multi-dimensional challenge.
+Maintaining continuity of service is a foundational requirement for VA.gov. Veterans rely on VA.gov during time-sensitive and often stressful moments, including benefit enrollment, healthcare access, and status checks. Any replacement approach must allow VA to modernize without introducing outages, regressions, or inconsistent information. The proposed model supports parallel operations and phased transitions so that new capabilities can be introduced while existing services remain available.
+Integration with a diverse portfolio of legacy and emerging systems is another defining constraint. VA.gov aggregates information and services from numerous systems of record that evolve on different timelines. A replacement model that tightly couples experience logic to backend systems increases risk and slows change. By centralizing integration and governance within an enterprise data foundation, VA can reduce brittleness and onboard new systems more efficiently.
+VA operates within a regulated and highly visible federal environment. Content accuracy, accessibility, privacy, and auditability are not optional. The replacement model must support
+
+Progress Federal Solutions Proprietary
+
+2
+
+2
+
+clear accountability for what information is presented, where it originated, and how it was approved. Centralized governance and traceability are therefore core requirements, not ancillary features.
+Finally, VA must support long-term scalability, adaptability, and resilience. Demand on VA.gov fluctuates due to policy changes, enrollment cycles, and external events. The proposed model is designed to scale horizontally, absorb change, and support future modernization initiatives without requiring repeated foundational replacement.
+COMPANY OVERVIEW & RELEVANT EXPERIENCE Progress Federal Solutions is the U.S. Federal provider for Progress Software products and services, supporting long-lived, mission-critical government systems that require high availability, strong governance, and secure public access. Progress platforms are used by federal civilian agencies to operate digital services where reliability, auditability, and adaptability are essential.
+Progress brings experience supporting environments where data governance, content governance, and digital experience delivery must evolve independently without compromising trust or continuity. This experience directly aligns with VA's challenge of operating VA.gov as a durable public service rather than a static website.
+Progress platforms are commercially available, production-proven, and designed to coexist with existing systems of record. This enables agencies to modernize incrementally, preserve prior investments, and reduce long-term technical and operational risk. These principles underpin the proposed replacement model for VA.gov.
+CMS Healthcare.Gov Marketplace Progress supports large-scale federal digital services where uptime, public trust, and rapid policy-driven change are mission-critical. This includes longstanding support of CMS Healthcare.gov Marketplace operations, where the platform manages billions of records and tens of terabytes of data, supports sustained high transaction throughput during peak enrollment periods, and operates across multiple production clusters in a highly regulated and publicly visible environment. That experience informs the proposed VA.gov replacement model, particularly around sustaining continuity of service during modernization, governing data at national scale, and separating durable data foundations from rapidly evolving digital experiences.
+PROPOSED REPLACEMENT MODEL FOR VA.GOV The proposed replacement model is based on a composable architecture that separates responsibilities while enabling coordinated evolution. Rather than replacing all components simultaneously, the model allows VA to deliberately modernize different layers at appropriate speeds.
+At the foundation, enterprise data and metadata management are stabilized and governed centrally. Above this foundation, digital experiences and content can evolve more rapidly in response to Veteran needs, policy changes, and design improvements. Existing VA systems continue to operate as systems of record and are integrated through governed interfaces.
+This model answers the core question of what it means to "replace VA.gov." VA replaces the way digital experiences are orchestrated and governed, not the underlying mission systems that
+
+Progress Federal Solutions Proprietary
+
+3
+
+3
+
+already function as authoritative sources. This distinction reduces risk, preserves continuity, and enables sustained modernization.
+Architectural Principle: Separation of Concerns Separating concerns allows VA to modernize user experience without embedding data integration, security logic, or policy enforcement in custom application code. This reduces duplication, simplifies maintenance, and improves consistency across benefit portfolios. Governance is enforced once, centrally, rather than re-implemented across multiple applications.
+Enterprise Data Foundation - Progress Data Platform The Progress Data Platform functions as the authoritative data and metadata backbone for VA.gov. It ingests structured and unstructured data from VA systems, applies metadata and semantic context, enforces fine-grained access controls, and maintains lineage and audit history.
+For VA, this translates into more consistent benefit information across channels, reduced risk of conflicting or outdated content, and stronger oversight of how data is used in public-facing experiences. PDP enables VA to respond more quickly to policy and eligibility changes by centralizing how data is governed and delivered.
+Digital Experience and CMS Layer - Progress Sitefinity Progress Sitefinity provides the digital experience and content management capabilities required to operate VA.gov at scale. It supports distributed content authoring across VA administrations, enforces editorial workflows and approvals, and ensures accessibility and consistency across experiences.
+For VA staff, this reduces friction in content operations and improves coordination across organizations. For Veterans, it results in clearer, more consistent, and more accessible digital experiences regardless of which benefit portfolio they are engaging.
+
+Figure 1: VA.Gov Modernization Architecture
+
+Progress Federal Solutions Proprietary
+
+4
+
+4
+
+INTEGRATION AND INTEROPERABILITY
+Integration Across Experience, Data, and AI Progress platforms are designed to operate together while remaining loosely coupled. AI capabilities within Sitefinity and PDP are intentionally scoped to their respective layers and integrate through standard interfaces.
+Sitefinity consumes governed data services from PDP rather than embedding data logic or AI decisioning within the experience layer. PDP enforces access, governance, and audit controls before any data is made available for use in experiences or AI-assisted workflows.
+This layered integration model ensures that AI-enabled features enhance efficiency and usability without creating unmanaged dependencies or governance gaps.
+Enterprise Interoperability Progress platforms support:
+- Standards-based APIs - Integration with existing identity, analytics, and service platforms - Coexistence with current systems of record - Phased adoption and modernization
+This approach minimizes disruption while enabling VA to safely introduce AI-enabled capabilities over time.
+Progress platforms are designed to operate within complex enterprise environments.
+Integration characteristics include: - Standards-based APIs - Support for existing identity, analytics, and service platforms - No requirement to replace current systems of record - Phased adoption and coexistence with legacy systems
+This integration model minimizes disruption while supporting long-term modernization goals.
+ALIGNMENT TO VA.GOV MODERNIZATION OBJECTIVES VA has clearly articulated the outcomes it must achieve through a VA.gov replacement model. The proposed approach is intentionally structured to align directly with these objectives, not as abstract design principles, but as operational outcomes that can be sustained over time in a highly visible, regulated environment.
+
+Progress Federal Solutions Proprietary
+
+5
+
+5
+
+Figure 2: VA.Gov Modernization Overview
+Maintaining Continuity of Service for Millions of Users VA.gov must remain continuously available to millions of Veterans, caregivers, and family members, even as modernization efforts proceed. The proposed replacement model is explicitly designed to avoid disruption by supporting phased migration, parallel operations, and incremental adoption.
+Rather than requiring a single cutover event, this approach allows VA to introduce new digital experiences, content models, and capabilities alongside existing VA.gov components. Legacy experiences can remain operational while new components are validated, refined, and scaled. This reduces the risk of outages, regressions, or loss of critical functionality during transition and ensures that Veterans continue to access benefits and services without interruption.
+For VA leadership, this model prioritizes service reliability and public trust over speed of replacement, recognizing that continuity of service is a mission requirement rather than a technical preference.
+Progress's experience supporting national-scale public digital services, including CMS Healthcare.gov Marketplace operations, reinforces the viability of phased modernization approaches that preserve continuity while enabling continuous evolution.
+Integrating with a Diverse Portfolio of Legacy and Emerging Systems VA.gov aggregates information and services from a wide range of backend systems that evolve on different timelines and are owned by different organizations. The proposed model addresses this reality by centralizing integration, data governance, and policy enforcement within an enterprise data foundation rather than embedding integration logic within the experience layer.
+By treating existing VA systems as systems of record and integrating them through governed interfaces, VA can onboard new systems, retire legacy components, or adjust data flows without destabilizing Veteran-facing experiences. This reduces integration fragility, shortens the time required to incorporate new services or benefit programs, and lowers long-term maintenance burden.
+
+Progress Federal Solutions Proprietary
+
+6
+
+6
+
+This approach directly supports VA's need to modernize while preserving prior investments and avoiding tight coupling between experience delivery and backend system implementation details.
+Operating Within a Regulated, Highly Visible Federal Environment VA.gov operates under intense public, congressional, and oversight scrutiny. Accuracy, accessibility, privacy, and accountability are essential to maintaining trust. The proposed replacement model mitigates operating risk by enforcing governance, security, and publishing controls centrally rather than distributing them across custom application logic.
+Auditability, lineage, and approval traceability ensure VA can clearly account for what information is presented on VA.gov, where it originated, and how it was governed. Controlled publishing workflows and centralized policy enforcement reduce the risk of inconsistent or unauthorized content appearing in public-facing experiences.
+For VA, this provides greater confidence that modernization efforts will strengthen, rather than weaken, oversight and accountability in a highly visible environment.
+Supporting Long-Term Scalability, Adaptability, and Resilience VA.gov must scale to meet fluctuating demand driven by enrollment cycles, policy changes, and external events. At the same time, it must remain adaptable as VA programs, services, and digital expectations evolve. The proposed model addresses these requirements through horizontally scalable platforms and a clear separation between stable foundations and adaptable experience layers.
+Enterprise data and governance capabilities are designed to remain durable over long periods, while digital experiences and content can evolve more rapidly. This separation allows VA to adapt without repeatedly re-platforming core capabilities or accumulating unsustainable technical debt.
+Resilience is achieved not only through infrastructure scalability, but through architectural choices that limit the blast radius of change and isolate risk.
+Delivering a More Seamless, Veteran-Centric Digital Experience Ultimately, VA.gov modernization must improve the experience Veterans have when accessing benefits and services. The proposed model supports this outcome by ensuring that experiences are driven by consistent, governed data and coordinated content delivery across benefit portfolios.
+Distributed content authoring and experience design are supported without sacrificing consistency, accessibility, or accuracy. Veterans encounter clearer navigation, fewer conflicting messages, and more predictable interactions regardless of which service or benefit they are accessing.
+This Veteran-centric outcome is achieved through coordinated governance and experience orchestration, rather than through one-off customization.
+Alignment Through Durable Architectural Choices Each of these objectives is addressed through deliberate architectural choices rather than bespoke development or short-term customization. By separating experience delivery from enterprise data governance, centralizing policy enforcement, and enabling incremental modernization, VA gains
+
+Progress Federal Solutions Proprietary
+
+7
+
+7
+
+a replacement model that supports current needs while remaining adaptable to future requirements.
+This alignment ensures that VA.gov modernization is sustainable, governable, and resilient over time, consistent with VA's stated objectives for this request.
+IDENTITY, NAVIGATION, AND VETERAN USER JOURNEY CONSIDERATIONS VA.gov is the primary digital entry point for Veterans navigating complex benefits and services. Identity, authentication, navigation, and recovery experiences must therefore be reliable, understandable, and forgiving, particularly during stressful or time-sensitive interactions.
+The proposed replacement model complements VA's exploration of next-generation identity, authentication, and navigation by clearly separating identity services from experience orchestration and data governance. This separation allows VA to evolve identity capabilities without destabilizing VA.gov or duplicating identity logic across applications.
+Pre-Authentication and Public Experience Many Veterans and stakeholders access VA.gov without authenticating, particularly when seeking general information or determining eligibility. The proposed model ensures that publicfacing content is accurate, consistent, and governed, even in the absence of identity context. Data used in public experiences is curated and controlled through the enterprise data foundation, reducing the risk of outdated or conflicting information.
+Authenticated Veteran Experience Once authenticated, Veterans expect experiences that reflect their context while remaining predictable and trustworthy. The proposed model allows identity context to inform navigation and content selection without embedding identity-specific logic in the experience layer. This enables personalization and relevance while preserving a clear separation of responsibilities.
+For VA, this reduces integration complexity and supports future identity evolution without requiring wholesale redesign of VA.gov experiences.
+Account Recovery and Continuity Account recovery scenarios are a critical component of Veteran experience and trust. The proposed model supports continuity of navigation and content during recovery processes by maintaining consistent experience orchestration independent of identity services. Veterans are less likely to encounter dead ends, repeated steps, or conflicting information during recovery workflows.
+Outcome for Veterans and VA For Veterans, this approach results in clearer navigation, reduced friction, and more predictable interactions with VA.gov. For VA, it provides centralized control over identity integration, reduces duplication of logic, and supports long-term adaptability as identity and authentication capabilities continue to evolve.
+SECURITY, PRIVACY, AND COMPLIANCE Security, privacy, and compliance are foundational to VA.gov's role as a highly visible, national public service platform. Veterans expect VA.gov to be trustworthy, accurate, and resilient, particularly when accessing sensitive benefits and healthcare information. Any replacement
+
+Progress Federal Solutions Proprietary
+
+8
+
+8
+
+model must therefore prioritize consistent enforcement of security and privacy policies while supporting continuous change across benefits, identity services, and digital experiences.
+The proposed replacement model addresses these requirements by enforcing security and governance centrally at the enterprise data foundation, rather than distributing critical controls across custom application code. This approach reduces operational risk, improves consistency, and strengthens VA's ability to oversee and audit VA.gov at scale.
+Centralized Policy Enforcement Across VA.gov Under the proposed model, security and access policies are enforced once, centrally, within the Progress Data Platform. Data access rules, exposure constraints, and usage policies are applied consistently regardless of which digital experience or application consumes the data. This reduces the risk of divergent implementations across benefit portfolios and minimizes the likelihood of accidental overexposure caused by inconsistent application logic.
+For VA, this means policy changes, new access rules, or updated compliance requirements can be implemented centrally and take effect across VA.gov without requiring coordinated changes to multiple experience components.
+Fine-Grained Access Control and Data Segmentation VA.gov serves a wide range of audiences, including unauthenticated public users, authenticated Veterans, caregivers, and internal VA users. Each audience requires access to different information under different conditions. The proposed model supports fine-grained, attributedriven access controls that allow VA to precisely govern which data elements are exposed to which users and under what circumstances.
+This capability enables VA to support least-privilege access principles while still delivering seamless digital experiences. It also allows VA to adapt access policies over time as identity services, benefit programs, and regulatory requirements evolve.
+Auditability, Lineage, and Oversight Operating in a regulated and highly visible environment requires clear accountability for the information presented on VA.gov. The proposed model provides full traceability from published content and data back to authoritative sources, including lineage, transformation history, and approval context.
+This auditability supports VA oversight functions, Inspector General reviews, and incident response activities. It also strengthens VA's ability to answer fundamental questions about what information was presented, where it originated, and how it was governed at any point in time.
+Privacy Protection and Veteran Trust Protecting Veteran privacy is central to maintaining public trust in VA.gov. By enforcing privacy controls at the data foundation, VA reduces reliance on ad hoc or duplicated logic embedded in individual applications. Privacy rules are applied consistently, reducing the risk of inadvertent disclosure while still enabling usable and responsive digital services.
+This approach allows VA to balance transparency and privacy, ensuring Veterans can access the information they need without unnecessary exposure of sensitive data.
+
+Progress Federal Solutions Proprietary
+
+9
+
+9
+
+Security and Resilience Under Change VA.gov must remain secure not only during steady-state operations, but also during periods of change such as policy updates, benefit expansions, enrollment surges, and system integrations. The proposed model maintains consistent security enforcement even as experiences and content evolve. This stability reduces the likelihood that rapid change introduces new vulnerabilities or compliance gaps.
+For VA leadership, this translates into reduced operational risk and greater confidence that modernization efforts will not compromise security or public trust.
+Responsible and Governed Use of AI Across VA.gov Progress supports the responsible introduction of AI in a manner that preserves public trust and accountability. AI capabilities are intentionally scoped and layered.
+At the experience layer, AI assists VA staff with content drafting and layout efficiency while remaining subject to human review, accessibility checks, and approval workflows. At the data layer, AI supports discovery and retrieval across governed datasets with full auditability. This approach allows VA to realize efficiency gains while maintaining transparency and control.
+MIGRATION, TRANSITION, AND RISK CONSIDERATIONS Modernizing VA.gov requires a disciplined transition approach that prioritizes continuity of service and risk reduction. Given VA.gov's visibility and criticality, a "big bang" replacement approach introduces unacceptable operational and reputational risk.
+The proposed replacement model supports incremental migration through parallel operations, staged rollout, and controlled transitions. New experiences and capabilities can be introduced alongside existing VA.gov components, allowing VA to validate functionality, monitor performance, and adjust as needed before broader adoption.
+Parallel Operations and Phased Adoption By separating experience orchestration from enterprise data governance, VA can modernize individual portions of VA.gov without destabilizing the entire platform. Existing systems and experiences continue to operate while new components are introduced incrementally. This approach preserves continuity for Veterans and reduces the risk of widespread disruption.
+Risk Tradeoffs and Lessons Learned Experience with large public-sector digital platforms demonstrates that tightly coupled architectures increase transition risk and slow recovery when issues arise. The proposed composable model mitigates these risks by isolating change and preserving stable foundations. While incremental modernization may require careful coordination, it significantly reduces the likelihood of large-scale outages or regressions.
+Preserving Institutional Knowledge Phased transition also allows VA to retain institutional knowledge and operational expertise throughout modernization efforts. Staff and contractors can adapt gradually to new tools and workflows, reducing disruption and supporting long-term sustainability.
+SUMMARY AND CLOSING
+
+Progress Federal Solutions Proprietary
+
+10
+
+10
+
+Progress Federal Solutions proposes a replacement model for VA.gov that aligns directly with VA's objectives and operating realities. By combining Progress Data Platform as the enterprise data foundation with Progress Sitefinity as the digital experience and CMS layer, VA can modernize VA.gov in a sustainable, governed, and Veteran-centric manner.
+This approach supports continuity of service, reduces long-term technical debt, and provides VA with a durable foundation for future digital evolution. Progress appreciates the opportunity to support VA's planning and market research efforts and welcomes follow-on discussions as requested.
+
+Progress Federal Solutions Proprietary
+
+11
+
+11
+
+

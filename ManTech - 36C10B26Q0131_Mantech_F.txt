@@ -1,0 +1,305 @@
+Department of Veterans Affairs, Office of Information Technology
+Replacement Model for VA.gov
+Request for Information (RFI) Response
+Original
+
+Solicitation No. 36C10B26Q0131
+February 5, 2026
+Submitted via Email To Technology Acquisition Center 23 Christopher Way Eatontown NJ 07724 ATTN: Allison Fulton, Contract Specialist Allison.fulton@va.gov Evan Schlisserman, Contracting Officer evan.schlisserman@va.gov
+
+Submitted By
+ManTech Advanced Systems International, Inc. Jeromy Block, Senior Contracts Manager 2251 Corporate Park Drive Herndon, VA 20171 Phone: (703) 218-6440 Email: Jeromy.Block@MANTECH.com
+
+This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used or disclosed--in whole or in part--for any purpose other than as information in making a decision. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to the restriction is contained in the entire document.
+
+Replacement Model for VA.gov RFI Response
+
+1.0 COMPANY INFORMATION
+
+Company Name: Company Address: Point of Contact Name: Telephone Number: Email Address: CAGE/SAM UEI Code: Small Business Administration (SBA) VetCert Certification:
+
+ManTech Advanced Systems International, Inc. 2251 Corporate Park Drive, Herndon, VA 20171 Jeromy Block 703-218-6440 Jeromy.Block@MANTECH.com 5N741 / JY2BDT2K58Z6
+Not Applicable
+
+Mantech is a leading solutions integrator with a workforce comprised of approximately 50% veterans and military spouses. We bring deep mission understanding and extensive experience supporting the VA, Defense Health, and HHS since 2003. Our vision aligns with the America by Design program and National Design Studio (NDS) standards. We propose transitioning VA.gov from a reactive "initial inquiry" model to a proactive, conversion-centric framework that eliminates the "time tax" on Veterans and VA staff. The cornerstone of our proposal is MyPath, an Agentic AI-powered "Digital Front Door" designed to simplify the discovery and management of earned benefits.
+
+A direct dialogue would provide a valuable opportunity to share deeper insights into our proposed approaches while ensuring our solutions remain fully aligned with the VA's desired outcomes. We welcome the chance to bring our subject matter experts to a post-RFI briefing and demonstration of MyPath to support your evaluation of the industry landscape.
+
+2.0 RELEVANT IDEAS, CAPABILITIES, TECHNOLOGIES, AND APPROACHES
+Launched via Executive Order 14338 in August 2025, the America by Design program and the NDS represents a paradigm shift in how the federal government conceives of its "front door" for citizens: aesthetics, usability, and design consistency are no longer ancillary considerations but core pillars of national policy. For the VA, an agency managing the health and benefits of millions with a workforce currently undergoing significant reinvention, the alignment with these new federal standards provides both a sophisticated toolkit for modernization and a complex set of requirements for accessibility and trust. The VA has made great strides to consolidate content and websites into a streamlined experience that seeks to treat the veteran's journey as a continuous lifecycle rather than a series of fragmented administrative transactions. The VA is positioned to transition from a service provider to a proactive "digital partner" for veterans. The integration of agentic AI and a veteran journey-based approach on the unified VA.gov platform, the VA can create a digital environment that not only delivers information but also fosters a deep sense of trust and stewardship among those who have served. The ultimate goal is a "no wrong door" approach where every interaction--from filing a claim to managing a chronic condition--is simple, reliable, and delivered with the empathy that veterans deserve.
+To align with the America by Design mandate and National Design Studio (NDS) standards, the VA must transition from a reactive "initial inquiry" model to a proactive, "conversion -centric" framework. This strategic realignment addresses long-standingGAO and OIG criticisms regardinglimited benefit awareness by transforming VA.gov into an active engine for service delivery that eliminates the "time tax" on Veterans.
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10B26Q0131
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Page 1
+
+Replacement Model for VA.gov
+RFI Response
+2.1 The Conversion-Centric Strategy
+ManTech recommends that the VA embrace the concept of "conversions," mirroring commercial best practices where success is defined by the ability to guide users to specific tasks or services based on prioritized needs (See Appendix A - Landing Page). An archetypal Veteran journey is used to orchestrate these capabilities:
+· Target & Acquire: Identify and engage Veteran segments through digital outreach and personalized subscriptions.
+· Discover & Evaluate: Ensure frictionless discovery of content, services, and actions. · Subscribe & Manage: Facilitate task initiation (e.g., form completion, appointment scheduling)
+and ongoing management through authenticated experiences. · Endorse: Enable Veterans to recommend and endorse content and digital experiences.
+2.2 MyPath: The Agentic AI "Digital Front Door"
+The cornerstone of our proposal is MyPath, a personalized, AI-powered digital concierge designed to simplify how Veterans access and manage earned benefits (See Appendix B - User Interface, C - Navigation, D - Solution Overview, E - Roadmap, and F - Data Governance).
+· Intelligent Concierge: Uses real-time and historical data to personalize the web experience, presenting relevant resources from across VA (VBA, VHA, NCA), Federal Agencies, States, Community organizations (ex. Veteran Service Organizations, non-profits) automatically based on a Veteran's specific history. By proactively guiding seekers to appropriate programs, the VA reduces the volume of reactiveinquiries and manual assistance neededfor eligibility determination, allowing staff to focus on higher-value support and optimizing resource allocation.
+· Case / Care Management: It enables VA staff (e.g. contact center employees,benefits specialists), VSOs to quickly address veteran needs by automating routine inquiries and data extraction. This reduces workload by eliminating the need to search multiple systems. It creates a clear, personalized action plan to inform case / care management.
+· Multi-Agent Architecture: A Coordinating Agent acts as the central brain, routing tasks to specialized sub-agents such as for topic areas (e.g., Housing, Healthcare, Education), IT help desk, Care / Case Management, and employee self-service to provide specific courses of action.
+· Technical Integrity via RAG: Employs Retrieval-Augmented Generation (RAG) and taxonomy tagging to restrict AI responses to authoritative VA data sources, mitigating misinformation risks.
+· Automated Action: Capable of auto-populating application forms and filing benefit claims via authenticated APIs (e.g., VA Veteran Service History and Eligibility) to minimize administrative friction.
+· Safety Protocols: Continuously analyzes for crisis-related signals; if a crisis is detected (e.g., "I am unsheltered"), the system triggers safety protocols such as directing users to the Veterans Crisis Line (988).
+2.3 Information Architecture (IA) and Content Strategy.
+ManTech utilizes Human-Centered Design (HCD) to replace system-first architectures with intuitive, userfirst platforms.
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10B26Q0131
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Page 2
+
+Replacement Model for VA.gov
+RFI Response
+· Intent-Driven Information Architecture (IA): We use card sorting and tree testing to understand the mental models of users, designing navigation around user tasks rather than agency organizational structures.
+· Content Transformation: We utilize AI to automate the analysis of content inventories, identifying and eliminating Redundant, Outdated, or Trivial (ROT) material while optimizing for mobile accessibility.
+· Unified Web Strategy: Establishing an overarching strategy to consolidate fragmented microsites into a consistent, standards-aligned digital environment.
+2.4 Advanced Technical Capabilities.
+To enable a seamless, frictionless experience, we implement several modern commercial modalities:
+· Intent-Driven Search: Transitioningfromsimple keywordmatchingto an intent-drivendiscovery engine using a combination of lexical and semantic vector search to understand context and conversational queries.
+· Hyper-Personalization: Using Customer Data Platforms (CDP) and first-party data to develop customer identities that drive dynamic content blocks and smart navigation tailored to individual profiles.
+· API-First Design: We recommend a "headless" or decoupled architecture where the front end is detached from the backend logic, enabling faster feature updates and easier data integration via JSON.
+· Active Customer Analytics: Shifting from passive reporting to active orchestration, using AI-led insights and journey orchestration to understand real-time behaviors and cross-channel attribution.
+2.5 User Research and Segmentation. Understanding the diverse Veteran community is essential for effective targeting and acquisition.
+· Evidence-Based Research: Utilizing ethnographic studies, heuristic reviews, and focus groups to define Veteran archetypes and segments.
+· AI-Enhanced Insights: Integrating Agentic AI to research user behaviors and define segments, producing future-state experience strategy artifacts.
+· Digital Marketing Integration: Using advanced marketing technology to proactively reach and engage audiences with targeted, personalized content before they even visit the website.
+2.6 Workflows and Task Automation. We focus on defining user workflows with the goal of making multi-step operations feel like a single, effortless interaction.
+· Orchestration: Implementing technologies such as trigger-based actions, smart notifications, and Agentic AI flows to automate complex processes.
+· Authentication Journeys: Defining future-state touchpoints for identity proofing (e.g., ID.me, Login.gov) and progressive proofing to reduce friction while maintaining security.
+2.7 Modern Technology Stack
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10B26Q0131
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Page 3
+
+Replacement Model for VA.gov RFI Response
+
+A modern website technology stack includes a wide variety of tools, technologies, and infrastructure to support millions of users. In fact, VA.gov is more than just a destination for information. It's a dynamic applicationthat provides users with mission critical services. Thelist below includes commontechnologies:
+
+Category
+Agentic AI & Orchestration
+LLM Management
+User Interface & Memory
+Enterprise Platforms
+Data Strategy (CDP)
+Search & Discovery Observability & Security
+Architecture
+
+Potential Technologies
+n8n, Flowise, LangChain
+LiteLLM
+Open WebUI, PostgreSQL
+Drupal, Salesforce, Adobe, Liferay
+Cookie-less Identity technologies
+Semantic Vector & Lexical Search
+OAuthProxy, Prometheus
+Headless / Decoupled via JSON APIs
+
+Strategic Impact for VA
+Facilitates complex reasoning and autonomous workflow execution beyond simple text generation.
+Provides a model-agnostic abstraction layer for seamless integration of various Large Language Models.
+Manages the conversational interface and persistent stateful memory for veteran interactions.
+Supports multi-site management, advanced tagging, and omni-channel publishing.
+Unifies data into persistent profiles for targeted engagement without relying on traditional cookies.
+Enables intent-driven discovery and natural language processing to understand conversational queries.
+Delivers a scalable, observable, and secure ecosystem for mission-critical AI deployment.
+Detaches the front-end from backend logic to increase feature velocity and system resilience.
+
+3.0 RELEVANT EXPERIENCE, CASE STUDIES, AND EXAMPLES FROM SIMILAR ENVIRONMENTS
+ManTech has transformed user experiences through a HCD approach that prioritizes intuitive, user-first platforms over system-first architectures. Our experience in federal modernization aligns directly with the VA's objectives for elevated UX, mobile access, and streamlined content management.
+NASA: Cloud-Native Scalability & Enterprise Search. ManTech developed and maintained the NASA portal and the cloud-native Audio, Video, and Images Library (images.nasa.gov). Big Data & Search: Supported EVA and SOLR-based NASA Enterprise Search and Node.js frontend applications. Content Management: Managed diverse systems including Alfresco, Liferay, Drupal, and WordPress. Mission Critical Delivery: Handled live data from space missions and unpredictable streaming workloads for NASA TV.
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10B26Q0131
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Page 4
+
+Replacement Model for VA.gov RFI Response
+
+Army Human Resources Command: Legacy Migration. Led the transformation of a fragmented .NET legacy system into a secure, intuitive Drupal-based Content Management Sytem (CMS). Operational Efficiency: Applied HCD to the administrative backend, creating automated workflows and responsive dashboards. Technical Debt Reduction: Eliminated legacydebt andenhanced securitywhile providingrolebased data management tools.
+U.S. Army Corps of Engineers: Low-Code Optimization. Optimized "out-of-the-box" Salesforce components to deliver a high-performance permit ticketing system. Strategic IA: Focused on information architecture and responsive UI to create an intuitive user journey. AI Integration: Leveraged native Salesforce AI to increase engagement and accelerate delivery while maintaining scalability.
+Department of Defense (DoD): AI & Application Consolidation. ManTech is currently consolidating 83 Human Capital applications into 20 systems using modern COTS solutions. Outcome-Focused Design: Utilizes a top-down approach, starting with soldier outcomes to guide technology selection. Agentic AI Implementation: IntegratingAI and machinelearningto augment workflowsandleverage dataas a strategic asset. Strategic AI Governance: Coordinating with AI councils to execute mandated Data, Analytics, and AI strategies, including generative AI in hybrid cloud environments. Process Automation: Delivering AIassist tools to automate repetitive tasks, allowing personnel to focus on high -value activities.
+
+4.0 USER JOURNEY WORKFLOWS FOR IDENTITY PROOFING, SIGN-IN, RECOVERY, AND NAVIGATION
+Mantech uses the output from user qualitative and quantitative research to build both veteran-facing authentication journeys and operational service design blueprints. For each journey, we define the future state touchpoints and the pain points experienced by veteran segments with the goal being to reduce the friction to determine the identityof the veteranandthen authenticatingthem to the experience. We envision multiple authentication states, including a step-up verification process (progressive proofing). An initial login would not require verification of the identity but a simple sign up that would grant the veteran access to certain content and services. To access other benefits and services, we would use services like ID.me or Login.gov. The veteran uploads an ID and the system conducts biometric checks and cross-references VA records. We embed phishing-resistant authentication that includespasskeysand multi-factor authentication. Navigation is based on tasks or life events and would include breadcrumb navigation at each stage. We also integrate a status sidebar for the user to see current and next-best actions. Where appropriate, we would also build in agentic AI to guide the veteran through the process. We would also build account recovery, which may include security questions or trusted contact. Manual escalation would also be available.
+
+5.0 LESSONS LEARNED, KNOWN LIMITATIONS, RISKS, AND TRADEOFFS
+
+Below are additional lessons learned, limitations, risks and tradeoffs that complement our ideas and approaches recommended in Section 2.
+
+Category
+
+Mitigation
+
+Mission Partner Data Quality: Mission partner data systems are often old, fragmented, and not designed to communicate easily with external partners like a MyPath. Ex. Data fields might be defined differently across states (e.g., one state tracks 'Unemployment Start Date,' another tracks 'Application Date'), creating significant issues with cross-program consistency.
+
+Identification Process. Identify POCs for Other Federal, State VAs / human services, and existing VA partners (VSOs, etc.)
+
+Initial Validation. Establish DSAs/SLAs for identification of
+
+authoritative sources, approach to incorporate into the model,
+
+update frequency, data validation approach . Upload official
+
+published
+
+text.
+
+Test model with Mission
+
+Pa rtner
+
+SMEs for interpretation.
+
+Periodic Validation. User Feedback, Mission Partner Feedback, Cha nge Tra cking a nd continuous on-publica tion va lida tion or through expert review, Data Reliability Audits (DRA) on
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10B26Q0131
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Page 5
+
+Replacement Model for VA.gov RFI Response
+
+Category
+
+Mitigation
+
+a sample of records, Scrape social media and perform sentiment a na lysis
+
+Caveats on Accuracy. Dependence on the partner's timely and accurate reporting. Lag Time between real-time changes and periodic system updates / validation cycles.
+
+See Appendix F for the complete data strategy
+
+Information Ambiguity and Interpretation: Laws and regulations are often written broadly and lack the specific operational details needed for MyPath to make a definitive eligibility determ ina tion
+Time Lag in Applying Changes: A law may pa ss, but the regulations a nd a gency Policy Manuals (which contain the actionable guidance) can take months or even years to be fully written a nd implemented. MyPa th data may reflect the "new law," but service providers may still be operating under the old rules until the agency finalizes its policies.
+
+Identification Process. Develop and confirm initial checklist of programs and associated laws, regulations, and policies. Identify and validate authoritative data sources (ex. KnowVA) for programs and veteran information (veteran service record) with VBA, VHA, and other SMEs
+Initial Validation. Reference officia l VA da ta from Druple, VA's content management system; leverage APIs and integrate with systems (ex. CDW, VBMS). Test model with Legal/Policy/SME Expert Review for interpretation
+Periodic Validation. Obtain User Feedback (VA and non-VA). Use analytics on data as it is collected to give early warning indicators that model(s) are diverging. Change Tracking and continuous on-publication validation or through expert review.
+Caveats on Accuracy. Data is legally accurate, but its Interpretation may vary. Timeliness is based on the publication schedule of the government source.
+
+See Appendix F for the complete data strategy
+
+Leveraging existing technology prioritizes immediate stability, lower upfront costs, and predictable performance at the risk of accumulating technical debt and eventual obsolescence. Conversely, adopting modern technology with an evergreening strategy trades short-term operational complexity and higher initia l investment for long-term a gility, superior scalability, and a sustainable competitive edge through continuous innovation. For example, VA's current CMS is Druple. The primary challenge with Drupal com pared to modern CMSs is its monolithic complexity, which requires high-overhead manual updates and specialized developer intervention that slows feature velocity compared to more agile, API first "headless" solutions. Consequently, migrating the VA's massive content library presents a structura l tra nsla tion risk, a s moving from Drupal's rigid, table-heavy database to a modern schema requires re-engineerin g complex custom logic and data relationships without breaking critical veteran-facing services.
+
+To effectively address this tradeoff analysis, we will conduct a weighted multi-criteria evaluation that moves beyond initial stickers shocks to compare the Total Cost of Ownership (TCO) against Strategic Velocity. This involves quantifying the "Maintenance Tax" of legacy systems--specifically the rising costs of technical debt and specialized labor--against the "Migra tion Ta x" a nd opera tiona l lea rning curve of a n evergreen model. By mapping specific business outcomes to a Capability Gap Analysis, we can determine if the current technology creates a hard ceiling on growth; if the gap between current performance and future needs is widening, the risk of obsolescence outweighs the cost of modernization. Ultimately, the most balanced approach often employs a phased migration strategy, allowing you to harvest the stability of existing assets while incrementally building the modular, self-updating infrastructure required for long-term innova tion.
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10B26Q0131
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Page 6
+
+Replacement Model for VA.gov
+RFI Response
+6.0 ADDITIONAL INFORMATION RELEVANT TO VA'S OBJECTIVES
+6.1 Acquisition Strategy Recommendations
+We recommend a direct award for MyPath to serveas the foundational layer of VA's digital modernization. Rather than a temporary fix, MyPath is an accelerator that establishes the permanent architecture for the total solution today.
+Strategic Impact of a Direct Award:
+· Speed-to-Value: As a functional "digital front door," MyPath provides instant relief to contact centers while building the data infrastructure and new VA.gov
+· Scalable Core: The multi-agent framework is built for longevity - moving from internal pilot to a predictive veteran experience enabling effective self -service and case management
+· Continuous Improvement: A direct award ensures that the VA begins collecting vital data and user feedback now, which will drive the refinement of the total solution.
+· Permanent Asset Generation: Every action plan and data insight generated is a permanent VA asset that will live within the final system.
+Incorporating MyPath into the existing VA.gov allows VA to act as a digital orchestrator today, delivering an advanced, AI-driven experience that evolves alongside the agency.
+Mantech recommends the VA release the VA.gov solicitation under General Services Administration's (GSA) Alliant 2 Contract. This vehicle is a flexible Government Wide Acquisition Contract (GWAC) consistent with Executive Order 14240. Key qualifications of this vehicle to VA include the ability to accommodate the mix of product and services contemplated by this requirement, adequate ceiling availability, sufficient remaining period of performance (POP), and reasonable competition among qualified vendors. To maximize the quality of competition and ensure total alignment between mission requirements and industry capabilities, it is recommended that the Government release a Draft RFP inclusive of Section L (Instructions, Conditions, and Noticesto Bidders) andSectionM (EvaluationFactorsfor Award). Providing these sections early allows industry to provide meaningful feedback on the feasibility of the technical approach and the clarity of the evaluation methodology. This transparency reduces the risk of postsolicitation protests, ensures the Government receives higher-quality, compliant proposals, and allows for a more streamlined evaluation process by refining the criteria based on market realities.
+6.2 Questions 1. What elements of your existing technology stack do you like / not like? 2. MyHealtheVet is approximately 40% of the va.gov traffic. Is refining that functionality in scope? 3. What is the approximate number of content items in scope? 4. How many web and mobile websites are in scope?
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10B26Q0131
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Page 7
+
+Replacement Model for VA.gov RFI Response
+7.0 APPENDICIES 7.1 Appendix A - Landing Page. MyPath is integrated throughout the va.gov experience. Below is a mockup of what the landing page could look
+like.
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10X24Q0024 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix Page 1
+
+Replacement Model for VA.gov RFI Response
+7.2 Appendix B. User Interfaces
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10X24Q0024 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix Page 2
+
+Replacement Model for VA.gov RFI Response
+7.3 Appendix C. Navigation
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10X24Q0024 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix Page 3
+
+Replacement Model for VA.gov RFI Response
+7.4 Appendix D. Solution Overview
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10X24Q0024 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix Page 4
+
+Replacement Model for VA.gov RFI Response
+7.5 Appendix E. Roadmap
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10X24Q0024 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix Page 5
+
+Replacement Model for VA.gov RFI Response
+7.6 Appendix F - Data Governance
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10X24Q0024 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix Page 6
+
+Replacement Model for VA.gov RFI Response
+
+February 5, 2026
+
+VA VHA, Solicitation No. 36C10X24Q0024 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Appendix Page 7
+
+

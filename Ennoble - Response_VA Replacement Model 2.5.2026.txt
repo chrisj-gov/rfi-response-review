@@ -1,0 +1,682 @@
+MARKET RESEARCH
+Exploring Next-Generation Digital Identity, Authentication, and Navigation Engineering Services
+White Paper Response Unrestricted
+Due: February 5, 2026
+
+Prepared For:
+Department of Veterans Affairs Technology Acquisition Center Allison Fulton, Allison.fulton@va.gov Evan Schlisserman, evan.schlisserman@va.gov
+
+Prepared By:
+Ennoble First Inc. 42211 Marcy Way Chantilly, VA 20152 703.722.8022 info@ennoblefirst.com
+
+This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed - in whole or in part - for any purposes other than to evaluate this response. If, however, a contract is awarded to this offeror as a result of - or in connection with - the submission of this data, the Government shall have the right to duplicate, use or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in the data if it is obtained from another source without restriction. The data subject to this restriction are contained in sheets [ALL Volumes, ALL Sections, ALL Pages].
+
+Replacement Model for VA.gov Ennoble Response
+
+Ennoble First (Ennoble) offers the Department of Veterans Affairs a low-risk, high-value path to replace VA.gov with a modern, integrated digital experience. As a U.S.-based SBA 8(a) small business, we combine the agility of a focused technical partner with the discipline of a large-scale systems integrator. Our approach is grounded in a "Client-First" philosophy that transforms routine administrative processes into secure, scalable, and resilient environments.
+We understand that replacing VA.gov is not just a technical refresh, it is a commitment to maintaining trust with millions of Veterans. To fulfill this commitment without disrupting critical services, Ennoble executes through three foundational pillars: People, Process, and Performance.
+PEOPLE: Cleared Experts & Veteran Advocacy Our workforce is our primary engine for mission success. We deploy cleared subject matter experts, API architects, data engineers, and DevSecOps leads, who possess deep experience in high-assurance federal environments. Beyond technical skills, our teams operate with a "Mission-First" mindset, viewing Veterans not as users, but as stakeholders to serve.
+· Continuity of Leadership: We provide stable, long-term technical leadership to guide VA through complex migration waves, utilizing the same retention strategies that maintained operational continuity for our DISA TES program.
+· Empowered Teams: Our engineers are authorized to innovate, utilizing safe "Sandbox-to-Production" pathways to test emerging technologies (AI/ML, Blockchain) in Zone D environments before they touch the live production network.
+PROCESS: Phased Modernization & Hardened Security We utilize a hybrid Agile model that blends Scaled Agile Framework (SAFe) principles with hardened DevSecOps practices. This allows us to decouple legacy systems safely using the Strangler Pattern, migrating functionality incrementally while the "As-Is" system remains operational.
+· Secure Integration: We implement a "Security-in-the-Middle" architecture where RMF automation and compliance checks (Chef InSpec) are embedded directly into the CI/CD pipeline, enabling continuous ATO.
+· Data Integrity: We protect authoritative data using Medallion-style pipelines (Bronze/Silver/Gold) with automated reconciliation jobs to maintain accuracy across legacy and modern platforms.
+· Low-Risk Migration: Our roadmap moves from Pilot to Full Operational Capability (FOC) through strict "Go/ No-Go" decision gates, validating performance before scaling to broader user cohorts.
+· Known Risks & Lessons: Legacy integration can introduce data silos; mitigated via automated reconciliation (lesson from HHS EHCM). Tradeoffs include initial sandbox costs for safe innovation, yielding long-term resilience.
+PERFORMANCE: Measurable Outcomes & Resilience We view performance not as a static metric, but as the continuous delivery of value. Our solution supports highavailability operations through multi-region cloud redundancy, autoscaling, and rigorous COOP/DR testing. We validate success through unified telemetry that compares the legacy experience against the modern platform in real-time.
+· Operational Resilience: We employ canary releases and automated rollback triggers to reverse regressions instantly, protecting the live Veteran experience.
+· Seamless CX: By integrating modular identity proofing and analytics-driven navigation, we reduce friction for Veterans while maintaining strict security controls (ICD-503/Zero Trust).
+ENNOBLE FIRST STANDS READY TO PARTNER WITH VA TO DELIVER A PREDICTIVE, AUDITABLE, AND VETERAN-CENTRIC MODERNIZATION.
+
+DISA TES
+
+NGA SAFFIRE
+
+HHS EHCM
+
++
+94% FASTER 6 BILLION 90,000
+
+Testing Cycles Records Processed Users Sustained
+
+Reduced regression testing from 3 days to under 4 hours per release.
+
+Architected high-throughput pipelines handling 1B records daily.
+
+Maintained continuous operations for the workforce during major upgrades.
+
+February 5, 2026
+
+Page 1 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+1. COMPANY PROFILE
+TOPIC
+Company Name
+
+Ennoble First Inc.
+
+DATA
+
+Company Address/Mailing Address
+
+42211 Marcy Way, Chantilly, VA 20152
+
+Company Phone
+
+703.722.8022
+
+Company Website
+
+www.ennoblefirst.com
+
+Company Point of Contact
+
+Joseph Solbach VP of Operations/Contracts Manager p: 703.722.8022 x 701 e: info@ennoblefirst.com
+
+CAGE Code
+
+71ZZ4
+
+UEI Number
+
+C1DLZXCH4L86
+
+NAICS Code
+
+541511/541512/541519
+
+Socioeconomic Category
+
+8(a)
+
+Ennoble First (Ennoble) is an 8(a) firm with a proven record delivering systems engineering, missioncritical sustainment, and modernization across highsecurity federal environments. Our disciplined program management, cleared engineering workforce, and modelbased, cloudforward technical practices accelerate capability delivery, reduce integration risk, and strengthen enterprise interoperability. As detailed below, our performance on HHS EHCM, DISA TES, and NGA SAFFIRE and FS2 demonstrates the exact systems engineering rigor and secure modernization support required for this effort.
+
+Our capabilities map directly to VA RFI requirements and are proven in operational practice that can be tailored to the VA's Verteran-centric needs:
+
+Ennoble's cleared engineering bench, ISOaligned quality processes, and DevSecOps automation produce repeatable, Table 1: Core Technical Capabilities & Proven Evidence. A mapping of Ennoble's systems engineering approach to verifiable performance on high-assurance federal contracts
+
+CAPABILITY AREA
+
+TECHNICAL APPROACH
+
+PROVEN EVIDENCE (PAST PERFORMANCE)
+
+Enterprise Architecture & MBSE
+
+Traceable Design: We use MBSE to maintain As-Is/To-Be models, ensuring full
+traceability from strategic requirements to
+sprint-level features.
+
+· HHS EHCM: Decomposed HR requirements into features with traceability to compliance artifacts.
+· NGA: Produced CONOPS-aligned views and living architecture models for trade-space analysis .
+· DISA: Used MBSE to validate interfaces prior to production migration.
+
+Data, Cloud & Security Engineering
+
+Secure Scale: We design Medallionstyle data pipelines and implement Zero Trust/ICD-503 controls (CAC/SAML, segmentation) across hybrid and multicloud environments.
+
+· NGA SAFFIRE/FS2: Processed billions of records daily via Databricks/Delta Lake in C2S enclaves.
+· HHS EHCM: Engineered robust integrations with OPM, DFAS, and Treasury.
+· Security: Automated RMF/XACTA evidence collection for continuous ATO.
+
+Integration, Testing & Sustainment
+
+Automated Reliability: We utilize hardened CI/CD pipelines, automated rollback, and multi-layered regression testing to ensure zero-defect releases and stable legacy retirement.
+
+· DISA TES: Operationalized automated pipeline gating and rollback for high-visibility events.
+· HHS EHCM: Maintained stability for 90,000+ users during upgrades via load testing.
+· NGA: Executed transition plans for legacy retirement with minimal mission disruption.
+
+Mission Partner & Program Management
+
+Cleared Governance: We provide cleared PMs and ISO-aligned quality processes
+to manage cross-domain releasability,
+exportability, and international integration.
+
+· NGA: Managed cross-domain transfers and releasability for mission partners.
+· Governance: Technical Governance Boards adjudicate tradeoffs; Risk registers track measurable mitigations.
+
+auditable outcomes: continuous compliance evidence, reduced mean time to remediate, and accelerated capability insertion. Our past performance demonstrates the exact combination of sustainment discipline and modernization velocity the VA requires, operational continuity for mission users, secure experimentation in controlled environments, and scalable transition to enterprise operations.
+Intent to Participate. If an RFP is issued, Ennoble intends to submit a proposal as a Prime Contractor. We anticipate utilizing teaming arrangements to fulfill niche requirements as detailed.
+
+February 5, 2026
+
+Page 2 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+2. RECENT/RELEVANT EXPERIENCE
+2.1.CAPABILITIES BUSINESS
+Firm History and Focus
+Ennoble brings 13+ years of expertise in modernizing legacy systems for HHS, DISA, and NGA. We combine disciplined program management with cloud-forward engineering to deliver secure, scalable environments and reduced lifecycle risk.
+
+Core Technical Capabilities We employ a cleared engineering workforce and ISO-aligned quality processes to deliver secure, auditable modernization outcomes. Our technical approach reduces integration risk through the following core competencies, validated across high-assurance programs at HHS, DISA, and NGA.
+
+· Enterprise Modernization & Sustainment: Sustaining mission-critical platforms for 90,000+ users (HHS, NGA, DoD) with continuous ATO and zero-disruption upgrades.
+
+· Cloud & Security Engineering: Designing secure hybrid/multi-cloud architectures (GovCloud, C2S, IL2/IL4) using Zero Trust IAM, CAC/SAML federation, and automated RMF pipelines.
+
+· Advanced Data Engineering: Managing high-throughput pipelines (Databricks, Delta Lake) processing billions of records for GEOINT and financial missions.
+
+· Secure Prototyping: Operating sandbox-to-production environments (e.g., DISA TAC Lab) to safely evaluate emerging tech like blockchain and AI without impacting baselines.
+
+· High-Performance Computing: optimizing scientific modeling codes and job queues for NOAA, NASA, and JIOWC.
+
+Recent Experience & Evidence Matrix The following matrix details Ennoble First's alignment with the technical requirements outlined in this notice. We map each capability area to verifiable evidence artifacts, ranging from digital system models to automated test results.
+
+Table 2: Recent Experience & Evidence Matrix. Alignment of Ennoble's technical proficiencies with RFI requirements, supported by specific evidential artifacts ranging from digital models to test results
+
+CAPABILITY AREA
+
+PROVEN EXPERIENCE & APPROACH
+
+EVIDENCE ARTIFACTS
+
+Enterprise Architecture
+
+Delivered As-Is/To-Be models and integrated programlevel architectures into enterprise repositories for multidomain defense orgs.
+
+· MBSE Artifacts · Repository Exports · Technical Roadmaps
+
+MBSE & Digital Engineering
+
+Hands-on SysML practice linking Requirements  Design  Verification; automated repository maintenance and legacy artifact digitization.
+
+· Model Repositories · Traceability Matrices · Automated CI Updates
+
+Data Architecture
+
+Designed metadata catalogs, quality pipelines, and
+
+· Data Service Designs
+
+releasability workflows for multi-partner sharing (NSG/ · Pipeline Diagrams
+
+ASG/FVEY) across hybrid clouds.
+
+· Performance Metrics
+
+Cloud/API Integration
+
+Delivery of cloud-native architectures, API governance, and CI/CD pipelines supporting rapid delivery.
+
+· Pipeline Definitions · API Catalogs · Deployment Automation
+
+Requirements Engineering
+
+Decomposing ECDs/CONOPS into agile backlogs with multi-directional traceability in enterprise repositories.
+
+· Decomposition Artifacts · Backlog Snapshots · Traceability Reports
+
+Test & Readiness
+
+Planning/executing EIT/SIT/OT&E events and coalition interoperability testing; identifying automation gaps.
+
+· Test Plans · Event Schedules · Test Results
+
+Analysis & Trade Studies
+
+Performing AoAs and engineering assessments (using JARM or equivalent) to inform invest/divest decisions.
+
+· AoA Reports · Trade Studies · Decision Briefings
+
+Sustainment & Retirement
+
+Planning across FYDP horizons, re-baselining roadmaps, and executing legacy retirement transitions.
+
+· Sustainment Plans · Re-baseline Records · Retirement Checklists
+
+International Releasability
+
+Integrating partner systems and managing licensing/ releasability across NSG/ASG and third-party partners.
+
+· Interface Agreements · Releasability Workflows · Integration Artifacts
+
+February 5, 2026
+
+Page 3 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+Our Approach
+Ennoble delivers operationally ready digital modernization and systems engineering services that produce reliable, accessible services for Veterans while honoring strict security constraints. Our team baselines multidomain enterprise architectures, producing As-Is/To-Be models and time-phased technical roadmaps that link RequirementsDesignVerification through automated MBSE repositories.
+We design and operate hybrid/multi-cloud data services, implementing CI/CD integration and security architectures that enforce ICD-503 and Zero Trust standards for high-assurance environments. By decomposing CONOPS into agile backlogs and executing rigorous integration events, we provide a sustainment and legacy retirement plan backed by documented releasability artifacts.
+
+Table 3: RFI Topic Response Matrix. Detailed mapping of Ennoble's capabilities, relevant past performance, and proposed deliverables against VA's specific modernization objectives
+
+RFI TOPIC Continuity of Service
+System Integration
+Regulatory Compliance
+Scalability & Resilience
+Customer Experience
+Identity Lifecycle
+Data Engineering
+Emerging Tech
+Testing & Release
+
+ENNOBLE CAPABILITY
+High-availability sustainment; Phased migration; COOP/DR.
+API Gateway/ Adapters; MBSE; Data reconciliation.
+Automated RMF evidence; Continuous ATO; Zero Trust.
+Cloud-native architectures; IaC; Autoscaling; MBSE roadmaps.
+Veteran-centric UX; Accessibility; Analytics-driven iteration.
+Modular identity services; Risk-based auth; Privacy-bydesign.
+Medallion pipelines; ETL; Metadata; BI dashboards.
+Secure sandboxes; CI/CD gating; RMF automation.
+Automated CI/CD; Regression/Load testing; Rollback controls.
+
+PAST PERFORMANCE
+· HHS EHCM: PeopleSoft 9.2 (90k+ users); Continuous ATO.
+· EHCM: Interfaces with OPM/DFAS.
+· NGA: Cross-domain integrations.
+· DISA: CI/CD with embedded compliance checks.
+· EHCM: Continuous ATO.
+· NGA: High-throughput GEOINT pipelines.
+· HHS: Cloud integration.
+· EHCM: Workflow modernization.
+· DISA: Sandbox UX prototyping.
+· DISA TES: Credential workflows.
+· NGA: Zero Trust IAM.
+· NGA: Databricks/Delta Lake.
+· EHCM: Informatica migrations.
+· DISA TES: Blockchain pilots; Secure software factories.
+· EHCM: Multi-layer testing.
+· DISA: Automated rollback pipelines.
+
+SUGGESTED DELIVERABLE · Phased migration plan; Parallel run strategy; COOP/DR reports.
+· As-Is/To-Be interface maps; ICDs; MBSE traceability models.
+· RMF automation outputs; ATO packages; Security control matrices.
+· IaC templates; Capacity plans; Scalability test results.
+· User journey maps; 508/WCAG checklists; Pilot UX metrics.
+· End-to-end identity workflows; Recovery playbooks.
+· Data pipeline diagrams; ETL samples; BI dashboard mockups.
+· Sandbox evaluation criteria; Pilot-toproduction playbook.
+· Test plans; Regression results; Pipeline gating configs.
+
+RISK & MITIGATION
+· Risk: Legacy coupling.
+· Mitigation: Strangler pattern & incremental cohort migration.
+· Risk: Data mismatch · Mitigation:
+Authoritative reconciliation & precutover validation.
+· Risk: Evidence gaps · Mitigation: Embed
+compliance checks in CI/CD & telemetry.
+· Risk: Performance bottlenecks.
+· Mitigation: Load testing & autoscaling policies.
+· Risk: Digital divide · Mitigation: Assisted
+enrollment & offline/ phone options.
+· Risk: Proofing failures · Mitigation: Hybrid
+proofing & assisted re-proofing.
+· Risk: Data integrity · Mitigation:
+Authoritative sources & reconciliation jobs.
+· Risk: Pilot spillover · Mitigation:
+Strict isolation & accreditation gates.
+· Risk: Release instability
+· Mitigation: Pipeline gating & automated rollback.
+
+February 5, 2026
+
+Page 4 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+RFI TOPIC
+Governance & Metrics
+
+ENNOBLE CAPABILITY
+Technical governance boards; KPI dashboards; CDRL reporting.
+
+PAST PERFORMANCE
+· HHS: CCBs.DISA: RMF dashboards.
+· NGA: Governance artifacts.
+
+SUGGESTED DELIVERABLE
+· Governance charter; KPI dashboard (Auth success, MTTR).
+
+RISK & MITIGATION
+· Risk: Policy misalignment
+· Mitigation: Crossfunctional governance board.
+
+Pilot Strategy
+
+Identity/Content pilots; Phased enterprise rollout.
+
+· EHCM: Parallel runs. · DISA: Sandbox 
+Production.
+
+· Pilot charters; Success criteria; Cohort
+migration plans.
+
+· Risk: Insufficient validation.
+· Mitigation: Clear success metrics &
+"Go/No-Go" gates.
+
+3. TECHNICAL ROADMAP & DEVELOPMENT MANAGEMENT CAPABILITIES
+To facilitate evaluation, this technical response is structured to align directly with VA's four core modernization objectives: (1) Continuity of Service, (2) Legacy & Emerging Integration, (3) Security & Compliance, and (4) Scalability & Customer Experience.
+3.1.APPROACH TO MAINTAINING CONTINUITY OF SERVICE FOR MILLIONS OF USERS
+Ennoble will replace VA.gov through a low-risk, phased modernization that preserves live service availability for millions of users. Leveraging proven sustainment discipline from HHS EHCM and DISA TES, we combine highavailability architecture, validated COOP/DR practices, hardened CI/CD with automated rollback, and a controlled cohort migration strategy. Our approach emphasizes environment parity, parallel operations, and measurable acceptance criteria to ensure identity, content, and transactional continuity throughout the pilot, parallel run, and cutover phases. Deliverables include a phased migration plan, parallel run playbook, and ServiceNow Tier 2/3 support metrics, enabling VA to modernize incrementally while minimizing operational risk.
+Objectives & Principles
+Our modernization strategy is defined by a clear operational objective and a set of guiding engineering principles designed to protect the Veteran experience.
+Objective. Our primary objective is to deliver a replacement for VA.gov with zero or near-zero disruption to authentication, content access, and transactional services for diverse user cohorts.
+Core Principles. We adhere to core principles including phased migration, environment parity via Infrastructure as Code (IaC), parallel operations, automated rollback, and mission-driven acceptance criteria.
+Foundations (Proven Experience)
+Our approach is built upon the specific architectural patterns and operational successes we delivered for high-visibility programs at HHS and DISA
+On the HHS EHCM program, we achieved continuous ATO and zero-disruption upgrades for PeopleSoft 9.2, supporting over 90,000 users with rigorous COOP/DR testing.
+For DISA TES, we operationalized sandbox-to-production pipelines and hardened CI/CD workflows with automated rollback to protect production baselines.
+Migration Phases
+We execute modernization through a disciplined, four-stage lifecycle designed to validate performance before scaling. As illustrated in Figure 1, our roadmap moves from controlled pilots to full operational capability through strict "Go/NoGo" decision gates, ensuring that legacy systems are only retired once the modern platform achieves documented parity.
+· Phase 0 -- Pilot & Discovery: Baseline "As-Is" architecture, traffic profiles, and critical integrations; select pilot cohort; deliver pilot charter and success criteria.
+· Phase 1 -- Parallel Run & Incremental Cutover: Deploy the new platform in parallel; route controlled cohorts via API gateway adapters and feature flags; validate end-to-end flows.
+· Phase 2 -- Broad Cohort Migration: Expand migration waves with dual-write or reconciliation until authoritative sources are validated; enforce environment parity and automated smoke tests.
+· Phase 3 -- Final Cutover & Legacy Retirement: Execute "Go/No-Go" gates, decommission legacy components, and deliver sustainment handoff artifacts.
+
+February 5, 2026
+
+Page 5 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+VA.GOV MODERNIZATION & PHASED MIGRATION LIFECYCLE
+
+PHASE 0 Pilot & Discovery
+
+PHASE 1 & 2
+Incremental Migration
+
+PHASE 3
+Final Cutover
+
+Authority to Proceed (ATP)
+
+Pilot Launch Gate (Go/No-Go)
+
+Agile Sprints & User Testing
+
+Identity Services
+(IdP)
+
+Pilot Benefit API
+
+Content & Navigation
+Engine
+
+Final Cutover Decision
+
+Full Operational Capability (FOC)
+
+Legacy Adapter / Data Sync
+
+Sustainment & Continuous Improvement
+
+Integrated Program Governance
+We maintain total visibility through a Unified Command Center. Leveraging ServiceNow for Tier 2/3 support and Splunk/Dynatrace for real-time telemetry, we monitor both legacy and new platforms simultaneously. This data-driven approach allows us to detect regression instantly, trigger automated rollbacks, and maintain 99.9% service availability during every migration sprint.
+
+Figure 1: VA.gov Modernization & Phased Migration Lifecycle. A low-risk path from Pilot to Full Operational Capability (FOC), utilizing parallel operations and integrated governance to ensure zero disruption to Veteran services.
+
+Operations, Support & Resilience
+We maintain long-term system stability and responsive user support through a comprehensive operational
+resilience framework.
+
+We implement a High-Availability Design that utilizes Multi-AZ/multi-region redundancy, autoscaling, and graceful degradation for non-critical features. Our team conducts scheduled COOP/DR tests, failover rehearsals, and maintains documented RTO/RPO targets to ensure recoverability. We provide Tier 2/3 ServiceNow support backed by strict SLAs, defined escalation paths, and on-call rotations to resolve incidents quickly. We capture automated RMF evidence and maintain continuous monitoring to sustain the ATO posture throughout the migration process.
+Testing, Validation & Release Controls
+We enforce strict quality standards and release safety through a multi-layered testing and validation regime.
+
+Hardened CI/CD. We utilize a hardened CI/CD pipeline featuring canary releases, pipeline gating, and automated rollback triggers based on KPI regressions.
+
+Comprehensive Test Regime. Our comprehensive test regime includes unit, integration, regression, load, and chaos testing, alongside specific validations for identity and transactions.
+
+Unified Telemetry. We implement unified telemetry across both legacy and new platforms to enable real-time comparison of user experience and error rates.
+Key Risk and Mitigation Strategy
+We proactively identify and neutralize potential disruptions before they impact the Veteran experience. Drawing on lessons learned from our work at HHS and DISA, the following table outlines the primary technical risks associated with this large-scale migration and the specific engineering controls we employ to mitigate them.
+
+Table 4: Key Technical Risks & Mitigation Strategies. Identification of critical integration risks and the specific engineering controls Ennoble employs to neutralize them
+
+RISK AREA
+
+MITIGATION STRATEGY
+
+Legacy Coupling
+
+Apply the Strangler Pattern, API gateway adapters, and incremental cohort migration to limit blast radius.
+
+Data Synchronization
+
+Use authoritative reconciliation jobs, pre-cutover validation, and dual-write monitoring until cutover is validated.
+
+Operational Regression
+
+Employ canary releases, automated rollback triggers, and parallel telemetry to detect and reverse regressions quickly.
+
+Compliance Drift
+
+Embed RMF automation in pipelines and align accreditation gates with migration waves.
+
+February 5, 2026
+
+Page 6 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+Outcome
+Ennoble can develop a predictable, auditable modernization path that preserves service continuity for millions of users, minimizes operational risk, and enables phased delivery of a secure, resilient, and Veteran-centric VA.gov.
+3.2.APPROACH TO INTEGRATING WITH A DIVERSE PORTFOLIO OF LEGACY AND EMERGING SYSTEMS
+Ennoble will execute a repeatable, low-risk integration strategy that connects VA's legacy systems and authoritative data sources with modern, cloud-native platforms and emerging capabilities. Our approach decouples legacy functionality, validates interfaces through model-based engineering, and operationalizes services via hardened DevSecOps pipelines so VA can modernize incrementally without disrupting service. We expose legacy capabilities through versioned API facades and gateway adapters, ingest authoritative feeds into Medallion-style data layers with centralized metadata and reconciliation gates, and validate new technologies in secure sandboxes before staged promotion to production. We embed security and compliance throughout via ICD-503 aligned controls, Zero Trust IAM, and automated RMF evidence capture integrated directly into the CI/CD pipeline.
+To visualize how we translate complex legacy constraints into modern capabilities, Figure 2 presents the Ennoble Modernization Framework. This integrated model anchors every technical sprint in specific Veteran requirements, utilizing a continuous feedback loop of Governance, Architecture, and Requirements engineering to maintain alignment. The operational strip at the bottom details our specific "Concept-to-Capability" pathway, moving from secure Sandbox Prototyping (Step 1) through Hardened DevSecOps (Step 4) to a User-Centric Release (Step 6), ensuring that no code reaches the Veteran without passing rigorous security and quality gates.
+
+TECHNOLOGY STACK ENABLERS
+1. Identity: ID.me / Login.gov 2. Telemetry: Splunk / Dynatrace 3. Support: ServiceNow 4. Cloud: AWS GovCloud
+
+GOVERNANCE
+4 5
+3
+MODERNIZED VA.GOV
+1 2
+
+Inputs / Requirements · Veteran Needs · Legacy Constraints · Stakeholder Goals
+6
+
+U m I
+e
+nt R E M E N T S
+
+T ARCHITEC
+
+UR CE
+
+R E ve Q
+
+ontinuo
+
+t/Impro
+
+us Value Measuremen
+
+Outcomes · Continuous ATO · 99.9% Uptime · Accessible UX
+
+Operational Execution: From Concept to Capability
+
+1 Sandbox Prototyping
+
+2 MBSE Design
+
+Validate emerging tech (AI/ML) in secure Zone D environments before production.
+
+Define requirements and architecture models to ensure traceability.
+
+4 Hardened DevSecOps
+Automate RMF security gates directly in CI/CD.
+
+5 Data Reconcilliation
+Validate accuracy using dual-write verification and automated quality gates.
+
+3 Strangler Integration
+Decouple legacy systems via API facades.
+6 User-Centric Release
+Launch to cohorts after passing accessibility and performance gates.
+
+Figure 2: Veteran-Centric Agile Delivery Model. Ennoble's integrated framework anchors technical execution in Veteran needs, utilizing MBSE and the Strangler Pattern to drive a predictable "Concept-to-Capability" flow.
+
+Strategy Overview
+Our integration philosophy prioritizes operational stability while enabling continuous technical advancement. We decouple, validate, and operationalize legacy and emerging capabilities in parallel streams to preserve continuity while enabling modernization.
+Interface Abstraction & API Gateway
+Ennoble reduces legacy dependencies through a layer of abstraction that secures and standardizes system access. We implement API gateway adapters and façade layers to expose legacy functions as versioned and documented APIs.
+
+February 5, 2026
+
+Page 7 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+Our approach enables Strangler Pattern migration to reduce coupling and provide consistent security and observability across the enterprise.
+Model-Based Systems Engineering (MBSE)
+We verify technical accuracy and alignment through rigorous digital modeling. Our team produces "As-Is" and "ToBe" MBSE models and Interface Control Documents (ICDs) to maintain structural integrity. We establish automated traceability from requirementsdesignverification within a living repository to support auditability.
+Medallion Data Pipelines & Metadata Catalog
+We protect data quality and authoritative sourcing through structured ingestion pipelines. We ingest authoritative feeds into Bronze (Raw), Silver (Curated), and Gold (Aggregated) layers using Databricks/Delta Lake and Informatica, enforcing data quality gates at every stage. We provide automated reconciliation jobs and audit trails to preserve authoritative sources and support secure releasability.
+Hardened DevSecOps & CI/CD
+We utilize a "Security-in-the-Middle" approach where RMF Automation generates real-time compliance evidence, enabling a rapid Accreditation Gate before every deployment. We enforce environment parity using Infrastructure as Code (IaC), pipeline gating, automated security scans (Chef InSpec, NeuVector), canary releases, and automated rollback.
+
+IAC & ENVIRONMENT PARITY
+Eliminate drift using versioncontrolled IaC templates for identical cross-domain configs.
+
+MBSE & REQS ENGINEERING
+Ensure full traceability from mission needs to code via digital system models.
+
+CANARY & PROGRESSIVE DEPLOYMENT
+Low-risk phased rollouts with automated rollback triggers for safe release.
+
+SECURE BUILD FACTORY
+Hardened pipelines with automated dependency validation and vulnerability scanning.
+
+SERVICENOW OPERATIONS
+Integrated Tier 2/3 incident resolution and enterprise-scale workflow automation.
+
+RMF & COMPLIANCE AUTOMATION
+Automated evidence capture and scanning to streamline ATO and sustain compliance.
+
+AUTOMATED ACCELERATION GATE
+Policy-driven "Go/ No-Go"
+enforcement to block
+non-compliant releases in
+real-time.
+
+UNIFIED TELEMETRY & ANALYTIC
+Real-time UX metrics and anomaly detection for proactive fraud identification.
+
+Figure 3: Hardened DevSecOps Pipeline. Our "Security-in-the-Middle" architecture embeds RMF automation directly into the CI/CD loop, enabling an automated Accreditation Gate before every release to sustain Continuous ATO.
+
+We embed RMF evidence capture and compliance checks directly into pipelines to accelerate accreditation and sustain a continuous ATO posture.
+Cross-Domain Releasability & Security Fabric
+Ennoble secures boundaries and data exchanges using federal interoperability standards. We implement ICD-503 aligned controls and Zero Trust IAM, including CAC/SAML federation and attribute-based access, to secure the environment. We utilize documented releasability workflows to ensure secure cross-domain exchanges between classification levels or partners.
+
+February 5, 2026
+
+Page 8 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+Sandbox to Production Pathway
+We foster innovation without risking the stability of the live production environment. Ennoble operates secure Zone D sandboxes for prototyping AI/ML, blockchain, and other emerging technologies safely. We promote validated capabilities from the Sandbox through Pre-Prod to Production using strict accreditation gates.
+Governance and Staffing
+We maintain transparency and control through a structured governance framework and expert staffing.
+
+· We establish a Technical Governance Board comprising Operations, Security, Architecture, and VA stakeholders to approve interfaces and migration waves.
+
+· We deploy cleared systems engineers, API architects, data engineers, and DevSecOps leads, backed by a surge bench to ensure continuity.
+
+· We track critical KPIs including authentication success rate, transaction latency, reconciliation error rate, and mean time to remediate (MTTR).
+Key Risk and Mitigation Strategy
+Modernizing a complex ecosystem of legacy and emerging systems introduces inherent technical risks. To ensure a predictable transition, we apply a proactive Risk Management Framework that anticipates these challenges before they
+Table 5: Integration Risk Management. Specific architectural controls designed to mitigate legacy coupling and data integrity challenges during the integration phase
+
+RISK AREA
+
+MITIGATION STRATEGY
+
+Legacy Coupling
+
+Mitigate with the Strangler Pattern, API adapters, and incremental cohort migration to limit the "blast radius" of changes.
+
+Data Intergrity
+
+Mitigate with authoritative reconciliation jobs, pre-cutover validation, and automated data quality gates.
+
+Operational Regression
+
+Mitigate with canary releases, unified telemetry, and automated rollback triggers to reverse errors instantly.
+
+Accreditation Delays
+
+Mitigate by embedding RMF automation directly into the CI/CD pipeline and aligning accreditation gates to migration waves.
+
+affect the live environment. The following table identifies the critical integration risks we monitor and the specific architectural and operational controls we deploy to mitigate them.
+Outcome
+A secure, auditable integration foundation that preserves service continuity for millions of users, reduces integration risk, and enables scalable, mission ready modernization.
+3.3.APPROACH ON INTEGRATION MODERNIZATION-- SCALABILITY, RESILIENCE, AND SEAMLESS CUSTOMER EXPERIENCE
+Ennoble integrates VA's systems into a unified platform using MBSE-driven architecture, Medallion data engineering, and Zero Trust security. We operationalize capabilities through an auditable pipeline supporting autoscaling and analytics-driven UX. We establishe a future-ready technical foundation that scales to meet Veteran demand while resisting operational disruption. We achieve this by integrating the following four capability areas to decouple legacy dependencies and modernize the user experience:
+· Architecture & Data Integrity: We baseline As-Is/To-Be models and use the Strangler Pattern to decouple legacy functions via API gateways. Authoritative feeds are ingested into Medallion pipelines (Bronze/Silver/Gold) using Informatica/Databricks with automated reconciliation and centralized metadata catalogs for governance.
+To deliver accurate, synchronized data to Veterans across the new platform, we employ the Data Architecture figure on the next page. This pipeline transforms raw legacy feeds into authoritative, service-ready assets through automated quality gates.
+· DevSecOps, Scalability & Resilience: Utilizing Infrastructure as Code (IaC) for environment parity, we enforce pipeline gating and automated rollback to protect production. Our Kubernetes-native architecture supports multi-region autoscaling, validated through reusable load profiles (JMeter), chaos engineering, and regular COOP/DR rehearsals.
+· Security & Veteran-Centric CX: We implement Zero Trust (CAC/SAML, segmentation) and embed RMF automation (Chef InSpec, XACTA) into pipelines for continuous ATO. Simultaneously, we deploy modular identity proofing and analytics-driven navigation, ensuring 508/WCAG compliance and equitable access .
+
+February 5, 2026
+
+Page 9 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+Replacement Model for VA.gov Ennoble Response
+
+Figure 4: Ennoble's Medallion Data Architecture for VA.gov. We transform disparate legacy streams into authoritative Goldlevel assets using automated reconciliation and quality enforcement, leveraging Databricks and Informatica patterns proven on NGA SAFFIRE and HHS EHCM.
+· Operations & Pilot-to-Scale: We maintain unified telemetry (Splunk/CloudWatch) and ServiceNow Tier 2/3 support with automated ticketing. Innovation is validated in secure Zone D sandboxes (AI/ML prototyping) before phased, cohort-based migration to production.
+Outcome
+A resilient, auditable integration fabric delivering a faster, accessible VA.gov experience.
+4. CONCLUSION
+Ennoble First appreciates the opportunity to respond to this Sources Sought Notice and offers the Department of Veterans Affairs a low-risk, high-value solution for modernizing VA.gov. Driven by the People, Process, and Performance framework outlined in our Executive Summary, we combine a cleared, mission-ready engineering bench with secure DevSecOps delivery to de-risk large-scale modernization.
+· People: Our solution is grounded in the expertise of our workforce, demonstrated by the operational sustainment of PeopleSoft for 90,000+ users on HHS EHCM and high-throughput engineering teams at NGA.
+· Process: We execute through disciplined, auditable engineering practices, bringing integrated capabilities in MBSE, Medallion-style data pipelines, and ICD-503 aligned security with automated RMF evidence capture to sustain continuous ATO.
+· Performance: We drive measurable results through rapid delivery mechanisms, utilizing sandbox-validated pilots (DISA TES) and clear "Go/No-Go" gates to minimize integration risk and protect production baselines.
+By uniquely coupling these elements, Ennoble accelerates the delivery of a secure, accessible, and Veteran-centric digital experience. We stand ready to partner with the Department of Veterans Affairs to advance VA.gov modernization.
+
+February 5, 2026
+
+Page 10 of 10
+
+White Paper
+
+Use or disclosure of data used on this sheet is subject to the restrictions on the title page of this proposal.
+
+

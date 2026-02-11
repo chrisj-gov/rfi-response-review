@@ -1,0 +1,389 @@
+Department of Veterans Affairs (VA) Technology Acquisition Center (TAC)
+Replacement Model for VA.gov
+Sources Sought Notice: 36C10B26Q0131
+February 5, 2026
+Submitted to:
+VA Technology Acquisition Center Evan Schlisserman, evan.schlisserman@va.gov Allison Fulton, allison.fulton@va.gov
+Submitted by:
+Innovative Healthcare Informatics, LLC 990 Peachtree Industrial Blvd #727 Suwanee, Georgia 30024-2366 POC: Camilla Mullins, Founder & CEO 678-778-9762 | camilla@ihisolutions.com
+UEI: CQE2PSKNWSJ4 | CAGE: 7BAP2 | ihisolutions.com
+This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used or disclosed - in whole or in part - for any purpose other than to evaluate its contents consistent with the provisions of this response. If, however, a contract is awarded to this offeror as a result of - or in connection with - the submission of this response, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this response if it is obtained from another source without restriction. The data subject to this restriction are contained on all sheets.
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+Table of Contents
+1. Company Overview and Strategic Approach ....................................................................1 1.1 Why Establish a Focused HCD Team..........................................................................1 1.2 Alignment with Law, Policy, and Federal Best Practices ............................................2 1.3 IHI's Human-Centered Design PMO ...........................................................................2 1.4 IHI's Sponsorship Coalition for Adoption and Change ...............................................2 1.5 Benefits to the Government..........................................................................................3
+2. Relevant Experience with Similar Challenges...................................................................3 3. Responses to the Topics and Questions in This Request ..................................................4
+3.1 Responses to VA.gov Objectives .................................................................................5 3.2 User Journey and Experience Design...........................................................................5 3.3 Governance and Operating Considerations..................................................................6 4. Descriptions of Relevant Technologies and Approaches ..................................................7 4.1 Human Centered Design for Digital Transformation...................................................7 4.2 Organizational Change Management for Large-Scale Transformation .......................8 5. Additional Information Relevant to VA's Objectives.......................................................9 5.1 Observations and Lessons from Federal Digital Initiatives .........................................9 5.2 Known Modernization Risks and Limitations .............................................................9 5.3 Conclusion..................................................................................................................10
+List of Exhibits
+Exhibit 1. IHI Company Information...............................................................................................1 Exhibit 2. IHI's Human-Centered Approach: Improving VA.gov ..................................................3 Exhibit 3. Alignment of IHI's Proposed Approach to VA.gov Replacement Objectives ...............5 Exhibit 4. Risk Considerations and Corresponding Mitigation Approaches ...................................9
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page i
+
+List of Acronyms
+
+Acronym Definition
+
+BPR CX DevSecOps EHR GAO
+HCD IDEA Act
+IFCAP
+IHI NCA OCM OIT OMB OSC
+
+Business Process Reengineering Customer Experience Development, Security, and Operations Electronic Health Record U.S. Government Accountability Office Human-Centered Design 21st Century Integrated Digital Experience Act Integrated Funds Distribution, Control Point Activity, Accounting and Procurement Innovative Healthcare Informatics National Cemetery Administration Organizational Change Management Office of Information Technology Office of Management and Budget Office of Supply Chain
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+
+Acronym PMO QA QCR SBA SCM UI/UX USDS USWDS VA VALOR VBA VHA VISN VSN VSO WOSB
+
+Definition Program Management Office Quality Assurance Quality Control Review U.S. Small Business Administration Supply Chain Modernization User Interface/User Experience U.S. Digital Service U.S. Web Design System U.S. Department of Veterans Affairs VA Logistics and Redesign Veterans Benefits Administration Veterans Health Administration Veterans Integrated Service Network Veterans Service Network Veterans Service Organization Women-Owned Small Business
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page ii
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+
+1. Company Overview and Strategic Approach
+Exhibit 1. IHI Company Information
+
+Company Name
+
+Innovative Healthcare Informatics
+
+Address
+
+ Physical: 4139 Treemont Lane Suwanee, Georgia 30024-2366  Mailing: 990 Peachtree Industrial Blvd #727 Suwanee, Georgia 30024-2366
+
+SAM UEI
+
+CQE2PSKNWSJ4
+
+CAGE Code
+
+7BAP2
+
+Socio-Economic Designation Women-Owned Small Business
+
+Primary Contact
+
+Camilla Mullins RN BSN MS, Founder & CEO Phone: 678-778-9762 | Email: camilla@ihisolutions.com
+
+Website
+
+https://ihisolutions.com
+
+Innovative Healthcare Informatics, LLC (IHI) is a U.S. Small Business Administration (SBA)certified Women-Owned Small Business (WOSB) specializing in human-centered optimization and digital transformation. Our mission centers on putting people at the heart of solutions to help federal agencies and healthcare organizations innovate, optimize, modernize, and achieve their missions.
+
+IHI recommends that the government deliberately decouple Human-Centered Design (HCD)
+
+and software development, positioning IHI as a specialist HCD partner that reduces delivery
+
+risk, drives adoption, and ensures compliance with mandates such as the 21st Century
+
+Integrated Digital Experience Act (IDEA Act). A dedicated IHI-led HCD Program Management
+
+Office (PMO) and Sponsorship Coalition will give the U.S. Department of Veterans Affairs (VA)
+
+an enduring, user-focused "experience engine" that any development vendor can successfully
+
+implement against. Such an independent contract also creates a technology-agnostic solution that
+
+best serves the needs of VA's constituents.
+
+A Roadmap for Design to Development Success
+
+1.1 Why Establish a Focused HCD Team for Veterans
+
+ Clear accountability and specialization: IHI's development to reduce delivery risk, clarify  Create IHI-led HCD PMO distinct from HCD team focuses on understanding users, accountability, and provide VA with an
+
+mapping end-to-end journeys, and defining independent advocate for users and CX.
+
+service blueprints, while development vendors concentrate on delivery, reliability, security, and integration. This separation clarifies decisionownership and reduces delivery risk.
+
+ Establish an IHI HCD PMO to guide UX, content, accessibility, and design systems, creating a reusable "experience layer" for any development vendor.
+ Align with 21st Century IDEA and OMB
+
+ Independent user advocacy: As an independent digital-first guidance through user-centered,
+
+HCD partner, IHI's research and usability testing are not constrained by any single development team's technical preferences, helping avoid common federal challenges where legacy systems
+
+data-driven design, continuous usability testing, and CX measurement.  Create an IHI-facilitated Sponsorship Coalition of leaders and frontline representatives to champion HCD, resolve cross-silo challenges,
+
+shape the user experience.
+
+and drive organizational buy-in.
+
+ Reduced lock-in and greater competition: Placing HCD and development on separate contracts allows the government to recompete or replace development vendors without losing
+
+ Integrate HCD with development planning rhythms (e.g. backlogs, sprints, releases) so validated research and prototypes inform delivery decisions.
+ Preserve institutional knowledge through
+
+hard-won user insights and service design shared personas, journey maps, and research
+
+knowledge curated through HCD activities.
+
+libraries that support future recompetes or platform changes.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 1
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+
+1.2 Alignment with Law, Policy, and Federal Best Practices
+
+ Direct support for 21st Century IDEA: The Act requires public-facing digital services to be accessible, mobile-friendly, and "designed around user needs with data-driven analysis." IHI's HCD PMO will institutionalize continuous user research, usability testing, and data-driven design practices so VA can demonstrate compliance across touchpoints.
+ Consistent with Office of Management and Budget (OMB) and Digital.gov guidance: OMB's digital-first public experience guidance calls for user-centered, data-driven design. Digital.gov's HCD guidance emphasizes discovery, design, delivery, and measurement as a continuous cycle, not a one-time phase. IHI's model mirrors that cycle by providing sustained HCD governance and leadership that stays in step with iterative agile delivery.
+ Built on established federal playbooks: U.S. Digital Service (USDS) and other federal playbooks emphasize starting with user needs and continually testing with real users. IHI formalizes this approach as a governance function, ensuring that development increments trace back to validated user needs and measurable customer experience (CX) outcomes.
+
+1.3 IHI's Human-Centered Design PMO
+
+ Enterprise HCD governance and standards: Proven Success in Design and Partnership
+
+IHI's HCD PMO is designed to define UX, content, "IHI Solutions is a current parter on the
+
+accessibility, and U.S. Web Design System (USWDS)-aligned standards, curate a reusable design system, and maintain a centralized library of personas, journey maps, and research artifacts that development teams can implement against.
+
+SCM-DSO program. Camilla and her team have established themselves as a trusted partner, and some of the program's most valued resources. From Camilla's expertise in HCD and product management, to her team's support in business process
+
+ Integrated planning with development teams: The PMO will participate in joint backlog refinement and release planning with software development vendors, ensuring discovery and design work stays one to two sprints ahead and that user insight directly shapes technical scope.
+
+engineering, their expertise is second to none. I cannot recommend Camilla and IHI Solutions highly enough, and I would encourage others to do business with her and her company."
+--Susan Burke, Senior Portfolio Manager Accenture Federal Services
+
+ Measurement and CX outcomes: The PMO will
+
+define and tracks CX metrics (e.g., task completion, error rates, channel shift), feeding
+
+quantitative and qualitative data back into policy and product decisions to align with 21st
+
+Century IDEA and emerging CX guidance.
+
+1.4 IHI's Sponsorship Coalition for Adoption and Change
+
+ Cross-functional sponsorship: IHI will convene a Sponsorship Coalition of senior leaders, program owners, and field representatives to champion HCD, resolve cross-silo tradeoffs, and align policy, operations, and technology around the desired UX.
+ Stakeholder and end-user co-creation: The coalition, guided by IHI, will bring frontline staff, beneficiaries, and other end-users into co-design workshops, validation activities, and usability sessions so solutions reflect real needs, wants, and constraints, strengthening trust and adoption.
+ Structured change management: IHI will pair HCD with communication, training, and feedback practices that support meaningful behavior change and sustained use of new digital services, not just successful deployment.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 2
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+1.5 Benefits to the Government
+ Lower delivery risk, higher quality: IHI's independent HCD PMO helps reduce rework and misalignment between user needs and delivered capabilities by providing validated experience concepts, testable designs, and clear acceptance criteria grounded in user research.
+ Stronger compliance and defensibility: A formal HCD governance layer helps agencies demonstrate alignment with 21st Century IDEA, Section 508, and evolving CX requirements to auditors, OMB, and oversight bodies.
+ Future-proofed digital experience: By centralizing experience knowledge and decoupling it from any single codebase or vendor, VA can evolve platforms, recompete development work, and adopt new technologies without losing institutional understanding of users.
+Selecting IHI as the dedicated HCD partner, paired with separate software development vendors, supports a scalable and user-anchored model that emphasizes adoption, continuity, and long-term sustainability. IHI brings experience working within the VA ecosystem and understands the cultural, organizational, and regulatory challenges inherent in federal digital transformation. Our approach integrates HCD, Organizational Change Management (OCM), Business Process Reengineering (BPR), and Agile practices to support people-centered outcomes, while fostering collaborative relationships grounded in transparency and shared mission focus as demonstrated in Exhibit 2.
+Exhibit 2. IHI's Human-Centered Approach: Improving VA.gov
+
+2. Relevant Experience with Similar Challenges
+Since 2022, IHI has supported the VA Supply Chain Modernization (SCM) initiative through HCD research and consulting services. Our work has directly improved the customer experience for over 9 million Veterans, providers, and clinical staff who rely on VA supply chain systems for medications, supplies, prosthetics, and equipment. We have collaborated extensively with VA business and technology teams, including the VA Logistics and Redesign (VALOR) team, now the Office of Supply Chain (OCS), and the Office of Information Technology (OIT). This
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 3
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+experience has provided us with deep insight into VA's organizational culture, governance structures, legacy system integration challenges, and the critical importance of Veteran-centered design in enterprise digital initiatives.
+Challenges. VA SCM efforts faced interconnected challenges common to large-scale federal digital initiatives, including the absence of a structured, repeatable approach to enterprise stakeholder engagement. Engagement across the enterprise was fragmented, resulting in inconsistent customer insights and duplicative research. At the same time, business and technology leadership lacked alignment on modernization priorities, creating competing roadmaps and governance friction that risked slowing or undermining critical priorities. These challenges were further compounded by requirements development approaches that did not consistently reflect real user workflows, increasing the risk of rework and reduced adoption of modernized systems.
+Approach. To address these challenges, IHI applied HCD methodologies across stakeholder engagement, leadership collaboration, and requirements development as part of a single, integrated effort. We established a Stakeholder Engagement Framework grounded in HCD and OCM principles to support consistent planning, governance, insight synthesis, and follow-through. Using this framework, we engaged both senior leaders and end users from VALOR and OIT through interviews, facilitated workshops, contextual inquiry, journey mapping, and co-creation activities. This work supported requirements elaboration and prototyping for initiatives including Quality Control Review (QCR) systems and Integrated Funds Distribution, Control Point Activity, Accounting and Procurement (IFCAP) optimization. Insights were synthesized across four primary themes covering organizational structure, cultural norms, change management and delivery, and policy and leadership. These findings were presented to executive leadership with targeted recommendations to improve collaboration and alignment.
+Outcomes and Benefits. This integrated approach improved coordination across VA SCM activities, reduced duplication of effort, and supported stronger alignment between business and technology divisions. IHI's Stakeholder Engagement Framework was adopted as a standard practice for HCD and CX engagements, providing a consistent foundation across concurrent initiatives. The resulting insights informed technology roadmaps and process improvements and supported leadership teams in co-planning modernization activities and establishing joint governance mechanisms, including the VALOR-OIT Joint Operating Model. Requirements were grounded in validated user workflows and refined through iterative testing. As a result, VA reduced the risk of downstream rework, strengthened collaboration across stakeholder groups, and improved user adoption.
+Relevance to VA.gov Modernization. VA.gov modernization similarly requires coordinated stakeholder engagement, cross-organization leadership alignment, and user-centered development of workflows while maintaining continuity of service. IHI's experience supporting VA SCM demonstrates a practical, evidence-based approach to addressing these challenges within a complex VA environment, directly aligning with VA's need to replace VA.gov through integrated design, governance, and execution.
+3. Responses to the Topics and Questions in This Request
+VA's objectives emphasize continuity of service, integrated experiences, effective governance, and a Veteran-centered approach to modernization. Our response reflects these priorities, highlighting experience design considerations, governance and operating recommendations, and relevant observations.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 4
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+
+3.1 Responses to VA.gov Objectives
+
+VA has identified five critical objectives for replacing VA.gov. IHI's comprehensive approach addresses each objective through proven methodologies and relevant experience:
+
+Exhibit 3. Alignment of IHI's Proposed Approach to VA.gov Replacement Objectives
+
+Objective Maintains continuity of service for millions of users
+Integrates with a diverse portfolio of legacy and emerging systems
+Operates within a regulated, highly visible federal environment
+Supports longterm scalability, adaptability, and resilience
+Offers more seamless customer experience
+
+Proposed Approach
+ Leverage an HCD PMO to assess user needs, evaluate experience impacts, and guide change decisions.
+ Apply HCD to define fallback paths, alternative access channels, and mission-critical workflows.
+ Integrate OCM practices and continuous feedback loops (CX metrics, user research, operational reviews).
+ Apply HCD to map end-to-end workflows and user journeys across systems and inform integration priorities based on real user needs.
+ Use usability testing, targeted pilots, and crossfunctional governance to evaluate experience impacts prior to broader adoption.
+ Apply a compliance-by-design mindset grounded in USWDS, Section 508, privacy, and federal security frameworks.
+ Integrate compliance and accessibility considerations into HCD activities, lifecycle reviews, and workflow design.
+ Support regulatory awareness through OCM practices such as role-based training and reinforced workflows.
+ Use business process engineering and HCD to simplify workflows and shape adaptable service journeys.
+ Integrate OCM practices and continuous feedback loops that inform governance and prioritization.
+ Use business process engineering and HCD to streamline cross-channel workflows and map endto-end Veteran journeys.
+ Support unified experience design through usability testing, iterative prototyping, accessibility standards, and consistent adoption practices.
+
+Benefit to VA
+ Supports reliable access to critical VA services during modernization or disruption.
+ Reduces risk when modifying or retiring legacy capabilities.
+ Improves Veteran experience and strengthens staff adoption during change.
+ Enables informed integration decisions before scaling.
+ Improves alignment between technology investments and Veteran care and benefits journeys.
+ Increases staff efficiency and data quality by reducing duplicate entry and fragmented workflows.
+ Reduces compliance risk and late-stage rework.
+ Improves Veteran and staff experience through accessible design patterns.
+ Promotes consistent execution of approved workflows and demonstrates measurable progress toward federal CX and accessibility expectations.
+ Supports scalable operations that respond to demand shifts and policy changes.
+ Enables faster improvements without large-scale redesign efforts.
+ Builds a more adaptable workforce and strengthens operational resilience.
+ Improves Veteran satisfaction and trust through more intuitive, consistent experiences.
+ Supports a "One VA" experience across channels.
+ Reduces confusion, errors, and support burden, while increasing self-service success and staff efficiency.
+
+3.2 User Journey and Experience Design
+Understanding the Veteran Digital Journey: IHI recommends a comprehensive discovery phase focusing on mapping end-to-end Veteran journeys across all major benefit portfolios (healthcare, benefits, memorialization, and records). Our approach builds on proven methodologies from our VA SCM work while incorporating best practices from federal digital transformation initiatives.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 5
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+Proposed User Journey Framework:
+1. Discovery and Awareness. How Veterans learn about services, trusted information sources, and barriers to awareness.
+2. Identity Proofing and Account Creation. Experience considerations for multi-channel and federated identity proofing, progressive assurance levels, and accessibility.
+3. Authentication and Sign-In. Seamless sign-in and recovery workflows that balance security, usability, and varied user capabilities.
+4. Navigation and Service Access. Task-oriented navigation, personalized content, and contextual guidance aligned to Veteran goals.
+5. Transaction Completion and Follow-Up. Streamlined form experiences, mobile-responsive interactions, transparent status tracking, and seamless digital-to-assisted transitions.
+HCD Research Approach: IHI emphasizes stakeholder interviews, Veteran interviews and contextual inquiry, collaborative journey-mapping workshops, iterative usability testing, and analytics review to validate experience decisions before implementation.
+Insights from Federal Initiatives: Recent federal digital transformation efforts provide valuable lessons for VA.gov modernization. USDS' work on the original VA.gov redesign demonstrated that "streamlining navigation and integrating feedback from actual users" led to measurable improvements in satisfaction and task completion. The White House's establishment of a National Design Studio in 2025 reflects growing recognition that making "federal websites more efficient and user friendly" is a strategic priority, particularly as the federal government continues to rank among the lowest organizations in customer experience. IHI's approach incorporates these lessons while building on VA-specific experience to support a truly Veteran-centric digital experience.
+3.3 Governance and Operating Considerations
+VA.gov's modernization must address the governance challenges that have affected previous technology initiatives. Recent U.S. Government Accountability Office (GAO) analysis of VA's Electronic Health Record (EHR) modernization identified critical governance gaps including unclear responsibilities, insufficient stakeholder input mechanisms, and delayed decision cycles.
+IHI recommends a multi-tiered structure balancing strategic oversight with operational agility:
+ Executive Steering Committee  Senior leadership representation across VA administrations and key stakeholders.  Review strategic alignment, funding priorities, and resolution of cross-organizational issues.
+ Product Council  Product owners representing major Veteran-facing capabilities.  Prioritize features, manage dependencies, and review metrics.  Empowered to make tactical decisions within strategic guardrails.
+ Technical Architecture Review Board  Technical leaders maintaining architectural consistency and standards adherence.  Review significant technical decisions, integrations, and infrastructure changes.  Balances innovation with stability, security, and maintainability.
+ User Experience Council  Inclusion of Veterans, family members, Veterans Service Organization (VSO) representatives, and UX professionals in ongoing review of journeys, prototypes, and research findings to maintain a strong voice.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 6
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+ Agile Delivery Teams  Cross-functional teams with product, design, engineering, and Quality Assurance (QA) capabilities.  Daily collaboration and rapid iteration within 2-week sprints  Transparency through demos, retrospectives, and visible progress metrics
+Effective governance is reinforced by complementary organizational practices:
+ Product-oriented operating models: Supporting sustained investment and continuous improvement rather than one-time project delivery.
+ Ongoing user research capacity: Maintaining continuous discovery, usability testing, and analytics review to inform evolving decisions.
+ Shared responsibility models: Encouraging collaboration across security, operations, and experience functions without constraining implementation approaches.
+ OCM: Supporting staff, Veterans, and partners through transitions with communication, training, and support mechanisms for successful change implementation and sustainment.
+4. Descriptions of Relevant Technologies and Approaches
+VA.gov replacement will occur within development environments that must preserve continuity of service as new functionality is introduced. IHI provides a human-centered foundation that informs these efforts, allowing HCD and OCM practices to shape decisions about experience, adoption, and long-term sustainability. As an independent experience and change partner, we integrate naturally with agile delivery and Development, Security, and Operations (DevSecOps) environments, contributing validated insights through continuous research, usability testing, and organizational readiness activities. These efforts help development teams prioritize work, reduce rework, and maintain accessibility, usability, and CX standards, while aligning replacement activities with federal guidance on delivering digital-first public experiences and measurable customer outcomes.
+4.1 Human Centered Design for Digital Transformation
+IHI applies HCD as a continuous discipline that supports user-focused digital modernization and informs downstream implementation. Drawing on extensive experience supporting VA initiatives and informed by industry best practices from both public and private sectors, IHI's HCD approach is structured around five integrated phases that provide an enduring foundation for decisionmaking, delivery support, and adoption across VA.gov modernization efforts.
+1. Planning and Alignment. HCD begins with aligning user needs, mission priorities, and desired experience outcomes. This phase focuses on clarifying research objectives tied to CX goals, identifying relevant stakeholders and user groups, and defining the scope and intent of discovery activities within established governance and compliance expectations. The emphasis is on grounding design efforts in organizational and operational realities while remaining technologyagnostic and adaptable to different delivery architectures.
+2. Discovery and Research. Discovery focuses on developing an understanding of how Veterans, VA staff, and partners interact with digital services in real-world environments. This includes stakeholder interviews, contextual inquiry, and analysis of existing data sources such as usage analytics, support trends, and user feedback. Findings are synthesized into clear themes that surface pain points, unmet needs and opportunities for improvement, and are captured in journey maps and current-state workflow representations that inform prioritization and decision-making.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 7
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+3. Ideation and Design. Findings from discovery are translated into experience concepts through co-creation workshops that bring together Veterans, VA staff, and other relevant stakeholders. During this phase, potential experience and service design concepts are explored and refined to address identified pain points while accounting for user needs, operational constraints, and policy considerations. Concepts are assessed against desirability, feasibility, and viability, and are expressed through future-state process flows and exploratory wireframes that clarify intent without prescribing technical implementation. Priority concepts are then selected and prepared for prototyping, establishing a clear and intentional path from understanding to validation.
+4. Prototyping and Testing. IHI's prototyping and testing centers on evaluating experience and service design concepts with users before they are implemented by development teams. This phase uses representative prototypes of varying fidelity and usability testing to assess comprehension, accessibility, and workflow alignment, helping identify issues prior to implementation. Findings from this phase are documented in usability test reports that provide evidence supporting design readiness and refinement.
+5. Implementation Support and Measurement. Implementation support addresses maintaining design intent and experience quality as solutions move into development and release. IHI collaborates with engineering teams during development to support design fidelity and conducts usability testing on working software to identify experience, accessibility, and workflow issues. Measurement emphasizes monitoring post-launch customer experience indicators such as usage patterns, satisfaction, and task completion. These real-world performance signals inform iterative updates and prioritization decisions, helping VA refine services while preserving continuity and consistency in the Veteran experience.
+4.2 Organizational Change Management for Large-Scale Transformation
+Replacing VA.gov requires more than introducing new digital capabilities; it requires preparing a diverse, distributed community of users and stakeholders to understand, adopt, and sustain new ways of working as those experiences evolve. IHI's approach to OCM is designed to address the organizational readiness and behavior change needed to support adoption at scale.
+Our OCM activities begin with understanding who is affected by change and how planned updates impact roles, workflows, and interactions across the ecosystem. This includes targeted stakeholder engagement and impact assessment to inform tailored change strategies for different user groups, including Veterans, frontline staff, and external partners.
+Multi-channel communication, training, and enablement activities are aligned to help users understand what is changing, why it matters, and how to adopt, supporting informed buy-in. Rolebased training and clear communications support adoption, while feedback mechanisms surface concerns and resistance early so adjustments can be made as changes are introduced.
+OCM efforts are coordinated with planned design and delivery milestones, allowing organizational readiness to mature as technical changes are introduced and reinforcing adoption over time rather than relying on one-time transition events.
+For VA.gov replacement, effective OCM is particularly important given the number and diversity of users impacted, including millions of Veterans, thousands of VA staff, and a broad network of VSOs and community partners. Differences in digital literacy, accessibility needs, and operational contexts require a deliberate and inclusive approach to change.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 8
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+
+5. Additional Information Relevant to VA's Objectives
+
+IHI draws on observations from federal digital modernization efforts to highlight lessons learned, common constraints, and considerations relevant to VA.gov replacement. These perspectives reflect patterns seen across large-scale public-sector transformations and provide context for balancing modernization goals with continuity, accessibility, and operational realities.
+
+5.1 Observations and Lessons from Federal Digital Initiatives
+
+ Start with Users, Not Technology: Early VA.gov modernization showed that streamlining navigation and incorporating real user feedback supported stronger outcomes than technologyfirst approaches.
+ Accessibility Must Be Designed In: Section 508 and inclusive design practices are most effective when incorporated from inception; retrofitting accessibility later in development is often more costly and yields incomplete outcomes.
+ Mobile-Responsive Design Is Foundational: As VA's mobile user base continues to grow, designing mobile experiences from the outset remains essential.
+ Embedded Collaboration Builds Capability: Embedding HCD and OCM practitioners alongside agency staff supports shared ownership, transparent communication, and practical knowledge transfer, promoting sustained improvements beyond initial modernization efforts.
+ Pilot and Validation Inform Readiness: Piloting high-value user journeys and defining clear success metrics help agencies validate experiences through discovery and usability testing, assess organizational readiness, and evaluate operational considerations before broader rollout or expansion decisions.
+ Incremental Migration Supports Continuity: Federal programs such as Healthcare.gov highlighted the risks of large-scale "big-bang" transitions, reinforcing the value of phased, tested migration strategies.
+ Governance Should Enable Progress: Effective governance provides clear guardrails while allowing teams to move forward, reducing friction without slowing delivery.
+
+5.2 Known Modernization Risks and Limitations
+Exhibit 4. Risk Considerations and Corresponding Mitigation Approaches
+
+Risk/Limitation
+
+Description
+
+Mitigation Approach
+
+Legacy and Technical Dependencies
+
+New digital experiences may be constrained Emphasize phased migration, experience-
+
+by existing backend capabilities and
+
+driven prioritization, and usability
+
+complex integrations across systems.
+
+validation to surface risks early.
+
+Organizational Change Fatigue
+
+Staff and Veterans may be affected by multiple concurrent modernization initiatives
+
+Coordinated communications, sequence rollouts thoughtfully, and pair changes with training and support.
+
+Accessibility,
+
+Balancing inclusive design with federal
+
+Apply accessibility- and privacy-by-design
+
+Security, and Privacy security and privacy mandates can introduce principles and incorporate diverse user
+
+Requirements
+
+friction into digital journeys,
+
+testing to inform tradeoffs.
+
+Stakeholder Alignment
+
+Coordinating across VHA, VBA, NCA, and Support shared governance practices,
+
+external partners introduces competing
+
+transparent decision frameworks, and
+
+priorities and governance complexity.
+
+consistent stakeholder engagement.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 9
+
+VA TAC | Replacement Model for VA.govProgram Name SSN: 36C10B26Q0131 | February 5, 2026
+5.3 Conclusion
+Replacing VA.gov requires more than technical excellence, it demands deep empathy for Veterans' needs, respect for VA's mission and culture, and commitment to sustainable change. IHI is prepared to partner with VA in creating a premier, modern, secure, and Veteran-centric digital experience that honors the service and sacrifice of our nation's Veterans.
+IHI welcomes the opportunity to discuss our capabilities and approach in greater detail and look forward to supporting VA's critical mission.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+SSN Response Page 10
+
+

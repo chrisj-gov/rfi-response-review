@@ -1,0 +1,210 @@
+Response To REQUEST FOR Information
+Replacement Model for VA.gov
+
+Date: February 05,2026
+This proposal is prepared for: Department of Veterans Affairs Technology Acquisition Center
+
+UEI: SHPFT77QQBC5
+
+CAGE: 7C3A2
+
+Website: www.ExeQut.com
+
+9831 Greenbelt Rd, Ste #312, Lanham MD, 20706
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+
+Document Information
+
+Company
+
+ExeQut LLC
+
+Document Title
+
+Replacement Model for VA.gov
+
+Due Date
+
+February 05,2026
+
+Document Type
+
+Response to RFI Replacement Model for VA.gov
+
+February 05, 2026,
+
+i
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+Table of Contents
+1 Company Overview ..............................................................................................................3 2 Relevant Experience with similar challenges. ......................................................................3 3 Responses to the topics and questions in this request...........................................................5 4 Descriptions of relevant technologies and approaches. ........................................................8 5 Any additional information relevant to VA's objectives. .....................................................8
+List of Figures
+Figure 1 ExeQut LLCs Approach, Modernizing VA.gov Through Phased, Risk Reduced, Veteran Centered Delivery. ........................................................................................................................................ 6 Figure 2 ExeQut LLC Mitigates Modernization Risk Through Phased, Data Driven Execution................. 9
+
+February 05, 2026,
+
+ii
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+
+1 Company Overview
+
+Company Name
+
+ExeQut LLC
+
+Address
+
+9831 Greenbelt Rd, Ste #312, Lanham MD, 20706
+
+Brief Description of Capabilities
+
+ExeQut LLC is a United States based information technology services firm founded in 2014 and
+
+headquartered in Lanham, Maryland. ExeQut delivers enterprise digital platforms, cloud modernization,
+
+data and analytics, cybersecurity, accessibility compliance, and operations and maintenance services to
+
+federal and regulated clients. ExeQut designs, builds, hosts, and sustains public facing and mission
+
+critical systems that must meet strict availability, security, and compliance requirements. ExeQut
+
+understands the critical role technology plays in supporting public service missions and serves
+
+government agencies with a strong commitment to integrity, accountability, and consistent performance.
+
+ExeQut has performed end-to-end information technology services focused on the design, development, hosting, maintenance, and support of secure and accessible digital platforms. Our work includes enterprise Drupal application development, cloud hosting and infrastructure management on vendor managed and custom managed environments, system modernization, data architecture, search and analytics integration, accessibility remediation, cybersecurity hardening, and ongoing operations and maintenance. ExeQut supported public facing and mission critical systems by delivering controlled deployments, continuous updates, performance optimization, and compliant digital services aligned with government standards and operational requirements.
+
+2 Relevant Experience with similar challenges.
+
+ExeQut LLC understands that modernizing a platform of VA.gov's scale and complexity requires more than technical expertise, it demands proven experience navigating the intersection of legacy system integration, user-centered design, and mission-critical service continuity. The following experiences illustrate approaches and outcomes from organizations that faced challenges directly relevant to VA's objectives.
+1. United States Department of Housing and Urban Development Office of Inspector General, Enterprise Public Website Modernization and Scale Expansion
+ExeQut led the full upgrade and redesign of the HUD Office of Inspector General external website, migrating the platform from Drupal 7 to Drupal 11 while maintaining continuous public access. The legacy platform supported limited traffic volumes and required modernization to meet growing public demand, security expectations, and accessibility requirements.
+ExeQut re architected the platform to support high performance and scalability. System load capacity increased from approximately 80,000 visits per thirty-minute window to more than 850,000 visits with less than two percent resource utilization. This improvement directly parallels VA.gov's requirements for peak demand resilience and uninterrupted service delivery.
+ExeQut managed and curated more than 36,000 content assets and implemented a Solr based faceted search solution indexing over 7,800 content and media items. The platform included a recommendations dashboard updated monthly through an automated migration toolkit, enabling filtering and visualization of more than 4,000 data points. ExeQut developed structured content modules supporting searchable galleries, sortable indexes for publications and reports, and integrated on site and external streaming video.
+
+February 05, 2026,
+
+3
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+
+Section 508 accessibility upgrades were implemented across the entire platform. ExeQut also built a custom data pipeline to automate the publication of congressional oversight information, ensuring accuracy, transparency, and timely updates.
+ExeQut provided project management, systems administration, data modeling, information security analysis, business analysis, technical architecture, senior Drupal development, quality assurance testing, information design, interface design, and interface engineering. The solution followed a service oriented, component-based architecture using deployment driven configuration and modular custom code. Security controls included single sign on, session management, multi login blocking, domain-based authentication, geolocation controls, and bot detection. These capabilities align directly with VA.gov's needs for security, scale, governance, and public trust.
+2. Agency for Healthcare Research and Quality, Mission Critical Public Data Platform Modernization
+ExeQut supported the redesign and redevelopment of the Medical Expenditure Panel Survey website, one of AHRQ's most significant public facing data platforms. The system requires modernization to support complex data presentation, continuous updates, accessibility compliance, and long-term maintainability.
+ExeQut re architected the platform using a modular, component-based framework built on open source, cloud native technologies. A full Drupal application was designed and developed with integrated DevSecOps practices and continuous integration and deployment pipelines to support automated testing, frequent releases, and platform resilience.
+ExeQut operated within Agile sprint cycles and implemented features aligned with United States Web Design System principles and human centered design methodology. Comprehensive Section 508 remediation and compliance audits were conducted to ensure accessibility for all users. ExeQut delivered detailed technical documentation covering architecture, code standards, and compliance controls to support sustainment and future enhancement.
+ExeQut provided a project manager, data modeler, information security analyst, business analyst, technical architect, information designer, and senior Drupal developer. Services included business systems audit, requirements analysis, data schema analysis, and business object modeling. More than 830,000 content, taxonomy, and media records were migrated using controlled, repeatable migration processes. This experience aligns with VA.gov requirements for large scale data migration, governance, and continuous delivery.
+3. National Clearinghouse for English Language Acquisition, Large Scale Content Migration and Multichannel Delivery
+ExeQut performed a large-scale migration and modernization of a public facing platform supporting multilingual education resources. The effort included migration of more than 42,000 structured content resources and 58,000 media files from Drupal 7 to a newly designed Drupal 9 platform, later upgraded to Drupal 10 to maintain security and compatibility.
+ExeQut implemented a custom Solr powered search experience with advanced filtering by audience, subject matter, publishing agency, and metadata attributes. A new content architecture supported multilingual toolkits and hierarchical navigation. The platform incorporated blogs, newsletters, event and webinar management, and integrated streaming media.
+
+February 05, 2026,
+
+4
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+ExeQut extended the platform through companion mobile applications for iOS and Android using React Native and Expo. These applications synchronized with the Drupal backend through JSON API endpoints and supported language switching, offline access, bookmarking, and push notifications. Automated deployment pipelines coordinated releases across web and mobile platforms.
+ExeQut provided project management, systems administration, data modeling, business analysis, technical architecture, senior Drupal development, quality assurance testing, information design, and interface engineering. The solution used a services based, component driven architecture with modular custom code and deployment-based configuration. Weekly assessment, testing, and deployment cycles ensured platform stability and performance.
+These engagements demonstrate ExeQut's direct experience delivering high traffic, secure, accessible, and content intensive digital platforms in regulated federal environments. ExeQut has proven capability to modernize legacy Drupal systems, manage large scale content and data migration, implement identity and security controls, support phased transitions, and sustain mission critical public services without disruption. This experience directly aligns with VA objectives for continuity of service, scalability, governance, accessibility, and Veteran centered digital delivery.
+3 Responses to the topics and questions in this request.
+ExeQut LLC understands that VA.gov replacement is not a single platform deployment. It is a coordinated modernization across a complex ecosystem of legacy and emerging systems operating in a regulated and highly visible federal environment. Our approach directly supports continuity of service, integration across diverse portfolios, long term scalability, adaptability, resilience, and a seamless customer experience.
+ Legacy Risk and Modernization Imperative
+ExeQut LLC understands that legacy systems represent operational risk rather than isolated technical debt. Aging platforms increase downtime, restrict scalability, expose security vulnerabilities, and drive-up costs due to scarce talent and unsupported technologies. These risks directly impact user trust, mission delivery, and regulatory compliance. ExeQut LLC incorporates these indicators into modernization planning to prioritize systems based on operational impact, security exposure, and sustainability.
+Our experience confirms that frequent outages, rigid architectures, poor integration, and outdated user experiences undermine adoption and satisfaction. These conditions reinforce the need for a structured transition rather than abrupt replacement. ExeQut LLC addresses these realities through phased modernization strategies that protect ongoing operations while introducing modern capabilities.
+ Phased Transition Strategy
+
+February 05, 2026,
+
+5
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+
+Figure 1 ExeQut LLCs Approach, Modernizing VA.gov Through Phased, Risk Reduced, Veteran Centered Delivery.
+
+ExeQut LLC does not advocate abandoning legacy systems on day one. We execute multi-phase transitions that begin with discovery, analysis, and design across infrastructure, hardware, and core software. This phase establishes a clear understanding of existing architectures, dependencies, workflows, and constraints. Human factors, user experience, and business object models are assessed against legacy designs and then transitioned to modern, standards-based architectures.
+
+This approach balances operational priorities, budgets, and technical debt. It enables VA to define a modernization roadmap that links new systems, models, and interfaces to real user needs and organizational goals. Phased transitions reduce downtime risk, limit disruption, and support continuous service delivery throughout modernization.
+
+ User Journey and User Centered Design
+
+ExeQut LLC places user centered design at the core of modernization. We address the full user journey from identity proofing and sign in through recovery, navigation, and task completion. Our process begins with user research through surveys, interviews, behavioural analytics, and persona development. This work captures the needs of Veterans, families, caregivers, and staff with diverse accessibility and service requirements.
+
+We conduct usability testing to observe real interactions and document issues related to navigation, accessibility, content comprehension, and task efficiency. We apply data driven analysis to track engagement, task success rates, and error frequencies. These insights guide prioritization and architectural decisions.
+
+February 05, 2026,
+
+6
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+
+ExeQut LLC designs systems that promote information comprehension and empower users to complete tasks independently. This aligns with VA goals to reduce friction, increase satisfaction, and support secure, intuitive, mobile friendly experiences.
+Infrastructure and Application Assessment
+ExeQut LLC begins modernization with a comprehensive assessment of applications, databases, and infrastructure. We identify how each platform interacts and the role it plays in critical business operations. We assess and rank upgrade urgency based on downtime risk, security vulnerabilities, compliance exposure, and foreseeable skill shortages.
+This assessment establishes a clear baseline of the current environment while informing future architecture decisions grounded in stability, performance, and end user outcomes. It enables VA to prioritize modernization investments based on mission impact rather than isolated technical concerns.
+ Modernization Approaches and Trade-offs
+ExeQut LLC applies multiple modernization approaches based on system complexity and business criticality. For highly complex systems, we support re-engineering using modern languages, frameworks, and modular architectures to enable long term flexibility and scalability. For less intricate systems, we support re hosting to modern infrastructure environments that improve stability and scalability without altering core logic.
+Where appropriate, ExeQut LLC supports package implementation for commodity business functions. We emphasize that vendor platforms must support API based integration and extensibility. No single system can meet all organizational needs. Interoperability and integration standards are essential to avoid future silos and ensure adaptability.
+ Change Management and Risk Mitigation
+ExeQut LLC directly addresses common modernization challenges. Poor documentation and tribal knowledge are mitigated through creation of workflow diagrams, system documentation, data dictionaries, dependency maps, and clearly defined roles and business rules. Organizational resistance is addressed through early stakeholder engagement, targeted training, ongoing support, and transparent communication of benefits.
+Integration complexity is managed through API led connectivity that supports phased transitions between legacy and modern systems. Cost and schedule risk are addressed through strong business case development, phased rollouts prioritized by user impact, leadership commitment, and regular progress reviews.
+ Lessons Learned and Best Practices
+ExeQut LLC applies lessons learned from large scale federal and enterprise modernization efforts. Legacy risk compounds when deferred. User trust depends on continuity and clarity. Phased delivery reduces failure risk. Data and usability metrics must guide decisions. Integration standards must be enforced early. Change management is as critical as technology. ExeQut LLC brings these practices to support VA in replacing VA.gov with a resilient, secure, and Veteran centric digital experience that meets current needs while adapting to future demands. budget.
+
+February 05, 2026,
+
+7
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+4 Descriptions of relevant technologies and approaches.
+Microservices Architecture: Transitioning from monolithic systems to microservices enables independent scalability and management of services. This approach allows efficient resource utilization when addressing spikes in user demand while isolating failures to prevent system-wide impacts.
+Cloud Migration: Cloud platforms provide scalable infrastructure supporting dynamic load balancing and reducing hardware burden. A phased migration approach using patterns like the Strangler Pattern minimizes disruptions while enabling incremental modernization.
+API Management: APIs and middleware enable seamless integration between legacy systems and modern applications, facilitating data sharing across platforms without requiring complete system overhauls. API-led connectivity supports staged migrations while setting clear integration standards for future platforms.
+Data Management Strategies: Data lakes or warehouses provide centralized storage supporting analytics and real-time querying. Automated data migration tools ensure data integrity during transitions while reducing manual effort and error risk.
+User-Centric Design: Engaging end-users throughout the design phase ensures interfaces meet actual needs, improving adoption rates and reducing resistance. High-fidelity prototype testing and scenario-based user testing validate designs before implementation.
+Continuous Monitoring and Feedback: Observability practices for system performance and user experience enable rapid identification of bottlenecks. Proactive monitoring supports troubleshooting and continuous improvement.
+ Modernization Pathway Options
+Re-engineering: For highly complex, business-critical systems, re-engineering rebuilds applications using modern programming languages, frameworks, and modular architectures. While requiring significant effort, this approach enhances long-term flexibility and scalability.
+Re-hosting: For less intricate systems, transitioning from physical infrastructure to secure, distributed cloud or container-based architectures offers a practical solution. This "lift and shift" approach migrates applications without modifying core structure while benefiting from improved stability, scalability, and modern support ecosystems.
+Package Implementation: Where ready-made solutions exist for functions like ERP, CRM, or HR, evaluating pre-built options can reduce custom development needs and ongoing maintenance. Critical factors include platform foundation design with integration via APIs and framework-based development standards, ensuring extensibility and interoperability.
+5 Any additional information relevant to VA's objectives.
+ Known Limitations, Risks, and Trade-offs
+
+February 05, 2026,
+
+8
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+Transparent acknowledgment of challenges enables effective planning and mitigation.
+
+Figure 2 ExeQut LLC Mitigates Modernization Risk Through Phased, Data Driven Execution.
+High Initial Costs: Upgrading legacy systems or migrating to cloud requires significant capital expenditure. Mitigation: Implement phased rollouts to spread costs; leverage cloud pay-as-you-go models to align expenses with usage. Integration Complexity: Legacy systems may not be compatible with new technologies, creating complex integration requirements. Mitigation: Conduct thorough assessments early to identify compatibility issues; use API-led connectivity during staged migrations. Resistance to Change: Employees may exhibit reluctance to adopt new systems due to comfort with existing processes. Mitigation: Invest in change management including targeted training, ongoing support, and clear communication about modernization benefits. Engage stakeholders early to ease transitions and improve adoption.
+
+February 05, 2026,
+
+9
+
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Response to RFI
+Data Migration Risks: Migrating large volumes of data poses risks of loss, corruption, or inconsistencies. Mitigation: Use automated tools for migration; run parallel systems during transitions to ensure data integrity before cutover. Scalability Limitations: Older systems not designed for scalability may hinder performance during peak loads. Mitigation: Gradually refactor monolithic structures into microservices that can be independently scaled based on demand.
+ Addressing Common Modernization Challenges
+Poor Documentation: Many legacy systems lack current records of technical architecture, data structures, and dependencies. Without accurate documentation, organizations risk underestimating migration complexity. Solution: Create comprehensive workflow diagrams, procedures, and checklists identifying user roles, permissions, and business rules before initiating the project. Integration Complexities: Bridging legacy to modern systems during phased transitions can introduce compatibility issues and data inconsistencies. Solution: Use API-led connectivity to link systems during staged migrations; set clear integration standards to support future platforms. Cost and Time Considerations: While modernization drives efficiency gains, timelines can stretch across months or years depending on scope. Solution: Develop a strong business case; prioritize phased rollouts based on user-centered service priorities; secure leadership commitment for adequate resources. Regular progress reviews keep projects on track and within budget.
+ Conclusion
+The U.S. Department of Veterans Affairs can navigate the complexities of integrating diverse systems while serving millions of users by adopting modern architectures, utilizing cloud resources, and ensuring robust data management practices. Learning from successful transformations in both private and public sectors provides a roadmap for effective modernization. The risks associated with these transformations can be mitigated through careful planning, stakeholder engagement, and commitment to change management. By maintaining focus on Veteran-centered design throughout the process, VA can ensure both operational efficiency and the user satisfaction that Veterans and their families deserve. ExeQut LLC welcomes the opportunity to provide additional information or discuss the approaches in detail.
+
+February 05, 2026,
+
+10
+
+

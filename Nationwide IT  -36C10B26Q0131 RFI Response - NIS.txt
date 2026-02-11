@@ -1,0 +1,671 @@
+Department of Veterans Affairs, Technology Acquisition Center
+Replacement Model for VA.gov
+Response to Request for Information (RFI)
+Solicitation #: 36C10B26Q0131 Due Date: February 5, 2026 Submit to Ms. Allison Fulton (Allison.fulton@va.gov), Mr. Evan Schlisserman (evan.schlisserman@va.gov)
+
+Submitted By: Company Name: Address: CAGE Code: UEI: Point of Contact (POC) Name:
+Facility Clearance: Accounting System:
+
+Nationwide IT Services, Inc. (NIS) 4025 Fair Ridge Drive, Suite 300, Fairfax, VA 22033 4Q5A2 RR2VC8Y3MK47 Susanna W. Thornton, Director, Contracts Phone: (703) 214-1126 Email: contracts@nw-its.com NIS currently holds a Top-Secret Facility Clearance. NIS' accounting system has been audited by DCAA.
+
+This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this response. If, however, a contract is awarded to this offeror as a result of--or in connection with--the submission of this data, the Government shall
+have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source
+without restriction. The data subject to this restriction are contained in all sheets stamped within this volume.
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+COMPANY OVERVIEW
+
+Nationwide IT Services, Inc. (NIS) is a customer and quality-focused SBA-certified and CVE-certified ServiceDisabled Veteran-Owned Small Business (SDVOSB) with capabilities of a large business and the responsiveness, flexibility, and agility of a small business. We implement ISO certified and Capability Maturity Model Integration (CMMI) appraised processes for Services, Development, Data, and Security across 40+ Federal prime contracts. We also maintain a Top-Secret Facility Clearance (TS-FCL) and a DCAA-approved and audited accounting system. NIS is dedicated to delivering innovative technology and business solutions that provide proven approaches for our customers. NIS is bringing together the right expertise and technologies incorporated by the right process for effective and cost-efficient solutions. We provide high-level technical and management consulting focused on benefits realization and industry best practices to support critical information technology infrastructure for Federal Government agencies. We are also assessed and appraised for CMMC Level 2 by a third-party 3PAO, demonstrating validated cybersecurity maturity for protecting Controlled Unclassified Information (CUI).
+
+Company Name Location UEI Company Point of Contact
+Contract Vehicles
+
+Nationwide IT Services, Inc. (NIS)
+
+4025 Fair Ridge Drive, Suite 300, Fairfax, VA 22033
+
+RR2VC8Y3MK47
+
+CAGE Code 4Q5A2
+
+Susanna W. Thornton, Director, Contracts Phone: (703) 750-0453 Email: contracts@nw-its.com
+
+GSA MAS: 47QTCA19D00JR GSA 8(a) STARS III: 47QTCB22D0227 GSA VETS 2: 47QTCH18D0046 GSA OASIS+ SDVOSB: 47QRCA24DV337 GSA OASIS+ SB: 47QRCA25DS155 GSA OASIS+ 8(a): 47QRCA25DA385 GSA OASIS+ Unrestricted: 47QRCA25DU545
+
+RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES
+
+NIS and its personnel bring the following relevant capabilities to inform a VA.gov replacement effort:
+
+ Enterprise Web Content Management and Large-Scale Content Operations: Operating and maintaining the
+IRS.gov Web Content Management System (WCMS) environment, including managing more than 37,000 web pages and 250 unique landing pages, supporting browser based and mobile friendly, reliable public-facing delivery at high scale.
+ Drupal Platform Modernization and Major-Version Upgrade Execution: Delivering structured Drupal
+modernization activities for USGS.gov, including PHP upgrades and a Drupal 10 roadmap covering approximately 200 modules, and completing Drupal 7 to 9 and then to 10.5.6 upgrades with no disruption to mission-critical services.
+ Content Management System (CMS) Transition Pilot Execution (Custom CMS to Adobe Experience
+Manager (AEM)): Performing a controlled pilot transition from a client-built CMS to AEM to validate content migration, workflow and governance impacts, integration touchpoints, and cutover/rollback considerations before scaling to broader adoption.
+ 24󬱛65 Operations and Maintenance (O&M): Sustaining mission-critical web platforms with continuous
+availability, including staffing and leading a highly skilled technical team to support peak-demand operations and ongoing service reliability.
+ Integrated Delivery Services Across the Lifecycle: Providing integrated web hosting and development,
+application development, web design, performance monitoring, requirements analysis, risk management, and endto-end support activities, including technical, financial, and administrative documentation aligned to federal delivery expectations.
+ Testing, Automation, and Defect Management: Implementing automated testing to identify and report defects,
+supporting continuous improvement through defect resolution, platform upgrades, and ongoing software enhancements.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page i
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+ Infrastructure Optimization and Cost Efficiency: Improving operational efficiency through production
+optimization, including a demonstrated 67% reduction in filesystem storage (from 96GB to 32GB) and initiatives that reduce recurring defects and vulnerabilities while stabilizing operating costs.
+ Program Management and Mature Delivery Processes: Executing delivery with established federal program
+discipline, including project management and planning, communications management, and Agile practices (e.g., Scrum, Kanban, Rapid Delivery) supported by ISO-certified and CMMI-appraised processes and performance metrics tracking. Staff with Expert level knowledge of Drupal and Associated Technology: NIS has over a dozen certified Drupal experts, including Acquia Triple Certified Drupal Experts (formerly Acquia Certified Grand Masters). We will use their decades of Drupal expertise and experience working on some of the largest, most challenging government Drupal projects in the world. The collaboration of our NIS Drupal team, customers, and open-source communities will deliver better results for the engaged universe of environmental stakeholders.
+
+The following case studies highlight NIS's experience delivering digital services in high-scale, high-visibility federal environments with complex integrations and strict security and compliance requirements. Each example demonstrates how NIS supports reliable, consistent content and service delivery across large, multi-portfolio public platforms.
+
+Customer
+
+Title
+
+Internal Revenue Service (IRS)
+
+IRS.gov WCMS and Tax Withholding Estimator (TWE)
+
+U.S. Geological Survey (USGS)
+
+USGS.gov Digital Services & Drupal O&M
+
+Department of Education (ED)
+
+WIOA State Plan Portal - Information Technology Services Support
+
+Contract Type
+FFP/LH; VETS2 Task Order
+
+Period
+October 2020 - Present
+
+FFP / Sprint Based Task Order within SCAS III IDIQ
+
+August 2021 - July 2026
+
+FFP; GSA MAS Task Order
+
+August 2023 - August 2025
+
+Relevance
+Effort required modernization and 24󬱛65 O&M support for the IRS.gov WCMS, leading a highly skilled technical team to sustain mission-critical services, and delivering platform upgrades, defect resolution, and ongoing enhancements. NIS also provided integrated development, testing, automation, configuration, and project management, and supported Drupal modernization through PHP upgrades and a Drupal 10 roadmap covering approximately 200 modules, including automated defect detection and production optimization. Delivered a comprehensive Drupal 7 to Drupal 9 migration and subsequently Drupal 10.5.6 while maintaining uninterrupted operations for mission-critical, public-facing services. Scope included preparing the platform for ongoing Drupal core and contributed module upgrades, remediating deprecated functionality, and refactoring custom code to align with modern Drupal architectures. In parallel, the team operated, secured, and optimized the AWS environment through continuous monitoring, patching, performance tuning, and cost optimization. Provided O&M support for the WIOA State Plan Portal, coordinating with ED and the Department of Labor to sustain secure, reliable, and compliant operations in a multistakeholder federal environment. The team streamlined user workflows to enhance efficiency for state and federal users, leveraging proven Drupal contributed modules and best practices to strengthen maintainability, support consistent governance, and enable the platform to adapt to evolving program needs. Section 508 accessibility was incorporated into ongoing updates through standards-based design patterns and routine validation, helping to ensure the portal remained usable for all users.
+
+NIS appreciates the opportunity to provide this information and feedback for market research purposes and is available to discuss them further at the Government's discretion.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page ii
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+RESPONSE TO THE TOPICS AND QUESTIONS
+NIS delivers digital modernization and web platform services for federal agencies, with experience supporting some of the government's largest, highest-visibility public websites, including IRS.gov and USGS.gov. NIS is both a Drupal Certified Partner and an Adobe-Certified Partner, bringing proven expertise across leading federal web and experience platforms. As a vendor-agnostic integrator, NIS works with customers to plan and implement the best-fit solution based on mission requirements, compliance needs, user experience goals, and available funding, tailoring the right tools and operating model rather than forcing a one-size-fits-all product.
+NIS understands the Department of Veterans Affairs (VA)'s objective is to assess industry capabilities and best practices to replace VA.gov with a modern, secure, and Veteran-centric digital front door that supports identitylinked journeys and consistent post-auth continuity across benefit portfolios. We recognize that success depends on more than technology selection and requires coordinated modernization across experience design, platform architecture, content strategy and governance, analytics, and operating models, delivered in a way that maintains continuity of service at a national scale in a highly regulated environment where security, privacy, accessibility, and reliability are non-negotiable.
+To support that outcome, NIS recommends a structured, evidence-based approach that preserves optionality early and reduces risk through measurable decision gates. This includes an Analysis of Alternatives, a focused Discovery and Feasibility Study, and a small set of pilots to de-risk foundational capabilities such as identity proofing/signin/recovery, content-at-scale publishing and governance, and representative transactional journeys. The program should then transition to phased execution using parallel run and incremental cutovers, supported by strong testing, observability, and progressive delivery practices so VA can modernize confidently while protecting mission-critical pathways and continuously improving Veteran outcomes.
+1. VISION FOR THE REPLACEMENT VA.GOV EXPERIENCE
+NIS envisions the replacement VA.gov experience as a premier, Veteran-centric digital front door that enables Veterans, families, caregivers, and other stakeholders to complete high-value tasks through clear, consistent, end-to-end journeys across VA benefit portfolios. The end state is a unified experience where users can discover the right service, understand eligibility and next steps, complete transactions, and track outcomes without disconnected tools, inconsistent patterns, or unnecessary handoffs, making VA.gov feel like one coherent service rather than a collection of separate programs.
+At the core of this vision is trust and safety, anchored in next-generation digital identity, authentication, and account recovery. Veterans must be able to confidently sign in, verify identity when required, recover access quickly when issues arise, and maintain continuity across sessions and portfolios. Post-auth experiences should preserve context and reduce friction, enabling identity-linked journeys that support appropriate personalization and guidance while maintaining clear privacy guardrails, transparency, and governance.
+The replacement experience must also deliver high performance and reliability at a national scale while embedding accessibility as a first-order requirement. The end state should prioritize fast page loads, resilient delivery, predictable releases, and operational readiness that protects continuity throughout modernization, preserving the benefits of VA.gov's decoupled, static-first posture while modernizing integration seams for safer incremental change. It should provide consistent, Section 508-compliant experiences across portfolios using USWDS-aligned patterns, and enable measurable improvement through strong content governance, coherent information architecture, and shared analytics that track completion, drop-off, error rates, and recovery success.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 1
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+2. RECOMMENDED METHODOLOGY AND APPROACH FOR THE REPLACEMENT MODEL
+As a solution-agnostic partner, Nationwide IT Services recommends a structured, evidence-based approach that enables VA to select the best-fit replacement model for VA.gov based on mission outcomes, risk tolerance, compliance requirements, integration realities, and available funding, without prematurely committing to a single platform or vendor. This approach is designed to protect continuity of service for millions of users while steadily improving Veteran journeys through incremental, measurable releases.
+We recommend starting with an Analysis of Alternatives (AOA) to define and compare viable replacement models, such as modernize-in-place, enterprise Digital Experience Platform (DXP) consolidation, and composable/hybrid architectures, against a consistent set of decision criteria. The AOA should be grounded in VA's priorities: Veteran experience outcomes, continuity risk, security/privacy/accessibility impacts (including Section 508), integration feasibility across legacy and emerging systems, operational sustainability (observability and release cadence), and total cost of ownership. The outcome of the AOA is a clear recommendation, with an initial roadmap and rough order of magnitude (ROM) cost/schedule ranges that reflect funding constraints and sequencing options. Following the AOA, we recommend a focused Discovery and Feasibility Study to establish the "as-is" baseline and convert strategy into an executable migration plan. This study should map the current content ecosystem and publishing workflows, the build and release pipeline, critical integrations and dependencies, and, most importantly, the end-to-end Veteran user experience journeys that must remain stable and improve throughout the transition. Because Veterans experience VA.gov as connected tasks rather than isolated features, high-quality UX design is critical to the study: it identifies friction points and failure modes, clarifies decision steps and handoffs between systems, and ensures consistent, accessible patterns that build trust and reduce abandonment. In parallel, the VA and Nationwide IT Services would define practical governance and operating model elements, including decision rights, intake/prioritization, standards, and release gates, and establish an analytics and measurement plan so progress can be objectively tracked and iteratively improved. The study outputs a prioritized backlog, a wave-based migration plan aligned to journey priorities, and cutover/rollback playbooks suitable for incremental production adoption. Next, we recommend running a small set of pilots (typically two to four) to validate the AOA recommendation and de-risk the biggest decisions before scaling. These pilots should be chosen to represent different levels of complexity and to establish reusable patterns. For example, a foundational pilot should prove identity proofing, such as sign-in and authentication, because these capabilities anchor trust and determine whether Veterans can move seamlessly across portfolios based on their unique identities. A second pilot can validate content-at-scale publishing and governance for high-traffic sections, including search/routing and accessibility quality controls. A third pilot should prove an end-to-end transactional journey (e.g., a form-based workflow) including save-in-progress, document/evidence handling, status tracking, and downstream integration behavior. Each pilot should be measured using agreed success criteria and operational readiness thresholds so VA can make informed decisions about scaling. With pilots complete, we recommend transitioning into phased execution using an incremental migration strategy. This approach maintains service continuity by modernizing by journey, portfolio, or capability, while legacy components continue to operate in parallel until replacement components prove stable. The program should establish "Wave 0" foundations (DevSecOps, observability, design system alignment, automated accessibility checks, analytics
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 2
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+instrumentation) and then proceed through migration waves that prioritize the highest-impact Veteran journeys and highest-traffic content first. Throughout execution, releases should be controlled through feature flags, canary/bluegreen deployments, and well-practiced rollback procedures, with contract-first integration practices that reduce coupling and support safe iteration.
+Finally, we recommend explicit decision gates at each stage to preserve vendor neutrality and reduce risk: an AOA gate to select the direction to pilot, a pilot gate to confirm platform decisions and migration patterns using measured results, and wave gates to scale only when continuity, security/privacy, accessibility, and performance criteria are consistently met. This approach keeps VA's options open early, produces near-term value through pilots, and enables confident, continuous modernization toward a future-state VA.gov that is modern, secure, Veteran-centric, and resilient.
+3. TECHNOLOGIES AND APPROACHES
+VA's RFI requests descriptions of technologies and approaches that can fundamentally improve the digital experience across all benefit portfolios while maintaining continuity of service, integrating with diverse systems, and operating within a regulated federal environment. In that context, NIS recommends an approach that builds on VA.gov's strengths, including decoupled content operations and static-first delivery, while modernizing integration seams and delivery mechanics to enable high-confidence, incremental cutovers. A practical path is to preserve static-first delivery where it improves performance and resilience, while strengthening build and publish reliability and speed, improving content modeling and governance to support reuse and consistency across portfolios, and adopting contract-first integration patterns that reduce coupling and enable phased migration of authenticated and transactional experiences.
+3.1 Replacement Model Alternatives (Drupal + FedRAMP CMS Platform vs. Adobe AEM)
+NIS works collaboratively with clients to select and implement the solution set that best meets mission outcomes, security and compliance requirements, delivery velocity, and total cost of ownership. In evaluating CMS platform directions, it is relevant that VA.gov is currently implemented as a decoupled, staticfirst platform with a static front end and a separate API/service tier. From a publishing perspective, VA.gov uses a decoupled Drupal CMS (Drupal 10.1) for authoring and governance, and a build-time pipeline that queries Drupal via GraphQL and generates static pages (e.g., via Metalsmith) for delivery from S3. In replacement terms, the architecture separates into two modernization tracks: content publishing at scale and authenticated and transactional experiences powered by the API layer, which underscores the need to preserve continuity across both while incrementally modernizing the integration boundaries. Additionally, VA already has organizational precedent for Adobe Experience Manager (AEM) usage, including a published Privacy Impact Assessment (PIA) for "AEM for Managed Services (AEMMS) - GovCloud - E" (version date October 1, 2024; PIA submitted for review April 17, 2025). The PIA describes data being hosted within the Adobe environment on AWS GovCloud and authorized for use at FedRAMP Moderate, establishing a privacy and governance precedent that may reduce adoption friction if AEM is considered for expanded use.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 3
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Option 1: Modernize in place with Drupal on a FedRAMP-authorized Drupal platform (e.g., Acquia). This option retains Drupal as the CMS and preserves the existing decoupled model (CMS  build  static delivery), which aligns directly to VA.gov's current-state implementation. In practice, this is often the lowest continuity risk path because content governance and authoring patterns remain familiar, while hosting, operations, and compliance controls can be strengthened through a FedRAMP-authorized approach.
+
+Option 2: Shift to Adobe Experience Manager (AEM) using a FedRAMP-authorized offering with a headless or hybrid implementation. This option uses AEM as the enterprise content platform while preserving a decoupled delivery posture that can still support static-first delivery and modern experience composition. The advantage is leveraging AEM's enterprise content operations capabilities and VA's existing AEMMS GovCloud precedent, including the FedRAMP Moderate context. The primary tradeoff is a larger change footprint across content models, workflows, migration tooling, and training, which should be managed through phased migration and clear platform boundaries to avoid introducing a monolithic bottleneck.
+
+Option 3: Composable dual-CMS that retains Drupal for structured service content and introduces AEM selectively for enterprise content operations. This hybrid approach reduces program risk by avoiding an all-at-once CMS swap while enabling VA to scale targeted enterprise capabilities. The tradeoff is increased governance complexity, requiring clear canonical source-of-truth rules, taxonomy alignment, and an intentional composition strategy so navigation, analytics, and content consistency remain coherent across portfolios.
+
+Recommended evaluation path: Where VA prioritizes service continuity and controlled risk, begin with Option 1 while modernizing build and publish seams and service integration patterns incrementally, consistent with the current-state pipeline. Where VA prioritizes enterprise DXP consolidation, pursue Option 2 through a phased migration approach that leverages the existing AEMMS GovCloud privacy and governance precedent.
+
+4. Experience Design, Content Strategy, and Governance
+The following approach outlines how NIS would align experience design, content strategy, and cross-portfolio governance to deliver consistent, Veteran-centric journeys while maintaining continuity and compliance at scale.
+
+Experience Design: NIS uses a journey-first approach that maps priority end-to-end Veteran tasks (pre-auth through post-auth), standardizes patterns through USWDS-aligned components, and measures journey performance using shared Customer Experience metrics (completion, drop-off, error rates, recovery success) to drive iteration and wave sequencing.
+
+Content Strategy: NIS establishes an enterprise content model and taxonomy to enable reuse and consistent navigation, then implements governed lifecycle workflows for authoring, review/approval, versioning, and translation, with plain-language and accessibility standards baked in.
+
+Governance: NIS defines clear decision rights across portfolios, publishes a small set of enforceable standards (experience, content, accessibility, analytics), provides a documented exception process, and uses release gates tied to accessibility, performance, security/privacy, and regression readiness before scaling changes.
+
+5. User Journey Workflows: Identity Proofing, Sign-In, Recovery, Navigation
+This section summarizes the four foundational VA.gov user journeys: identity proofing, sign-in, account recovery, and navigation, highlighting the end-to-end steps, decision points, and system handoffs required to deliver a secure, reliable, and accessible experience. Appendix A provides illustrations of the user journey workflows, depicting the end-to-end steps, key decision points, and system handoffs for each journey.
+
+5.1 Identity Proofing User Journey
+The objective of this user journey is to allow veterans to verify their identity for secure VA access (Appendix A - Figure 1).
+
+Journey Name Primary Users / Personas
+Goal / Success Criteria
+
+Identity Proofing Veteran (primary); Family member / Dependent (when applicable); Caregiver; Veterans Service Officer (VSO) (assisting but not proofing on behalf unless delegated per policy); VA staff (support/assisted flows)
+User completes identity verification with Login.gov or ID.me, receives a verified identity status linked to their VA.gov profile, and can access protected, high-sensitivity services (e.g., health records, claims, secure messaging) without unnecessarily repeating proofing.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 4
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Entry Points Assurance Level Needs Happy Path Steps
+Edge Cases / Exceptions
+Data Exchanges / Systems Touched
+Security & Privacy Considerations
+Accessibility Considerations Telemetry / Metrics
+
+Attempt to access a protected feature on VA.gov (deep link from search/bookmark); post-account creation "Verify your identity to continue"; deep link from VA email/SMS/letter; "Verify identity" task banner in profile; call-center assisted guidance; in-person/assisted referral when remote proofing is not possible. High (access to sensitive PII/PHI and transactional actions)
+1) User hits protected page  prompted to verify identity. 2) User chooses Login.gov or ID.me (or is routed based on existing account). 3) User signs in or creates Identity Provider (IdP) account. 4) User completes IdP Multifactor authentication (MFA) setup (authenticator app/SMS/voice/security key as supported). 5) Consent + disclosure for identity verification. 6) Enter required identity details (name/DOB/address, etc.). 7) Complete IdP identity verification (typical: government ID capture + selfie/liveness; other vendor-supported methods as allowed). 8) Vendor validates and returns proofing result (pass/soft-fail/hard-fail). 9) On pass, VA links verified identity to the VA profile and sets the verified flag. 10) User is redirected back to the original VA.gov destination with an authenticated session at the required assurance level. Lost/changed phone/device (can't receive MFA); no camera / low bandwidth; name change or mismatched PII (e.g., hyphenation, suffixes); expired/unsupported ID; address outside U.S.; repeated failed attempts/lockouts; fraud/risk signals (velocity, device anomalies, suspicious patterns); user already has an account with one IdP but tries the other; duplicate VA profiles/identity match ambiguity; accessibility needs (screen reader, cognitive load); user abandons mid-flow  save-and-resume; escalation to assisted/manual review when automated proofing fails. VA.gov web/app front end; VA identity & access management (session, token handling); Login.gov / ID.me (OIDC/SAML auth + identity verification result); MFA channel services (as provided by IdP); VA profile/identity resolution (e.g., master index/identity matching services); downstream benefit/health applications (as authorized); notifications (email/SMS) for status where appropriate; analytics/telemetry; security logging/audit; fraud/risk signals (device/IP reputation, throttling). Minimize PII collection and exposure; explicit consent capture and policy versioning; secure redirect/relay state handling to prevent open redirects; protect tokens (short-lived, scoped); enforce rate limiting and bot detection; strong audit trails for attempts/outcomes; avoid storing sensitive images in VA systems unless required by policy (prefer vendor-handled retention); clear userfacing messaging that prevents phishing confusion; account linking protections (prevent linking the wrong verified identity); monitoring/alerting for abuse patterns. WCAG-aligned flow with keyboard navigation, screen-reader labels, high-contrast support, plainlanguage instructions, and non-visual alternatives where feasible; avoid timeouts or provide accessible extensions; step-by-step capture guidance for documents and selfies; ensure error messages are specific and actionable; provide assisted proofreading options for users without compatible devices or cameras, or with disabilities; multilingual support where required Time-to-complete (overall + by step); completion rate by IdP (Login.gov vs ID.me); drop-off per step (consent, MFA setup, doc capture, selfie/liveness); retry rates and top failure reasons; manual review/escalation rate; lockout rate; false-positive fraud blocks; successful return-to-task rate (did user complete the original VA action after proofing?); accessibility cohort completion outcomes; support contact rate per 1,000 attempts.
+
+5.2 Sign-In User Journey
+The objective of this user journey is to allow veterans to verify their identity for secure VA access (Appendix A - Figure 1).
+
+Journey Name Primary Users / Personas
+Goal / Success Criteria
+
+Sign-In Veteran (primary); Family member / Dependent (when applicable); Caregiver; VSO (assisting the user, not authenticating as the user unless formally delegated per policy); VA staff (support/assisted flows)
+User successfully authenticates to VA.gov using Login.gov or ID.me, returns to the intended VA.gov destination, and receives a secure authenticated session that enables access to authorized features with minimal friction and clear recovery paths for common sign-in failures. VA currently requires an ID.me or Login.gov account to sign in.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 5
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Entry Points Assurance Level Needs Happy Path Steps
+Edge Cases / Exceptions
+Data Exchanges / Systems Touched
+Security & Privacy Considerations
+Accessibility Considerations Telemetry / Metrics
+
+VA.gov "Sign in" button; attempting to access an authenticated page (deep link/bookmark); deep link from VA email/SMS/letter; returning user session renewal; call-center assisted guidance; mobile app sign-in entry (if applicable) Medium baseline (authenticated session with MFA through the IdP), with step-up as needed for higher-risk actions (e.g., accessing sensitive records or performing transactions). VA sign-in relies on Login.gov/ID.me, both of which support MFA. 1) User selects Sign in on VA.gov. 2) User chooses Login.gov or ID.me (or is routed based on prior use). 3) User enters IdP credentials (email/password) or uses an existing session at the IdP. 4) User completes MFA challenge at the IdP (e.g., authenticator/SMS/voice/security key, per IdP support). 5) User reviews and accepts the authorization/consent screen to share required attributes back to VA.gov (as presented by the IdP). 6) IdP returns user to VA.gov with an auth assertion (OIDC/SAML). 7) VA.gov establishes an authenticated session and resolves/links the user profile. 8) User lands on the intended destination or account dashboard.
+Wrong password/account lockout at IdP; MFA failure (lost phone/new number/no signal); user mistakenly selects the "other" IdP vs their existing account; IdP outage/degraded performance (offer alternate IdP where appropriate); repeated failed attempts  throttling; session timeout / "stuck in a loop"; consent denied at IdP; device/browser issues (cookies blocked, pop-up blockers, private browsing); accessibility needs; limited connectivity / low bandwidth. VA.gov front end; VA identity & access management (session establishment, token validation, redirect handling); Login.gov / ID.me (authentication + MFA; authorization assertion via OIDC/SAML); VA profile/identity resolution (account linking); downstream applications (as authorized post-login); notifications (optional for security events); analytics/telemetry; security logging/audit; fraud/risk signals (rate limiting, anomaly detection). Secure redirect/relay-state handling (prevent open redirects); short-lived auth codes/assertions and scoped tokens; strong session protection (secure/HttpOnly cookies, cross-site request forgery protections); rate limiting and bot detection; clear anti-phishing UX (consistent domains and messaging); minimize shared attributes to what's necessary; comprehensive audit logging for signin attempts and outcomes; account linking safeguards to prevent mismatched identities.
+WCAG-aligned sign-in and error states (keyboard support, screen reader labels, logical focus order); plain-language errors and recovery guidance; avoid strict timeouts (or provide accessible extensions); do not rely on color alone; provide assisted support pathways for users who cannot complete MFA or have limited device capabilities.
+Sign-in success rate (overall + by IdP); time-to-sign-in (median/p95); MFA challenge success rate; error-rate by category (invalid creds, MFA, consent denied, redirect/session loop); drop-off points (IdP selection, MFA screen, consent screen); frequency of IdP switching; lockout/throttle rate; support contact rate per 1,000 sign-in attempts.
+
+5.3 Account Recovery User Journey
+The objective of this user journey is to allow veterans to securely regain access to their VA.gov account (Appendix A - Figure 3).
+
+Journey Name Primary Users / Personas Goal / Success Criteria
+Entry Points
+Assurance Level Needs
+
+Account Recovery Veteran (primary); Family member / Dependent (when applicable); Caregiver; VSO (assisting the user, not recovering access on the user's behalf unless formally delegated per policy); VA staff (support/assisted guidance and escalation) User regains access to the account they use to sign in to VA.gov (Login.gov or ID.me) by resetting credentials and/or restoring MFA access, then successfully signs in to VA.gov and resumes the intended task without creating duplicate identities or losing verified status. VA generally directs users to recover access through the account provider, not by having VA reset credentials.
+"Trouble signing in?" links from the VA.gov sign-in flow; error states after failed login/MFA; deep link from VA help content; call-center guided recovery; device change event (new phone) prompting MFA update; post-lockout recovery attempt. VA provides a centralized "common Login.gov and ID.me issues" support page.
+High for recovery actions (credential reset and MFA changes are high-risk). Apply step-up checks, strong proof-of-control for recovery factors (e.g., recovery codes/personal key), and throttling to reduce account takeover risk. Login.gov and ID.me both emphasize backup/recovery methods for lost devices.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 6
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Happy Path Steps
+Edge Cases / Exceptions
+Data Exchanges / Systems Touched
+Security & Privacy Considerations
+Accessibility Considerations Telemetry / Metrics
+
+1) User selects Sign in on VA.gov and identifies which provider they use (Login.gov vs ID.me). 2) User chooses the matching provider and selects the appropriate recovery option (e.g., "Forgot password," "trouble with authentication/MFA"). 3) Password reset: user completes the provider password reset flow and confirms via email (provider-managed). 4) MFA recovery: the user uses a backup authentication method (Login.gov) or a recovery code (ID.me) to regain access if the primary MFA method is unavailable. 5) If needed, the user completes the provider's MFA recovery/reset process to enroll a new MFA method (e.g., new phone/app/key). 6) User returns to VA.gov and signs in successfully with the restored provider account, then is redirected back to the intended VA.gov destination. Lost device/new phone number/no signal (can't receive codes); no backup method configured; lost recovery artifacts (ID.me recovery code; Login.gov personal key); lost email access; repeated failures/lockouts; user chooses the wrong provider (has Login.gov but tries ID.me); suspicious activity triggers throttling; accessibility needs (cannot use a smartphone); limited connectivity. Login.gov notes that if a user can't access their only authentication method, they may need to delete and recreate the account.
+VA.gov front end (sign-in + recovery routing); Login.gov / ID.me recovery flows (password reset, MFA recovery); email/SMS/voice or authenticator/security key (provider-managed channels); VA identity & access management (session establishment after recovery); VA profile/account linking (ensure same identity is used post-recovery); analytics/telemetry; security logging/audit; call-center knowledge base and escalation pathways (guidance, not credential reset). VA directs password reset to the providers. Protect against account takeover: rate limiting, bot detection, anomaly monitoring; avoid leaking whether an account exists; clear anti-phishing guidance (ensure users recognize official provider domains and VA pages); enforce secure redirect/relay-state handling back to VA.gov; short-lived tokens and secure session cookies after recovery; strong audit logs for recovery attempts/outcomes. Provider-specific recovery safeguards include Login.gov personal key and ID.me recovery code/MFA recovery mechanisms. Offer recovery methods that don't require a smartphone where possible (e.g., security key, authenticator apps on alternative devices, backup codes); provide plain-language, step-by-step recovery guidance; ensure recovery screens and errors are WCAG-aligned; provide call-center support scripts and assisted pathways for users without mobile access. VA explicitly addresses options for users without a mobile phone. Recovery success rate (overall + by provider); time-to-recover (median/p95); recovery path distribution (password reset vs MFA recovery); drop-off points (email verification, MFA challenge, recovery code/personal key step); retry and lockout rates; rate-limiting triggers; % of users who end up creating a new provider account; post-recovery "return-to-task" completion rate; support contact rate per 1,000 recovery attempts.
+
+5.4 Navigation User Journey
+The objective of this user journey is to allow veterans to securely navigate to find the right content or tools on VA.gov (Appendix A - Figure 4).
+
+Journey Name Primary Users / Personas Goal / Success Criteria
+Entry Points
+Assurance Level Needs
+
+Navigation Veteran (primary); Family member / Dependent; Caregiver; VSO (helping the user find the right VA.gov pathway); VA staff (supporting users and troubleshooting navigation issues) Users can find the right content or tool quickly, maintain context and orientation as they move across VA.gov, and complete tasks with predictable, consistent navigation that works across devices. VA's Header provides required global navigation across VA.gov. VA.gov homepage; topic hub pages; deep links from search engines or bookmarks; deep links from VA email/SMS/letters; in-app links from authenticated tools to supporting content and back; internal site search from the header. Low for public content browsing; Medium when entering authenticated areas (session-aware navigation); Step-up as needed when navigation leads into higher-risk actions (e.g., sensitive record views or submissions). (Navigation should route users to sign-in gates when required without exposing protected data.)
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 7
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Happy Path Steps
+Edge Cases / Exceptions
+Data Exchanges / Systems Touched Security & Privacy Considerations Accessibility Considerations Telemetry / Metrics
+
+1) User lands on a VA.gov page (often from a deep link). 2) User orients using global header navigation to browse major sections. 3) User uses header search (with type-ahead suggestions when enabled) to find relevant content/tools. 4) User selects a hub/landing page and follows curated links to the right benefit/service pathway. 5) Within a product area, user uses side navigation (and/or in-app nav) to move between sections without losing place; SPA routing can be handled via router integration events. 6) User refines results where appropriate using search results patterns/filters (e.g., search results templates or faceted filtering). 7) User reaches target destination (content page or tool entry point) and either continues unauthenticated or signs in if required. 8) User confirms completion and can navigate back via consistent headers/footers and contextual navigation.
+Broken/changed URLs (404s), outdated bookmarks; inconsistent labels between content and tools; deep link into an authenticated page without a session (needs clear sign-in gate + return-to-task); "lost in navigation" on mobile vs desktop; long lists requiring progressive disclosure; accessibility needs (keyboard-only, screen readers); limited connectivity; language assistance needs; search returning too-broad/irrelevant results; cross-application handoffs that drop context or parameters. (VA patterns include guidance for navigating long lists.)
+Front-end routing (SPA + server-rendered pages); global header/footer components; CMS/content publishing system(s) (e.g., Drupal-managed pages); search service + type-ahead; analytics/telemetry; feature flags/redirect service; authentication gateway for protected tools (when navigation crosses into authenticated experiences). (VA notes some unauthenticated entry pages are managed in Drupal by a central team, which commonly includes tool entry points.) Prevent open redirects and unsafe return URLs; avoid leaking sensitive info in query strings/URLs; enforce auth checks before rendering protected data; ensure logout clears authenticated nav state; protect against link injection in CMS content; consistent domain signaling and UI to reduce phishing risk; log navigation-to-auth handoffs for troubleshooting (without storing PII in logs). WCAG-aligned global navigation with visible focus, keyboard support, and screen reader labeling; skip-to-content and predictable structure; SPA route changes should manage focus and announce navigation changes appropriately (side navigation supports router integration and routechange handling).
+Navigation success rate (user reaches intended destination); time-to-destination; click paths (header nav vs search vs hub links); search usage and refinement rates; top "no results" queries; bounce/backtrack rates; dead-end and 404 rates; mobile vs desktop differences; authenticated handoff success ("return-to-task" after sign-in); accessibility cohort outcomes.
+
+6. Known Limitations, Risks, and Tradeoffs
+Replacing VA.gov is a high-impact effort where the primary challenge is maintaining continuity of service for millions of users while modernizing identity-linked journeys, content publishing, and integrations in a regulated, high-visibility environment. The phased approach described earlier reduces risk through AOA, Discovery, pilots, and wave-based migration with decision gates, but the following limitations, risks, and tradeoffs remain and should be managed explicitly.
+
+6.1 Limitations of the Recommended Approach
+Incremental modernization takes longer to fully realize the end-state: A phased strategy reduces risk, but it typically extends the timeline to achieve full replacement compared to a single cutover.
+
+Parallel run increases operational overhead: Running legacy and replacement components side-by-side (parallel run/strangler pattern) requires additional coordination, monitoring, and release management until retirement is complete.
+
+Early vendor neutrality delays firm platform standardization: Reserving optionality through an AOA and measured pilot validation avoids premature lock-in, but it limits early standardization until decision gates are reached.
+
+Static-first delivery can constrain rapid change if build/publish seams are not improved: Preserving static-first delivery where it benefits performance and resilience is valuable but build-time pipelines can become a constraint unless reliability and speed improvements are made early.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 8
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Hybrid/Dual-CMS options add governance complexity: If VA pursues a composable dual-CMS approach, it requires mature governance (source-of-truth rules, taxonomy alignment, composition strategy) to prevent fragmentation across portfolios.
+
+6.2 Key Risks and Mitigations
+
+Risk
+
+Continuity and
+
+Changes can break critical pathways
+
+Disruption
+
+(identity, sign-in, recovery, navigation,
+
+high-value transactions).
+
+Identity and Recovery Next-generation identity/auth can increase
+
+Friction
+
+drop-off or lockouts if workflows are not
+
+end-to-end.
+
+Integration
+
+Legacy and emerging systems can cause
+
+Complexity Across
+
+otherwise successful VA.gov replacement
+
+Legacy and Emerging changes to fail end-to-end due to brittle
+
+Systems
+
+dependencies, inconsistent data, or latency,
+
+breaking Veteran journeys across
+
+portfolios.
+
+Content Migration
+
+CMS changes can fragment navigation,
+
+and Governance at
+
+create inconsistent patterns, or break
+
+Scale
+
+content pathways.
+
+Build/Publish
+
+Static-first delivery supports resilience but
+
+Bottlenecks in a
+
+build-time pipelines can become
+
+Static-First Posture
+
+reliability/velocity constraints.
+
+Mitigation Incremental migration with cutover/rollback playbooks, explicit readiness gates, and measured scaling. Treat identity/sign-in/recovery as foundational pilots; track drop-off, errors, and recovery success; iterate before broad rollout. Use contract-first integration patterns to reduce coupling, sequence migration waves based on dependency readiness, and validate end-to-end behavior during pilots and wave releases before scaling.
+Migrate in controlled waves with clear source-oftruth rules, stronger content modeling, and governance standards. Preserving static-first where beneficial, while modernizing build/publish seams early as part of foundational work.
+
+6.3 Major Tradeoffs
+Speed vs Governance Rigor: Faster releases increase regression risk; stronger release gates reduce risk but can slow throughput. The recommended approach balances this with incremental releases and scaling only when readiness criteria are met.
+
+Consolidation vs Flexibility: Enterprise DXP consolidation can improve consistency but increases change footprint and adoption effort; modernize-in-place or composable approaches reduce disruption but require stronger governance to keep experiences coherent.
+
+Standardization vs Portfolio Autonomy: Shared patterns improve consistency and accessibility but constrain portfolio variation; governance and design-system alignment should be treated as trust and continuity requirements.
+
+Static-First Resilience vs Dynamic Transactional Needs: Static-first improves performance and resilience, while authenticated and transactional journeys increase complexity; the approach preserves static-first benefits while modernizing integration boundaries for safe incremental evolution.
+
+7. Lessons Learned from Past Deployments
+The table below summarizes experience-based lessons learned from past high-scale federal deployments that would directly relate to a VA.gov replacement effort.
+
+Lesson Learned Design for continuity from day one
+De-risk identity and recovery early to protect trust Modernize platforms with disciplined dependency governance Use measurable outcomes to drive decisions
+
+Description In 24󬱛65, high-traffic environments, even small changes can create an outsized impact during peak periods. Identity proofing, sign-in, and account recovery determine whether users can complete end-to-end tasks. Large Drupal upgrade roadmaps can stall without clear ownership of modules and remediation paths. Without consistent measurement, teams optimize for output instead of user success.
+
+Treat the build/publish pipeline as missioncritical
+
+In decoupled, static first models, publishing reliability and build-time performance often become the delivery bottleneck.
+
+What We Would Do Differently Define "critical pathways" up front and require cutover and rollback playbooks for every release.
+Make identity and recovery a first pilot with clear success metrics (drop-off, error rates, recovery success) before scaling Rationalize dependencies early (keep/replace/retire), automate compatibility checks, and sequence upgrades to avoid rework. Define a small set of journey KPIs early (completion, drop-off, errors, recovery success, performance) and use them at pilot and wave gates. Invest earlier in build/publish reliability, caching, and content validation controls.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 9
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Lesson Learned Reduce integration failures with contractfirst patterns
+Embed accessibility in standards and release gates
+
+Description Complex legacy and emerging ecosystems create brittle point-to-point dependencies that break end-to-end journeys.
+Accessibility degrades when multiple teams ship without consistent patterns and checks.
+
+What We Would Do Differently Formalize integration contracts and versioning, and validate downstream behaviors through pilots and phased waves before scaling broader adoption. Enforce USWDS-aligned, Section 508-compliant patterns, automate checks in the pipeline, and block releases when thresholds fail.
+
+Phased migration lowers risk but increases coordination needs Test journeys, not just components
+
+Parallel run and incremental cutovers require strong governance to avoid fragmentation. Regression testing often verifies system components after changes, but it should also cover critical user journeys end-to-end to ensure workflows still function as expected.
+
+Establish clear decision rights, shared standards, and a wave-based roadmap early.
+Prioritize end-to-end regression testing for critical pathways, including end-to-end user journey testing.
+
+ADDITIONAL INFORMATION RELEVANT TO VA OBJECTIVES
+
+To support VA's planning, NIS recommends running a small set of targeted pilots, using an agile/sprint based delivery, that validate the most critical replacement decisions before scaling: first, an identity foundation pilot covering signin, identity proofing, account recovery, and post-auth continuity; second, a high-traffic content publishing pilot to validate governance, authoring workflows, and build/publish reliability at scale; and third, a representative transactional journey pilot to prove end-to-end task completion and integration behavior. Each pilot should be evaluated using consistent, outcome-based measures such as journey completion and drop-off, time-to-complete, return-to-task success, performance, availability, Section 508 accessibility results, and security/privacy readiness, and used as decision inputs for gating and phased rollout.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page 10
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+APPENDIX A - USER JOURNEY WORKFLOW DIAGRAMS
+Figure 1 - Identity Proofing User Journey
+Identity Proofing
+Veterans Verify Identity for Secure VA Access
+
+Entry Points
+Verify Id en tity Promp t Risk Email / SMS Link VA Task Banner Call Center Referral In-Person Referral
+Assurance Level High
+Secu ri ty
+
+Veteran Family Member Caregiver VSO VA Staff
+
+Goal: Verified Identity linked to VA.gov profile for access to sensitive services.
+
+Happy Path Steps
+
+Edge Cases
+
+!
+
+1 Access Protected Page
+
+Choose Login.gov or ID.me
+
+3 Sign In or Create Ac count
+
+4 Set Up MFA
+
+5 Identify V erification
+
+6 Enter Personal Inf o
+
+7 ID & Selfie Check
+
+8 Verification Result
+
+9 Verified Status Set
+
+10 Return to VA.gov
+
+MFA Issues Name Mismatch Expired ID Low Bandwidth Manual Review Fraud Alerts
+Security & Accessibility
+Data Protection 508 Compliance Assisted Support
+
+VA.gov
+
+Login.gov
+
+ID.me
+
+MFA Ser vi ces
+
+Iden ti ty M at chi ng
+
+Completion Rate
+
+Failures & Loc kouts
+
+Manual Review
+
+Audit & A naly ti cs
+Response Time
+
+Figure 2 - Sign In User Journey
+
+Entry Points
+VA.gov "Sign In" Button Attempting to Access an Authenticated Page Deep Link from VA Email / SMS / Letter Returni ng User Sessio n Renewa l Cal l-Center Assisted Guida nce Mobil e App Sign-In Entry
+Assurance Level Medium
+Secu ri ty
+
+Sign-In
+Veterans securely sign in to VA.gov
+
+Veteran Family Member Caregiver VSO VA Staff
+
+Goal: User successfully signs into VA.gov using Logi n.gov or ID.me and returns to the intended VA.gov destination, with a secure authenticated session.
+
+Happy Path Steps
+
+Edge Cases
+
+VA.GO V
+
+V A.GOV
+
+1 User Selects "Sign In" on VA.gov
+
+2 Choose Login.gov or ID.me
+
+3 Enter Idp Credentials
+
+4 Complete MFA Challenge At IdP
+
+5 Authorization C onsent Screen
+
+Wron g Password / Account Lockout MFA Failures
+IdP Outage
+Consent Rejected Device / Browser Issues
+Limited connectivity / Low Bandwidth
+
+6 IdP Returns U ser toVA.gov
+
+Security & Accessibility
+
+7 Authentic ated Session Established 8 User Lands at Intended Destination
+
+Secure Redirects 508 Compliance Assisted Support
+
+VA.gov
+
+Login.gov
+
+ID.me
+
+MFA Ser vi ces
+
+Iden ti ty M at chi ng
+
+Completion Rate
+
+Failures & Loc kouts
+
+Manual Review
+
+Audit & A naly ti cs
+Response Time
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page I
+
+Entry Points
+Trouble Signing In? Risk Failed Login/MFA Error VA Help Content Cal l-Center Guided Recovery New Device Event
+Assurance Level High
+Secu ri ty
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+
+Figure 3 - Account Recovery User Journey
+
+Account Recovery
+Users Regain Access to VA.gov when Locked Out
+
+Veteran Family Member Caregiver VSO VA Staff
+
+Goal: User regains access to VA.gov account through credential reset and/or restoring MFA access, then successfully signs i n to VA.gov.
+
+Happy Path Steps
+
+Edge Cases
+
+1 User selects Sign in on VA.gov and identifies which provider they L( ogin.gov vs ID.me)
+2 Chooses matching provid er and selects appropriate recovery option (e.g., "Forgot password", trouble with authentication/MFA)
+3 Completes password reset via provider and confirms via email (provicer-managed)
+4 Uses backup authentication method (Login.gov) or recovery code (ID.me) to regain access if primary MFA method is unavailable
+5 If needed: completes provider's MFA recovery/reset process to enroll a new MFA method (e.g, new phone/app/key)
+6 Returns toVA.gov and signs in successf ully with restored provider acc ount
+
+Lost Access to Phone Lost/No Backup Method Recovery Code Lost Email Access Lost Repeated Failures/Loc kouts Provider Mismatch Suspicious Ac tivity/Throttling Accessibility/Conn ectivity Issues
+Security & Accessibility
+
+VA.gov
+
+Login.gov
+
+ID.me
+
+secure
+
+VA.gov
+
+Completion Rate
+
+Failures & Loc kouts
+
+Manual Review
+
+Data Protection 508 Compliance Rate Limiting
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page II
+
+RFI Response to Replacement Model for VA.gov Response Date: February 5, 2026
+Figure 4 - Navigation User Journey
+Navigation
+Veterans securely navigate to find the right content or tools on VA.gov
+
+Entry Points
+VA.gov Homepage
+Topic Hub Pages Deep Links from VA Em ai l/SMS/Le tte rs Supporting Content Authenticated tools Internal Site Search
+Low to
+Assurance Level Medium
+Secu ri ty
+
+Veteran Family Member Caregiver VSO VA Staff
+
+Happy Path Steps
+
+1 User lands on a VA.gov page (often from a deep link)
+
+V A.GOV Ben efits Health Car e Res ources
+
+2 User orients using glob al header navigation to browse major sections
+
+3 User uses header search
+
+Se arch VA.go v
+
+Se arch
+
+(with type-ahead suggestions to
+
+find relevant content/tools)
+
+4 User selects a hub/landing page and follows curated links to the right benefit/service pathway
+5 Within a product area, user uses side navigation and/or in-app nav to move between sections without losinf plac e; SPA routing can be handled via router integration even ts
+6 User refines results where appropriate using search results patterns/ filters (e.g., search results templates or f ac eted filtering)
+
+Edge Cases
+Outdated Bookmarks Inconsistent Labels Navigation Loop or Dead -En d Accessibility Needs Limited Connectivity Language Assistance
+Security & Accessibility
+Predictable Labels Keyboard Navigation Assisted Support Progressive Disclosure
+
+VA.gov
+
+VA.gov
+
+Navigation S uccess Rate
+
+Hub Pages
+
+Header Search
+
+In-App N av ig ati on
+
+A naly ti cs
+
+Search Refinement Rate
+
+Navigation D rop-Off Rate
+
+Accessibility Collaboration
+
+Navigation
+Find Information & Tools Easily Across VA.gov
+
+Entry Points
+VA.gov Homepage
+Topic Hub Pages
+Search Engine / Bookmark Links VA Email / SMS Links In-App & Internal Navigation
+Low to
+Assurance Level Medium
+Secu ri ty
+
+Veteran Family Member Caregiver VSO
+
+VA Staff
+
+Goal: Users find content/tool s quickly, maintain context across VA.gov, and navigate predictably across devices.
+
+Happy Path Steps
+
+Edge Cases
+
+V A.GOV
+
+1 Land on VA.gov Page 2 Browse Major Sections 3 Use Header Search 4 Select Hub P age & Links
+
+V A.GOV Se arch VA.go v
+
+Broken Links (404s) Inconsistent Labels Unauth Deep Links Search Lost in Navigation Limited connectivity
+
+5 Use Side / In-App Nav 6 Filter & Refine Results 7 Reach Destination 8 Confirm & Navigate Back
+
+Security & Accessibility
+Data Protection 508 Compliance Responsive Design
+
+VA.gov
+
+VA.gov
+
+Completion Rate
+
+Hub Pages Errors & 404s
+
+Header Search
+
+In-App N av ig ati on
+
+A naly ti cs
+
+Inconsistent Links
+
+Response Time
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response. Page III
+
+

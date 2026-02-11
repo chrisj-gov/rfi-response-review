@@ -1,0 +1,203 @@
+A Square Group (ASG)
+
+C
+
+Innovative Solutions | Exponential Results
+
+U.S. DEPARTMENT OF VETERANS AFFAIRS (VA)
+Notice ID 365357: Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov
+
+Response to Request for Information (RFI)
+
+Due Date: February 4, 2026, at 3PM EST
+
+Submitted To: VA Office of Procurement, Acquisition & Logistics Technology Acquisition Center 23 Christopher Way Eatontown, NJ 07724
+Allison Fulton allison.fulton@va.gov
+Evan Schlisserman 848-377-5248 evan.schlisserman@va.gov
+
+Submitted By: A Square Group LLC (ASG) 7101 Guilford Dr., Suite 100 Frederick, MD 21704
+Mandeep Singh, COO/CTO 301-770-1400, Ext 3002 mandeep.singh@a2-g.com
+
+This document includes data that shall not be disclosed outside of the government and shall not be duplicated, used, or disclosed in whole or in part for any purpose other than to evaluate this information. If, however, a contract is awarded to this Offeror or Quoter as a result of or in connection with the submission of this data, the Government shall have the right to duplicate, use or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government´s right to use information contained in this data if it is obtained from other sources without restriction. The data subject to this restrictions are contained in the entire document.
+
+Replacement Model for VA.gov Response to RFI
+
+1. COMPANY OVERVIEW
+A Square Group LLC (ASG) is a woman-owned small business (WOSB) that has supported the Department of Veterans Affairs (VA) Identity and Access Management (IAM) program since 2009, following Congressional direction to increase interoperability between the VA and Department of Defense (DoD) healthcare and benefits ecosystems.
+
+COMPANY
+A Square Group, LLC (ASG) 7101 Guilford Dr, Suite 100 Frederick, MD 21704 301-770-1400 | www.a2-g.com UEI: K22WGLWY6ZK6 CAGE: 6C0S9 GSA MAS: GS-35F-0636Y
+
+CERTIFICATIONS / ACCREDITATIONS
+ CMMI Level 3 for Services and Development
+ ISO 9001:2015  ISO/IEC 27001:2013  ISO/IEC 20000-1:2018  Top Secret Facility Security Level
+
+We have played a foundational role in enabling secure identity integration across VA and DoD systems, supporting one of the federal government's most complex identity environments:
+ ASG worked closely with VA business stakeholders and the Office of Information & Technology (OIT) to engineer enterprise IAM solutions in partnership with the Defense Manpower Data Center (DMDC). This effort included correlating DoD Electronic Data Interchange Personal Identifier (EDIPI) attributes with VA Master Patient Index (MPI) and identity records--establishing a critical trust bridge across agencies.
+ In collaboration with OIT leadership, including Cindy Bias's team, ASG helped design and implement support for multiple credential types and authentication mechanisms, while engineering enterprise shared services that became the backbone of VA's IAM capabilities.
+ ASG supported major Veteran-facing platforms including My HealtheVet, eBenefits, and VA.gov, with a focus on improving usability, access, and trust. In 2016, ASG served as a primary liaison supporting the U.S. Digital Service (USDS) during its engagement with VA on digital modernization initiatives and contributed to improving call center user experience and integration.
+Despite this progress, the original vision remains only partially realized. A true Veteran-centric digital experience--where a Veteran logs into a single VA.gov portal and can view all enrolled or eligible benefits, services received, bills due, and support options--remains achievable but unfinished. With a mature IAM foundation, this vision can now be fully realized, enabling VA systems to recognize the Veteran upon entry and proactively present personalized services and entitlements through a unified digital front door.
+Based on market research indicating adequate competition and the historical underutilization of small businesses in IT professional services, ASG recommends setting aside this requirement for WOSB concerns under the General Services Administration (GSA) Multiple Award Schedule (MAS) Special Item Number (SIN) 54151ICAM, which covers all professional services for planning, designing, and implementing Identity and Access Management Professional Services systems. There are only 64 companies certified to deliver digital identity, authentication, and navigation development services on the GSA MAS vehicle, including 15 WOSB concerns, which represents a manageable number of potential proposals.
+
+February 4, 2026
+
+Notice ID 365357
+
+1
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+2. ASG CAPABILITY VALUE STATEMENT: ADVANCING VA.GOV IDENTITY-DRIVEN DIGITAL EXPERIENCE
+VA has made significant progress over the past decade in establishing a secure and scalable Identity and Access Management (IAM) foundation. Core components of the VA IAM ecosystem, including enterprise authentication, directory services, and identity proofing, are operational and serving millions of Veterans daily. At the same time, the IAM environment reflects the organic growth of a large, federated enterprise: multiple generations of technology, decentralized authorization models, and siloed data sources that limit VA's ability to deliver a fully integrated, Veteran-centric digital experience through VA.gov.
+VA's current IAM landscape includes a mix of legacy and modern technologies, such as CA SiteMinder-based access services, Master Patient Index (MPI) capabilities built on IBM Initiate, legacy VistA authentication models, Active Directory-based workforce authorization, modern third-party authentication services, and Oracle-based platforms supporting Electronic Health Record Modernization (EHRM). Each of these components solves a specific problem well; however, the absence of a unified identity-driven orchestration layer limits VA's ability to translate authentication into meaningful authorization, personalization, and transactional efficiency for Veterans.
+ASG is uniquely positioned to address this challenge. Having served as a chief architect and integrator across VA's IAM ecosystem, ASG brings deep understanding of both the business intent and technical realities behind more than 1,300 distributed VA applications. ASG has firsthand experience designing solutions that bridge identity, eligibility, benefits, healthcare, and service delivery across VA and interagency partners. This perspective is informed not only by longstanding VA engagement, but also by IAM modernization efforts delivered successfully across seven federal agencies facing similar scale, regulatory, and legacy constraints.
+A key limitation in many current VA.gov user journeys is that authentication alone does not equate to actionable access. While third-party identity providers and directory services effectively verify a Veteran's identity, downstream systems often lack a unified authorization and data context layer capable of answering essential questions in real time: What benefits is this Veteran enrolled in? What services are they eligible for? What actions can they take right now? Without this context, Veterans are required to navigate multiple portals, re-enter information, and interpret eligibility on their own--introducing friction, confusion, and loss of trust.
+ASG's capability lies in transforming IAM from a security control into a business-enabling platform. ASG proposes an identity-centric digital architecture in which VA.gov becomes the orchestration layer that connects authentication, authorization, and authoritative data sources into a coherent Veteran experience. This approach does not replace existing IAM investments; instead, it integrates and extends them through modern, standards-based services that expose identity attributes, eligibility signals, and consent-aware data to Veteran-facing applications securely and at scale.
+Drawing on experience delivering time-sensitive cloud re-architecture programs, such as the use of Oracle E-Business Suite (EBS) and Oracle cloud technologies to modernize high-value applications for the Defense Health Agency, ASG understands how to accelerate delivery when mission urgency is high. For VA, this translates into a pragmatic modernization strategy that
+
+February 4, 2026
+
+Notice ID 365357
+
+2
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+leverages Oracle's low-code/no-code, integration, identity, and AI capabilities to rapidly assemble new experiences while preserving continuity of service for millions of users.
+ASG's proposed approach aligns with VA Digital Engineering Excellence guidance and the Veteran-Focused Integration Process (VIP). By decoupling the Veteran-facing experience layer from backend systems through APIs and integration services, VA can modernize incrementally without destabilizing legacy platforms. Identity-aware personalization enables VA.gov to recognize a Veteran at login and proactively present relevant benefits, healthcare services, billing information, and support options based on authoritative data--rather than requiring the Veteran to search, guess, or re-authenticate across systems.
+This capability is especially powerful when aligned with VA's Oracle-based EHRM platform. A shared Oracle technology foundation creates the opportunity for seamless future integration between healthcare and benefits experiences. Once authenticated, a Veteran's profile can securely inform both clinical and administrative services, enabling one-click enrollment, pre-populated transactions, and real-time access to personalized information across web, mobile, and kiosk channels. This reduces duplication, accelerates service delivery, and improves outcomes without compromising privacy or security.
+From an OIT perspective, ASG's approach ensures continuity of operations, compliance with RMF, FISMA, and Section 508 requirements, and alignment with VA DevSecOps and cloud strategies. From the Veteran Experience Office perspective, it delivers measurable improvements in usability, accessibility, trust, and satisfaction. Most importantly, it advances the long-standing VA vision of a single digital front door--where Veterans can see every benefit they are enrolled in or eligible for, every service they have received, every bill they owe, and every support option available to them in one secure, intuitive place.
+ASG's capability is not theoretical. It is grounded in years of successful delivery across VA and the federal government, informed by policy and standards contributions, and enabled by modern Oracle platforms. With the IAM foundation already in place, ASG is prepared to help VA complete the journey--turning identity into insight, access into action, and VA.gov into the trusted digital gateway Veterans expect and deserve.
+
+February 4, 2026
+
+Notice ID 365357
+
+3
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+3. SPECIFIC FEEDBACK AND RECOMMENDATIONS
+VA has already invested heavily in IAM, identity proofing, and digital platforms. The remaining challenge, and opportunity, is to connect these capabilities into a unified, Veteran-centric experience where authentication leads naturally to authorization, personalization, and action.
+3.1. Descriptions of Relevant Ideas, Capabilities, and Approaches
+
+3.1.1. Identity as the Backbone of Veteran Experience
+Modern Veteran digital experience is not primarily a content or interface challenge, it is an identity and authorization challenge. At VA scale, meaningful digital interaction depends on the system's ability to recognize a Veteran, understand their relationship to VA services, and securely authorize access to personalized information and actions across healthcare, benefits, payments, and support.
+VA's IAM ecosystem already contains many strong components: enterprise authentication services, identity proofing, directory services, and authoritative identity sources such as the Master Patient Index (MPI). However, these components evolved across decades to support security and access control, not to orchestrate end-to-end Veteran journeys. As a result, authentication often stops at "who you are," without fully enabling "what you are eligible to see or do right now."
+ASG's core idea is to elevate IAM from an access gate to a digital orchestration layer that securely connects identity, authorization, eligibility, and integrated data to drive proactive, personalized Veteran experiences through VA.gov.
+
+February 4, 2026
+
+Notice ID 365357
+
+4
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+3.1.2. Authorization + Integrated Data as the Differentiator
+Authentication alone does not deliver value unless it is paired with authorization decisions informed by integrated data. In the VA environment, this means securely brokering identity context into downstream systems such as:
+ Benefits eligibility and enrollment systems  Healthcare systems (including Oracle-based EHRM)  Billing and payment platforms  Case management and support channels
+ASG's approach uses attribute-based access control (ABAC) and policy-driven authorization, informed by authoritative VA data sources, to determine:
+ What services a Veteran is enrolled in  What services they are eligible for but not yet using  What actions they can complete digitally  What requires assisted or in-person support
+This capability transforms VA.gov from a navigation hub into a transactional, Veteran-aware digital front door.
+3.1.3. Modular, Platform-Based Modernization
+ASG advocates a modular, platform-based approach that:
+ Decouples the Veteran-facing experience from backend systems using APIs  Preserves existing IAM, MPI, and directory investments  Enables incremental modernization without service disruption  Aligns with VA Digital Engineering Excellence and VIP
+This approach mirrors how ASG has successfully modernized large federal platforms under time pressure, including re-architecting high-value applications to Oracle-based platforms for the Defense Health Agency when speed, continuity, and compliance were critical.
+
+February 4, 2026
+
+Notice ID 365357
+
+5
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+3.2. User Journey Workflows: Identity Proofing, Sign-In, Recovery, and Navigation
+
+3.2.1. Identity Proofing Journey Objective: Establish high confidence in Veteran identity while minimizing friction.
+1. Veteran initiates account creation or identity proofing 2. System supports multiple credential options aligned with federal identity standards 3. Identity proofing leverages authoritative data sources securely 4. Proofing status and assurance level are stored as reusable attributes 5. Veteran does not repeat proofing unnecessarily across VA services VA Impact: Reduced abandonment, higher trust, fewer support calls.
+3.2.2. Sign-In and Authentication Journey Objective: Provide fast, secure, consistent access across VA.gov and integrated services.
+1. Veteran signs in once via VA.gov 2. IAM system federates authentication across VA and partner systems 3. Session context persists securely across applications 4. Veteran experiences seamless navigation without repeated logins VA Impact: Improved satisfaction, reduced confusion, stronger security posture.
+
+February 4, 2026
+
+Notice ID 365357
+
+6
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+3.2.3. Recovery and Account Support Journey Objective: Enable secure self-service recovery while minimizing lockouts.
+1. Veteran initiates recovery (forgotten password, device change) 2. System offers multiple recovery options based on identity assurance level 3. Recovery workflows maintain accessibility and plain language 4. Escalation paths are clear when assisted support is required VA Impact: Fewer failed logins, lower call center volume, higher trust.
+3.2.4. Identity-Driven Navigation and Personalization Objective: Present the right information and actions at the right time.
+1. Veteran lands on VA.gov after authentication 2. IAM system detects identity attributes and eligibility signals 3. Dashboard displays:
+o Enrolled benefits o Eligible but unused services o Healthcare access and upcoming actions o Bills, payments, and support options 4. One-click enrollment and pre-populated transactions are enabled where allowed VA Impact: VA.gov becomes a personalized command center rather than a directory.
+3.3. Known Limitations, Risks, and Tradeoffs 3.3.1. Technical and Architectural Risks
+ Legacy system constraints: Some VA systems were not designed for real-time authorization integration.
+ Data quality and latency: Inconsistent or delayed data can affect personalization accuracy.
+ Integration complexity: Over-coupling front-end experiences to backend systems increases risk.
+Mitigation: API abstraction, phased integration, and clear ownership of authoritative data.
+3.3.2. Security and Privacy Tradeoffs  Increased personalization must be balanced with strict privacy controls.  Consent management and data minimization are essential.  Overexposure of data can erode trust.
+Mitigation: Policy-driven authorization, least-privilege access, continuous monitoring.
+
+February 4, 2026
+
+Notice ID 365357
+
+7
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+3.3.3. Organizational and Governance Risks  Decentralized ownership of applications and data  Competing priorities across VA organizations  Change fatigue among stakeholders
+Mitigation: Strong governance, incremental delivery, and clear executive sponsorship.
+3.4. Case Studies and Examples from Similar Environments
+
+3.4.1. CMS.gov - Identity-Aware Experience at National Scale
+ASG serves as the prime contractor for the CMS Website Management Services (WMS) program, supporting enterprise-wide development, operations, and content management for CMS.gov and related digital platforms serving tens of millions of users daily. We apply Human-Centered Design (HCD), personas, and journey mapping to understand how beneficiaries, caregivers, providers, and the public interact with CMS digital services. Importantly, CMS digital experiences increasingly rely on identity context to tailor navigation, content, and next steps, particularly during high-stress periods such as enrollment windows or policy changes.
+By integrating identity-aware navigation with authoritative program data, ASG helped CMS:
+ Reduce user confusion and error rates  Improve task completion during peak traffic  Strengthen accessibility and mobile usability  Maintain service continuity during surges
+These patterns are directly applicable to VA.gov, where Veterans often arrive with urgent, highstakes needs.
+
+February 4, 2026
+
+Notice ID 365357
+
+8
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+Replacement Model for VA.gov Response to RFI
+3.4.2. CMS PROTA & ICMOTA - Integrated Content and Experience
+Under CMS Partner Relations Outreach and Technical Assistance (PROTA) and Integrated Communications and Marketing Operations and Technical Assistance (ICMOTA), ASG manages more than 200 webpages and associated communications assets. We use personas, journey mapping, analytics, and stakeholder feedback to ensure that content structure, navigation, and visual design align with how users actually seek information. This work demonstrates how integrated data and identity signals can guide content prioritization and reduce cognitive load, which is an approach that scales well to VA's diverse Veteran population.
+3.4.3. DHS USCIS ASDOV/VIPER - Secure, Identity-Centric Transactions
+For DHS USCIS ASDOV/VIPER programs such https://e-verify.gov and https://save.uscis.gov, ASG supports identity-centric platforms such as SAVE and E-Verify, where secure identity proofing, authorization, and data exchange are foundational.
+ASG applies HCD, wireframing, prototyping, usability testing, and agile DevSecOps to ensure users can complete complex, legally significant transactions with confidence. These systems illustrate how identity proofing, recovery, and authorization workflows must be tightly integrated to reduce user error and rework--lessons directly transferable to VA.gov.
+3.5. Lessons Learned from Past Deployments
+3.5.1. IAM Is Necessary but Not Sufficient
+Across VA, CMS, and DHS, ASG has observed that IAM implementations succeed technically but fall short experientially when identity is not connected to authorization and data-driven outcomes.
+3.5.2. Human-Centered Design Must Extend Beyond UI
+Personas and journey maps must include identity and authorization steps, not just screens. Veterans experience friction at sign-in, recovery, and eligibility boundaries--not only in navigation menus.
+3.5.3. Incremental Delivery Builds Trust
+Large-scale transformations succeed when improvements are delivered incrementally, measured, and refined. ASG's build-measure-learn approach across CMS and USCIS demonstrates that continuous improvement reduces risk and increases adoption.
+3.5.4. Accessibility Is a System Property
+Section 508 compliance is not a front-end checklist. Identity workflows, recovery paths, error handling, and content governance must all be accessible to deliver equitable Veteran experiences.
+3.5.5. Data Integration Enables Mission Outcomes
+The most successful federal platforms treat identity as a bridge to services, not an endpoint. When systems recognize users and act on integrated data, digital platforms become mission enablers rather than information repositories.
+
+February 4, 2026
+
+Notice ID 365357
+
+9
+
+Use of data contained within this quotation is restricted to the disclosure statement on the cover.
+
+

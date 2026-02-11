@@ -1,0 +1,193 @@
+0
+
+Okta, Inc. 100 First Street, 6th Floor San Francisco, California 94105
+Re: Okta, Inc.'s Reply to Your Organization's Request
+To Whom It May Concern,
+Please find enclosed Okta, Inc.'s ("Okta") response to your organization's request for "Replacement Model for VA.gov" in connection with a possible business transaction between your organization and
+Okta. We provide this information on an "as-is" basis, without any covenants, representations, or warranties, and nothing in our response shall constitute a contract, a partnership, or any other binding legal arrangement between your organization and Okta.
+Any future functionality related to Okta's products or services (e.g., product roadmap features and delivery dates) that may be described in our response reflect Okta's current product development expectations and do not constitute a delivery commitment by Okta. Okta is not obligated to deliver such future functionality in the timeframe provided nor does Okta commit to making such future functionality generally available. Any purchasing, administrative, configuration, and/or presentation decisions made by your organization should be solely based on the functionality of the products and services that Okta currently makes generally available.
+We have exercised best efforts to respond to your organization's requests. Please note, in reviewing our responses, that Okta cannot guarantee that information provided in this response will be included in any subsequent contractual agreements between your organization and Okta. There will be no force or effect and Okta is not subject to nor bound to any terms, conditions, flow down obligations, or click-through terms even if signed or otherwise agreed to by the parties, through an online portal, documentation delivery service, or any other form. However, if Okta is ultimately selected as the vendor of choice or as a provider of part of an overall solution offering, Okta will work in good faith with your organization to execute a definitive agreement applicable to the provision of Okta's services.
+We look forward to the opportunity to work with you.
+Sincerely,
+Larissa Schwartz
+Chief Legal Officer
+
+Table of Contents
+
+Disclaimer
+
+1
+
+Okta's Response to Veteran's Affairs Requirements
+
+4
+
+Executive Summary
+
+4
+
+Identity as the Foundation of the Digital Experience
+
+4
+
+Foundational Capabilities for a Modern VA.gov
+
+5
+
+Establishing the Single Source of Truth with Universal Directory
+
+5
+
+Creating the "Digital Front Door" with Single Sign-On (SSO)
+
+5
+
+Enabling Seamless Access to Legacy Systems with Okta Access Gateway (OAG) 6
+
+Advanced Capabilities for Security, Automation, and Governance
+
+6
+
+Securing the Platform with Adaptive Multi-Factor Authentication (AMFA)
+
+6
+
+Proactively Defending the Platform with Identity Threat Protection (ITP)
+
+8
+
+Automating the Identity Lifecycle with Lifecycle Management (LCM)
+
+9
+
+Governing the Identity Lifecycle with Okta Identity Governance (OIG)
+
+9
+
+Orchestrating Complex Processes with Okta Workflows
+
+10
+
+Governing Access at the API Layer with API Access Management
+
+10
+
+Envisioned User Journeys
+
+11
+
+The First-Time User: Identity Proofing & Enrollment
+
+11
+
+The Returning User: Seamless Sign-In & Recovery
+
+11
+
+Relevant Experience and Case Studies
+
+12
+
+Disclaimer
+Okta's response herein may contain proprietary information, trade secrets, and confidential pricing and financial data ("Proprietary Information"), and therefore may be exempt from further disclosure, in whole or in part, under the Freedom of Information Act (5 U.S.C. § 552(b)(4)) and the Trade Secrets Act (18 U.S.C. § 1905), or any Public Disclosure Law. Further, the information and data contained in Okta's response shall not be duplicated, used, or disclosed -- in whole or in part -- for any purpose other than to evaluate Okta's products and services, or to learn more about the identity and access management marketplace generally. Okta's response shall not be incorporated in whole or in part into any resultant award, and any of Okta's Proprietary Information incorporated into such an award shall not be disclosed publicly. Okta pricing provided in this response is conditional upon the purchaser's understanding and acceptance of Okta's enterprise cloud subscription service and the core principles of the one-to-many business model which are reflected in Okta's MSA and associated documentation. Okta's Service is provided on a single code line and runs on the same operational infrastructure using the same security and support operations for all of Okta's customers. The Okta Service relies on the standardization of Okta's operations and Okta does not agree to individual customer's security or support policies that do not accurately reflect Okta's security controls and single back-end support model.
+1
+
+100 First St. San Francisco, CA 94105 888-722-7871 February 5th, 2026 Dept of Veterans Affairs  Attn: Allison Fulton 23 Christopher Way Eatontown NJ 07724 Subject: Replacement Model for VA.gov Dear Allison Fulton, In response to the subject referenced solicitation, Okta is enclosing our response for an identity and access management solution for your consideration. Okta is the established leader in identity, and our customers choose us due to our simplicity, approach to security, built-in platform extensibility, and recognition for accelerating time to market for our customers. With a selection of Okta as your strategic partner in identity, The Department of Veterans Affairs will have access to the functionality requested in the solicitation backed by a team with the expertise required to support your identity objectives. Okta's solution delivers a set of extensible building blocks, exposed through APIs and protocols, with amazing user experiences for operators of the identity ecosystem. Our platform solves for any use case without having to compromise in the balance of customer convenience, privacy, and security. Okta was designed from the ground up to deliver a modern identity and access management platform that meets customer requirements while avoiding common pitfalls that hinder performance and limit customer value, as outlined in the following table:
+2
+
+Okta
+
+Traditional Identity Platforms
+
++ Cloud native with 99.99% availability + Rapid time to value + Customizable and extensible + Modern workflow orchestration + Breadth of pre-built integrations + Integrated security and attack protection + Modular building blocks support all use cases + No-, low-, and pro-code options for a developer and operator-friendly experiences + Upfront cost + Identity expertise (Gartner Magic Quadrant leader for nine consecutive years)
+
+- Legacy - On premise - Slow deployment timelines - IT workflows - Prescriptive - Single-use-case point solutions - No and low code only - Lacks developer support - Unpredictable cost - Increased complexity
+
+We are eager to continue to earn your business and look forward to discussing our reply with you in detail. Please don't hesitate to contact me with any questions or to schedule a meeting.
+Sincerely,
+Derrick Roos Federal Account Executive, Veterans Affairs derrick.roos@okta.com 301-785-3498
+
+3
+
+Okta's Response to Veteran's Affairs Requirements
+Executive Summary
+Okta is pleased to respond to the Request for Information regarding a "Replacement Model for VA.gov." Our experience helping the world's largest organizations modernize has taught us a fundamental truth: a modern digital experience is built upon a modern identity foundation. It is impossible to deliver a personalized, seamless, and secure website without first knowing with certainty who the user is and what they are entitled to see. This response builds upon our previous submission, "Exploring Next-Generation Digital Identity, Authentication, and Navigation on Va.gov". We will illustrate how the core capabilities the VA already owns as part of its Okta investment provide the critical building blocks needed to achieve the goals outlined in this RFI. By building on a modern identity platform, the VA can minimize risk in its transformation and accelerate the delivery of a truly Veteran-centric digital front door.
+Identity as the Foundation of the Digital Experience
+From our experience helping large organizations modernize, we believe that creating a premier, Veteran-centric digital experience is deeply intertwined with establishing a modern identity foundation. A modern identity platform is more than just the 'front door'; it is the underlying framework that makes the core goals of the new VA.gov possible:
+ A Seamless Customer Experience is achieved by using identity to connect the VA's diverse systems, allowing a Veteran to sign in once and navigate services without friction.
+ True Personalization is powered by a unified user profile, which gives the platform the rich data needed to customize the experience for each individual Veteran.
+ A Secure "Digital Front Door" is ensured by an identity layer that protects the entire Veteran community with modern, risk-based security.
+In essence, before the new VA.gov can effectively ask "What should we show this Veteran?", it must first be able to securely and reliably answer the question, "Who is this Veteran?" Our recommended approach is designed to provide a definitive answer to that foundational question.
+4
+
+Foundational Capabilities for a Modern VA.gov
+To achieve this vision, the VA can leverage several foundational capabilities already present in the Okta platform.
+Establishing the Single Source of Truth with Universal Directory
+Okta's lessons learned from past deployments require establishing a master user record. The Okta Universal Directory, which is a core component of your existing investment, acts as this single source of truth to consolidate fragmented identity silos. It allows you to centralize all user profiles from any source--AD, LDAP, HR apps, Identity Verification Providers and more--into a single, unified directory. Furthermore, through Directory Integration, it can seamlessly synchronize data from fragmented VA data stores into a unified identity profile for each Veteran, directly addressing identity related data gaps. This unified profile is the essential foundation needed to successfully integrate the VA's diverse portfolio of legacy and emerging systems, which is the critical first step in delivering the truly seamless and Veteran-centric digital experience this RFI envisions.
+Creating the "Digital Front Door" with Single Sign-On (SSO)
+With this unified profile established in the Universal Directory, the vision from the initial RFI: "Exploring Next-Generation Digital Identity, Authentication, and Navigation on Va.gov" for an experience "as simple as unlocking a phone" becomes achievable through the Okta Single Sign-On (SSO) capability. SSO uses that single profile to create the "unified digital front door" the VA seeks, enabling secure one-click access to all applications and eliminating multiple login prompts that increase cognitive load for users. Powered by Inbound Federation that seamlessly accepts trusted identities like Login.gov and ID.me, this SSO capability directly translates the foundational "single profile" into the "single front door" that is essential for providing the seamless customer experience and continuity of service the VA requires.
+5
+
+Enabling Seamless Access to Legacy Systems with Okta Access Gateway (OAG)
+While SSO effectively unifies modern applications, a successful modernization must also address the challenge of integrating with the VA's mission-critical legacy systems. The Okta Access Gateway (OAG) is a critical capability for this purpose. OAG acts as a reverse proxy to extend the same modern SSO and MFA experience to the VA's legacy, on-premises web applications--such as those that may rely on older patterns like header-based authentication--without requiring any changes to their original source code. This allows the VA to quickly envelop older applications within the new, secure identity ecosystem, ensuring the seamless journey established by SSO is consistently maintained for the Veteran, regardless of the age of the underlying application.
+Advanced Capabilities for Security, Automation, and Governance
+Establishing a unified digital front door across both modern and legacy systems is the critical first step. The next step is to ensure that all access through this single entry point is secured with intelligent, risk-aware policies that operate within a regulated federal environment and protect the Veteran without creating unnecessary friction. The Okta platform provides a suite of advanced capabilities to meet these rigorous security, automation, and governance requirements.
+Securing the Platform with Adaptive Multi-Factor Authentication (AMFA)
+The center of a modern security strategy is a flexible policy engine capable of enforcing different levels of security based on real-time risk. The Okta Adaptive Multi-Factor Authentication (AMFA) capability, which is part of the VA's existing investment, serves as this engine. It is the component that operationalizes the critical Identity Pillar of the DoD's Zero Trust Strategy, fulfilling the core principle of "never trust, always verify" by giving the VA the tools to continuously validate every access request before granting it.
+Instead of granting access based on a static password or role, AMFA functions as a real-time risk engine. At every login attempt, it evaluates a rich set of contextual signals to inform a dynamic access decision, directly mapping to the core tenets of the DoD's strategy:
+6
+
+ User Context: Is this user part of a high-risk group? Is their behavior anomalous compared to past patterns?
+ Device Context: Is this a known and trusted device? Is its security posture compliant (e.g., not jailbroken or rooted)?
+ Network/Environment Context: Is the sign-in originating from an anonymous proxy or a known malicious IP address? Is the location new or geographically impossible?
+Based on this real-time risk assessment, the AMFA policy engine can then enforce a proportional security response. A low-risk request from a known Veteran on a trusted device can be seamless and frictionless. Conversely, when the policy engine detects a high-risk transaction, it can automatically require the user to "step-up" to a phishing-resistant, AAL3-compliant authenticator. This capability is not just a best practice; it is essential for meeting federal Zero Trust mandates as outlined in OMB M-22-09. When the highest level of assurance is required by the AMFA policy, the platform must call upon a truly phishing-resistant authenticator. Okta's support for Authentication Assurance Levels (AAL2 and AAL3) is a cornerstone of our federal security strategy, ensuring the VA can meet the rigorous requirements of NIST SP 800-63B. We support leading government-recommended methods like CAC/PIV, WebAuthn, and Okta FastPass. For the Veteran population, FastPass could provide an ideal simple and frictionless passwordless alternative. By leveraging public-key cryptography and device-bound keys, it eliminates the vulnerability of shared secrets like passwords. It cryptographically binds the authentication process to a specific device and the legitimate VA URL, ensuring that even if a Veteran is tricked into visiting a malicious site, the authenticator will refuse to sign the request, fulfilling the AAL3 mandate. Finally, the security of this experience does not begin at the moment of login; it is established well before and extends long after. This starts pre-authentication, with a secure enrollment process within the Okta Verify application that establishes a strong, cryptographically-bound identity on a specific device, and it continues post-authentication through silent context re-evaluation to protect the active SSO session. Therefore, by leveraging the Okta Verify application and its FastPass authenticator, the SSOe platform can deliver a complete, end-to-end chain of trust.
+7
+
+Proactively Defending the Platform with Identity Threat Protection (ITP)
+While FastPass provides a phishing-resistant, secure entry point for the individual Veteran, a comprehensive Zero Trust strategy also requires a layer of security that proactively defends the entire platform. Okta Identity Threat Protection (ITP) provides this continuous, intelligent security across the entire authentication journey. This protection is applied at three critical stages:
+ Before Authentication: ITP's ThreatInsight engine acts as a proactive shield. Fueled by threat intelligence from across Okta's global network, it automatically blocks authentication attempts from known malicious IP addresses associated with credential stuffing and password spraying. This reduces the overall attack surface and allows the authentication flow to focus on legitimate users.
+ During Authentication: The protection continues during the login process itself. The FastPass authentication event provides more than just a phishing-resistant login; it serves as a critical point of data collection. As part of the FastPass flow, Okta can collect rich device posture signals in real-time--such as whether the device is jailbroken or its OS version is up to date--which are evaluated in conjunction with the successful biometric verification before a final access decision is made by the policy engine.
+ After Authentication: Finally, the defense extends even after a successful login. ITP monitors for anomalous patterns across multiple FastPass events. For instance, a rapid succession of failed attempts from different locations could indicate a user's device was stolen, allowing ITP to temporarily lock the account. Furthermore, ITP uses open standards like CAEP to ingest external threat signals. If a threat is detected elsewhere, ITP can immediately terminate the secure session that FastPass created, ensuring the user is protected from post-authentication threats.
+This combination of proactive threat intelligence, continuous session monitoring, and automated remediation provides the VA with the ability to stay ahead of sophisticated attackers, dramatically reducing the risk of account takeover and building profound trust with the Veteran community.
+8
+
+Automating the Identity Lifecycle with Lifecycle Management (LCM)
+While Adaptive MFA secures the moment of access, a truly seamless experience requires that a Veteran's entitlements are kept perfectly in sync across their entire journey. The VA notes the need to integrate a "diverse portfolio of systems," and a key challenge is ensuring a user's access rights are consistent across all of them. Okta Lifecycle Management (LCM) is the capability designed to solve this through automation.
+LCM uses the authoritative data in the Okta Universal Directory as a trigger for "Joiner, Mover, and Leaver" events. For example, when a trusted source of truth--such as a VA benefits system--updates a Veteran's profile in Universal Directory to indicate they have become eligible for a new program, LCM can automatically provision their account and grant the correct permissions in all necessary downstream applications. Conversely, if a caregiver's authorization expires, LCM ensures their access is automatically and instantly de-provisioned across the ecosystem. This identity-driven automation directly addresses the VA's goal of maintaining "continuity of service" by replacing slow, manual processes, improving security by enforcing the principle of least privilege, and ultimately, speeding the delivery of critical services to Veterans.
+Governing the Identity Lifecycle with Okta Identity Governance (OIG)
+While LCM automates the action of granting access, operating within a regulated federal environment requires robust oversight and auditable proof that the right people have the right access for the right amount of time. We recommend considering a capability for streamlined Identity Governance to meet these stringent compliance needs.
+For instance, a caregiver may need temporary access to a Veteran's health records. This type of sensitive access should not be granted indefinitely without review. Okta Identity Governance (OIG) is the product designed for this purpose. It provides the tools to create simplified, automated access request workflows where a Veteran could, for example, approve a caregiver's request directly. More importantly, it automates access certification campaigns. The VA could create a policy that requires all users with "caregiver" status to have their access re-certified by the Veteran every six months. OIG would automatically handle the review process, revoking access for any request that is denied or not reviewed in time. This capability provides the VA with a clear, auditable trail to prove compliance and ensures that permissions do not become stale, further strengthening the principle of least privilege.
+9
+
+Orchestrating Complex Processes with Okta Workflows
+A successful modernization requires not just connecting systems, but also automating the complex business processes that span across them. The RFI's goal to integrate a "diverse portfolio of legacy and emerging systems" often involves multi-step processes that go beyond simple provisioning. For this, we recommend a powerful, no-code/low-code automation capability like Okta Workflows.
+Workflows acts as the connective glue for the entire ecosystem. It allows your technical teams to build complex "if-this-then-that" automations visually, without writing custom code. Consider a "New Caregiver Onboarding" process:
+1. IF a caregiver access request is approved in Okta Identity Governance, 2. THEN use Lifecycle Management to provision them into the right applications, 3. AND send a welcome email from a communications platform, 4. AND create a task in a VA case management system for a human to follow up.
+This entire multi-step process, spanning four different systems, can be built as a single, automated flow. This capability dramatically accelerates the integration of disparate systems, reduces reliance on expensive custom development, and gives the VA the agility to modify and improve its business processes as Veteran needs evolve.
+Governing Access at the API Layer with API Access Management
+Once Lifecycle Management has provisioned a Veteran's access to the correct applications, the final layer of security is to govern what they can actually do within those applications. The new VA.gov will not be a single monolithic website, but a collection of modern services that communicate via APIs--an API for fetching claim status, another for retrieving health records, and another for scheduling appointments. Securing this data exchange is paramount.
+Okta API Access Management is the capability designed for this purpose. It allows the VA to build and enforce customized, identity-driven security policies for all of these APIs using modern standards like OAuth 2.0 and OpenID Connect. This is critical for controlling precisely what a Veteran can do and see at a granular level. For example, it ensures a Veteran can view their own medical records via an API call, but that same API will deny any request to view another Veteran's records. This capability provides the foundational security layer for the entire digital ecosystem, ensuring that only authenticated and properly authorized users and services can access specific data, no matter where it resides.
+10
+
+Envisioned User Journeys
+The ultimate measure of a successful modernization is the experience of the Veteran.
+The First-Time User: Identity Proofing & Enrollment
+A new Veteran arriving at the new VA.gov for the first time would be presented with a clear, simple choice of trusted sign-in partners: "Sign in with Login.gov" or "Sign in with ID.me". After the Veteran selects their preferred provider, the Okta platform orchestrates the secure authentication and identity proofing process behind the scenes. This is the "First-Time Handshake": the chosen provider verifies the Veteran's identity to the required IAL2 standard and sends a trusted digital assertion back to the SSOe platform.
+Upon receiving this signal, the Okta Universal Directory creates a new, unified profile for the Veteran. Before concluding this first session, the platform would then present an opportunity: "Would you like to enable faster, passwordless sign-in with this device for future visits?" This one-time enrollment step is the key to unlocking an even more seamless journey on their next visit.
+The Returning User: Seamless Sign-In & Recovery
+A returning Veteran's journey would exemplify the RFI's vision for an experience "as simple as unlocking a phone." The experience would begin at a single, VA-branded sign-in page where the Veteran simply enters their email address. From there, one of two seamless paths occurs:
+1. Intelligent Routing: For a typical sign-in, the Okta Identity Engine uses the email address to look up the Veteran's unified profile, sees their identity is federated to ID.me or Login.gov, and automatically redirects them to the correct provider to complete their authentication. This eliminates the cognitive load of a choice screen and streamlines the login process.
+2. The Express Lane: However, for a Veteran using a device they have previously enrolled via the "First-Time Handshake," the experience is transformed. When they enter their email address, the Okta platform recognizes the trusted device. Instead of redirecting them, it immediately initiates an Okta FastPass login. The Veteran is simply prompted for a device biometric (like Face ID or a fingerprint) and, upon approval, is instantly logged in. This phishing-resistant flow, built on the AAL3-compliant WebAuthn standard, completely bypasses passwords and redirects, delivering the ultimate in security and convenience.
+11
+
+Relevant Experience and Case Studies
+To address the VA's requirement for a "modern, secure, and Veteran-centric" digital experience, Okta points to our successful partnership with the Centers for Medicare & Medicaid Services (CMS) and the U.S. Digital Service (USDS). CMS faced a challenge nearly identical to the VA's current objective: the need to consolidate multiple siloed, legacy programs into a single, unified digital "front door" for the Quality Payment Program (QPP). By deploying Okta's API-first Identity-as-a-Service (IDaaS) platform, CMS successfully unified disparate identity systems into a seamless portal. This allowed hundreds of thousands of clinicians to securely access healthcare data and submit claims through a single set of credentials, eliminating the "login fatigue" and fragmented navigation that the VA currently seeks to resolve for our nation's Veterans.
+The CMS transition serves as a critical proof point for the VA's need to maintain continuity of service while modernizing. By utilizing Okta as a centralized identity layer, CMS managed to transition from aging, on-premise infrastructure to a cloud-native environment without disrupting the flow of healthcare data or patient services. Our solution provided the scalability to handle massive traffic surges during open enrollment periods while maintaining rigorous federal security standards. For the VA, this means the ability to integrate decades of "technical debt" and legacy benefit databases into a modern architecture, ensuring that Veterans experience a resilient and reliable platform from day one of the transition.
+By securing the identity layer, CMS was able to open its platform to third-party clinical data registries and developers, accelerating innovation while keeping sensitive health information protected. This aligns directly with the VA's goal of creating a "best-in-class" experience across all benefit portfolios. By adopting this proven, FedRAMP-authorized identity foundation, the VA can reduce the burden of manual account recovery, streamline user onboarding, and provide a secure, frictionless journey for Veterans, their families, and other stakeholders.
+Further demonstrating our expertise within the federal landscape is our successful partnership with Peraton to support the Department of Defense (DoD) Defense Manpower Data Center (DMDC) and its myAuth program. This mission-critical initiative provides secure digital access for a user population of nearly 20 million DoD-affiliated personnel, including active-duty military, civilians, retirees, family member beneficiaries, and contractors. This program directly addresses a challenge that is highly relevant to the VA: providing high-assurance access for users who no longer possess a government-issued credential, such as a CAC. To solve this, myAuth successfully leverages modern
+12
+
+authenticators like Okta Verify on personal cell phones and other methods for users without them. The efficacy of this user-centric approach is demonstrated by its outcomes: over 740,000 personnel have established myAuth accounts with a self-service success rate exceeding 99%. This exceptionally high success rate, publicly reported by the DoD, not only proves the simplicity of the user experience across a diverse population but also substantially alleviates the operational load on help desks and call centers. Finally, Okta's platform is designed to thrive not just in government-led integrations, but also within managed service environments where a third-party partner is responsible for operations and maintenance. A prominent example is our work with a large Federal Systems Integrator (FSI) who manages the Okta platform as a service for a major federal government agency. In this model, the FSI is responsible for the deployment, day-to-day operations, and sustainment of the identity platform, allowing the government agency to consume best-in-class identity security as a service without the direct overhead. This has enabled agencies to accelerate their adoption of cloud applications and modern Zero Trust security practices with the confidence that their identity infrastructure is being managed to expert standards.
+13
+
+

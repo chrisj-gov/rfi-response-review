@@ -1,0 +1,575 @@
+REPLACEMENT MODEL FOR VA.GOV
+MARKET RESEARCH #: 36C10B26Q0131
+REQUEST FOR INFORMATION
+FEBRUARY 05, 2026; 12:00PM
+
+SUBMITTED TO:
+Department of Veterans Affairs (VA) Technology Acquisition Center (TAC) 23 Christopher Way Eatontown, NJ 07724 ATTN: Allison Fulton, Allison.fulton@va.gov, Evan Schlisserman, evan.schlisserman@va.gov
+
+SUBMITTED BY: Bravo Communications Services LLC
+6320 Karmich Street Fairfax Station, VA 22309
+Point of Contact (POC) Name: John Schleifer POC Title: Managing Partner
+POC Email: john.schleifer@acommsolutions.com POC Business Phone: 703-789-4481
+SAM Unique Entity ID: C2P7M1SK6VM3
+
+This document includes data that shall not be disclosed outside the specified customer and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to evaluate this proposal or quotation. If, however, a contract/purchase order is awarded by the specified customer to Bravo Communications Services LLC as a result of or in connection with the submission of this data, then the specified customer shall have the right to duplicate, use or disclose the data to the extent provided in the resulting contract. This restriction does not limit the specified customer's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in all of the attached sheets.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+2/5/2026
+Department of Veterans Affairs (VA) Technology Acquisition Center (TAC) 23 Christopher Way Eatontown, NJ 07724 Allison Fulton, Allison.fulton@va.gov, Evan Schlisserman, evan.schlisserman@va.gov
+RE: Response to Request for Information (RFI) for 36C10B26Q0131 for Replacement Model for VA.Gov
+
+Dear Ms. Fulton and Mr. Schlisserman,
+
+Bravo Communications Services LLC (Bravo) is pleased to present our response to VA's RFI for Replacement Model for VA.Gov. Bravo is a Small Business Administration (SBA) Veteran Certified (VetCert) Service-Disabled Veteran Owned Small Business (SDVOSB) Joint Venture (JV) between American Communications Solutions, LLC (ACS), another SBA VetCert SDVOSB, and By Light Professional IT Services LLC (By Light). ACS and By Light are active members of the SBA All Small Mentor Protégé Program (ASMPP) and have an approved Mentor Protégé Agreement.
+
+Company Name as Shown in SAM: Address: Company Point of Contact (POC):
+SAM Unique Entity ID: CAGE Code: Socioeconomic Status: Business Arrangement:
+
+BRAVO COMPANY INFORMATION Bravo Communications Services LLC 6320 Karmich Street, Fairfax Station, VA 22309 Name: John Schleifer Email: john.schleifer@acommsolutions.com Phone: 703-789-4481 Fax: 703-543-2319 C2P7M1SK6VM3 9J4Z4 SDVOSB JV
+
+We thank you for this opportunity to present our capabilities to you. ACS is committed to our partnership with VA and has assembled a well-qualified team to support this effort.
+
+Sincerely,
+
+John Schleifer, Managing Partner American Communications Solutions LLC
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+i
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+TABLE OF CONTENTS 1. COMPANY OVERVIEW .............................................................................................................. 1
+1.1 Introduction..................................................................................................................... 1 2. RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES ............................................................. 2
+2.1 Descriptions of Relevant Ideas, Capabilities, and Approaches ...................................... 2 2.2 Identity, Authentication, and Navigation........................................................................ 3 2.3 Platform and Architecture............................................................................................... 5 2.4 Case Studies or Examples from Similar Environments .................................................. 6
+2.4.1 VA Mental Health Assessment for Veterans (MHA4V) ........................................ 6 2.4.2 My HealtheVet (MHV) DevSecOps ....................................................................... 6 2.4.3 NOAA Fisheries - Web Modernization ................................................................. 7 2.4.4 Department of Education - One ED.gov Modernization........................................ 7 2.5 Known Limitations, Risks, and Tradeoffs ...................................................................... 8 3. ADDITIONAL INFORMATION RELEVANT TO VA'S OBJECTIVES ................................................ 9 APPENDIX/ARTIFACTS ................................................................................................................. A-1
+LIST OF TABLES Table 1: Team Bravo Company Information.................................................................................. 1
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+ii
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+1.
+
+COMPANY OVERVIEW
+
+Please see Team Bravo's Company Overview in Table 1.
+
+Table 1: Team Bravo Company Information
+
+TEAM BRAVO OVERVIEW Bravo Communications Services (JV Bravo) consists of American Communication Solutions (ACS) and By Light, both of which have been serving VA for over 13 years on 25+ contracts totaling $360M, including two recent SPRUCE awards for Identity Credential Access Management Next Gen Single Sign On (ICAM NG SSO) and Identity Governance Administration (IGA). Until recently, By Light was also the prime on VA's My HealtheVet (MHV), the online platform designed to give Veterans secure access to their personal health information. JV Bravo supports VA in delivering accessible, secure, and data-informed digital experiences that improve how Veterans access benefits, healthcare, and services. Through advanced analytics and relentless focus on the user, Bravo turns real-time insights into actionable improvements that enhance outcomes measurably for Veterans and their families. Mobomo is a leading small business digital services provider with a strong record of delivering innovative, secure, and scalable technology solutions to federal agencies, including VA, General Services Administration (GSA), Centers for Disease Control and Prevention (CDC), National Aeronautic and Space Administration (NASA), National Oceanic and Atmospheric Administration (NOAA), and the Federal Energy Regulatory Commission (FERC). Mobomo has deep expertise in architecting, modernizing, and operating large-scale Drupal content management systems (CMS) that support high-traffic, mission-critical federal platforms. Mobomo specializes in modernizing legacy systems, delivering cloud-native applications, and implementing Agile DevSecOps practices that accelerate delivery while ensuring compliance with federal security, accessibility, and performance standards. Mobomo has delivered complex CMS modernization efforts successfully, including multisite migrations, custom module development, integrations with enterprise systems, and ongoing operations and maintenance (O&M) for platforms such as USA.gov, NASA.gov, FERC.gov, and Ed.gov. TISTA Science and Technology Corporation delivers services spanning Application Engineering, Consulting, Cybersecurity, Data Science, Infrastructure, and Mobility across federal health, defense, and civilian sectors. TISTA's successes include the Veterans Benefits Administration (VBA) Appeals Modernization (Caseflow), Veterans Health Administration (VHA) Caregiver Records Management Application (CARMA), and VA's Airborne Hazards and Open Burn Pits registry. TISTA adds a long VA delivery history, undertaking various technology initiatives, and modernizing healthcare for Veterans through its Electronic Health Record (EHR) Modernization program that grounds our approach in how VA buys and delivers technology. Together, our team combines human-centered design (HCD), platform and CMS expertise, identity and authentication depth, and proven delivery inside VA.
+
+1.1 INTRODUCTION VA.gov is the online source Veterans access when they need answers, relief, and clear guidance through some of the most important decisions in their lives. It is the primary digital front door to benefits, health care, and services for millions of Veterans, their families, caregivers, and advocates. Behind that front door, VA.gov is not a single product but an ecosystem of modern services & applications, legacy applications, and authentication domains that have grown over decades. Any viable replacement model must respect that reality while delivering a simpler, more coherent Veteran experience. In this response, Bravo along with Mobomo and TISTA as key partners, outlines a practical, Veteran-centric approach to evolving VA.gov. Rather than proposing a risky, one-time platform swap, we describe a replacement model that treats VA.gov as an integrated ecosystem that leverages focused, high-impact use cases to drive incremental improvement. This model aligns with the Office of Information and Technology's (OIT) Office of the Chief Technology Officer (OCTO) operating environment and can potentially be advanced through task-based procurements, e.g., the SPRUCE IDIQ, while steadily moving VA.gov toward a more unified, resilient, and adaptable future state.
+
+Key elements of our approach include:
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+1
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+ Veteran-centric experience: We focus on end-to-end Veteran journeys rather than individual pages, using research, usability testing, and behavioral data to simplify complex tasks, reduce cognitive load, support different abilities, and treat Veteran dignity and trust as core design requirements.
+ Identity, authentication, and navigation as first-class design concerns: We treat signin, account recovery, and cross-site navigation as core parts of the experience, not plumbing. Bravo's identity and ICAM expertise, combined with the team's user experience (UX) and platform skills, support predictable, accessible, and secure journeys across anonymous and authenticated experiences.
+ Modern, incremental architecture: We design cloud-native, modular platforms that separate front-end experience from backend systems, support reuse of components and patterns, and allow VA to modernize slices of VA.gov without repeated large-scale rebuilds.
+ Seamless integration with legacy and emerging systems: Our solutions integrate with existing VA systems and services while enabling gradual modernization. Our goal is to use Application Programming Interfaces (API), shared services, and clear contracts between systems so that changes behind the scenes do not disrupt Veteran-facing experiences.
+ Security, accessibility, and compliance by design: We embed Section 508 and Web Content Accessibility Guidelines (WCAG) requirements, security controls appropriate for Federal Risk and Authorization Management Program (FedRAMP) environments, logging, and observability into the delivery process so the resulting platform is accessible, resilient, and trustworthy for Veterans and stakeholders.
+ Agile and collaborative delivery and governance: We work in cross-functional teams that bring together product management, UX, content, engineering, and operations. Our delivery model utilizes HCD practices, DevSecOps, and Continuous Integration/Continuous Delivery (CI/CD) such as CircleCI or GitHub Actions, each guided by clear governance and metrics, so that VA.gov improves continuously rather than only through episodic redesigns.
+
+Team Bravo will offer VA a realistic path to a next-generation VA.gov that reflects both the aspirations of senior leadership and OCTO's current operating environment. Our replacement model prioritizes Veteran experience, technical soundness, and incremental, low-risk change, and we welcome the opportunity to collaborate with VA to shape and deliver the next chapter of VA.gov.
+
+2.
+
+RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES
+
+2.1 DESCRIPTIONS OF RELEVANT IDEAS, CAPABILITIES, AND APPROACHES
+
+Team Bravo anchors the VA.gov replacement model in HCD. We view VA.gov through the lens
+
+of the end-to-end journeys that Veterans, families, caregivers, and providers take to accomplish
+
+important tasks, rather than as a collection of disconnected pages and applications. Our HCD
+
+practice (visually depicted in Appendix/Artifacts Section 0) puts users at the center of product
+
+development, combines qualitative and quantitative research, and uses iterative testing to shape
+
+experiences that are useful, usable, and respectful of Veteran needs and constraints.
+
+We begin with discovery sessions and research activities that surface goals, pain points, and context for priority journeys. Working with VA stakeholders, frontline staff, and--where appropriate--Veteran representatives, we define the problems to solve and gather any existing UX artifacts and analytics. Our design team then conducts targeted research such as interviews,
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+2
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+usability reviews, card sorts, and concept testing to understand how Veterans currently navigate VA.gov, where they struggle, and how legacy systems and policies shape those experiences. Insights from this research drive the creation of personas, journey maps, experience maps, and service blueprints that describe what users are trying to do, what support they need, and how VA systems, content, and processes interact behind the scenes. These artifacts are living tools, not static documentation. We update personas as we learn more about different Veteran segments, access needs, and technical constraints. Journey maps and service blueprints evolve as new services, policies, and integration points are introduced. Teams use these shared artifacts to guide information architecture, content prioritization, navigation patterns, and interaction design so that Veterans see one coherent experience even when multiple programs and systems are involved.
+HCD continues through delivery as a continuous discovery and validation discipline. Our designers and researchers plan and execute rounds of usability testing with Veterans and proxy users, using prototypes and production experiences to validate that flows are understandable, accessible, and efficient. We analyze behavioral data and feedback to identify friction points, test alternative designs, and refine content and interactions. This loop allows VA.gov teams to make informed tradeoffs, reduce rework, and improve journeys incrementally without disrupting mission-critical services. For VA.gov, we propose using this same HCD-driven approach to identify and improve high-impact journeys. e.g., understanding eligibility, applying for benefits, managing healthcare tasks, and resolving issues. By focusing on a set of concrete use cases and iterating on them with research, testing, and analytics, OCTO and program partners gain a practical mechanism to pilot improvements, prove value, and scale successful patterns across the broader VA.gov ecosystem. Experience and journeys become the organizing lenses for identity and navigation, platform architecture, and governance, described below.
+2.2 IDENTITY, AUTHENTICATION, AND NAVIGATION Team Bravo considers identity, authentication, and navigation as core parts of the VA.gov experience rather than purely technical implementation details. For Veterans, caregivers, and representatives, the first question is often, "How can I get in?" and the second is, "Can I find what I need now that I am here?" A replacement model for VA.gov must make sign-in, account recovery, and movement across the site predictable, accessible, and secure while respecting the reality that VA.gov is an ecosystem of applications and legacy domains, not a single product.
+Our approach begins by mapping current identity and navigation journeys from the Veteran's point of view. We look at how a user arrives at VA.gov, how they decide whether they need to sign in, how they move through the sign-in or identity-proofing experience, what happens when something goes wrong, and how they return to, or move between, tasks once authenticated. Using HCD practices, we document these flows through journey maps and service blueprints that show both the front-stage experience (i.e., pages, prompts, error states) and the back-stage systems (i.e., identity providers, directories, authorization services, application integrations). These artifacts highlight where today's experience is fragmented, where different applications handle identity in different ways, and where navigation breaks when users cross boundaries between domains.
+From there, we define a small set of consistent identity and navigation patterns that can be applied across VA.gov without requiring a universal replacement. Examples include a clear decision point to help users understand when they need to sign in, a predictable sequence for multi-step authentication, a standardized set of recovery options, and common placement and behavior for global navigation and account controls. These patterns are designed to accommodate existing identity and access management (IAM) systems while reducing cognitive load for users. They are
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+3
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+validated through usability testing with Veterans and proxy users, including people with lower technical comfort and those accessing VA.gov on mobile devices, using assistive technologies, or with low-bandwidth connections. Navigation is treated as an extension of these identity journeys. Once a user is signed in, the experience should adapt to what VA knows about that user's relationship with the Department and the tasks they are likely to perform. Information architecture and navigation structures are shaped around Veteran goals, e.g., understanding eligibility, applying for benefits, managing health care appointments, or accessing mental health resources, rather than around internal program structures.
+Team Bravo member Mobomo's work on large content ecosystems, e.g., the NOAA Fisheries, demonstrates how we apply faceted search, wizards, and information architecture improvements to make complex information spaces more discoverable and usable. On NOAA Fisheries, continuous usability-driven enhancements, including a faceted search tool and task-focused wizards backed by Amazon Web Services (AWS) OpenSearch, improved content discoverability across a vast repository of species-specific information and contributed to raising the site's American Customer Satisfaction Index (ACSI) score from 65 to over 89. That same combination of research-driven information architecture, structured navigation, and advanced search patterns is directly applicable to VA.gov's scale and complexity.
+Our experience on the VA Mental Health Assessment for Veterans (MHA4V) program provides a concrete VA example of secure, journey-aware access patterns. MHA4V is a national platform that supports measurement-based mental health care across VA, providing a mobile friendly, cloud hosted application that streamlines long and complex assessments for Veterans and gives providers clear, longitudinal views of clinical trends. For MHA4V, Team Bravo implemented a cloud-hosted platform that uses Azure Active Directory (AD) for authentication, aligning access controls with VA security requirements while keeping the provider and Veteran experience straightforward. Behind the scenes, MHA4V uses the mobile Master Veteran Index (MVI) service, a wrapper around the Master Person Index (MPI) Simple Object Access Protocol (SOAP) service, to perform identity resolution and manage JavaScript Object Notation (JSON) Web Tokens (JWT) that link Veteran records and assessment data. A representative sequence diagram showing how patient information is retrieved from the MHA4V database and mobile MVI service is provided in 0. Authentication, identity proofing, and account recovery are supported through ID.me and Login.gov sign-in options, with patient information retrieved from both the MHA4V database and the mobile MVI service as needed. MHA4V recently added a biometric logon capability that allows Veterans to use passkeys and device-level biometric features, responding to a growing expectation for simpler, more secure sign-in across VA applications. Clinical workflows are designed so that providers can move smoothly between patient lists, individual assessments, and graphical trend information without losing context, and Veterans can complete assessments on their own devices without needing to understand the underlying security architecture. Error states, session behaviors, and timeouts are designed to protect sensitive data while minimizing disruption and confusion for users. A representative flow for how MHA4V retrieves and links patient information through the mobile MVI service is provided in the 0.
+Through MHA4V we have also observed concrete identity and navigation pain points that inform our VA.gov model. Veterans and clinicians have reported that the current ID.me and Login.gov identity proofing flows can feel complex, lengthy, and challenging for some Veterans. MHA4V supports unauthenticated assessment completion via mobile devices (e.g., Short Message Service (SMS) links) and introduced biometric login to simplify repeat access while maintaining security.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+4
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+Working with the VA HCD team and Office of Connected Care (OCC) stakeholders, the program is exploring ways for Veterans to move more seamlessly between MHA4V and other VA applications, rather than returning manually to VA.gov or mobile.va.gov between each app. Veterans' feedback has also highlighted inconsistent usability and design elements, and the overall "look and feel" across VA applications. In response, MHA4V is undergoing a front-end redesign to realign with VA design standards so that the experience is more intuitive, welcoming, and familiar while improving overall usability and satisfaction.
+As VA.gov evolves, this same pattern can be applied at scale. Identity and authentication flows are designed as reusable experience components that can be integrated into multiple applications and domains, with clear guidance on page states, messaging, and recovery options. Navigation structures are aligned with top tasks and informed by analytics, search logs, and user feedback so that changes to back-end systems do not force Veterans to relearn how to move through the site. Journey workflows for identity proofing, sign-in, recovery, and navigation will be provided as separate visual artifacts so that OCTO and program partners can see how these patterns operate across anonymous and authenticated experiences and how they can be introduced incrementally without disrupting existing services.
+2.3 PLATFORM AND ARCHITECTURE Team Bravo envisions the VA.gov replacement model as a modular, cloud-native platform rather than a single, monolithic website. The goal is to create an architecture that can sit comfortably inside VA's regulated environment while supporting incremental change, reuse across benefit portfolios, and the kind of resilience and performance Veterans already experience on high-traffic federal properties we support today. This aligns directly with VA's call for solutions that maintain continuity of service, integrate with a diverse portfolio of systems, and support long-term scalability and resilience in a highly visible federal setting.
+Content Platform: Open-Source Backbone, Hybrid Delivery. For the content backbone, Team Bravo recommends a modular CMS tier that can support both traditional and headless delivery patterns. Our preference is to center this tier on enterprise Drupal. Our partner Mobomo is a Drupal Diamond Certified Partner with extensive experience upgrading and consolidating large-scale public-sector sites. They have successfully upgraded their clients have to the latest version of Drupal 11, which could benefit the VA's Drupal implementation, positioning them for long-term support, improved performance and security, and better compatibility with modern personalization and search capabilities. Our Drupal implementations make full use of such capabilities as Layout Builder for flexible content pages, Schema.org markup for structured data and Search Engine Optimization (SEO), Representational State Transfer (REST) and JSON:API or GraphQL for integration, role-based access control, and WCAG 2.2 AA accessibility support. Content is modeled as structured types rather than flat pages, which allows VA to reuse the same information across web, mobile, authenticated portals, and future channels. At the same time, Team Bravo supports other CMS platforms, e.g., WordPress and headless solutions for specific needs like microsites or research portals, as seen in our work re-platforming nasa.science.gov while feeding content to multiple front-end channels. We approach CMS selection as technology agnostic, focusing on the right fit for each VA.gov domain rather than forcing a single stack everywhere.
+Front-End Architecture and Design System Integration. On the front end, Team Bravo applies React-based, component-driven development tied to a reusable design system that aligns with customer standards and objectives. Our React approach emphasizes modular components, shared patterns, and accessible, responsive layouts that can be assembled into Veteran-facing journeys
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+5
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+without recreating the underlying code each time. On MHV and MHA4V, we used the VA styleguide and replaced the Veteran-facing front end with new React code, demonstrating our ability to modernize experience layers while operating within VA's existing cloud and security constraints. For VA.gov, we would align the component library with VA brand and design language, expose it through documentation and Storybook style catalogs, and connect it to the CMS via REST/JSON:API services, with the ability to support GraphQL endpoints where VA.gov retains or adopts them. This allows:
+ A single set of vetted user interface (UI) components that can be reused across benefit portfolios.
+ Clear separation between content, presentation, and business logic.  Safer, more incremental modernization, i.e., legacy pages can be replaced with component-
+based journeys over time.
+2.4 CASE STUDIES OR EXAMPLES FROM SIMILAR ENVIRONMENTS Team Bravo brings complementary experience delivering large-scale, mission-critical digital platforms for VA and other federal customers as described below in selected examples.
+2.4.1 VA MENTAL HEALTH ASSESSMENT FOR VETERANS (MHA4V) MHA4V is a national platform that supports measurement-based mental health care across VA, providing a mobile friendly, cloud hosted application that streamlines long and complex assessments for Veterans and gives providers clear, longitudinal views of clinical trends. We designed and implemented MHA4V as a cloud native, containerized system operating in the VAEC on AWS GovCloud at a Federal Information Processing Standards (FIPS) 199 High impact level, using Docker and Kubernetes for horizontal scaling and IaC for repeatable environments. We fully rebuilt the Veteran-facing frontend using React, aligning with VA design expectations while significantly improving usability across desktops and mobile devices.
+Several lessons from MHA4V directly inform our VA.gov replacement model. First, journeybased HCD is essential in high stakes, regulated environments. For MHA4V, we worked closely with VA clinicians and researchers to map assessment workflows that can include nearly 300 questions, prototype alternative flows, and test them with users to reduce cognitive load and confusion while maintaining clinical validity. That experience reinforces our view that VA.gov improvements should be organized around carefully defined journeys, with research, prototyping, and testing embedded in each increment. Second, resilient cloud architecture and disciplined DevSecOps are critical for trust. On MHA4V, we implemented multi-region auto-scaling infrastructure, CI/CD pipelines with automated security and quality checks, and comprehensive monitoring. This allowed the platform to support nearly 20,000 providers while maintaining high availability and strong security posture. These patterns inform Team Bravo's proposed VA.gov architecture and operational model. Third, continuous improvement must be planned from the outset. MHA4V has evolved through iterative releases guided by provider feedback, analytics, and clinical priorities, demonstrating that complex VA systems can be adapted incrementally rather than rebuilt in one step.
+2.4.2 MY HEALTHEVET (MHV) DEVSECOPS My HealtheVet is VA's secure eHealth portal that provides Veterans and their families with online access to personal health records and self-management tools. As the SDVOSB protégé member of JV Bravo, ACS served as a subcontractor on the MHV DevSecOps task order (TO) with a significant workshare, while By Light is the prime. Within this engagement, Bravo supplied
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+6
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+product-aligned Agile teams that include research, design, development, test automation, DevSecOps, data science, and cloud architecture capabilities. These teams supported both the MHV platform and VA.gov-related teams as VA works to align MHV more closely with the broader VA.gov ecosystem without disrupting the trusted experience that Veterans rely on. Bravo's work on MHV DevSecOps provides important lessons learned for the VA.gov replacement model. Integrating a mission-critical system into a larger platform requires incremental change, careful communication, and tight coordination across product and platform teams. Cross-functional, domain-aware DevSecOps teams have proven effective in sustaining a high-traffic health application while introducing new features and integrations on an aggressive schedule. This experience complements Team Bravo's own VA portfolio and reinforces our shared view that VA.gov should be evolved through coordinated, journey-based increments rather than a single, high-risk rebuild.
+2.4.3 NOAA FISHERIES - WEB MODERNIZATION For NOAA Fisheries, we delivered an enterprise Drupal platform that replaced 16 separate regional and program websites with a single, modern site at fisheries.noaa.gov. The solution introduced a new information architecture, faceted search, and task focused wizards that help users navigate complex scientific and regulatory content. Hosted on Acquia's AWS backed platform with layered caching and Content Delivery Network (CDN) support, the site handles seasonal traffic spikes while maintaining fast response times. Over the life of the project, Mobomo has supported multiple major Drupal upgrades and ongoing enhancements without disrupting users or fragmenting the platform. The NOAA Fisheries experience reinforces several principles that inform our VA.gov replacement model. Consolidating many independent sites into one enterprise platform improved usability and governance at the same time, demonstrating that scale and coherence are compatible goals. Continuous usability research and analytics-driven refinement produced measurable gains in customer satisfaction and engagement, showing the value of treating UX and content strategy as ongoing practices. Finally, designing for peak events and future upgrades from the outset proved critical for long-term resilience, a lesson that is directly applicable to VA.gov's high visibility and evolving mission needs.
+2.4.4 DEPARTMENT OF EDUCATION - ONE ED.GOV MODERNIZATION Team Bravo modernized ED.gov, the primary digital front door for students, parents, educators, and institutions. The project consolidated three separate CMS platforms into a single, Drupalbased environment and delivered a responsive, multilingual site that now serves more than 16 million visitors each year. The unified platform improved navigation, search, and content governance, and reduced the operational overhead of maintaining multiple legacy systems. The architecture supports structured content, reusable components, and ongoing Drupal upgrades without major rework, which allows the Department to evolve policy content and program information while maintaining a consistent experience. Several lessons learned from ED.gov are directly relevant to a VA.gov replacement model. First, large-scale consolidation can be accomplished in a relatively short period when content strategy, information architecture, and migration planning are treated as core disciplines rather than afterthoughts. Second, a single, wellgoverned CMS with reusable components simplifies accessibility, analytics, and security compliance across diverse programs. Third, an Agile and DevSecOps delivery model provides the flexibility needed to respond to policy shifts and stakeholder feedback while keeping a stable public experience. These patterns map closely to the challenges VA faces in organizing and sustaining VA.gov as a coherent enterprise platform.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+7
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+2.5 KNOWN LIMITATIONS, RISKS, AND TRADEOFFS Team Bravo recognizes that any VA.gov replacement model must be grounded in the realities of VA's ecosystem, procurement pathways, and risk posture. Rather than proposing a single "big bang" solution, we frame risks and tradeoffs explicitly and organize our approach around incremental change that VA, OCTO, and program partners can manage.
+Scope and Pace of Platform Change. In considering replacement models for VA.gov, it is important to recognize that the platform is not a single product but an ecosystem of current and legacy applications, legacy systems, and authentication domains, some of which have been in place for decades. Attempting a wholesale, one-step replacement of this ecosystem would introduce significant integration risk, extended cutover windows, and a higher potential for service disruption. Our recommended model focuses instead on phased evolution anchored on specific, high-value journeys. Each improvement is delivered as a bounded slice with clear entry and exit points, fallbacks to existing experiences, and feature toggles that allow VA to control exposure and roll back if needed. Over time, successful patterns can be expanded across the ecosystem, reducing risk while still moving VA.gov toward a more coherent and maintainable future state.
+Identity and Authentication Fragmentation. Today, identity and authentication experiences can vary across VA systems, leading to confusion for Veterans and complexity for integration. Introducing new identity patterns without coordination risks further fragmentation, inconsistent security postures, and support burden. To mitigate this, we treat identity and authentication as shared platform capabilities rather than application-level decisions. Working with Bravo's ICAM and IGA expertise and VA identity stakeholders, we would establish a small set of standardized sign-in, proofing, and recovery flows and provide implementation guidance, UX patterns, and integration contracts for consuming applications. New or modernized VA.gov experiences would adopt these patterns first, with legacy domains brought into alignment over time as part of their natural release cycles.
+Legacy System Constraints and Performance. Many VA.gov journeys depend on legacy backend systems with constraints on performance, availability, and data quality. Attempting to mask or bypass these constraints at the experience layer risks creating promises the underlying systems cannot keep, leading to broken expectations and eroded trust. In our proposed model, we mitigate this by decoupling front-end journeys from back-end integrations through stable APIs and service layers, while being honest about what can and cannot be done within current system limitations. Where latency or availability is a concern, we design experiences that set expectations (e.g., asynchronous status updates or queued processing) and we work with system owners to prioritize integration and performance improvements that deliver the highest Veteran impact.
+Multi-Vendor and Multi-Contract Delivery. VA.gov work is delivered through multiple vendors and vehicles, including T4NG and SPRUCE IDIQ tasks, identity contracts, and programspecific efforts. A replacement model that does not account for this reality risks creating gaps in ownership, duplicated effort, and inconsistent implementations of shared patterns. Team Bravo's governance model assumes a multi-vendor environment. We propose clear roles and interfaces for platform stewardship, design system ownership, and journey leadership, supported by shared documentation, pattern libraries, and governance forums. Our Program Management Office (PMO) coordinates across all participating contractor teams through regular cross-team ceremonies and shared backlogs for platform work, reducing overlap and giving OCTO a single view of dependencies and progress across tasks.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+8
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+Change Management and Adoption. Even well-designed improvements can fail if Veterans, staff, and program offices are not prepared for change. Introducing new identity flows, navigation structures, or content models without adequate communication and support can lead to increased call volumes, drop-offs, and resistance from stakeholders. To mitigate this, we treat change management as part of delivery. For each significant VA.gov change, we would plan communication strategies, support materials, training tailored to internal stakeholders and, where appropriate, public-facing content that explains what has changed and why. We also use phased rollouts, A/B tests, and feedback mechanisms to monitor impact and adjust based on real-world usage before changes are fully standardized.
+
+3.
+
+ADDITIONAL INFORMATION RELEVANT TO VA'S OBJECTIVES
+
+The Replacement Model for VA.gov RFI rightly recognizes that replacing VA.gov is not simply
+
+a technical undertaking. It requires coordinated shifts across experience design, platform
+
+architecture, content strategy, governance, analytics, and operating models. This level of
+
+interdependency significantly increases the risks associated with replacing VA.gov with an
+
+alternative platform or technology. Rather than proposing a Commercial-off-the-Shelf (COTS)
+
+tool, or a combination of COTS tools, promising a safer or superior experience at a fraction of the
+
+cost, our response focuses on optimizing targeted areas of the existing VA.gov architecture to
+
+deliver measurable improvements in the near term. While numerous white papers attempt to justify
+
+COTS over custom or vice versa, the reality is that the decision is highly context specific. One
+
+principle, however, consistently proves true: large-scale COTS implementations are complex,
+
+expensive, time-consuming, and rarely deliver the full capabilities envisioned at the outset. Below
+
+are five concise reasons why VA.gov's custom-developed approach remains the sound strategic
+
+choice for VA:
+
+1. Continuity Over Disruption. VA.gov's custom workflows are already aligned with VA eligibility rules, adjudication processes, and back-office systems. Replacing these workflows with a COTS portal would require re-mapping intricate business logic and data models, introducing multi-year migration windows with elevated risks of errors, rework, and service degradation.
+2. COTS Is Not "Plug and Play" at VA Scale. Although Software-as-a-Service (SaaS) platforms can be deployed quickly in greenfield environments, large federal programs face integration challenges, data migration hurdles, Authority to Operate (ATO) requirements, and system validation steps that significantly extend delivery timelines. GSA migration guidance makes clear that switching platforms triggers new security packages, interface certifications, and operational runbook development delaying stabilization and increasing risk.
+
+3. Cost Dynamics Favor the Current Path. Industry analyses consistently show that while SaaS can reduce initial build time, it introduces recurring licensing fees tied to usage and user volume. Custom development front loads the investment but flattens cost curves over time, particularly once the initial "startup curve" has already been paid, as is the case with VA.gov today.
+
+4. Commercial Precedents Underscore the Risks. A relevant example is Australia's adoption of Adobe Experience Manager to power its myGov platform, a multi-service digital portal serving 1.4 million sessions per day with personalization, secure workflows, and API-driven integrations. Despite its modern COTS foundation, recent audits revealed significant usability challenges. Forty-six percent of users found navigating the portal confusing, and 40 percent reported negative experiences related to information access, authentication, and task
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+9
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+completion. The audit further identified pervasive login issues and difficulty supporting priority populations, highlighting the complexity of applying a commercial platform to a large, diverse service ecosystem. The VA.gov replacement model we describe is designed to meet VA where it is today while moving steadily toward the experience Veterans deserve. It emphasizes Veteran-centered journeys, a modular cloud native platform, and an operating model that supports incremental change through task-based work rather than risky, one-time cutovers. Identity, authentication, and navigation are treated as first-class design concerns, and our HCD practice, platform engineering strength, and disciplined governance approach are all focused on maintaining trust, continuity of service, and regulatory compliance as VA.gov evolves.
+As Team Bravo, Bravo, Mobomo, and TISTA bring fullet of complementary capabilities to successfully deliver on modernizing, streamlining and enhancing VA.gov for our Veterans. Mobomo contributes deep experience in federal web modernization, enterprise Drupal and React delivery, and VA-specific work through the MHA4V platform operating in VAEC. Bravo adds VA identity and ICAM expertise through its SPRUCE IDIQ awards for ICAM NG SSO and IGA, plus prior MHV modernization experience, and brings the ability to execute work through SPRUCE IDIQ, T4NG and other VA vehicles. TISTA brings a long history with VA OCTO and digital programs, grounding our model in how VA plans, governs, and delivers technology in practice. Together, we can support VA.gov evolution as a coordinated set of improvements that align with OCTO's delivery reality, leverage existing contract structures, and respect the complexity of the VA ecosystem.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+10
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+APPENDIX/ARTIFACTS
+
+Appendix A.1.
+
+USER JOURNEY WORKFLOWS AND VISUALS
+
+Appendix A.1.1. TEAM BRAVO'S HUMAN CENTERED DESIGN PROCESS
+
+Appendix A.1.2. EXTERNAL SSO USER LOGIN FLOWS
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-1
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-2
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+Appendix A.1.3. MHA4V PATIENT INFORMATION RETRIEVAL FLOW
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-3
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+Appendix A.1.4.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+ACCESSIBILITY RESEARCH, DESIGN, AND TESTING
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-4
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-5
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-6
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-7
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-8
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+A-9
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+Appendix B. PAST PERFORMANCE CASE STUDIES
+VETERANS AFFAIRS - MENTAL HEALTH ASSISTANT FOR VETERANS
+Project Overview The VA Mental Health Assistant for Veterans (MHA4V) platform supports measurement-based mental health care for Veterans across the VA system. The platform provides a modern, mobile friendly application that allows Veterans to complete structured clinical assessments and gives providers clear, longitudinal insight into symptom trends and treatment outcomes. Mobomo designed, built, and sustains MHA4V as a cloud-native, enterprise-grade solution operating in the VA Enterprise Cloud (VAEC).
+MHA4V serves nearly 20,000 providers nationwide and supports a growing set of evidence-based instruments, including assessments with nearly 300 questions. The platform is used as part of routine care and specialty mental health services, which places a premium on reliability, security, accessibility, and ease of use for both Veterans and VA clinicians.
+Objectives VA engaged Mobomo to:
+ Modernize the mental health assessment experience for Veterans and providers with a mobile friendly, intuitive interface.
+ Support lengthy and complex clinical assessments without increasing cognitive burden or abandonment.
+ Operate within VAEC at a FIPS 199 High impact level with strong security and privacy safeguards.
+ Provide a resilient, scalable platform that can support nationwide adoption and future program growth.
+ Establish a delivery model that supports continuous improvement driven by clinical needs and user feedback.
+Technical Environment and Architecture Mobomo implemented MHA4V as a cloud-native, containerized application within VAEC on AWS GovCloud. The architecture uses Docker and Kubernetes to provide horizontal scaling based on real-time demand and to isolate workloads for resilience and security. Infrastructure is defined using IaC, which makes nonproduction and production environments reproducible, auditable, and consistent.
+The platform operates at a FIPS 199 High impact level and adheres to VA security baselines. Authentication is integrated with Azure Active Directory (AD) so that clinicians and staff use existing VA identity services to access MHA4V. This approach aligns the application with VA identity and access management (IAM) expectations and simplifies account administration for VA.
+Mobomo fully rebuilt Veteran-facing front end using React. This modernized the presentation layer while respecting VA's requirements for accessibility, consistency, and compatibility with existing VA technology stacks. The front end communicates with back-end services through welldefined APIs, which allows the team to evolve presentation and workflow logic without destabilizing the underlying data and integration layers.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-10
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+The architecture is designed for resiliency. Dynamic environments span multiple regions to manage risk and provide regional failover options. Autoscaling policies respond to usage patterns so that the platform can handle assessment surges without performance degradation.
+Human Centered Design and Clinical Alignment MHA4V is rooted in HCD and close collaboration with VA clinical stakeholders. Mobomo worked with VA clinicians and researchers to understand existing assessment workflows, instrument structures, and treatment decision points. Many instruments used in MHA4V contain long and complex item sets. Without careful design, these assessments can be confusing and tiring for Veterans.
+The team used research, prototyping, and iterative testing to design flows that are clear, predictable, and accessible. Screen layouts, progress indicators, and question grouping patterns are crafted to minimize cognitive load while preserving clinical fidelity. The interface adapts to mobile and desktop devices so Veterans can complete assessments on personal devices without loss of usability or clarity.
+On the provider side, interfaces are designed to support how clinicians think about care. MHA4V presents longitudinal data, score histories, and trends in a way that aligns with clinical reasoning and documentation needs. This design work was completed in partnership with clinical stakeholders and refined based on feedback from early adopters.
+Accessibility requirements are built into this process. The team applies WCAG 2.2 AA practices and tests keyboard navigation, color contrast, and screen reader compatibility as part of routine UX and Quality Assurance (QA) activities.
+DevSecOps, Security, and Operations Mobomo delivers and sustains MHA4V using a mature DevSecOps model. Code is managed in a Git-based repository and moves through automated pipelines that cover build, test, and deployment. CI/CD pipelines orchestrate IaC, database migrations, automated testing, static analysis, and security scanning before changes are promoted to production.
+The security posture aligns with VA and federal expectations for clinical systems. Container images and dependencies are scanned for vulnerabilities, logs and metrics are aggregated for monitoring and incident response, and change control is enforced through structured release management and approvals. Operating at a FIPS 199 High level requires disciplined access control, audit logging, and configuration management. These are baked into the delivery process rather than treated as after-the-fact checks.
+Operations leverage multi-region deployment patterns, autoscaling, and monitoring to maintain high availability. The team uses metrics and alerts to detect performance anomalies and error conditions quickly, reducing the risk of disruptions for Veterans and clinicians.
+Outcomes and Impact MHA4V has been adopted across VA by nearly 20,000 providers, supporting routine use of validated mental health assessments as part of care. The platform gives clinicians faster, clearer insights into symptom trajectories and treatment response, while making it easier for Veterans to complete assessments on their own devices.
+The program has received multiple contract renewals and positive feedback from VA stakeholders, reflecting confidence in the platform's reliability, security, and usability. The architecture and
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-11
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+delivery model have supported the introduction of new instruments and enhancements without major rework or downtime, which is critical for a system embedded in clinical workflows.
+Lessons Learned and Relevance to VA.gov  Journey-based design works in complex, regulated environments. Mapping and redesigning assessment journeys for Veterans and clinicians showed that HCD can improve user satisfaction even when instruments are long and highly constrained. The same methods apply to VA.gov journeys, e.g., applying for benefits or managing health care tasks.  Cloud native architecture and DevSecOps are essential for scale and trust. Running MHA4V in VAEC on AWS GovCloud with container orchestration, IaC, and automated pipelines demonstrated that VA can operate modern, resilient applications at national scale without sacrificing governance or security. These patterns underpin our VA.gov platform concept.  Incremental improvement is more sustainable than one-time rebuilds. MHA4V has evolved through iterative releases informed by analytics, provider feedback, and clinical priorities. This experience reinforces our recommendation that VA.gov be treated as an ecosystem to be improved slice by slice, rather than replaced through a single platform swap.  Alignment with VA identity and hosting expectations reduces friction. Integrating MHA4V with Azure AD and operating fully within VAEC reduced onboarding friction and made security and compliance reviews more straightforward. For VA.gov, we propose similar alignment with existing identity, hosting, and security frameworks, while improving the experience layer for Veterans.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-12
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+DEPARTMENT OF VETERANS AFFAIRS - MY HEALTHEVET (MHV) DEVSECOPS
+Project Overview My HealtheVet (MHV) is VA's secure eHealth portal that gives Veterans and their families access to a personalized online health record and tools to better self-manage their care. As one of the Government's most well-known, highly rated, and highly trafficked websites, MHV is central to VA's digital health experience. ACS, the SDVOSB protégé member of JV Bravo, serves as a subcontractor on the MHV DevSecOps TO with a 20 percent workshare, while By Light, the mentor member of JV Bravo, is the prime contractor.
+VA is in the process of consolidating agency websites into VA.gov to provide a coherent, effective experience for all digital services. Within this initiative, the MHV DevSecOps effort represents an essential and complex integration: merging a mission-critical health portal into the broader VA.gov ecosystem without disrupting care, degrading performance, or eroding the high level of trust Veterans place in MHV.
+Objectives Through the MHV DevSecOps TO, VA engaged JV Bravo to:
+ Support the modernization and integration of MHV within the broader VA.gov ecosystem.  Sustain a highly available, secure, and trusted eHealth portal while significant changes are
+made to underlying architecture and user flows.  Provide product-aligned agile teams with the skills needed to deliver modern digital
+services in close collaboration with Veterans and VA staff.  Apply DevSecOps practices to reduce release risk, improve quality, and maintain a tight
+cadence of delivery against aggressive milestones.
+Technical Environment and Architecture Within this engagement, ACS personnel contribute to teams responsible for the MHV platform, VA.gov integration, user centered design, application development, and cloud architecture. The work focuses on supporting the evolution of MHV from a standalone portal to a service that can be more deeply integrated with VA.gov, while preserving secure access to personal health records and clinical tools.
+As VA advances its consolidation strategy, the MHV DevSecOps team helps plan and execute integration changes that align with VA's enterprise architecture and hosting patterns. This includes coordinating with VA.gov teams to design shared patterns for identity, navigation, and content flows so that Veterans experience a coherent journey regardless of whether they start in MHV or on VA.gov.
+Human Centered Design and Experience Alignment The MHV DevSecOps contract emphasizes collaboration with Veterans and VA staff to guide modernization decisions. ACS contributes domain experts to product-aligned teams that include research, design, and analytics capabilities alongside engineering and operations. These teams work with stakeholders to understand how Veterans and caregivers use MHV today, what they value about the experience, and where integration with VA.gov can improve user experience without compromising trust.
+Insights from research and stakeholder engagement inform how new features are introduced, how navigation evolves, and how messaging is handled as the portal becomes more tightly integrated
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-13
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+with VA.gov. This approach helps ensure that UX changes support Veterans' needs and expectations rather than simply reflecting back-end system realignments.
+DevSecOps, Security, and Operations As part of JV Bravo's role on the TO, ACS personnel staff cross-functional, product-aligned teams that bring together Research, Architecture, Analytics, Design, Development, Automated Testing, DevSecOps, and Data Science capabilities. These teams operate in an Agile framework, delivering work in iterations and coordinating closely with Government product owners.
+We apply DevSecOps practices throughout the lifecycle to maintain the reliability and security required for a high-sensitivity health application. We build automated testing, code quality checks, and security reviews into the delivery process so that changes to MHV and its integration points can be deployed frequently while controlling risk. ACS supports both the MHV platform and VA.gov-facing teams, contributing to shared practices around release management and operational monitoring.
+Outcomes and Impact Through this engagement, JV Bravo is helping VA manage one of its most visible, high-impact digital assets during a period of significant change. The MHV DevSecOps teams support the ongoing evolution of MHV's features and integrations while maintaining the secure, reliable experience that Veterans expect from their health portal.
+By providing agile, product-aligned teams with deep VA domain knowledge, ACS and By Light enable VA to move MHV toward a more integrated future state with VA.gov without halting innovation or compromising day-to-day operations for Veterans and clinicians.
+Lessons Learned and Relevance to VA.gov  Integrating mission-critical systems requires careful change management. MHV DevSecOps reinforces that merging a highly trusted application into a larger ecosystem must be done incrementally, with close attention to UX, communication, and reliability-- directly mirroring the challenges VA.gov faces as it evolves.  Product-aligned DevSecOps teams work well in complex environments. The model of cross-functional, domain-aware teams spanning research, design, engineering, and operations has proven effective for sustaining a large, high-traffic portal while modernizing it, which supports Team Bravo's proposed approach for VA.gov.  Collaboration across platform and experience teams is essential. ACS's work with both MHV platform teams and VA.gov-related teams highlights the importance of shared patterns and governance across applications, a key theme in our VA.gov replacement model.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-14
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+NOAA FISHERIES - WEB MODERNIZATION
+Project Overview NOAA Fisheries partnered with Mobomo to modernize and unify its digital presence. Before this engagement, NOAA Fisheries operated 16 separate websites, which led to fragmented content, inconsistent branding, and significant maintenance challenges. Mobomo delivered an AWS/Acquia cloud-hosted enterprise Drupal platform, consolidating all 16 sites into a single, modern, mobile-friendly experience at fisheries.noaa.gov within the first year of the contract.
+Objectives NOAA's objectives included:
+ Consolidating 16 independently managed sites into a unified enterprise platform.  Improving information architecture, navigation, and search for diverse scientific,
+regulatory, and public audiences.  Establishing consistent branding and a unified NOAA Fisheries "voice."  Supporting seasonal traffic spikes and high-visibility events with strong performance and
+reliability.  Meeting Section 508 and WCAG accessibility requirements across all content.
+Technical Environment and Architecture Mobomo implemented a Drupal-based platform hosted on Acquia's AWS backed PaaS, designed to support complex content types, external data integrations, and role-based editorial workflows. Discovery and navigation leverage Apache Solr via Acquia Search, with faceted filtering by region, topic, species, and content type, and task-focused wizards that help users navigate complex regulatory questions without developer intervention.
+The architecture accommodates seasonal traffic fluctuations using horizontal scaling and a multilayer caching strategy that includes Akamai CDN edge caching, Varnish application caching, and Memcached for session and object caching. Platform design supports major version upgrades (Drupal 8 to 9 to 10) while preserving Uniform Resource Locators (URL) and content relationships, which has been exercised multiple times over the life of the contract.
+Human Centered Design and Experience Alignment NOAA Fisheries' redesign was grounded in HCD. Mobomo worked with stakeholders across regions to understand public, partner, and internal user needs, then designed an innovative, responsive website built on a modern Drupal framework with a new information architecture and content strategy.
+The team conducted usability testing and developed artifacts, e.g., project goals and user pain point reports, post launch findings, and summary decks that informed iterative improvements. These activities guided mobile layout decisions, simplified complex scientific content, and supported the design of interactive tools like species databases and regulation wizards.
+DevSecOps, Security, and Operations Mobomo applied its CMMI Dev Level 3 methodology and Agile-based IMPACT approach, using four-week sprints, daily scrums, and regular stakeholder reviews to deliver incremental value.
+Over the nine-year engagement, the DevOps pipeline evolved on Acquia Cloud Next's Kubernetes-based PaaS, integrating CI/CD tooling, e.g., CircleCI and GitLab CI to automate environment builds, testing and deployment. Automated checks included Behat and Selenium for
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-15
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+functional regression, static analysis for PHP code quality, and Pa11y-driven accessibility testing integrated into the pipelines.
+Mobomo supported NOAA security in obtaining and maintaining ATO, performing continuous monitoring, vulnerability management, and assisting with audits and penetration tests.
+Outcomes and Impact The unified NOAA Fisheries site produced measurable improvements in UX and mission impact. The ACSI increased from 65 to 89, overall traffic grew by approximately 145 percent, and mobile traffic reached 50 percent of visits. More than 85 percent of visitors reported they would recommend the site, 90 percent returned, and 94 percent stated that information was easy to find.
+The redesign earned multiple industry awards, including Webby, Vega, Muse Creative, W3, and Acquia recognitions. NOAA extended Mobomo's work through a follow-on contract to expand the enterprise platform across additional NOAA properties, leveraging Acquia Site Factory and Site Studio for rapid site launches with consistent branding.
+Lessons Learned and Relevance to VA.gov  Enterprise consolidation improves both UX and operations. Consolidating 16 sites into a single Drupal platform dramatically improved usability, search, and governance. VA.gov faces similar fragmentation across programs and could benefit from a comparable enterprise platform approach.  Scalable architecture is essential for peak events. Designing for seasonal and event-driven traffic surges, backed by Acquia Cloud Next, CDN, and caching patterns, provided resilience during high-demand periods, a critical consideration for VA.gov enrollment, benefit changes, or crisis response.  Reusable patterns and tools accelerate expansion. Pattern libraries, reusable components, and Site Factory-based provisioning allowed NOAA to roll out new sites rapidly while maintaining consistency, a model that aligns with VA's need to support multiple benefit portfolios on a common platform.  Continuous UX research sustains improvement. Ongoing usability testing, analytics, and stakeholder feedback kept the platform aligned with evolving user needs, reinforcing the importance of continuous discovery in VA.gov's long- term roadmap.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-16
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+
+DEPARTMENT OF EDUCATION - ONE ED.GOV MODERNIZATION
+Project Overview The U.S. Department of Education engaged Mobomo to modernize ED.gov, the primary digital front door for students, parents, educators, and institutions. Prior to this effort, ED.gov content was spread across three separate CMS platforms (i.e., WordPress, TeamSite, and Drupal 7), which created fragmentation, inconsistent UX, and high-maintenance overhead. Mobomo consolidated these environments into a single, accessible Drupal platform that meets 21st Century Integrated Digital Experience Act (IDEA), FISMA, and Section 508 requirements and serves more than 16 million visitors annually. The initial redesign was completed in less than two years, replacing a previously planned 15-year modernization timeline.
+Objectives The Department's goals for ED.gov included:
+ Unifying three legacy CMS platforms into a single, sustainable environment.  Improving navigation, content discovery, and search for diverse audiences.  Delivering a multilingual, mobile-friendly site aligned with federal accessibility and
+security standards.  Establishing an Agile delivery model that could support continuous improvement.
+Technical Environment and Architecture Mobomo implemented ED.gov on a hardened Drupal platform hosted in a secure cloud environment, using phased migration and metadata governance to preserve content integrity across thousands of pages and documents. The architecture supports multilingual content and incorporates modern search and caching patterns to maintain performance as content volume grows. Legacy systems were integrated through well-defined APIs, allowing the team to modernize the experience layer without destabilizing underlying data sources.
+The consolidated platform is designed for long term maintainability, with structured content types, reusable components, and a governance model that supports future Drupal upgrades without major rework. Monitoring, logging, and backup processes align with federal hosting expectations for availability and recoverability.
+Human Centered Design and Experience Alignment Mobomo grounded the ED.gov modernization in HCD. The team developed user-centric layouts and workflows for six key personas and used ongoing usability testing and analytics to refine navigation and content organization. Journey mapping, wireframes, and clickable prototypes were used to validate concepts with stakeholders before development, reducing risk and rework.
+Accessibility and 21st Century IDEA compliance were treated as design inputs rather than afterthe-fact checks. Content structure, headings, link text, and visual design were crafted to support WCAG-conformant experiences across devices and assistive technologies.
+DevSecOps, Security, and Operations The ED.gov platform is delivered and sustained using an Agile and DevSecOps model consistent with Mobomo's CMMI Dev Level 3 practices. Work is organized into sprints with defined user stories, acceptance criteria, and definitions of done, supported by tools for backlog management, automated testing, and deployment.
+Security and compliance needs are addressed throughout the lifecycle. The platform's configuration supports FISMA requirements and federal security controls, with regular
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-17
+
+BRAVO COMMUNICATIONS SERVICES LLC 36C10B26Q0131; REPLACEMENT MODEL FOR VA.GOV
+2/5/2026
+vulnerability scanning, log aggregation, and monitored change management. Environments are provisioned and updated using IaC principles, which keeps non-production and production stacks consistent and auditable.
+Outcomes and Impact The modernized ED.gov delivers a seamless experience across previously fragmented sites, giving visitors a consistent look and feel, improved search, and clearer paths to key tasks. The site now serves more than 16 million visitors annually on a multilingual platform that supports both routine information needs and high-visibility policy initiatives.
+By compressing a planned 15-year modernization into a two-year initiative, the project demonstrated that large, federal web properties can be modernized quickly with the right architecture and Agile delivery model while maintaining compliance.
+Lessons Learned and Relevance to VA.gov  Early investment in accessibility and research pays off. ED.gov showed that front-loading user research, persona development, and accessibility planning leads to smoother delivery and fewer retrofits, a pattern that directly supports VA.gov's goals for inclusive experiences.  Unified platforms simplify governance. Consolidating three CMS platforms into a single Drupal environment reduced operational complexity and made policy, security, and content standards easier to apply consistently.  Phased migration and metadata governance reduce risk. Migrating large volumes of uneven legacy content required careful planning. Using phased cutovers and standardized metadata reduced broken links, search regressions, and content gaps, an approach that maps well to VA.gov's extensive legacy content.  Agile, iterative delivery supports evolving requirements. The project reinforced that Agile, sprint-based delivery allows federal programs to adjust to policy changes and new priorities without derailing modernization, a critical need for VA.gov's multi-year evolution.
+
+RFI Response
+
+PROP# 8000-000-2300-01
+
+Use or disclosure of proposal data is subject to the restriction on the title page of this proposal.
+
+A-18
+
+

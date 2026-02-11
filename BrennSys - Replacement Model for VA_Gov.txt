@@ -1,0 +1,184 @@
+Response to Sources Sought Notice Project Title: Replacement Model for VA.gov Solicitation Number: 36C10B26Q0131
+BrennSys Technology LLC 249 Lily Ridge Dr Canonsburg, PA 15317 Point Of Contact Name: Larry Aldrich Phone: 412-638-1543 Email: laldrich@brennsys.com SAM UEI: WPH4T2F5XXU7
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+Cover Letter
+February 05, 2026 Department of Veterans Affairs Subject: Response to - Replacement Model for VA.gov Dear Allison Fulton and Evan Schlisserman, BrennSys Technology LLC, a Service-Disabled Veteran-Owned Small Business (SDVOSB), submits this response to the Department of Veterans Affairs' Sources Sought Notice for the Replacement Model for VA.gov. VA.gov serves as the Department's primary digital entry point for Veterans, caregivers, families, and survivors. Replacing it is not a typical website project. It is an enterprise modernization effort that must improve how people use the platform without interrupting access, weakening security, or compromising accessibility and trust for the millions who rely on it. BrennSys brings direct experience delivering and sustaining Veteran-facing digital platforms and supporting VA enterprise initiatives. Most notably, we serve as the prime contractor for AboutFace, a national VA platform focused on mental health awareness, peer engagement, and public education. Supporting AboutFace requires careful attention to user trust, accessibility, content governance, and uninterrupted availability for a broad and often vulnerable audience. In addition to AboutFace, BrennSys has supported the Department through multiple engagements with the Veterans Experience Office (VEO) and the Franchise Fund Oversight Office (FFO). This work has given our teams firsthand experience operating within VA governance structures, review processes, and accessibility requirements, as well as coordinating across highly visible, Department-level initiatives. Beyond our VA work, BrennSys has delivered and supported public-sector digital platforms that reflect many of the challenges associated with a VA.gov replacement. These include interconnected environments such as FlyVPS.com, FlyDTS.com, and FlyCEW.com, as well as content-driven public engagement platforms like ECHO, which incorporates AI-enabled user interaction and ongoing operational support. Across these efforts, we build modular systems that can be modernized in stages and operated long-term, avoiding high-risk, disruptive transitions. This response is intended to provide practical, experience-based insight to inform VA planning, requirements development, and potential pilot efforts. We understand that this Sources Sought Notice does not represent a commitment to procure and that participation does not confer a competitive advantage. We appreciate the opportunity to contribute to VA's continued modernization of its Veteran-facing digital ecosystem and welcome further engagement if our experience would be helpful. Sincerely,
+Larry Aldrich President, BrennSys Technology LLC
+Page |2
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+Table of Contents
+1.Company / Organization Overview .............................................................................................. 1 2. Relevant experience with similar challenges. .............................................................................. 2 3. Responses to the topics and questions in this request................................................................... 3 4. Descriptions of relevant technologies and approaches. ................................................................ 4 5. User journey workflows for identity proofing, sign-in, recovery, and navigation. ....................... 9 6. Any additional information relevant to VA's objectives. ........................................................... 10
+Page |3
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+
+1. Company / Organization Overview
+
+BrennSys Technology LLC (BrennSys) is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Canonsburg, Pennsylvania. BrennSys provides digital experience, platform modernization, and enterprise communications support to federal agencies, with a strong emphasis on Veteran-facing systems and high-visibility public platforms.
+
+We design, modernize, and operate large public-facing digital platforms where uptime, accessibility, and user trust are non-negotiable. Our work focuses on platforms that must remain continuously available, operate within strict governance and security requirements, and evolve over time without disrupting service to end users.
+
+Relevant Capabilities
+
+Veteran-Facing Digital Platforms: BrennSys has direct experience delivering and sustaining digital platforms designed for Veterans and other sensitive user populations. As the prime contractor for the AboutFace program, BrennSys supports a national, Veteran-facing website focused on mental health awareness, peer engagement, and public education. This work requires a high degree of attention to user trust, accessibility, content integrity, and uninterrupted availability, all of which closely align with the role VA.gov plays as a trusted entry point for Veterans seeking benefits and services.
+
+Enterprise Website Modernization and Operations: BrennSys supports the full lifecycle of large public-sector websites, from discovery and design through development, transition, and ongoing operations. Our experience includes modernizing and supporting interconnected, multi-site platforms that function as a unified digital ecosystem while serving distinct audiences and use cases. We emphasize modular architectures, phased transitions, and operational resilience to reduce risk and maintain continuity of service during change.
+
+Experience Within VA Operating Environments: BrennSys has supported the Department of
+
+Veterans Affairs through multiple engagements, including work with the Veterans Experience Office
+
+(VEO) and the Franchise Fund Oversight Office (FFO). These efforts provide firsthand experience
+
+Our team delivers:
+
+working within VA governance structures, · SDVOSB delivery with direct Veteran-facing
+
+accessibility standards, review processes, and cross- experience
+
+organizational coordination models. Our teams · Prime contractor leadership for a national VA
+
+understand the expectations associated with highly digital platform
+
+visible VA initiatives and the importance of · Scalable support proven across AboutFace, VEO,
+
+consistency, compliance, and accountability.
+
+and FFO engagements
+
+User-Centered Design and Accessibility: Across all engagements, BrennSys applies user-centered design principles with a strong focus on accessibility, clarity, and ease of use. We design for broad and diverse audiences, including users with varying technical skills, accessibility needs, and levels of familiarity with government systems. Our approach prioritizes reducing friction while preserving security, privacy, and trust.
+
+Sustainable Technology and Governance Approaches: BrennSys builds platforms intended to evolve, not be replaced every few years. We support governance and operating models that balance enterprise consistency with flexibility, enabling agencies to adapt to changing policies, technologies, and user needs. Our work emphasizes long-term maintainability, analytics-informed improvement, and clear ownership models.
+
+Alignment with VA Objectives: As an SDVOSB led by Veterans and experienced in Veteran-facing delivery, BrennSys approaches digital platforms with an understanding that technology directly shapes how
+
+Page |1
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+Veterans experience the Department. Our capabilities align with VA's objectives to deliver a modern, secure, and Veteran-centered digital experience while maintaining continuity of service, integrating with complex systems, and operating within a regulated federal environment.
+2. Relevant experience with similar challenges.
+BrennSys has direct experience addressing the core challenges identified in this request, including largescale public access, sensitive and vulnerable user populations, complex content ecosystems, and long-term platform operations within regulated environments. Our experience is grounded in Veteran-facing delivery and enterprise federal support.
+AboutFace | National Veteran-Facing Digital Platform (Prime Contractor)
+AboutFace is a Veteran-facing documentary website produced by the Department of Veterans Affairs' National Center for PTSD (NCPTSD), the world's leading center for post-traumatic stress disorder research and education. The platform features multimedia stories from Veterans living with PTSD, their family members, and VA clinicians, helping viewers understand PTSD, explore treatment options, and learn from lived experience.
+BrennSys works in direct partnership with NCPTSD to further AboutFace's mission while maintaining and advancing its role as a trusted, stigma-reducing digital resource for Veterans and their loved ones. The platform serves a broad and sensitive audience and must balance credibility, accessibility, emotional safety, and uninterrupted availability.
+BrennSys provides full lifecycle support for AboutFace, encompassing both platform operations and content development. Our responsibilities include planning, expanding, maintaining, and modernizing the website while ensuring it continues to function as a reliable public entry point for Veterans seeking information and reassurance.
+Digital Platform and Website Services
+· Website design enhancement and information architecture · Functional maintenance and platform sustainment · CMS migration and modernization, including Drupal · Ongoing site expansion and redesign planning · Section 508 accessibility compliance across all content and functionality · Content authoring and editorial support · Coordination of ancillary digital and educational materials
+Media Production and Content Development: BrennSys delivers end-to-end multimedia production for AboutFace, including:
+· Pre-production planning, location coordination, and subject recruitment support · Video and audio production, lighting, and set design · Post-production editing, mixing, color correction, captioning, audio descriptions, and
+accessibility validation · Creation of multimedia assets for web, social media, and outreach channels
+Program and Project Management: The AboutFace contract requires detailed coordination across multiple VA stakeholders and concurrent workstreams. BrennSys manages project activation, schedules, budgets, performance, quality control, and change management while ensuring VA guidance and feedback are incorporated consistently. Our program management team oversees:
+· Media production teams · Web developers and CMS specialists
+Page |2
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+· Graphic design staff · Social media and outreach assets · Website and YouTube channel maintenance · Topic pages, user guides, and educational materials · Ongoing reporting and communication with VA leadership
+Accessibility is integral to our approach. We ensure all digital products comply with Section 508, including accessible color contrast, alternative text, screen-reader compatibility, captioning, and audio descriptions. This commitment ensures AboutFace content remains usable and inclusive for all audiences.
+Relevance to VA.gov
+AboutFace closely parallels VA.gov's role as a trusted digital front door. Both platforms:
+· Serve Veterans navigating sensitive and complex information · Require high standards for accessibility, trust, and content integrity · Operate within VA governance and review structures · Must remain continuously available and reliable · Support evolving content and user needs over time
+Department of Veterans Affairs | Enterprise Support (VEO and FFO)
+In addition to AboutFace, BrennSys has supported the Department of Veterans Affairs through multiple enterprise engagements, including work with the Veterans Experience Office (VEO) and the Franchise Fund Oversight Office (FFO). These efforts involve design, content, and communications support across VA-wide initiatives and require close coordination with VA stakeholders.
+This work provides BrennSys with firsthand experience navigating VA governance models, review and approval processes, accessibility requirements, and the expectations associated with highly visible, Department-level initiatives.
+Large-Scale Public Platform Ecosystems
+BrennSys has also delivered and supported complex public-facing digital ecosystems that mirror many of the structural challenges present in a VA.gov replacement. This includes interconnected platforms such as FlyVPS.com, FlyDTS.com, and FlyCEW.com, which function as a unified digital environment while serving distinct audiences and operational needs.
+Additionally, BrennSys supported the ECHO platform, a public engagement site combining content-driven experiences with AI-enabled user interaction and ongoing operational support. These efforts reinforce our experience designing platforms that scale, evolve, and remain operational over time rather than static, onetime builds.
+3. Responses to the topics and questions in this request.
+Maintaining Continuity of Service for Millions of Users
+BrennSys approaches large-scale digital replacement through phased and incremental modernization rather than disruptive cutovers. Based on our experience supporting continuously available, Veteran-facing platforms, we prioritize maintaining existing functionality while introducing new capabilities in parallel. This approach reduces risk, preserves user trust, and ensures that critical services remain accessible throughout transition periods.
+We treat continuity of service as a design constraint from the start, not something left for operations teams to solve later. Transition planning, rollback strategies, and clear ownership models are incorporated early to avoid interruptions to user access.
+Page |3
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+Integration with a Diverse Portfolio of Legacy and Emerging Systems
+BrennSys has experience operating in environments where modern digital platforms must integrate with a mix of legacy systems, emerging technologies, and externally managed services. Our approach emphasizes modular architectures and well-defined interfaces that allow systems to evolve independently without forcing wholesale replacement.
+This integration strategy supports gradual modernization while maintaining interoperability across benefit portfolios, identity services, and content systems. It also enables agencies to introduce new technologies without destabilizing existing operations.
+Operating Within a Regulated, Highly Visible Federal Environment
+BrennSys is accustomed to supporting highly visible federal initiatives subject to governance, review, accessibility, and security requirements. Our work within the Department of Veterans Affairs requires adherence to established approval processes, documentation standards, and stakeholder coordination across organizational boundaries.
+We design platforms so governance reviews are built into workflows, allowing updates to move through approval without slowing delivery. This allows agencies to remain compliant while still responding to changing user needs and policy priorities.
+Supporting Long-Term Scalability, Adaptability, and Resilience
+Rather than focusing solely on initial delivery, BrennSys designs platforms to be sustained and evolved over time. Our experience managing long-running digital programs emphasizes scalable architectures, maintainable codebases, and operational models that support continuous improvement.
+Resilience is built tthis hrough redundancy, monitoring, and disciplined operational practices that allow platforms to absorb change, scale to meet demand, and recover quickly from issues. This approach supports long-term adaptability in response to policy, technology, and user behavior changes.
+Offering a More Seamless Customer Experience
+BrennSys approaches customer experience as an end-to-end journey rather than a collection of individual interactions. We focus on clarity, consistency, and reduced friction across navigation, content, and user workflows, particularly for users seeking time-sensitive or emotionally charged information.
+Our experience with Veteran-facing platforms reinforces the importance of clear language, predictable navigation, accessible design, and consistent interaction patterns. These principles support a more seamless experience while maintaining the security and integrity required in federal environments.
+4. Descriptions of relevant technologies and approaches.
+BrennSys applies proven, enterprise-grade technologies and implementation approaches to support largescale, public-facing digital platforms operating in regulated federal environments. Our focus is on reliability, interoperability, accessibility, and long-term sustainment.
+Platform Architecture and Delivery Model
+BrennSys supports headless and decoupled web architectures that separate presentation layers from content, identity, and backend services. This enables independent evolution of the user interface while maintaining stable integrations with enterprise systems.
+This approach is demonstrated in production through XENIQ, a proprietary, multi-tenant enterprise operating system developed and deployed by BrennSys. XENIQ utilizes a headless architecture with a modern front-end delivery layer and an extensible backend, supporting multiple clients simultaneously
+Page |4
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+while maintaining strict separation of data, workflows, and governance. This platform reflects our experience running headless architectures in production, not just describing them in design documents.
+Key architectural elements include:
+· Front-end frameworks optimized for performance, accessibility, and progressive enhancement · API-driven integration with backend systems using REST and event-based services · Layered environments (development, staging, production) with controlled release pipelines · Incremental migration strategies that allow parallel operation of legacy and replacement
+components
+This model supports phased replacement of VA.gov functionality while maintaining continuity of service, reducing risk during transition, and enabling long-term adaptability.
+Content Management Systems and Content Operations
+BrennSys has experience supporting enterprise CMS platforms, including Drupal-based environments, configured for high-traffic public websites and distributed content ownership.
+This capability is further demonstrated through LIMA, BrennSys's multilingual content architecture designed to support contextual translation and localization rather than word-for-word conversion. LIMA enables content to be authored once and adapted meaningfully across languages while preserving intent, tone, and clarity, supporting accessibility for diverse user populations, including non-English-speaking Veterans and their families.
+Our CMS approach includes:
+· Structured content models to enable reuse across pages, services, and channels · Role-based access control aligned with governance and review workflows · Editorial workflows supporting draft, review, approval, and publishing · Versioning and rollback capabilities to reduce risk during updates · Integration with external systems for content syndication and data-driven updates
+This approach enables consistent content delivery across portfolios while supporting multilingual access and ongoing updates at scale.
+Identity, Authentication, and Secure Integration
+BrennSys designs platforms to integrate with federal identity and access management services without tightly coupling authentication logic to the presentation layer.
+Technical considerations include:
+· Secure session handling and token-based authentication · Separation of authenticated and unauthenticated user experiences · Graceful handling of authentication failures and recovery paths · Integration with enterprise identity providers through standardized protocols
+This allows secure access to protected services while maintaining usability for public-facing content.
+Accessibility Engineering and Compliance Automation
+Accessibility is treated as a core engineering requirement, not a post-production activity. BrennSys embeds accessibility into design, development, and deployment pipelines to ensure compliance is sustained as platforms evolve.
+This approach is demonstrated through CARTIQ, BrennSys's WCAG 2.2AA-compliant interactive
+Page |5
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+mapping capability, purpose-built to address accessibility challenges common in location-based services. CARTIQ integrates natively with ArcGIS and supports fully accessible facility and service locator functionality, including keyboard navigation, screen-reader compatibility, and accessible interaction patterns. This directly addresses a common failure point in public-sector platforms, where mapping and location tools often fall short of accessibility standards, despite serving critical user needs such as finding facilities and services.
+BrennSys also employs I2T (Image-to-Text) capabilities to strengthen accessibility and operational efficiency. I2T generates contextual, meaningful image descriptions that convey intent and relevance rather than generic labels, supporting screen-reader users beyond checkbox compliance. This capability also supports automated document ingest and processing workflows, enabling structured extraction of content from images and documents to support downstream operations and reporting.
+Our accessibility engineering practices include:
+· Keyboard-first interaction models across interfaces and interactive components · Captioning and audio description pipelines for multimedia content · Automated and manual Section 508 testing using accessibility validation tools · Continuous accessibility checks integrated into deployment and release workflows
+Together, these practices ensure accessibility is maintained at scale, supports diverse user needs, and remains resilient as content, features, and integrations evolve.
+Cloud Infrastructure, Performance, and Resilience
+BrennSys supports cloud-hosted and hybrid deployment models designed for high availability and scalability.
+Infrastructure practices include:
+· Load-balanced environments supporting traffic spikes · Content Delivery Networks (CDNs) for global performance · Automated scaling and health monitoring · Logging and alerting for operational visibility · Backup and disaster recovery strategies aligned with continuity requirements
+These practices support resilient operations for platforms serving millions of users.
+Data, Analytics, and Observability
+BrennSys integrates analytics and operational intelligence into a unified platform management approach that supports visibility, coordination, and continuous improvement across large digital ecosystems.
+This capability is demonstrated through XENIQ, BrennSys's proprietary, multi-tenant enterprise operating system designed to manage complex, multi-stakeholder platform environments. XENIQ integrates workflow automation, document ingest, CRM, reporting, and analytics within a single operational framework, enabling coordinated management across content, engineering, operations, and governance functions. For platforms such as VA.gov, these capabilities support proactive issue resolution, informed prioritization, and sustained platform oversight.
+BrennSys also applies an AI-accelerated development methodology that leverages AI-assisted tools to improve delivery velocity while maintaining code quality, security, and compliance. This approach compresses traditional development timelines for features, integrations, and issue resolution without sacrificing disciplined engineering practices.
+Page |6
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+Core capabilities include: · Event-based analytics for user behavior and journey analysis · Performance monitoring, error tracking, and system health telemetry · Privacy-aware data collection aligned with federal standards · Operational dashboards supporting engineering, content, and governance stakeholders · Workflow automation and reporting to support multi-team delivery
+Together, these capabilities enable data-informed decisions, coordinated operations, and continuous improvement without disrupting live services. DevSecOps and Sustainment Practices BrennSys applies mature DevSecOps practices designed for regulated federal environments, ensuring security, reliability, and accountability across the full delivery lifecycle. Our approach includes automated source control and build pipelines, infrastructure-as-code for repeatable and auditable deployments, integrated security scanning and dependency management, and controlled release management with rollback and recovery capabilities. These practices are reinforced through disciplined documentation and knowledge transfer to support long-term platform sustainment. We use AIassisted tools to speed development tasks such as code scaffolding, testing, and content processing, while keeping human review and approval in place for all production changes. Together, these practices ensure platforms remain secure, maintainable, and adaptable beyond initial deployment while supporting the agility required to respond to evolving mission needs.
+Page |7
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+Page |8
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+5. User journey workflows for identity proofing, sign-in, recovery, and navigation.
+User Journey Workflows
+Identity Proofing and Account Creation
+BrennSys designs identity proofing workflows to introduce authentication only when it is required to access protected services or personal information. Users typically enter through public, unauthenticated content where they can orient themselves and build trust before being asked to verify their identity. Identity proofing integrates with enterprise identity providers using standardized protocols and employs progressive disclosure to explain why verification is necessary and what steps to expect. Clear exit, retry, and recovery paths are built into the workflow to prevent users from becoming stalled in incomplete verification processes.
+Sign-In and Authenticated Access
+Sign-in is treated as a gateway to services rather than the starting point of the user experience. Authentication state is managed centrally and abstracted from the presentation layer, allowing users to move between content and services without repeated interruptions. Authenticated and unauthenticated experiences share consistent navigation and interaction patterns to reduce cognitive load and maintain orientation. Session handling is designed to preserve continuity of use, minimizing disruption unless security requirements dictate otherwise.
+Account Recovery and Error Handling
+Account recovery is designed as a primary user journey rather than an edge case. Recovery workflows guide users through step-by-step processes using clear language, visible progress indicators, and explicit next steps. Where appropriate, recovery minimizes full re-proofing while maintaining security and compliance standards. Failure scenarios are handled with clear explanations and escalation options to reduce abandonment and frustration.
+Navigation and Cross-Portfolio Movement
+Navigation is designed around user intent rather than organizational structure. Persistent navigation elements, contextual links, search, and breadcrumbs support multiple entry points and non-linear journeys across benefit portfolios and information domains. Context is preserved as users move between authenticated and unauthenticated areas, reducing disorientation and unnecessary repetition.
+Known Limitations, Risks, and Tradeoffs
+Large-scale digital modernization involves inherent tradeoffs. Strong security and identity requirements can introduce user friction if not carefully balanced with usability. Legacy systems may impose constraints related to data models, latency, or availability that limit front-end optimization. Governance and review processes, while necessary in federal environments, can slow iteration if not intentionally integrated into content and release workflows. Without disciplined content ownership and information architecture, platforms risk content sprawl that undermines navigation and trust. Frequent structural changes can also create change fatigue for users who rely on consistency, particularly when accessing high-stakes services.
+Lessons Learned from Past Deployments
+Experience supporting Veteran-facing platforms and other large public-sector digital environments has shown that incremental modernization is more effective than large, single-cutover transitions. Phased replacement allows teams to validate changes in production, respond to real user behavior, and reduce risk while maintaining continuity of service. Identity services are most effective when they remain largely
+Page |9
+
+BrennSys Technology LLC Date: 2/05/2026 Solicitation #: 36C10B26Q0131
+invisible until required, rather than dominating early interactions. Recovery journeys deserve the same level of design attention as onboarding, as users often judge a platform by how well it handles failure. Stable navigation builds trust even as content evolves, and close alignment between operations, engineering, and design is essential for long-term platform resilience
+6. Any additional information relevant to VA's objectives.
+BrennSys brings a Veteran-centered perspective grounded in direct experience delivering and sustaining platforms that serve Veterans, their families, and caregivers. As a Service-Disabled Veteran-Owned Small Business (SDVOSB) with ongoing Veteran-facing and VA enterprise work, BrennSys understands that platforms like VA.gov are not simply technical systems, but critical trust interfaces between the Department and the Veteran community. We design Veteran-facing digital experiences with the recognition that users often arrive under stress, uncertainty, or urgency. Our approach prioritizes clarity, reliability, and reduced friction while preserving dignity, confidence, and accessibility for diverse user populations. BrennSys plans for how platforms will be operated, supported, and improved years after launch, not just how they look on day one. Rather than large, disruptive transitions, we focus on incremental modernization supported by maintainable architectures, disciplined governance, and long-term operational models. This approach reduces risk, preserves service continuity, and ensures improvements remain effective over time. Our teams are experienced in operating within complex federal environments that require coordination across multiple stakeholders, review bodies, and governance structures. We work collaboratively to integrate feedback, maintain alignment across portfolios, and enable steady progress without sacrificing compliance or accountability. Through this Sources Sought response, BrennSys seeks to contribute practical, experience-based insights to VA's planning and discovery efforts. We understand that this notice does not represent a commitment to procure and that participation confers no competitive advantage. Our intent is to support VA's objective of delivering a modern, secure, and Veteran-centered digital experience that Veterans can rely on with confidence.
+P a g e | 10
+
+

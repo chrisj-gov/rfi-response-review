@@ -1,0 +1,1170 @@
+U.S. Department of Veterans Affairs (VA) Replacement Model for VA.gov Request for Information
+Due Date: February 4, 2026
+
+Submitted To: U.S. Department of Veterans Affairs (VA) Allison Fulton, Allison.fulton@va.gov
+Evan Schlisserman, evan.schlisserman@va.gov
+
+Submitted By: GovCIO, LLC 4000 Legato Rd, Ste 600 | Fairfax, VA 22033 Telephone #: 703-891-8200 Fax #: 703-891-8201 www.govcio.com
+Attn: Ross Aboff Title: Senior Vice President Phone: 732-710-2953 Email: ross.aboff@govcio.com
+Signature: Ross Aboff
+
+DISCLOSURE STATEMENT This Request for Information includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed, in whole or in part, for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of, or in connection with, the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained on all sheets marked "Company Proprietary."
+
+VA | Replacement Model for VA.gov Request for Information
+TABLE OF CONTENTS
+Company overview (excluded from page limit per RFI instructions) ............................................ ii Relevant experience with similar challenges/Past Performance summary (excluded from page limit per RFI instructions) ....................................................................................................................... ii 1 Responses to the topics and questions in this request............................................................... 1
+1.1 Relevant ideas, capabilities, and approaches........................................................................ 1 1.2 Case studies or examples from similar environments .......................................................... 2 1.3 User journey workflows for identity proofing, sign-in, recovery, and navigation............... 4 1.4 Known limitations, risks, and tradeoffs................................................................................ 4 1.5 Lessons learned from past deployments............................................................................... 5 2 Descriptions of relevant technologies and approaches ............................................................. 5 2.1 Current-state technical baseline (VA.gov) ........................................................................... 5 2.2 Replacement model technology architecture ....................................................................... 6 2.3 Technology options for selective commercial capability insertion ...................................... 6 2.4 DevSecOps, testing, and observability as release gates ....................................................... 8 3 Additional Information Relevant to VA's Objectives............................................................... 8 3.1 Federated operating model: decision rights that scale.......................................................... 8 3.2 Near-term pilots and what VA should expect to learn ......................................................... 9 3.3 Measurement framework aligned to Veteran outcomes ..................................................... 10 A Appendix A. Technology Mapping Matrix .......................................................................... A-1 B Appendix B. Benchmarking approach .................................................................................. B-1
+
+Company Proprietary
+
+i
+
+VA | Replacement Model for VA.gov Request for Information
+
+COMPANY OVERVIEW (EXCLUDED FROM PAGE LIMIT PER RFI INSTRUCTIONS) GovCIO, LLC (GovCIO) respectfully submits our response to the RFI for the Replacement Model for VA.gov. GovCIO is a Transformation Twenty-One Total Technology Next Generation (T4NG) and T4NG2 prime contractor with Capability Maturity Model Integration Development Level 3 (CMMI-DEV Level 3), CMMI-Services Level 3 (CMMI-SVC Level 3), and ISO 9001:2015 certifications. We support VA extensively across the Veterans Health Administration (VHA), the Office of Information and Technology (OIT), the Veterans Benefits Administration (VBA), and the National Cemetery Administration (NCA). We take pride in our focus on our customers, employees, and the Veterans we serve. This focus promotes a shared culture that distinguishes how we deliver IT and managed services. GovCIO has extensive, working-level experience with VA.gov.
+
+General information about GovCIO appears below:
+
+Information
+
+Response
+
+Address
+
+4000 Legato Road, Suite 600, Fairfax, VA 22033 | www.govcio.com
+
+Points of Contact
+
+Megha Chokshi, Phone: 703-587-4156, Email: Megha.Chokshi@govcio.com
+
+Ross Aboff, Phone: 732-710-2953, Email: Ross.Aboff@govcio.com
+
+NAICS code(s)
+
+541512, 238210, 334111, 334210, 334290, 334511, 423430, 513210, 518210, 541330, 541511,
+
+541513, 541519, 541611, 541614, 541618, 541690, 541715, 541990, 611420, 611430
+
+Socioeconomic Data Large Business
+
+DUNS / UEI Number
+
+965479863/ D84JK2RNL7V4
+
+Contractual Vehicles
+
+Vehicle Name
+
+Vehicle Number Award Expiration
+
+VA Transformation Twenty-One Total Technology Next Generation (T4NG) VA118-16-D-1003 03/07/2016 03/06/2026
+
+VA Transformation Twenty-One Total Technology Next Generation 2 (T4NG2) 36C10B-24-D-0002 10/31/2023 10/31/2033
+
+GSA ALLIANT 2
+
+47QTCK-18-D0060 07/01/2018 06/30/2028
+
+GSA IT Schedule 70
+
+GS-35F-0263Y
+
+03/14/2012 03/13/2027
+
+GSA Professional Support Services
+
+GS-00F-223DA 07/20/2016 07/19/2026
+
+RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES/PAST PERFORMANCE SUMMARY (EXCLUDED FROM PAGE LIMIT PER RFI INSTRUCTIONS) GovCIO has extensive experience that is directly relevant to the VA.gov replacement model effort. The following tables describe some of our relevant previous and current contracts, and our experience will support our ability to provide exemplary VA.gov services in the future.
+
+Veterans Readiness and Employment (RES)
+
+Client
+
+Veterans Affairs
+
+Period of Performance
+
+04/2023-present
+
+Brief Description of Relevant Experience with Similar Challenges
+
+The Readiness and Employment System (RES) is a case management platform used by VA Vocational Rehabilitation Counselors
+
+(VRCs) to assist service-disabled Veterans with their transition to post- service employment. VRCs and Veteran Readiness and
+
+Employment (VRE) Services staff directly use RES to deliver benefits authorized under statutory mandates such as Chapter 31
+
+of Title 38, U.S. Code. GovCIO is responsible for the development, modernization, and sustainment of RES, which replaces and
+
+ultimately decommissions the legacy Corporate WINRS (CWINRS) system. We lead efforts to enhance the VA's VRE program's
+
+digital infrastructure by delivering a secure, scalable, and user-centered case management solution through the Appian Low
+
+Code/No Code (LC/NC) platform. Using this COTS-based solution rather than custom development ensures cost efficiency in
+
+both initial system development and ongoing maintenance, while also speeding delivery of modernized capabilities and
+
+accelerating CWINRS decommission. Our services include requirements gathering, system design, agile development, testing,
+
+deployment, and ongoing maintenance. We also ensure integration through GovCIO-built APIs with 17 VA enterprise systems
+
+(such as VA.gov, WEAMS, VBMS, LTS, MPI, and IAM), manage data migration from CWINRS, and provide user assistance to
+
+facilitate adoption. Our team applies Human Centered Design concepts to ensure a pleasant user experience., and DevSecOps
+
+techniques to ensure that security is baked into our solution, and that our development and configuration processes result is timely
+
+delivery of functional products.
+
+Company Proprietary
+
+ii
+
+VA | Replacement Model for VA.gov Request for Information
+Veterans Readiness and Employment (RES) Why this experience enriches our VA.gov capabilities: Through VRE, we developed a working level understanding of how to integrate VRE Veteran benefit system with VA.gov.
+
+Veteran Readiness and Employment Product Sustainment and Enhancement Services (VR&E PSES)
+
+Client
+
+Veterans Affairs
+
+Period of Performance
+
+06/2022 - Present
+
+Brief Description of Relevant Experience with Similar Challenges
+
+Our team provides technical expertise that sustains and enhances VR&E products to improve scalability, increase availability of
+
+services, share and update data between related systems, and enable more efficient delivery. GovCIO understands the VR&E
+
+product landscape, its complex integrations, and associated sustainment and enhancement support needs. We advance
+
+DevSecOps and Product Line Management (PLM) maturity aligned to VA's PLM and DevSecOps playbooks. Additionally, we
+
+have extensive experience with VR&E data management and understand the integrations to provide a cohesive, feasible solution.
+
+GovCIO sustains and enhances the VR&E product suite through a DevSecOps. Our solution advances VA PLM and DevSecOps
+
+objectives through management, sustainment, help desk, integration, and enhancement approaches that promote business value,
+
+workable product roadmaps, metrics, trained resources, and product scorecards. We enhance VR&E and EDU applications,
+
+improving Veteran access to benefits and VA efficiency. Since October 2024, GovCIO has delivered 12 releases, addressing a
+
+15-month backlog of education form updates. Recent efforts include replacing the outdated Web Automated Verification of
+
+Enrollment (WAVE) system with Verify Your Enrollment (VYE), increasing Statement of Benefits (SOB) to 24/7 availability and
+
+migrating the WEAMS Public and Yellow Ribbon Tool (YRT) into the Comparison Tool, providing previously unavailable data
+
+directly to Veterans so they can utilize it to make the best decisions for their education benefits. Additionally, using a federated
+
+approach, GovCIO is updating the VR&E page on VA.gov, enabling Veterans to login to check if they are eligible for VR&E
+
+benefits and complete From 28-1900. Our team delivered Phase 1 in time for Veterans Day 2025, and Phase 2 is on track to
+
+deliver an enhanced claim status and tracking tool by March 2026.
+
+Why this experience enriches our VA.gov capabilities:  Rudisill Benefits on VA.gov - Reduces wait times and simplifies the process of resubmitting applications, ensuring Veterans
+receive their benefits faster and with less hassle.  Integration of Yellow Ribbon Tool (YRT) and WEAMS into the Comparison Tool - Provides a centralized resource for
+researching tuition support and approved institutions, helping Veterans make informed financial and academic decisions. Previously, in order for Veterans to get information for schools, certifications, licenses, national exams, and programs, they had to access several different tools, and the information was often out of date  SOB - Shows the months of entitlements they have left, which is most often used when they're signing up for school or determining how much more of their education is covered under the Post 9/11 GI Bill.  VYE - Veterans can now verify their enrollment online through VA.gov, streamlining the process and saving time. Starting in August, this will be the only verification method, as phone verification is being discontinued.  VRE Page - We are transforming the current static eligibility page into an interactive and personalized experience with RESpowered display features, a logic-based decision flow, and user experience (UX) enhancements for VR&E benefits.
+
+Veterans Legacy Memorial (VLM)
+
+Client
+
+Veterans Affairs
+
+Period of Performance
+
+2019-present
+
+Brief Description of Relevant Experience with Similar Challenges
+
+GovCIO developed, deployed and is currently enhancing the VLM platform. This work is highly relevant to the VA.gov effort
+
+because it involves development and operation of a large scale, public facing web product. VLM is an interactive online
+
+memorialization platform that honors the service and sacrifice of our Nation's Veterans. This publicly available website enables
+
+virtual memorialization of the millions interred and inurned at VA national cemeteries. This platform allows survivors and family
+
+members to grieve and memorialize their Veterans digitally and allows researchers, amateurs, students, and professionals to
+
+share historical and educational information about Veterans and the cemeteries themselves, some of which date back to the Civil
+
+War. As part of this work, GovCIO identifies, integrates, and aligns a leading-edge Commercial-off-the-shelf (COTS) solution with
+
+Veteran needs, VA standards, and VA Application Programming Interfaces (APIs). In 2022, we received four industry awards for
+
+our VLM work focused on digital experience, Human Centered Design (HCD), and innovation.
+
+We created and presently maintain DevSecOps pipelines using Amazon Web Services (AWS) in the VA Enterprise Cloud (VAEC) to support Java, JavaScript frameworks, SQL, Python, Bash, and Groovy following Infrastructure as Code principles, and ensure all physical resources adhere to cloud compliance standards set by the Enterprise. We adapted the front-end User Interface to
+
+Company Proprietary
+
+iii
+
+VA | Replacement Model for VA.gov Request for Information
+Veterans Legacy Memorial (VLM) conform to VA standards. Our DevSecOps pipeline is secured with OIT and VAEC guidance to meet governing security standards. We work across the VLM architecture and technical stack, drawing from VA data sources, including the BOSS and Memorials Data Warehouse (MDW), both built on an Oracle Database Management System (DBMS). This includes maintaining extraction/migration capabilities from BOSS and MDW, as well as the data schema and mappings in a VLM MySQL instance to support full VLM functionality.
+Why this experience enriches our VA.gov capabilities: VLM is the most successful public facing website in the VA inventory. Our expertise designing, developing, deploying and maintaining VLM gives us unique insight into Veteran and user preferences, as well as architecture, development, release, and security considerations regarding VA's public facing websites.
+
+Mail Management Services (MMS)
+
+Client
+
+Veterans Affairs
+
+Period of Performance
+
+9/2002 - present
+
+Brief Description of Relevant Experience with Similar Challenges
+
+GovCIO supports VBA Mail Management Services (MMS), delivering high-volume intake and routing capabilities that streamline
+
+claims processing through standardized preparation, metadata capture, indexing, conversion/imaging where applicable, and
+
+integration into downstream VA systems. Through MMS, GovCIO supports all modalities of VBA's digital intake capabilities, such
+
+as VBA's Direct Upload Service, QuickSubmit and its associated advanced eForm and Form Validation Service (FVS). The
+
+QuickSubmit Platform eForm service recently released VA's 21-5103, 21-4138, and 21-8940 forms to production receiving very
+
+positive VSO feedback during customer centric VBA partner engagement and the related production pilot. The initial form releases
+
+have been so positively received by the VSO community that VBA's OBI is reviewing requests to prioritize the next set of forms
+
+to be delivered on the platform. GovCIO integrated process enhancement and business re-engineering at first touch by
+
+implementing the basic 21-4138 and delivering dynamically generated 21-4138s that reflect live, insitu validation updates
+
+prompted by the inline FVS. Additionally, downstream process awareness led the team to implement Intent to File (ITF) notification
+
+concurrent to 21-8940 submissions. Our capabilities are enabling Veterans and their representatives to securely submit evidence
+
+and forms online and have those submissions reliably validated at first touch, categorized, and routed into downstream VA
+
+processing systems. Many benefit journeys are document-heavy, and the Veteran experience depends on whether submissions
+
+are acknowledged quickly, routed correctly, and reflected transparently in downstream processing. This work emphasizes high-
+
+volume, digital-first intake that must remain available, secure, and traceable under variable demand, while maintaining consistent
+
+metadata, auditability, and dependable integration into enterprise services that drive claims work queues and development
+
+actions. In practice, it is less about a single tool and more about operating a repeatable, measurable submission pipeline that
+
+reduces resubmissions and prevents Veterans from relying on follow-up calls simply to confirm VA received their documents.
+
+Why this experience enriches our VA.gov capabilities: QuickSubmit/eForms/FVS directly inform VA.gov by providing proven patterns for very large scale and dependable digital submission receipts via over 1.145M registered users, critical user and data validation via IAM, FVS and VA Profile, canonical metadata and indexing, automated validation and exception handling, and event-driven status signaling (e.g., "submitted, received, processing, action needed/complete"). This experience supports the replacement model's decomposition approach: keep VA.gov focused on Veteran intent and transparency, while specialized intake and workflow services handle validation, routing, and integration behind stable APIs. The result is reduced Veteran uncertainty, less rework, fewer repeat contacts, and the transparent timelines and proactive notifications Veterans expect from modern digital benefit portals. During the PACT ACT surge in August 2023, VBA's QuickSubmit platform architecture readily handled the record claim submission surge while VA.gov, VBMS, and other critical transactional services failed due to high transactional volumes.
+
+Veteran-Facing Services Applications (VSA)
+
+Client
+
+Veterans Affairs
+
+Period of Performance
+
+07/2019- 04/2022 (prime contractor)
+
+Brief Description of Relevant Experience with Similar Challenges
+
+GovCIO consolidated and transformed VA's public-facing websites and applications into a single, public facing website (VA.gov)
+
+that measurably improved the Veteran experience. VA.gov provides Veterans with a central point for finding out information about
+
+their VA benefits. The portfolio of web-based sites and tools within VA.gov provides an authenticated, unified Veteran experience,
+
+delivering claims submission, claims status checks, and dissemination of information about the VA and relevant topics of interest
+
+to Veterans. We applied a DevSecOps approach to organize, coordinate, and operate nine product teams that built ReactJS/Ruby
+
+on Rails applications for the VA.gov ecosystem. Our Human Centered Design (HCD), engineering, and product teams included
+
+60 FTEs and encompassed the full lifecycle of Veteran-facing applications from discovery through production support. GovCIO
+
+Company Proprietary
+
+iv
+
+VA | Replacement Model for VA.gov Request for Information
+Veteran-Facing Services Applications (VSA) introduced new ways of working to VSA, enlisting Silicon Valley talent, employing cutting edge HCD, and following U.S. Digital Services Playbook best practices to approach this large, complex program and its multiple user groups. We assessed all technologies available and determined the best approach to transform all websites and use open-source code where possible. We built an automated CI/CD pipeline to deploy content/code daily. Based on the consolidation of sites, our support increased online submissions of disability benefits applications by 27% (year over year), and submission of pension applications by 59%, conserving costs and effort, while reducing processing time and paper processes.
+Why this experience enriches our VA.gov capabilities: Our VSA experience is directly applicable to the VA.gov replacement model effort, as we have a thorough understanding of the VA.gov design patterns, codebase, functionality and stakeholders, as well as areas for improvement via the replacement model.
+
+Company Proprietary
+
+v
+
+VA | Replacement Model for VA.gov Request for Information
+
+1 RESPONSES TO THE TOPICS AND QUESTIONS IN THIS REQUEST VA.gov provides a single, trusted entry point for Veterans, families, caregivers, and other Veteran stakeholders. At its inception and during periods of rapid modernization, the primary emphasis for VA.gov was to centralize the user experience, reduce fragmentation, and improve consistency. As the "front door" information source for Veteran benefits and topics of interest, VA.gov is the place where identity orchestration, navigation, content governance, analytics, and cross-portfolio integration decisions must be implemented.
+
+Many of the issues that VA.gov faces today include fragmented experiences, overlapping capabilities, and a user interface that has absorbed too many responsibilities. Over time, solutions developed to address individual program needs have become difficult to sustain at scale. To overcome these and other challenges, GovCIO proposes a value-based approach that focuses on Veteran outcomes and favors incremental, lower-risk changes while ensuring continuity of service. Accordingly, to best satisfy VA.gov objectives, we recommend a federated replacement model. Under this approach, VA.gov would remain the front door experience during transition to a new, enterprise system deployed via a progressive rollout schedule that reduces user acceptance risk through incremental transition, parallel operations, and coordinated rollback paths.
+
+1.1 Relevant ideas, capabilities, and approaches The VA.gov replacement model will evolve from a single, monolithic front door responsible for many enterprise functions to a modular system supported by clearly defined shared capabilities and decision rights. In practice, this means VA.gov will continue to serve as the primary front door for most users during the transition. Meanwhile, essential enterprise functions will be isolated into shared services with designated owners, interfaces, and operational agreements.
+
+To make VA.gov successful, we must observe and learn from large, national public-sector digital access points that often fail in predictable ways. These problems are real, occurring when a singleentry point must handle multiple benefit programs, various identity providers, and a mix of legacy and modern systems. An effective replacement strategy must explicitly account for these failure modes rather than rely solely on platform upgrades. Key failure modes that VA.gov needs to address are described below:
+
+Category Identity
+Identity
+Identity
+Navigation / content Navigation / content Coupling / release risk Coupling / release risk Governance
+Governance
+
+Failure mode / what Veterans experience Sign-in succeeds but downstream services fail due to session or authorization mismatches, creating "I'm signed in but can't proceed" states. Account recovery paths are unclear or inconsistent across contexts, increasing Veteran lockouts. Reauthentication prompts appear unexpectedly during multi-step tasks.
+Navigation is forced to reflect organizational boundaries rather than Veteran intent because transactions are owned by different portfolios. Inconsistent content standards and duplicate guidance emerge when programs update content independently. Changes to support one program unintentionally affect another because shared components are embedded in a single delivery surface. Front-door teams become the integration point for issues that aren't front-door problems, slowing delivery for everyone. Standards become advisory when enforcement is unclear or exceptions accumulate faster than they can be resolved. Decision-making shifts from proactive planning to reactive approval of exceptions, increasing long-term inconsistency.
+
+Typical impact Confusion, repeated attempts, task abandonment, increased contact center traffic. Lockouts, lower trust, higher call volume, longer timeto-complete. Increased abandonment, duplicate submissions, negative CX. Users can't find the right path; higher search reliance; inconsistent journeys. Conflicting instructions, policy confusion, reduced trust, rework. Regression risk, slower releases, higher defect rate, incident spikes. Bottlenecks, long cycle times, unclear ownership, delayed fixes. Drift from target architecture, inconsistent implementations, higher long-term cost. Patchwork solutions, rising technical debt, repeated re-litigation of decisions.
+
+To strengthen our identity and authentication capabilities for the upcoming solicitation, we are partnered with TrueZero, an industry leading cybersecurity services company, to supplement our team.
+
+Company Proprietary
+
+1
+
+VA | Replacement Model for VA.gov Request for Information
+
+GovCIO's recommended approach involves decomposing VA.gov responsibilities and enforcing them through a lean governance structure. Under this approach, responsibilities currently embedded in VA.gov would be decomposed into explicit platform capability layers, each with clear ownership, interfaces, and operational agreements. These capability layers are described below:
+
+Capability Layer Experience delivery
+Identity and access services Navigation and search
+Content operations Analytics and measurement Integration contracts
+
+Scope / responsibilities Veteran-facing interfaces, design system implementation, accessibility enforcement, and journey orchestration aligned to Veteran intent. Authentication orchestration, session management, recovery workflows, escalation paths, and required telemetry. Intent-based routing, taxonomy management, search relevance, and cross-portfolio wayfinding independent of organizational boundaries. Shared content models, publishing workflows, plain-language governance, and quality controls. Common event standards, funnel definitions, task success metrics, error telemetry, and performance monitoring. Stable APIs with shared status and error semantics, versioning, and deprecation policies governing backend integration.
+
+The layering process is the foundation of a federated approach in which portfolios can move rapidly within clearly defined guardrails, shared services enable enterprise collaboration, and standards are enforced through measurable service-level objectives rather than advisory guidance.
+
+1.2 Case studies or examples from similar environments
+
+GovCIO brings considerable experience in modernizing Veteran-facing digital platforms, benefits
+
+processing, and mission-critical workflows. The following case studies are directly relevant to the
+
+VA.gov replacement model challenges and illustrate how to modernize incrementally while
+
+sustaining continuity and public trust.
+
+Case study /
+
+reference
+
+What it is
+
+Relevance to this RFI
+
+Transferable patterns
+
+Readiness and GovCIO supports VBA's VR&E modernization Modern case management and workflow Durable workflow state and resumability;
+
+Employment
+
+through the Readiness and Employment
+
+orchestration at enterprise scale; illustrates operational work management; transparent
+
+System (RES) System (RES), using Agile DevSecOps and a how to introduce and operate commercial status and milestones; standards-based
+
+modernization for low-code workflow platform (Appian) to deliver platforms within federal controls; reinforces integration behind APIs; incremental rollout
+
+VBA VR&E
+
+rapid, secure enhancements and early value the "decompose responsibilities"
+
+with measurable outcomes; governance for
+
+through phased releases. Appian functions as replacement model (front door vs
+
+business rules, roles, and auditability.
+
+a modern workflow/case layer coordinating workflow/case processing).
+
+tasks, routing, and case progression while
+
+integrating with VA services; the Veteran-
+
+facing channel can consume stable APIs and
+
+status events for consistent visibility and next
+
+steps. VA.gov tie-in: this same pattern
+
+supports VA.gov replacement by keeping the
+
+front door thin and composable while workflow
+
+engines manage long-running, document-
+
+heavy processes and emit canonical status to
+
+VA.gov for timelines and notifications.
+
+VR&E Product GovCIO replaced the legacy WAVE system Directly demonstrates the RFI's desired PLM + DevSecOps maturity with release
+
+Suite Sustainment with Verify Your Enrollment (VYE), increasing replacement posture: decompose
+
+governance; federated delivery across
+
+& Enhancement Statement of Benefits (SOB) to 24/7
+
+responsibilities and modernize
+
+programs; resilient integrations and data-
+
+Support (PSES) / availability, and migrating WEAMS Public and incrementally while maintaining continuity. sharing; rapid backlog burn-down via
+
+Federated delivery the Yellow Ribbon Tool (YRT) into the
+
+Shows proven ability to deliver federated, incremental releases; modernization of
+
+across VR&E and Comparison Tool, making previously
+
+cross-product-line outcomes (EDU +
+
+Veteran-facing journeys (interactive eligibility +
+
+EDU
+
+unavailable education benefits data accessible VR&E) with shared standards, strong
+
+status) for VRE and EDU; uptime
+
+to Veterans. Using a federated approach, integrations, and measurable release improvements (24/7 SOB); consolidation of
+
+PSES is also updating the VR&E page on cadence, exactly the kind of operating fragmented tools into a unified experience
+
+VA.gov to allow Veterans to log in to check model VA.gov needs at scale.
+
+(YRT/WEAMS into Comparison Tool);
+
+eligibility, transforming a static page into an
+
+measurable value via scorecards/metrics.
+
+interactive experience with RES-powered
+
+features and logic-based decision flow; Phase
+
+1 delivered by Veterans Day 2025 and Phase
+
+2 targets claim status and tracking capabilities.
+
+Veterans Legacy GovCIO supported VLM, VA's interactive
+
+Public trust and visibility; accessibility, Content operations at scale; search and
+
+Memorial (VLM) - online memorialization solution, including
+
+performance, and resilience; operating discovery; identity-adjacent user interactions;
+
+public-facing, high- ongoing modernization and next-generation model for continuous improvement in
+
+product analytics and continuous improvement
+
+visibility digital capability delivery. VLM demonstrates how to production.
+
+loops.
+
+product
+
+operate a high-visibility public platform with
+
+Company Proprietary
+
+2
+
+VA | Replacement Model for VA.gov Request for Information
+
+Case study / reference
+Mail Management Services (MMS) - QuickSubmit and eForms - digital intake, validation, and integration into claims processing
+Commercial Pattern
+Veterans-facing Services Architecture (VSA) / VA.gov consolidation and scale
+Salesforce Case and Claims Management
+Appian Workflow Modernization
+
+What it is strong UX expectations, accessibility needs, and continuous delivery. GovCIO supports VBA digital intake capabilities such as QuickSubmit and eForms to streamline claims processing through secure online submission, automated validation, metadata capture, indexing, and integration into downstream VA systems. This work demonstrates high-volume, digital-first document and form intake pipelines that VA.gov depends on for evidence-heavy benefit journeys, without relying on paper scanning as the primary entry point.
+Leading healthcare portals (Kaiser Permanente and Epic/MyChart deployments), large insurers (e.g., UnitedHealthcare, BCBS), and major financial institutions demonstrate consistent account hubs, transparent timelines, proactive notifications, and bankinggrade recovery. VA.gov can adopt these patterns while retaining federal controls and VA-specific identity and integration realities. GovCIO supported VA by leading the VSA initiative to integrate disparate content, tools, and brands into a unified Veteran experience, enabling mobile-friendly delivery and customer-first content and design. This work required platform integration, identity and access alignment, and a federated delivery model across VHA, VBA, and NCA while maintaining availability and accelerating adoption. In benefits and claims environments, Salesforce Customer 360 and Salesforce Government Cloud are commonly used to unify case intake, workflow automation, document routing, and real-time status visibility across channels. For VA.gov, this pattern can be applied by implementing case/workflow capabilities as a shared service behind stable APIs (rather than embedding business logic in the front door), emitting canonical status events that drive VA.gov timelines and notifications, and enforcing data minimization and auditability to meet federal security and privacy requirements. Appian (including FedRAMP-authorized offerings) is commonly used to deliver case/workflow orchestration for benefits-style processes where multiple back-end systems must be coordinated (intake, validation, development actions, routing/assignment, document tasks, decision support, status updates). In a VA.gov context, Appian can operate as a workflow layer behind stable APIs: VA.gov remains the Veteran-facing front door, while Appian manages workflow state, business rules, SLAs, and operator work queues, integrating with systems of record and emitting canonical status events that drive VA.gov timelines, notifications, and "next-bestaction" guidance.
+
+Relevance to this RFI
+Document and evidence intake is core to end-to-end Veteran journeys; success depends on reliability, first-touch validation, auditability, and clear receipts/status updates. MMS + QuickSubmit demonstrates how to operate a dependable, scalable intake pipeline that supports Veteran-facing transparency while integrating with complex downstream processing. Notably, during the PACT Act surge (Aug 2023), QuickSubmit architecture handled record submission volumes while VA.gov, VBMS, and other transactional services experienced failures under load, underscoring the value of resilient intake design for continuity of service. Establishes "what good looks like" in regulated, high-stakes journeys; provides proven patterns for trust, transparency, and completion that can be adapted to VA's constraints.
+Demonstrates how to consolidate fragmented experiences without disrupting service; establishes a playbook for federated delivery with shared standards and platform capabilities.
+Illustrates how a commercial case/workflow layer can be introduced incrementally behind VA.gov without a disruptive rebuild; supports enterprisescale orchestration and cross-channel status visibility.
+Demonstrates a practical approach for introducing commercial workflow capability without rebuilding VA.gov. Supports incremental modernization of complex, document-heavy, multi-step journeys while maintaining continuity and federal controls.
+
+Transferable patterns
+Very large-scale digital intake with dependable receipts (1.145M registered users); first-touch validation via IAM + FVS + VA Profile; canonical metadata and indexing; automated validation and exception handling; dynamically generated forms with inline validation; eventdriven processing and status signaling ("submitted, received, processing, action needed/complete"); downstream-aware automation (e.g., ITF notification); operational telemetry and surge resilience. This supports the replacement model's decomposition approach: keep VA.gov focused on Veteran intent and transparency, while specialized intake/workflow services handle validation, routing, and integration behind stable APIs.
+Account hubs ("My" experiences); transparent status timelines; proactive notifications; robust recovery and "return-to-intent"; preference management; receipts and confirmations as a trust mechanism.
+Unified account experience; modular capability delivery; continuous improvement through measurement and iterative releases.
+Case intake + workflow automation; document routing; event-driven status updates; API-first integration; auditability and telemetry; incremental adoption with clear exit/portability options.
+Workflow automation and orchestration; configurable business rules with governance; role-based work queues; SLA tracking; auditready case history; event-driven status updates; phased rollout by journey; decoupled front door from back-office complexity.
+
+Company Proprietary
+
+3
+
+VA | Replacement Model for VA.gov Request for Information
+
+By applying the foregoing experience gleaned from both VA and commercial case studies, GovCIO will deliver a Veteran-facing experience that looks and feels like the best commercial claims portals (i.e., clear submission receipts, actionable next steps, and transparent progression between successive workflows), while allowing VA to incrementally adopt or expand without a disruptive rebuild of VA.gov.
+
+1.3 User journey workflows for identity proofing, sign-in, recovery, and navigation The table below describes recommended workflows that preserve user intent and progress, standardize language, and mitigate risks associated with known failures across web and mobile.
+
+Step 1. Trigger proofing
+2. Select method
+3. Proofing attempt
+4. Confirmation
+1. Entry 2. Authentication
+3. Post-login routing 4. Failure handling
+1. Recovery entry 2. Self-service recovery 3. Assisted escalation 4. Post-recovery
+1. Intent selection 2. Cross-portfolio journey 3. In-journey help 4. Continuous improvement
+
+User experience
+
+System Behavior and Guardrails
+
+Identity proofing (progressive, only when needed)
+
+Explain why proofing is required Require proofing only at transactional boundaries
+
+and what will change after
+
+(e.g., access to sensitive data, submission). Preserve
+
+completion.
+
+in-progress state.
+
+Offer clear options and estimated Broker to identity provider; standardize expectations
+
+time; provide accessible guidance and eligibility checks; pre-validate inputs to reduce
+
+and fallbacks.
+
+hard failures.
+
+Show progress and immediate next Idempotent proofing initiation; retry policy; detect
+
+steps; avoid dead ends.
+
+provider outage and offer alternate path; log
+
+correlation IDs.
+
+Confirm what is now enabled and Persist verified attributes; update entitlement gates;
+
+what remains restricted.
+
+issue receipt and link back to task intent.
+
+Sign-in (fast return, predictable session behavior)
+
+Single, consistent sign-in entry point Centralize sign-in UI patterns; avoid per-portfolio sign-
+
+from anywhere.
+
+in forks; support step-up only when risk requires.
+
+Minimize friction for repeat users; OpenID Connect (OIDC)/OAuth2 session
+
+support phishing-resistant options. management; consistent session duration; safe token
+
+refresh; device-trust where allowed.
+
+Return users to what they were Return-to-intent; restore form state; load minimal shell
+
+doing (not the homepage).
+
+first, then personalized modules.
+
+Tell users what happened and what Differentiate provider failure vs downstream
+
+to do next.
+
+authorization mismatch; actionable errors; optional
+
+assisted support handoff.
+
+Account recovery (single front door + consistent escalation)
+
+One recovery entry point with plain Route to correct identity provider recovery based on
+
+language and reassurance.
+
+credential; prevent loops; preserve intent.
+
+Step-by-step guidance with
+
+Standardize required attributes; implement retry and
+
+estimated time and required
+
+lockout policies; provide accessibility-safe steps.
+
+artifacts.
+
+If self-service fails, offer a clear Capture context (without exposing sensitive data);
+
+handoff path.
+
+create case/ticket; integrate with support channels.
+
+Confirm recovery and return user to Invalidate old sessions; restore safe session; show
+
+task.
+
+next-best-action and prevent repeated lockouts.
+
+Navigation and search (intent-first routing across portfolios)
+
+Help users choose a task in their Use a stable top-level taxonomy; provide benefit finder
+
+words, not VA org terms.
+
+and guided routes; unify labels.
+
+Keep users oriented with clear Journey orchestration service; canonical status model;
+
+steps and status.
+
+consistent breadcrumbs; persistent "My VA" hub.
+
+Provide contextual help and next Embed help content tied to journey steps; surface
+
+steps.
+
+dependency downtime; offer alternate paths.
+
+Navigation improves over time Search relevance tuning; synonym management; A/B
+
+based on real behavior.
+
+testing; analytics standards across portfolios.
+
+Telemetry/Success measures
+Proofing start rate; proofing completion rate; abandon rate; time-to-proof; repeat proofing prompts. Method selection distribution; validation error rate; assist escalation rate.
+Provider failure rate; retry success rate; timeouts; incident correlation.
+Post-proofing return-to-intent success; task completion after proofing.
+Sign-in initiation rate; sign-in success; stepup frequency; abandon at auth. Auth success; MFA success; repeat login frequency; session timeout errors.
+Return-to-intent success; time-to-interactive; error rate on redirect. Signed-in-but-blocked rate; escalation rate; contact center correlation.
+Recovery entry usage; mis-route rate; abandon rate. Recovery completion; time-to-recover; repeat lockouts; partial completion rate.
+Escalation volume; resolution time; satisfaction; reduction in repeat contacts. Post-recovery task completion; repeat recovery within 30 days.
+Task-find success; search-to-click; zeroresult rate. Journey completion; drop-off points; deadend rate. Help usage; reduced repeat visits; contact deflection. Search relevance KPIs; experiment velocity; improved task success.
+
+1.4 Known limitations, risks, and tradeoffs The replacement model must acknowledge and manage predictable risk categories at the VA.gov scale. The table below summarizes major risks and practical mitigations:
+
+Risk / tradeoff Contact center surge after recovery changes Portfolio divergence from standards
+
+Why it matters at VA.gov scale Recovery is a high-emotion, high-scrutiny moment; small UX regressions drive calls. Federated delivery can drift without enforceable contracts and time-boxed exceptions.
+
+Mitigation / design response Stage rollouts; instrument recovery funnels; provide plain-language guidance; build assisted escalation with clear SLAs.
+Define decision rights; enforce API and UX contracts; publish conformance dashboards; time-limit exceptions with executive escalation.
+
+Company Proprietary
+
+4
+
+VA | Replacement Model for VA.gov Request for Information
+
+Risk / tradeoff Backend inconsistency leaks into UX Release risk due to coupling
+
+Why it matters at VA.gov scale Different systems expose different states, terminology, and latency profiles. Shared components embedded in a single surface make unrelated changes risky.
+
+Mitigation / design response Canonical status/error model; orchestration layer; async processing with receipts and timelines; dependency-aware UX. Decompose shared capabilities; isolate modules; progressive delivery with feature flags; contract testing gates.
+
+1.5 Lessons learned from past deployments Across VA.gov, the most impactful lessons learned are operational - platforms succeed when shared services are treated as products with owners, when decision rights are explicit, and when quality and measurement are automated and consistent across portfolios.  Design for failure, not just the "happy path": Identity mismatches, downstream outages,
+and partial completion are inevitable; workflows must preserve progress and provide actionable recovery paths.  Make standards enforceable and measurable: Advisory guidance does not scale; conformance needs automated checks, dashboards, and time-boxed exceptions.  Invest in journey-level telemetry: Prepare for failure states (not only successes), define common event standards, and use SLOs/error budgets to govern release pace.  Reduce platform bottlenecks by building a paved road: Self-service onboarding for integrations, certificates, proxies, and environments lowers lead time and reduces the "front door team as gatekeeper" problem.  Selective modernization beats big-bang rewrites: Evolve Rails where effective, extract services where load and workflow needs demand it, and integrate commercial capabilities behind stable interfaces.
+
+2 DESCRIPTIONS OF RELEVANT TECHNOLOGIES AND APPROACHES Modernizing VA.gov requires more than a new web framework or migration infrastructure, it needs a comprehensive modernization approach that decomposes responsibilities into a manageable structure, strengthens shared enterprise services, and enables portfolios to deliver capabilities securely through a federated model with enforceable standards. To meet these objectives, GovCIO's recommended technology stack and delivery approach focuses on the "platform primitives" that VA.gov needs to operate as a durable digital front door at scale, including identity and access continuity; navigation/search and workflow orchestrations that support long-running and document-heavy journeys; a standardized integration approach; and endto-end observability that ties system health to Veterans' demonstrated ability to successfully complete website tasks such as applying for benefits. This section describes the specific technologies and implementation patterns that support these capabilities, including where commercial platforms can be introduced behind stable APIs to accelerate outcomes without creating front-door coupling or disruption. Also see Appendix A: Technology Mapping Matrix, for a detailed crosswalk from current VA.gov capabilities to target-state shared services, candidate technologies, and the pilots and metrics used to validate each increment.
+2.1 Current-state technical baseline (VA.gov) At present, VA.gov combines a JAMstack-style static content delivery approach with SPA-based transactional experiences. Content is authored in Drupal, exported via Tome Sync and a static build toolchain (Metalsmith + Liquid templates + a Node-based CMS Transformer), and then served via S3 and CloudFront. Transactional applications are commonly React/Redux SPAs (vetswebsite) calling a Rails API façade (VetsAPI) hosted in AWS GovCloud. Key platform tools include Pact consumer-driven contract testing, Cypress end-to-end testing, axe/axe-coconut accessibility testing, Flipper feature flags, Sidekiq background jobs, Redis caching, and Postgres/PostGIS for limited local persistence. Operationally, teams use Sentry for error tracking
+
+Company Proprietary
+
+5
+
+VA | Replacement Model for VA.gov Request for Information
+
+and Prometheus/Grafana/Loki for monitoring and logs, with CI/CD via Jenkins and/or CircleCI and infrastructure automation via Terraform and Ansible.
+
+2.2 Replacement model technology architecture Our proposed replacement model does not require discarding VA.gov's strongest assets. Rather, it requires changing how responsibilities are composed so the front door is not a single point of failure for introducing and exercising enterprise capabilities. GovCIO recommends an experience shell with shared capability services patterns, supported by an API-first design approach and an event-driven release pattern. The table below describes key features of this approach.
+
+Architecture Feature Experience layer
+API and integration layer
+Workflow and status layer Eventing and async processing Search and navigation
+Identity lifecycle services
+
+Description
+ Server-first/hybrid rendering for most pages, with "islands" of React interactivity  Reusable journey modules and a stable account hub ("My VA")
+ API gateway + backend-for-frontend endpoints where needed  OpenAPI-driven approach  Pact tests as release gates  canonical status/error semantics
+ Durable workflow orchestration (e.g., AWS Step Functions, Temporal, or Camunda-style patterns) for form-heavy journeys  Receipts and timelines as first-class outputs
+ SNS/SQS or EventBridge/Kafka-style event buses to decouple user interactions from downstream latency  status aggregation and notifications driven by events
+ intent routing + relevance tuning using OpenSearch/Elastic  Synonym management  A/B testing  Separate content search from transactional search where appropriate
+ OIDC/OAuth2 session management aligned to VA IAM/SSOe  Step-up at transactional boundaries  Single recovery entry and standard escalation patterns
+
+A critical part of the decomposition process is the ongoing evolution of VetsAPI, which currently serves as a centralized middleware layer between VA.gov and multiple backend systems. VetsAPI offers numerous efficiencies, including accumulated orchestration logic, transformation rules, and exception handling to increase coupling and obscure system behavior. Refactoring VetsAPI toward a capability-oriented platform model aligns with VA's goals for scalability, resilience, and parallel delivery. This includes separating concerns such as authorization context resolution, eligibility determination, data access, transaction submission, and status tracking into explicit services.
+As VA modernizes VA.gov, future consumers of VA platform services will include machine consumers, such as policy-governed AI agents, in addition to human-driven interfaces. Preparing for this eventuality requires platform services to be explicit, deterministic, and machineconsumable. Design requirements to support machine consumers and stronger auditability include:
+ Deterministic and idempotent operations  Explicit state models and status transitions  Structured, actionable error responses  Clear separation of read, write, and orchestration responsibilities  Observability supporting auditing, traceability, and rollback.
+
+2.3 Technology options for selective commercial capability insertion VA can improve speed-to-value by selectively inserting FedRAMP-authorized commercial capabilities behind stable interfaces. Examples include workflow/case tooling for targeted domains, notification delivery systems, document services, and analytics platforms, provided that they align with VA security, privacy, and ATO constraints. Examples appear below:
+
+Company Proprietary
+
+6
+
+VA | Replacement Model for VA.gov Request for Information
+
+Workstream Scope the use case
+Define the minimum viable case + status contract Integrate via gateway + contract testing
+Identity and access alignment
+Documents and correspondence pipeline
+Eventing + status/notification backbone Instrumentation and SLIs/SLOs
+Progressive delivery + rollback
+Governance and operating model
+
+Key Decisions and Activities Select the specific workflow domain(s) Salesforce will support (e.g., claims intake, correspondence, evidence requests, status routing). Define what remains in systems of record vs what lives in the case/workflow layer. Establish a canonical case object and a minimal status lifecycle (e.g., received, in review, action needed , and complete) plus error semantics. Put Salesforce behind an API gateway; enforce authentication/authorization at the gateway/BFF; implement consumer-driven contract tests. Use VA IAM/SSOe for authN/authZ; implement step-up auth at transactional boundaries; ensure consistent roles/claims mapping for case access. Implement secure upload, malware scanning, metadata tagging, routing, and retention policies; connect to MMS/document services where applicable.
+Publish canonical case/status events from Salesforce to an event bus; update a status timeline service and trigger notifications. Define and measure SLIs across the workflow: submission success, queue latency, time-to-first-action, time-to-firstdecision, exception rate. Establish SLOs and error budgets. Roll out by cohort (feature flags/canaries), maintain parallel run where needed, and ensure rollback paths (including data/state considerations). Establish ownership for the case/status contract, exception handling, release coordination, and standards enforcement across portfolios.
+
+Artifacts / Outputs Use-case scope statement; system boundary diagram; data minimization plan.
+OpenAPI specs; status taxonomy; error taxonomy; versioning/deprecation policy. Gateway policies; Pact test suite; API monitoring; release gates.
+Identity flow diagram; claims/roles mapping; session strategy; audit logging approach. Document metadata schema; scanning/routing workflow; chain-ofcustody/audit logs.
+Event schema; topic design; notification templates; preference center rules.
+Journey telemetry plan; dashboards; alert thresholds; error budget policy.
+Rollout plan; rollback runbook; cutover criteria; incident playbooks.
+Decision-rights matrix; exception process; architectural review gates; change calendar norms.
+
+Benefits for VA.gov Replacement
+Keeps the "front door" thin and avoids migrating everything at once.
+This contract is what VA.gov renders; vendor implementation stays behind the API. Prevents vendor-specific changes from breaking VA.gov journeys. Reduces "signed in but can't proceed" states and inconsistent recovery. Enables document-heavy journeys (evidence, correspondence) with traceability. VA.gov timelines/notifications stay consistent even if workflow tooling changes. Proves whether the commercial insertion reduces friction and operational burden. Maintains continuity of service while changing high-risk workflow components. Prevents standards from becoming advisory and avoids cross-portfolio drift.
+
+VA.gov's current Rails stack already includes a Salesforce/Force.com REST client library that supports pragmatic integration patterns during pilots and phased adoption without requiring a wholesale platform replacement. These capabilities are best realized through:
+ Workflow/case management: Low-code platforms (e.g., Appian) for rapid delivery of case workflows where appropriate, integrated via APIs and eventing.
+ Notifications: Enterprise messaging services (e.g., AWS Pinpoint or equivalent) with template governance, preference center, delivery telemetry, and audit trails.
+ Search: Managed search platforms (OpenSearch/Elastic) with relevance tuning and centralized governance.
+ Digital experience tooling: Experimentation and analytics tooling to measure journey outcomes and equity impacts with common event schemas.
+
+Selective Go adoption. In parallel with selective insertion of commercial capabilities, VA can reduce release risk and improve performance in high-concurrency, workflow-heavy domains by selectively introducing Go-based services behind stable APIs (e.g., submission pipelines, workflow-orchestration adapters, status aggregation, and notification/event processing). This is not a "replace Rails everywhere" approach. Instead, Rails can remain where it is stable and effective, while Go can be used for components that benefit from predictable concurrency, lower runtime overhead, and clearer service boundaries. Go also aligns well with modern developer workflows, including AI-assisted code generation and refactoring, which can accelerate delivery when paired with OpenAPI/Pact testing, security scanning, and SLO/error-budget governance.
+All of the technology options discussed above support a federated approach by letting teams adopt a consistent, scalable service pattern without forcing a single monolithic rewrite of VA.gov.
+
+Company Proprietary
+
+7
+
+VA | Replacement Model for VA.gov Request for Information
+
+2.4 DevSecOps, testing, and observability as release gates At the VA.gov scale, tooling only helps when it supports a repeatable operating system. GovCIO recommends a "paved-road" CI/CD pipeline with automated evidence and progressive delivery, as described below:
+
+DevSecOps Feature Automated gates
+Progressive delivery
+Observability Continuous compliance
+
+Description
+ Accessibility (axe/axe-coconut)  Security scanning (e.g., Brakeman for Rails, dependency scanning)  Contract tests (Pact)  Journey-level regression tests (Cypress)
+ Feature flags (Flipper)  Canaries  Automated rollback triggered by SLO degradation  Clear go/no-go criteria for high-risk changes
+ Consistent correlation IDs  Distributed tracing (OpenTelemetry-style)  Dashboards for end-to-end journey health across portfolios
+ Software Bill of Materials (SBOM) generation  IaC policy-as-code,  Secrets scanning  Automated packaging of ATO evidence artifacts
+
+Appendix A: Technology Mapping Matrix provides a full crosswalk of proposed technologies and approaches, including how each aligns to proven commercial portal patterns (account hubs, recovery, transparent timelines, proactive notifications) while remaining compatible with VA's security, privacy, and integration constraints.
+
+3 ADDITIONAL INFORMATION RELEVANT TO VA'S OBJECTIVES In addition to the replacement models, workflows, and technology options described above, GovCIO recommends several practical steps that directly support VA's broader objectives, including maintaining continuity of service; reducing Veteran burden and "time taxes"; improving trust through transparency; and enabling consistent delivery across portfolios. This section outlines actionable pilot efforts, measurement practices, and operating-model recommendations that will help VA move from planning to execution with lower risk, demonstrating early value while building reusable shared services that scale across Veteran benefits, health, and memorials experiences. It also highlights how GovCIO's experience delivering high-visibility VA platforms (VSA, RES, PSES, VLM, and MMS) informs an incremental, evidence-driven modernization strategy that improves end-to-end Veteran outcomes while strengthening governance, reliability, and long-term maintainability.
+
+3.1 Federated operating model: decision rights that scale VA noted that replacing VA.gov is not solely technical, success depends on coordination across experience design, platform architecture, content strategy, governance, analytics, and operating models. A federated approach will only be successful when VA clarifies decision rights, enforces standards, and preserves portfolio delivery velocity. Decomposition can be implemented through multiple operating models. Beneath, we outline three viable models (which can be combined during transition), with practical tradeoffs:
+
+Model Composable Digital Front Door
+Federated Experience with Enforceable Standards
+
+Description
+VA.gov remains the front door experience, but relies on shared enterprise services for identity, navigation/search, content operations, analytics, and integration contracts.
+Portfolios deliver experiences while adhering to enforceable standards for identity, navigation, content, measurement, and integration contracts.
+
+Strengths Strong continuity of service; reduced release risk through decoupled changes; clearer separation of responsibilities.
+Scales across diverse organizational structures; reduces central bottlenecks when enforcement is clear; enables portfolio agility.
+
+Considerations / risks
+Requires disciplined service ownership, clear operating agreements, and sustained investment in shared services.
+Higher inconsistency risk if standards become advisory; exception handling must be strong to avoid drift and fragmentation.
+
+Company Proprietary
+
+8
+
+VA | Replacement Model for VA.gov Request for Information
+
+Model
+Journey-Based Experience Architecture
+
+Description
+VA organizes the front door around Veteran intent and life events (e.g., manage health, manage benefits, update personal information), supported by orchestration that spans systems and exposes consistent statuses and next steps.
+
+Strengths
+Improves task completion; supports end-toend measurement and outcome-driven delivery; strengthens cross-portfolio coherence.
+
+Considerations / risks
+Requires shared semantics across backends; strong analytics governance; orchestration and status models must be standardized.
+
+To make federated delivery successful, VA should establish and publish a decision-rights model that defines what is centrally owned (standards, contracts, enforcement) and what remains portfolio-owned (delivery within guardrails). The table below suggests a practical approach:
+
+Model Identity patterns and recovery Navigation and search Content governance Analytics and measurement Design system and components Integration contracts
+Identity patterns & recovery Navigation & search Content governance Analytics & measurement Design system & components Integration contracts Identity patterns & recovery
+
+Name Recovery flows, language, session standards, escalation paths, telemetry requirements Top-level taxonomy, intent routing rules, search standards, naming conventions Content models, publishing workflow, plain-language rules, quality checks Event standards, funnel definitions, core KPIs, performance SLOs
+Core components, accessibility requirements, pattern library
+API standards, status and error semantics, versioning and deprecation policy
+Platform / Enterprise Recovery flows, language, session standards, escalation paths, telemetry requirements Top-level taxonomy, intent routing rules, search standards, naming conventions Content models, publishing workflow, plain-language rules, quality checks Event standards, funnels, core KPIs, performance SLOs Core components, accessibility requirements, pattern library
+API standards, status/error semantics, versioning, deprecation policy Recovery flows, language, session standards, escalation paths, telemetry requirements
+
+Description Portfolio-specific authorization rules and task-specific risk controls Portfolio-specific content and task routes within standards Program-specific content within models and review cycle Portfolio-specific KPIs, experiment design, local dashboards Portfolio pages and workflows using approved components Backend implementations and roadmap for adoption
+Task-specific authorization rules and risk controls
+Portfolio routes and content within standards
+Program content within models and review cycle
+Portfolio KPIs, experiments, local dashboards Portfolio pages and workflows using approved components Backend implementations and adoption roadmap Task-specific authorization rules and risk controls
+
+3.2 Near-term pilots and what VA should expect to learn GovCIO recommends near-term pilots that can generate quick wins while minimizing risk. These pilots should be sized to prove capability models, governance, and measurement before broad expansion. Each pilot should include baseline measurements, progressive exposure (internal, limited pilot, cohort rollout, then broader adoption), and explicit rollback paths with objective go/no-go criteria tied to journey service level objectives. Suggested pilots are described below:
+
+Pilot Identity Navigation Shared analytics Content governance
+
+Objectives unify the entry point, language, and escalation path for a subset of users while measuring recovery success and the contact center's impact reorganize routing around a Veteran's intent and validate task completion improvements implement common funnel definitions and error telemetry across two or more portfolios to support cross-system debugging and prioritization
+adopt common content models and quality checks for a high-traffic area to reduce inconsistency and improve clarity
+
+Through this series of pilots, VA can determine:
+ Where identity and authorization mismatches occur most frequently, and what design patterns reduce them.
+ Which governance decisions require central ownership to prevent fragmentation.  The integrations needed to provide a smooth and consistent user journey  How metrics correlate to Veteran trust and operational burden, enabling better prioritization.
+
+Company Proprietary
+
+9
+
+VA | Replacement Model for VA.gov Request for Information
+
+3.3 Measurement framework aligned to Veteran outcomes GovCIO recommends measuring progress using outcome-oriented metrics aligned to value. This approach avoids relying solely on platform milestones and provides defensible evidence of improvement over time. Core metrics by value category that should be addressed appear in the following table:
+
+Area Experience Access and utilization Costs and operational burden
+Equity Population health and care processes
+
+Example measures / indicators Task success, time-on-task, satisfaction signals, error rate, recovery completion rate. Ability to complete key transactions digitally; reduced unnecessary in-person dependency for digital-eligible tasks. Contact center deflection; reduced repeat contacts due to identity and navigation failures; reduced rework from duplicated capabilities. Differential task success and recovery success across demographic and connectivity segments, with targeted remediation. Where applicable, engagement with digital tools that support care management and continuity.
+
+Measurement hygiene is how VA can ensure that the metrics above are credible, comparable, and actionable across portfolios. It establishes shared instrumentation and reporting standards so VA can see not only whether journeys are "up," but also whether Veterans can reliably complete tasks end-to-end, especially through failure states such as authentication issues, dependency outages, and recovery. This discipline enables consistent decision-making, supports SLO/error-budget governance, and provides transparent dashboards that reveal where experience and operational improvements are actually occurring.
+
+Measurement hygiene Common standards Failure visibility SLO discipline End-to-end transparency
+
+Practices Define common event standards and funnels for top Veteran journeys. Instrument failure states, not only success paths. Use service-level objectives for availability and performance, with error budgets to guide release pace. Publish dashboards that show end-to-end journey health across portfolios.
+
+GovCIO recommends applying the benchmarking method shown at Appendix B as a patternbased comparison (account hub, recovery, timelines, notifications, wayfinding) rather than a feature-by-feature mimic. This keeps VA's approach mission-aligned and compliant, while leveraging proven commercial expectations to set measurable targets for journey performance. The result is a disciplined feedback loop (benchmark, instrument, improve, re-benchmark), with gaps translated into shared-service investments that benefit multiple portfolios.
+
+Company Proprietary
+
+10
+
+VA | Replacement Model for VA.gov Request for Information
+
+A APPENDIX A. TECHNOLOGY MAPPING MATRIX
+
+The matrix below provides a crosswalk from the current VA.gov architecture to our recommended
+
+replacement model.
+
+Capability /
+
+Commercial pattern
+
+objective Current VA.gov (today) Recommended evolution Enabling technologies
+
+references
+
+Proving pilot + measures
+
+Content & Drupal CMS, Tome Sync Content-as-data with stronger Headless/decoupled CMS USA.gov benefit finder Modernize 1 high-traffic
+
+publishing export; Metalsmith + modeling/governance;
+
+patterns; typed content
+
+content patterns; large
+
+content area. Measure build
+
+pipeline
+
+Liquid templates; static preview + safe rollout; reduce models; CDN cache
+
+retail/health portals' content time, broken-link rate,
+
+HTML on
+
+CMS-driven app coupling. strategy; preview
+
+governance.
+
+accessibility regressions.
+
+S3/CloudFront.
+
+environments.
+
+Experience Isolated React/Redux Single shell with consistent Hybrid rendering;
+
+Amazon account shell; My VA MVP (3 journeys).
+
+shell & My VA SPAs; portfolio-specific nav + tasks + status + docs + composable design tokens; banking dashboard-first Measure task success,
+
+hub
+
+dashboards.
+
+routing; preferences; journeys feature flags; CDN.
+
+portals.
+
+time-to-status, repeat
+
+plug in as modules.
+
+logins.
+
+Identity
+
+SSOe federation
+
+Decouple identity from
+
+OIDC/OAuth; session
+
+Apple/Google passkeys; Return-to-intent pilot.
+
+proofing / (ID.me/DS Logon/MHV); workflows; step-up at
+
+continuity service;
+
+bank-grade recovery.
+
+Measure auth drop-off,
+
+sign-in /
+
+SAML reassertion;
+
+transaction boundary; return- Webathons/passkeys
+
+recovery success, resume
+
+recovery recovery disrupts
+
+to-intent; preserve state.
+
+(where allowed); secure
+
+rate.
+
+progress.
+
+recovery UX.
+
+Forms +
+
+VAFS (VA fork RJSF) Treat forms as workflows: Workflow engine (Step
+
+Insurer claims; MyChart Migrate one form. Measure
+
+workflow wizard; heavy UI
+
+backend branching/validation; Functions/Temporal/Camun questionnaires;
+
+completion, save/resume,
+
+orchestration coupling; limited durable durable state; idempotent da); queues; state store; case/workflow platforms. error rate, time-to-complete.
+
+state.
+
+submit + receipts.
+
+idempotency keys.
+
+Backend Rails monolith (some Selective extraction: keep Go services; API gateway; Portals isolate transaction Extract one service.
+
+evolution engines); tech debt; stable Rails; add Go services contract tests; container engines.
+
+Measure p95 latency,
+
+(domain- surge variability; manual for high-concurrency
+
+deploy; SBOM/SAST
+
+cost/throughput, deploy
+
+critical
+
+review gates.
+
+orchestration/validation.
+
+automation.
+
+safety.
+
+services)
+
+Status
+
+Portfolio-specific status; Canonical status model + Status aggregator; event Package tracking; insurer Timeline + notifications for 1
+
+timelines + inconsistent vocabulary; reusable timeline UI; events bus; caching; notification claim timelines; MyChart portfolio. Measure call
+
+proactive frequent polling/check- drive notifications; next-best- templates; preference
+
+timeline.
+
+deflection, polling reduction,
+
+comms
+
+backs.
+
+action guidance.
+
+center.
+
+satisfaction.
+
+Search + Search blends
+
+Separate content search vs OpenSearch/Elastic;
+
+Google-like relevance; retail Tune top queries. Measure
+
+benefit finder content/services; limited transactional routing; guided synonyms; click analytics; search; insurer provider search success, bounce,
+
+relevance tuning;
+
+benefit finder; analytics-driven A/B tests; faceting;
+
+search.
+
+completion uplift.
+
+inconsistent routing. tuning.
+
+structured benefit metadata.
+
+Documents & Uploads to S3; malware Unified documents service: Pre-signed uploads;
+
+Adobe-style doc hub;
+
+Consolidate 2 upload flows.
+
+digital
+
+scan; receipts
+
+upload, scan, classify, route, scanning pipeline;
+
+insurer upload centers. Measure upload success,
+
+mailroom inconsistent; multiple track with user-visible receipt. metadata; rendering;
+
+processing time,
+
+pathways.
+
+integration to Central Mail.
+
+resubmissions.
+
+Reliability, Sentry +
+
+Journey-level SLOs + tracing; OpenTelemetry; SLO
+
+SRE error budgets; internal Instrument 3 journeys +
+
+observability, Prometheus/Grafana/Lo progressive delivery with auto tooling; canary; Pact;
+
+developer portals.
+
+launch support bot.
+
+and delivery ki; external service
+
+rollback; spec-driven TDD; Playwright/Cypress;
+
+Measure MTTR, change
+
+enablement monitoring; testing scale self-service platform + AI Backstage; IaC modules;
+
+failure rate, integration lead
+
+constraints; platform support desk.
+
+RAG/ChatOps.
+
+time.
+
+bottlenecks.
+
+Company Proprietary
+
+A-1
+
+VA | Replacement Model for VA.gov Request for Information
+
+B APPENDIX B. BENCHMARKING APPROACH
+
+Benchmarking component
+
+What VA does
+
+Select "expectation setters" Identify leading benefits, healthcare, and financial portals (plus high-performing
+
+(commercial + public)
+
+public-sector comparators) that demonstrate strong account hubs, recovery,
+
+status transparency, and proactive notifications.
+
+Define a pattern-based
+
+Compare VA.gov journeys to commercial portals using pattern categories (e.g.,
+
+comparison (not feature
+
+sign-in/recovery, guided navigation, save-and-resume, receipts, status timelines,
+
+matching)
+
+next-best-actions, notifications).
+
+Score per journey using the Apply the VA scorecard dimensions (experience, access/utilization, operational
+
+VA scorecard
+
+burden, equity, etc.) plus measurement hygiene requirements.
+
+Instrument VA.gov to support Establish common event standards, funnels, and failure-state telemetry;
+
+apples-to-apples
+
+implement SLOs and error budgets.
+
+measurement
+
+Run recurring benchmark Quarterly (or release-train) reviews to refresh comparators and validate whether
+
+reviews ("commercial drift" VA.gov still meets evolving user expectations.
+
+checks)
+
+Translate benchmark gaps into Convert high-impact benchmark gaps into prioritized platform work (shared
+
+platform backlog
+
+services: identity, navigation/search, notifications, workflow orchestration, status
+
+semantics).
+
+Output / how it's used A curated comparator set used to define "what good looks like" for each journey pattern. A repeatable rubric that avoids "copying" and instead captures transferable design/operating patterns. A journey-level score that is comparable across portfolios and over time. Credible metrics that tie UX outcomes to reliability and dependency health.
+Ongoing modernization targets that stay aligned with real-world expectations without chasing trends. A measurable roadmap that improves outcomes across multiple journeys, not oneoff fixes.
+
+Company Proprietary
+
+B-1
+
+

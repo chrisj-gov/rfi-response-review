@@ -1,0 +1,389 @@
+Department of Veterans Affairs
+Replacement Model for VA.gov
+Sources Sought Notice
+February 5, 2026 Solicitation Number: 36C10B26Q0131
+
+Submitted to: Contract Specialist Allison Fulton, allison.fulton@va.gov
+Contracting Officer Evan Schlisserman, evan.schlisserman@va.gov
+
+Submitted by: M&H Transformation Partners, LLC 1417 West Park Road, Greensburg, IN 47240 Socio-Economic Status: SDVOSB UEI: RZ9NHBTWTKC9
+Cage Code: 15H31
+M&H Transformation Partners LLC is a joint venture between lead partner Hidden River Group (legal name "FedComply LLC") and McKinsey & Company, Inc. Washington D.C.(McKinsey)
+
+This response is the property of McKinsey & Company, Inc. Washington D.C. ("McKinsey") and should not be disclosed outside the
+This reGsopvoenrnsmeenist othr beepdruoppliceartteyd,oufsMed&, oHr dTisrcalonssefdo--rminawtihoonlePorairntnpaerrts--,fLorLaCny("pMurp&oHse")oathnedr thsahnotuoledvnalouat tbeethdisisrecslpoosnesde. oTuhitsside the Governremspeonntseocrobnetaidnsupcolincfaidteendti,aluasneddp,rooprridetiasrcyloinsfoermd--atioinn twhahtoisleexoerminpt pfraomrt--disfcolorsaunreyupnduerrpSoescetioonth(be)(r4t)hoaf nthetoFreeveadolumaotef this responInsfeo.rmTahtiiosnrAecst,p5oUn.sSe.Cc. o§n5t5a2inest sceoq.nAficdceonrdtiinagllya,nndo pporrotiopnrioeftathrisy riensfpoornmseatsihoonultdhbaet riesleeaxseedmwpitthforuotmcondsisulctilnogsMucreKinusnedye&r Section (b)(4) oCfomthpeanFyr.eedom of Information Act, 5 U.S.C. § 552 et seq. Accordingly, no portion of this response should be Internarel /leAaustheodrizweidthpoaurttnceorsnsulting M&H.
+
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Page 1 of 18
+
+M&H Transformation Partners, LLC 1417 West Park Road Greensburg, Indiana 47240
+February 5, 2026
+Allison Fulton Evan Schlisserman Department of Veterans Affairs Technology Acquisition Center
+Subject: Replacement Model for VA.gov
+Dear Ms. Fulton and Mr. Schlisserman,
+Please find attached M&H Transformation Partners LLC (M&H's)'s response to the Department of Veterans Affairs, Sources Sought Notice for Replacement of VA.gov. We appreciate the opportunity to share perspectives on how VA can modernize its digital front door to deliver a secure, resilient, and Veteran-centric experience.
+We thank you for the opportunity to respond to this Sources Sought Notice and look forward to any future engagements through which we can serve VA. If you have any questions about our response, please do not hesitate to contact me at (571) 277-6007 or jamie@hiddenrivergroup.com. For contractual questions please contact Stu Barnes-Israel at 520-310-1855 or stu@hiddenrivergroup.com.
+Sincerely,
+Jamie Warlick Director M&H Transformation Partners LLC
+
+Internal / Authorized partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Page 2 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+1.0 The Challenge VA Faces
+
+The Department of Veterans Affairs (VA) is undertaking the modernization of VA.gov, the primary digital front door for millions of Veterans, their families, caregivers, and trusted partners. VA.gov is inherently complex: it is required to support a variety of use cases each with varying levels of required security and accessibility.
+
+Visitors ask a lot of the VA's front door. Transitioning services members may be seeking basic information about Transition Assistance or Jobs that match the skills they developed while serving. Caregivers may be seeking information about services in their area that could help a Veteran navigate long term health issues. Veterans come with needs as varied as quick validation of a phone number to complex questions about resolving a disputed benefits claim. VA.gov has many "jobs to do" and the current information architecture, while innovative at the time of deployment, does not prioritize ease of use nor does it take advantage of the incredible advances in tiered authentication and AI fluid interfaces that have dramatically changed the surface area of web and mobile experiences in recent years.
+
+A single user is likely to interact across web, mobile, contact centers, and emerging channels while moving between roles such as patient, beneficiary, or caregiver, and trying to assess information both before and after they log in. Intelligent identity management is critical to creating a seamless experience for each cross-section of those categories. Imagine a VA.gov that invested into the great opportunities modern identity management solutions provide, enabling a full profile of all of Veteran's data to come together. In this world, a Veteran who had not yet enrolled in VA services is able to explore the information they need when they need it with low-friction methods to build profiles and authentication details over time as a perceived value add vs up front as a potential blocker. In this approach, identity is a product not a service - growing and evolving alongside the visitor to match their preferences and needs. Profile and identify become foundational elements of the experience--enabling secure, intuitive access while preserving continuity, privacy, and trust across systems, channels, and moments in the Veteran journey.
+
+The audience of VA.gov is ready for this modernization. Transitioning service members are ~1.5-2x more likely to interact exclusively through mobile and text interfaces than web, driven by the rapidly shifting demographics of the force, with Gen Z comprising ~40% of active-duty Service members1. Gen Z Service members prefer real-time, on-demand, personalized content and have a lower barrier to adoption for new technology2. Consistent with these preferences, 78% report that mobile-friendly, shorter, and lower-friction digital interactions would significantly improve their experience with public services3. The current information architecture of "click and explore" is ready for transformation to a more seamless, channel-agnostic conversational interface that can meet Veterans and other visitors where they are and get them quickly and easily to the information they need.
+
+1 https://www.vox.com/future-perfect/368528/us-military-army-navy-recruit-numbers 2 https://www.rand.org/pubs/research_reports/RRA3249-1.html?utm_source=chatgpt.com 3 McKinsey Research on Gen Z interest in public service
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+1
+Page 3 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+The stakeholder needs on the VA side of the equation are equally complex with competing priorities for scarce digital real estate across the complex ecosystem of local services, health care facilities, benefits administrators, mental health services and more. Integration across all of these siloed services and data sets would have required massive data engineering and quality investment a few years ago. But with the advances seen in the last two years around agentic data integration and governance, agentic profile management and increasingly easy-todeploy-and-manage orchestration layers that can span multiple disparate platforms and data sets - the time is right for VA to rethink how VA.gov is both designed and, equally importantly, how it is architected in order to better serve Veterans and ensure that VA can benefit from the savings and efficiency available in modern AI enabled experiences.
+
+Delivering a modernization at this scale is certainly challenging. Successfully modernizing VA.gov will require VA to look at the modernization beyond a large IT project, and see it is a strategic opportunity to unlock value across VA. The mindset for the modernization should keep in mind both the near-term changes needed, and plan for the potential future state with new emerging technologies pulled in to fulfill new Veteran needs that might not exist yet today. To create a truly Veteran-centric experience means VA needs to understand a Veteran's full experience and interactions even beyond the edges of VA.gov so VA can make the parts of the experience they influence as seamless and connected as possible. The challenge goes beyond the technology choices - but so does the potential benefit. VA should hold a high bar for themselves - while the context is unique, similar challenges have been successfully tackled in other industries, such as banking, health insurers and even within the public sector at IRS, all of which M&H partners has played the strategic partner. VA has an opportunity to improve Veteran experience and create a more seamless, holistic data mesh across the many services and data sets in the VA ecosystem. The potential value of this holistic, intelligent and evergreen data profile of a Veteran is truly a game changer and M&H partners would be thrilled to be on the playing field.
+
+2.0 About M&H Transformation Partners
+
+M&H Transformation Partners (M&H) is a mission-driven mentor-protégé joint venture (MPJV) of McKinsey & Company, Washington, DC, (McKinsey) and Hidden River Group (HRG), a Service-Disabled Veteran-Owned Small Business (SDVOSB). M&H brings a Veteran-centric perspective grounded in lived experience and deep familiarity with VA's mission, operating environment, and digital ecosystem. This dual perspective enables M&H to approach VA.gov modernization not as an abstract digital modernization program, but rather a mission-critical transformation that must work for Veterans and their families in real-world, time-sensitive, and high-stakes moments, including for those with limited digital literacy.
+The mentor and protégé partners bring deep experience supporting public sector clients across digital strategy, identity and access management, platform modernization, governance, and operating model transformation. McKinsey's role as mentor brings additional depth as a trusted advisor to public sector institutions worldwide, having served all 15 U.S. cabinet departments, 35+ states, and over 80% of the Forbes 100 companies. M&H partners have supported 30+ engagements in the past 5 years across VA and adjacent Federal organizations, spanning Veterans health, benefit portfolios, and cross-functional mission areas.
+M&H brings world-class capabilities across design, technology, value assurance, and change management to help VA modernize VA.gov with confidence. We specialize in translating strategy into execution by aligning experience design, identity and access management, platform architecture, governance, and operating models to deliver measurable outcomes
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+2
+Page 4 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+without disrupting mission-critical services. As VA evolves VA.gov, M&H is best positioned to help balance near-term improvements with long-term resilience, working effectively within existing constraints, including established identity providers, while helping VA assess how identity strength, access pathways, and user experience can evolve to better serve different users and use cases. By pairing deep VA and Veteran knowledge with disciplined delivery and leading private sector expertise, M&H brings a unique combination of credibility, execution capability, and strategic foresight that is not replicated elsewhere, enabling VA to deliver immediate value today while building a durable digital foundation that can adapt to future generations of Veterans.
+3.0 Concepts and ideas for a Future Ready VA.gov Experience
+
+Our experience has proven that a digital modernization effort of this size and complexity requires a mix of strategic product management, human centered design and true technical innovation. In particular, VA should consider emphasizing creative and tech-forward approaches to leverage AI to drive a more fluid and comprehensive definition of Veteran Identity, leveraging a data interoperability layer to empower more connectivity across the VA technology ecosystem and ensure real commitment to governance and change management to ensure critical services are uninterrupted through the modernization process.
+
+3.1 AI-Enabled Veteran Identity Management
+
+Every Veteran's experience is a unique journey. No two Veterans will experience the same touchpoints and need the same services in the same sequence, but all of them deserve to feel like the VA knows them as an individual and can meet their specific needs. How that is accomplished is through identity management a key focus in the modernization. An effective identity management system is more than just a tool for managing credentials; it is a strategic enabler of trust, operational excellence, and innovation. It could enable a true consolidated single source of a Veteran's identity, meaning a merged profile inclusive of credentials, history, medical records, benefits qualifications, service history and more. This has traditionally been difficult due to siloed nature of different agencies (e.g., Veterans Health Administration (VHA), Veterans Benefits Administration (VBA) and Department of War (DOW)) where data may not naturally flow between different groups.
+
+Identity management could serve as the connective tissue that enables seamless transitions across different user profiles, such as moving from unauthenticated browsing of general information to authenticated access for specific services to a Veteran, caregiver, or spouse, without friction or repeated verification. Even without having signed up for VA.gov at all, Veterans and stakeholders should still be able to access non-sensitive information related to their query. The information can become more relevant and personalized once logged in and their user profile is recognized. Additionally, a broader arrangement of identity verification options would work to make logging in easier, as users today in commercial spaces expect to be able to log in from multiple sources (typically Google, Apple, Facebook, in addition to email and password). (See Exhibit A)
+
+Identity management could go far beyond the basics of managing usernames, passwords, or storing the standard Veteran details. A robust identity management system has the potential to fundamentally reshape how the VA safeguards its services and resources. By delving deeper
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+3
+Page 5 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+into how an identified Veteran interacts with the system, we could proactively address risks like fraud and impersonation. There could be a world where AI-powered behavioral biometrics and continuous identity verification is used to detect anomalies in real time to flag suspicious activity, preventing malicious actors from exploiting the platform and protecting both Veterans and the VA from harm.
+
+Together, these capabilities point towards a best-in-class digital experience in which Veterans, caregivers, and others can securely access the information and services they need with minimal friction, while VA benefits from increased security, reduced risk, and more efficient operations.
+
+3.2 Governance as an accelerator for delivery
+With a program of this scale, seamless coordination across departments is essential, spanning everything from technical platform architecture to content management and beyond. Establishing clear governance at multiple levels of the program ensures effective alignment and decision-making throughout the modernization effort. Without this structured approach, the implementation might be delayed by misaligned priorities or slow decision-making processes.
+A central governing body at the program level, often called a Transformation Office or Digital Delivery Office, is established to drive alignment, transparency, and efficiency across departments. This central governing body plays a critical role in coordinating efforts, ensuring systematic escalation and communication of information, and maintaining compliance with federal guidelines and regulations. (See Exhibit B)
+A core responsibility of this governing body is to own the decision-making processes and approval gates, to make sure that decisions are made efficiently to maximize impact, minimize delays, and remove roadblocks. They focus on identifying clear decision-makers and enforcing that their time in meetings is spent making actionable decisions instead of receiving updates that require no action. Additionally, they empower decision-making at the lowest appropriate level, avoiding unnecessary escalation to leadership for routine matters.
+This governing body sets the pace for the modernization effort and creates a collaborative environment. VA already has a number of governance groups and approval processes, and this central governing body isn't meant to just add to that number. Instead, it ensures strategic alignment and streamlines processes, enabling VA employees directly involved in the modernization to focus on their work without additional logistical or administrative work added to their plates.
+Governance at various levels within the program helps ensure smooth operations, particularly with data governance. From our experience, data availability may not be the issue, but data accessibility will very likely be. VA and various agencies have collected tons of data on Veterans and individuals, so the data is there. Being able to access the data and pull it into the new VA.gov with the right data quality standards and formats is a different, more challenging story, especially as VA starts integrating data from various silos, such as the VBA and VHA, as other agencies along critical touchpoints in the journey.
+Data governance provides a structured approach to ensure that data is accurate, accessible, secure, and compliant with federal regulations. By centralizing decisions about data and managing its entire lifecycle, from collection to analysis, data governance helps organizations get the most value out of this critical resource. Data governance ensures high data quality so it's reliable for decision-making, streamlines data processes to eliminate duplication and errors, and reduces risk by proactively addressing potential issues like data breaches or regulatory noncompliance.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+4
+Page 6 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+The responsibility for managing data governance typically lies with specific individuals or teams, often called Data Domain Owners or Data Stewards. These professionals are responsible for setting data quality standards, overseeing data architecture, and ensuring that the organization's data is well-managed and effectively used to support its broader goals. In short, data governance isn't just about managing data--it's about creating a foundation that allows organizations to use their data confidently and strategically.
+
+3.3 Change management and product adoption as a success driver
+
+While many IT projects are contracted as solely the technical aspect, with change management as a separate endeavor, it will be critical to loop them together tightly and invest in change management and product adoption. While maintaining continuity of service has a technical angle in how the organization builds in parallel and does a system cutover, there is also a more human angle as we are changing processes and behaviors of users, both internally (e.g., employees owning the updated sites or who pull data from updated sites) and externally (e.g., Veterans, spouses, caretakers).
+
+Change management in a program like this will focus on internal users, such as development teams, policy specialists, claim officers, etc. For these users, guiding them through upcoming process changes and providing transparency is key to avoid increasing burden or adding time to VA employees who already have their plates full. (See Exhibit C) Waiting to communicate until the full plan has been defined is a common pitfall. It's key to provide insight into activity underway, even to communicate process, such as when a decision will be made or the process to make that decision. A modernization effort like VA.gov will impact so many different employees and departments across VA. Showing commitment to transparent communications from the start will empower VA employees impacted by the modernization to support and maintain it long-term. Support from senior leaders will additionally empower employees to stay committed to the modernization effort. Like many other organizations, VA employees are often pulled between competing priorities. Having a senior leader recognize the modernization effort is one of VA's top priorities will not only demonstrate VA leadership's commitment to the transformation but also inspire VA employees to believe in it and prioritize it.
+
+Product adoption refers to external users, such as Veterans and their families and anyone else who interacts with the Veteran across the journey. "If you build it, they will come" is not necessarily true, especially for public sector implementations, which require dedicated focus on how to broadcast the change and support the users through the long tail post-launch. For federal agencies, more than 50% of customer burden is driven by trying to find the right information, unclear communications, and redundant information (see Exhibit D). With this in mind, communicating clearly and proactively with Veterans and all who will be using VA.gov will avoid confusion, resistance, and loss of trust among Veterans. Best practices for communication strategy include consistent communications and messaging across all channels, offering a "backup solution" or temporary workaround for Veterans who run into issues with an updated part of VA.gov (e.g., dedicated help email or support network in the contact center). It's key to acknowledge the long tail of the communication strategy. Stopping all communication efforts after the transition may leave Veterans feeling unsupported and reduce long-term adoption. By providing updates, addressing lingering concerns, and sharing success stories, VA can reinforce trust and ensures sustained satisfaction and adoption.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+5
+Page 7 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+Change management and product adoption will be key drivers to the long term success of the VA.gov modernization, as VA will humanize a technical implementation to convey the "why" behind the change: making life easier for Veterans.
+
+4.0 Key Considerations on the Path to Success
+
+The modernization of VA.gov will require navigating the challenges typical to large scale IT projects, like meticulous coordination across multiple stakeholder groups and careful consideration of legacy systems and underlying architecture integration. For VA to truly succeed in this transformation, VA should seize the opportunity to address several critical factors that may not be scoped into a standard IT software replacement project:
+· A platform for value creation, not just delivery
+This isn't just an IT project--it's a strategic opportunity to unlock value across VA
+· Design for the future state, not just the immediate need
+Prioritize innovation, anticipate emerging technologies, and build with a future-focused roadmap in mind
+· Seamless end-to-end service across the Veteran journey Deliver a seamless, connected experience by recognizing that Veterans' interactions extend beyond VA.gov and ensuring all touchpoints feel intuitive, consistent, and integrated
+
+4.1 A platform for value creation, not just delivery
+Instead of thinking of the modernization of VA.gov as another big IT project, it should be approached as a strategic transformation that can unlock significant value across the VHA, VBA, Office of Information and Technology (OIT), and beyond. While high quality technical implementation is essential, long-term success often depends on how well strategy, delivery, governance, and change are aligned over time.
+Large platform transitions become high-risk when early warning signs are missed or not acted upon. Roughly 72% of federal IT modernizations fail to deliver the expected value within the planned timeframe4. Our research shows ~68% of IT modernizations at VA5 from 2014-2024 exceeded initial cost and/or schedule estimates - accounting for a cumulative ~$700M in cost overrun and cumulative 8,837 days in schedule delay. These risks are compounded when system integrators (SIs) are responsible for both solution delivery and program management, creating conflicts of interest that favor contract compliance, team utilization, and reactive change orders over enterprise value and long-term outcomes. Without independent value assurance to provide objective program coordination, disciplined decision-making, continuous feedback
+
+4 Projects labeled as exceeding initial cost if total exercised value after all modifications exceeds maximum potential award from base contract (including options). Projects labeled as exceeding base schedule if latest end date on any contract modification exceeds originally planned contract end date, including contracts with originally planned contract end dates that have not occurred yet (e.g., 2026)
+5 68%, or 19 of 28 VA IT modernizations (e.g., EHRM) over the last 10 years; based on USAspending.gov data on 95 federal IT modernizations exceeding $50 million from 2014 to 2024,2 GAO reports,2 and responses from 13 interviews with senior federal IT leaders (including former federal CIOs, CTOs, and enterprise architects) and technology provider executives (such as senior vice presidents and senior managers)
+
+M&H Transformation Partners subject to the restrictions on the title page. Use or disclosure of information contained on this page may be 6
+
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Page 8 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+loops, and active management of benefits realization, public sector programs struggle to convert investment into sustained impact, highlighting the critical role M&H plays in protecting and realizing value throughout delivery.
+M&H has served as a value assurance partner on numerous large-scale technology implementations, working alongside system integrators and vendors to ensure programs deliver intended outcomes, not just technical solutions. One example is McKinsey's work with a large U.S. State's Unemployment Insurance agency as it undertook a multi-year effort to transform the end-to-end customer experience for claimants and employers. As a strategic partner, we worked closely with agency leadership and frontline teams to understand current-state journeys across channels, including the website, call center and IVR, in order to holistically understand what the claimants and employers need beyond the technical system. These insights informed the design and deployment of a new customer portal. Additionally, to further ensure the success of the new portal and program overall, we supported the agency in defining and launching a focused portfolio of 20+ customer experience initiatives. This included co-designing improvements across key touchpoints such as customer communications and call center operations, and helping the agency navigate design and implementation tradeoffs.
+
+Overall, the state's UI transformation was not a simple "rip and replace" exercise but a missiondriven effort to generate value across the full-service ecosystem. Similarly, modernization of VA.gov should be treated as an enterprise-wide transformation of how Veterans, families, and caregivers experience VA services end to end, requiring partners who can move beyond technical delivery to ensure successful execution and sustained impact.
+
+4.2 Design for the future-future, not just the immediate need
+With any IT project, the instinct is to start by documenting today's workflows and current pain points to optimize what already exists. This is a necessary step in the process, but this approach alone will not future-proof VA.gov or ensure it continues to meet Veterans' needs years from now. Modern digital platforms should fit naturally into users' lives and behaviors, rather than requiring users to learn new patterns or navigate complex structures to get answers. The roadmap should be designed to continuously adapt to evolving Veteran expectations, new technologies, and future needs.
+The already high expectations from users only get higher as newer technologies come out like conversational interfaces. Veterans increasingly expect their digital experiences to feel intuitive and conversational, particularly when seeking help with complex or time-sensitive issues such as understanding why benefits have not been received and what actions are needed to resolve the issue. They do not want to navigate multiple layers of pages or interact with tools that redirect them somewhere else. They want to say their question in plain language and get back a clear response. If VA.gov cannot meet this expectation, Veterans will likely turn to external tools that can (i.e., ChatGPT), though the external tools are known not to be fully accurate.
+
+As AI becomes embedded across digital and non-digital experiences, VA should consider how modernization can create AI-supported contact centers that seamlessly connect online and phone channels. AI can improve call routing, equip agents with real-time insights, and autonomously handle routine inquiries, reducing friction for Veterans and improving efficiency. Looking ahead, VA.gov should also be designed to support inbound agentic AI, so that Veterans can use their own AI tools to complete common tasks or check status directly through VA systems. In parallel, outbound AI offers the opportunity to proactively anticipate Veterans' needs by providing timely updates on benefit status, personalized reminders for appointments or
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+7
+Page 9 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+eligibility, and other proactive communications that reduce uncertainty and prevent avoidable inquiries.
+
+Future-proofing VA.gov also requires anticipating known future use cases, not just future technologies. VA already has visibility into upcoming initiatives such as integration with VA's Oracle-Cerner Electronic Health Record (EHR) and other enterprise platforms. While these efforts may not yet be fully defined, the VA.gov platform should be designed with the flexibility and extensibility to support them when ready, rather than requiring incremental and costly rework down the line. Planning for these known future needs now enables VA.gov to remain a durable foundation as the broader VA ecosystem continues to evolve.
+
+Modernizing VA.gov is not a one-time IT effort, but an ongoing commitment to innovation and value creation. Delivering on this vision requires a partner with the independence, crossfunctional depth, and the leading public and private sector expertise to look beyond technical delivery and help VA continuously translate emerging trends and technologies into meaningful outcomes for Veterans. M&H is uniquely positioned to play this role, bringing a proven ability to establish the governance, operating rhythms, and test-and-learn processes that enable continuous adaptation rather than a static roadmap. Through this iterative, learning-driven approach, M&H helps ensure VA.gov evolves alongside user needs and technological advances, remains trusted and mission-aligned, and continues to generate sustained value for Veterans and the broader VA ecosystem over time.
+
+4.3 Seamless end-to-end service, across the Veteran journey
+Putting the Veteran at the center means understanding that their journey extends far beyond VA.gov and may include many other stakeholders along the way. Veterans interact with a broad ecosystem of systems and organizations, including military online services, the Social Security Administration, and other Federal and non-Federal partners. However, Veterans do not experience agencies, systems, or programs as separate silos; they expect a seamless, integrated experience, where every interaction feels connected, intuitive, and effortless. VA.gov as a platform serves a diverse ecosystem of users beyond Veterans themselves, to include spouses, caregivers, dependents, healthcare providers, and other external partners, each of whom bring distinct needs and expectations as they interact with the Veteran. The Veteran journey does not stop at the boundaries of VA.gov, and modernization efforts should not either.
+Modernizing VA.gov therefore requires a holistic, journey-centric approach that looks beyond individual features or touchpoints to understand the full arc of how Veterans access services, resolve issues, and move through critical life moments. This approach prioritizes humancentered design (See Exhibit E) and dives into the end-to-end experience, from how someone transitions from military to civilian life to how they establish identity, navigate benefits, interact with multiple agencies, and ultimately achieve resolution. A journey-centric approach could uncover use cases where agencies could interact to suppor Veterans, such as linking transitioning service members exploring job readiness on VA.gov to the hundreds of open jobs posted by the Department of War that would fit transitioning service members. By designing with the full journey in mind, VA can address both immediate needs and foundational capabilities, such as identity management, fraud prevention, military transition support, and tools like a unified digital wallet, that enable a more coherent and trusted experience.
+We applied this journey-centric approach with a Federal agency responsible for financial payments and insurance to redesign the disability benefits application process. Through interviews, surveys, and panels with over 100+ stakeholders, including claimants, local office staff, state review offices, and claimant support networks such as attorneys and advocates, we
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+8
+Page 10 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+developed a deep understanding of users and their end-to-end journeys. Claimants consistently highlighted frustration with fragmented experiences that forced them to repeat information and navigate disconnected handoffs between digital and in-person channels. The redesign focused on creating a seamless, connected experience that bridged online and human interactions, ensuring that every step felt intuitive and cohesive despite the complexity behind the scenes. This same journey-centric mindset is essential to ensuring VA.gov delivers a unified, Veterancentered experience at scale.
+5.0 Selected M&H Relevant Experiences
+
+The MPJV brings together complementary past performance from its member firms, combining McKinsey & Company's experience in large-scale, mission-driven transformation and value assurance with HRG's deep technical delivery and federal implementation expertise. The following examples illustrate how each partner's proven capabilities could be applied in support of VA.gov modernization.
+Enterprise modernization and reliability, in transitioning legacy tooling
+Overview: Hidden River Group (HRG) supported VHA's Office of Healthcare Transformation (OHT) through the Project Portfolio Management Excellence (PPME) initiative by helping transition OHT from legacy project-management tooling (IHPM 1.0) to an improved enterprise platform (IHPM 2.0). We started with discovery to understand OHT's project execution and leadership reporting needs, then used iterative prototyping (Figma) and frequent stakeholder feedback to validate requirements and de-risk usability and adoption before build-out.
+Outcomes: HRG delivered IHPM 2.0 through agile two-week sprints using Power Platform (Power Apps/Dataverse; with supporting tools including JIRA and SharePoint), paired with structured testing and UAT to validate functionality. In parallel, we reduced long-term sustainment risk by implementing "single source of truth" reference data in Dataverse, standardizing solution packaging and developer handoffs, and standing up a centralized inventory to manage app metadata, risks, and dependencies. Specific outcomes include: (1) successful completion of multiple IHPM 2.0 sprints that enhanced dashboards, intake forms, and metadata tagging; (2) development of a centralized repository system that improved accessibility and reduced redundancies; and (3) deployment of improved applications (e.g., GI Cancer Screening Tool and Prolotherapy App) that enhanced reporting and process efficiency.
+
+Rapid technical delivery of enterprise-wide application
+Overview: HRG provided technical implementation advisory and delivery support for OHT/PPME initiatives tied to the Integrated Critical Staffing Program (ICSP), specifically the implementation of a Vendor Management System (VMS) to facilitate exchange of vacancy information with vendors on the ICSP contract vehicle. We defined essential VMS requirements and produced an MVP plan with a 30-day build target, assembled a crossfunctional team (technical developers, UI/UX, change management, and PM), and maintained a high-tempo stakeholder cadence with decision logs and design-feedback sessions to keep alignment tight and decisions traceable.
+Outcomes: We achieved the MVP in 30 days and delivered a fully operational model ready for government handover in 60 days, including training materials (videos and documentation) to
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+9
+Page 11 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+support adoption. The customer's final performance assessment rated HRG Excellent in Technical (Quality), Schedule (Timeliness), Cost Control, and Management/Business Relations--specifically citing our ability to meet aggressive timelines, manage LOE/funding alignment and reallocation as requirements evolved, rapidly backfill staff to maintain momentum, and collaborate effectively with senior client leaders and contracting stakeholders. This is a strong proof point for delivering reliable, scalable operational tooling quickly in a complex VA environment.
+
+Predictive Veteran Experience Insights
+Overview: McKinsey supported the Veteran Experience Office (VEO) in building a Predictive Veteran Experience Insights Hub. The goal was to understand trends in Veterans' trust and retention with VA services and identify influencing factors. The system built includes a Journey Lake with over 1000 data features, two predictive machine learning models, a driver analysis module, and a simulation module. The primary stakeholders were VEO and the Office of Integrated Veteran Care (IVC). The system was designed to benefit the VHA patients, with the potential to extend its methodologies to beneficiaries of VBA services. Provisioning the technical architecture, including a variety of complex services on the government's Azure cloud, was completed in close collaboration with the Office of Information Technology (OIT).
+Outcomes: The Predictive Veteran Experience Insights Hub has empowered the VA with datadriven insights into Veterans' experiences. It has enabled the VA to assess the likelihood of a VHA patient's trust and return for care, understand specific factors impacting trust and retention, and prioritize initiatives that target these drivers. The system aims to facilitate service recovery and proactive outreach, thereby enhancing Veterans' engagement with VA services.
+
+Private Sector Website Redesign to Drive Customer Engagement and Conversion
+Overview: McKinsey supported a global property management company in the redesign of its customerfacing property websites, with the goal of creating a more intuitive and customer-friendly digital experience. The redesign focused on reducing friction as prospective residents moved from discovery to touring and leasing apartment homes. The work included end-to-end experience and interface design, supported by user research, usability testing, and A/B testing. McKinsey built reusable website templates in Sitecore with a front end built in React, enabling the client to independently extend and scale the redesigned experience across properties over time, and developed a metrics and analytics dashboard to track performance and inform ongoing roadmap decisions. The website redesign was delivered alongside broader digital and data initiatives, including CRM enhancement, mobile application development, and the implementation of a data governance structure and data migration. The redesigned websites were fully integrated with these efforts, pulling data from the CRM, synchronizing content with the mobile app to ensure consistency across channels, and adhering to established data governance standards. This integrated approach ensured a seamless customer experience while enabling scalable, data-driven digital operations.
+Outcomes: The redesigned websites introduced new capabilities, including a customer-facing chatbot, and enabled each property site to surface more timely and accurate information. These enhancements drove measurable improvements in lead generation and engagement across the portfolio. The platform achieved a 58.17% engagement rate, exceeding the target by more than three percentage points, and attracted approximately 33,000 active users,
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+10
+Page 12 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+significantly surpassing the target of 1,000. The improved digital experience also delivered a 6.67% lead-to-lease conversion rate, which was successfully scaled across 85 properties.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+11
+Page 13 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+6.0 Supplemental Exhibits and Supporting Materials
+Provided outside narrative page limits
+
+Exhibit A: Common trends in authentication types and examples of organizations who use that authentication type
+Veterans who use other services and websites are increasingly seeing various types of authentication beyond the standard password and email and may now be expecting the channels they interact with to provide this, including VA.gov. To move the modernized VA.gov to be a best-in-class experience will need to include multiple authentication methods that Veterans may find easier.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+12
+Page 14 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+Exhibit B: Illustrative example of a potential governance framework that includes program level governance and data governance teams
+Careful coordination will need to be done across the program, and data governance will need to enforce data quality standards and data availability to enable the modernization across VA.gov.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+13
+Page 15 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+Exhibit C: McKinsey's Influence Model describes the four elements that should be addressed as part of a successful change management endeavor
+Change management for VA employees will be critical to bring them along the journey and prioritize the modernization before, during, and after the modernization implementation to sustain it long term.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+14
+Page 16 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+Exhibit D: Research from McKinsey's Federal CX Benchmark Survey shows that customers find clear communication and ease of finding information to be the most burdensome part of trying to use government services.
+As VA modernizes VA.gov, it will be necessary to emphasize clear communication and enhance methods to find information, e.g., navigation and search functionality, to get to the goal of a Veteran-centric experience.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+15
+Page 17 of 18
+
+Department of Veterans Affairs Replacement Model for VA.gov
+
+Solicitation #: 36C10B26Q0131 February 5, 2026
+
+Exhibit E: Human centered design or design thinking follows a set process of assessing the problem and identifying the solution to keep it user-centric all throughout.
+In order to be truly Veteran-centric, a design thinking approach will enable the VA.gov team to keep the Veteran and their experience clearly in mind as the teams make decisions and trade-offs on how to design and build the new VA.gov.
+
+M&H Transformation Partners
+Document Ref: UKQTW-UMWWR-JVFOY-2FJ7U
+
+Use or disclosure of information contained on this page may be subject to the restrictions on the title page.
+
+16
+Page 18 of 18
+
+REF. NUMBER
+UKQTW-UMWWR-JVFOY-2FJ7U
+SIGNER
+JAMIE WARLICK
+EMAIL
+JAMIE@HIDDENRIVERGROUP.COM
+
+TIMESTAMP
+SENT
+05 FEB 2026 14:49:14
+SIGNED
+05 FEB 2026 14:49:15
+
+DOCUMENT COMPLETED BY ALL PARTIES ON
+05 FEB 2026 14:49:15 UTC
+SIGNATURE
+IP ADDRESS
+71.230.36.0
+LOCATION
+DEVON, UNITED STATES
+
+Signed with PandaDoc
+
+PAGE 1 OF 1
+
+

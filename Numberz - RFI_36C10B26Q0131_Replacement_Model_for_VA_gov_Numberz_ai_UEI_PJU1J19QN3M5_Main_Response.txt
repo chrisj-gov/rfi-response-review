@@ -1,0 +1,141 @@
+Replacement Model for VA.gov Request for Information (RFI) Response
+Solicitation Number: 36C10B26Q0131 Agency: Department of Veterans Affairs (VA),
+Technology Acquisition Center (TAC)
+Submitted by: Numberz.ai (Small Business, Georgia, USA) Point of Contact: Dr. Tricha Anjali (Founder) Submission Date: February 05, 2026
+This response is submitted for information and market research purposes only in response to the Department of Veterans Affairs (VA) Request for Information (RFI) 36C10B26Q0131, Replacement Model for VA.gov. This submission does not constitute a proposal, does not commit Numberz.ai Inc to provide any goods or services, and does not create any binding obligation on either party. The Government does not intend to award a contract based on responses to this RFI and will not reimburse costs incurred in
+the preparation of this submission.
+
+1. Executive Summary
+The Department of Veterans Affairs' vision to replace VA.gov represents a pivotal opportunity to evolve from a collection of digital services into a unified, Veteran-centric digital platform. VA.gov today already demonstrates strong design foundations and service breadth; however, the next generation must address deeper challenges across identity, platform architecture, data integration, governance, analytics, and operating models--while maintaining uninterrupted service for millions of Veterans.
+Numberz.ai proposes a platform-first, governance-embedded approach to VA.gov modernization. Rather than treating replacement as a front-end redesign or isolated system rebuild, we view VA.gov as a continuously evolving digital ecosystem that unifies Veteran experience, operational workflows, and decision support across benefits, healthcare, records, and services.
+Our experience delivering secure, regulated digital platforms in federal and commercial environments demonstrates how VA can modernize incrementally--reducing risk--while enabling innovation through modular architecture, rules-driven workflows, explainable automation, and datainformed service delivery.
+2. Understanding the VA.gov Replacement Challenge
+VA has correctly identified that replacing VA.gov is not solely a technical challenge. Based on our review of VA.gov user journeys and the interfaces provided, the core challenges include: Scale and Continuity
+The replacement model must support millions of concurrent users with high public visibility and zero tolerance for extended downtime. Continuous access to benefits, care, and records is nonnegotiable. Fragmented System Landscape
+VA operates multiple legacy and modern systems with varying data models, ownership, and quality levels. Workflow orchestration across services remains inconsistent. Identity, Trust, and Access
+Multiple identity providers operate with varying assurance levels by service, creating friction during sign-in, recovery, and escalation processes. Governance and Accountability
+Regulatory oversight, auditability requirements, and explainability of automated or assisted decisions must be maintained throughout the modernization effort. Veteran Experience Expectations
+Veterans expect clear "what's next" guidance, transparency into claims and service status, proactive benefit discovery, and consistent experience across domains.
+
+Response to RFI 36C10B26Q0131
+
+2 of 9
+
+Any replacement model must address all five challenges simultaneously.
+3. Observations from the Current VA.gov Experience
+Based on a review of current VA.gov user interfaces and workflows (see Appendix A), it is evident that VA has already established a strong foundation for Veteran-facing digital services. The existing experience reflects thoughtful design, accessibility considerations, and meaningful consolidation of services across healthcare, benefits, and records. The interfaces demonstrate that VA.gov is no longer a static informational website. Instead, it functions as an active digital service hub, supporting authenticated access, real-time status updates, and cross-domain engagement. These characteristics position VA well to evolve VA.gov from a service portal into a fully integrated digital platform. Key observations from the current experience include:
+· A unified homepage that surfaces appointments, claims status, and notifications in a single view · Integrated health management features, including prescriptions, care teams, and device-connected
+data · Clear indicators of identity verification status and account security posture · Early forms of proactive messaging (e.g., action-required notifications, reminders, and alerts)
+These capabilities indicate that the VA.gov replacement effort can focus on deep integration, orchestration, and governance, rather than rebuilding basic digital functionality.
+4. Using the Current Experience as a Launch Point
+The screenshots provided in Appendix A illustrate several critical design and operational patterns that should be preserved and extended in a replacement model.
+4.1 From Siloed Services to a Unified Veteran State
+While current VA.gov interfaces present information from multiple domains (healthcare, benefits, claims, identity), each domain still largely operates independently behind the scenes. A nextgeneration VA.gov can build on the existing UI patterns by introducing a governed Veteran state layer that unifies these domains operationally. Rather than treating appointments, claims, and benefits as separate applications, the platform can maintain a continuously updated Veteran profile that reflects:
+· Current benefit eligibility · Active and pending claims · Healthcare engagement and care milestones · Identity assurance level
+
+Response to RFI 36C10B26Q0131
+
+3 of 9
+
+· Required or upcoming actions
+This Veteran state becomes the authoritative context for personalization, guidance, and workflow orchestration across VA.gov.
+4.2 Event-Driven Experiences Reflected in the UI
+Several of the provided screens already hint at an event-driven model--for example, notifications indicating required actions or upcoming appointments. A replacement model can formalize this pattern by treating key changes as first-class events, such as:
+· A claim entering a new review stage · A document requiring signature · A prescription renewal becoming available · A change in eligibility status · Completion of identity verification
+Each event can trigger coordinated responses across the experience, including user notifications, updated guidance, and internal workflow execution. This reduces Veteran uncertainty and improves operational efficiency.
+5. Identity, Trust, and Access as a Continuous Process
+The current VA.gov experience already exposes identity verification status and security information to users (see Appendix A). This transparency is an important trust signal and should be expanded in a replacement model.
+5.1 Progressive Identity Assurance
+Rather than treating identity verification as a one-time hurdle, a replacement VA.gov can adopt a progressive identity model. In this approach:
+· Low-risk activities require minimal authentication · Higher-risk actions (claims submission, financial updates, medical record access) trigger stronger
+verification · Veterans are clearly informed why additional verification is required
+This model balances security with usability and aligns with Zero Trust principles without imposing unnecessary friction.
+
+Response to RFI 36C10B26Q0131
+
+4 of 9
+
+5.2 Trust Indicators Embedded in the Experience
+Trust indicators--such as verification status, data freshness, and action completion--can be consistently surfaced throughout VA.gov. The screenshots in Appendix A demonstrate early examples of this pattern. Expanding these indicators improves Veteran confidence and reduces reliance on support channels.
+6. Workflow Transparency and Explainable Progress
+Current VA.gov interfaces display progress indicators for claims and services. However, progress is often represented as a single percentage or status label, which can be difficult for Veterans to interpret. A replacement model can improve transparency by shifting from linear progress indicators to dependency-based progress explanations, showing:
+· Which steps are complete · Which steps are pending · Whether an item is waiting on the Veteran or the VA · How delays affect timelines
+This approach aligns with the rules-driven workflow experience demonstrated in Appendix A and supports both Veteran trust and internal accountability.
+7. Intelligent Assistance as a Governed Capability
+The presence of an "Intelligent Service Assistant" in the current experience (Appendix A) reflects VA's intent to provide guided support at scale. For a replacement VA.gov, it is critical that such assistance be implemented as a governed capability, not a free-form AI interface. Rules-First Guidance Assistance should be grounded in authoritative systems, eligibility rules, and policy logic. AI techniques can then be applied to explain outcomes, summarize next steps, and assist navigation-- without acting as a system of record or decision authority. Auditability and Safety All guidance should be traceable to source systems and policies, ensuring that Veterans and VA staff can understand how conclusions were reached. This approach mitigates hallucination risk and supports regulatory oversight.
+
+Response to RFI 36C10B26Q0131
+
+5 of 9
+
+8. Analytics, Governance, and Continuous Improvement
+The screenshots in Appendix A suggest early forms of analytics-driven engagement (e.g., surfaced tasks and reminders). A replacement VA.gov can extend this capability by embedding analytics and governance into the core platform. Governance by Design Governance should be enforced at every layer, including identity, data access, workflow execution, and assistance. This ensures that modernization does not introduce new risk. Feedback-Driven Evolution VA.gov should continuously measure:
+· Veteran journey completion rates · Friction points and drop-offs · Service response times · Effectiveness of guidance and notifications
+These insights can be used to iteratively improve the experience without disruptive platform changes.
+9. Relevant Experience and Past Performance
+The experiences summarized below demonstrate capabilities directly applicable to the VA.gov Replacement Model effort, including secure platform modernization, rules-driven workflows, identityaware access, governed data integration, and operation of highly visible digital services in regulated environments.
+9.1 Secure Rules-Driven Workflow Platform (Regulated Environment)
+Client: Confidential Insurance Provider Period of Performance: 2022-2024 Role: Rules modeling, configuration, validation, and deployment support
+9.1.1 Overview
+Designed and supported a production rules-driven workflow platform governing agent actions, approvals, and transactions in a regulated environment. The system enforced deterministic business and compliance rules, role-based access control, and full auditability for all actions and decisions.
+9.1.2 Key Capabilities Demonstrated
+· Translation of policy and compliance requirements into executable, testable rules · Role-based access control and separation of duties · Deterministic decision logic with complete audit trails
+
+Response to RFI 36C10B26Q0131
+
+6 of 9
+
+· Secure deployment coordination, including vulnerability assessment and penetration testing support
+· Operational stabilization of workflows supporting daily production use
+9.1.3 Relevance to VA.gov Replacement
+This effort closely mirrors VA.gov requirements for transparent, auditable workflows supporting claims, eligibility, approvals, and "action required" journeys. It demonstrates experience implementing explainable, rules-based decision logic in staff- and user-facing systems where trust, traceability, and compliance are mandatory.
+9.2 Enterprise Platform Modernization and Governance (Fortune-500 Financial Services)
+Client: National-scale Financial Services Organization (via Ensylon Prime) Period of Performance: FY2025-Ongoing Role: Enterprise data strategy, platform architecture, and modernization
+9.2.1 Overview
+Leading a multi-year enterprise modernization initiative to transition legacy platforms into a cloudnative, governed data and services architecture. The program unified ingestion, analytics, governance, and operational monitoring across more than 120 siloed data sources.
+9.2.2 Key Capabilities Demonstrated
+· Incremental modernization of legacy systems without service disruption · Cloud-native platform architecture supporting scalability and resilience · Centralized metadata, lineage, and data quality governance · Policy-driven access controls and continuous compliance monitoring · Automated validation pipelines supporting reliable production operations
+9.2.3 Results
+· Reduced manual reconciliation time by approximately 70% · Consolidated over 120 legacy data sources into a unified governed platform · Improved explainability and traceability for regulated analytics use cases
+9.2.4 Relevance to VA.gov Replacement
+VA.gov replacement requires modernization across experience, platform architecture, analytics, and governance while maintaining continuity of service for millions of users. This engagement demonstrates proven capability to execute large-scale, low-risk modernization with governance embedded from the outset.
+
+Response to RFI 36C10B26Q0131
+
+7 of 9
+
+9.3 Secure Multi-System Digital Access Platform (U.S. Army)
+Client: U.S. Army (AskPhil Platform) Period of Performance: FY2024-Ongoing Role: Secure platform architecture, multi-system integration, and governed retrieval
+9.3.1 Overview
+Designed and deployed a secure, FedRAMP-aligned platform providing conversational and analytical access to multiple authoritative Army systems. The solution integrated structured and unstructured data sources while enforcing strict access control, source attribution, and auditability.
+9.3.2 Key Capabilities Demonstrated
+· Secure cloud deployment in a federal operating environment · Integration of multiple legacy and modern systems into a unified access layer · Governed retrieval with source citation and anti-hallucination controls · High-availability operations supporting large user populations · Measurable reductions in manual research and response time
+9.3.3 Relevance to VA.gov Replacement
+This project demonstrates how a highly visible federal digital service can provide intuitive navigation and assistance across complex system portfolios while preserving governance, security, and trust--directly aligning with VA's goals for identity, navigation, analytics, and operating model modernization.
+9.4 Compliance-Aware Reporting and Analytics Platforms
+Client: Confidential Financial Services Organization Period of Performance: 2021-Present Role: Platform development and analytics engineering
+9.4.1 Overview
+Designed and supported secure reporting and analytics platforms processing sensitive structured and unstructured data across distributed operations. Emphasis was placed on data integrity, auditability, controlled access, and reliable production performance.
+9.4.2 Key Capabilities Demonstrated
+· Secure ingestion pipelines with validation and monitoring · Compliance-aware reporting and audit trails · Controlled access for users with differing roles and expertise · Stable, production-grade operations in regulated environments
+
+Response to RFI 36C10B26Q0131
+
+8 of 9
+
+9.4.3 Relevance to VA.gov Replacement
+VA.gov modernization depends on reliable analytics, monitoring, and reporting to support both Veteran experience and internal operations. This experience demonstrates the ability to deliver data-driven insight while maintaining compliance, accuracy, and operational reliability.
+10. Lessons Learned from Comparable Deployments
+Based on prior platform modernization efforts, we have observed:
+· Governance added late creates friction and risk · Opaque automation erodes trust · Incremental modernization outperforms full replacement · Clear Veteran communication reduces operational load · Rules-based workflows provide stability where AI alone cannot
+VA.gov replacement should internalize these lessons from the outset.
+11. Closing Perspective
+VA.gov is already one of the most visible and important federal digital services. Its replacement should not aim merely to modernize technology, but to establish a durable digital foundation capable of evolving with Veteran needs, policy change, and technological advancement. Numberz.ai's experience across regulated, high-scale platforms demonstrates how VA can achieve this transformation while preserving trust, continuity, and accountability. We welcome the opportunity to participate in follow-on discussions and contribute further insights as VA refines its approach.
+Appendix A
+Appendix A contains representative VA.gov interface views used to inform the observations and concepts described in Sections 3 through 8. These figures illustrate the current maturity of VA.gov and serve as reference points for proposed platform evolution, not as prescriptive design artifacts.
+
+Response to RFI 36C10B26Q0131
+
+9 of 9
+
+

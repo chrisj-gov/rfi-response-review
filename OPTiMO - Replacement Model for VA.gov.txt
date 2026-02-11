@@ -1,0 +1,469 @@
+Request for Information (36C10B26Q0131) Department of Veterans Affairs
+Replacement Model for VA.gov
+
+Due Date: 2/4/2026
+
+Submitted to: Department of Veterans Affairs
+Allison Fulton Allison.fulton@va.gov
+Evan Schlisserman
+evan.schlisserman@va.gov
+
+Submitted by: OPTiMO Information Technology, LLC 9700 Capital CT., Suite 201 Manassas, VA 20110
+WWW.OPTIMO-IT.COM
+Unique Entity ID: FL84KVPFHUG9 CAGE/NCAGE: 51VE0 GSA MAS Contract #47QTCA18D00JU
+Primary NAICS Code: 541512
+
+Point of Contact: Sara Anderson (Primary) Business Development Manager sanderson@optimo-it.com 304-550-1915
+Mari-Ellen Testa (Alternate) Chief Growth Officer mtesta@optimo-it.com 703-615-8244
+
+Small Business per SBA Size Standards
+This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate this response. If, however, a contract is awarded to this offeror as a result of, or in connection with, the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in the data if it is obtained from another source without restriction. The data subject to this restrictionare contained in all sheets of this response.
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov Contents 1.0 Executive Summary ...................................................................................................................1 2.0 Relevant Experience with Similar Challenges............................................................................2 3.0 Response to VA's Objectives (Ideas, Capabilities, Approaches)................................................4
+3.1 Experience Design (Veteran-centric digital experience) .......................................................5 3.2 Platform Architecture (Replacement model)........................................................................5 3.3 Content Strategy ................................................................................................................... 5 3.4 Governance and Operating Model........................................................................................6 3.5 Analytics ................................................................................................................................6 4.0 User Journey Workflows ...........................................................................................................6 4.1 Identity Proofing Workflow...................................................................................................6 4.2 Sign-In Workflow ...................................................................................................................7 4.3 Account / Credential Recovery Workflow.............................................................................7 4.4 Navigation Workflow.............................................................................................................7 5.0 OPTiMO's Technologies and Approaches .................................................................................8 6.0 Known Limitations, Risks, and Tradeoffs...................................................................................8 7.0 Lessons Learned from Past Deployments (required) ................................................................9 8.0 APPENDIX: Additional Information Relevant to VA's Objectives ( "catch-all") .........................A
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal i
+
+Department of War (DoW) White Paper: Public Website Program and Services
+
+1.0 Executive Summary
+
+VA.gov serves as a critical access point for Veterans, caregivers, families, and the public, connecting them to benefits, healthcare, and services that directly impact their daily lives. As VA explores replacement models for VA.gov, the challenge is not simply modernizing technology, but ensuring uninterrupted access, intuitive navigation, and accessibility for diverse users while operating at national scale and under continuous public scrutiny. OPTiMO's experience delivering and sustaining mission-critical federal digital platforms positions us to support VA in evaluating replacement approaches that preserve trust, reduce risk, and enable incremental modernization without disrupting service to Veterans.
+
+OPTiMO Information Technology, LLC brings more than 17 years of experience
+
+Why OPTiMO: · Access Designed for Every American
+
+designing, modernizing, and sustaining
+
+Household for a national federal platform
+
+large-scale, public-facing digital platforms in highly regulated federal environments. We currently support one of the most visited federal digital platforms, serving more than 75 million users and delivering tens of billions of impressions annually over a sustained period. Across federal programs,
+
+serving 75M+ users · Modernized without disruption using
+incremental transition approaches · 508/WCAG built in, led by DHS Trusted
+Tester-certified staff · Enterprise content at scale across
+
+OPTiMO has demonstrated the ability to operate secure, 1,000+ sites
+
+accessible, and continuously available platforms, manage content and experiences at enterprise scale, and modernize complex digital ecosystems while maintaining continuity of service. As a CMMI-DEV Level 3-appraised organization,
+
+· Secure, FedRAMP cloud delivery · Proven long-term sustainment
+(enterprise CMS + SharePoint & WordPress)
+
+OPTiMO applies disciplined, repeatable delivery and
+
+governance practices across all programs. Our experience directly aligns with the operational, accessibility,
+
+and governance challenges inherent in replacing VA.gov.
+
+Our Approach to Barrier-Free Digital Access for Veterans
+
+ Accessibility by design - Built in from the start through DHS Trusted Tester-certified staff and automated/manual Section 508 and WCAG validation, aligned with USWDS standards
+ Proven national-scale delivery - Sustaining highly visible federal platforms that must work reliably for every user, every day
+ Continuity without disruption - Agile, sprint-based delivery enables secure, functional enhancements while maintaining uninterrupted access
+ Disciplined governance - Structured delivery and oversight support consistency, compliance, and long-term sustainability
+ Veteran-first outcomes - Ensuring VA.gov continues to inform, support, and empower Veterans as it evolves
+
+OPTiMO - Entity and Contact Information
+
+OPTiMO Information Technology, LLC
+Unique Entity ID: FL84KVPFHUG9 CAGE/NCAGE: 51VE0 GSA MAS Contract #47QTCA18D00JU Primary NAICS Code: 541512
+
+Point of Contact: Sara Anderson, Business Development Manager sanderson@optimo-it.com | 304-550-1915 Alternate Contact: Mari-Ellen Testa, Chief Growth Officer mtesta@optimo-it.com | 703-615-8244
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 1
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+
+2.0 Relevant Experience with Similar Challenges
+
+OPTiMO brings more than 17 years of experience delivering, modernizing, and sustaining large-scale, publicfacing digital platforms in highly regulated federal environments. Our experience aligns directly with the challenges inherent in replacing VA.gov, including national-scale operations, continuity of service, accessibility and security compliance, complex user journeys, and enterprise content governance.
+
+Across federal programs, OPTiMO has supported digital platforms that:
+
+· Serve tens of millions of users · Deliver high-volume daily interactions · Operate under continuous public scrutiny · Require zero-downtime modernization
+
+These efforts required balancing innovation with stability, integrating legacy and emerging systems, and maintaining public trust through accessible, secure, and reliable digital experiences.
+
+Table 1 below provides a summary of OPTiMO's relevant experience and highlights direct alignment to the scale, complexity, and operational demands of a VA.gov replacement effort.
+
+Table 1: Summary of OPTiMO's Relevant Experience
+
+VA.gov Challenge
+
+OPTiMO Experience
+
+National-scale public platform 75M+ user federal digital platforms
+
+Continuity during modernization Incremental, no-downtime delivery
+
+Complex user navigation
+
+HR Life-event-driven journey redesign
+
+Distributed content governance 1,000+ site CMS environments
+
+Accessibility and trust
+
+508/WCAG compliance by design
+
+Secure cloud operations
+
+FedRAMP-authorized AWS & Azure
+
+The examples below illustrate how OPTiMO has addressed challenges similar to those facing VA.gov, including operating at national scale, supporting complex user journeys, and modernizing platforms without disrupting public access. These challenges closely mirror VA.gov's need to guide veterans, caregivers, and families through complex, multi-system service journeys.
+
+Due to nondisclosure agreement (NDA) restrictions, OPTiMO is unable to publicly disclose the names of certain federal agencies listed below or specific contract details at this time. However, OPTiMO has supported this federal Mail and Package client continuously for more than 17 years across multiple high-impact digital modernization initiatives. Should VA pursue a formal acquisition, OPTiMO is prepared, pending client approval, to provide additional detail and documentation to substantiate the depth, relevance, and success of this work.
+
+Example 1: Large Federal Mail and Package Shipper: Enterprise-Scale Public Digital Platform
+
+Scope and Scale (Public Platform):
+
+· One of the federal government's most heavily used public-facing mobile responsive digital platforms · Supports 75+ million users · Delivers 60+ million daily messages · Processes tens of billions of annual impressions · Requires continuous availability and high trust
+
+OPTiMO Responsibilities:
+
+· End-to-end web and mobile UX design
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 2
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+· Content workflows and governance · Real-time analytics dashboards · API-based integrations · Section 508 / WCAG compliance · Agile delivery without service disruption
+This experience closely parallels VA.gov's challenge of evolving a highly visible, mission-critical public platform while maintaining continuity of service.
+Example 2: Large Federal Mail and Package Shipper: Complex Navigation & Life-Event Journeys
+OPTiMO also modernized complex, multi-step digital journeys for the same Large Mail and Package Shipper, including Recruiting, Hiring, and Onboarding experiences supporting:
+· 640,000+ employees · Hundreds of thousands of applicants annually
+Key Challenges Addressed:
+· Fragmented navigation across systems · High user volume for Human Resources and employee life events · Legacy content and workflow sprawl (1000+ internal microsites)
+Approach Applied:
+· Human-Centered Design (HCD) · Persona development and journey mapping · Usability testing and iterative refinement · Navigation and content restructuring to reduce friction · Consolidation of multiple sites to single Content Management System (CMS)
+Example 3: DHS Cybersecurity and Infrastructure Security Agency (CISA): Enterprise Platforms Supporting Complex User Journeys
+As prime contractor, OPTiMO led the design, development, and sustainment of multiple enterprise digital platforms for the Department of Homeland Security's Cybersecurity and Infrastructure Security Agency (CISA) under Contract Nos. 70RCSA21C00000002 and 70RCSJ24C00000002. This work included delivery of the Budget Formulation Portal (BFP) and Business Management Platform (BMP)--secure, cloudhosted platforms that replaced fragmented, spreadsheet-driven processes with intuitive, user-centered digital workflows supporting mission-critical operations across CISA.
+These platforms supported:
+· Multiple CISA operational divisions · $10B+ in annual budgets · Large, distributed user communities operating under strict security, compliance, and audit requirements
+Key Challenges Addressed
+· Fragmented, spreadsheet-heavy legacy workflows · Complex, multi-step user journeys spanning budgeting, workforce planning, and reporting · High-stakes operational deadlines requiring surge capacity
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 3
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+· Strict security, compliance, and governance requirements · Need for intuitive navigation and role-based access across diverse user groups
+Approach Applied
+· Human-Centered Design (HCD) using USWDS-aligned interfaces · Persona development and workflow mapping for diverse user roles · Agile delivery and rapid prototyping using disciplined sprint-based methods · Modular, cloud-hosted architecture deployed in the DHS Enterprise Cloud · Automation of workflows, reporting, and data validation to reduce user burden · Continuous accessibility validation aligned with Section 508 and WCAG standards
+Relevance to VA.gov Replacement Objectives
+This experience demonstrates OPTiMO's ability to design and sustain secure, accessible, and user-centered digital platforms that support complex journeys, high-volume usage, and continuous operations--directly applicable to VA.gov replacement considerations, including:
+· Complex Navigation & User Journeys Designing intuitive navigation across multi-step, role-based workflows mirrors VA.gov's challenge of guiding Veterans through benefits, services, and life-event-driven experiences.
+· Continuity Under Operational Pressure Supporting surge periods and fixed deadlines without service degradation aligns with VA.gov's need for reliability during peak usage and critical events.
+· Accessibility and Trust Full Section 508 and WCAG compliance ensured inclusive access for diverse users, reinforcing trust in mission-critical digital services.
+· Secure, Scalable Operations Deployment in a FedRAMP-aligned, DHS Enterprise Cloud environment with successful ATO supports VA's emphasis on secure, compliant hosting models.
+· Governance and Sustainment Full lifecycle support--from design through O&M--demonstrates the operational maturity required to sustain VA.gov over time.
+3.0 Response to VA's Objectives (Ideas, Capabilities, Approaches)
+VA.gov's replacement presents a multifaceted challenge that extends beyond technology refresh to include experience design, content strategy, governance, analytics, and long-term sustainability. OPTiMO's approach, informed by our experience delivering enterprise-scale federal digital platforms, emphasizes continuity of service, accessibility by design, and operational maturity while enabling incremental modernization.
+VA may ultimately pursue one or a combination of replacement models, such as incremental modernization of existing capabilities, selective replacement of discrete components, or a phased evolution toward a new experience and operating model over time. OPTiMO's experience across large federal platforms supports VA's ability to evaluate these options and understand the tradeoffs associated with each approach.
+The ideas, capabilities, and approaches outlined below reflect proven practices applied across large, regulated federal environments and are directly applicable to the objectives associated with replacing VA.gov.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 4
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+
+3.1 Experience Design (Veteran-centric digital experience)
+
+OPTiMO applies human-centered design (HCD) principles to ensure digital platforms are intuitive, accessible, and aligned with real user needs. Across federal engagements, we have used personas, journey maps, usability testing, and iterative design to reduce friction in complex, multi-step user journeys.
+
+Our experience designing mobile-first, Section 508-compliant interfaces for large public platforms ensures:
+
+· Clear navigation structures · Consistent design patterns aligned with USWDS · Plain-language content presentation · Inclusive experiences for diverse user populations
+
+This approach has been successfully applied to large-scale public platforms and workforce-facing systems where users must navigate complex information and complete critical tasks efficiently.
+
+3.2 Platform Architecture (Replacement model)
+
+"This [CISA Business Management Platform] is great. It is some of the most architecturally sound work we have seen." - DHS CISA DCIO 2023
+
+OPTiMO's platform approach is designed to support VA.gov as a continuously operating, veteran-facing digital platform. Our experience across large federal programs emphasizes architectures that enable incremental modernization, service continuity, and coexistence with existing systems.
+
+Core architectural principles include:
+
+· Modular, API-driven integration with enterprise and legacy systems · Deployment in FedRAMP-authorized cloud environments · Container-based architectures supporting scalability and reliability · Separation of content, presentation, and integration layers
+
+This approach allows individual capabilities to be modernized independently while existing services remain available, reducing transition risk and supporting the long-term evolution of VA.gov.
+
+3.3 Content Strategy
+
+OPTiMO has extensive experience implementing structured content strategies that support large, decentralized organizations. Our work managing content across more than 1,000 sites demonstrates how structured content models, taxonomy alignment, and governance workflows improve consistency, accessibility, and maintainability.
+
+Our content strategy approach includes:
+
+· Structured content models to support reuse and consistency · Taxonomy and metadata alignment to improve discoverability · Role-based editorial workflows and approval processes · SEO preservation and redirect management during migration
+
+OPTiMO has also maintained its own SharePoint and WordPress sites for over a decade, providing firsthand experience with long-term content governance, sustainment, and user adoption across both enterprise and open-source platforms.
+
+This experience informs a pragmatic approach to content modernization that balances flexibility for content owners with centralized governance and compliance.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 5
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+
+3.4 Governance and Operating Model
+
+Effective governance is essential to sustaining large-scale digital platforms. OPTiMO's delivery model emphasizes clear roles, decision-making structures, and repeatable processes that support Agile delivery while maintaining compliance and oversight.
+
+Across federal engagements, we have supported:
+
+· Agile delivery with structured governance · Cross-functional collaboration among design,
+engineering, security, and content teams · Centralized standards with distributed execution · Transparent reporting through dashboards and
+performance metrics
+
+"Most mature Agile delivery out of all OCIO projects I oversee."
+DHS CISA System Owner 2024
+
+This operating model enables continuous improvement while ensuring accountability, consistency, and alignment with organizational objectives.
+
+3.5 Analytics
+
+OPTiMO incorporates analytics as a foundational component of digital platform delivery. Our platforms have included customizable dashboards and reporting capabilities to track user engagement, behavior, and system performance.
+
+Analytics capabilities applied across prior engagements include:
+
+· Traffic and engagement monitoring · Behavioral analysis to inform UX improvements · Performance metrics to support operational decision-making · A/B testing and iterative refinement
+
+These capabilities support data-driven decision-making and continuous improvement across large digital portfolios.
+
+4.0 User Journey Workflows
+
+VA.gov user journeys require careful orchestration across identity, authentication, navigation, and service access to ensure continuity, trust, accessibility, and ease of use. OPTiMO's experience delivering largescale, public-facing federal platforms informs an approach that emphasizes clarity, low-friction interaction, and resilience while operating within highly regulated environments.
+
+The workflows outlined below reflect proven patterns applied across enterprise federal digital platforms and are intended to illustrate how similar approaches can support VA.gov's replacement objectives.
+
+4.1 Identity Proofing Workflow
+
+Across prior federal engagements, OPTiMO has supported digital platforms that require user registration, consent capture, and secure identity-related interactions as part of accessing personalized services. For a Large Mail and Package Shipper, OPTiMO designed configurable, event-driven workflows that enabled user registration and consent management integrated with centralized identity services.
+
+Key characteristics of this approach include:
+
+· Clear entry points into identity-related workflows · Step-based progression with plain-language guidance
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 6
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+· Integration with enterprise identity services through well-documented APIs · Accessibility and usability validation embedded in the workflow design These practices support trust and reduce user confusion during critical onboarding or identity-related steps. 4.2 Sign-In Workflow OPTiMO has designed and supported sign-in workflows for high-volume federal platforms serving tens of millions of users. These workflows were built to operate reliably at scale while maintaining accessibility and compliance. Common elements applied across prior platforms include:
+· Consistent sign-in entry points across web and mobile experiences · Integration with centralized authentication services · Clear error handling and user feedback · Support for secure, session-based access to personalized content and services Sign-in experiences were designed and tested using human-centered design methods to ensure users could easily understand how to access services and recover from errors without abandoning their task. 4.3 Account / Credential Recovery Workflow In prior enterprise platforms, OPTiMO supported recovery workflows designed to minimize user frustration while maintaining security and compliance. These workflows emphasized clarity, accessibility, and guided resolution paths. Applied patterns include:
+· Clear recovery entry points from sign-in experiences · Step-by-step guidance using plain language · Integration with identity and consent management services · Escalation paths when automated recovery is not successful These recovery workflows were validated through usability testing and accessibility checks to ensure they remained usable for diverse user populations under stressful or time-sensitive conditions. 4.4 Navigation Workflow Navigation is a critical component of user journeys across complex federal digital ecosystems. OPTiMO has redesigned navigation structures for large-scale platforms where users must traverse multiple systems, content types, and services. For prior federal platforms, OPTiMO applied:
+· Human-centered design to map user journeys and decision points · Navigation models aligned with USWDS and accessibility standards · Clear distinctions between logged-in and logged-out experiences · Structured content and taxonomy to support intuitive routing In workforce and public-facing systems, these approaches reduced friction, improved task completion, and helped users understand where they were in a process and what steps came next--challenges that closely parallel VA.gov's navigation needs.
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 7
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+
+5.0 OPTiMO's Technologies and Approaches
+
+OPTiMO is tool agnostic by design. Our approach is not driven by a preferred product or vendor, but by selecting the technologies and architectures that best align to each customer's mission, operating environment, risk tolerance, and long-term sustainment needs. Across federal engagements, we have successfully implemented and operated multiple content, cloud, and delivery platforms--commercial and open source--using standards-based, modular approaches that avoid vendor lock-in and support incremental modernization. This flexibility enables agencies to evolve complex digital platforms over time while maintaining continuity of service, accessibility, and compliance.
+
+The table below summarizes the technology domains and approaches OPTiMO has applied across large, regulated federal environments and that are directly relevant to VA.gov replacement objectives.
+
+Table 2: OPTiMO Tool-Agnostic Technologies and Approaches
+
+Technology
+
+OPTiMO Approach (Tool Agnostic)
+
+Domain
+
+How This Supports VA.gov Objectives
+
+Content Management & Experience Platforms
+Cloud Hosting & Infrastructure
+
+Experience implementing and operating enterprise CMS platforms using COTS, open-source, and enterprise solutions. Approaches include structured content models, role-based workflows, and USWDS-aligned components. OPTiMO has managed content ecosystems spanning 1,000+ sites and sustained internal SharePoint and WordPress environments for over a decade. Delivery and sustainment of public-facing platforms in FedRAMPauthorized cloud environments, including AWS and Azure, using container-based architectures, high availability configurations, and automated patching and monitoring.
+
+Enables VA to evaluate CMS options based on mission fit, accessibility, governance, and sustainment rather than vendor dependency.
+Supports scalable, resilient VA.gov replacement models that maintain continuous public access.
+
+Integration & APIs
+
+Modular, API-driven integration patterns using RESTful APIs and event-driven workflows to enable secure interoperability between CMS platforms and enterprise systems. Emphasis on clear interface contracts, logging, and auditability.
+
+Allows VA.gov components to evolve independently while maintaining interoperability with existing systems.
+
+Accessibility & User Interface
+
+Accessibility-by-design using USWDS-aligned components, automated and manual Section 508 and WCAG testing, and continuous validation embedded into Agile delivery workflows.
+
+Ensures accessibility remains a foundational requirement regardless of technology choices.
+
+Analytics & Monitoring
+
+Use of analytics and monitoring capabilities to track traffic, engagement, performance, and availability, with dashboards tailored for stakeholder visibility and operational awareness.
+
+Enables data-driven decisionmaking and continuous improvement for VA.gov over time.
+
+Development, Delivery & Quality Tooling
+
+Agile and DevSecOps delivery supported by Git-based version control, CI/CD pipelines, Agile management tools (e.g., Jira, Azure DevOps, VersionOne, Rally), and automated/manual quality assurance.
+
+Supports frequent, reliable updates while maintaining compliance, quality, and governance across a large digital portfolio.
+
+6.0 Known Limitations, Risks, and Tradeoffs
+Replacing a mission-critical public platform such as VA.gov involves inherent limitations, risks, and tradeoffs that must be understood and managed throughout planning, transition, and sustainment. OPTiMO's experience modernizing large, highly visible federal digital platforms has shown that successful outcomes
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 8
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+
+depend on balancing innovation with continuity, autonomy with governance, and speed with compliance.
+
+The considerations below in Table 3 reflect risks and tradeoffs encountered across prior federal engagements and are provided to inform VA's planning and decision-making.
+
+Table 3: Limitations, Risks, and Tradeoffs
+
+Risk Area for VA.gov
+
+Risk Description
+
+Modernizing a highly trafficked
+
+public platform introduces risk of
+
+Continuity of Service
+
+service disruption, performance degradation, or user confusion if changes are introduced too
+
+quickly or without sufficient
+
+validation.
+
+Integration with diverse legacy
+
+Legacy System Integration
+
+and emerging systems can be constrained by incomplete documentation, inconsistent data models, and differing governance
+
+structures.
+
+Content Migration & Governance
+
+Large-scale content migration can result in duplication, outdated information, broken links, or loss of search visibility if not carefully governed.
+
+Accessibility & Compliance
+
+Accessibility gaps may emerge if compliance is treated as postdeployment validation rather than integrated delivery.
+
+Governance & Operating Model
+
+Lack of clear governance can lead to fragmented experiences, inconsistent standards, and duplicated effort across organizations.
+
+Platform & Technology Choices
+
+Platform decisions introduce tradeoffs related to flexibility, cost, vendor dependence, and longterm sustainability.
+
+Key Tradeoffs Observed
+· Faster platform change vs. incremental modernization · Short-term acceleration vs. long-term operational stability
+· Deep integration vs. architectural flexibility · Short-term workarounds vs. long-term maintainability
+· Rapid migration vs. content quality and accuracy · Decentralized authoring vs. centralized governance
+· Speed of delivery vs. depth of accessibility validation · Custom design flexibility vs. standardized accessible components
+· Centralized control vs. distributed ownership · Governance rigor vs. delivery agility
+· COTS platforms vs. custom solutions · Enterprise consistency vs. local optimization · Feature richness vs. operational simplicity
+
+Mitigation Approaches Informed by Prior Experience
+· Incremental migration and phased deployment · Parallel operations during transition · Extensive validation, usability testing, and monitoring prior to cutover
+· Modular, API-driven integration patterns · Clear interface contracts and logging · Incremental refactoring supported by early discovery and system inventories
+· Comprehensive content inventories and audits · Structured content models and taxonomy alignment · SEO and redirect preservation · Clear editorial workflows and approval processes ·Accessibility-by-design using USWDS-
+aligned components · Automated and manual Section 508 and WCAG testing · Accessibility validation embedded in Agile and CI/CD workflows · Defined roles and decision-making structures · Central standards with distributed execution · Transparent reporting and performance dashboards · Hybrid Agile governance models · Standards-based, modular platforms Extensible architecture · Separation of content, presentation, and integration layers · Long-term sustainment planning informed by real-world operations
+
+7.0 Lessons Learned from Past Deployments (required)
+Through the delivery, modernization, and sustainment of large-scale federal digital platforms, OPTiMO has identified consistent lessons that are directly applicable to VA.gov replacement efforts. These lessons in
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 9
+
+Department of Veterans Affairs RFI 36C10B26Q0131: Replacement Model for VA.gov
+
+Table 4 are drawn from operating highly visible, mission-critical public platforms that must balance innovation with continuity, accessibility, security, and long-term sustainability.
+
+Table 4: Lessons Learned from Past Deployments
+
+Lesson Area
+
+Lesson Learned
+
+Continuity of Service
+Navigation & Content Structure
+
+Continuity of service is as critical as functional enhancement for large public-facing platforms. Prioritizing rapid replacement over incremental transition increases the risk of disruption, user confusion, and loss of trust. User confidence is strongly influenced by navigation clarity and content organization, especially when journeys span multiple systems or involve multi-step processes.
+
+Accessibility Integration
+Governance & Agility
+Content Lifecycle Management Long-Term Sustainment
+
+Accessibility outcomes are strongest when Section 508 and WCAG requirements are embedded into design and delivery workflows from the outset rather than validated at the end.
+Large, decentralized digital ecosystems require governance that balances centralized standards with distributed execution; insufficient governance leads to fragmentation, while excessive rigor slows delivery.
+Content migration and cleanup are ongoing operational functions; without sustained governance, content quality degrades over time, impacting usability, accessibility, and trust. Platforms not designed with long-term operations, governance, and staffing realities introduce avoidable risk and cost over time.
+
+Observed Practices Applied in Prior Deployments
+· Incremental, phased modernization · Parallel operations during transition · Validation before and after each release
+· Human-centered design using personas and journey mapping · Structured content models and taxonomy alignment · Clear distinctions between logged-in and logged-out experiences · Accessibility-by-design using USWDSaligned components · Automated and manual accessibility testing · Continuous validation within Agile delivery cycles · Clearly defined roles and responsibilities · Central standards with flexible implementation · Transparent reporting through dashboards and metrics · Regular content audits and rationalization · SEO and redirect preservation · Ongoing taxonomy and metadata management · Standards-based, extensible platforms · Emphasis on maintainability and operational simplicity · Sustainment planning incorporated into initial design
+
+OPTiMO is ready to support VA's evaluation of VA.gov replacement models and welcomes the opportunity to demonstrate relevant capabilities. As a small business available through GSA MAS SIN 54151S, OPTiMO offers VA a flexible, low-risk path to engage a proven partner delivering secure,
+accessible, and continuously available federal digital platforms that support barrier-free access for Veterans.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal 10
+
+Department of War (DoW) White Paper: Public Website Program and Services
+
+8.0 APPENDIX: Additional Information Relevant to VA's Objectives ( "catch-all")
+
+In addition to the specific ideas, capabilities, and approaches described in earlier sections, OPTiMO offers the following considerations based on lessons learned from delivering and sustaining enterprise-scale federal digital platforms. These observations highlight cross-cutting factors that consistently influenced successful outcomes in highly regulated, public-facing environments and may support VA's evaluation of potential replacement models for VA.gov.
+
+Table 5: Additional Considerations Informing VA.gov Replacement
+
+Consideration Area
+
+Observations from Prior Federal Deployments
+
+Phased Modernization
+
+Incremental, phased modernization approaches reduced operational risk and enabled validation before broader rollout, avoiding disruptive "big-bang" transitions.
+
+Relevance to VA.gov Objectives
+Supports continuity of service while modernizing VA.gov capabilities over time.
+
+Operational Sustainability
+Accessibility & Public Trust
+
+Platforms designed with long-term operations, governance, and staffing in mind were easier to sustain and adapt as mission needs evolved. OPTiMO's experience includes long-term operation of enterprise CMS platforms and internal SharePoint and WordPress sites for over a decade. Embedding accessibility, plain language, and consistent design into daily operations helped maintain public trust on highly visible platforms.
+
+Reinforces the importance of designing VA.gov for long-term maintainability, not just initial deployment.
+Directly aligns with VA.gov's role as a trusted, veteran-facing public service.
+
+Governance & Coordination
+
+Clear governance models balancing centralized standards with distributed execution enabled scale without sacrificing agility.
+
+Informs governance and operating model considerations for a large, decentralized VA digital ecosystem.
+
+Early Discovery & Alignment
+
+Discovery activities such as content inventories, platform assessments, and stakeholder alignment reduced rework and improved decision-making.
+
+Supports early planning and risk reduction for VA.gov replacement efforts.
+
+Flexibility of Replacement Models
+
+No single replacement model fit all environments; successful programs evaluated tradeoffs between consolidation and flexibility.
+
+Encourages VA to assess multiple viable replacement models rather than a single prescriptive solution.
+
+Measurement & Continuous Improvement
+Content Lifecycle Management
+
+Use of analytics, dashboards, and user feedback informed ongoing improvements to user experience and platform performance.
+Treating content governance and migration as ongoing operational functions helped prevent degradation of quality and usability.
+
+Reinforces the value of datadriven iteration for VA.gov over time.
+Highlights the need for sustained content governance across VA.gov.
+
+Stakeholder Collaboration
+
+Ongoing collaboration between technical, content, security, and business stakeholders supported consistent outcomes across complex platforms.
+
+Relevant to crossorganizational coordination within VA.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal A
+
+

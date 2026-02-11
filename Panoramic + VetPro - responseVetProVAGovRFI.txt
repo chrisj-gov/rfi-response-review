@@ -1,0 +1,76 @@
+Response to RFI: Replacement Model for VA.gov 2026 Notice ID: 365357
+Submitted by: Panoramic Software, Corp. (Developers of VetPro) Contact: Jeff von Waldburg CEO jeff.vonwaldburg@vetpro.us (949) 510-4552 Date: February 2, 2026
+
+I. Executive Summary
+Panoramic Software, Corp., respectfully submits this response to the U.S. Department of Veterans Affairs (VA) Request for Information (RFI) concerning the replacement of VA.gov with a modern, secure, and Veteran-centric digital platform. As the longstanding developer of VetPro, a purpose-built, cloud-based Software-as-a-Service (SaaS) platform for accredited Veterans Service Officers (VSOs), we bring over 30 years of specialized experience in supporting high-volume, high-quality disability claims preparation and electronic submission.
+VetPro currently serves as the sole supplier for 10 states and more than 300 counties, enabling accredited VSOs to submit over 20,000 claims per month and facilitating nearly $8 billion in awarded benefits to Veterans. Our platform leverages established VA interfaces, including the Benefits Intake API, for secure, direct electronic submission into VBMS.
+We propose a deep, collaborative partnership with VA to integrate VetPro as a key component of the assisted claims ecosystem within a reimagined VA.gov. This integration would standardize claim preparation, enhance data accuracy, expand nationwide virtual VSO access, reduce administrative burdens, and deliver measurable cost savings and improved outcomes for Veterans, particularly amid ongoing PACT Act-related claim volumes. Our approach fully supports the RFI's priorities: continuity of service for millions of users, interoperability with legacy and emerging systems, regulatory compliance, scalability, and a seamless, Veteran-first experience across benefit portfolios.
+II. Company Background and Relevant Experience
+VetPro originated in the early 1990s as a DOS-based tool tailored to VSO workflows and has matured into a secure, HIPAA-compliant SaaS platform. It manages the complete assisted claims lifecycle: client intake and profile management, evidence collection and batch uploads, intelligent autofill across 115+ VA forms with more than 15,000 fields, secure remote electronic signatures with watermarking, direct electronic submission via VA APIs, VA receipt confirmation to protect effective dates, and bidirectional real-time status tracking.
+These features have been iteratively refined through ongoing collaboration with VSOs in county, state, and tribal offices. VetPro has a long and demonstrated commitment to Veterans. During the COVID-19 pandemic, we expanded remote capabilities and provided VetPro nationwide at no cost, enabling uninterrupted service for Veterans and VSOs. Enabling hundreds of thousands of claims to be processed by our users remotely, while vulnerable Veterans were able to stay safely at home.
+VetPro addresses persistent challenges in the VSO community, where many offices still depend on fragmented, outdated tools-such as spreadsheets, scanned PDFs, generic document managers, or legacy desktop applications-resulting in inconsistent form versions, manual re-entry, higher error rates, and limited visibility into claim progress.
+
+III. Current Challenges in the VSO-Assisted Claims Ecosystem
+Accredited VSOs remain a vital bridge for Veterans navigating complex claims, including those involving PACT Act presumptive conditions, toxic exposure histories, legacy denials, multiple comorbidities, or barriers to digital self-service (e.g., rural locations, limited internet access, disabilities, or age-related factors). Assisted submissions often produce higher-quality packages, leading to stronger initial decisions, fewer development requests, and reduced appeals.
+Despite this value, budget limitations in many county and state VSO offices restrict adoption of robust tools, perpetuating inefficiencies:
+ Frequent use of outdated or incorrect VA form versions, increasing rejection risks.  Redundant manual data entry and evidence handling.  Lack of real-time status visibility, leading to repeated inquiries.  Geographic constraints that limit assistance to local Veterans, underutilizing national
+VSO capacity.
+These issues contribute to broader VA workload pressures, including manual intake processing, higher appeals volumes (historically 10-30% of decisions in some categories), and extended timelines amid sustained high claim volumes from PACT Act implementation.
+IV. Proposed Partnership Model: Deep Integration and Collaborative Enhancement
+Panoramic Software seeks to partner strategically with VA to integrate VetPro as a specialized, complementary extension of VA.gov-strengthening the assisted pathway while preserving robust self-service and in-person options. This creates a true "no wrong door" experience where Veterans can transition seamlessly between autonomous and assisted journeys.
+Core Partnership Elements:
+1. Enhanced "Find a Representative" Integration - Expand VA.gov's existing accredited representative search tool (va.gov/get-help-from-accredited-representative/find-rep) with advanced filters for real-time availability, PACT Act or specialty expertise, virtual consultation preferences, and direct secure consent initiation for data sharing. This would connect Veterans more efficiently to accredited VSOs best suited to their needs. Once connected, VetPro could coordinate virtual meetings, facilitate secure document uploads, and pull data from VBMS to pre-populate forms, prior to the meeting, saving time for the Veteran and VSO.
+
+2. Secure, Consent-Driven Data Exchange - Implement OAuth-style delegation so Veterans authorize VSOs to access consented VA data (e.g., service history, prior claims, My HealtheVet records) directly into VetPro, enabling more accurate prepopulation and reducing redundant input.
+3. Standardized, Enforced Preparation in VetPro - VSOs leverage VetPro's domain-specific tools with automatic enforcement of current VA form versions, intelligent autofill from verified sources, evidence bundling, and secure remote e-signatures. This ensures nationwide consistency and compliance.
+4. Seamless Submission, Bidirectional Sync, and Traceability - Claims submit electronically via Benefits Intake API into VA backend systems; status, receipt confirmations, and updates flow bidirectionally to VA.gov (Veteran dashboard) and VetPro (VSO interface), minimizing phone inquiries and disputes.
+5. Virtual and Remote Collaboration Suite - Embed integrated tools for scheduling virtual appointments, secure video consultations (e.g., Zoom-equivalent), shared document
+
+portals, and remote signature capture. This unlocks untapped VSO capacity-allowing officers in lower-demand areas to support Veterans nationwide, reducing geographic inequities and scaling assistance without proportional increases in VSO or VA staffing.
+6. Analytics and Feedback Loop - Provide VA with aggregated insights from VetPro-assisted submissions (e.g., regional error patterns, form-specific issues, demographic trends, PACT Act claim characteristics) to inform training, policy refinements, self-service enhancements, and proactive outreach.
+Phased Implementation Approach - We recommend starting with a controlled pilot in select states/counties, followed by iterative scaling, joint testing, and co-development of APIs/security protocols.
+
+V. Enhancing VBMS Data Accuracy Through VSO-Gathered Veteran Information
+As part of a collaborative modernization effort, VetPro proposes utilizing the structured, Veteran-submitted data collected through VSO-assisted claims in VetPro to validate and enhance data integrity within VA's Benefits Management systems, particularly VBMS.
+A. The Opportunity
+VSOs, through their trusted, face-to-face interactions with Veterans, routinely gather accurate and up-to-date personal and household information, including:
+ Residential and mailing addresses
+ Contact details (phone, email)
+ Marital and dependent status
+ Service history and branch details
+ Legal representation or power of attorney changes
+ Banking information (for direct deposit)
+This data is collected and verified directly with Veterans--often during in-person appointments or secure virtual consultations--and is entered into VetPro as part of the claims preparation workflow.
+We propose enabling structured data sharing (with Veteran consent) between VetPro and VA systems to validate or reconcile existing records in VBMS and related systems, particularly for fields most prone to change or error.
+B. Benefits to the VA
+1. Reduction in Returned Mail and Missed Communications Accurate addresses and contact information reduce undelivered correspondence, decision letters, and benefit notifications--improving compliance, trust, and outcomes.
+2. Improved Payment Accuracy and Direct Deposit Setup Verified financial and personal data reduces errors in benefit disbursement and reissuance caused by outdated records.
+
+3. Reduced Development and Adjudication Delays Claims processing is often delayed when key personal information is missing or inaccurate. Synchronization with VSO-verified data mitigates this issue at intake.
+4. Streamlined Appeals and Review Processes Accurate spousal/dependent data supports proper ratings and reduces risk of downstream adjustments or appeals due to overlooked eligibility factors.
+5. Enhanced Analytics and Policy Accuracy Reliable, structured data improves the quality of VBA program evaluations, demographic insights, and outreach targeting.
+C. Privacy and Security Considerations
+All data exchanges would be governed by Veteran consent, use secure APIs, and comply with HIPAA, 38 CFR Part 1, and FedRAMP standards. VetPro already maintains strict access controls, multi-factor authentication, and zero-trust design principles.
+VI. Quantifiable Benefits to VA
+This partnership would deliver operational and fiscal advantages:
+ Significant Reduction in Paper-Based Costs - Full electronic workflows eliminate scanning, indexing, mailing, and printing; digital decision letters further reduce expenses.
+ Accelerated Processing and Reduced Workload - Higher-quality, pre-structured claims shorten intake cycles and decision timelines leading to fewer development requests and appeals.
+ Appeals Mitigation - Standardized preparation lowers remand/appeal rates and associated downstream costs.
+ Resource Extension - Remote VSO facilitation multiplies capacity amid PACT Act-driven surges and competing priorities like EHR modernization.
+VII. Enhanced Outcomes for Veterans
+ Faster, more accurate and transparent benefit delivery with reduced delays, rework, and anxiety.
+ Equitable nationwide access to experienced VSO support, including virtual options for remote or mobility-limited Veterans.
+ Greater transparency, trust, and empowerment through real-time tracking and consistent processes.
+ Quicker financial and health relief, particularly for complex PACT Act-related claims.
+
+VIII. Risk Mitigation and Implementation Considerations
+ Security/Privacy - VetPro adheres to HIPAA, supports zero-trust architecture, and would rely on explicit Veteran consent for all data flows.
+ Adoption - Panoramic provides comprehensive VSO training, onboarding, and support to facilitate smooth transition.
+ Equity/Continuity - In-person, non-digital, and self-service paths remain fully supported; integration augments rather than supplants existing channels.
+ Technical - Phased pilots, FedRAMP compliance alignment, and collaborative testing minimize disruptions.
+IX. Conclusion
+Panoramic Software is committed to partnering with VA to realize a truly modern, integrated VA.gov that honors Veterans by delivering faster, fairer, and more accessible benefits. VetPro's proven track record, deep VSO alignment, and existing technical compatibility position us as a reliable collaborator for pilots, API enhancements, and long-term ecosystem improvement. We eagerly welcome follow-on discussions, demonstrations, joint workshops, or pilot planning with VA stakeholders.
+Respectfully submitted,
+Jeff von Waldburg CEO Panoramic Software, Corp.
+
+

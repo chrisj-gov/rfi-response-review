@@ -1,0 +1,293 @@
+Submission Date: February 5, 2026 SS Number: 36C10B26Q0131
+Department of Veterans Affairs Technology Acquisition Center Replacement Model for VA.gov
+Sources Sought (SS) Response
+
+SUBMITTED TO: Department of Veterans Affairs (VA) Attn: Allison Fulton, Contract Specialist,
+Allison.Fulton@va.gov Attn: Evan Schlisserman, Contracting Officer,
+Evan.Schlisserman@va.gov 23 Christopher Way Eatontown NJ 07724
+
+SUBMITTED BY: ECS Federal, LLC 2750 Prosperity Ave., Suite 600 Fairfax, VA 22031 Contracts@ECStech.com (P) 703.215.5292 | (F) 703.698.0626 Cage Code: 1T1E5 DUNS Number: 806026852 Unique Entity Identifier: XYB4JU4PA6T4 Tax ID Number: 59-3176720
+
+Use and Disclosure of Data: This response includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed-in whole or in part-for any purpose other than to evaluate this response. If, however, a contract is awarded to this Offeror as a result of-or in connection with-the submission of this data, the Government shall have the right to duplicate, use, or disclose the data
+to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in these data if it is obtained from another source without restriction. The data subject to this restriction are contained on all sheets of this response.
+
+1.0 Company Overview
+ECS brings 16 years of sustained experience directly supporting the VA transformation agenda, with a strong track record in the Veterans Health Administration (VHA) and VA program offices, to include partnering with OIT, to modernize VA contact centers, transform veteran access to benefits and services via VA.gov and other VA-hosted platforms, and carry out Electronic Health Record Modernization (EHRM). We have successfully designed and implemented enterprise solutions employing governance frameworks and strong organizational change management to integrate clinical, operational, and IT functions enabling rapid development and deployment across complex, distributed systems and environments. "Team ECS" includes strategic partner Avilamb Inc. (SB).
+Exhibit 1 supplies corporate data about ECS Federal, LLC (ECS).
+
+Name of Company Address
+Point of Contact Proof of Verification in SBA VETCert
+CAGE Code DUNS Code NAICS Code
+Existing Contractual Vehicles
+
+ECS Federal, LLC
+
+2750 Prosperity Ave., Suite 600 Fairfax, VA 22031
+
+Mr. John Roman, Vice President, Contracts, Procurement & Pricing P: 703.215.5292 F: 703.698.0626 E: Contracts@ECStech.com
+
+N/A
+
+1T1E5
+
+806026852
+
+Unique Entity Code
+
+XYB4JU4PA6T4
+
+541330
+
+Socioeconomic Data
+
+Large
+
+GSA OASIS (Pool 1 - GS00Q14OADU115; Pool 2 - GS00Q14OADU206; Pool 3 - GS00Q14OADU315) | GSA Alliant 2 (47QTCK18D0047) | NIH CIO-SP3 (HHSN316201200021W) | GSA MAS (GS-35F-0601K; GS-35F-048DA; GS-35F0273L) | NIH CIO-CS (HHSN316201500016W) | NASA SEWP V (NNG15SC19B)
+
+Exhibit 1: ECS Corporate Overview. Founded in 1993, ECS today has over 3,800 employees delivering focused solutions to all sectors of the government and commercial entities.
+
+2.0 Request Response
+Team ECS is a leading expert in Drupal development and delivers modern, scalable digital platform architecture using our proven Enterprise Drupal Framework and cloud-native design principles to enable federal agencies to serve millions of users with exceptional performance and reliability. Our approach leverages multi-tenant architecture, containerized deployments, and microservices integration to provide the flexibility and scalability required for mission-critical government platforms. This approach enables Team ECS to deliver to our customers accomplishments to include:
+· Reduced Site Costs and Maintenance. Team ECS has drastically reduced overhead costs and simplified site maintenance by providing shared code (shared modules and pre- approved/scanned baselines) and using shared modules and baselines for our customers. We use a shared Development and Operations (DevOps) methodology to design our own automated deployment and code scanning pipeline, automatic code scans, and improved customer experiences.
+· Reduced Technical Debt and Complexity. Our Multi-Cloud Service Provider (CSP) Enterprise Cloud Hosting service and automation consistently reduces the cost and complexity of all agency websites.
+· Improved Security Across the Enterprise. Improved security capabilities allowed Team ECS to support 100% platform uptime in 2025 for our DHS customer while blocking approximately 910M attack requests monthly.
+
+Sources Sought (SS) Response
+
+Company Overview - 1
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+Team ECS recognizes that replacing VA.gov is not solely a technical challenge. Meaningful improvements require coordination across experience design, platform architecture, content strategy, governance, analytics, and operating models. As a result, VA must modernize in a way that addresses the following areas of priority:
+Continuity. A successful approach avoids "big bang" replacements in favor of progressive, parallel evolution, where new capabilities are introduced alongside existing ones and adoption is measured over time. Key practices include:
+· Dual-running legacy and modernized experiences during transition periods.
+· Progressive user migration based on journey readiness rather than arbitrary cutover dates.
+· Feature-level rollout with rapid rollback capability to preserve Veteran access and trust.
+Maintaining continuity of service for millions of VA.gov users drives our focus on maintaining a best-inclass service and cross-functional, highly technical team that is available to respond urgently, accurately, and flexibly to meet or exceed customer expectations and program Service Level Agreements (SLAs). Our experience supporting VA modernization provides unique insight into the range of technical issues and challenges that can occur across the platform and the institutional knowledge of best practice resolutions and risk reduction techniques.
+To support the VA.gov platform, we prioritize an operational model that considers the infrastructure, platform, service, and security landscape of the enterprise, but also the unique requirements of the supported sites and the capabilities of site owners. Our technical approach detailed in the following section adheres to core Team ECS principles:
+· Prioritize automation to reduce effort and risk of manual intervention.
+· Empower customers with self-service capabilities.
+· Focus on administration guidance and mission requirements to prioritize issues.
+· Road mapping and forward planning for complex issues.
+· Promote best practices in development for security, US Web Design Standards, 21st Century act, and customer experience.
+As demonstrated with DHS OCIO WCMaaS, ECS architected and operates a comprehensive multi-tenant platform supporting 25 public-facing websites across all DHS components, serving over 2 billion web requests monthly. Our team successfully implemented Drupal 7.x, 8.x, and 9.x platforms with mobile compatibility and established automated deployment pipelines that deliver 500 deployments monthly across multiple environments while maintaining 99%+ uptime. ECS' approach emphasizes a continuous cycle of refining requirements, baselining existing capabilities, and delivering value through rapid development processes. By using Maestro delivery dashboards and an integrated SecDevOps pipeline (Gitlab, Ansible, Fortify, etc.), ECS monitors performance, enforces compliance, and manages risk in realtime, helping to prevent service interruptions. The builtin ability to accommodate changing requirements, even late in development further protects continuity by allowing quick adaptation without downtime.
+Integration. By decoupling experience from system implementation, VA can modernize the Veteranfacing layer while preserving investments in existing systems and enabling future technology adoption. Modernization should be anchored in an API-first, integration-driven architecture that:
+· Treats backend systems as authoritative services, not user-facing platforms.
+· Abstracts system complexity behind stable integration and orchestration layers.
+
+Sources Sought (SS) Response
+
+Request Response - 2
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+· Enables reuse and consistency across benefit portfolios while accommodating system-specific constraints.
+Team ECS utilizes proven integration methodologies and comprehensive system analysis frameworks to enable agencies to modernize technology ecosystems while maintaining operational continuity with existing legacy systems. We employ API-first approaches, data mapping strategies, and phased migration planning to ensure seamless login and connectivity across diverse technology platforms, including external resources such as those commonly accessed via VA.gov to cross-authenticate when possible. On the VA Veterans Experience Office (VEO) Multi-Channel Technology (MCT) program, Team ECS successfully integrated program management across more than 25 Veteran-focused healthcare IT projects, supporting VA.gov, eBenefits, and digital modernization initiatives. Our team processed 6M+ unique customer records through VA Profile and reduced case processing times by over 40% through strategic system integration, process optimization, and data analytics.
+VA.gov needs to be diligent at looking ahead at emerging technologies and services to be able to respond to emerging threat vectors, improve the quality of services, and provide modern technologies for consumers. Further, with VA at a crossroads for contact center consolidation, VA.gov modernization presents an opportunity to integrate with contact center technologies for a unified customer service ecosystem. Incorporating self-service tools, such as LLM backed search, and linking them to contact centers for needed additional support, would significantly transform the user journey of accessing needed information. Team ECS brings extensive experience supporting key VA.gov updates that link to additional customer support resources, such as the implementation of AskVA to manage 40K+ monthly cases with a 99%+ resolution rate in 6 days or less. We also supported the VA.gov chatbot pilot, which brings potential for further modernization to reduce call center/case worker burden, while remaining Veteran friendly, by intaking questions, triaging, and offering links to the correct human support when required.
+As VA continues to evolve, we use our Lean Agile management approach to quickly reprioritize and surge cross-functional resources in support of new or evolving technologies. We build spikes and innovation time into sprints to make sure continuous innovation is a focus. We use Lean Analysis of Alternatives (AoA) to identify and vet potential technologies that may align with customer needs. ECS invests internally through Corporate Research and Development (R&D), CoEs, hack-a-thons, and partnerships with industry partners, such as AWS, to stay ahead of the market and continuously invest in the advancements prior to bringing to our customers for review. Team ECS also collaborates with industry experts including the American Council for Technology-Industry Advisory Council (ACT-IAC) committees for advance mobility, cloud computing, cybersecurity, digital transformation, and emerging technology to glean valuable insights.
+Operation. Modernization efforts must improve speed and quality of delivery without increasing operational or reputational risk to the Department. This requires:
+· Security and compliance embedded into the development lifecycle through DevSecOps practices.
+· Automated testing, scanning, and deployment controls to support continuous authorization and auditability.
+· Operational transparency and observability to ensure system health, performance, and incident response meet both mission and compliance needs.
+Team ECS manages compliance, risk management, and security as core aspects of our delivery model. Integration of SecDevOps processes, the use of tools like Fortify for security testing, and adherence to formal communication and governance plans (communication plans that outline objectives, cadence, and audience) demonstrate an operating model built for the stringent oversight typical of federal agencies.
+Team ECS ensures we monitor all platform applications and services and follow FedRAMP, 4300A, Federal Information Security Modernization Act (FISMA), Federal Information Technology Acquisition Reform Act (FITARA), and National Institute of Standards and Technology (NIST) guidance and
+
+Sources Sought (SS) Response
+
+Request Response - 3
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+requirements to guard against threats before they are known. Examples include Drupal Zero Day events, Distributed Denial of Service (DDoS), web crawlers, and bad actors like KillNet attempting to compromise websites.
+On the DHS WCMaaS program, ECS supports DHS, e-Verify, Cybersecurity and Infrastructure Security Agency (CISA), and Federal Emergency Management Agency (FEMA) sites in response to various web crawler attacks that were increasing server traffic and slowing site performance. They resulted in no downtime and ECS coordinated with the affected agencies, as well as our Akamai partners, to develop permanent solutions to address the vulnerabilities.
+Long-term Scalability. Long-term scalability is a foundational requirement for VA.gov, given the platform's role as the primary digital entry point for millions of Veterans, families, and caregivers across a wide range of benefits and services. As demand fluctuates, policies evolve, and new capabilities are introduced, VA.gov must be able to scale, adapt, and recover without repeated redesign or disruption to mission-critical services. Achieving this level of sustainability requires deliberate architectural and operational choices that support growth, change, and resilience over time. Key enablers that we focus on:
+· Cloud-native architectures that scale elastically to meet demand.
+· Modular platform components that can evolve independently.
+· Resilient design patterns that allow graceful degradation during outages or downstream system failures.
+Team ECS delivers modern, scalable digital platform architecture using our proven Enterprise Drupal Framework and cloud-native design principles to enable federal agencies to serve millions of users with exceptional performance and reliability. Our approach leverages multi-tenant architecture, containerized deployments, and microservices integration to provide the flexibility and scalability required for missioncritical government platforms. Our approach would ensure that VA.gov remains adaptable to new benefit programs, policy changes, emerging technologies, and evolving Veteran expectations over time.
+ECS addresses scalability through a customizable Continuous Integration/Continuous Delivery (CI/CD) platform that includes templates for functional, system, unit, and integration tests. This framework allows new services and updates to be added rapidly while maintaining quality. The principle of welcoming latestage requirement changes, combined with the ability to bring innovation to our customers and their stakeholders shows that the architecture is meant to evolve over time without rearchitecting, supporting longterm growth and resilience.
+Customer Experience. A suboptimal VA.gov user experience can drive Veterans away from not only the site itself, but from receiving the services they have earned. We bring about significant improvements in the Veteran Journey/Experience, and the experience of VA's employees, by implementing:
+· Intent-based navigation reflecting Veteran goals and life events rather than organizational structure.
+· Identity-aware experiences tailoring content, workflows, and guidance to individual context.
+· Cross-portfolio and cross-agency journeys reducing redundant data entry and eliminating unnecessary handoffs.
+· Self-service guides, intuitive search capabilities, and staff training enabling seamless navigation and effectively managing modernization changes.
+Emerging technologies, including AI and LLMs, can further enhance these experiences by providing guided assistance, personalized navigation, and proactive support. As we have seen through our support to VEO MCT, these technologies can better leverage existing VA data to improve experience. For example, our team introduced trending free text analysis and Databricks reporting scripts to streamline VA Profile data requests from weeks to minutes, enabling targeted outreach for a more personalized Veteran experience, such as dedicated support for multiple natural disasters cumulatively affecting millions of Veterans. In
+
+Sources Sought (SS) Response
+
+Request Response - 4
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+conjunction with creating these custom experiences, we also focus on maintaining transparency, security, and human oversight.
+To ensure that our solutions provide a satisfying experience for users, we conduct usability testing and gather feedback through surveys, focus groups, A/B tests, and interviews of app users. ECS' Veterans ERG, with over 150 participating members, offers an in-house starting point for site feedback, which we use to create draft personas, craft follow-on questions, and identify gaps for further research in the broader Veteran and VA employee communities. We also tap into existing research, industry best practices, and leverage federal service standards to understand user wants, needs, preferences, and behaviors. These drivers will be clearly defined and measurable and will guide our design decisions throughout the development process, as well as inform our rollout approach to educate users and effectively manage change.
+We will gather feedback to iteratively improve our prototypes, betas, and after launch, aggregate relevant data from existing VA tools, such as CRMs, VSignals, and Genesys caller analytics, along with site navigation data (e.g., time to login) into a site performance dashboard. This data also allows us to predict anticipated outcomes of proposed changes. For VEO MCT, we developed a report for the VA.gov chatbot pilot that projected up to 84% reduction in re-contact requests regarding claim status. We monitor actual performance versus these projections to assess impact of change and areas for further improvement. These feedback loops will allow us to listen to users using both qualitative and quantitative measures, analyze and act on their feedback and behaviors, and monitor the results. By continuously gathering and incorporating user feedback and behaviors, we will ensure that our site navigation is intuitive, efficient, and effective in meeting user needs.
+As with DHS WCMaaS, ECS built a customer engagement portal that centralizes interactions with tenants, providing a single point of contact for support and feedback. Ongoing training, brownbag sessions, and handson labs (e.g., the PowerBI Center of Excellence) help tenants adopt tools quickly and efficiently. By maintaining a backlog of user stories and aligning them with operational objectives, the solution ensures that enhancements are driven by actual user needs, resulting in a smoother, more responsive experience for endusers.
+3.0 Relevant Technologies and Approaches
+VA.gov has evolved into one of the largest and most complex public-facing digital platforms in the federal government, serving millions of Veterans, family members, caregivers, and stakeholders across healthcare, benefits, and services. Elevating VA.gov to a next-generation digital experience requires modernization that goes beyond surface-level redesigns and addresses the underlying platform, operating model, and experience orchestration that support Veteran trust and continuity of service.
+A modern VA.gov platform should be grounded in a progressively decoupled architecture that separates experience, orchestration, and service integration layers. This enables VA to evolve Veteran-facing experiences without destabilizing backend systems or interrupting benefit delivery.
+Replacing VA.gov does not require replacing Drupal as a content management system. Instead, VA would benefit from further decoupling content management from experience orchestration and Veteran journeys. A CMS, whether Drupal or a future equivalent, should serve as a governed content system of record, while navigation, personalization, identity-aware routing, and AI-assisted guidance are handled by dedicated platform services. This approach minimizes risk, preserves continuity, and enables meaningful Veteranfacing innovation without unnecessary disruption to VA's editorial and governance operations.
+Key VA.gov modernization areas include:
+· Experience Orchestration Layer: Introducing a dedicated layer that manages identity context, journey state, eligibility, and notifications across benefits portfolios. This layer enables intent-based navigation and cross-benefit workflows without requiring tight coupling to legacy systems.
+
+Sources Sought (SS) Response
+
+Relevant Technologies and Approaches - 5
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+· API-First and Integration-Driven Architecture: Treating legacy and SaaS systems as authoritative services accessed through standardized APIs and integration platforms. This improves reuse, scalability, and resilience while reducing duplication across VA administrations.
+· Cloud-Native Operations and DevSecOps: Expanding automated CI/CD, observability, and securityby-design practices to support continuous delivery, continuous ATO, and rapid iteration in a regulated environment. Operational excellence becomes a prerequisite for experience excellence.
+· Decoupled Content and Transactional Experiences: Further separating content authoring from transactional workflows so that editorial updates, policy changes, and experience enhancements can occur independently and safely.
+Managing a site as large and visible as VA.gov requires tools that reduce operational burden while increasing consistency and quality. Emerging technologies can significantly streamline platform management by:
+· Automating content lifecycle management, governance checks, and accessibility validation.
+· Providing real-time insight into system health, journey performance, and user friction points.
+· Enabling faster onboarding of new applications and services through shared platform capabilities rather than bespoke implementations.
+These capabilities allow VA teams to focus less on maintaining infrastructure and more on improving Veteran outcomes.
+Emerging technologies, including large language models and artificial intelligence, present meaningful opportunities to improve both the Veteran-facing experience on VA.gov and the operational effectiveness of the underlying platform. When applied thoughtfully and with appropriate governance, these capabilities can reduce friction for users, streamline internal processes, and enhance the resilience and continuity of a large, mission-critical digital environment.
+From a Veteran-facing perspective, AI-enabled capabilities can significantly improve how individuals navigate and interact with VA.gov. Conversational, LLM-powered interfaces can guide Veterans through complex eligibility questions, next steps, and documentation requirements using clear, plain language, reducing confusion and abandonment during critical journeys. These tools can help Veterans move forward with greater confidence without requiring deep knowledge of VA programs or organizational structure. In addition, AI can enable more personalized and context-aware experiences by tailoring content, navigation paths, and reminders based on a Veteran's status, prior interactions, and expressed intent. This personalization allows VA.gov to respond to individual needs while maintaining consistent experience standards across benefit portfolios. AI-assisted support for account recovery, form completion, and benefit status tracking can further reduce frustration by helping Veterans resolve issues quickly while preserving security and identity controls.
+From a platform and operations perspective, AI and LLMs offer opportunities to improve how VA.gov is managed, operated, and evolved over time. AI-assisted content and policy management can support VA staff by helping draft, review, and maintain content for clarity, accessibility, and consistency, while ensuring that final decisions remain under human review and approval. These capabilities can improve content quality and reduce the effort required to keep guidance current across a large and distributed editorial organization. AI can also enhance journey-level analytics by analyzing high volumes of interaction data to identify systemic friction points, emerging issues, and unmet Veteran needs across end-to-end experiences rather than isolated pages or transactions. In addition, AI-assisted development, testing, and documentation can accelerate delivery cycles and improve quality within DevSecOps pipelines, supporting secure and compliant innovation without increasing operational risk.
+
+Sources Sought (SS) Response
+
+Relevant Technologies and Approaches - 6
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+4.0 Additional Information
+Government Wide Acquisition Contracts (GWAC) ECS holds key Government-Wide Acquisition Contracts (GWACs), shown below, providing our customers with a variety of choices for accessing our services.
+
+Recommended Acquisition Strategy. While we have a variety of vehicles to access our services, ECS recommends using GSA Multiple Award Schedule (MAS) or Alliant 2. Using these vehicles will streamline procurement, reduce administrative costs, and enable access to a wide range of products and services. By promoting a full and open competition, the MAS and Alliant 2 programs ensure that agencies can access the best possible services and products from qualified contractors.
+
+5.0 Relevant Experience
+
+Contract/Program Title
+
+Web Content Management as a Service (WCMaaS)
+
+Customer Agency
+
+DHS Solutions Development Directorate (SDD)
+
+Contract#/Task Order#
+
+70RTAC19A00000009 / 70RTAC20FC0000002
+
+Type of Contract
+
+T&M
+
+Role (Prime/Sub) Prime
+
+Period of Performance
+
+3/20/2020 - 3/30/2023
+
+Contract Dollar Value $14,796,370.68
+
+POC Name, Address, Phone Number, Email Address
+
+Name: Matt Medor Phone: (771) 201-1511 | Email: matthew.medor@hq.DHS.gov
+
+Brief Description of the Contract Effort
+
+Note: ECS was awarded follow-on contracts with most recent task order #70RTAC25FR0000057 on 9/11/2025.
+ECS has been a dependable partner for 13+ years in supporting the continuous development, enhancement, and expansion of the Web Content Management (WCM) platform into a modern, secure, reliable, and scalable enterprise platform. Like VA.gov, the WCM as a Service (WCMaaS) platform for the Department of Homeland Security (DHS) aims to enhance DHS' digital engagement with US citizens and safeguard the homeland by providing DHS Headquarters (HQ) and components a secure, reliable content delivery platform supported by an industry leading development team that enables digital engagement and information sharing. As the Prime on the WCMaaS contract, ECS can directly speak to the highly similar size, scope, and complexity of the stated objectives in the RFI. Since 2012, ECS architected and operates a comprehensive multi-tenant platform supporting 25 public-facing websites across all DHS components, serving over 2 billion web requests monthly. This contract staffs 20 FTEs supporting a complex set of task requirements to include Drupal subject matter expertise, business data analysis and requirements gathering, IT program management, communication and outreach, technology upgrades/improvements, and web content management services.
+ECS utilizes a successful Agile program and project management framework, which both synthesizes and integrates key aspects of PMBOK, IEEE, ITIL, CMMI, DHS SELC, and Lean-Agile principles, ensuring comprehensive and effective management across all task requirements and the timely delivery of all tasks and deliverables across all WCM workstreams. We develop and manage
+
+Sources Sought (SS) Response
+
+Additional Information - 7
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+project schedules to ensure transparency and incorporate updates to requirements and release dates and perform regular risk management to communicate and escalate risks and issues to stakeholders as appropriate. Following the adaptable Agile methodology, ECS utilizes a combination of Scrum and Kanban boards: Scrum to manage development efforts for larger projects such as DHS.gov and EMERALD (a centralized enterprise digital asset management system) development and Kanban to track O&M activities and platform enhancements.
+ECS follows the DHS SELC and Enterprise Architecture process for conducting business analysis and management. Initially, an Analysis of Alternatives (AoA) based on market research and the DHS Technical Reference Manual (TRM) is conducted; upon completion of the AoA and approval, Team ECS creates user stories in collaboration with Product Owners detailing the acceptance criteria for requirements traceability to measure successful testing. Requirements are tracked from initial conception to final testing and release in Maestro and monthly epic grooming sessions are conducted to ensure that product roadmaps and requirements are kept up to date and accurate.
+With a focus on SecDevOps, ECS provides WCM tenants and the WCM platform with a Continuous Improvement/Continuous Delivery (CI/CD) solution via a framework template of various functional, system, unit, and integration tests through GitLab. ECS designed our own automated deployment and code scanning pipeline, utilizing automated code scanning tools such as CodeDx and Fortify to help deliver over 500 automated deployments each month across multiple environments. This not only reduced the deployment script run time from 15 minutes to 4 minutes but included the acceleration of application build deployment times from 18 months to 3 months.
+ECS uses repeatable processes to drive accountability and consistency in service enablement. Platform processes are captured and maintained in usable documentation to promote action and accountability across stakeholders. Through tenant touchpoints and surveys, ECS assesses changing requirements or process deficiencies and uses Value Stream Mapping and other workflow analysis techniques to analyze key business process improvements. As changes are implemented, we follow a consistent and proactive communications plan to support OCIO Change Management processes and inform the WCM community of impacts, timelines, and expectations.
+ECS' approach to Release Management aligns to the DHS SELC and TRM process to enforce appropriate testing and support Agile practices. We maintain a deployment calendar to support the coordination of platform upgrades, patches, and tenant major/minor releases. Through coordination with tenants during regular touchpoints, ECS ensures an understanding and awareness of the scope, goals, and approaches of upcoming tenant releases. Prior to the release of major platform-wide upgrades we employed ITIL best practices to communicate maintenance hours to tenants and to elicit tenant testing.
+ECS has provided extensive training support that is accessible by all the WCM platform customers. We manage and host an "Introduction to Drupal" webinar series for new content managers across DHS and its components and we also host monthly webinars for more experienced Drupal users/teams, known as "Drupal 9 Specials" trainings. We have provided, and continue to update, a workflow documentation series on Drupal reviewers and approvers to better help all DHS content managers understand best practices when updating their sites' content.
+ECS delivered cloud-based, shared services that reduced infrastructure and operating costs ($400,000 per year) and improved capabilities and services using the FedRAMP public AWS cloud. We focused on automation, streamlining processes, and maximizing the use of cloud IaaS. We managed, operated, and supported the AWS cloud environment 24x7, 365 days a year (offering Tiers 1-3 support) while executing over 500 deployments a month and onboarding several new tenant sites.
+ECS performs monthly baseline updates to ensure the WCM platform stays up-to-date and secure. The developers then document the release notes for all the modules updated and distribute them to tenants to keep them informed on all baseline changes. We update the Confluence page with all SELC compliance documents, including documents on system design, contingency planning, system architecture, and quality assurance planning. We also update and distribute thorough onboarding documents for all WCM platform tenants, Akamai-only tenants, and any tenants seeking customizable services through the WCM MOA such as GovDelivery, SurveyMonkey, and Siteimprove.
+ECS has documented new requirements analysis and gathering processes to investigate, present, and procure new technologies, platform enhancements, and tools. We continuously research new technologies, provide an AoA and describe potential use and functionality of the technology, and handle all compliance approval to onboard the new technology, including submission of proposed technology to the TRM for approval. Prior to implementation, we submit a Change Request to alert tenants of the change and outline future updates and processes should there be any disruption to the network or servers. Examples of new implemented technologies include Google Search, EMERALD, and Composer Build.
+ECS manages and hosts the Fortify tool that all platform tenants use to run static code analysis and code scanning on site code. Our team provides various analytics and reporting materials like Monthly Status Reports, Akamai DDoS reports, Splunk and Splunk logs. Siteimprove analytics and reporting are used for website customer experience analysis and reporting.
+Tenants are also empowered to directly submit any requests, incidents, bug fixes, or feature enhancements to the WCM team through the WCMSSR Maestro project. ECS has ensured that customer satisfaction and tenant site stability remain high by triaging requests within 24 hours and prioritizing based on urgency to ensure tenant concerns are allayed.
+
+Sources Sought (SS) Response
+
+Relevant Experience - 8
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+ECS' skilled developers allow for optimal delivery of Drupal-based websites to deliver users of DHS.gov, oig.gov, fleta.gov, fletc.gov, and other component websites an informative and user-friendly experience. We maintain Drupal baseline updates to ensure our sites are kept as up to date as possible with the latest USDWS design standards.
+ECS has improved the department's UI/UX through content strategy, content management, graphics production and management, and SME-level Drupal development. We maintain a dedicated Content Manager, who provides communications expertise and works closely with the DHS OPA team to perform usability testing and support Search Engine Optimization (SEO) improvements on site pages. Additionally, our Drupal SMEs consistently review sites to improve accessibility scores. The platform is also responsible for acquiring and managing Siteimprove, a site analytics tool that automatically identifies errors on a site, combs through data, and measures website success. Our Content Manager then uses Siteimprove to increase UX and improves readability scores by identifying misspellings and broken links. We also provide tenants with tools to increase SEO.
+ECS made extensive use of the WCM Internal and WCM Collaboration Confluence spaces to maintain centralized, go-to knowledge management locations for both the WCM team and tenants. The Confluence spaces house information on tenant onboarding materials, frequently asked SSR topics, documentation for both developers, content editors, and engineers, and lessons learned.
+Similar Problems, Issues/Challenges Faced
+Specific improvements, solutions, results, and successes include: · Standing up go.DHS.gov, a fully functioning, improved version of the deprecated URL shortener website, go.USA.gov, in approximately 2 months. This was a high priority ask as several components' social media teams depended on the site's functionality. · Implementing Google Search functionality on 14 tenant websites, offering tenants faster and more relevant search performance and resulting in improved customer satisfaction. · Reducing cost of infrastructure hosting by $400K per year and improving websites performance on the platform by 50%. · Delivering 500 automated deployments each month across multiple environments. Reduced deployment script runtime from 15 minutes to 4 minutes, saving over 10 minutes on each of our 500 code deployments. Accelerated application build deployment times from 18 to 3 months. · Blocked over 300,000,000 attacks from bad actors on any of the DHS websites in our platform, proving the strength and resiliency of our security paradigm.
+
+Contract/Program Title Customer Agency
+Contract#/Task Order# Type of Contract
+Period of Performance
+POC Name, Address, Phone Number, Email Address
+
+Digital and Constituent Services
+
+State of NY: Empire State Development Corporation
+
+15720
+
+Firm Fixed Price
+
+Role (Prime/Sub)
+
+10/25/2023 - 10/25/2028
+
+Contract Dollar Value
+
+Name: Carl Harrison Phone: 212-803-3152 | Email: Carl.Harrison@esd.ny.gov
+
+Brief Description of the Contract Effort
+
+Prime $ 10,000,000
+
+The Empire State Development Corporation (ESD) is New York State's primary economic development agency, responsible for promoting a robust, inclusive, and competitive statewide economy. ESD advances this mission by attracting and retaining businesses, encouraging private investment, and creating jobs across all regions of New York through strategic incentives, financing programs, real estate development, and targeted economic initiatives. Avilamb has directly supported this mission by implementing modern digital platforms that improve how ESD engages businesses, administers programs, and delivers services to the public. These technology solutions enhance operational efficiency, strengthen data-driven decision making, and improve accessibility, helping ensure that economic opportunity is broadly shared throughout the State.
+Avilamb serves as a prime contractor to ESD, supporting the modernization and ongoing operation of the agency's public-facing digital services and internal technology platforms. The contract encompasses the end-to-end design, development, integration, and operation of web experiences, business intake and case management workflows, customer relationship management, analytics, and cloud-based infrastructure. Collectively, these capabilities form the foundation of ESD's digital front door and internal service delivery ecosystem.
+Under this engagement, Avilamb is responsible for modernizing how New York State businesses discover ESD services, submit information, track requests, and interact with the agency across multiple programs. The work spans both public-facing
+
+Sources Sought (SS) Response
+
+Relevant Experience - 9
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+experiences and internal operational platforms, with a consistent focus on scalability, security, reliability, and continuity of service in a regulated government environment. Modernization activities were deliberately designed to avoid disruption to ongoing business engagement while enabling incremental improvement and future adaptability.
+The engagement addressed several core objectives, including streamlining business intake and form submission workflows to reduce friction for users, decoupling content management from application and workflow logic to improve flexibility, integrating multiple backend systems into a coherent and unified experience, and providing analytics that deliver insight into user demand, service performance, and program effectiveness. In parallel, Avilamb assumed responsibility for operating and maintaining the platform in compliance with state security, governance, and operational requirements.
+Avilamb designed and implemented structured business intake forms and ticketing workflows that collect data from New York State businesses and route submissions to the appropriate ESD programs and staff. These workflows are integrated with the State's Drupal-based content management system, which serves as the authoritative source for public content while remaining decoupled from downstream processing, integrations, and analytics. This architecture enables content teams to manage and evolve information independently while preserving the stability of transactional and data systems.
+This approach reflects modern decoupled and headless CMS patterns similar to those used by VA.gov. Content management operates independently from transactional workflows, intake and processing logic is implemented as modular and reusable services, and CMS changes can be made without disrupting backend systems, integrations, or data pipelines. This separation reduces risk and supports continuous improvement.
+To further ESD's core mission, Avilamb implemented and integrated a portfolio of enterprise technologies. These include the Microsoft Power Platform to support customer relationship management, workflow automation, and case management, containerized API applications to mediate interactions between web experiences, CRM systems, and external data sources, and Azure Data Factory and related data services to enable data ingestion, transformation, and analytics. Integration patterns were designed to promote reuse, scalability, and system isolation, and the solution integrates with backend enterprise resource planning systems, including PeopleSoft. Across the platform, legacy and software-as-a-service systems are treated as authoritative services and are abstracted behind APIs and integration layers rather than exposed directly to user-facing applications.
+Avilamb is responsible for the ongoing operations and maintenance of the platform, including cloud infrastructure management, application support, and continuous enhancement. This work is performed within a highly visible and regulated state government environment, requiring disciplined DevSecOps practices, structured change management, and close coordination across technical, programmatic, and policy stakeholders.
+This engagement aligns closely with the objectives outlined in the VA.gov RFI. It demonstrates experience modernizing a government digital front door without disrupting service delivery, applying decoupled CMS and intake architectures comparable to those used by VA.gov, integrating multiple platforms and data sources into a unified experience, and emphasizing continuity of operations, governance, and analytics in a regulated environment. It also reflects an operating model that balances innovation with reliability and public trust.
+Similar Problems, Issues/Challenges Faced
+Avilamb's work with the Empire State Development Corporation (ESD) addressed a range of challenges that closely parallel those VA has likely to encounter in the continued modernization of VA.gov. Although the scope and mission of the two organizations differ, the underlying structural, technical, and operational constraints are highly comparable and provide relevant insight into how large, mission-critical public platforms can evolve responsibly.
+ESD required modernization of its digital services while maintaining uninterrupted engagement with thousands of active businesses and economic development stakeholders across New York State. Core capabilities such as intake forms, ticketing workflows, and customer service processes supported ongoing program delivery and could not be taken offline or significantly altered without risking service disruption. As a result, modernization efforts had to be carefully staged to preserve continuity and reliability while introducing incremental improvements. VA.gov faces a similar requirement at a significantly larger scale, as it must continue to provide uninterrupted access to benefits, healthcare services, and information for millions of Veterans, family members, and caregivers. In both environments, successful modernization depended on a progressive approach in which new capabilities were introduced alongside existing systems, rather than through disruptive cutovers that could undermine user trust or operational stability.
+At ESD, the State's Drupal-based content management system functioned as the authoritative platform for public-facing content, while business intake, case management, and analytics required more dynamic and scalable solutions. A central challenge was preventing tight coupling between content presentation and backend processing logic, which would have limited flexibility and
+
+Sources Sought (SS) Response
+
+Relevant Experience - 10
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+increased operational risk. Addressing this challenge required a clear separation between content authoring and publishing, userfacing intake and workflow components, and backend data processing and system integrations. This challenge closely mirrors VA.gov's operating model, which combines a content-rich, decoupled CMS with complex transactional journeys spanning multiple benefits and services. In both cases, architectural clarity and disciplined separation of concerns were essential to enabling ongoing content updates and experience enhancements without destabilizing underlying systems.
+ESD's technology environment included multiple enterprise platforms, such as customer relationship management systems, workflow automation tools, analytics platforms, and external data sources. Each system had distinct ownership, data models, and technical constraints. Integrating these systems into a coherent digital experience required deliberate API design, data normalization, and orchestration to ensure consistency and reliability across user journeys. VA.gov faces an analogous challenge on a broader scale, integrating a diverse portfolio of legacy and emerging systems across multiple VA administrations. In both cases, the primary challenge was not a lack of technology, but the need to coordinate and orchestrate existing systems in a manner that presents a unified and intuitive experience to end users.
+ESD's digital services also had to balance ease of use for businesses with the regulatory, security, and data governance requirements inherent to state government operations. Designing intake forms and workflows required careful attention to data quality, auditability, and policy compliance, while still reducing friction for users and encouraging engagement. VA.gov encounters similar tensions in serving Veterans, as it must simplify access to services while operating within a highly regulated and highly visible federal environment. Accessibility is of high priority in this environment. Both contexts demonstrate that effective modernization relies on user-centered design that operates within, rather than outside of, established policy and compliance constraints.
+Governance presented another shared challenge. At ESD, digital modernization efforts required coordination across program offices, information technology teams, communications staff, and policy stakeholders. Differing priorities, funding cycles, and timelines created governance complexities that, if not actively managed, could slow delivery or lead to fragmented user experiences. VA.gov faces comparable governance challenges across administrations, benefit portfolios, and functional owners. The ESD engagement reinforced the importance of clearly defined operating models, decision rights, and delivery guardrails that enable progress while avoiding centralized bottlenecks or inconsistent outcomes.
+Finally, prior to modernization, ESD had limited visibility into how users progressed from initial content discovery through intake submission, routing, and resolution. Establishing analytics that spanned the full user journey, rather than isolated systems or pages, was a critical requirement for informed decision making and continuous improvement. VA.gov similarly seeks to move beyond page-level metrics toward deeper insight into Veteran journeys, points of friction, and service outcomes. In both environments, analytics emerged as a foundational capability that supports ongoing optimization and accountability, rather than a feature added after implementation.
+
+Sources Sought (SS) Response
+
+Relevant Experience - 11
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+

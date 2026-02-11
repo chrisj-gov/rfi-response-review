@@ -1,0 +1,247 @@
+Solicitation #: 36C10B26Q0131
+
+February 4, 2026
+
+DEPARTMENT OF VETERANS AFFAIRS (VA) REPLACEMENT MODULE FOR VA.GOV
+Request for Information (RFI)
+
+Submitted Electronically to: Evan Schlisserman, Contracting Officer evan.schlisserman@va.gov
+Allison Fulton, Contract Specialist Allison.fulton@va.gov
+
+Submitted by: General Dynamics Information Technology, Inc. (GDIT) 3150 Fairview Park Drive | Suite 100 Falls Church, VA 22042-4504 (703) 995-8700 | http://www.gdit.com
+GDIT Point of Contact (POC): Angela Whitfield, Contracts Administrator Phone: (703)270-3365 | angela.whitfield@gdit.com
+
+Disclosure Statement:
+This proposal includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this offeror as a result of--or in connection with--the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to the restriction are contained in sheets with the following legend: "Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal."
+
+VA | Replacement Model for VA.Gov Solicitation #: 36C10B26Q0131
+
+Request for Information (RFI) February 4, 2026
+
+Table of Contents
+1.0 Company or organization overview (name, location, and brief description of relevant capabilities) ......................................................................................................................... 1
+2.0 Relevant experience with similar challenges .................................................................................. 2 3.0 Responses to the topics and questions in this request .................................................................... 3 4.0 Descriptions of relevant technologies and approaches Known Limitations and Trade
+Offs ..................................................................................................................................................... 4 5.0 Any additional information relevant to VA's objectives ............................................................... 5
+
+List of Tables
+Table 1: Corporate Information .................................................................................................................... 1 Table 2: GDIT's RFI Recommendations ...................................................................................................... 5
+
+ii Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+VA | Replacement Model for VA.Gov Solicitation #: 36C10B26Q0131
+
+Request for Information (RFI) February 4, 2026
+
+1.0 Company or organization overview (name, location, and brief description of relevant capabilities)
+
+GDIT's dedicated Federal Health Division is at the forefront of innovation, leveraging purpose-built Artificial Intelligence (AI), Digital Accelerators, and established Centers of Excellence. These advanced capabilities form the bedrock of our approach, enabling us to deliver rapid, reliable, highly secure enterprise-scale services, coupled with best-in-class customer support solutions that empower our customers to effectively and efficiently accomplish their missions.
+
+GDIT is a premier systems integrator and IT solutions provider with a longstanding history of delivering transformative innovation to the Department of Veterans Affairs (VA). With decades of experience, GDIT has consistently partnered with VA to address critical technical and operational challenges, ensuring Veterans and their families receive seamless access to benefits, healthcare, and services. GDIT's proven ability to modernize complex digital ecosystems like VA.gov, supporting technology advancement, and human centered design (HCD), underscores our deep commitment to enhancing service delivery for Veterans. Through programs including the Enterprise Service Desk Tier One (ESD T1) Support and Agile Development Service initiatives for VA.gov, GDIT has delivered high-impact solutions addressing identity management, secure authentication, and inclusive navigation. Leveraging expertise in adaptive authentication, and comprehensive security frameworks, GDIT is uniquely positioned to support VA's mission to improve the Veterans' experience and improve access and equity for VA.gov users with varying levels of computer literacy.
+
+GDIT is honored to support Veterans, their families, and the mission of the Department of Veterans Affairs. Veterans comprise 30% of GDIT's total workforce as we are deeply invested in our work at VA. GDIT's unwavering commitment to VA is underscored by our experience including six active VA Task Orders and a dedicated team of over 2,200 cleared staff. It remains our distinct honor and privilege to serve Veterans, and we take immense pride in knowing our work positively impacts every American, every day.
+
+Table 1 provides GDIT's corporate information.
+
+Table 1: Corporate Information
+
+Requirement
+
+GDIT's Response
+
+a. Name of Company and b. Address
+
+General Dynamics Information Technology, Inc.
+
+3150 Fairview Park Drive, Suite 100
+
+Falls Church, VA 22042-4504
+
+c. Point of Contact, d. Phone, e. Email Address
+
+Angela Whitfield, Contracts Administrator Advisor,
+
+(703)270-3365 571) 635-4989,
+
+Angela.whitfield@gdit.com
+
+f. Company Business Size and Status under NAICS Large Business
+
+Code: 541519
+
+g. Existing Contractual Vehicles (include the contract and schedule numbers)
+
+· GSA MAS Contract No. GS-35F-393CA · GSA GWAC Alliant 2 Contract No. 47QTCK18D0003
+
+· GSA OASIS+ Contract No. 47QRCA25DU144
+
+· SEWP V Contract No. Group A: NNG15SC12B, Group
+
+D: NNG15SC35B
+
+· CIO-SP3 Contract No. HHSN316201200023W
+
+· CIO-CS Contract No. HHSN316201500004W
+
+· HCaTS Contract No. Pool 1: GS02Q16DCR0016
+
+Pool 2: GS02Q16DCR0050
+
+· Encore III Contract No. HC1028-18-D-0010
+
+· T4NG Contract No. VA118-16-D-1016
+
+h. Socioeconomic Data
+
+N/A, Large Business
+
+1 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+VA | Replacement Model for VA.Gov Solicitation #: 36C10B26Q0131
+Requirement i. Indicate whether you can comply with the
+limitations on subcontracting at VA Acquisition Regulation (VAAR) 852.219-73, VA Notice of Total Set-Aside for Certified Service-Disabled Veteran-Owned Small Businesses or VAAR 852.219-74 VA Notice of Total Set-Aside for Certified Veteran-Owned Small Businesses j. SAM Unique Identity Identification Number
+
+Request for Information (RFI) February 4, 2026
+GDIT's Response N/A
+SMNWM6HN79X5
+
+2.0 Relevant experience with similar challenges
+Federated Delivery Model Some of the challenges with VA.gov have been with functionality being streamlined through dedicated service lanes limiting VA stakeholders' ability to deploy capabilities across multiple lines of business in Veterans Health Administration (VHA), Veterans Benefits Administration (VBA) and National Cemetery Administration (NCA). This results in an operating model and delivery velocity challenge. While VA.gov has made meaningful progress toward a unified Veteran experience, the current centralized delivery model has become a bottleneck, particularly for business line requirements and the digitization of legacy PDF forms.
+Today, VA.gov functions as a centralized factory where requirements flow through single service lanes with limited capacity. Business lines compete for attention and sequencing, slowing implementation of statutory and operational requirements, and disconnecting funding ownership from delivery ownership. A federated delivery model would allow VA business lines to independently build on VA.gov using their own funding and delivery teams, while Office of Information Technology (OIT) provides centralized governance, standards, and shared services. This model allows centralized oversight by OIT while allowing each line of business the ability to build and delivery functionality at pace. This model allows OIT to be responsible for:
+· Design system and accessibility standards · Identity, authentication, and navigation · Shared services, APIs, analytics, and logging · Security, compliance, and governance
+And each line of business to own requirements and delivery for:
+· Their applications and forms · Their funding and contracts · Their delivery teams · Their outcome metrics
+Digitization of Legacy PDF forms Today, many legacy PDF forms are treated as bespoke software products, with extensive business rules designed before each release. This leads to deployment timelines of 12-24 months per form during digitization and deployment in VA.gov, delaying tangible benefits for Veterans. GDIT proposes a tiered approach to PDF form digitization, including the use of commercial off-the-shelf (COTS) tools to rapidly convert existing PDFs into simple web forms - dramatically reducing time to value for Veterans. GDIT proposes the following phased approach:
+2
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+VA | Replacement Model for VA.Gov Solicitation #: 36C10B26Q0131
+
+Request for Information (RFI) February 4, 2026
+
+Phase 1 - Rapid Digital Intake: Use COTS tools to convert existing PDFs into web-based forms with minimal business logic. Enforce accessibility, basic validation, save/resume capability, and secure submission. This enables digital completion in weeks rather than years.
+Phase 2 - Progressive Enhancement: Iteratively add business rules, pre-fill, decision support, and workflow automation after digital intake is live.
+Phase 3 - Use of AI: Recommendation to utilize AI use cases for VBA and perhaps VHA Claims Adjudication to prepare tentative decisions based on existing business rules and Veteran records. For VBA, this would be the M21 manual series and 38 CFR.
+The goal remains the same to deliver benefits and health services to our Veterans at an accelerated pace, simplifying the claims process for the Veteran, at maximum transparency so Veterans understand what benefits and health services they could receive. For example, a Veteran submitted a 10-10D form for ChampVA benefits may have to wait 2 months or longer only to be provided a response they were ineligible for this benefit.
+Why does GDIT recommend COTS tools for form digitization for VA.gov? COTS tools reduce custom development effort, allow faster experimentation, and enable VA to focus engineering capacity on highervalue problems. Used appropriately, they complement VA.gov rather than replace it.
+3.0 Responses to the topics and questions in this request Case Studies are largely a function of sharing data. This includes aggregating successes, lessons learned and cost impacts into best practices, as well as SME collaboration and code reuse. Success is only as good as the underlying communications affords. GDIT employs a robust collaboration network to form a force multiplier and is embodied in our 3 Centers of Excellence and 10 Digital Accelerators. Our COEs focus on several core areas including:
+· AI Center of Excellence: Leveraging AI/ML, generative AI and agentic AI technologies to develop rapid, repeatable and proven solutions for defense, civilian, healthcare and intelligence agency missions.
+· Cyber Center of Excellence: Enhancing capabilities in full spectrum cyber, zero trust, threat intelligence and automated cyber defense to protect critical infrastructure, mission operations and government networks.
+· Mission Software Center of Excellence: Applying AI-assisted software development, digital engineering and commercial technology solutions to rapidly modernize mission systems.
+Our Digital Accelerators are more focused on specific areas and technology ranging from Ember Digital Engineering to our Coral Software Factory. Each of our 10 Digital Accelerators are staffed with Subject Matter Experts who serve as conduits across GDIT Divisions and contracts. Documentation is critical in sharing information as is new technology assessment. Some examples include:
+COVE AI Ops; maximizing IT infrastructure. CMS-Aligned Networks & Interoperability: The Centers for Medicare & Medicaid Services (CMS) is aggressively pushing for "data liquidity." By early 2026, CMS plans to launch Trusted Data Exchange, allowing Medicare Blue Button claims data to be accessed via modern, secure networks, reducing the need for paper, or "killing the clipboard". Our VA contracts collaborate with our CMS team regularly.
+LUNA AI; leveraging AI to increase productivity and quality. GDIT developed an Agentic AI model as part of our Unified Claims Acceleration Platform for VBA. Importantly, this uses M-21 and 38 CFR as authoritative source for rules applied to Disability Claims. We then applied an AI ChatBot on the frontend using these same authoritative sources.
+The Indian Health Service (IHS) provides health care to approximately 2.8 million American Indians and Alaska Natives, who are members of 574 federally recognized tribes. Through a network of IHS and
+3
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+VA | Replacement Model for VA.Gov Solicitation #: 36C10B26Q0131
+
+Request for Information (RFI) February 4, 2026
+
+tribal health facilities, as well as urban Indian health programs, these men, women and children depend on IHS as their principal health care provider and advocate.
+IHS' existing EHR system, while serving its original purpose, presented opportunities for improvement in terms of integration and efficiency. As we embark on the modernization journey, it is essential to maintain the system's stability and continuity to ensure patient care is not disrupted. Our approach centers on maintaining the current system while collaborating with Oracle Health, the leading commercial EHR vendor in the federal space, to design a more integrated and advanced solution. This partnership allows IHS to move from a decentralized, on-site technology to a modern, cloud hosted, centralized solution, reducing development and sustainment efforts for the agency.
+GDIT is a multi-cloud System Integrator and are able to assess a wide range of case studies from our cloud environments for applicability to new efforts. Amazon Web Services (AWS) is generally recognized as having the largest ecosystem of third-party Healthcare & Life Sciences Independent Software Vendors (ISVs), driven by its position as the market leader in overall cloud infrastructure and its extensive, established partner network.
+4.0 Descriptions of relevant technologies and approaches Known Limitations and Trade Offs The tools and technology behind VA.gov are sound, however, the navigation lacks Veteran focus forcing the Veteran to learn about benefits and services through many VA.gov web pages. Alternatively, the Veteran should be presented with a consistent approach of "my" benefits and health services view in VA.gov. More directly, present the Veteran with a summary of benefits and services being utilized today and what benefits and services they are eligible for based on their specific military service and medical records as well as existing benefits and health services being provided by VA today. For example, if the Veteran has upcoming medical appointments, display those to him/her, and if the Veterans has awarded or in process claims with VBA, list those as well, along with their status and/or progress. Provide links to those benefits and health services that the Veteran is eligible for, but not receiving today - providing a consistent HCD experience to navigate and request specific benefits and health services they are entitled to. GDIT would term this a Personal Dashboard that cohesively aggregates data from across the VA enterprise to present a personalized view. Caregivers and VSO's would have the same Personal Dashboard experience supported a specific Veteran. The goal is to simplify the experience in VA.gov so the Veteran and/or Caregiver can quickly identify those benefits and health services readily available.
+Benefits and some health services have varying prescriptive prerequisites as well as complex eligibility rules. A core objective is to utilize AI to ingest these prerequisites and business rules and utilize available VA sources of data to tailor those benefits and health services that the Veteran eligible in their Personal Dashboard. However, Veterans and Caregivers still may have additional questions about specific benefits and health services. To provide an additional support layer to the VA.gov user base, an integrated AI ChatBot would be an effective tool to allow for queries within VA.gov. The optimum goal is to tailor the AI ChatBot's responses in layman's terms to overcome the wide range of computer literacy across the Veteran and Caregiver population. This would be complementary to the existing how-to documentation and videos.
+With the digitization of claims forms, submission still requires an ink signature, though, digital signature capability has previously been supported by OIT via Identity and Access Management (IAM). This feature could be beneficial with an approved solution integrated into VA.gov to allow Veterans and Caregivers to submit claims via digitally completed PDF forms directly to VA. The secure and authenticated log-in process would significantly mitigate security concerns, and if required an MFA could be incorporated for security compliance. This capability would allow for a quick submittal of a claim form.
+Complementing the Personal Dashboard approach would be a history of correspondence that the veteran could refer to at any time, for clarification or reference purposes. This would entail a chronological listing of all correspondence sent to the veteran, inclusive of a short title and a PDF of the artifact.
+
+4 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+VA | Replacement Model for VA.Gov Solicitation #: 36C10B26Q0131
+
+Request for Information (RFI) February 4, 2026
+
+5.0 Any additional information relevant to VA's objectives
+
+To ensure that responses to a VA.gov Replacement Module RFP are directly aligned with VA's operational needs and deliver measurable security value, GDIT recommends the following refinements to the solicitation listed in Table 2 2. These enhancements will drive specificity, increase the evaluability of proposed solutions, and ensure technical and architectural alignment with VA's hybrid environments.
+
+Recommendation Firm Fixed Price Strategy (FFP)
+Specify Workload Scope and Application Inventory Clarify Reporting, Dashboards, and Audit Expectations Request for Quantified Performance Commitments Full & Open Procurement
+
+Table 2 2: GDIT's RFI Recommendations
+
+Details
+
+Benefit
+
+· While an FFP pricing strategy is feasible,
+
+· Enables industry to accurately
+
+significant details including timeline, as well as
+
+define, and price staffing &
+
+the size and scope of VA's cloud environment will resources required for turnkey
+
+be required. We also suggest that the Government implementation and support.
+
+consider bounding work/contract into distinct
+
+A phased deployment aligned with
+
+phases.
+
+funding will also lead to efficient
+
+purchase of licensing, and early
+
+lessons learned in instrumenting /
+
+configuring applications
+
+· Estimate the number of web applications, APIs, · Enables vendors to tailor
+
+containers, Kubernetes clusters, virtual machines, scalability, enforcement models,
+
+serverless functions, and legacy systems; Include and licensing accurately
+
+traffic profiles for high-throughput services
+
+· Define requirements for dashboards, monthly
+
+· Ensures clear visibility, audit
+
+reports, quarterly reviews, and real-time data feeds readiness, and continuous
+
+to VA systems
+
+compliance
+
+· Specify thresholds for latency ( 50ms), detection · Supports objective performance
+
+accuracy ( 98%), false positives ( 2%), and
+
+comparisons and planning
+
+response times (MTTD < 5 min, MTTR < 30 min)
+
+· Ensure Large Businesses can submit a response for · Less delays
+
+a large scale implementation to this effort
+
+· Enable large business vendors to be
+
+able to leverage previous efforts
+
+and best practices, cost savings to
+
+the government, easy of transition
+
+By incorporating these specific enhancements, the RFP will more effectively solicit mature, measurable, and mission-aligned solutions. These additions also ensure technical reviewers can differentiate between vendors based on actual runtime protection capability, integration maturity, and operational readiness.
+GDIT is honored to present this response in support of VA's VA.Gov Replacement Model initiative. We fully recognize the mission-critical importance of securing VA's digital services, infrastructure, and data--especially those that directly impact the health and well-being of our nation's Veterans. The VA.Gov Replacement effort represents a pivotal opportunity to advance VA's modernization strategy and GDIT is uniquely positioned to help realize that vision.
+
+GDIT is a large business with a strategic set of Veteran Owned Small Businesses (VOSB) and Service Disabled Veteran Owned Small Business (SDVOSB) partners. GDIT and our Veteran-owned SB partners will bring lessons learned and road mapping expertise across the wide range of requirements. This approach will also allow VA to implement a fully competitive procurement for future requirements while not risking the current timeline and imposing serious jeopardy to Veterans' healthcare in the community.
+5
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+VA | Replacement Model for VA.Gov Solicitation #: 36C10B26Q0131
+
+Request for Information (RFI) February 4, 2026
+
+To satisfy the breadth and volume of managed services across the VA ecosystem, it will be critical that the prime contractor be an established service provider that has broad experience, significant staff, infrastructure/equipment, and facilities to allow for rapid start-up. GDIT therefore recommends VA pursue a full and open acquisition strategy that will ensure VA continues to have direct access to the large system integrators necessary to meet all critical VA mission requirements and to ensure full oversight and accountability (versus indirect communications as a subcontractor to a small business prime contractor).
+
+6 Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.
+
+

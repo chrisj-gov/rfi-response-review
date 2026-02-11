@@ -1,0 +1,647 @@
+Department of Veterans Affairs Replacement Model for VA.gov
+
+REQUEST for INFORMATION RESPONSE
+
+Submitted to:
+GSA
+Submission Date:
+February 4, 2026
+Due Date:
+February 4, 2026
+
+Submitted by:
+ICF Incorporated, L.L.C.
+
+Points of Contact: Justin Plank
+Contracts Director
++1 (703) 251-8963 justin.plank@icf.com
+
+ICF PROPRIETARY
+
+1
+
+Department of Veterans Affairs, VA.gov Replacement Model: ICF RFI Response
+
+Company and POC Information
+
+POC Email
+
+Justin.Plank@icf.com
+
+Company Name
+
+ICF Incorporated, L.L.C.
+
+GSA Contract Number
+
+GS-00F-010CA; GS-02F-0072V; GS-21F-0029W; GS-35F-328DA
+
+POC First Name
+
+Justin
+
+POC Last Name
+
+Plank
+
+POC Phone #
+
+703-251-8963
+
+Company Website (URLs only)
+
+www.icf.com
+
+UEI #: Unique Entity Identifier
+
+QHBLBNKKV4U3
+
+CAGE Code
+
+5M571
+
+Business Size
+
+Other than small business
+
+Socio-economic categories that apply to GSA contract
+
+N/A
+
+Our Understanding of the VA.gov Replacement Challenge
+VA.gov serves as the nation's primary digital front door for Veterans, their families, caregivers, and other stakeholders seeking access to healthcare, benefits, and services. Few federal digital platforms operate at this scale or with comparable emotional, cognitive, and operational stakes. Veterans often arrive with urgent needs, incomplete information, and little tolerance for friction, placing extraordinary demands on a single entry point to a highly complex enterprise.
+Over the past decade, VA has made meaningful progress consolidating legacy portals, improving accessibility, and establishing VA.gov as a trusted destination for millions of users. These efforts represent a significant achievement given the size, regulatory constraints, and organizational diversity of the Department. VA.gov today is markedly better than the fragmented ecosystem it replaced.
+Despite this progress, VA.gov still largely reflects an information-first web paradigm. Veterans are frequently required to read, interpret, and self-navigate extensive content to determine eligibility, identify next steps, and complete high-stakes tasks. This places the burden of understanding VA's structure, terminology, and processes on the Veteran, at precisely the moments when clarity and guidance matter most.
+Modern digital experiences increasingly reverse this burden. Rather than expecting users to understand the system before acting, leading platforms guide users through tasks, anticipate needs, maintain context, and reduce decision fatigue at every step. For Veterans, whose interactions with VA.gov may be infrequent, time-sensitive, and emotionally charged, this distinction is particularly important. There is little room for trial-and-error or exploratory navigation when outcomes directly affect health, financial stability, or family well-being.
+As a result, the next evolution of VA.gov is not primarily a question of visual redesign or incremental usability improvements. It represents a deeper shift in orientation: from a site that explains benefits to a platform that actively helps Veterans secure them. Achieving this shift requires thoughtful coordination across experience design, platform architecture, data, governance, and operating models--while maintaining continuity of service and operating within a highly regulated federal environment.
+The opportunity ahead is to build on VA's consolidation and Veteran-centric foundation by introducing experiences that are more guided, personalized, and adaptive--meeting Veterans where they are and moving with them toward successful outcomes, without disrupting the services they rely on today.
+2
+
+A Vision for the Next VA.gov
+ICF envisions the next generation of VA.gov as a digital platform that actively supports Veterans in accomplishing meaningful outcomes--rather than a destination that primarily delivers information. This vision builds on VA's substantial progress to date while recognizing that the scale, diversity, and complexity of VA services require a fundamentally different orientation for the future.
+Rather than attempting a single, monolithic transformation, the next VA.gov can be shaped by a small set of clear, durable principles that guide both experience design and platform evolution over time. These principles reflect observed Veteran needs, proven patterns from large-scale digital platforms, and the operational realities of a highly regulated federal environment.
+We propose four organizing pillars to guide this evolution:
+· Simple: A task-centered, application-first experience that helps Veterans act with clarity and confidence · Personalized: Veteran-centric experiences organized around life events, goals, and known context · Agentic: Embedded conversational and assistive intelligence that helps Veterans navigate uncertainty and
+complexity · Productized: A platform governed by modern product management principles to sustain progress at scale
+Together, these pillars describe how Veterans experience VA.gov and how VA operates and evolves it. Each pillar addresses a distinct dimension of the challenge--clarity, relevance, guidance, and sustainability--while reinforcing the others. Progress in one area strengthens the effectiveness of the rest.
+Importantly, these principles are not tied to a single technical implementation or delivery model. They are intended to support near-term improvements, mid-term platform evolution, and longer-term innovation without disrupting continuity of service. They allow VA to move forward incrementally, while maintaining a consistent direction as systems, policies, and technologies evolve.
+PILLAR 1: SIMPLE
+A TASK-CENTRIC, APPLICATION-FIRST EXPERIENCE
+The next VA.gov should be a task-centered digital application that organizes the experience around what Veterans are trying to accomplish, rather than around pages of information or institutional navigation. An application-first experience feels less like browsing a website and more like entering a workspace where Veterans are immediately oriented to their active claims, benefits, and tasks, and where status and progress are more prominent than explanatory text.
+In practice, this means Veterans are not repeatedly routed through instructional pages or asked to interpret where to go next. Instead, core actions such as filing a claim, checking status, or managing benefits are presented as cohesive workflows that maintain context as Veterans move through them. Progress is visible without scrolling, drafts persist across sessions, and Veterans can return to ongoing work without reorienting themselves or starting over. Navigation supports achieving goals, rather than requiring Veterans to retrace steps through menus or breadcrumbs to find where work actually happens.
+By structuring VA.gov as task-oriented web interface, the platform absorbs procedural complexity that Veterans currently manage themselves. Veterans spend less time deciphering where they are or what to do next and more time moving toward resolution. This clarity of action and visibility of progress reduces frustration, builds confidence, and establishes the foundational simplicity required for effective personalization, assistive intelligence, and long-term platform evolution.
+What might this feel like for Veterans? The design below presents VA.gov as a personal workspace where Veterans can see what needs attention, track progress, and continue active work in one place
+
+ICF PROPRIETARY
+
+3
+
+Department of Veterans Affairs, VA.gov Replacement Model: ICF RFI Response
+
+Figure 1: A workspace for Veteran tasks.
+
+Current VA.gov Challenges this Current VA.gov Challenge
+Veterans must read extensively to determine how to begin Dense navigation and competing calls to action Experience feels like a collection of web pages "Learn," "apply," and "manage" are fragmented Status information is buried or inconsistent
+
+Pillar Address Replacement Improvement Opportunity
+Clear task-based entry points aligned to Veteran intent Streamlined, task-focused interfaces that limit distractions Cohesive application-style workflows Unified, end-to-end task flows Prominent, consistent status-forward views
+
+PILAR 2: PERSONALIZED
+VETERAN-CENTRIC & LIFE-EVENT ORIENTED
+As Veterans move through different stages of their lives and relationships with VA, the relevance of benefits, information, and actions changes--and a next-generation VA.gov experience has an opportunity to reflect that progression more clearly. Rather than presenting every Veteran with the same breadth of content, the experience can increasingly adapt based on who the Veteran is, what they are likely eligible for, and where they are in their journey.
+In practice, this approach would draw on known Veteran context-- such as service history, benefit enrollment, claims activity, and prior interactions--to organize the experience around life events and goals instead of VA program structures. Veterans would spend less time navigating broad benefit categories or reading extensive eligibility guidance to determine applicability, and more time engaging directly
+
+ICF Experience Highlight
+Context Modeling Veteran Needs ICF's decade-long stewardship of the Veterans Health Administration's Survey of Enrollees created the foundational, context-driven insights needed for a truly Veteran-centric, life-event-oriented VA.gov experience.
+· Designed and executed one of VA's largest annual multimode surveys--collecting ~42,000 Veteran responses each year for 10+ years
+· Demonstrated ICF's proven ability to build context-aware, data-driven models aligned to Veteran life events, service needs, and evolving eligibility
+· Reduced the cognitive burden on Veterans by shifting relevance determination to the system-- mirroring the core vision of a life-event-based, adaptive VA.gov
+· Provided empirically grounded insights enabling VA to organize content and actions around what matters most to Veterans at each stage of their journey
+
+4
+
+with benefits, actions, and next steps that are likely to matter to them. Informational content would continue to play an important role, but primarily as support once relevance has been established.
+By shifting more of the relevance determination from the Veteran to the platform, VA.gov has an opportunity to reduce mental load, shorten time to action, and increase confidence that Veterans are seeing what applies to them.
+What might this feel like for Veterans? The two mockups below demonstrate two design approaches that both show how veteran life events can be a guide for quickly accessing benefits.
+
+ICF PROPRIETARY
+
+5
+
+Department of Veterans Affairs, VA.gov Replacement Model: ICF RFI Response
+
+Current VA.gov Challenges this Pillar Addresses
+
+Current VA.gov Challenge
+
+Replacement Improvement Opportunity
+
+Veterans must navigate broad benefit categories to determine what applies to them Eligibility discovery is manual and information-heavy Logged-in experience looks similar for all Veterans
+Veterans must read extensively to assess relevance
+Benefit information is organized by VA structures rather than Veteran needs
+
+Personalized entry points that surface relevant benefits based on known Veteran context Context-aware identification of likely eligible benefits and next steps Experiences that adapt based on service history, benefit status, and prior activity Relevance established up front, with supporting information available contextually Experiences organized around life events and Veteran goals
+
+Veterans are unsure where to begin after learning about a benefit Information overload discourages exploration and follow-through
+
+Clear, personalized calls to action tied directly to applicable benefits Reduced noise through prioritization of what matters most now
+
+PILLAR 3 -- AGENTIC
+
+EMBEDDED CONVERSATIONAL & ASSISTIVE INTELLIGENCE
+
+One of the most promising opportunities for a next-generation VA.gov is the assistance that helps Veterans navigate complexity, resolve uncertainty, and move forward when structure and personalization alone are insufficient. Rather than functioning as a separate help destination, this assistance would be integrated directly into the experience Veterans are already using.
+In practice, this capability could be applied at moments of friction--when Veterans are unsure where to begin, confused by eligibility or requirements, encountering system changes, or navigating edge cases that fall outside standard flows. Through conversational interaction, Veterans could ask questions in plain language, receive explanations tailored to their context, and be guided directly to appropriate next actions. Assistance might point Veterans to the right place, explain why a step is required, or help them recover when progress stalls. When implemented thoughtfully, this form of assistive intelligence has the potential to reduce abandonment, lower support burden, and increase Veteran confidence during complex or unfamiliar tasks. Over time, it also creates a mechanism for VA.gov to adapt as systems, policies, and processes change--helping Veterans succeed without requiring them to relearn the platform each time the experience evolves.
+
+introduction of embedded, conversational
+ICF Experience Highlight Automating Technical Assistance with
+Orchestrated AI Agents ICF's Nexus TA solution demonstrates how assistive intelligence can dramatically reduce abandonment and build user confidence in complex, high-stakes government services. · Interprets user questions in plain language and
+surfaces the right guidance for their specific situation, providing step-by-step actions that help users continue even when policy, eligibility, or process requirements are unclear · Proven in HUD's technical-assistance environment, where Nexus TA helps users navigate nuanced program rules, resolve eligibility questions, and recover from dead ends without leaving the task flow · Lowers support burden while helping users succeed on their first attempt, without pushing them into separate help channels
+
+Current VA.gov Challenges this Pillar Addresses
+
+Current VA.gov Challenge
+
+Replacement Improvement Opportunity
+
+Veterans are unsure where to go when confused or stuck Explanations and help content are scattered across multiple pages Veterans must re-learn the site when workflows or systems change Edge cases fall outside standard task flows Veterans abandon tasks when uncertainty arises Support channels are reactive and disconnected from digital journeys
+
+Embedded conversational assistance available within the experience Context-aware explanations delivered at the moment of need
+Assistive guidance that adapts to changes and doesn't require any learning by the Veteran. Intelligent assistance that helps navigate non-standard scenarios Real-time support that keeps Veterans moving forward Proactive, in-context assistance that reduces reliance on call centers
+
+Veterans want reassurance that they are "doing it right"
+
+Guided confirmation and explanation during critical steps provides confidence
+
+6
+
+PILLAR 4 -- PRODUCTIZED
+GOVERNED BY PRODUCT MANAGEMENT PRINCIPLES
+To sustain the gains from a simpler, more personalized, and assistive VA.gov, the platform itself must be run as a portfolio of products with clear ownership, stable funding, and outcome-based decision making. This pillar shifts VA.gov from project cycles and page-level deliverables to durable product lines--each with accountable leaders, empowered teams, and a roadmap tied to Veteran outcomes rather than outputs.
+
+Product lines with named owners and decision rights. Claims, healthcare enrollment, appointments, education benefits, and survivor journeys are treated as products with explicit accountability for end-to-end outcomes across VBA, VHA, and NCA touchpoints. Governance focuses on what moves Veteran outcomes, not just feature delivery.
+Funding and planning modeled for products, not projects. Multi-year product funding enables continuous discovery and delivery, faster iteration, and fewer handoffs--replacing episodic "build and hand over" cycles. Shared services and data as platform products. Intake, status, notifications, document management, and eligibility signals become reusable capabilities that product teams can assemble to ship improvements quickly and consistently.
+Analytics tied to outcomes. Measures emphasize Veteran time-to-benefit, successful resolution, and reduced effort, not page views or releases completed. Product reviews use these signals for prioritization.
+
+ICF Experience Highlight
+ICF's Product Forge: Product
+Ownership for Government ICF's Product Forge shows how large-scale government platforms can move beyond page-based delivery to true product-line ownership--driving faster iteration, higher quality, and measurable outcomes.
+· Embeds multidisciplinary teams around durable platform products, each with a named owner, stable funding, and an outcome-driven roadmap
+· Enables continuous discovery, rapid iteration, and accountable decision-making across complex platform environments.
+
+Current VA.gov Challenge Governance aligned to pages and projects rather than end-to-end Veteran outcomes
+Episodic funding that favors one-time builds
+Inconsistent status, intake, and notifications across benefits
+Success measured by traffic and releases
+
+Replacement Improvement Opportunity
+Product-based governance with clear decision rights, outcome ownership, and cross-administration reach (VBA/VHA/NCA) Product funding & roadmaps that enable continuous discovery and delivery Shared platform services reused across product lines for coherence and speed Outcome metrics tied to Veteran time-to-benefit, resolution rates, and reduced effort
+
+Approach Considerations
+VA's request signals an interest in reimagining VA.gov but leaves open the scale, ambition, and degree of institutional change involved. In response, it is necessary to frame multiple approaches that represent distinct levels of effort, risk, and potential impact. Presenting graduated approaches allows VA to evaluate tradeoffs, align ambition with organizational readiness, and avoid conflating surface improvements with structural transformation. Each approach offers a different balance of speed, complexity, and Veteran benefit, enabling informed decision-making based on funding realities, governance appetite, policy constraints, and long-term strategic intent.
+
+VA's request suggests interest in reimagining VA.gov but leaves the scope and level of institutional change undefined. In response, we outline multiple approaches that reflect different levels of effort, risk, and impact. This graduated framing helps VA assess tradeoffs, align ambition with organizational readiness, and distinguish surface improvements from structural transformation. Each approach balances speed, complexity, and Veteran benefit, supporting informed decisions grounded in funding, governance, policy constraints, and long-term strategy.
+
+Approach 1: Modernized VA.gov as a Content and Experience Layer - Refresh and simplify the site as a digital front door and app-oriented, without altering what it connects to or how benefits are delivered. This scenario treats the site as a presentation layer that improves clarity, trust, and usability while preserving all existing backend systems.
+
+ICF PROPRIETARY
+
+7
+
+Department of Veterans Affairs, VA.gov Replacement Model: ICF RFI Response
+
+Pros ·
+·
+·
+
+Lowest delivery risk with minimal disruption to existing programs and systems. Faster time to visible improvement in clarity, usability, and trust. Requires limited cross-administration coordination and policy alignment.
+
+Cons ·
+·
+·
+
+Does not materially reduce Veteran effort to secure or manage benefits. Backend fragmentation continues to surface as confusion and rework for Veterans. Benefits are incremental and may plateau quickly as expectations continue to rise.
+
+Approach 2: Expanded Self-Service Without Backend Transformation - Refresh va.gov and extend the site's role as a self-service platform by exposing additional benefits and services digitally, while leaving existing processes, systems, and policies intact. The site becomes broader, not deeper.
+
+Pros ·
+·
+·
+
+Increases the number of benefits and services available digitally. Reduces paper-based interactions and some call center volume. Builds momentum and institutional confidence in digital expansion.
+
+Cons ·
+·
+·
+
+Preserves underlying process inefficiencies and data silos. Experience consistency degrades as VA.gov compensates for heterogeneous systems. Accumulates technical and experience debt that constrains future modernization.
+
+Approach 3: Veteran-Journey-Oriented Digital Platform - Transform VA .gov from a website into a coherent, Veterancentered digital platform that actively helps Veterans secure benefits across their lifetime, regardless of organizational boundaries. This scenario treats VA.gov as both an experience and an orchestration layer.
+
+Pros ·
+·
+·
+
+Meaningfully reduces Veteran burden through endto-end journey support. Aligns digital experience with life events rather than organizational structure. Establishes a scalable foundation for long-term adaptability and innovation.
+
+Cons ·
+·
+·
+
+Requires significant coordination across administrations, policies, and systems. Fewer short-term results with higher upfront cost, delivery complexity, and organizational change. Demands sustained long-term leadership commitment and mature product governance.
+
+The table below summarizes the features of each approach, visualizing the differences in scope and depth across the three considerations.
+
+Feature
+Content and Information Architecture Content audit, pruning, and simplification. Plain language, task-first framing, and reduced instructional density. Consistency of content patterns. Simplified navigation. Alignment to current VA Design System standards. Visual and Interaction Design
+Style modernization to meet contemporary commercial expectations.
+Improved information architecture and visual elements. Removal of outdated page templates and inconsistent UI patterns. User Experience Improvements Persistent, application-style experiences
+
+Approach Approach Approach
+
+1
+
+2
+
+3
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+8
+
+Incremental usability enhancements to existing forms and flows.
+
+x
+
+Clearer calls to action.
+
+x
+
+Better wayfinding and reduction of dead ends or circular navigation.
+
+x
+
+Streamlined and simplified authentication, identity orchestration.
+
+x
+
+Reduction of duplicative data entry or evidence submission.
+
+Personalization
+
+Existing level of personalization
+
+x
+
+Personalization based on known login state and benefit enrollment.
+
+x
+
+Conditional content and calls to action based on basic Veteran attributes.
+
+x
+
+Personalization driven by service history, benefit status, and intent.
+
+Conversational and assistive capabilities that guide Veterans through uncertainty.
+
+Predictive eligibility determination or cross-benefit orchestration.
+
+Proactive surfacing of next-best actions and likely eligible benefits.
+
+Continuous learning loops from Veteran behavior and outcomes.
+
+Benefit and Service Expansion
+
+Identification and prioritization of benefits currently not available for self-service. Digital front-end enablement of additional applications, status checks, and submissions. Creation of new task flows that sit atop existing program-specific systems.
+
+Use of adapters, API for smooth integration.
+
+Experience Cohesion
+
+Consistent interaction patterns across newly added benefits.
+
+Standardized application and status experiences.
+
+Clear expectation-setting for Veterans where processes remain slow, manual, or fragmented. Redesign of VA.gov around Veteran goals, life events, and longitudinal journeys. Replacement of program-centric navigation with task and outcome-oriented structures.
+
+Explicit ownership of end-to-end Veteran outcomes rather than page-level success.
+
+Analytics tied to Veteran outcomes, not just usage metrics.
+
+Backend Process Stitching
+
+Introduction of shared services for intake, status, notifications, and document management.
+
+Reengineering of backend workflows.
+
+Identification of high-impact cross-administration journeys such as disability to healthcare, transition to civilian life, survivor benefits.
+
+Orchestration of workflows that span VBA, VHA, and NCA.
+
+Reduction of redundant steps, evidence requests, and re-verification across benefits.
+
+Data Centralization and Standardization
+
+Shared data services.
+
+Data model standardization across administrations.
+
+Development of canonical Veteran data models for identity, eligibility signals, and benefit status.
+
+Improved data quality, consistency, and reuse across journeys. Real-time or near-real-time status visibility across systems.
+
+Policy and Governance Alignment
+
+Identification of policy conflicts that create Veteran friction.
+
+ICF PROPRIETARY
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x x
+
+x
+
+x
+
+9
+
+Department of Veterans Affairs, VA.gov Replacement Model: ICF RFI Response
+
+Collaboration across administrations to harmonize rules where possible. Product-based governance models rather than page or program ownership.
+
+Clear decision rights for journey optimization.
+
+End-to-end journey ownership across programs.
+
+Platform and Operating Model Evolution
+
+Modular, scalable platform architecture that supports continuous evolution. Shift from project-based delivery to product-based funding and management.
+
+Expected Outcomes
+
+VA.gov feels more modern, readable, and trustworthy.
+
+x
+
+Reduced confusion and abandonment driven by content overload.
+
+x
+
+Faster time-to-find information and act.
+
+x
+
+Faster time-to-benefit.
+
+More benefits accessible digitally, reducing reliance on paper and call centers.
+
+Increased VA.gov usage and perceived value.
+
+Reduced Veteran frustration where backend fragmentation leaks through the experience.
+
+Reduced technical and experience debt.
+
+VA.gov becomes a trusted partner, not just an information source. Dramatic reduction in Veteran effort to secure and manage benefits.
+
+Lower downstream support costs and rework.
+
+Higher delivery risk and organizational change, offset by long-term sustainability.
+
+Delivery Challenges
+
+Resolving alignment with the National Design Studio
+
+x
+
+Minimal organizational disruption and lowest delivery risk.
+
+x
+
+Ensuring the va.gov entry point for dozens of services and benefits across many categories remains cohesive and intuitive for end users versus cluttered and confusing. Building trust with and securing cooperation from individual programs to incorporate additional benefits on va.gov, possibly requiring programs to reevaluate what is truly minimally necessary to initiate an application. Substantial cross-program and cross-Administration coordination and cooperation required to reach consensus on data, process, technology, and policy reengineering
+
+x x x x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+10
+
+twitter.com/ICF
+linkedin.com/company/icf-international
+facebook.com/ThisIsICF
+#thisisicf
+About ICF ICF (NASDAQ: ICFI) is a global consulting and digital services company with over 8,000 full-and part-time employees, but we are not your typical consultants. At ICF, business analysts and policy specialists work together with digital strategists, data scientists and creatives. We combine unmatched industry expertise with cutting-edge engagement capabilities to help organizations solve their most complex challenges. Since 1969, public and private sector clients have worked with ICF to navigate change and shape the future. Learn more at icf.com
+ICF PROPRIETARY
+
+ICF PROPRIETARY
+
+11
+
+

@@ -1,0 +1,231 @@
+U. S. Department of Veterans Affairs Replacement Model for VA.gov Notice ID: 365357 RFI Response
+Lovett Productions, Inc. 3524 Federal Avenue Los Angeles CA 90066 Phone: 310-896-8663
+federal.doublewidela.com
+Point of Contact: Danielle Lovett, Owner
+310-962-7732 daniellelovett@mac.com
+SAM UEI: CH9LBDNLRMS5 GSA Contract # 47QRAA23D009H
+CAGE Code: 859S0
+
+Notice ID: 365357 U. S. Department of Veterans Affairs
+Replacement Model for VA.gov RFI Response
+
+Allison Fulton, Contract Specialist Evan Schlisserman, Supervisory Contracting Officer Via Email
+
+February 3, 2026
+
+Dear Ms. Fulton and Mr. Schlisserman,
+
+Thank you for the exciting opportunity presented by your exploration of a Replacement Model for VA.gov. Our team has carefully reviewed the requirements and we are confident that we can meet and exceed your expectations across the board. This request in fact, seems perfectly tailored for our company, aligning with both our real world experience and on a personal level.
+
+On the GSA since 2024, Lovett Productions is an SBA Certified 8(a), Woman Owned Small Business, Indian Small Business Economic Enterprise (ISBEE). We are a full service advertising and content creation contractor providing Advertising, Strategy, Original Content, Web Design, Social Media Marketing, Production and Analytics. Our work in the private sector (see p. 20 of the Appendix) yields exceptional, award-winning content and services, combining literal Hollywood creative talent with quantifiable results.
+
+Leveraging that same combination is the core value proposition we bring to federal contracting, aligning us perfectly with your stated mission for VA.gov, "a `premier, modern, secure, and Veterancentric' digital
+experience" for your millions of users.
+
+We recently received our initial CPARS assessment for our work with the BLM creating content for a new Visitor Contact Station at the Sloan Canyon National Conservation Area. The report includes multiple "Very Good" ratings and many comments about "exceeding performance expectations." We would of course approach the VA.gov project with the same commitment to excellence.
+
+On a personal note, our web team's digital strategy lead also connected with this project immediately: "My late father was a WWII vet, and I've spent hours on VA.gov helping my 93-year-old mom navigate the site to understand survivor benefits. She's still sharp but sometimes experiences "information overload" online. Success for me with the new VA.gov would be for it to be more usable for my mom."
+
+We hope our responses here will provide you with the information you need, and we look forward to the opportunity to continue the conversation with you.
+Sincerely,
+
+Danielle Lovett Owner/CEO Lovett Productions, Inc. daniellelovett@mac.com 310.962.7732
+LOVETT PRODUCTIONS · 3524 FEDERAL AVE · LOS ANGELES, CA 90066
+
+Table of Contents (Clickable) Company Overview................................................................................................................................4 Case Studies & Relevant Past Performance...........................................................................................5 Proposed Approach: Replacement Model for VA.gov.......................................................................8 Next Steps............................................................................................................................................11 Appendix - Diagrams & Illustrations.....................................................................................................12
+
+Company Overview
+Based in Los Angeles, our relevant capabilities include: · User research & testing · User journey mapping · Content strategy & copywriting · Website design · Service design · UX/UI design · Front-end development & prototyping
+Why select our team for the remodel of VA.gov? · Our core focus is creating easy-to-use digital experiences within the benefits space: Health, Disabili
+ty, Rx/PBM, Dental, Vision, Life, and Retirement · Our human-centric design process is grounded in Behavioral Science, creating experiences that acti
+vate users and align with organizational goals · Our web team leaders average nearly 15 years designing digital experiences for a variety of high-visi
+bility, regulated clients in Financial Services and Health Care · Experts at navigating complex projects across multiple stakeholders · WCAG 2.2 AA digital accessibility standard · Most of all, we care about creating a better experience for all veterans, caregivers and survivors
+Leadership Team
+Danielle Lovett - CEO & Executive Producer
+Lovett Productions was founded and is led by Danielle Lovett. Danielle has over 30 years of experience guiding projects in movies, television, commercials, and now Federal contracting. Her keen professional instincts and breadth of knowledge inform her work, paired with the down-home personal touch she brings to everything she does.
+Sandy Williams - Web Design and Digital Strategy Lead
+As founder and managing partner of our web group, Cloudberry Creative, Sandy's team blends humancentered design, behavioral science, and strategic insight to uncover value and drive growth. Sandy also works directly with clients to help align their digital strategy with their mission strategy.
+Paul Roeraade - UX Design and Chief Creative Officer
+As CCO, Paul leads strategy for key client engagements. He draws on nearly 30 years of experience and deep expertise in branding, marketing, behavioral science, and user-centered design.
+David Banks - Head of Growth, Government Practice
+David also has over 30 years of media, marketing and design experience, from covering events like the Olympics to creating opening title sequences for major motion pictures. A winner of seven Emmy Awards and an active Emmy judge, David now also leads federal contracting development at Lovett Productions.
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+4
+
+Lovett Productions, Inc. Case Studies & Relevant Past Performance
+NFL Player Benefits Website
+Experience Design & Content Strategy The NFL Player Benefits Office engaged our web team to design a website to help players make better financial decisions, as well as to better understand their retirement, health, and disability benefits. We developed and executed a strategy for consolidating 8 disparate benefits websites; this strategy was based on a user-centric approach with 3,000+ survey responses and 100+ user testing sessions.
+Our experience creating the NFL Player Benefits site and app provides an active, tested and iterated realworld example of the ease-of-use journey we would bring to the remodel of VA.org, and to all the veterans, caregivers and survivors that it serves.
+For screen images of the NFL Player Benefits user journey, see p. 13 of the Appendix, or click on the internal link.
+Since launching the site, we have partnered with the NFL to provide ongoing educational content strategy, management, and data assessment to inform UX and content refinements, as well as new feature design such as calculators and custom APIs to enhance security such as a biometric login for the mobile app.
+Services User Experience Strategy & Design, Content Strategy, Usability Testing & Surveys, Visual Design, FrontEnd Web Development, GA4 Analytics, Weekly Project Management Meetings, Quarterly Assessment & Innovation Workshops, Frequent Releases of New Content & Features, Internal Training & Process Development
+Account History Client since 2015
+Analytics · Best-in-class tool set and test & learn/continuous improvement mentality · Analysis of how players are actually engaging (or not engaging!) with their benefits and using this data
+to further improve the experience · GA4, GTM, Looker for reports, and Lucky Orange as a complementary tool · Quarterly meetings to review analytics & KPIs, highlight areas for improvement, decide on actions &
+experiments for the coming quarter
+Lessons Learned · User research & testing proved to be invaluable in creating an engaging experience for the surprisingly
+diverse personas of the NFL, balancing modernization with an older population's "tech savviness" in developing new features and functionality. · Analytics Pros: Industry-standard Google tools, while seeing how users are engaging with page content with privacy/anonymity · Analytics Cons: Lucky Orange required additional vetting steps with Legal and InfoSec teams
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+5
+
+Lovett Productions, Inc. Case Studies & Relevant Past Performance TIAA Digital Transformation & Benefits Experience
+Experience Design & Content Strategy We helped TIAA modernize the user experience of its public and secure websites for 4+ million retirement plan participants.
+TIAA is a mission-driven Fortune 100 financial services firm focused on education, healthcare, non-profit and government sectors.
+Multi-year engagement included design of public websites, secure portals, mobile apps, tools & calculators, reporting interfaces, and large-scale data visualization products assessing and reporting on retirement readiness across educational institutions.
+Hundreds of user interviews conducted with teachers to help understand mental models to inform data modeling, decision support tools, and web content development.
+To drive efficiencies and cost savings for ongoing updates and enhancements at TIAA, we produced design systems and universal pattern libraries.
+Services User Experience Strategy & Design, Content Strategy, Usability Testing, Visual Design, e-Learning & Instructional Design
+Account History Client 2010-2020
+Lessons Learned · TIAA decided not to transform with a "light switch" approach where new websites were designed and
+developed in the background · Instead, continuity of service was prioritized while working steadily towards a mission-focused vision
+and training internal teams to work with new processes (change management). · "Introduced-goals" help users with discoverability of benefits without adding friction to primary user
+goals. · For example, we found a sizable Spanish-speaking segment in hospitals who were not participating
+in the retirement plan and sending remittances to their country of origin as an informal retirement strategy; we were able to integrate a benefit-maximization goal to boost participation in the plan to receive the employer's matching benefit, i.e. "don't leave money on the table."
+For a typical TIAA user journey map and other screen images, see p.14 in the Appendix.
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+6
+
+Lovett Productions, Inc. Case Studies & Relevant Past Performance Johnson & Johnson Accessibility Playbook
+Operationalizing Digital Accessibility Across the Enterprise Johnson & Johnson has a sprawling digital ecosystem, with many websites and web applications that do not meet WCAG AA accessibility standards. This vulnerability increases the risk of regulatory non-compliance, as well as the threat of litigation from customers and employees with disabilities.
+For this array of platforms, we created an Accessibility Playbook for J&J to guide internal teams on best practices and remediation processes for in-market digital properties with poor accessibility scores.
+Key Challenges While J&J promptly took action to remediate specific sites subject to legal action and had engaged a reputable 3rd-party accessibility auditor, a framework for remediating in-market sites and for training J&J employees before launching new sites was lacking.
+Services · A custom accessibility content strategy & information architecture · Personalized, role-based interaction model · White-labeled visual design system · Process integration strategy for relevant organizational processes
+Our Process Like many organizations, implementing accessibility standards was often a reactive measure - not an integrated part of strong design. Designing a systematic, embedded approach to accessibility meant reexamining J&J's entire process.
+
+Lessons Learned · Accessibility is not just for designers and coders, it takes the whole team working together throughout
+the project lifecycle.
+For more images from the J&J Accessibility Playbook, see p. 15 in the Appendix.
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+7
+
+Lovett Productions, Inc. Proposed Approach: Replacement Model for VA.gov
+Experience Design and Navigation · Veteran-centric Experience Design
+ Support different audiences, goals, and mindsets  Currently, VA.gov mixes Topical, Segment, and Utility navigation (Diagram 1 on p. 16 of the Appendix)  All 3 types of navigation - appropriately delineated - could go a long way in improving usability (for example, applying the Netflix model, which is successful because it accommodates 2 key user scenarios):  Scenario #1 - The Seeker (targeted, knows what he/she is looking for): Where is the VA Pension application form?  Scenario #2 - The Explorer (general, information-grazing): What are the benefits available to me and my family?
+· Establish clear information hierarchy - currently, primary navigation presents users with equallyweighted prompts (Diagram 1 on p. 16 of the Appendix):  VA Benefits and Health Care (arguably the most important content tranche for veterans, survivors, and caregivers)  About the VA (this may be more suitable for roof/footer nav, more relevant for non-Veteran audiences - media, job-seekers, legislative affairs)  Find a VA Location (should be highlighted prominently as a key utility)
+Content Strategy · Begin with content Keep/Kill/Modify workshops · Revise/refine content to form "Solution Sets"
+ In addition to SEO best practices, there's an added opportunity to package content with AI/LLMs in mind. VA.gov is a prominent, trusted resource giving it an enormous leg up in providing expert advice when Veterans use AI to search for processes or complex benefits. An added benefit of approaching content through a Solution Set lens is to improve not just "findability" but also "discoverability." For example, a user is looking for a Disability Claim Form - in addition to returning links to the online form and PDF, there's an opportunity to present contextually-relevant additional resources (agentic AI tools can assist making suggestions even better over time and help unlock "trapped value" in content and surface it to the right users at the right time on the site)
+ Ensure consistency between "Search VA.gov" and "VA Forms" and/or consider consolidating these tools into one (Diagrams 2-5, seen on pp. 17 & 18 of the Appendix)  There is an opportunity to judiciously use Agentic AI to improve the Search experience.  As a starting point, we could map common search queries and form finder queries to improve quality and alignment of results.  To quote Digital.gov, "The search function is an essential component of any government website. It is a critical part of providing a positive user experience."
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+8
+
+Lovett Productions, Inc. Proposed Approach: Replacement Model for VA.gov cont.
+ Dynamic editorial hierarchy (consider session-based behavioral cues to anticipate content prioritization for a user)
+ Content principles:  We follow the principles of the 2010 Plain Writing Act (PUBLIC LAW 111-274) as well as Federal Plain Language Guidelines, which is particularly helpful in explaining complex benefits to a diverse population  Our writers use an "inverted pyramid" approach to webpage content - begin with the key takeaway in a digestible format, then allow deeper exploration for users who want more detail  Based on user research we will recommend where different format types may be most impactful (scannable text, visualizations, videos, tools/calculators)
+Platform and Integration Considerations · Modular design system · Pattern library · APIs feeding templates · Integration with legacy systems without a "big bang" cutover · Content mapping & migration planning
+Governance and Operating Model · We have helped numerous organizations evolve their web content governance and operating models.
+Key steps:  Draft governance framework  Assign governance leads  Maintain ownership commitments  Staff communications & quick-start guides to support change management  Execute content migration & QA  UAT scripts, participants, report  Go-live checklist
+· Our expedited discovery process will identify current state pain points and recommend where VA.gov teams could adopt new workflows that maintain continuity while evolving the site
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+9
+
+Lovett Productions, Inc. Proposed Approach: Replacement Model for VA.gov cont.
+· Analytics and continuous improvement  Adopt a test & learn/continuous improvement mentality  Analyze how users are actually engaging (or not engaging!) on VA.gov and use this data to further improve the experience  Potential tools: GA4, GTM, Looker for reports, Lucky Orange  Quarterly meetings to review analytics & KPIs, highlight areas for improvement, decide on actions & experiments for the coming quarter
+NextGen Identity and Authentication We will design VA.gov's information architecture and workflows to integrate with the VA's nextgeneration identity and authentication layer (outlined in the complementary RFI), ensuring continuity across login and task completion.
+Our web team designed state-of-the-art user journeys for NFL players to access their benefits spanning signin, recovery, and postlogin navigation as well as alignment between public and authenticated experiences. See examples of the NFL Player Benefits App 2FA Setup Flow on p. 19 of the Appendix.
+We also worked with the Identity Access Management (IAM) and Access Control Governance teams at J.P. Morgan and State Street Bank to create UX exception-handling flows amidst large-scale business rule automation and transformation.
+Risks, Limitations and Lessons Learned · Avoiding "light switch" transformations (plan & prioritize continuity of service) · User research & testing throughout the process to challenge/validate hypotheses & assumptions · Approach interaction design from both a "findability" and "discoverability" lens · Leverage intelligent automation where it safely and demonstrably creates efficiencies and scalability,
+but apply rigorous UX design tenets to anticipate exception-handling · Balancing security, complexity, and usability in IAM work · Accessibility as a team commitment out of the gate, not a latestage checklist · Balancing trade-offs in analytics tooling vs. legal/InfoSec constraints
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+10
+
+Next Steps
+We appreciate the opportunity represented by the U.S. Department of Veterans Affairs' interest in exploring a replacement model for VA.gov, as well as your consideration of our response.
+We hope this presentation has provided you with enough information to help you with your next steps, and to demonstrate how well both our capabilities and our real-world, personal experience align with this important project. We would be honored to partner with you in evolving VA.gov as the digital gateway to caring for all those who have served, and for their families, caregivers, and survivors.
+We are always available for any questions and look forward to continuing the conversation with you.
+Thank you!
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+11
+
+U. S. Department of Veterans Affairs Replacement Model for VA.gov Lovett Productions, Inc. Notice ID: 365357
+Appendix - Diagrams & Illustrations
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+12
+
+NFL Player Benefits Website Site/Screen Examples
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+13
+
+TIAA Digital Transformation & Benefits Experience User Journey Map
+Site/Screen Design Examples
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+14
+
+Johnson & Johnson Accessibility Playbook
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+15
+
+Navigation on Current VA.gov
+Diagram 1: Current-state VA.gov Primary navigation mixes Topical and Audience/Segment prompts; equal weighting given in hierarchy between 3 disparate prompts.
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+16
+
+Navigation on Current VA.gov Diagram 2: Query for "pension application form" on Search VA.gov returns FAQs as top 2 results
+Diagram 3: Query for "pension application form" on VA Forms returns actual application form
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+17
+
+Navigation on Current VA.gov Diagram 4: Query for "pension" on Search VA.gov top 2 results are for survivors and pension info
+Diagram 5: Query for "pension" on VA Forms returns pre-step for pension
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+18
+
+NFL Player Benefits App Authentication Flow
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+19
+
+Our Private Sector Work www.doublewidela.com
+
+DIRECTORS BEYOND THE ROSTER
+DESIGN ABOUT CONTACT
+
+RECENT WORK
+
+BIC EZ Reach · Pass It
+
+Headspace · Move
+
+Adobe · Wendy McNaughton
+
+Way Out · FIREROSE
+
+Chevy · Wherever You Go
+
+DIRECTORS
+
+Notice ID: 365357 - Replacement Model for VA.gov - RFI Response - Lovett Productions, Inc.
+
+20
+
+

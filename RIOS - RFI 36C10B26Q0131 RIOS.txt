@@ -1,0 +1,418 @@
+Rios Partners, LLC
+3100 Clarendon Blvd, Suite 200 Arlington, VA 22201
+www.riospartners.com
+SDVOSB NAICS 541519 GSA MAS: 47QRAA18D00F8 UEI: EP5NXCGQB6K6 CAGE: 7NR98
+
+Department of Veterans Affairs
+Proposal Due Date: February 5, 2026 12:00 PM EST
+RFI - Replacement Model for VA.gov
+Solicitation #:
+36C10B26Q0131
+
+Primary Point of Contact: Melissa Maloy Ph. 301-793-6664 Email Melissa.Maloy@RiosParners.com
+Secondary Point of Contact: Atalie Jacobs, Partner Phone Email Atalie.Jacobs@RiosPartners.com
+
+Submitted To: Allison Fulton, Contract Specialist - Allison.Fulton@va.gov Evan Schlisserman, Contracting Officer - Evan.Schlisserman@va.gov
+
+Socioeconomic Designations: Rios Partners is recognized by the United States Government as a: · Small Business · SDVOSB · Minority-Owned Small Business
+
+This document includes data that shall not be disclosed outside the organization listed on the cover page and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this proposal. If, however, a contract is awarded to Rios Partners as a result of--or in connection with--the submission of this data, the government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the government's right to use information contained in this data if it is obtained from another source without restriction.
+
+TABLE OF CONTENTS
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+
+1 COMPANY OVERVIEW
+
+2
+
+2 OVERVIEW OF WORK
+
+4
+
+3 UNDERSTANDING OF VA'S CHALLENGE
+
+5
+
+4 EXPERIENCE DESIGN & VETERAN CENTRICITY-CENTRICITY
+
+6
+
+4.1 Accessibility as a First-Class Engineering Constraint
+
+6
+
+4.2 Veteran-Centric Experience Strategy
+
+7
+
+5 IDENTITY, AUTHENTICATION, AND NAVIGATION
+
+7
+
+5.1 Identity & Sign-In
+
+7
+
+5.2 Navigation
+
+8
+
+6 PLATFORM ARCHITECTURE & INTEGRATION
+
+8
+
+6.1 Architectural Model
+
+8
+
+6.2 Integration Strategy
+
+9
+
+7 CONTENT STRATEGY, GOVERNANCE, AND ANALYTICS
+
+10
+
+7.1 Content Strategy
+
+10
+
+7.2 Analytics & Measurement
+
+10
+
+8 SECURITY, COMPLIANCE, AND OPERATIONS
+
+11
+
+8.1 Security by Design
+
+11
+
+8.2 Compliance & Operations
+
+11
+
+9 KEY TRADEOFFS AND DECISION CONSIDERATIONS
+
+12
+
+10 RELEVANT PAST PERFORMANCE
+
+13
+
+11 ATTACHMENTS
+
+20
+
+1 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington VA, 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+
+1 COMPANY OVERVIEW
+Company Name: Rios Partners, LLC Headquarters / Location: Arlington, VA Business Size: SDVOSB NAICS: 541519
+
+For this effort, Rios is joined by AEM Corp (together referred to as "Team Rios"):
+
+Team Rios Member (Prime)
+
+Description
+Rios Partners, LLC (Rios) is a mission-focused Service-Disabled VeteranOwned Small Business (SDVOSB) consulting firm specializing in organizational transformation, modernization, and improvement through project management, Human Centered Design and data services. Rios is an experienced federal contractor with the Department of Veterans Affairs (VA), on various BPAs/IDIQs across six separate federal agencies with ceilings over $19M, including a $14B IDIQ with the Department of Veterans Affairs (VA) for healthcare transformation, where we manage over 100 subcontractors, giving us an in-depth understanding of VA leaders' context and their needs. Through our extensive work with VA and its senior leaders across multiple offices, including the Procurement & Logistics Office (P&LO), the Office of Research and Development (ORD), and the Innovation Ecosystem (IE), Rios brings a deep understanding of agency tools, processes etc. to include VA workflows and structures, allowing Rios to hit the ground running to immediately and effectively. Moreover, Rios has achieved "Very Good" or "Excellent" ratings on 100% of our CPARs for engagements with VA. Additionally, we are ISO 9001:2015 certified and our Quality Management System (QMS) follows the standards and processes to ensure consistent high-quality deliverables, work products and contractor performance.
+
+(Exclusive)
+
+AEM Corporation has a longstanding presence supporting digital modernization efforts, particularly in areas adjacent to website redesign, digital governance, analytics, and platform operations.
+
+Team Rios brings a combination of enterprise scale coordination, deep VA domain knowledge, and pragmatic innovation execution that aligns directly with VA's objectives for replacing VA.gov with a modern, Veteran centric digital experience, scale coordination, deep VA domain knowledge, and pragmatic innovation execution that aligns-centric digital experience.
+
+Proven Ability to Orchestrate Complex, Multi-Disciplinary Teams at Scale-Disciplinary Teams at Scale
+
+Replacing VA.gov requires sustained coordination across experience design, platform architecture, identity, content, analytics, and governance often delivered by multiple vendors
+
+2 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+over time. Rios has demonstrated this capability by serving as integrator for large, complex VA efforts, including managing VHA's IHT 1.0 IDIQ for more than five years. In that role, Rios coordinated over 60 subcontracting partners, deployed more than 180 staff across 26 task orders, and delivered over $50M in work with consistently strong CPARS performance. This experience positions Team Rios to support a progressive VA.gov replacement model by assembling, scaling, and adjusting multidisciplinary teams as VA's needs evolve while maintaining continuity of service, balanced vendor participation, and delivery accountability.
+Deep Familiarity with VA, VHA, and Innovation Ecosystems
+VA's RFI makes clear that replacing VA.gov is not only a technical challenge, but an organizational one that requires understanding how decisions are made, how change travels, and where friction exists within VA. Rios brings deep, firsthand experience working with VA and innovation organizations, including close collaboration with internal stakeholders across the field network and headquarters. Our team has experience analyzing integration dependencies and sequencing modernization of systems such as MAPD, EVSS, and eBenefits residuals. We understand that VA.gov modernization must account for dualrun periods, contracttested API boundaries, and Authoritative Data Source requirements such as the Master Person Index and other VA enterprise systems.
+Rios' work supporting initiatives such as the VA Pathfinder project, a humancentered, digital intake and routing platform that helps VA identify, evaluate, and connect with promising innovations and vendors. Rios helped evolve it from a limited external innovation effort into a scalable internal and external engagement model demonstrates an understanding of how innovation must be adapted to VA's culture, governance, and operational realities. This familiarity enables Rios to deliver value immediately, without a lengthy onboarding curve.
+Cost Conscious Delivery Without Compromising Quality-Conscious Delivery Without Compromising Quality
+VA must modernize under real fiscal constraints. Rios' longstanding integrator role has required building and managing high performing teams while controlling cost. Rios achieves this through low overhead subcontractor management, standardized operating procedures, and use of internally developed tools (such as the Rios Delta ERP) designed specifically for consulting and contract execution. In addition, Rios' provides access to a broad range of labor categories at rates favorable to the government supporting VA's need for flexibility, scalability, and cost efficiency throughout a multiyear VA.gov transition standing integrator role has required building and managing high-performing teams while controlling cost. Rios achieves this through low overhead subcontractor management, standardized operating procedures, and use of internally developed tools (such as the Rios Delta ERP) designed specifically for consulting and multi-year VA.gov transition.
+Ability to Translate Innovation into Scalable, Operational Outcomes
+VA's RFI emphasizes the need for approaches that move beyond experimentation to sustained, enterprise impact. Rios brings demonstrated expertise in identifying valuable innovations and
+3 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+helping organizations implement effective solutions. Rios has supported VA in developing and scaling prototypes and in applying structured innovation frameworks tailored to VA's operating environment, e.g. VA Pathfinder digital platform, Pathfinder Vendor Track prototype, Pathfinder Innovator Tracks. This experience supports VA's goal of ensuring that a next generation VA.gov is not only modern at launch, but able to evolve, scale, and deliver measurable value over time. Next generation VA.gov is not only modern at launch, but able to evolve, scale, and deliver measurable value over time.
+Strength in Change Management, Transparency, and Enterprise Alignment
+A decentralized organization like VA requires more than technology to succeed it requires alignment, visibility, and trust. Rios has extensive experience managing large PMOs across diverse programs and driving shared accountability through metrics, analytics, and transparent reporting. Rios applies proven program and change management approaches (including PMI PMBOK and PROSCI ADKAR) to ensure that transformation efforts remain aligned with strategic objectives and are absorbed by the organization. This capability is directly relevant to VA's need to modernize VA.gov while breaking down silos, coordinating across benefit portfolios, and ensuring a consistent Veteran experience. We welcome the opportunity to engage in follow-on discussions, technical exchanges, or pilot initiatives as the VA assesses future strategies for VA.gov replacement.
+2 OVERVIEW OF WORK
+VA.gov has undergone multiple waves of modernization over the past two decades, beginning with largescale web consolidation efforts as early as 2009, when VA initiated a departmentwide redesign to simplify navigation, standardize branding, and improve access across hundreds of VA websites and tens of thousands of pages. These efforts laid the groundwork for later consolidation into VA.gov as a central Veteranfacing digital entry point.
+Team Rios will assist the VA in providing a modern, secure, and Veteran-focused VA.gov experience, serving as the primary gateway for Veterans, their families, and other stakeholders to access benefits, healthcare, services, and information. We recognize that replacing VA.gov necessitates not only technical updates but also comprehensive modernization spanning design, platform architecture, digital identity, navigation, content strategy, governance, analytics, and operational models. These enhancements must ensure uninterrupted service, seamless integration with diverse systems, and adherence to federal regulations. Team Rios demonstrates the proficiency and comprehensive experience necessary to effectively meet these requirements.
+Our approach emphasizes transformation that explicitly identifies, prioritizes, and mitigates risks to improve the Veteran digital experience while sustaining operations: modernizing identity, sign in, and navigation flows; strengthening enterprise content strategy and governance; and enabling scalable, resilient delivery practices suitable for long-term adaptability, sign-in, and navigation flows; strengthening enterprise content strategy and governance; and enabling scalable, resilient delivery practices suitable for long-term adaptability.
+Core Capability Alignment
+4 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+· Digital experience platforms & modernization -- Replace and modernize VA.gov toward a premier, Veteran centric digital experience as VA's central entry point-centric digital experience as VA's central entry point
+· Identity, authentication, and access management -- Address identity proofing, sign in, recovery, and navigation workflows as a first-class modernization concern. -in, recovery, and navigation workflows as a first-class modernization concern.
+· Large-scale platform replacement and migration -- Execute enterprise-scale replacement that maintains continuity of service and integrates across legacy and emerging VA systems.
+· Human-centered design & Veteran-centric experience -- Deliver a more seamless customer experience aligned to Veteran needs and outcomes.
+· Content strategy, governance, and analytics -- Coordinate content strategy, governance, and analytics to drive durable, measurable improvements.
+· Secure, compliant federal digital operations (FISMA, Section 508, etc.) -- Operate in a regulated, high-visibility environment with security, privacy, and accessibility requirements integrated into delivery.
+3 UNDERSTANDING OF VA'S CHALLENGE
+Team Rios recognizes that replacing VA.gov is a complex, multi-year transformation requiring both ongoing service and innovation. As the main digital gateway for Veterans' benefits, healthcare, and services, modernization must ensure continuous access while adapting the platform to evolving needs. Key challenges we recognize include the need to integrate legacy, hybrid, and cloud native systems across one of the federal government's most complex IT environments, while modernizing identity, sign in, and navigation experiences in ways that reduce friction without disrupting trusted user workflows. We recognize that these changes must be delivered incrementally, with careful risk management, to avoid service degradation or loss of user trust.
+We also understand that VA.gov operates within a highly regulated, highly visible environment, requiring strict adherence to federal security, privacy, and accessibility requirements, including FISMA and Section 508, while supporting long-term scalability, resilience, and adaptability. Accessibility and compliance are not parallel efforts, but foundational requirements that must be integrated into design, development, and operations.
+Finally, we recognize VA's priority to coordinate experience design, platform architecture, content strategy, analytics, and governance at scale. Sustainable improvement to VA.gov requires aligned operating models, clear ownership, and enterprise governance structures that enable consistent decision making across distributed stakeholders, while still allowing innovation and responsiveness to Veteran needs. Facilitating coordination among distributed stakeholders while enabling innovation and responsiveness to Veterans' needs.
+We recommend a progressive replacement model rather than a single "big bang" rebuild, allowing VA to modernize VA.gov while maintaining continuity of service and reducing enterprise risk. Our approach is grounded in incremental migration with backward compatibility, supported by a modular, composable platform architecture that enables phased adoption and long- term adaptability.
+5 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+Modernization is experience led and anchored in real Veteran journeys, ensuring that changes to identity, sign in, navigation, and content improve usability without disrupting trusted workflows. From day one, we will emphasize strong governance and observability, supported by analytics and feedback loops that enable continuous learning, informed decision making, and ongoing improvement.
+4 EXPERIENCE DESIGN & VETERAN CENTRICITY-CENTRICITY
+VA's July 2025 OIG audit found only 4 of 30 critical IT systems classified as Section 508 compliant, and a 2021 report to Congress showed 9% of internet sites and 6% of intranet sites meeting full compliance which threatens the credibility of modernization efforts. 1Team Rios recommends that accessibility be treated as the load-bearing architectural requirement for the replacement platform, not a compliance afterthought validated at the end of development.
+4.1 ACCESSIBILITY AS A FIRST-CLASS ENGINEERING CONSTRAINT
+· Embed accessibility into the CI/CD pipeline, not into post-build audits: Automated accessibility testing tools (axe-core, Pa11y, Lighthouse) should execute on every pull request, with Section 508 violations treated as build-breaking defects equivalent to security vulnerabilities. The current VA approach of relying on vendor self-declarations rather than independent testing has produced the 4-of-30 compliance rate; automated gating eliminates this dependency.
+· Mandate assistive technology integration testing as a release gate: VA requires a minimum of 20% of research participants to be assistive technology users, but this standard must extend to engineering validation. Every release candidate should pass structured test scripts executed with iOS Voice-over, JAWS/NVDA on Windows, and Talkback on Android before reaching production. AEM's work developing accessible open-source dynamic data visualization tools for the Department of Education's Rhonda Weiss Center for Accessible IDEA Data demonstrates this approach: screen reader compatibility, braille output fidelity, and cognitive accessibility were validated iteratively during development sprints, not deferred to acceptance testing.
+· Establish an Accessibility Center of Excellence with enforcement authority: VA's OIG found that three directives related to accessibility had not been updated within required 5-year recertification periods, and contracting officers did not verify systems were accessible before procurement. The replacement model should stand up a crossfunctional team with authority to block deployments, review procurement documentation, and maintain a continuously updated accessibility posture dashboard modeled on how security operations centers track vulnerability remediation.
+· Design for the full spectrum of disability, not just screen reader users: Only 45% of Veterans at VHA facilities have adequate health literacy. Accessibility must encompass cognitive, motor, and situational disabilities. This means plain-language defaults (aligned with VA Directive 0001 and the Plain Writing Act), high-contrast modes, reducedmotion options, and content that follows the `bite-snack-meal' model three to four lines of key information above the fold. AEM's Weiss Center work specifically addressed
+1 VA OIG, VA Needs to Prioritize Accessibility for Individuals with Disabilities When Procuring Information Technology Systems, July 2025.
+6 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+dynamic data visualization for individuals with cognitive disabilities by minimizing complexity, simplifying language, and providing alternative modalities including speechto-text synthesis and embossed graphics for braille readers.
+4.2 VETERAN-CENTRIC EXPERIENCE STRATEGY
+· Replace content-centric information architecture with task-based navigation: VA's own research shows only approximately 8% of visitors use the My VA dashboard, which was designed like a content page despite serving task and tool functions. The replacement model should organize the experience around what Veterans are trying to accomplish filing a claim, scheduling an appointment, checking a payment rather than mirroring VA's organizational chart. Each task flow should be completable within a single authenticated session without requiring the veteran to navigate between separate systems.
+· Adopt trauma-informed design principles across all touchpoints: Veterans navigating disability claims, mental health services, or appeals are frequently in states of cognitive and emotional stress. The Compensation and Pension (C&P) examination process was identified as the largest FY23 pain point. Interface design should minimize cognitive load, avoid punitive language, provide clear progress indicators, and offer human-assisted fallback at every critical decision point. Error messages should be instructive rather than procedural.
+· Extend design validation to underserved populations with purpose-built research protocols: VA's Office of Rural Health serves 4.7 million Veterans in rural areas, 2.8 million of whom rely on VA for healthcare. Research panels must include Veterans with low bandwidth connectivity, limited device access, and low digital literacy. Remote moderated usability sessions should be supplemented with in-person site visits at CBOCs and Vet Centers in rural and tribal areas to capture experiences not visible in remote research settings.
+5 IDENTITY, AUTHENTICATION, AND NAVIGATION
+The completion of VA's credential migration removing My HealtheVet credentials in March 2025 and DS Logon in November 2025 simplified the authentication landscape but transferred significant complexity onto Veterans, particularly those with limited technology access. The new platform should treat authentication as a key design issue, not just routine infrastructure.
+5.1 IDENTITY & SIGN-IN
+· Implement tiered identity proofing pathways matched to transaction risk: Not every VA.gov interaction requires IAL2 identity verification. Browsing benefits information, downloading forms, or reading eligibility criteria should be accessible without authentication. Filing a claim or accessing health records justifies full identity proofing. A risk-based model reduces friction for low-sensitivity tasks while maintaining security for high-sensitivity transactions, and prevents the current pattern where Veterans encounter identity walls before understanding what they are trying to access.
+· Build assisted identity recovery pathways for vulnerable populations: Veterans with expired IDs, no permanent address, or only a Veterans Health ID Card currently face complex recovery processes video calls with additional documentation, USPS or UPS Store visits, or obtaining a Letter Attesting State Residency from their local medical
+7 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+center. VA contact centers cannot reset Login.gov or ID.me passwords. The replacement model should integrate a VA-staffed identity help desk that can coordinate directly with credential providers, rather than directing distressed Veterans to third-party support queues.
+· Resolve MPI/MVI identity fragmentation as a precondition for personalized experience: The Master Person Index contains over 75 million records with ongoing duplicate ICN resolution challenges and EDIPI-to-ICN crossover problems. GAO found that DoD's system was overwriting VA identity and demographics information in the Oracle Health EHR a patient safety concern. The replacement platform's personalization features (task status, claim tracking, health records) are only as reliable as the identity resolution layer beneath them. Investment in identity data quality must precede or parallel experience development, not follow it.
+5.2 NAVIGATION
+· Eliminate the content-maze pattern with a unified task orchestration layer: Veterans currently navigate between hundreds of phone numbers and thousands of websites, with confusion between VA.gov, eBenefits (legacy), and My HealtheVet. The replacement model should provide a single navigational framework where Veterans can access any benefit, service, or status from one authenticated starting point, with contextual routing to the correct backend system handled invisibly.
+· Provide proactive status and next-step guidance without requiring veteran-initiated queries: Rather than requiring Veterans to log in and navigate to check claim status or appointment confirmations, the platform should push relevant status updates via VA Notify/VEText (already in production at $43M contract value) and present a personalized dashboard that surfaces the most time-sensitive items first upcoming appointments, pending actions, recent decisions above the fold upon login.
+· Maintain cross-device session continuity with graceful degradation: Many Veterans begin a process on a mobile device and complete it on a desktop, or vice versa. Session state should persist across devices within a reasonable window. For Veterans using flip phones or devices with limited browser capabilities, the platform should gracefully degrade to SMS-based workflows for critical tasks like appointment confirmation and prescription refill, ensuring no veteran is excluded by device limitations.
+6 PLATFORM ARCHITECTURE & INTEGRATION
+The current VA.gov architecture consists of a React/Redux frontend, Ruby on Rails backend, Drupal 10 CMS, PostgreSQL, Redis, and Sidekiq, all operating within AWS GovCloud. This modern technology stack has undergone incremental enhancements since 2016. Team Rios' proposed replacement model will leverage this established foundation rather than replace it entirely, following the progressive upgrade approach that the VA adopted after experiences with the Oracle Health EHR deployment.
+6.1 ARCHITECTURAL MODEL
+· Adopt an experience orchestration layer to decouple veteran-facing services from backend complexity: The current architecture requires the vets-api Rails backend to maintain direct integration adapters for each legacy system (VistA, VBMS, EVSS,
+8 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+CorpDB, BGS). An orchestration layer implemented as a lightweight API gateway with service mesh capabilities would allow backend systems to be retired, replaced, or upgraded independently of the frontend experience, reducing the blast radius of any single system change.
+· Extend the VA Lighthouse API platform as the canonical integration surface: Lighthouse (developer.va.gov) already provides the `single, secure front door' to VA data and has been praised by industry analysts as offering the best API integration experience among healthcare payers. The replacement model should require all new integrations internal and external to be published through Lighthouse, enforcing consistent authentication, rate limiting, versioning, and documentation standards. This prevents the proliferation of point-to-point integrations that created the current technical debt.
+· Resolve the content publishing latency problem through event-driven architecture: The current Drupal CMS requires a build process with scheduled deploys running daily at 2pm ET, with off-schedule deploys available only via Jenkins for urgent updates. For a platform serving millions of Veterans during health emergencies, benefit deadline changes, or policy updates, this delay is operationally unacceptable. AEM's modernization of EDFacts for the Department of Education replaced a decades-old transactional system with an event-driven architecture in AWS that eliminated batch processing delays and enabled near-real-time data availability. A similar pattern using event-driven content delivery with CDN cache invalidation would allow VA content updates to reach Veterans within minutes rather than hours.
+6.2 INTEGRATION STRATEGY
+· Sequence legacy system retirement by usage data and risk exposure, not organizational preference: VA's goal of reducing 3,000+ daily legacy system users by September 2025 requires a data-driven retirement sequence. Each legacy system (MAPD, portions of EVSS, eBenefits residuals) should be assessed on three dimensions: active user volume, integration dependency count, and security risk posture. Systems with high security exposure and low user counts should retire first; high-volume systems need parallel-run periods with automated traffic shifting.
+· Implement contract-tested integration boundaries to prevent upstream/downstream regression: With 594+ contributors on the vets-website repository and 45+ product teams building on the VA Design System, integration failures are a primary source of production incidents. Consumer-driven contract testing (using frameworks like Pact) at each API boundary ensures that changes to any system's contract are detected before deployment, not in production. AEM's management of 1,100+ business rules in the EDPass data validation engine for the Department of Education demonstrates how centralized rule governance at integration boundaries prevents data quality degradation across a multi-stakeholder ecosystem.
+· Plan for Oracle Health EHR coexistence with clear data sovereignty boundaries: With only 6 of 170 VA medical centers deployed on Oracle Health and resumption planned mid-2026, the replacement VA.gov must maintain dual integration paths VistA and Oracle Health for the foreseeable future. Team Rios' architectural model treats EHR integration as a pluggable adapter, not a hardcoded dependency, so that deployment progress (or regression) in the EHR program does not constrain the VA.gov experience.
+9 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+7 CONTENT STRATEGY, GOVERNANCE, AND ANALYTICS
+VA operates at least four content management systems in production (Drupal, WordPress VIP, OpenText TeamSite, SharePoint) with content governance flowing through a Web Governance Board co-chaired by two Assistant Secretaries and three separate Web Communications Offices. This governance complexity is a greater barrier to content quality than any technology limitation.
+7.1 CONTENT STRATEGY
+· Establish a federated content model with centralized standards and decentralized authoring: Team Rios will propose a replacement platform that does not attempt to consolidate all content into a single Content Management System (CMS). Instead, Team Rios will enforce a single content API contract schema, metadata taxonomy, accessibility requirements, plain language standards that any publishing system must satisfy to surface content on VA.gov. This allows VHA, VBA, and NCA to maintain domain-appropriate authoring workflows while ensuring Veterans see a unified experience.
+· Implement content lifecycle management with automated staleness detection: Federal content frequently becomes outdated because no system enforces review cycles. Every content object should carry a review-by date, an accountable owner, and an automated escalation path. Content that exceeds its review window should be flagged for the owning Web Communications Office, and content exceeding a hard expiration threshold should be automatically deprioritized in search and navigation. Team Rios' governance model for data collections incorporates data quality standards and review cycles directly into the collection process, providing a dependable framework.
+· Deploy AI-assisted content optimization with mandatory human review: VA's 2024 AI Use Case Inventory identifies 227 use cases, including a generative AI chat interface where 72%+ report improved efficiency. For content, AI can identify reading-level violations, suggest plain-language alternatives, flag accessibility gaps in alt text or heading structure, and detect duplicate content across VA's thousands of pages. All AIgenerated suggestions must route through human editorial review before publication, with the AI acting as a quality assurance accelerator rather than a content generator.
+7.2 ANALYTICS & MEASUREMENT
+· Shift from page-level analytics to end-to-end journey measurement: VA's current analytics stack (GA360, Domo, GTM, BigQuery) is instrumented primarily at the page level. The replacement model should measure complete veteran journeys from initial search or notification through task completion to identify where Veterans abandon processes, encounter errors, or resort to phone calls. Journey-level data, combined with VSignals feedback (3+ million veteran responses to date), enables identification of systemic experience failures rather than individual page performance.
+· Tie experience metrics to mission outcomes, not vanity metrics: Downloads, page views, and session duration do not measure whether a veteran successfully filed a claim, enrolled in healthcare, or accessed their records. The replacement platform should define a limited set of outcome metrics task completion rate, time-to-completion, error-driven abandonment rate, and channel escalation rate (digital to phone) and track these at the journey level. These outcome metrics should be the basis for product team prioritization and investment decisions.
+10 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+· Implement identity-aware analytics with strong privacy controls: Understanding whether the same veteran is repeatedly failing to complete a task (indicating a systemic UX problem) versus whether many Veterans fail once (indicating a content clarity problem) requires identity-aware session stitching. This must operate within Privacy Act, HIPAA, and E-Government Act guardrails using Privacy Impact Assessments, pseudonymized identifiers, and aggregate-only external reporting but analytical capability is essential for targeted improvement.
+8 SECURITY, COMPLIANCE, AND OPERATIONS
+VA's FISMA audit has kept 23 of 26 recommendations active since 2018. GAO found a highrisk vulnerability unresolved for over 15 months. The February 2024 ransomware attack exposed 1.2 million Veterans. These issues point to a focus on compliance over effective security, which the replacement model must directly address.
+8.1 SECURITY BY DESIGN
+· Implement zero-trust architecture from the foundation, not as a retrofit: VA's $331 million Cybersecurity Operations Center Next Generation II contract provides enterprise monitoring and incident response. The replacement platform should extend this capability with zero-trust principles applied at the application layer: every API call authenticated and authorized, every session validated continuously, every data access logged and attributable. This is particularly critical given the MPI's 75+ million records and the sensitivity of health and benefits data.
+· Accelerate ATO through inherited authorization and continuous monitoring: VA has already demonstrated that ATO timelines can be reduced from 9-12 months to 60-90 days through FedRAMP inheritance for cloud applications. The replacement model should extend this by implementing continuous authorization where security controls are monitored in real time and ATO status is maintained through automated evidence collection rather than periodic manual assessment. Since implementing the Authorizing Official Summary Brief tool in 2018, VA has remediated over 298,000 system vulnerabilities; continuous authorization sustains this velocity without human bottlenecks.
+· Require third-party vendor security posture validation as a procurement gate: The Change Healthcare incident demonstrated that VA's security perimeter extends to every third-party integration. The replacement model should require continuous vendor security posture validation not point-in-time SOC 2 reports for all systems that process, store, or transmit veteran data. This includes credential providers (Login.gov, ID.me), cloud service providers, and API consumers. AEM's management of FedRAMP-aligned security across 13 Department of Education ATOs, including ED's largest K-12 data collection systems, provides a replicable model for maintaining security compliance across a complex multi-vendor environment.
+8.2 COMPLIANCE & OPERATIONS
+· Integrate Section 508 compliance into the same continuous monitoring framework as security: The OIG found that VA's Section 508 compliance and security compliance fail for the same structural reason: they depend on periodic manual reviews rather than
+11 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+continuous automated validation. The replacement model should treat accessibility defects and security vulnerabilities with the same severity framework tracked in the same remediation pipeline, subject to the same SLA escalation, and reported to the same governance body.
+· Embed DevSecOps practices with automated compliance evidence generation: Every deployment should automatically generate compliance artifacts security scan results, accessibility test reports, dependency vulnerability assessments, and configuration drift detection stored in an auditable evidence repository. This eliminates the documentation backlog that contributes to VA's recurring FISMA findings while providing auditors with real-time access to the organization's security posture. AEM's CMMI Level 3 practices for Development and Services, combined with ISO 27001 and ISO 20000 operational maturity, provide the process discipline to sustain this model across multiple product teams.
+· Establish a supply chain security program aligned with NIST SP 800-161: VA's Technical Reference Model mandates technology assessment, but the replacement model's open-source dependencies (React, Node.js, Ruby, Drupal, and their transitive dependencies) present an expanded attack surface. A software bill of materials (SBOM) should be generated for every deployment, with automated scanning for known vulnerabilities in the dependency chain. This is not optional--it is an executive order requirement and directly addresses the supply chain risk class that enabled incidents like the 2020 Financial Services Center breach.
+· Plan for operational continuity during progressive replacement with dual-run capability: Any replacement of a platform serving 17.5 million monthly logins must maintain continuous availability. Team Rios' proposed operational model will support dual-run periods where legacy and replacement components operate in parallel with automated traffic shifting, real-time performance comparison, and instant rollback capability. Change management will be integrated with DevSecOps every deployment must pass through automated security, accessibility, and integration test gates before reaching production, with canary deployment patterns limiting the blast radius of any defect that passes the gates.
+9 KEY TRADEOFFS AND DECISION CONSIDERATIONS
+Replacing VA.gov requires deliberate choices among competing priorities. There is no approach that maximizes speed, minimizes risk, reduces cost, and modernizes every component simultaneously. Team Rios believes that making these tradeoffs explicit is essential to protecting continuity of service for Veterans while enabling long-term modernization.
+Progressive Replacement vs. Speed A progressive replacement model reduces enterprise risk by allowing VA to modernize incrementally, validate changes with real users, and recover quickly when issues arise. The tradeoff is a longer transition period compared to a clean-slate rebuild. Given VA.gov's role as a mission-critical entry point for millions of Veterans, the reduced risk of service disruption and loss of trust outweighs the benefit of faster but riskier delivery.
+User Friction vs. Security Rigor
+12 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+
+Risk-based identity proofing lowers friction for low-risk interactions while preserving strong protections for sensitive transactions. The tradeoff is added architectural and governance complexity, requiring clear policy, consistent enforcement, and strong observability. Treating identity as a product rather than a solved infrastructure problem increases near-term effort but materially improves Veteran experience and reduces avoidable abandonment.
+
+Central Standards vs. Local Flexibility Enterprise standards for accessibility, security, content, and analytics are necessary to deliver a consistent Veteran experience. However, excessive central control can slow delivery and limit responsiveness to local needs. The recommended model balances centralized standards and enforcement with decentralized execution, accepting coordination overhead in exchange for scalability and resilience across VA administrations.
+
+Platform Reuse vs. Clean-Slate Rebuild Building on VA's existing modern stack preserves institutional knowledge, reduces transition risk, and avoids repeating mistakes seen in large federal "big-bang" transformations. The tradeoff is that some legacy constraints remain in the near term. A composable architecture and clear retirement roadmap mitigate this risk by enabling gradual replacement without destabilizing the platform.
+
+Dual-Run Operations vs. Short-Term Cost Operating legacy and replacement components in parallel increases short-term operational cost and complexity. However, dual-run capability provides essential safeguards: real-time comparison, controlled traffic shifting, and immediate rollback. For a platform with high visibility and low tolerance for failure, this redundancy is an intentional investment in continuity and trust.
+
+Vendor Flexibility vs. Accountability Allowing multiple vendors over time increases access to innovation but risks fragmented accountability. An integrator-led operating model prioritizes transparency, measurable outcomes, and enforceable quality gates. This approach accepts additional coordination effort to ensure flexibility does not come at the expense of reliability or Veteran experience.
+
+10 RELEVANT PAST PERFORMANCE
+
+RIOS PARTNERS PAST PERFORMANCE SUMMARY
+
+Client Name:
+
+Veteran's Health Administration Innovation Ecosystem
+
+Project Name:
+
+Veterans Affairs IE Innovation Pathfinder Discovery Design
+
+Contract #
+
+PATH: #36C10X22C0054 and BAD: #36C10X22P0131
+
+Prime Contractor
+
+Rios Partners
+
+Period of Performance (October 2022-October 2023)
+
+Total Contract Value VHA IE Pathfinder Discovery & Design: 36C10X22C0054
+
+· Contract Value: $4,994,179.20
+
+· PoP: 10/02/2022 through 10/20/2023
+
+VHA OHIL Business Analytics & Digital Systems: 36C10X22P0131 · Contract Value: $4,990,887.84
+13 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+· PoP: 10/01/2022 through 09/29/2023 1. Contract Snapshot Client: Veterans Health Administration (VHA) Innovation Ecosystem - Enterprise Digital Platform Support (public-facing and internal). Role: Prime contractor responsible for platform-scale experience modernization, workflow design, integrations, release management, and governance. Scope Summary: Design, build, migration, and sustainment of a multi-track enterprise platform used by internal and external users, including website redesign, structured content and IA, identity/SSO integration, analytics, and operations governance. No downtime during critical cutovers. 2. Relevance to VA RFI 36C10B26Q0131 The RFI emphasizes platform-scale modernization across experience, architecture, identity, navigation, content governance, analytics, security/compliance, and operating models in a highly regulated, high-visibility environment. The engagement below mirrors those needs and demonstrates Rios' ability to modernize a large public-facing platform while maintaining continuity for millions of users in analogous settings. 3. What We Delivered 3.1 Experience Design & Veteran-Centric Journeys - Led human-centered design across multiple user roles (external partners, vendors, internal VA staff, reviewers), covering intake, account access, submission, triage, and status tracking. - Redesigned 145+ web pages and flows with plain language, consistent patterns, and 508 compliance, using iterative usability testing and feedback loops. - Established structured content models, reusable templates, and page-level IA improvements to improve discoverability and reduce abandonment in key tasks. 3.2 Platform Architecture, Migration, & Releases - Migrated platform capabilities from a legacy SaaS to Salesforce, coordinating 15+ critical cutover activities (data transfers, backups/removals, user transitions, production pushes) with zero downtime. - Implemented an experience orchestration layer to decouple front-end journeys from legacy dependencies; leveraged feature flags and dual-run patterns to reduce risk during cutovers. - Stood up CI/CD release cadence with coordinated UAT, smoke tests, and accessibility checks; met all release dates within the period of performance. 3.3 Digital Identity, Authentication, & Account Recovery - Integrated with VA Single Sign-On services to streamline access and align with phishing-resistant MFA pathways; simplified account recovery through clearer UX and content guidance. - Defined role-based access journeys and guardrails for internal/external users to protect sensitive flows without impeding completion rates. 3.4 Navigation, Wayfinding, Search & IA - Reorganized top-level IA and local navigation to reflect task-based journeys (e.g., "submit," "review," "track status") rather than organizational silos. - Optimized navigation labels and content groupings based on user archetypes and analytics, improving findability and reducing time-to-task. 3.5 Content Strategy, Governance, and Editorial Operations - Authored design principles, style guidance, and a content governance playbook to support distributed authoring under centralized standards. - Implemented lifecycle workflows (draft  review  approval  publish  retire), accessibility QA routines, and analytics-informed content updates. 3.6 Security, Privacy, Accessibility & Compliance - Maintained compliance with FISMA/NIST-aligned controls and Section 508; coordinated Authority to Operate (ATO) renewals and SSL certificate updates without service interruption.
+14
+Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation. Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+- Embedded accessibility testing (automated + manual) in CI/CD and performed multiple 508 reviews for new/updated experiences.
+3.7 Analytics, Measurement & Continuous Improvement - Built role-based dashboards linking product goals to user behavior (e.g., journey completion, drop-offs, time-to-task, page-level engagement). - Used trend analysis to prioritize backlog items, inform navigation updates, and quantify the impact of UX changes on engagement and throughput.
+3.8 Operating Model, Governance & Change Management - Established a multi-team operating model with product owners, platform standards, and a collaboration cycle for intake, review, and release management. - Delivered change-management campaigns (training, micro-learning, train-the-trainer, guidance, and templates) to onboard 300+ internal reviewers and expand participation across programs.
+4. Quantified Outcomes & Evidence of Platform Impact - 150,000+ site visits across the period, with engagement more than doubling post-UX/IA redesigns for key areas. - 1,000+ external submissions processed via redesigned, role-based workflows; sustained throughput with reduced abandonment. - 300+ internal reviewers onboarded through new flows, guidance, and role-based dashboards. - Zero downtime during critical platform migrations and release cycles; met 8/8 scheduled deployments in the period of performance. - Multiple 508 conformance checks and remediations completed alongside iterative content and navigation updates.
+5. Representative Deliverables - Information architecture and navigation maps (top-level and local) for 145+ pages. - Role-based journey maps and UX flows (external partners, vendors, internal staff, SMEs/reviewers). - Content governance playbook (style, patterns, editorial workflow, accessibility checks). - Migration runbooks and release checklists; UAT, feature flags, rollback plans. - Analytics dashboards and KPI frameworks (journey completion, drop-off, time-to-task, accessibility findings).
+6. Lessons Learned - Progressive replacement reduces risk: use dual-run and feature flags, avoid big-bang cutovers, and prioritize high-value journeys first. - Treat identity as a product: align sign-in, recovery, and role-based permissions to real user journeys; use plain language to reduce friction. - Content is infrastructure: structured content, shared templates, and governance accelerate delivery and keep experiences coherent. - Build for 508 from day one: integrate automated checks, manual testing, and remediation gates in CI/CD to prevent regressions. - Make decisions with data: tie analytics to outcomes (not pageviews), publish progress, and use insights to adjust roadmap and design.
+7. Risk Management & Mitigations Used Successfully - Transition disruption: Progressive cutover, dual-run, and feature flags with tested rollback paths. - Integration bottlenecks: Anti-corruption layers and asynchronous messaging patterns to decouple front-end from legacy latency. - Governance sprawl: Clear product ownership, platform standards, and a collaboration cycle with quality gates. - Accessibility regressions: Shift-left accessibility checks, manual audits before GA, and remediation SLAs.
+8. Compliance
+15
+Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation. Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+
+- Compliance: Section 508, FISMA-aligned controls, ATO renewals, SSL certificate management, SSO alignment.
+
+Client Name:
+Project Name:
+Contract # Prime Contractor Total Contract Value
+
+AEM CORP PAST PERFORMANCE SUMMARY Department of Education, Office of Elementary and Secondary Education (OESE) EDPass Secure Data Integration and Validation Platform (supporting EDFacts) EDIES17C0049 (ETSS III vehicle) AEM Corporation Contract # 91990019F0354 | EDMITS TO-A EDFacts PoP 09/15/2019 - 11/30/2024 Total Contract Value $32,790,147.00
+
+Contract #91990021F0354 | EDMITS TO-R EDPass PoP 08/13/2021 - 01/24/2024 Total Contract Value $6,978,902.00
+
+Contract #91990024F0331 | EDCDSS (PRESTO) EDFacts PoP 09/15/2024 - 09/14/2029 Total Contract Value: $22,797,288.00 1. Contract Snapshot Client: Department of Education's EDPass is the secure access and data submission portal supporting EDFacts, the nation's largest K-12 administrative data collection system. The platform serves all 50 states, the District of Columbia, and U.S. territories, managing data submissions that determine over $30 billion in annual formula grant funding ($15B IDEA special education; $23B ESSA Title programs). The legacy system was decades old, built on transactional batch processing with nightly/weekly ETL to an Oracle data warehouse, creating significant delays in data availability and requiring extensive manual post-submission corrections. Role: Prime contractor responsible for end-to-end platform modernization, including architecture design, data pipeline engineering, business rules implementation, user interface redesign, data governance framework development, security compliance, and ongoing operations and sustainment. Scope Summary: Led complete modernization of EDPass from a legacy transactional batch system to an AWS serverless event-driven architecture. Implemented end-to-end data pipelines within AWS East/West Government cloud environment for collection, transformation, validation, and transfer. Integrated 1,100+ business rules in a centralized validation engine replacing fragmented manual review processes. Designed metadata-driven system accommodating statutory flexibilities (varying eligibility criteria, grant participation rules) without code changes. Delivered automated disclosure avoidance procedures, dramatically improved data quality at submission, and decreased publication time by months. System now sustains critical national data collection operations with minimal operational risk despite organizational changes. 2. Relevance to VA RFI 36C10B26Q0131 The VA RFI describes replacing a mission-critical platform that must maintain continuity of service while modernizing architecture, integrating with legacy systems, and operating under intense regulatory and security scrutiny. The EDPass/EDFacts modernization demonstrates these exact capabilities: - Both involve replacing aging systems that are critical to agency operations and cannot tolerate service disruption
+
+16 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+- Both require modernizing architecture while maintaining compatibility with existing integrations and data flows - Both serve diverse user populations (states/territories for EDPass; Veterans/families for VA.gov) with high expectations for reliability - Both operate under significant compliance requirements (FISMA, privacy, accessibility) with zero tolerance for security incidents - Both require governance models that survive organizational and staffing changes Our success replacing a system that every state in the nation depends upon--managing data determining $30B+ in federal funding--without service interruption directly validates AEM's readiness for VA.gov replacement. The EDPass platform requires the same careful orchestration of user experience, backend architecture, data governance, security compliance, and change management that VA.gov demands. 3. What We Delivered 3.1 Experience Design & Veteran-Centric Journeys - Redesigned user interfaces for State Education Agency (SEA) data submitters, reducing submission errors and improving task completion rates through clearer workflows and actionable guidance. - Developed role-based experiences for different user types (data submitters, reviewers, administrators, ED program staff) with appropriate access levels and functionality tailored to each role's needs. - Implemented actionable error messages and data notes providing clear, specific guidance on validation failures and required corrections--replacing cryptic system messages with plainlanguage explanations. - Created streamlined submission workflows reducing burden on state users while maintaining rigorous data quality requirements. - Conducted usability testing with actual state users to validate interface designs before production deployment. 3.2 Platform Architecture, Migration, & Releases - Modernized from legacy transactional system with nightly/weekly ETL batch processing to AWS serverless event-driven architecture--fundamentally transforming system responsiveness and scalability. - Implemented end-to-end data pipelines within AWS East/West Government cloud environment (FedRAMP authorized) for collection, transformation/curation, validation, and transfer operations. - Designed metadata-driven system that accommodates varying eligibility criteria and grant participation rules across different programs and grantees without requiring code changes-- enabling regulatory flexibility. - Executed migration from legacy Oracle data warehouse to modern cloud-native architecture with zero service interruption during cutover. - Established CI/CD release processes with coordinated UAT, smoke tests, regression testing, and quality gates ensuring stable deployments. - Implemented feature flags and progressive rollout capabilities enabling low-risk releases and rapid rollback if issues identified. 3.3 Digital Identity, Authentication, & Account Recovery - Implemented Single Sign-On (SSO) integration providing secure, streamlined access for state education agency users across multiple ED systems. - Designed role-based access controls ensuring users can only access data and functions appropriate to their responsibilities and organizational authority. - Developed account management workflows for user provisioning, role assignment, access modification, and account recovery aligned with federal identity standards.
+17
+Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation. Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+- Implemented audit logging for all authentication and authorization events supporting security monitoring and compliance requirements. 3.4 Navigation, Wayfinding, Search & IA - Restructured portal navigation to align with user tasks (submit data, check submission status, view validation results, access guidance documentation, manage account) rather than system functions. - Implemented contextual help and guidance integrated throughout the submission process, providing users with relevant information exactly when needed. - Created clear status indicators and progress tracking so users always understand where they are in submission workflows and what actions are required. - Developed searchable knowledge base enabling users to quickly find answers to common questions and submission guidance. 3.5 Content Strategy, Governance, and Editorial Operations - Developed Business Rule Single Inventory (BRSI) providing standardized, documented management of 1,100+ validation rules--establishing single source of truth for data quality requirements. - Created comprehensive documentation of statutory data requirements, strengthening ED's data governance posture and enabling consistent rule application across programs. - Implemented transparent, streamlined data quality standards visible to both ED program staff and state submitters, eliminating ambiguity about submission requirements. - Established governance processes for rule changes coordinating review and approval across 10+ ED program offices with competing priorities. - Developed user guidance documentation and training materials enabling state users to understand and comply with submission requirements. 3.6 Security, Privacy, Accessibility & Compliance - Maintained continuous FISMA/NIST compliance throughout modernization and ongoing operations, meeting Moderate impact level requirements. - Implemented automated security controls within AWS serverless architecture, including encryption at rest and in transit, network segmentation, and continuous monitoring. - Ensured Section 508 accessibility compliance for all user interfaces, enabling equal access for users with disabilities. - Managed sensitive education data with appropriate privacy protections including automated disclosure avoidance procedures preventing release of personally identifiable information. - Coordinated Authority to Operate (ATO) requirements for modernized platform, maintaining continuous authorization throughout transition. - Implemented comprehensive audit logging and security monitoring supporting incident detection and forensic capabilities. 3.7 Analytics, Measurement & Continuous Improvement - Implemented comprehensive logging and auditability through event-driven architecture, enabling full traceability of every data submission from receipt through final publication. - Developed operational dashboards providing visibility into submission status, validation results, processing times, and system health metrics. - Created analytics capabilities enabling identification of common submission errors and opportunities for user guidance improvements. - Automated disclosure avoidance procedures that previously required extensive manual effort, decreasing data publication time by months. - Established performance baselines and SLA monitoring ensuring system responsiveness meets user expectations. 3.8 Operating Model, Governance & Change Management
+18 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+- Managed disciplined change management process ensuring all requirements aligned with SME/business owner needs throughout multi-year modernization, preventing scope creep while accommodating legitimate requirement changes. - Facilitated end user testing groups involving actual state submitters for usability validation before production deployment, building user confidence in new capabilities. - Developed governance model with documented stewardship roles enabling effective issue resolution and change management across ED program offices. - Created operating model that maintains critical national data collection with minimal operational risk despite unexpected staffing changes in 2025--validating governance robustness and sustainability. - Employed peer-to-peer data steward champion approach to build support among initially reluctant stakeholders across both ED program offices and state education agencies. - Delivered comprehensive training enabling ED staff and state users to effectively utilize modernized platform capabilities. 4. Quantified Outcomes & Evidence of Platform Impact - Modernized platform serving all 50 states, DC, and U.S. territories--the nation's largest K12 administrative data collection system. - Manages data submissions determining over $30 billion in annual formula grant funding ($15B IDEA; $23B ESSA). - Integrated 1,100+ business rules in centralized validation engine, replacing fragmented manual review processes that caused inconsistent data quality. - Nearly eliminated need for post-submission data corrections--data now usable at submission due date rather than months later after manual cleanup. - Decreased data publication time by months through automated disclosure avoidance procedures replacing labor-intensive manual processes. - Achieved zero downtime during migration from legacy to modernized platform--critical for system supporting every state's grant funding. - System sustains national data collection operations with minimal risk despite 2025 organizational and staffing changes, validating governance robustness. 5. Representative Deliverables - AWS serverless architecture design and implementation documentation - Business Rule Single Inventory (BRSI) with 1,100+ documented validation rules - Data pipeline specifications and transformation/validation logic - Metadata-driven configuration framework enabling statutory flexibility - User interface designs and usability testing results - Migration runbooks and zero-downtime cutover procedures - Data governance documentation and stewardship framework - Security documentation supporting ATO and continuous compliance - Training materials and user guidance documentation - Operational dashboards and monitoring specifications 6. Lessons Learned - Event-driven architecture improves quality and auditability: Event-driven processing enables real-time validation, comprehensive audit trails, and faster issue identification. VA.gov replacement should consider similar architectural patterns for improved responsiveness and traceability. - Governance models must survive organizational change: EDPass governance processes continued operating effectively through 2025 staffing changes because they were documented, embedded in workflows, and not dependent on specific individuals. VA.gov replacement governance must be similarly resilient.
+19 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+
+- User engagement builds adoption: Involving actual users (state submitters for EDPass; Veterans for VA.gov) in testing and validation builds confidence in new capabilities and identifies issues before production impact. 7. Risk Management & Mitigations Used Successfully - Service disruption during platform migration  Phased migration with parallel operations; comprehensive rollback procedures; extensive testing in pre-production environments mirroring production configuration; zero-downtime cutover execution with real-time monitoring. - Data quality degradation during transition  Maintained existing validation rules while implementing new capabilities; parallel validation comparing legacy and modernized results during transition; gradual rule migration with verification at each stage. - Stakeholder resistance to process changes  Data steward champion model building internal advocacy; end user testing groups validating designs; clear communication of benefits including reduced manual effort and faster data availability. - Regulatory non-compliance during modernization  Continuous compliance monitoring throughout transition; security controls embedded in architecture from initial design; coordinated ATO process maintaining authorization; documented evidence collection for audits. - System sustainability with staffing changes  Comprehensive documentation enabling knowledge transfer; automated processes reducing manual dependencies; governance model with clear roles and decision rights; cross-training of operational and development staff. 8. Compliance - FISMA/NIST compliance - Moderate impact level; continuous authorization and monitoring - FedRAMP - utilizing AWS GovCloud authorized services - Section 508 accessibility - all user interfaces compliant - Privacy protection - automated disclosure avoidance; appropriate handling of education records - AEM corporate certifications: CMMI-DEV Level 3, CMMI-SVC Level 3, ISO 9001:2015, ISO 20000, ISO 27001 - 100% Excellent/Very Good CPARS ratings on enterprise data contracts - 13 executed ATOs across federal client portfolio - Top Secret Facility Clearance
+
+11 ATTACHMENTS
+
+Figure Figure Figure Figure Figure Figure Figure Figure Figure Figure Figure
+
+1 High-level process overview .........................................................................................................................21 2 Detailed process map for a reimbursement program .....................................................................................21 3 Ideal Future State |Vendor Submission Triage Process.................................................................................21 4 Ideal Future State | How can customer-initiated procurement take advantage of the program .....................21 5 Process roles for a reimbursement program ..................................................................................................22 6 A webpage designed and built for VA Pathfinder external track ..................................................................23 7 A webpage designed and built for VA Pathfinder Internal track ..................................................................23 8 A webpage designed and built for VA Pathfinder external track ..................................................................23 9 Defining a systematic outreach plan and its benefits.....................................................................................24 10 ADKAR explanation ................................................................................... Error! Bookmark not defined. 11 Change management for Internal reviewers (IR's) ......................................................................................25
+
+20 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+· Process Maps
+Representative process maps illustrate Team Rios' approach to modeling real VA workflows, identifying decision points, handoffs, and risk during progressive modernization.
+
+Figure 1 High-level process overview
+
+Figure 2 Detailed process map for a reimbursement program
+
+Figure 3 Ideal Future State |Vendor Submission Triage Process
+
+Figure 4 Ideal Future State | How can customer-initiated procurement take advantage of the program
+
+21 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+· User Role/ journey maps:
+Representative user role and journey maps illustrate how Veteran interactions translate into coordinated actions across VA staff, reviewers, and leadership, demonstrating Team Rios' ability to model real VA workflows, decision points, and handoffs required for progressive VA.gov replacement.
+Figure 5 Process roles for a reimbursement program
+22 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+· Website Design:
+Representative website designs demonstrate Team Rios' ability to deliver accessible, task-based, Veteran-centric digital experiences within VA's governance, security, and operational constraints providing concrete evidence of progressive modernization in practice.
+Figure 6 A webpage designed and built for VA Pathfinder external track
+(Publicly accessible at What VA Buys | VA Pathfinder)
+Figure 5 A webpage designed and built for VA Pathfinder Internal track
+(Publicly accessible at Innovation Hub | VA Pathfinder) Figure 8 A webpage designed and built for VA
+Pathfinder external track (Publicly accessible at What is your business type? | VA Pathfinder )
+23 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+· Change management:
+Representative changemanagement figures illustrate how Team Rios structures outreach, training, and adoption to align leadership, staff, and stakeholders during progressive enterprise transformation--ensuring modernization efforts translate into sustained operational change.
+Figure 9 Defining a systematic outreach plan and its benefits
+Figure 10 ADKAR explanation
+24 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+02/05/2026 / RFQ #: 36C10B26Q0131 RFI - Replacement Model for VA.gov
+Figure 11 Change management for Internal reviewers (IR's)
+25 Use or disclosure of data contained on this sheet is subject to the restriction on the cover page of this proposal / quotation.
+Rios Partners | 3100 Clarendon Blvd, Suite 200, Arlington, VA 22201 | Tel. +1 703 951 3132
+
+

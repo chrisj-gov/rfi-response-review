@@ -1,0 +1,251 @@
+IBM Consulting Federal
+
+Replacement Model for VA.gov
+04 February, 2026
+
+Submitted to: Allison Fulton Department of Veteran's Affairs Allison.fulton@va.gov Evan Schlisserman Department of Veteran's Affairs evan.schlisserman@va.gov
+
+Submitted by: IBM Consulting - Federal Margie Kelleher Contract & Negotiations Executive Phone: (703) 201-1614 Email: margaret.kelleher@us.ibm.com
+
+Table of Contents
+
+1
+
+A Future Vision for VA.gov: From Challenge to Change
+
+2
+
+Personas and Envisioned Experience
+
+3
+
+Architectural Vision
+
+4
+
+Implementation Approach
+
+5
+
+IBM Assets and Accelerators
+
+6
+
+IBM Corporate References
+
+7
+
+IBM VA Experience
+
+8
+
+Known Limitations, Risks, Tradeoffs, and Lessons Learned
+
+9
+
+Conclusion
+
+10
+
+Appendix 1: Notional Architectural Elaboration
+
+RESTRICTION ON DISCLOSURE AND USE OF DATA
+This document includes data that shall not be disclosed outside the Government and shall not be duplicated, used or disclosed--in whole or in part--for any purpose other than to evaluate this document. If, however, a contract is awarded to this offeror as a result of--or in connection with--the submission of this data, the Government shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Government's rights to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained on pages marked: "Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this document."
+The data in the pages of this document where so annotated contain trade secrets and commercial or financial information that are either specifically, exempted from disclosure by statute or privileged or confidential within the meaning of the exemption set forth in Sections 552(b)(3) and (4), respectively, of the Freedom of Information Act, 5 U.S.C. 552, the disclosure of which could invoke criminal sanctions of 18 U.S.C. 1905.
+
+A Future Vision for VA.gov: From Challenge to Change
+
+Today, the VA provides hundreds of services to over 15.7M Veterans. The number of US military Veterans in the United States in 2024 represented 5.9% of the total civilian population age 18 and over in the nation, with nearly 30% of Veterans at least 75 or older. While the VA has made significant investments in its digital services, including in services like My HealtheVet, MyVA, and AskVA.gov, there is more to be done to deliver an easily navigable and unified services experience for our Veterans, caregivers, families, and providers. For the most part, VA.gov today serves as a capability to delivery INFORMATION to our Veterans, who then must figure out how to navigate complex application and benefit process with little assistance across a confusing array of digital, voice, and in person channels in order to access core VA Services.
+IBM envisions a future where VA.gov does more than deliver INFORMATION. We believe VA.gov should deliver end-toend SERVICES to our Veterans. A place where they can start and finish transactions, receive the benefits, prescriptions, or appointments they are looking for through a personalized experience, supported by AI, to assist them in navigating to and through their next best action, and remembering data previously entered whenever possible to avoid re-entry of information. This experience will leverage modern identify proofing for seamless access, and connect to the complex ecosystem of VA data systems and processing systems to quickly deliver service, beyond just information.
+With more than 100 years of experience IBM's 300,000 employees across 175 countries make IBM the partner to help the VA realize this vision. Through our IBM iX team, we have the commercial grade capability to deliver personalized digital experiences at enterprise scale. We have extensive experience with VA systems and processes through our efforts in benefits claims process automation, digital transformation center
+
+support, contact center support, and HR service delivery. We are leaders in the application of modern AI tools to generate real business results, through IBM capabilities like Watsonx and our IBM Consulting Advantage platform, and through our extensive ecosystem partners like AWS, Microsoft, OpenAI, and Google. As you state in your RFI, this more than just a technical challenge. IBM brings clear experience across experience design, platform architecture, content strategy, governance, analytics, and operating model, at scale and with VA context. We are exciting to work with you on this journey to deliver a premier, modern, secure, personalized, Veteran-centric digital experience.
+
+1
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+Personas and Envisioned Experiences
+
+A replacement model for VA.gov must go beyond UX, content strategy, or design systems. It must also focus on the modernization of:
+- Identity and authentication workflows - Data orchestration and semantic search - Legacy system integration - Automation and workflow optimization - Security, observability, and governance
+This envisioned future delivers Veterans end-to-end SERVICES via VA.gov. Our visual Veteran journey includes a streamlined login that unifies the entry into the system and opens to a portal that embraces putting the Veteran and the services they need throughout their journey as a Veteran at the forefront. We recommend creating an AI supported portal that guides the Veteran to the services they are required throughout their life as a Veteran. The figure to the right details our understanding of the Veteran experience today and how we envision an AI-assisted journey assisting navigating a complex process. For each of the primary stakeholders, we envision a dynamic experience for:
+- Veterans: The navigation menu gives way to a Smart Action Stack - priority cards that present the most relevant tasks first (e.g., Check Claim Status, Refill Meds, Schedule Care). Tasks can be completed inapp or launched as guided workflows, reducing friction and time to completion.
+- Caregivers: A Context Switcher lets a caregiver toggle between "My Profile" and "Manage for [Veteran Name]," reconfiguring the UI to show only legally authorized tools
+
+(pharmacy refills, appointments, secure messaging). A Circle of Care feed provides a shared activity log so everyone with permission sees who did what and when. - Family/Survivors: On sensitive events (for example, a Report of Death), the interface shifts into Compassionate Transition mode, surfacing burial benefits, survivor pensions, and an automated Survivor Checklist that prefills known data to minimize administrative burden during grief. - VSOs/Advocates: Accredited representatives see a Case Management mode with a Case Roster and readonly views of a Veteran's claim status for realtime advising. A Digital Power of Attorney workflow enables rapid, fully digital representation setup.
+The envisioned features of the new VA.gov site include an NLPdriven search "intent bar" that replaces traditional navigation for intentbased commands ("change direct deposit," "check appeal status") and a nudge engine that proactively surface next actions (e.g., after a claim approval, the dashboard highlights "Apply for Vocational Rehab" or "Enroll in Life Insurance"). Roleaware UI and timebounded, we ensure caregivers and proxies only act within legal authority. This identitydriven digital experience reduces time spent searching for information, lowers cognitive load at critical moments, streamlines common transactions, and acts as a first deflection point for downstream VA call centers - helping users complete highvalue tasks faster while improving transparency and safety.
+
+2
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+Architectural Vision
+The VA's stated mission for this modernization is to replace the current VA.gov with a premier, modern, secure, and Veterancentric digital experience--a best-in-class central entry point that provides seamless access to benefits, healthcare, services, and information for Veterans, their families, and stakeholders. IBM Experience Orchestrator (EXO) directly aligns to the VA's strategic goals for human-centered CX, operational resilience and continuity, and integrated governance and design (including analytics-driven continuous improvement), while modernizing in a way that integrates across a diverse legacy portfolio without disrupting service continuity.
+Figure 1 below illustrates our vision to leverage EXO to orchestrate the various VA and AI services needed to deliver the experience and personalized journeys through VA.gov. Appendix 1 provide additional elaboration on this architecture with a more detailed diagram and description of its components.
+
+Figure 1. IBM Experience Orchestrator (EXO) delivery of VA's Target Architecture *Please see Appendix 1: Architectural Elaboration" for details.
+
+3
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+Implementation Approach
+
+IBM recommends a pragmatic, riskcontrolled modernization that uses a progressiveexposure strategy to preserve continuity of service while delivering a stepwise transformation. Our key implementation principles include:
+- Veterans-First Design Operations: Establish a permanent Veteran User Research Council. Every sprint begins with Veteran problem validation and ends with usability testing on the actual demographic (not proxies). Additionally, we create a caregiver and family panel to test workflows to ensure nonVeterans can easily manage care.
+- Governance Structure: Assign Product Owners to help manage the diverse portfolio of legacy systems and for each major benefit portfolio (Health, Benefits, Burials) found on the current site. They own the service definition for their domain - deciding which legacy transactions are prioritized for modernization based on analytics. We pair a technical lead, with the product owner and a policy subject matter expert.
+- Iterative Strangler Fig Delivery: Rather than a Big Bang launch which risks service continuity, we propose replacing the site section-by-section via an agile delivery model. Start with high-traffic, low-risk informational pages, then move to transactional hubs (e.g., Check Claim Status). We introduce progressive exposure to incrementally introduce new capabilities behind authentication to avoid service disruptions.
+- Measure to Learn: Instrument outcomes and implement pilots in a carefully controlled context using the Canary Release approach, which offers the features to a defined subset of users for evaluation.
+Specifically, we envision the following phases and activities, where we ensure "continuity of service" while deploying this novel model, use a phased "progressive exposure" approach.
+
+Each phase delivers measurable capability increments, enforces governance and compliance, and de-risks legacy integration through an APIfirst, identitycentric architecture.
+Phase 0: Validate & Mobilize: The objective is derisk lift and establish the program operating model, success metrics and an actionable migration plan. In Phase 0, we confirm priority Veteran journeys (high impact, high friction) and map to VBMS+ and shared services. We conduct a technical audit and inventory the data, to create a full catalog of API endpoints, data elements, and legacy integration touchpoints. Finally, we establish delivery pipelines, security gates, and observability baseline and finalize API and orchestration "golden paths" for repeatable delivery.
+Phase 1: Prove Out 1-2 Full Journeys: We begin to collapse shadow IT into the platform and instrument pilots to drive rapid refinement of microfront ends and data persistence across the portfolios. We deliver one or two complete journeys spanning VA.gov web/mobile  VBAAP+ orchestration  VBMS+  shared services (e.g., notifications/correspondence) and do so via canary releases to limit risks. We instrument outcomes (performance, completion rate, reliability, adoption) and demonstrate the repeatable factory model for scaling.
+Phase 2: Scale to Portfolio Modernization (ongoing). We expand journeys across benefits portfolios and VA lines of business. We deploy analytics and personalization engines to surface relevant tasks and hide irrelevant options, reducing cognitive load. We mature governance, analytics-driven optimization, and reusable components and systematically reduce legacy brittleness by moving variability into orchestration and standardized APIs. Finally, we continue to augment and optimize the site with AI, and by adding bounded AI for triage, prefill, and guided help with humanintheloop controls and model governance.
+
+4
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+IBM Assets and Accelerators
+
+Our Experience Strategy and Design teams collaborate with clients to co-create rich user experience (UX) implementations using our Garage methodology that combines Enterprise Design Thinking with Agile delivery, expedited with tools and accelerators, including:
+1. ATOM Platform - IBM Federal ATOM is a FedRAMP Highauthorized, cloud-based environment designed specifically for U.S. federal agencies. It runs in AWS GovCloud and provides a secure, compliant platform where agencies can build, deploy, and operate mission-critical workflows using AI, automation, data processing, and analytics tools. ATOM includes capabilities such as intelligent document processing, case management, claims processing, FOIA workflows, fraud detection, data pipelines, business rules, robotic process automation, and generativeAI assistants, however one of ATOM's key strengths is that it can be used to operate other software products inside its already approved FedRAMP High boundary. Effectively, if a product can run in an onpremise and often air gapped configuration, ATOM can operate it within its own ecosystem, allowing the agency to use that product at FedRAMP High without the product itself going through a separate authorization. This makes ATOM both a services platform and a secure deployment environment for additional tools the agency depends on.
+2. Managed Service Delivery - IBM's managed service operating model enables government agencies to fully realize the value of automation by shifting focus from owning technology to delivering mission outcomes. Agencies that attempt to manage their own automation infrastructure often face high complexity, elevated costs, and solutions that are not aligned to their needs. By contrast, IBM's managed service reduces operational burden, lowers total cost of ownership, and accelerates implementation by eliminating lengthy procurement and configuration cycles. It supports true digital transformation by allowing agency experts to concentrate on mission work while IBM designs, builds, and operates the automation capabilities. IBM continually improves performance by maintaining modern standards, tools, and
+
+skills, and provides agencies with immediate access to a broad network of automation specialists to address evolving challenges and advanced use cases. 3. IBM Consulting Experience Orchestrator (EXO) - EXO is an open source acceleration framework that transforms how clients design, develop and manage exceptional customer experiences. Built on a scalable, composable architecture, Experience Orchestrator streamlines the creation of customer journeys using microservices, reusable assets, and data mapping capabilities. 4. IBM Garage Experience (IGX) - IGX is a comprehensive workflow and governance platform that helps ensure a consistent and successful application of the IBM Garage methodology for a client's digital transformation project. It leverages generative AI to help organizations quickly and efficiently prioritize, align, and track critical business transformation initiatives to maximize value-focused outcomes. 5. Generative AI Assistants - Assistant Packs of GenAI tools that help with specific tasks in the discovery, design, build and test, and deploy and manage tasks of the software development lifecycle. 6. IBM Enterprise Design Thinking (EDT) - An enterprisescale framework that adapts traditional design thinking principles for complex business challenges. It emphasizes a human-centered, iterative approach to problem-solving, ensuring solutions are user-focused, scalable, and adaptable to changing needs. EDT is designed to foster collaboration, speed, and innovation across organizations.
+
+5
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+IBM Corporate References
+
+IBM has direct experience successfully delivering nextgeneration digital experiences and modernizing complex enterprise systems for Commercial and Federal clients, such as:
+Federal Emergency Management Agency (FEMA) Risk MAP Digital & Data Services. Since 2012, IBM has been the prime contractor for FEMA's $312M Risk MAP program, delivering user centered digital services to millions of property owners, engineers, and regional FEMA staff. We conducted CX maturity assessments, built an enterprise design system based on U.S. Web Design System (USWDS), modernized applications through iterative design, and integrated analytics and OMB approved qualitative research. The program demonstrates IBM's ability to manage complex digital ecosystems with diverse user personas - directly aligned to challenges like modernizing VA benefit experiences.
+GRAMMYs, US Open, Wimbledon, The Masters - Commercial Interactive Experiences. IBM has delivered award winning digital experiences for premier global events, using AI and cloud technologies to personalize content and enhance fan engagement. Our solutions generate real-time insights, capture millions of data points, and support over 34M global users across events like Wimbledon and the US Open. These projects illustrate IBM's ability to combine advanced analytics, GenAI, and intuitive design at massive scale.
+Department of Health and Human Services (HHS) - Digital Modernization IBM modernized SAMHSA's mission critical systems and 14 public websites, serving over 1M monthly users with >99.99% uptime across AWS GovCloud environments. We redesigned SAMHSA's flagship site, migrated to Drupal 8 in six months, implemented universal taxonomy and search, and established enterprise governance for data and modernization. Our efforts improved performance, accessibility, and user satisfaction across SAMHSA's digital portfolio.
+
+Department of Homeland Security - USCIS JETS Program IBM enhanced USCIS digital services for 20,000 internal users and 14M public users by redesigning eVerify, improving search with Google APIs, and creating the USCIS enterprise style guide. Our team supported 20 major applications, delivered over 60M annual page views, and achieved exceptional CPARS ratings while improving deployment times by 33%. This modernization work improved access to citizenship, immigration benefits, and key digital services.
+General Services Administration Halley's COMET Modernization IBM supports 50 mission critical GSA applications serving 3.5M government and 6M public users, consolidating 12 buying tools into a unified digital experience. Our team designed SDEP, the first app deployed on GSA's new containerized AWS platform, built a Drupal based enterprise CMS, and delivered global search and automated contract data systems. This modernization simplifies acquisition, reduces redundancy, and improves buying services.
+General Services Administration - BUY.GSA.GOV Digital Experience IBM consolidated 10 disparate buying tools into buy.gsa.gov, creating a seamless platform for millions of users and saving the government $46M in labor costs. Using Enterprise Design Thinking, USWDS, and extensive usability research across 17 agencies, we achieved an 83% adoption rate, NPS of 58, and CSAT of 4.3. This work parallels VA's need to unify fragmented benefit systems into a single veteran centered digital experience.
+
+6
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+IBM VA Experience
+
+IBM has been an innovation partner to the Veterans Affairs (VA) for over 90 years. Over the past decade, we have strengthened and matured this partnership by becoming the thought and innovation leader for the VA in AI and emerging technology and by being the only Managed Service Provider (MSP) delivering accelerated service delivery to the VA at scale today. Below are several key representative projects we support VA across the enterprise.
+VA's HR Smart Human Resources system. IBM's shared services supporting the sustainment of HR Smart - A talent acquisition and development, employee benefits and retirement and financial management. Work includes system enhancements, data migration and transition support services.
+Veterans Intake: Conversion & Communication Services (VICCS) IDIQ. IBM has automated the claim process through our intelligent automation platform, digital transformation and continuous capabilities resulting in VA processing a record number (over 2 million) of disability claims in FY2025.
+VA Corporate Data Warehouse (CDW) VA CDW provides national authoritative health & enterprise data & analytics at scale - 23,000+ developer/analysts from 7,500+ workgroups. Creating downstream data products consumed by 100,000+ customers including Veterans, Congress, Inter-agency partners, VA Senior Leaders, Health Researchers, and Operations.
+Enterprise Telecommunications Expense Management Solution (ETEMS) IBM services all telecommunications service order processing and delivery, inventory, cost containment, and reporting, IBM provides VA with a hosted and managed Software as a Service (SaaS) telecommunications expense management
+
+IBM holds numerous contracts with the VA, including the following:
+- Veterans Intake: Conversion & Communication Services (VICCS) HR·Smart Services & Enhancement Support
+- TriWest Community Care Network - VA Enterprise Asset and Work Management - Onboarding Management, Engineering, Governance, &
+Assurance (OMEGA) - VA Enterprise Telecomm Expense Management - VA Enterprise Safety and Workers' Compensation
+Information Mgt (S/WIMS) - VetPro System Analysis and Database Support ·
+VA Acquisition Academy (VAAA) Office of the Chancellor (OOC) Informatics and Program/Project Support (IPPS) - VBA Benefits Transformation Platform (BTP) - VBA Pension Optimization Initiative (POI) - VBA Claims Profile Analysis Integrated Db - VA Corporate Data Warehouse Support - VA Informatics and Computing Infrastructure (VINCI) Support Services - Drupal Maintenance Support - Long Covid Support Services
+Our extensive experience at the VA allows IBM to tailor our solutions to the business and technical environment, with consideration of known constraints and historical lessons learned have driven success implementations at scale for the VA.
+
+7
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+Known Limitations, Risks, Trade-offs, & Lessons Learned
+Ability to Reuse Personal Information: current laws and regulations can prohibit the reuse of personal information from one system to the next, or storing that information in one place for re-use across multiple processes. Attacking this challenge is a priority of the current administration. During the January 30, 2026 ACT-IAC CX Summit in Reston VA, Greg Barbaccia spoke of the importance of addressing this to enable better services across the government, and in particular for our Veterans.
+Data Silos and Data Quality: The ability to bring together data across multiple VA and non-VA systems will be paramount to creating an improved experience and to deliver services through VA.gov. IBM has successfully integrated with multiple VA and external data sources to deliver VA claims process automation, delivering improved experiences through more rabid benefits processing. This experience will be needed to drive the vision for the future of VA.gov.
+Persona and Use Case Focus: VA needs to trade off and prioritize the mode valuable and impactful use cases to address first. Most successful AI implementation focus on specific, solvable use cases that deliver tangible improvements to service delivery or improvement. The VA needs to use a disciplined approach, leveraging structure governance, to examine tradeoffs and make prioritization decisions for implementation.
+
+8
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+Conclusion
+
+IBM is the essential partner for high-touch business transformation at the VA. Our approach aligns to the VA needs with an emphasis on two major themes:
+Modernize Beyond the VA.gov Interface
+To truly drive exponential change to the digital experience of veterans, caregivers, family, and providers, the VA requires changes that go beyond UX, design systems, and content management. This transformation must address data silos, security, identity management, and the ability to sew together processes and workflows across the enterprise. IBM brings the following:
+- Expertise across experience design, platform architecture, content strategy, robust governance, data integration, automation and analytics - at VA and at scale.
+- Extensive experience delivering full-stack modernizations, from UX to backend orchestration in a way that respects VA's regulatory, security, and operational environment, a critical success factor in designing and implementing digital solutions to the VA.
+- Existing production platforms implemented to maintain continuity of service for millions of users and integrated with legacy and emerging systems
+- Success deploying enterprise systems within the VA's regulatory, security, and operational constraints, repeatedly delivering FedRAMP High, IL5, and enterprise scale solutions
+Provide a World Class Experience Powered by Real-Time Automation
+Our intent is to go beyond a website that displays information or points to different services, to a platform that delivers outcomes. IBM can help VA evolve VA.gov into a real-time service platform.
+
+Improved experience, combined with the capabilities of IBM's FedRAMP's automation platform and cross-VA domain expertise, can evolve VA.gov into a proactive, personalized, near real-time digital experience.
+Our understanding goes deeper than the frontend experience. ATOM orchestrates many of the business flows triggered by VA.gov today. This gives IBM a unique vantage point: we understand the operational pathways that determine whether a benefit is received in days or weeks. This gives us a holistic understanding of how VA.gov connects to the underlying mission systems. When a Veteran updates information, requests documents, or triggers a service workflow, ATOM is often the system coordinating the data, logic, and cross-system interactions. Examples include:
+- Automated triage and routing across benefits and healthcare - Instant updates as ATOM completes background tasks - Pre-populated data and eligibility checks - Personalized recommendations based on life events, eligibility
+& usage patterns - Improved, Real-time dashboards for benefits and healthcare
+Our experience is rooted in hands-on VA delivery, with demonstrated ROI at scale, not theoretical recommendations. Our approach reduces risk by building on what we know already works for VA. Together, we can deliver a premier, modern, Veteran-centric experience and build on the automation already in place today.
+
+9
+
+Use or disclosure of data contained on this page is subject to the
+
+restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+Appendix 1
+Notional Architecture Elaboration
+
+In the consolidated VA target architecture, EXO activates four layers as a single operating system for delivery:
+1. Experience Layer (VA.gov Web + Mobile) a) Modern web and mobile experiences built using proven, enterprise-grade stacks (e.g., React/Next.js patterns for web; React Native/Flutter/Kotlin options for mobile), designed for rapid iteration, accessibility, and consistent UX. b) A consistent client integration model leveraging an enterprise API consumption pattern (e.g., Apollo client patterns where appropriate) to reduce channel fragmentation and speed delivery.
+2. Composable API & Process Orchestration Layer (Automation Platform: VBAAP+) This is the "force multiplier" layer that transforms integrations into end-to-end Veteran journeys:
+
+a) Process Orchestration to coordinate multi-system journeys "start-to-finish" across benefit portfolios (breaking silo boundaries). b) Process Integration capabilities across API, RPA, messaging, and streams to connect legacy platforms safely and incrementally. c) Business Rules Engine to centralize and version decision logic. d) Document Generation, Evidence Summarization, and PMR Automation to reduce cycle time in case workflows. e) OCR + NLP to digitize and understand inbound evidence and correspondence. f) AI Assistants + Outbound Communication to support guided experiences and proactive Veteran updates. g) Extensibility for other LOB automations (VHA, NCA, BVA, HR, etc.) without rebuilding the core.
+
+10 Use or disclosure of data contained on this page is subject to the restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+3. Case Management Platform (VBMS+) + Microservices Boundary. EXO leverages VBMS+ as the enterprise contract boundary for case management and ensures the experience layer never becomes tightly coupled to underlying legacy variability. a) Supports the VBMS+ capabilities shown in the diagram, including Admin-lite / Offramps (Claims, Packets, Documents), Human-in-the-Loop (HIL) controls, and Quality Checks--so modernization increases speed without reducing correctness or auditability. b) Enables journey composition across VBMS Core and adjacent capabilities (e.g., exams, awards, ratings, case flow and related services) through a governed microservices approach.
+4. VA Shared Services + Internal/External Integrations. EXO makes VA Shared Services first-class citizens in the platform, specifically: a) Common services such as VA Notify (Outreach), Outbound Correspondence, Secured Email, and EC Fax--fully orchestrated into journeys rather than treated as afterthought integrations. b) External integrations (e.g., JLV, SSA, Treasury, IRS, Lighthouse and others) are integrated through reusable patterns. c) Internal integrations (e.g., VA Profile, BIP, VIS, DAS, BGS, Lighthouse) connected through the same governed integration model.
+5. Agentic AI Delivery With VA-Controlled Guardrails (Key Differentiator). Our proposed solution architecture in Figure 1 explicitly enables an AI Agent Router + AI Agents with API/RAG response and a RAG chain connecting to: a) BMS+ enterprise APIs and services. b) A Document/Knowledge Repository. c) Approved "prompt + knowledge" features and (optionally) a controlled agent marketplace pattern.
+EXO operationalizes this safely and pragmatically: a) Developers can use VS Code or Cursor, connected to the LLM/provider of VA's choice, while the agentic layer is governed to only use approved knowledge, contracts, and patterns. b) The agentic capability accelerates delivery by generating implementation scaffolds, tests, documentation, and integration mappings--but always behind policy gates (security scanning, contract testing, and pipeline approvals). c) This is how the VA gets both speed and control: rapid iteration without "wild west" code generation.
+Proven acceleration: EXO's EXO delivery framework has shown ~40-55% reduction in DCUT (Design, Code, Unit Test) effort versus non-framework approaches by standardizing components, integration patterns, and automation (with
+
+additional gains when agentic acceleration is enabled under governance).
+6. Security, Compliance, and Resilience Built In (Not Bolted On). VA.gov modernization must operate in a highly regulated environment with high visibility. EXO embeds: a) OWASP Top 10-aligned secure engineering and testing gates (SAST/DAST/dependency scanning) b) Strong authN/authZ and least-privilege integration patterns c) Full auditability for case-relevant transactions d) Reliability patterns (rate limiting, circuit breakers, graceful degradation) and end-to-end observability across VA.gov  orchestration  VBMS+  downstream systems e) Containerized deployment patterns aligned to Kubernetes environments (e.g., AKS/EKS), with CI/CD pipelines and repeatable provisioning
+
+11 Use or disclosure of data contained on this page is subject to the restriction in the disclosure statement of this document.
+
+In Response to Sources Sought: Solicitation Replacement Model for VA.gov
+
+

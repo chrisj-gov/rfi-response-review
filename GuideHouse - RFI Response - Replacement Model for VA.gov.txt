@@ -1,0 +1,317 @@
+Department of Veterans Affairs
+Replacement Model for VA.gov
+Response to Request for Information (RFI)
+February 4th, 2026
+
+PROVIDED TO:
+Veterans Affairs Ms. Allison Fulton, Mr. Evan Schlisserman 23 Christopher Way Eatontown, NJ 07724 Telephone (848) 377-5001 Allison.fulton@va.gov, evan.schlisserman@va.gov
+
+PROVIDED BY:
+Guidehouse Inc. Rahul Jain Partner 1676 International Drive, Ste 800 McLean, VA 22102 Telephone (202) 617-5493 rajain@guidehouse.com www.guidehouse.com
+
+SAM UEI: N9NJK877QJK9 TIN: 36-4094854 CAGE Code: 1HLR9 DUNS: 022582428
+
+This proposal includes data that shall not be disclosed outside the Department of Veterans Affairs and shall not be duplicated, used, or disclosed in-whole or in-part for any purpose other than to evaluate this proposal. If, however, a contract is awarded to this Contractor as a result of, or in connection with, the submission of this data, Department of Veterans Affairs shall have the right to duplicate, use, or disclose the data to the extent provided in the resulting contract. This restriction does not limit the Department of Veterans Affairs' right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in all pages/sheets herein.
+
+Replacement Model for VA.gov
+February 4th, 2026
+
+February 4, 2026
+
+Subject: Replacement Model for VA.gov
+Dear Ms. Fulton, Mr. Schlisserman,
+Guidehouse is excited about the opportunity to support the Department of Veterans Affairs (VA) with our response to the Request for Information (RFI) for Replacement Model for VA.gov. Our response includes information on solutions, technologies, and approaches that can fundamentally improve the digital experience across all benefit portfolios.
+Our approach outlines a practical, Veteran-centric approach to evolving VA.gov from a centralized destination into a unified, intent-driven digital front door for One VA. The response focuses on a core shift: moving the burden of navigation from Veterans and families to the platform itself, while preserving continuity of service, integrating with existing systems of record, and operating within VA's regulatory and operational realities.
+We describe an experience-led model that understands Veteran intent, preserves context across interactions, and orchestrates services across VA organizations in a governed, auditable manner. This approach enables proactive assistance, reduces administrative burden, and improves Veteran outcomes without introducing undue risk or disruption.
+We have intentionally grounded this vision in lessons from prior large-scale federal transformations and aligned it to VA's scale, security requirements, and mission-critical obligations. The result is a future-ready yet achievable path toward a truly unified OneVA digital experience.
+We appreciate your consideration and welcome the opportunity to discuss these ideas further. Our points of contact for this proposal are Kristin Porter at (703) 785-9884 and me at (202) 617-5493.
+Sincerely,
+
+Rahul Jain Partner
+
+Guidehouse | RFI Response
+
+i
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+Table of Contents
+1.0 Executive Summary................................................................................................ 1 2.0 The Core Challenge: A Fragmented "One VA" Digital Experience..................... 2 3.0 A Veteran-Centric Vision: From Portals to Proactive Services .......................... 2 4.0 Use Case Spotlight: Proactive CHAMPVA Enrollment for Families ................... 4 5.0 Future-Ready Architecture for a Unified One-VA Digital Platform ..................... 5
+5.1 Veteran-Centered, Channel-Agnostic Digital Front Door.................................... 5 5.2 CX Fabric: Shared Experience, Context, and Orchestration .............................. 6 5.3 Integration with Authoritative Systems of Record ............................................... 6 5.4 Security, Trust, and Incremental Evolution ......................................................... 6
+6.0 Ensuring Business Continuity During the Transformation................................. 7 7.0 Resilience, Scalability, and Composability in a Regulated Environment .......... 8 8.0 Lessons from Previous Transformations and Modernization Efforts ................ 9 9.0 Conclusion: A Practical, Veteran Centric Approach to One VA ....................... 10
+List of Figures
+Figure 1. A Veteran-Centered, Channel-Agnostic Experience Layer Powered by CX Fabric ............................................................................................................... 1
+Figure 2. A Veteran-Centric Vision: From Portals to Proactive Services ......................... 2 Figure 3. Proactive CHAMPVA Enrollment Journey - A Use Case Spotlight .................. 4 Figure 4. Future-Ready Architecture for a Unified One-VA Digital Platform .................... 5 Figure 5. Ensuring Business Continuity During the Transformation ................................ 7
+
+Guidehouse | RFI Response
+
+ii
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+1.0 Executive Summary
+
+The Department of Veterans Affairs has made meaningful progress by consolidating digital entry points under VA.gov. However, for many Veterans, families, and caregivers, the experience remains difficult to navigate at moments of need. Users must still understand VA's internal structures, discover benefits reactively, and repeatedly provide information the Department already possesses. As a result, VA.gov functions as a centralized destination, but not yet as an integrated, Veteran-centric front door.
+
+In this model, Veterans and families express goals, changes, or life events in plain language, and the platform coordinates eligibility, guidance, documentation, and service handoffs across VA organizations. The burden of navigation shifts from the user to the platform itself.
+
+VA.gov Replacement
+We propose a replacement model for VA.gov that moves from a destination-based website to an intent-driven service-orchestration platform.
+
+The proposed approach is intentionally pragmatic. It preserves continuity of service for millions of users, integrates with existing systems of record, and operates within a highly regulated federal environment.
+
+Figure 1. A Veteran-Centered, Channel-Agnostic Experience Layer Powered by CX Fabric
+The result is a VA.gov replacement model that improves Veteran outcomes, reduces administrative burden, and establishes a durable foundation for long-term modernization, without requiring wholesale replacement of backend systems.
+
+Guidehouse | RFI Response
+
+1
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+2.0 The Core Challenge: A Fragmented "One VA" Digital Experience
+For more than a decade, VA has pursued a "One VA" strategy intended to unify benefits, health care, and memorial services under a single digital front door. Despite substantial investment, Veterans in 2026 continue to experience fragmentation.
+In practice, VA.gov is centralized in name, but not in experience. Veterans must still determine which organization owns a service, which form applies, and where to go next. Context does not reliably persist across systems, resulting in repeated identity verification, redundant data entry, and the need to re-explain personal circumstances.
+Oversight findings and internal assessments have consistently highlighted these structural challenges. While incremental improvements to content, navigation, and individual applications have delivered value, they have not resolved the underlying issue: the digital experience reflects organizational structure rather than Veteran intent.
+Addressing this challenge requires more than a website refresh. It requires a shift in the operating model of VA.gov - from a passive portal that responds to requests, to an experience layer that understands intent, maintains context, and orchestrates services across the enterprise. The remainder of this response outlines a replacement model designed to meet that need while respecting VA's scale, regulatory environment, and obligation to continuity of service.
+
+3.0 A Veteran-Centric Vision: From Portals to Proactive Services
+Replacing VA.gov is not just a technical website refresh, but a paradigm shift in service delivery. We propose moving from today's destination-based portal (where Veterans must find and request services) to an intelligent, proactive digital assistant model.
+
+Figure 2. A Veteran-Centric Vision: From Portals to Proactive Services
+
+Guidehouse | RFI Response
+
+2
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+In essence, VA.gov should transform from a traditional website into an always-available
+digital caseworker that understands Veteran needs and proactively helps navigate VA's offerings. Instead of a Veteran combing through links and forms, the interface becomes a natural language conversation: the Veteran simply expresses their goal or
+problem, and the system does the heavy lifting.
+
+In the proposed model, CX Fabric interprets this intent and orchestrates the next steps using:
+
+· Intent Recognition: Using a Natural
+
+Guidehouse and Generative AI
+
+Intent Interface, the system parses the Veteran's statement without requiring them to reference specific program names or know VA's internal
+
+Guidehouse has a dedicated AI Studio consisting of AI experts trained and experienced in the latest AI technology and methods to accelerate delivering AI
+
+terminology. The agent understands that solutions. We have 100+ AI accelerators
+
+the Veteran may need to increase a disability claim or schedule a medical
+
+and Agent-based architectures employing various AI technologies.
+
+exam.
+
+· Context Gathering: The agent automatically retrieves the Veteran's records and
+
+context, e.g. current disability rating, recent VA clinic visits, relevant medical history
+
+from authorized systems via secure APIs.
+
+· Proactive Orchestration: Using the Veteran's expressed intent and verified
+
+context, the platform coordinates next steps across VA services. In this scenario, it
+
+may prepare an intent-to-file for a disability rating increase with known information
+
+pre-populated and highlight related benefits or assistance. These actions are
+
+coordinated across health and benefits domains, so the Veteran is not required to
+
+navigate organizational boundaries or determine which steps belong to VHA
+
+versus VBA.
+
+· Continuity and Follow-Up: The digital agent persists over time like a caseworker,
+
+maintaining memory of the Veteran's situation so that each interaction picks up
+
+where the last left off. If the Veteran returns next week asking, "What's the status
+
+of my claim?" the agent knows exactly which claim and can provide an update
+
+without the Veteran re-identifying themselves or repeating information.
+
+· Personalized Recommendations: Utilizing past interactions that the Veteran has
+
+with VA.gov, along with relevant health, benefits, and other demographic and
+
+military records, every time the Veteran uses VA.gov, it will provide personalized,
+
+action focused recommendations based on their VA profile.
+
+This Veteran-centric, proactive service vision directly addresses the RFI's call for a "premier, modern, secure, and Veteran-centric digital experience". It shifts the burden off the user and onto the technology - exactly as today's leading consumer apps do.
+
+Guidehouse | RFI Response
+
+3
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+4.0 Use Case Spotlight: Proactive CHAMPVA Enrollment for Families
+CHAMPVA provides health coverage to eligible dependents of Veterans who are permanently and totally disabled or deceased due to service-connected conditions. Today, even when a Veteran's status changes in a way that makes their family eligible, spouses and caregivers must discover the benefit on their own and complete enrollment paperwork, often during already difficult life transitions.
+In the Veteran-centric model, VA.gov proactively bridges this gap. When a Veteran's disability rating is updated to 100% Permanent & Total, the platform detects the event, validates dependent eligibility using existing records, and initiates the CHAMPVA enrollment process.
+
+Figure 3.Proactive CHAMPVA Enrollment Journey - A Use Case Spotlight
+In Guidehouse's proposed approach, this experience is enabled by CX Fabric, the shared enterprise capability that carries eligibility signals and journey context across VA.gov, contact centers, and assisted channels. The result is digital empathy in practice: the platform understands what has changed in a Veteran's life and responds at the right moment with clear, supportive action that reduces stress and administrative burden.
+
+Guidehouse | RFI Response
+
+4
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+5.0 Future-Ready Architecture for a Unified One-VA Digital Platform
+Replacing VA.gov requires more than a modernized website. Guidehouse proposes future-ready architecture that enables a unified One-VA digital experience while operating reliably within a highly regulated, mission-critical environment.
+The proposed architecture introduces a shared, experience-led orchestration layer that operates above VA's authoritative line-of-business systems. This layer understands Veteran intent, maintains continuity across interactions, and coordinates actions across VA organizations, enabling incremental modernization without disrupting existing systems of record.
+At a high level, the architecture consists of four integrated concepts that together enable a Veteran-centered, channel-agnostic experience.
+
+Figure 4.Future-Ready Architecture for a Unified One-VA Digital Platform
+5.1 Veteran-Centered, Channel-Agnostic Digital Front Door
+Veterans primarily engage through VA.gov, where they may complete self-service actions or interact with AI-powered chat assistants. When a Veteran transitions from VA.gov to live assistance, such as a contact center or other supported channels, the architecture preserves Veteran context so service can continue without repetition or loss of continuity during moments of potential stress or need.
+
+Guidehouse | RFI Response
+
+5
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+5.2 CX Fabric: Shared Experience, Context, and Orchestration
+At the core of the architecture is the CX Fabric, the shared enterprise capability that coordinates intent, context, and action across interactions. CX Fabric does not replace systems of record or perform adjudication; it preserves continuity as Veterans engage through VA.gov and transition to assisted interactions when needed.
+Within the CX Fabric:
+· Intent recognition and real-time interaction awareness allow Veterans to express needs in plain language.
+· The Governed Veteran Context Layer (enterprise memory) maintains minimal, purpose-scoped context while authoritative data remains in systems of record.
+· Governed workflow and action orchestration coordinates end-to-end journeys through controlled interfaces to authoritative systems.
+· Human oversight and escalation ensure accountability for high-impact actions and exceptions.
+Together, these capabilities enable proactive, coordinated services while enforcing privacy, security, auditability, and clear human accountability.
+
+5.3 Integration with Authoritative Systems of Record
+All actions initiated through the experience layer are executed against VA's authoritative systems of record. Veteran identity and shared attributes are anchored in enterprise services such as VA Profile and the Master Person Index (MPI), providing a trusted foundation for identity resolution and coordination across VA. Other line-of-business systems are accessed through secure, standards-based APIs, enabling the experience layer to coordinate actions without duplicating data or creating shadow systems of record. As VA continues its pivot toward an AI-first operating model, Guidehouse proposes leveraging emerging standards such as the Model Context Protocol (MCP) and the Human Context Protocol (HCP) where appropriate.
+
+5.4 Security, Trust, and Incremental Evolution
+The architecture is designed to operate within VA's regulatory and operational constraints. Identity, authentication, and access controls underpin every interaction, with all context access and system actions logged and auditable.
+Together, these components establish a future-ready foundation for VA.gov that enables continuity, trust, and digitally empathetic service delivery across the One-VA experience.
+
+Guidehouse | RFI Response
+
+6
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+6.0 Ensuring Business Continuity During the Transformation
+VA.gov is a mission-critical platform supporting prescriptions, appointments, claims, and benefits. Any modernization must therefore maintain uninterrupted access throughout the transition. The proposed model treats continuity, reversibility, and operational stability as non-negotiable requirements.
+
+Figure 5. Ensuring Business Continuity During the Transformation
+Our approach emphasizes incremental evolution, parallel operation, and disciplined testing to ensure seamless service delivery:
+· Incremental, Parallel Modernization: New capabilities are introduced gradually and operate alongside existing VA.gov functionality. Legacy pathways remain available as fallback until replacements are fully validated, avoiding risky "big bang" cutovers.
+· Modular Replacement (Strangler Pattern): Legacy components are retired only after modern equivalents demonstrate stability in production. Systems of record remain authoritative while new experience-layer services assume responsibility for one capability at a time.
+· Stable Integration via Orchestration Layer: A standards-based orchestration layer decouples the user experience from backend systems, allowing legacy and modern components to coexist, share data, and fail over gracefully if any service becomes unavailable.
+· Fail-Safe Deployment & Rollback: All releases use feature flags with immediate rollback paths. If issues emerge, affected components can be disabled without data loss, ensuring Veterans always retain access to established workflows.
+
+Guidehouse | RFI Response
+
+7
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+· Performance & Resilience: The platform is engineered for VA-scale operations using auto-scaling, CDN distribution, and pre-release load testing. If advanced capabilities are degraded, the experience falls back to non-AI workflows without interrupting service.
+· Veteran Trust Through Clear Communication: Veterans are informed of new capabilities, beta options, and support channels. Existing processes remain available until replacements are fully vetted, supporting confidence and smooth adoption.
+Through this approach, VA.gov evolves with zero service interruption, delivering incremental improvements while ensuring that Veterans retain continuous, reliable access to the services they depend on.
+
+7.0 Resilience, Scalability, and Composability in a Regulated Environment
+VA.gov operates in a highly regulated, mission-critical environment where security, availability, and compliance must be maintained at all times. The replacement model is designed to meet these standards while remaining flexible to evolving Veteran needs, policy updates, and technology shifts.
+· Resilience & High Availability: The platform is architected with redundancy and automated failovers across availability zones. If any downstream system becomes unavailable, the experience layer degrades gracefully, providing clear status messages rather than interrupting service. Data is safeguarded through durable storage, backups, and disaster-recovery practices aligned with VA requirements.
+· Elastic Scalability: The system supports VA's tens-of-millions-user scale through auto-scaling and distributed services. Front-end components and orchestration services scale independently, absorbing surges tied to benefit changes or national events without degrading performance.
+· Composable, Modular Architecture: Clearly defined Packaged Business Capabilities (e.g., "File a Claim," "Schedule an Appointment") allow VA to modernize individual services incrementally. Each module is independently deployable, testable, and replaceable, reducing risk and eliminating the need for large monolithic upgrades.
+· Security, Zero Trust & Privacy: Security is embedded throughout the stack and aligned with NIST, FISMA, and FedRAMP High. Zero Trust governs all interactions--each request is authenticated, authorized, encrypted, and logged. AI-enabled components access only policy-authorized tools and data, and privacy-by-design ensures Veteran information is used only for approved purposes with full auditability.
+· Accessibility & Compliance: All user experiences meet Section 508 and WCAG 2.1 AA standards. Comprehensive logging and monitoring support audits, compliance reporting, and transparency. AI-assisted actions are traceable to ensure human oversight.
+
+Guidehouse | RFI Response
+
+8
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+This approach delivers a resilient, scalable, secure, and modular VA.gov platform that supports continuous improvement while preserving reliability, oversight, and
+Veteran trust.
+
+8.0 Lessons from Previous Transformations and Modernization Efforts
+Modernizing large-scale federal systems is certainly challenging, but there are many lessons from past efforts that inform our approach to VA.gov's replacement:
+· "Revolution, not Evolution" with User-Centric Design: The UK's GDS transformed digital government by prioritizing user needs over bureaucracy. VA's One VA vision mirrors this approach, focusing on services for Veterans instead of internal departments. GDS showed that many difficult processes are traditional, not legal requirements, so VA should also streamline and simplify its systems when digitizing - within statutory boundaries. The new VA.gov uses intent-based navigation and proactive support, and involving Veterans in testing ensures the platform meets their needs, as proven by GDS and USDS.
+· Legacy Financial Systems Modernization - Data is Key: Many agencies (SSA, IRS, DoD) have had protracted legacy modernization. One recurring lesson is don't migrate blindly - data in legacy systems is often messy or encoded with old business rules. Our plan accounts for this by using the MCP wrappers as an abstraction layer, meaning we can gradually remediate data issues behind the scenes while the agent still presents clean info. Also, keeping legacy databases as the system of record until new systems prove themselves prevents data loss. We will take an "adaptors over wholesale migration" stance initially, only moving or transforming data when we have high confidence and archival backups.
+· Executive Sponsorship and Governance: Large transformations succeed when leadership provides clear vision and air cover. The transformation of VA.gov will need not just OIT buy-in but business-side (VBA, VHA, NCA) commitment to coordinate policies and workflows. We recommend establishing a joint governance board with representatives from each administration and the VA CTO/CIO, focused specifically on the One VA digital experience. This body would rapidly resolve cross-organizational issues that arise (e.g., differing data sharing rules or content ownership debates). The recent Administration's emphasis on AI modernization gives VA a perfect mandate to push this forward. The 2025 Executive Order on federal AI leadership and the VA Secretary's own strategic plans can be harnessed to justify bold moves that might have been considered risky in the past. In essence, leadership must encourage a "try new things, fail fast, fix fast" culture for this to work.
+· Incremental Value Delivery to Build Momentum: Another lesson from many private and public projects is to deliver tangible improvements early to gain user trust and stakeholder buy-in. We intend to deploy some quick wins within months - for example, an enhanced search on VA.gov that's powered by the new AI (but safely, using only VA data) could dramatically improve findability of information. Or a pilot of the conversational agent for one narrow use case (like checking claim
+
+Guidehouse | RFI Response
+
+9
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+Replacement Model for VA.gov
+
+February 4, 2026
+
+status) could be launched to a subset of users and show improved customer satisfaction. These early wins create positive buzz and help justify continued investment. They also provide real-world data on benefits (like reduced call center inquiries because the agent answered questions) which can support business cases for further phases.
+
+By studying these lessons and others, our plan is designed to avoid known pitfalls and replicate successful strategies. We avoid the "big bang" cutover that doomed past efforts, we modularize to prevent monolith risks, we involve real users continuously, and we insist on strong leadership engagement. This response is careful - instead of trying a massive one-size-fits-all rollout without sufficient testing, we favor incrementalism with an architectural vision guiding it.
+
+9.0 Conclusion: A Practical, Veteran Centric Approach to One VA
+The operating model for VA.gov presented in this response outlines a practical and achievable path toward a truly unified One-VA digital experience. Rather than relying on wholesale changes to the larger VA ecosystem or disconnected point solutions, Guidehouse proposes an experience-led architecture that centers on Veteran intent, preserves context across interactions, and coordinates services across VA in a disciplined, governed manner.
+At the core of our model is CX Fabric, which enables continuity, transparency, and human accountability as Veterans engage through VA.gov. By combining intent recognition, governed context and memory layer, and orchestrated access to authoritative systems of record, the platform reduces the burden placed on Veterans to navigate VA's organizational structure or repeatedly restate their circumstances. This is digital empathy in practice: the system recognizes what has changed in a Veteran's life and responds with timely, appropriate support.
+The proposed approach is intentionally pragmatic. It acknowledges VA's scale, regulatory environment, and existing investments while enabling incremental modernization. Context is shared without creating shadow systems of record, and automation is applied with clear human oversight.
+Together, these elements position VA.gov to evolve from a traditional website into a responsive digital advocate that understands Veteran intent, preserves context across interactions, and actively supports Veterans as they navigate VA services.
+
+Guidehouse | RFI Response
+
+10
+
+Use or disclosure of data contained on this page is subject to the restriction on the cover page of this document.
+
+

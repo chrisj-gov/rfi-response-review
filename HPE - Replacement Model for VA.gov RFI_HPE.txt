@@ -1,0 +1,241 @@
+February 4, 2026
+Allison Fulton Evan Schlisserman U.S. Department of Veterans Affairs
+Re: Replacement Model for VA.gov Request for Information
+Dear Ms. Fulton and Mr. Schlisserman: Hewlett Packard Enterprise (HPE) is pleased to submit our response to the Department of Veterans Affairs' Replacement Model for VA.gov RFI. We appreciate the opportunity to share our perspective on how VA can evolve VA.gov into a secure, resilient, and Veteran-centric national digital platform. Our response reflects the view that replacing VA.gov is a long-term platform transformation, not simply a website modernization. Given the scale, visibility, and mission importance of VA.gov, HPE's approach emphasizes continuity of service, risk-managed modernization, and long-term adaptability. We propose a data-centric, hybrid platform architecture that enables VA to integrate best-of-breed experience and identity partners while maintaining centralized governance, security, and operational consistency. At the core of this approach is a shared, governed data foundation supported by a unified hybrid control plane and continuous availability capabilities. Together, these elements enable phased modernization, parallel operation of legacy and modernized services, and uninterrupted access for Veterans, caregivers, and VA staff. Our response also outlines a partner-centric execution model in which HPE provides the stable platform and operational backbone while systems integrators and experience partners lead application, identity, and user experience transformation. We welcome the opportunity to participate in follow-on discussions and support VA's planning efforts. Please feel free to contact us if additional information would be helpful. Thank you for your consideration.
+Sincerely,
+Kecia Harrell Enterprise Account Manager - Federal Healthcare Hewlett Packard Enterprise kecia.harrell@hpe.com 703-307-7476
+Hewlett Packard Enterprise (HPE) | 1701 East Mossy Oaks Road | Spring, TX 77389
+
+U.S. Department of Veterans Affairs
+Replacement Model for VA.gov RFI
+February 4, 2026
+Kecia Harrell Enterprise Account Manager - Federal Healthcare kecia.harrell@hpe.com 703-307-7476
+
+Important Notice
+The information (data) contained in all content of this document/quotation constitutes confidential information of Hewlett Packard Enterprise Company or its affiliates (collectively "HPE") and is provided for evaluation purposes only. In consideration of receipt of this document, the recipient agrees to maintain such information in confidence and not to reproduce or otherwise disclose this information to any person or entity outside the group directly responsible for evaluation of its contents, unless otherwise authorized by HPE in writing. There is no obligation to maintain the confidentiality of any such information, which was known to recipient without restriction prior to receipt of this document as evidenced by written business records; which becomes publicly known through no fault of recipient; or which is rightfully received by recipient from a third party without restriction.
+This document includes information about current HPE products, sales, and service programs that may be enhanced or discontinued at HPE's sole discretion. HPE has endeavored to include the materials that are believed to be reliable and relevant for the purpose of recipient's evaluation. Neither HPE nor its representatives make any representations or warranties as to the accuracy or completeness of the information. Accordingly, this document is provided for information purposes only in the hope that HPE may be considered to receive your business. Neither HPE nor its representatives shall have any liability to recipient or any of its representatives as a result of the use of the information provided. Only a mutually agreed definitive agreement, signed by the authorized representatives of both parties, shall be binding on HPE or its affiliates.
+The term "solution" in the context of this document is defined as the products and services proposed herein. Since additional information may be required from the Customer in order to develop the appropriate configuration for the Customer's project, the term "solution" does not imply that those products or services as proposed are guaranteed to, or will, meet the Customer's requirements.
+The use of the terms "partner" or "partnership" does not imply a formal, legal, or contractual partnership, but rather a mutually beneficial relationship arising from the teamwork between the parties.
+Unless stated otherwise in writing, pricing estimates are valid for 30 days from date of submission of this document.
+If HPE's proposal is submitted in both electronic format and hard copy formats and the contents differ, only the hard copy will constitute the valid HPE proposal. If no hard copy is submitted and if the content differs between the PDF version and any other electronic format, only the PDF version will constitute the valid HPE proposal.
+If there are any concerns, questions, or issues regarding this notice, please contact your local sales representative.
+© Copyright 2026 Hewlett Packard Enterprise Development Company, L.P.
+
+Replacement Model for VA.gov RFI | February 4, 2026
+Contents
+1. Requested Information .................................................................................................................................. 1 1.1 Executive Summary ....................................................................................................................................1 1.2 HPE Perspective on VA's Challenge ............................................................................................................2 1.3 VA Digital Platform Reference Architecture...............................................................................................2 1.4 User Journey and Identity Workflow Integration.......................................................................................5 1.5 Hybrid Control Plane, Governance, and Orchestration..............................................................................6 1.6 Data, Resilience, Continuity, and Migration...............................................................................................7 1.7 Migration Strategy and Operating Model for a National Digital Platform .................................................7 1.8 Partner and SI Execution Model .................................................................................................................8 1.9 Case Studies, Lessons Learned, Risks, and Tradeoffs .................................................................................8 1.10 Why HPE ...................................................................................................................................................10
+
+HPE Response
+
+Page i
+
+Replacement Model for VA.gov RFI | February 4, 2026
+
+1. Requested Information
+
+1.1 Executive Summary
+The replacement of VA.gov represents a pivotal opportunity for the Department of Veterans Affairs to establish a secure, resilient, and Veteran-centric national digital platform, not simply modernizing a website. As VA's primary digital front door for benefits, healthcare, and services, VA.gov must evolve in a way that preserves continuity of service for millions of users while enabling long-term adaptability, innovation, and trust. Because VA.gov is a highly visible public platform, even brief disruptions can erode Veteran trust; the proposed approach is designed to preserve continuity of service while enabling continuous improvement.
+HPE's response is grounded in the view that success requires a platform-first approach - one that separates experience innovation from the underlying foundation, embeds governance and resilience into the platform itself, and enables incremental modernization without disruption. Rather than prescribing specific experience or identity solutions, HPE proposes a hybrid digital platform architecture that allows VA to integrate best-of-breed partners while maintaining centralized control, security, and operational consistency.
+At the core of this approach is a data-centric platform architecture in which authoritative, governed data serves as the foundation for all digital experiences, identity workflows, analytics, and applications. By unifying data first and enabling it to be securely shared across the ecosystem, VA can deliver consistent Veteran experiences, reduce duplication and integration complexity, and support advanced analytics and AI capabilities over time. Experience platforms, identity providers, and applications operate as consumers of shared data and platform services, allowing these layers to evolve independently without destabilizing the foundation.
+HPE provides the hybrid platform foundation, control plane, and operational framework required to operate VA.gov as a long-lived national platform. Through a unified hybrid cloud model, policy-driven governance, and data-aware orchestration, VA can manage workloads across on-premises, private cloud, and public cloud environments under a single set of security, compliance, and operational guardrails. This approach preserves flexibility, avoids vendor lock-in, and aligns workload placement with data sensitivity, performance, and regulatory requirements.
+Recognizing the mission-critical nature of VA.gov, HPE emphasizes continuity of service and riskmanaged modernization. The proposed phased migration strategy supports parallel operation of legacy and modernized services, automated rollback, and continuous validation, ensuring that transformation activities do not interrupt access for Veterans, caregivers, or staff. An accompanying operating model anchored in DevSecOps, site reliability engineering, observability, and governance - ensures that platform operations mature alongside technical change.
+HPE's partner-centric execution model further strengthens this approach. HPE provides the stable platform and operational backbone, while systems integrators and experience partners focus on user experience transformation, application modernization, identity implementation, and integration. This clear separation of responsibilities accelerates delivery, reduces risk, and enables VA to evolve its digital front door over time without re-platforming.
+Through its hybrid-by-design platform, mission-critical operational expertise, and commitment to openness and partner enablement, HPE is uniquely positioned to help VA establish VA.gov as a secure, resilient, and adaptable national digital platform--capable of meeting today's Veteran needs while evolving confidently for the future.
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 1
+
+Replacement Model for VA.gov RFI | February 4, 2026
+
+1.2 HPE Perspective on VA's Challenge Replacing VA.gov represents one of the most complex digital modernization challenges in the federal government. VA.gov is not simply a public website - it is the primary digital front door for millions of Veterans, caregivers, and stakeholders accessing benefits, healthcare, and services that are deeply intertwined with mission-critical backend systems.
+From HPE's perspective, the defining challenge for VA is how to modernize at scale without disrupting trust, continuity, or access. VA must evolve its digital front door while maintaining uninterrupted service, integrating a broad mix of legacy and modern systems, and operating under intense regulatory, security, and public scrutiny. These constraints significantly differentiate VA.gov from commercial digital platforms or typical government web modernization efforts.
+VA.gov also exists at the intersection of multiple complex domains: identity and authentication, data governance, navigation, analytics, and user experience. Each of these areas is tightly coupled to backend systems that span benefits processing, healthcare delivery, and enterprise services. Changes made in one layer - such as identity, navigation, or experience - can have cascading impacts across the platform if not governed holistically. As a result, modernization efforts that focus narrowly on front-end redesign or isolated application refactoring introduce significant operational and security risk.
+Another core challenge is long-term adaptability. VA.gov must be designed not just to meet today's requirements, but to evolve continuously over many years as policies, technologies, and Veteran expectations change. This requires an architecture that avoids tight coupling to specific vendors, platforms, or implementation patterns and instead emphasizes modularity, standard interfaces, and centralized governance. VA must balance the desire for rapid experience change with the discipline required to establish a stable, governed platform foundation; prioritizing the platform early reduces long-term risk and avoids costly re-platforming later.
+Finally, VA must modernize while preserving flexibility in how it engages industry. The future VA.gov ecosystem will necessarily include multiple systems integrators, experience platforms, identity providers, and technology partners. Without a unifying platform foundation, this diversity can quickly lead to fragmentation, inconsistent controls, duplicated integrations, and rising operational costs.
+HPE views these challenges as indicators that VA.gov replacement must be approached as a platform transformation, not a discrete technology refresh. Addressing continuity, governance, integration complexity, and long-term evolution requires a foundation that separates platform responsibilities from experience and application execution, embeds security and compliance into the core of the architecture, and enables incremental modernization with measurable risk reduction.
+This perspective informs HPE's proposed approach, which emphasizes a stable, governed hybrid platform as the backbone for VA.gov - allowing user experiences, identity services, and applications to evolve rapidly while preserving trust, resilience, and operational control.
+
+1.3 VA Digital Platform Reference Architecture Overview: Data as the Core of the VA Digital Platform
+HPE recommends that the replacement of VA.gov be designed as a data-first digital platform, where trusted, governed data forms the foundation upon which all digital experiences, identity services, analytics, and applications are built. For an enterprise operating at VA's scale and visibility, the effectiveness of the digital experience is directly tied to the quality, availability, security, and shareability of the underlying data.
+A data-centric architecture ensures that Veteran interactions, benefits workflows, healthcare services, and analytics, are consistently informed by authoritative data - regardless of which experience,
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 2
+
+Replacement Model for VA.gov RFI | February 4, 2026
+application, or channel is used. In this model, data is unified first, governed centrally, and shared securely across the enterprise, while experience platforms, AI capabilities, and applications consume data rather than replicating or fragmenting it. HPE is not proposing a monolithic VA.gov replacement, a proprietary digital experience platform, or a rip-and-replace of VA's existing identity ecosystem. Instead, the proposed architecture establishes a stable, open platform foundation that allows experience platforms, identity providers, and systems integrators to evolve independently within a consistent governance and data framework. Layered Architecture with Data at the Center As illustrated below, the VA Digital Platform Reference Architecture is organized with data as the central layer, surrounded by platform services, experiences, and infrastructure that consume and operationalize that data. The architecture consists of a Data Fabric and Intelligence Core at the center, supported by a platform control plane, experience and identity services, and a hybrid infrastructure foundation.
+
+This layered approach allows VA to avoid fragmented data silos while enabling broad reuse of data across missions, programs, and user experiences. It also ensures that modernization can proceed incrementally without disrupting the continuity of service.
+Data Fabric and Intelligence Core (Foundation Layer)
+At the heart of the architecture is the HPE Data Fabric, which establishes a unified, governed data layer spanning VA's hybrid environment. The data fabric provides consistent access to structured and unstructured data across systems while enforcing policy-driven governance, security controls, and data lineage.
+By enabling both real-time and batch data movement without unnecessary duplication, the data fabric supports authoritative data sharing across applications and experiences. This foundation allows VA to break down data silos across benefits, healthcare, and services; ensure consistent Veteran records across all touchpoints; and reduce the operational risk associated with data replication and synchronization.
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 3
+
+Replacement Model for VA.gov RFI | February 4, 2026
+
+Rather than each application managing its own data stack, the platform treats data as a shared enterprise asset, governed once and consumed many times.
+Sharing Data Across the Digital Ecosystem
+Once unified within the data fabric, data is securely shared outward to digital experience platforms, identity and authentication services, analytics and reporting tools, AI and machine learning models, and both legacy and modernized backend systems.
+This sharing model enables consistent personalization and navigation across VA.gov, supports shared analytics and insights across portfolios, and accelerates the onboarding of new digital capabilities without re-engineering integrations. Access to data is controlled through policy-based and role-based controls, ensuring that security, privacy, and compliance are enforced centrally even as data is broadly reused across the ecosystem.
+AI and Advanced Analytics Built on the Data Fabric
+AI and advanced analytics capabilities operate as consumers of the data fabric, not as standalone or siloed solutions. The architecture provides governed access to high-quality, authoritative data while enabling scalable compute placement for AI workloads and supporting MLOps and AI lifecycle management.
+This approach allows VA to introduce AI capabilities incrementally, including intelligent navigation and search, content relevance optimization, predictive analytics for service demand, and operational insights into platform health. Because AI is built on shared data services, new models and analytical capabilities can be deployed without redesigning the underlying platform or data pipelines.
+Platform Control Plane - Morpheus (Data-Aware Orchestration)
+Surrounding the data fabric is HPE Morpheus, which provides the platform control plane for orchestrating workloads, services, and environments that consume VA data. Morpheus enables policydriven workload placement based on data sensitivity, consistent governance across hybrid and multicloud environments, and unified enforcement of cost, security, and compliance controls.
+In a data-first architecture, Morpheus ensures that applications are deployed to where the data resides rather than moving data to fit infrastructure constraints. Data residency and sovereignty requirements are enforced automatically, allowing the platform to scale operationally without compromising governance or compliance.
+Experience, Identity, and Application Layer (Partner-Provided, Secure Data Consumers)
+VA users - including Veterans, clinicians, benefits staff, and administrators - access applications through a unified digital experience layer that integrates VA's existing identity ecosystem (PIV/CAC, VA SSOe, Login.gov) with partner-provided experience and identity services. This layer functions as a secure consumer of shared, authoritative data, enabling consistent personalization, navigation, and access decisions across VA.gov without duplicating or owning data.
+Digital experience platforms and identity services leverage the enterprise data fabric for user context and eligibility while enforcing single sign-on, adaptive multi-factor authentication, and policy-based access aligned to Zero Trust principles. By decoupling experience and identity innovation from data management and enforcing access controls through the platform and data layers, VA can evolve digital experiences rapidly while maintaining enterprise-wide security, governance, and continuity.
+Hybrid Infrastructure Foundation (HPE GreenLake)
+The entire platform is supported by a hybrid infrastructure foundation delivered through HPE GreenLake. This layer provides secure on-premises, private cloud, and public cloud environments with consumption-based delivery aligned to demand.
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 4
+
+Replacement Model for VA.gov RFI | February 4, 2026
+
+High availability, resilience, and federal-grade security ensure that data services remain continuously available and compliant. Infrastructure choices are designed to serve the data fabric and its consumers, rather than dictate architectural constraints or limit future evolution.
+Architectural Outcomes for VA A data-first digital platform enables VA to establish a single, trusted data foundation for VA.gov, securely share data across experiences and services, introduce AI and analytics without fragmentation, and modernize incrementally while preserving continuity of service. By placing the data fabric at the core of the architecture, VA can operate VA.gov as a long-lived national digital platform where experiences may evolve, technologies may change, but data remains authoritative, governed, and reusable in support of improved Veteran outcomes.
+1.4 User Journey and Identity Workflow Integration VA.gov functions as the primary digital front door for Veterans, caregivers, and other stakeholders, making user journeys and identity workflows mission-critical capabilities that must operate reliably at national scale. These journeys must integrate seamlessly across a diverse portfolio of backend systems, data sources, and digital services while maintaining security, privacy, and continuity of service. HPE's approach enables VA to modernize user journeys and identity workflows without constraining VA's choice of experience platforms or identity providers, instead providing a secure, data-centric platform foundation that supports consistent integration, scalability, and long-term evolution.
+User journeys within VA.gov are anchored in authoritative, shared data rather than tightly coupled application logic. When a Veteran interacts with VA.gov, identity services authenticate and authorize access using VA-approved identity providers, while the digital experience layer requests the necessary context - such as profile attributes, eligibility status, or service history - from the enterprise data fabric. Because this data is governed centrally and shared across the platform, each experience is informed by the same trusted data sources, regardless of channel or application.
+To ensure consistency, trust, and compliance across all journeys, the platform is designed such that:
+· User context is driven by authoritative, shared data, ensuring consistent eligibility, personalization, and service access across VA.gov experiences.
+· Security, privacy, and compliance are enforced by the platform, not embedded inconsistently within individual applications or experience layers.
+Identity workflows, including identity proofing, authentication, authorization, and account recovery, integrate into the platform as secure consumers of shared data services. Identity providers interface with the platform through standardized APIs, while authorization decisions reference authoritative data governed within the data fabric. Identity-related events, such as authentication signals or access changes, are treated as enterprise data and captured within the platform to support auditability, analytics, and operational insight. This approach allows identity services to evolve independently while maintaining consistency across downstream systems.
+A typical VA.gov user journey begins when a Veteran accesses the site and authenticates through VAapproved identity services. Once authenticated, the experience platform retrieves the appropriate Veteran context from the data fabric to determine eligibility, personalize navigation, and present relevant services. As the Veteran interacts with the site, engagement and interaction data are captured and fed back into the data fabric, enabling analytics, monitoring, and continuous improvement of digital services without duplicating data or embedding logic into individual applications.
+Account recovery and exception-handling workflows are supported through the same data-centric integration model. Changes to identity attributes, recovery events, or access permissions are reflected
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 5
+
+Replacement Model for VA.gov RFI | February 4, 2026
+once in the shared data layer and are immediately available to all consuming services. This reduces inconsistency across systems, minimizes user friction during recovery scenarios, and improves operational resilience during periods of high demand or elevated risk.
+By integrating user journeys and identity workflows through a shared data foundation and governed platform services, VA gains consistent Veteran experiences across channels, flexibility to evolve identity and navigation models, reduced integration complexity, and improved security, auditability, and continuity of service. This enables VA.gov to function as a cohesive national digital platform rather than a collection of disconnected experiences.
+1.5 Hybrid Control Plane, Governance, and Orchestration Operating VA.gov as a long-lived national digital platform requires a unified approach to governance, orchestration, and operational control across hybrid environments. VA must manage workloads that span on-premises infrastructure, private cloud, and public cloud environments while enforcing consistent security, compliance, cost, and performance standards. HPE addresses this requirement by providing a hybrid control plane that enables centralized governance and orchestration without limiting VA's architectural flexibility.
+The hybrid control plane provides VA with a unified operational view across all hosting environments supporting VA.gov. While workloads and data may reside in different locations for mission, security, or performance reasons, the platform enables VA to manage these environments as a single, cohesive system. This abstraction allows VA to scale, modernize, and adapt the platform over time without introducing operational fragmentation.
+Governance is enforced through policy-driven automation rather than manual processes. Policies define where workloads may run, how data is accessed and protected, and what security and compliance requirements must be met. These policies are applied consistently across environments, ensuring that all deployments align with VA standards regardless of infrastructure location. By embedding governance directly into the platform, VA reduces operational risk while maintaining delivery velocity.
+Orchestration decisions within the control plane are data-aware and aligned to the platform's data-first architecture. Workloads are deployed based on data sensitivity, residency, and access requirements, ensuring that applications are placed appropriately relative to the data they consume. This approach enforces data sovereignty and privacy requirements automatically while minimizing unnecessary data movement and operational complexity.
+The control plane also enables a DevSecOps operating model with built-in guardrails. Development and operations teams can provision and manage resources through self-service capabilities while adhering to enterprise security, compliance, and cost policies. This accelerates delivery of digital capabilities while ensuring that innovation occurs within clearly defined operational boundaries.
+The platform provides visibility into resource utilization, performance, and cost across hybrid environments, enabling VA to align platform operations with mission priorities, identify optimization opportunities, and support long-term sustainability. By maintaining control at the platform level rather than the infrastructure level, VA avoids dependency on any single cloud or vendor and preserves longterm flexibility.
+Through a unified hybrid control plane, VA gains consistent governance across environments, reduced operational risk during modernization, greater flexibility in workload placement, and a scalable operating model for VA.gov as a national digital platform. This ensures that as VA.gov evolves, platform operations remain secure, compliant, resilient, and aligned with VA's long-term mission.
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 6
+
+Replacement Model for VA.gov RFI | February 4, 2026
+
+1.6 Data, Resilience, Continuity, and Migration
+As VA evaluates a full replacement of VA.gov, continuity of service, risk-managed modernization, and long-term platform resilience are essential given the scale, visibility, and mission-critical nature of the platform. A successful transformation must support phased modernization without disruption, enable parallel operation of legacy and modernized services, and provide robust recovery capabilities in the event of infrastructure failures, cyber incidents, or deployment errors.
+HPE recommends incorporating continuous availability and workload mobility layer within the VA digital platform architecture to support these requirements. This capability enables non-disruptive modernization by allowing backend services and dependent systems to be migrated or refactored incrementally without service interruption, while providing continuous data protection and rapid recovery with near-zero data loss. It also supports operational resilience across hybrid environments and enables parallel operation of legacy and modernized services, reducing transformation risk through controlled, reversible cutover strategies.
+HPE Zerto fulfills this role by delivering continuous replication, automated recovery orchestration, and workload mobility across hybrid environments. Integrated with HPE GreenLake and HPE Morpheus, this capability strengthens platform resilience, migration strategy, and continuity of operations while preserving long-term architectural flexibility and avoiding vendor lock-ins.
+
+1.7 Migration Strategy and Operating Model for a National Digital Platform To support the VA's vision of a national, secure, and agile digital platform, HPE proposes a phased migration strategy leveraging a unified hybrid cloud foundation. This model prioritizes user experience and operational continuity while meeting stringent data security and regulatory requirements.
+HPE's phased migration approach and activities to accelerate this objective are described below:
+
+Phase
+Discovery and Assessment
+Foundation Build-Out Pilot Migrations Migration Wave Execution (Progressive)
+Optimization and Expansion
+
+Activities
+· Inventory current applications, data flows, and integrations · Identify critical systems, dependencies, and compliance requirements · Define risk and governance framework(s) and embed into delivery workflows · Establish migration factory and wave groups · Deploy hybrid cloud platform, integrating private and public cloud resources · Implement identity, access, and policy management for secure data handling · Deliver automation for provisioning and orchestration in support of workload
+migration activities · Select low-risk workloads for initial migration with parallel testing · Establish robust rollback plans and pilot success metrics · Validate data security and continuity with real-world scenarios · Migrate core and high-impact services in coordinated waves · Leverage pre-migration testing to verify workload functionality and minimize
+downtime · Maintain real-time health monitoring to validate operations backed up with
+automated rollback capabilities · Refine operational processes, automation, and integrations · Onboard partners and new application workloads · Continuously assess and improve based on performance and compliance
+feedback
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 7
+
+Replacement Model for VA.gov RFI | February 4, 2026
+
+HPE will support the VA in evolving the operating model required to support cloud-centric provisioning and orchestration. HPE's methodology for operating model transformation is holistic and covers 5000 different capabilities, but within this framework, HPE will provide specific focus for the following teams:
+
+Team
+DevSecOps Site Reliability Engineering (SRE) Observability/Operations Governance
+
+Operating Model Focus
+Define and drive CI/CD pipelines, embed security controls (policy as code), and streamline application modernization for hybrid environments. Input from this team is critical for deployment success and compliance automation. Define SLOs/SLIs, manage rollout safety, and ensure resilience and performance during and after migration. Deploy unified monitoring, logging, and alerting across hybrid environments, supporting rapid incident response and continuous improvement. Own policy creation, audit, and regulatory compliance. Ensure all platform changes align with federal data protection mandates and operational standards.
+
+1.8 Partner and SI Execution Model The successful replacement of VA.gov will require close collaboration across multiple industry partners, including systems integrators (SIs), experience design firms, identity providers, and platform vendors. Given the scale, complexity, and mission-critical nature of VA.gov, no single provider can or should deliver all aspects of the solution.
+HPE's approach is designed to enable and strengthen SI-led execution, not replace it. HPE provides the digital platform foundation, hybrid control plane, and operational framework upon which SIs can efficiently design, integrate, modernize, and operate VA.gov capabilities.
+In this model, HPE is responsible for establishing and operating the underlying platform, including hybrid infrastructure, data services, governance, orchestration, resilience, and continuity. This creates a stable, secure, and governed environment that reduces architectural complexity and operational risk. Systems integrators then focus on their core strengths, including user experience transformation, application modernization, systems integration, identity implementation, and migration execution.
+By separating platform responsibility from application and experience execution, VA benefits from clear accountability, reduced duplication of effort, and faster delivery. SIs can leverage standardized platform services, automation, and guardrails rather than building custom foundations for each program or release. This accelerates modernization, improves consistency across services, and lowers long-term operational costs.
+This partner-centric model also supports VA's long-term flexibility. Experience platforms, identity providers, and application services can evolve over time without requiring re-platforming of the underlying foundation. HPE's hybrid platform and control plane ensure that changes introduced by one partner do not destabilize the broader ecosystem.
+Through this execution model, VA gains a scalable, resilient digital platform operated by HPE and an open ecosystem in which SIs and technology partners can innovate rapidly, deliver improved Veteran experiences, and modernize services with confidence.
+
+1.9 Case Studies, Lessons Learned, Risks, and Tradeoffs
+The replacement of VA.gov represents a large-scale, mission-critical digital platform transformation rather than a traditional website modernization. Based on experience supporting complex, highly regulated digital platforms across government and enterprise environments, several common patterns, risks, and lessons consistently emerge in programs of this scale.
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 8
+
+Replacement Model for VA.gov RFI | February 4, 2026
+
+Case Study Patterns from Similar Environments
+Across national-scale digital platforms serving large user populations, successful transformations share several characteristics. Programs that deliver sustained outcomes typically adopt a platform-first approach, establishing a stable, governed foundation before layering in experience innovation and application modernization. This allows user-facing capabilities to evolve without destabilizing core services.
+In contrast, efforts that prioritize experience redesign or application refactoring without a unifying platform often encounter fragmentation, duplicated integrations, and increasing operational risk over time. These programs frequently require re-platforming mid-stream to address governance, performance, or security gaps that emerge as scale increases.
+Programs operating in regulated environments also benefit from incremental modernization models that support parallel operation of legacy and modernized services. This approach enables continuous validation, reduces service disruption, and maintains public trust throughout the transformation.
+Common Risks and Mitigations Risk: Big-bang cutovers introduce unacceptable operational and reputational risk. Large, citizen-facing platforms are particularly sensitive to outages and service degradation. Mitigation: Phased migration strategies with parallel-run, automated rollback, and continuous validation reduce the blast radius of change and preserve service continuity.
+Risk: Tight coupling between user experience, identity, and backend systems limits agility. Embedding identity logic or data ownership within individual applications increases complexity and makes change difficult. Mitigation: Decoupling experience layers from data and platform services through standardized APIs and shared data foundations improves flexibility and long-term sustainability.
+Risk: Fragmented governance across hybrid environments leads to inconsistency and drift. As platforms span on-premises and multiple cloud environments, manual or decentralized governance becomes difficult to enforce. Mitigation: Policy-driven governance embedded into the platform control plane ensures consistent security, compliance, and operational standards across environments.
+Risk: Operational maturity lags behind architectural change. Modern architectures without corresponding changes to operating models often struggle postmigration. Mitigation: Evolving DevSecOps, SRE, observability, and governance practices in parallel with technical migration supports stable long-term operations.
+Key Trade-offs to Manage Speed vs. Stability Accelerating modernization can deliver early wins but may increase risk if foundational capabilities are incomplete. Phased approaches trade speed for resilience and continuity.
+Centralized Governance vs. Team Autonomy Strong governance improves security and compliance but must be balanced with self-service capabilities to avoid slowing delivery. Platform guardrails enable autonomy within defined boundaries.
+Flexibility vs. Standardization Highly customized solutions offer short-term flexibility but increase long-term cost and complexity. Standardized platform services improve scalability and sustainability while preserving choice at the experience and application layers.
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 9
+
+Replacement Model for VA.gov RFI | February 4, 2026
+Lessons Learned Several lessons consistently emerge from large-scale digital platform transformations:
+· Establishing a shared platform foundation early reduces downstream rework and operational risk.
+· Data-centric architectures improve consistency across experiences and simplify integration.
+· Incremental modernization builds confidence, preserves trust, and enables continuous improvement.
+· Platform abstraction preserves optionality, allowing technologies and partners to evolve over time without re-architecting the foundation.
+Applying these lessons enables agencies to modernize complex digital platforms while maintaining continuity, compliance, and public trust - critical success factors for VA.gov as a national digital front door.
+1.10 Why HPE The replacement of VA.gov represents a long-term investment in a national, mission-critical digital platform. Success requires a partner with proven experience operating secure, highly regulated, alwayson platforms at scale, while enabling continuous modernization without disruption. HPE brings this combination of capabilities uniquely well.
+HPE is purpose-built for hybrid environments, where workloads, data, and services must operate seamlessly across on-premises infrastructure, private cloud, and public cloud environments under a unified governance model. This hybrid-by-design approach aligns directly with VA's need to integrate legacy and modern systems, enforce data residency and security requirements, and preserve flexibility as technologies and mission needs evolve.
+Across the federal government, HPE has extensive experience supporting mission-critical systems that demand high availability, strong security postures, and operational resilience. HPE platforms are designed for long lifecycle operation, incremental evolution, and stability under continuous change characteristics essential for a public-facing platform serving millions of Veterans and stakeholders.
+HPE's platform-centric approach emphasizes governance, automation, and operational maturity rather than point solutions. By embedding policy, security, observability, and resilience into the platform foundation, HPE enables agencies to modernize confidently while maintaining trust, compliance, and continuity of service.
+Equally important, HPE operates as a partner-first platform provider. HPE's solutions are designed to integrate with best-of-breed experience platforms, identity providers, and systems integrators, allowing VA to preserve choice and avoid long-term vendor lock-in. This openness ensures that VA can evolve its digital front door over time without re-designing the underlying foundation.
+Through its hybrid cloud platform, operational expertise, and partner-friendly model, HPE is uniquely positioned to help VA establish VA.gov as a secure, resilient, and adaptable national digital platform capable of supporting today's Veteran needs while evolving confidently for the future.
+
+HPE Response
+
+HPE Confidential--subject to use restriction
+
+Page 10
+
+A green rectangle with white letters Description automatically generated
+
+

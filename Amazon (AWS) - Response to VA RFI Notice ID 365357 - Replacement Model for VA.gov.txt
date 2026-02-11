@@ -1,0 +1,86 @@
+Response to the Department of Veterans Affairs (VA) Replacement Model for VA.gov
+February 4th, 2026
+
+Response to the Department of Veterans Affairs (VA) Replacement Model for VA.gov Request for Information (RFI)
+
+Submitted by: Amazon Web Services, Inc. 12900 Worldgate Dr. Suite 800 Herndon, VA 20170
+Cage Code: 66EB1 DUNS Number: 965048981 NAICS: 518210
+Malcolm G. Ohl AWS Senior Account Manager (917) 992-9781 mgohl@amazon.com
+
+Submitted to: Department of Veterans Affairs 23 Christopher Way Eatontown, NJ 07724
+Allison Fulton allison.fulton@va.gov
+Evan Schlisserman (848) 377-5248 evan.schlisserman@va.gov
+
+1
+
+Amazon Web Services, Inc. (AWS) provides this response to the Department of Veterans Affairs (VA) Replacement Model for VA.gov Request for Information (RFI). Please see Table 1 for the requested company information.
+
+Requested Information Company Name CAGE/DUNS Company Address Point of Contact Telephone Number Email address Business Size
+Years in Business GSA Schedule
+
+AWS Response
+Amazon Web Services, Inc. (AWS)
+66EB1/965048981 Amazon HQ2, 525 14th St S, Arlington, VA 22202
+Malcolm Ohl, AWS VA VHA Senior Account Manager
+(917) 992-9781
+mgohl@amazon.com
+Large business
+18+
+AWS is a prime contract holder on a number of direct federal contracts. However, of our prime contracts, the only Governmentwide Acquisition Contract (GWAC) is General Services Administration (GSA) IT Schedule 70. Customers may also choose to procure AWS through the AWS Partner Network (APN). See our Federal Public Sector Partner Contract Vehicles page for our list of federal contracts and applicable partners. Table 1: Requested Company Information
+
+Our Understanding of the Challenge
+The Department of Veterans Affairs faces a complex modernization challenge that extends far beyond replacing a website. VA.gov serves millions of Veterans as they navigate healthcare, benefits, education, and memorial services -- each with unique circumstances shaped by their service history, current life situation, and evolving needs. The platform must maintain uninterrupted service while integrating with decades of legacy systems, operating within strict federal compliance requirements, and positioning VA for long-term adaptability. AWS understands that this transformation requires coordination across experience design, platform architecture, content strategy, governance, analytics, and operating models. Our response focuses on how a modular, open systems approach can address these interconnected challenges while honoring VA's commitment to Veterans.
+A Modular Approach
+Rather than proposing a monolithic replacement, we recommend an architecture built on independent, interchangeable components that can evolve separately while working together seamlessly. This approach--enabled by cloud-native technologies available in AWS GovCloud and accredited at FedRAMP High--allows VA to:
+Maintain Service Continuity: Imagine replacing VA.gov like renovating a hospital that must remain open during construction. A modular approach allows VA to modernize one "room" at a time--perhaps starting with the benefits application workflow--while Veterans continue accessing other services without disruption. Each component operates independently, so updates to the claims status system don't risk breaking the healthcare appointment scheduler.
+
+2
+
+Integrate Across Diverse Systems: Consider a Veteran checking their disability claim status. Behind the scenes, this simple action might touch a 1990s-era mainframe system, a 2010s web service, and a modern mobile API. A modular integration layer acts as a universal translator, allowing these systems to communicate regardless of their age or technology. As VA modernizes individual backend systems over time, the Veteran-facing experience remains consistent because the integration layer adapts without requiring changes to every connected system.
+Operate Within Federal Requirements: Compliance isn't a checkbox--it's woven into every component. Picture each module as a pre-certified building block, already meeting FedRAMP High, NIST 800-53, and VA-specific requirements. When VA needs to add new functionalities, they're assembling from components that carry their compliance credentials with them, dramatically reducing the time and cost of security assessments.
+Scale and Adapt Over Time: A Veteran service organization launches a campaign encouraging Veterans to check their benefit eligibility. Traffic to VA.gov suddenly triples. In a modular architecture, only the affected components scale up automatically--the eligibility checker and authentication services expand to handle demand while other systems continue operating normally. When traffic returns to baseline, resources scale back down, optimizing costs. More importantly, when VA needs to add support for a new benefit program, they can deploy a new module without re-architecting the entire platform.
+Deliver Seamless Customer Experience: From a Veteran's perspective, the underlying modularity is invisible. They experience a unified, personalized journey. A Marine Corps Veteran logs in and sees a dashboard tailored to their service history, pending claims, upcoming appointments, and benefits they may not know they're eligible for. Behind this seamless experience, dozens of independent modules are working together--identity services, personalization engines, content management, notification systems--each doing its specialized job while contributing to a cohesive whole.
+Real-World Application: The Veteran Journey
+Let's trace how this modular approach supports a specific Veteran journey:
+Identity and Access: A Veteran arrives at VA.gov and chooses to sign in. The identity module supports multiple authentication methods--Login.gov, ID.me, or legacy credentials--without the Veteran needing to understand the technical differences. If they've forgotten their password, the account recovery module guides them through verification using multiple methods, balancing security with accessibility. Once authenticated, their identity token travels with them across all VA digital properties, eliminating repeated logins.
+Personalized Navigation: The personalization module analyzes the Veteran's profile--service dates, disability rating, enrolled benefits, past interactions--and constructs a dashboard showing what matters most to them right now. A Vietnam-era Veteran sees information about Agent Orange-related benefits and upcoming legislation. A post-9/11 Veteran sees GI Bill balance and career transition resources. The content management module delivers this information while the analytics module tracks what resonates, continuously improving relevance.
+Benefit Application: The Veteran decides to apply for a new benefit. The application workflow module presents a streamlined form, pre-populated with information VA already has. As they complete sections, the validation module checks for errors in real-time, preventing frustration from submitting incomplete applications. The document upload module accepts supporting evidence in multiple formats, automatically extracting relevant information. Behind the scenes, the integration module routes this application to the appropriate legacy system for processing, translating between modern and legacy data formats seamlessly.
+Ongoing Engagement: After submission, the notification module keeps the Veteran informed via their preferred channel--email, text, or mobile app. The claims status module provides transparent updates by aggregating information from multiple backend systems. If the Veteran has questions, the conversational
+3
+
+AI module provides 24/7 support for common inquiries, escalating complex issues to human representatives with full context already captured.
+Known Limitations and Tradeoffs Complexity vs. Flexibility: A modular architecture introduces coordination complexity. Multiple teams may work on different modules simultaneously, requiring strong governance and clear interface contracts. However, this tradeoff enables parallel development and reduces the risk that one team's work blocks another's progress.
+Initial Investment vs. Long-term Agility: Building a proper modular foundation requires upfront architectural investment. VA must define module boundaries, establish integration patterns, and create shared services. However, this investment pays dividends as new capabilities can be added by composing existing modules rather than building from scratch each time.
+Standardization vs. Customization: Modular systems work best with standardized interfaces and data formats. Some legacy systems may require custom adapters, adding temporary complexity. However, as legacy systems are gradually modernized, they can adopt standard interfaces, reducing this burden over time.
+Learning Curve vs. Sustainability: Teams must learn new patterns for building and integrating modular components. However, once established, these patterns become organizational knowledge that makes future development faster and more predictable.
+Lessons Learned from Similar Transformations
+Start with High-Value, Lower-Risk Modules: Rather than attempting to modernize everything simultaneously, identify components that deliver immediate Veteran value with manageable technical risk. Authentication and personalized dashboards often fit this profile--they're visible to users, demonstrate progress, and create foundation for subsequent work.
+Establish Platform Services Early: Invest in shared capabilities--logging, monitoring, security scanning, deployment automation--that all modules will use. These platform services accelerate development of subsequent modules and ensure consistency.
+Design for Observability: In a modular system, understanding how components interact becomes critical. Build comprehensive monitoring and tracing into every module from the start, enabling rapid diagnosis when issues arise.
+Plan for Graceful Degradation: When one module experiences problems, others should continue functioning. A Veteran should still be able to check appointment schedules even if the prescription refill system is temporarily unavailable.
+Involve Veterans Throughout: Modular architecture is a means to an end--better serving Veterans. Continuous user research and usability testing ensure technical decisions translate to improved experiences.
+Conclusion
+A modular open systems approach, implemented using FedRAMP High accredited cloud services, provides VA with a path to modernize VA.gov while managing risk, maintaining service continuity, and positioning for long-term adaptability. This isn't about technology for technology's sake--it's about creating a flexible foundation that allows VA to continuously improve how it serves Veterans, adapting to changing needs, emerging technologies, and evolving expectations.
+AWS brings not only the technical capabilities to enable this approach but also deep experience supporting similar federal transformations. We understand the unique challenges of modernizing mission-
+4
+
+critical systems in highly regulated environments while maintaining the focus on the humans--Veterans-- who depend on these systems every day. We welcome the opportunity to discuss how this modular approach can be tailored to VA's specific context, constraints, and objectives. Below AWS has appended a more technical overview of relevant AWS services and considerations for the above recommended approach to VA.gov modernization.
+5
+
+Technical Overview: AWS GovCloud Architecture Patterns for Modularity
+Container-Based Architectures Containers allow for isolating code and enabling portability:
+· Amazon ECS or EKS: Both services support containerized workloads in GovCloud · ECS offers simpler AWS-native orchestration · EKS provides Kubernetes compatibility for multi-cloud portability · AWS Fargate: Serverless container execution reduces infrastructure lock-in · Benefits: Containers bundle applications with dependencies, making them portable across
+environments while maintaining consistent behavior
+Infrastructure as Code (IaC) · AWS CloudFormation: Native AWS service for defining infrastructure as templates · Terraform: Multi-cloud IaC tool supported in GovCloud for enhanced portability · AWS CDK: Higher-level abstractions that compile to CloudFormation · Benefits: Version-controlled infrastructure, repeatable deployments, and easier migration paths
+API-Driven Integration Open standards and APIs enable interoperability:
+· Design services with well-defined REST/GraphQL APIs · Use Amazon API Gateway for standardized API management · Leverage AWS EventBridge for event-driven architectures with standard schemas
+Data Portability Strategy Ensure data isn't locked into proprietary formats:
+· Store data in open formats (JSON, Parquet, CSV) · Use Amazon S3 with standard storage classes · Implement AWS DataSync or AWS Transfer Family for data movement · Consider AWS Database Migration Service for database portability
+Multi-Region Architecture Build resilience while maintaining modularity:
+· Deploy across both GovCloud regions (US-East and US-West) · Use AWS Organizations for centralized management · Implement AWS Security Reference Architecture patterns · Leverage AWS Control Tower for governance at scale
+Security & Compliance · Ensure FedRAMP High/FISMA High compliance · Implement AWS Security Hub for continuous compliance monitoring · Use AWS Config for configuration management and drift detection · Deploy Amazon GuardDuty for threat detection
+Identity & Access Management · Integrate with VA's existing identity systems · Use AWS IAM Identity Center (formerly SSO) for centralized access · Implement least-privilege access with IAM roles and policies
+Logging & Monitoring · Centralize logs with Amazon CloudWatch and AWS CloudTrail · Consider Amazon Security Lake for security data aggregation · Implement AWS Config for resource tracking and compliance
+6
+
+

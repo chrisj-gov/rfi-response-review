@@ -1,0 +1,326 @@
+In Response to Solicitation No.: 36C10B26Q0131 Department of Veterans Affairs
+Replacement Model for VA.gov
+Sources Sought Notice (SSN)
+February 5, 2026
+SUBMITTED TO Department of Veterans Affairs Technology Acquisition Center Attn: Evan Schlisserman, Contracting Officer (Evan.Schlisserman@VA.gov) and Allison Fulton, Contract Specialist (Allison.Fulton@VA.gov) 23 Christopher Way Eatontown, NJ 07724
+SUBMITTED BY Booz Allen Hamilton 8283 Greensboro Drive McLean, VA 22102
+TIN: 36-2513626 DUNS: JCBMLGPE6Z71 CAGE: 17038
+This document contains data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than evaluation. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained on all sheets. Copyright � 2026 Booz Allen Hamilton Inc.
+
+February 4, 2026
+
+Department of Veterans Affairs Technology Acquisition Center 23 Christopher Way Eatontown, NJ 07724
+
+Attn:
+
+Evan Schlisserman, Contracting Officer Allison Fulton, Contract Specialist
+
+Subject: Sources Sought Notice 36C10B26Q0131 - Replacement Model for VA.gov
+
+Dear Mr. Schlisserman and Ms. Fulton:
+
+Booz Allen Hamilton Inc. is pleased to submit its response to the Department of Veterans Affairs (VA), Sources Sought Notice (SSN) No. 36C10B26Q0131 - Replacement Model for VA.gov. We appreciate the opportunity to provide information on our capabilities and qualifications.
+
+We look forward to an invitation to bid on the upcoming solicitation. If you have any questions regarding our SSN response, please contact both our Contracts Manager, Samantha Rosenberg at Proposal_S.Rosenberg@bah.com, and me, Jack Gomes at Gomes_Jack@bah.com.
+
+Sincerely,
+
+Jack Gomes Vice President Booz Allen Hamilton Inc.
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+TABLE OF CONTENTS
+1.0 COMPANY OVERVIEW..................................................................................................... 1 2.0 RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES .................................... 2 3.0 RESPONSES TO THE TOPICS AND QUESTIONS IN THIS REQUEST.................... 3
+3.1 DESCRIPTIONS OF RELEVANT IDEAS, CAPABILITIES, AND APPROACHES ........................... 3 3.2 CASE STUDIES OR EXAMPLES FROM SIMILAR ENVIRONMENTS ......................................... 6 4.0 ANY ADDITIONAL INFORMATION............................................................................... 8 4.1 USER JOURNEY WORKFLOWS FOR IDENTITY PROOFING, SIGN-IN RECOVERY, AND
+NAVIGATION...................................................................................................................... 8 4.2 KNOWN LIMITATIONS, RISKS, AND TRADEOFFS ................................................................. 9
+LIST OF TABLES
+Table 1: Booz Allen's Corporate Overview and Relevant Capabilities........................................ 1 Table 2: Booz Allen's Relevant Capabilities ................................................................................. 2 Table 3: Example Usability Issues That Could Be Resolved Through Content Management ... 5 Table 4: Case Study 1 - Recreation.gov ........................................................................................ 6 Table 5: Case Study 2 - USAspending.gov.................................................................................... 7 Table 6: Potential Additional User Journey Workflow Improvements ....................................... 9 Table 7: Potential Limitations, Risks, and Tradeoffs ................................................................... 9
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+i
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+1.0 COMPANY OVERVIEW
+Booz Allen Hamilton Inc. (Booz Allen) respectfully submits our Replacement Model for VA.gov Sources Sought Notice (SSN) response to the Department of Veterans Affairs (VA). While this effort requires significant technical transformation, success depends on a holistic and strategic approach. This approach should incorporate Human-Centered Design (HCD) best practices, VA enterprise architecture expertise, and an AI-enabled data management and decision-support mindset. Together, these elements are essential to achieving the VA's goal of delivering a worldclass online experience for managing benefits, healthcare, and claim information for Veterans and eligible beneficiaries across a broad age spectrum and varying levels of technical proficiency. Our extensive portfolio of successful federal digital transformations demonstrates proven expertise in modernizing legacy systems, enhancing user experience, and driving operational efficiency showcasing our ability to partner with the VA to achieve this goal. Table 1 showcases Booz Allen's corporate profile, highlighting a few examples of impactful capabilities successfully delivered to government customers.
+Table 1: Booz Allen's Corporate Overview and Relevant Capabilities
+
+Corporate Profile
+
+Name of Company Booz Allen Hamilton Inc.
+
+Address
+
+8283 Greensboro Drive, McLean, VA 22102
+
+Brief Description of Relevant Capabilities
+
+Booz Allen is an advanced technology company delivering outcomes with speed for America's most critical defense, civil, and national security priorities. We build reliable, secure technology solutions using AI, cyber, and other cutting-edge technologies to advance and protect the nation and its citizens. Recently named Amazon Web Services (AWS) Partner of the Year, Booz Allen will leverage our strategic partnerships with industry leaders such as Salesforce, Amazon Web Services, and Microsoft, we enhance our solutions to deliver greater impact and innovation. We are a proven leader in large-scale, publicfacing platforms by focusing on user experience and outcomes, we enable our people, customers, and their missions to succeed, drawing on our experience as a proven partner in developing and managing enterpriselevel federal systems for Benefits Integrated Delivery (BID), AskVA, Recreation.gov and USAspending.gov described herein.
+
+Benefits Integrated Delivery (BID) - Code Yellow Support: Booz Allen has supported BID, formerly Benefits Integration Platform for the last 10 years, including architecture, design, development, humancentered design (HCD), software/system integration and data migration for 15 products and 5 product lines under VA Benefit's and Memorials (BAM's) purview. VA's Code Yellow is a mechanism for tackling important non-urgent technology or process matters that are highly visible across teams or organizations and impact Veterans, business lines, or IT workforces. In August 2021, VA Office of Information and Technology (OIT) found a system error related to submitting VA 686c and 526 forms online through the eBenefits and VA.gov platforms. Booz Allen's Code Yellow team established cross-functional experts to triage the problem, engage the right subject matter experts (SMEs), evaluate solution options, decide the path forward, and track progress to meet the agreed-upon success criteria helping the VA resolve this critical issue. It was discovered that about 78,000 claims, using these forms, failed to be received by the VA due to engineering issues between software applications. Due to this system error, the data needed to be compared and validated to determine the number of Veterans impacted, adjudication for the estimated 78,000 failed claims, resolve the failure rate to validate no claims are lost moving forward, strategically plan a path forward, and remediate the issue for as many impacted Veterans, family members, and caregivers as possible.
+
+AskVA: Booz Allen has delivered on many VA strategic initiatives, such as AskVA using Microsoft Dynamics. Through our support on AskVA, Booz Allen made it easier for Veterans and beneficiaries to digitally communicate with VA through the Ask VA application on VA.gov, improving the overall user experience by enabling users to quickly and easily communicate with VA. In addition, this team integrated AskVA into the VA's digital customer support ecosystem, in partnership with VA.gov, establishing a unified, user-friendly platform that streamlines access to information.
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+1
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+Recreation.gov: Booz Allen, as the prime contractor for Recreation.gov, transformed a 14+ year-old legacy system into a modern, user-friendly, secure, and scalable consumer-facing cloud-based platform in just 15 months using a modular microservice architecture and DevSecOps principles. Serving over 30M+ users, the platform enables research, secure transactions, and reservation management for 125,000+ sites nationwide. It supports nine federal agencies and three departments in managing recreation inventory, customer-focused content, government-client-managed business rules, and provides a detailed accounting of all recreation fee revenue. Booz Allen provides 24x7x365 tiered customer support, achieving greater than 99.9886% uptime while supporting millions of transactions and site visits annually without disruption. This includes a U.S.-based full-service live-human contact center, providing seamless, reliable operations for both public users and federal personnel.
+USAspending.gov: Booz Allen has supported the design, development, deployment, and ongoing sustainment of USAspending.gov for more than a decade. Supporting the Department of the Treasury, we play a critical role in ensuring the platform fulfills its mission as part of the Digital Accountability and Transparency Act (DATA Act) implementation program. As part of the Digital Accountability and Transparency Act (DATA Act) implementation program, this platform serves as the official government source for spending data across all federal agencies.
+Our team defined the federal data standard (DATA Act Information Model Schema) for reporting spending data, created the Data Broker to gather and validate spending data from all Chief Financial Officer (CFO) reporting agencies, and implemented USAspending.gov to enable sanitized data to be consumable by the public. This program revolutionized transparency into federal spending and Booz Allen improved processes, reporting cadences, and standardized datasets (connected and published) so that federal spending can be better understood. In a little over 15 months, Booz Allen transformed a 7+ year-old legacy system into a modern, user-friendly, flexible, scalable, and secure cloud-based platform that provides trustworthy data to citizens daily.
+
+2.0 RELEVANT EXPERIENCE WITH SIMILAR CHALLENGES
+
+Booz Allen brings proven strategies and capabilities to meet VA's complex requirements and offers a compelling track record in building user-centered, modern, forward-thinking platforms that seamlessly integrate modern technology, operational best practices, and continuous improvement to serve diverse users at scale. Table 2 summarizes Booz Allen's relevant capabilities and experiences to support VA in achieving its goals of building a true Veteran-centric digital platform that supports a secure and scalable digital experience for the timely delivery of benefits, health care delivery, disability, education, pension, memorial services, and housing.
+
+Table 2: Booz Allen's Relevant Capabilities
+
+Booz Allen's Strategies and Capabilities
+
+EnterpriseGrade Systems Integration
+
+Booz Allen excels at integrating modern and legacy systems to validate functional continuity across heterogeneous environments. Recreation.gov facilitates secure, real-time financial transactions by integrating with Treasury-managed third-party processors like WorldPay via modern Application Programming Interfaces (APIs). For example, to enable secure, real-time financial transactions that comply with federal financial management standards. The platform's Financial Transaction Management (FTM) system leverages microservices and APIs to efficiently process diverse payment types, providing seamless communication between Recreation.gov and the Treasury-managed processor. Adhering to federal security and performance standards, this architecture delivers accurate, timely, and auditable payment processing, supporting millions of transactions annually without delays or disruptions. Similarly, USAspending.gov bridges over 100 legacy agency financial systems utilizing emerging technologies to adapt raw data into actionable insights through dashboards, visualizations, and exportable reports. Lastly, to replace VA's Financial and Accounting System (FAS), the Booz Allen team developed and launched the modern replacement accounting and payment processing system, Enterprise Management of Payments, Workload, and Reporting - VA (eMPWR-VA). eMPWR-VA provides a single payment system for disability compensation, pension, Chapter 31 benefits for Veteran rEemadpilnoeysms eanntd(VR&E) and education service benefits. It can be used by other Veterans Benefits Administration (VBA) benefit programs and can perform online transaction processing and online audit functions. For Fiscal Year 2025, more than 125M transactions were processed through eMPWR, representing approximately $1.3 Trillion, exceeding the number processed in the legacy Financial and Accounting System (FAS). Such solutions illustrate our expertise in bringing security and agility to modernize legacy ecosystems, which is critical to transforming VA.gov while maintaining 24/7 availability and security for millions of Veterans and beneficiaries while reducing manual processing, increasing Veteran self-service, and modernizing benefits delivery across VA.
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+2
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+Optimized for Scalability, Resilience, and Compliance
+
+Both Recreation.gov and USAspending.gov showcase cloud-native architecture and advanced compliance capabilities that meet stringent federal standards, including FedRAMP Moderate certification and Section 508 accessibility requirements. Both sites use a frontend design system comprised of reusable, pre-styled, and Section 508 compliant components to jumpstart UI development and incorporate accessibility from the start. Recreation.gov's modular microservices architecture has grown from 20 to over 100 independently deployable services, providing agility without downtime. Recreation.gov utilizes a robust technical architecture and comprehensive operational practices that prioritize reliability and scalability, consistently achieving greater than 99.9886% uptime while supporting millions of transactions and site visits annually without disruption. Likewise, iterative re-platforming of USAspending.gov's data pipeline reduced nightly data processing times by over 45% (from ~20+ hrs to ~11 hrs) improving overall timeliness and efficiency. Leveraging a Spark-powered data architecture, user-centric design, and DevSecOps principles, USAspending.gov is optimized for transparency and high performance. These examples align with VA's modernization goals of secure, scalable, adaptable, and highperforming solutions that grow alongside user needs.
+
+Elevating Customer Experience through HumanCentered Design:
+
+To deliver a scalable digital experience for Veterans and beneficiaries, the VA.gov replacement model must provide a robust, user-focused platform. This platform should support both authenticated and unauthenticated interactions, enabling users to securely access services such as communicating with providers, scheduling appointments, refilling prescriptions, viewing test results, managing benefits, and updating personal information.
+We employ a structured and iterative approach to UX across multiple discipline areas and employ subject matter expertise, including healthcare, policy and VA domain and application expertise. Bolstered by continuous usability testing and integrated feedback loops. For instance, enhancements to Recreation.gov's reservation flow and USAspending.gov's dynamic agency profiles balance novice user expectations with the robust functionality demanded by power users. Features such as advanced help interfaces, data visualizations, video tutorials, and "scrolly-telling" techniques embody our ability to transform data complexity into intuitive user journeys. With a deep commitment to user-centered design, we deliver reliable access, transparency, and satisfaction for diverse audiences including Veterans, caregivers, beneficiaries, tourists, and data journalists.
+
+Continuous Improvement with DataDriven Oversight
+
+Booz Allen has provided data management and analytics platform support across VA product lines for Veterans Health Administration (VHA), OIT and Veterans Experience Office (VEO). Our solutions deliver enterprisewide analytics, reporting, and data interoperability capabilities that drive efficiency while enhancing performance and reliability. We integrate with advanced monitoring tools to provide actionable insights into system availability, performance improvements, and process optimization. Feedback and data analytics are an integral part of Booz Allen's approach to driving platform excellence. Across platforms like Recreation.gov and USAspending.gov, our teams leverage tools like Google Analytics, Medallia, and stakeholder interviews to regularly collect both quantitative and qualitative insights. We utilize modern AI tools to develop actionable insights from data stored identifying potential areas of improvement before a user finds it. Through continuous monitoring and improvement cycles our teams can remain agile and responsive to evolving user expectations. Additionally, Booz Allen's extensive operational risk and incident management frameworks maintain uninterrupted service delivery while proactively addressing emerging challenges.
+
+Change Management and Governance Excellence
+
+At the core of VA's modernization challenge is the need for structured governance and change management. Booz Allen's experience supporting the DATA Act and maintaining government-wide data standards showcases our ability to enable complex initiatives by aligning multiple stakeholders, processes, and systems around shared objectives. To achieve this goal, the Booz Allen team implemented a highly coordinated approach across multiple organizations in the public and private sectors to maintain and improve government-wide data standards. The current program builds on the successful Program Management Office (PMO) Strategy employed since October 2015, where we supported a redesign of the PMO framework, aligning workstreams to legislative goals and objectives and defining an implementation strategy and reporting structure to manage the development of Treasury's technical solution. As part of this redesign, we wrote a comprehensive Program Management Operating Model methodology to guide program stakeholders through implementation activities. We established Program Controls in the form of Standard Operating Procedures and other key PMO artifacts that allowed staff the ability to quickly assess the impacts of change management needs, many of which are still employed today. Sustaining compliance while empowering innovation is a critical aspect of transforming platforms like VA.gov, and our methodologies, including the design of PMO frameworks and operational controls, highlight our strength in navigating these hurdles.
+
+3.0 RESPONSES TO THE TOPICS AND QUESTIONS IN THIS REQUEST 3.1 DESCRIPTIONS OF RELEVANT IDEAS, CAPABILITIES, AND APPROACHES
+Implementing a Veteran-Centric, Future-Ready VA.gov Platform: A significant challenge facing Veterans and their eligible beneficiaries is understanding which benefits and programs they qualify for and how to get access to them as well as managing their healthcare and claims in a
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+3
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+centralized location. Many Veterans rely on non-VA resources to identify available benefits and programs, and, in some cases, remain unaware of certain entitlements altogether, resulting in missed opportunities to utilize benefits and programs they have earned. The VA.gov website is intended to be the one-stop shop for millions of Veterans and eligible beneficiaries, representing a diverse population spanning a wide age range and varying levels of technical proficiency, to get information about and apply for benefits and programs they qualify for, manage their healthcare, and manage their benefit claims. Many Veterans have reported that this information is disjointed, difficult to find, and user navigation workflows are difficult to understand resulting in many Veterans still having to rely on phone calls, fax, or in person management of their benefits, healthcare, and claims. This results in increased manual workload for VA employees, higher operational costs due to the need for additional staff, and operational inefficiencies which increase the time it takes for Veterans to access and utilize their benefits. To reduce costs and minimize operational inefficiencies, Veterans need an easy-to-use, modern website where information and workflows are centralized into a single location for each group of functions. Booz Allen's approach will incorporate HCD practices with our AI-assisted development methodology and AI-driven insights to provide Veterans with the information they need to efficiently manage their own healthcare, claims, and benefits.
+Incorporating HCD to Optimize User Experience: Through user feedback, existing workflow analysis, and stakeholder collaboration, Booz Allen will iteratively utilize HCD best practices to redefine the way data is presented, utilized, and stored, optimizing workflows and implementing a Veteran-centric user experience within the reimagined VA.gov website that effectively serves both the current set as well as the future generations of Veterans. Our approach emphasizes providing the most important data to users in an easy-to-find manner, reducing the number of clicks a Veteran must perform to get the information they need. This includes elements such as moving the most important data to easy to find locations, potential consolidation of VA applications performing the same, or similar, functions, and reducing the amount of feature duplication and whitespace within the VA.gov website. For example, for each benefit program type, such as Healthcare, Pension, and Housing Assistance, we will create user journey maps to identify the entire user workflow from obtaining program information to determining initial eligibility to applying for a benefit to communicating application status prioritizing displaying the most important, actionable data to the Veteran as early on in the workflow as possible. We will utilize user and stakeholder feedback, along with current industry best practices, to eliminate bottlenecks and user pain points within the reimagined VA.gov website through both User Interface (UI) and service layer workflows that provide benefit information, process benefit applications, and provide benefit application status to Veterans. Our approach will also look to identify areas within existing workflows that can be automated or obtain existing data from other VA and non-VA systems to prevent Veterans and eligible beneficiaries from having to enter in data the VA already has access to. Our HCD approach has successfully been used on recent VA projects such as Lighthouse and Veteran Health Administration Enrollment System (VES) Modernization to optimize workflows and reduce manual actions. Specifically on the VES Modernization effort Booz Allen designed individual user interface (UI) components for each distinct workflow utilizing the same mobile-first React.js/Next.js technology, that adheres to the VA Design System and Content Style Guide, the current VA.gov website uses. Using information obtained through user and stakeholder interviews as well as site visits we developed a set of UI wireframes that were put through an initial round of user testing to gauge user satisfaction of the new UI design. During our first iteration of preliminary user usability testing with VHA enrollment
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+4
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+specialists, 100% of users reported the modernized system was more intuitive than the legacy system and required zero training to complete their usability tests.
+
+Applying HCD outputs to reimagined VA.gov website: The current VA.gov website already is built using modern, reliable UI technology (React.js) that provides a framework for many other VA applications. Enhancing the VA's investment, Booz Allen will utilize HCD best practices to create user journey maps, identify user pain points, and expose bottlenecks to reorganize existing information into more efficient, user-friendly workflows while implementing additional prioritized features into a reimagined set of VA.gov screens. In addition, we will leverage our strategic partnership with Adobe to incorporate the Adobe Experience Manager (AEM) Sites content management product into our solution providing the VA with an AI-powered, easy-to-use content management platform to maximize flexibility while reducing complexity. Table 3 below outlines specific examples of usability issues identified in the current VA.gov home page and how they could be potentially addressed.
+
+Table 3: Example Usability Issues That Could Be Resolved Through Content Management
+
+Issue
+
+Potential Resolution
+
+Unnecessary scrolling required to get to most important content
+
+Users must currently scroll halfway down the page to get the "Explore VA Benefits and Healthcare" section. Moving the "Explore VA Benefits and Healthcare" section to the top of the home page provides Veterans and eligible beneficiaries with the important information they are looking for immediately after they access the page without having to scroll down past informational sections. While there is a menu item with this information in the banner, it is not as obvious to users that are not very technology-savvy as the section that is currently halfway down the page. Having this important information higher up on the page makes it easy to find and more obvious to users, preventing them from having to excessively scroll to find important information.
+
+Information needs to be prioritized based on importance to Veterans and placed on the page appropriately
+
+The "About VA" menu in the banner contains useful information, but it is not the main reason a Veteran or eligible beneficiary would access this page. This information would be more appropriately placed within the footer of the website since it is informational in nature and does not pertain to the main intent of this website. Alternatively, users would come to this page looking for information on specific VA programs, so the "Veteran Programs and Services" section in the footer would be more appropriately placed as a menu item in the banner.
+
+Inefficient use of white space
+
+The "Get Started" and "Create Account" section takes up a lot of space at the top of the home page. When a user navigates to VA.gov they see the banner and this information only. The "Create Account" section could simply be a link under the sign in button like a lot of popular websites do and "Get Started with VA" functionality could simply be a menu item in the banner. This data would be presented in an industry consistent manner while eliminating unnecessary white space that a user must scroll past.
+
+Duplication of basic functionality
+
+The current VA.gov website duplicates the Search capability multiple times throughout the home page. There's a search option in the banner, a "Find a VA Location" option in the banner, and a whole search section farther down the page. This functionality could be consolidated into a single location on the page to avoid taking up space and presenting users with too many options to perform the same operation which can cause confusion.
+
+On the VES Modernization project Booz Allen used this same methodology to develop the modernized VES UI. One example of how the new VES UI was made more efficient and userfriendly is in the Veteran Search screen. Previously, in the legacy VES UI, when a VHA enrollment specialist searched for a Veteran, family member, or caregiver and selected the record they would have to access four different screens, however, in the new VES UI the same search capability is performed in a single screen and, in addition, a summary is automatically provided with that person's eligibility information. Using these same HCD best practices, Booz Allen would reorganize information within the VA.gov website into more optimized workflows, eliminating unnecessary information and actions a user must perform to achieve their intended goals.
+Establish Scalable, Adaptable, Resilient Service Platform: In addition to an easy-to-use Veteran-centric VA.gov website, there needs to be a modern, reliable backend service platform
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+5
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+capable of obtaining and providing data to various VA and non-VA systems and driving efficient operational workflows through automation and AI-enabled functionality. This requires modern technology that utilizes advanced Cloud and AI tools and services to achieve future sustainability and growth. To provide reliable continuity of service for millions of users, Booz Allen would utilize our AI-assisted development methodology to convert the Ruby on Rails vets-api services to more modern Java set of microservices using patterns from established VA API platforms such as Lighthouse. Utilizing a more modern technology set adheres better to native cloud services and tools as well as simplifying development and maintenance of the backend services. In addition, this technology better supports the utilization of modern AI tools to maximize the use of automation, minimize operations and maintenance costs, and provide actionable insights for future improvements to the system. Following development and operational patterns from established VA API Platforms provides consistency within the VA and potentially reduces environment costs by utilizing existing tools and environments such as Lighthouse Delivery Infrastructure (LHDI). This approach will establish a robust, modern backend service platform that provides a centralized, consistent ability for managing benefits, claims, and healthcare information for Veterans and eligible beneficiaries.
+
+Drive Continuous Improvement Through AI-Driven Insights: Providing an exceptional, seamless user experience to millions of Veterans and eligible beneficiaries requires constant metric inspection to generate actionable insights to drive the continuous improvement of the VA.gov user experience. Generating AI-driven insights from metrics collected from the VA.gov website is crucial for creating a user experience that is both intuitive and responsive. Traditional analytics often provide surface-level data, such as page views or bounce rates, but AI-powered analysis goes deeper by identifying patterns, predicting user behavior, and uncovering friction points that might otherwise remain hidden. By leveraging machine learning models, organizations can transform raw data into actionable insights such as understanding which features drive engagement, where users struggle, and what content resonates most. This enables teams to identify future, impactful user enhancements prior to issues being reported by the user community. In addition to improving usability, AI-driven insights foster continuous optimization and personalization. Advanced algorithms can segment audiences dynamically, recommend tailored content, and even anticipate future trends based on historical interactions. This proactive approach not only enhances satisfaction but also builds trust and loyalty by delivering experiences that feel relevant and seamless. Integrating AI into metric analysis will allow the new VA.gov website to evolve alongside user expectations, reduce manual efforts, and accelerate innovation. Ultimately, this strategy transforms data into a strategic asset; driving efficiency, improving accessibility, and creating a user experience that is adaptive, scalable, and future-ready.
+
+3.2 CASE STUDIES OR EXAMPLES FROM SIMILAR ENVIRONMENTS Case Study 1, Recreation.gov and associated lessons learned are detailed in Table below:
+
+Table 4: Case Study 1 - Recreation.gov
+
+Case Study 1
+
+Recreation.gov
+
+Descriptions of Relevant Technologies and Approaches
+
+Recreation.gov is built on a cloud-native architecture hosted on AWS with stringent Service Level Agreement (SLA) requirements of 99.9886% uptime. The platform leverages approximately 300 AWS EC2 instances across three accounts, managing configurations for over 65 backend services deployed to 18 data centers. Its highly resilient infrastructure incorporates multiple levels of redundancy, including region-level failover (East/West Coast), availability zones, virtual servers, and disk backups, providing continuous operations even during unexpected events. To achieve high availability, extensive scalability, and throughput, the platform utilizes best-in-class tools such as Kubernetes for container orchestration, AWS CloudFront for content delivery, and AWS DynamoDB Global Tables for real-time multi-region replication. AWS OpenSearch powers 65 distributed search capabilities with real-time geolocation and text prediction.
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+6
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+Lessons Learned from Past Deployment
+
+Development is continuous and agile, with services deployed more than 10 times daily using tools like ArgoCD, Argo Workflows, and GitHub Actions while undergoing rigorous testing with K6 stress testing and static security scans through Trivy.
+Recreation.gov maintains its operational integrity through robust observability and security frameworks. Tools such as Grafana, Prometheus, and AWS CloudWatch Real User Monitoring (RUM) providing realtime insights into platform performance, while AWS Web Application Firewall detects and blocks malicious activity. Security remains central, employing defense-in-depth principles, including AWS Inspector live vulnerability scanning, AWS GuardDuty for event monitoring, and a Vulnerability Disclosure Program for public reporting of potential issues. The platform is designed for adaptability, allowing for infrastructure components to be regularly patched, updated, or swapped out entirely for newer innovations, with little to no downtime. Recreation.gov also adheres to rigorous compliance standards, including FedRAMP Moderate certification, alignment with NIST 800-53 rev 5 guidelines, and accreditation as a PCI-DSS Level 1 Service Provider.
+Problem: Predictability of load is difficult. For example, multiple major "on sale" of high demand inventory (e.g., Yosemite Camping) with large number of users accessing the system simultaneously placed high load demand on the system and the call center resulting in stability concerns and increased wait times. Solution: Tuned scaling of infrastructure conducted increased load testing within and among the microservices, revised code to seek efficiencies, adjusted staffing of the Contact Center, and provided an Interactive Voice Response (IVR) message for customers. In addition, the team improved release management processes for major releases, banner messaging on the platform for customers, and implemented Captcha to limit Bot related traffic. Lessons Learned: Although scaling is built into the architecture, additional efforts are often required to account for intermittent large spikes in load across the Recreation.gov services.
+
+Case Study 2, USAspending.gov and associated lessons learned are detailed in Table 5 below:
+
+Table 5: Case Study 2 - USAspending.gov
+
+Case Study 2
+
+USAspending.gov
+
+Descriptions of Relevant Technologies and Approaches
+
+The USAspending.gov team implemented the DATA Act Broker's front end as a single-page JavaScript web application, built using the React and Redux frameworks, which efficiently present data to the user by minimizing the amount of data that needs to be transferred to view a page. The service layer is a microservices architecture, containing an API, Validation Job Manager, and Data Validator, written in Python using the Flask framework. This implementation utilized advanced Search Engine Optimization (SEO) capabilities through dynamic rendering, allowing the frontend application to overcome the limitations of JavaScriptdependent content generation enabling more robust discovery through search engines rather than using custom, manual search algorithms. Additionally, this application included features such as dynamic agency profiles and data-pull capabilities that met the needs of both novice and advanced users.
+
+As part of their development and operations process, the USAspending.gov team incorporated DevSecOps principles and tools throughout their entire Agile development process to reduce overhead and facilitate efficient, quality-assured deployments. This started by incorporating the GitFlow branching model to provide a quality-driven framework for reviewing, building, and executing automated tests on all code changes through Jenkins Continuous Integration/Continuous Deployment (CI/CD) pipelines to verify the new code was bug free. After a build was verified, the Jenkins CI/CD pipeline deploys the new code to the appropriate sandbox, development, staging, or production regulated AWS GovCloud environment and automatically notifies the team with the results of the deployment. These environments implemented various security measures including firewalls, encryption, scanning, digest, authentication, and access control to protect the data. The team utilized New Relic to monitor availability of environments and Kibana to provide log visualizations. Datadog was utilized for Application Performance Monitoring (APM) to provide the team with robust traceability capabilities identifying the number of active concurrent users, the number of API requests over time, the latency of those requests, and tracing requests and the duration spent within each backend service. In addition, it monitored and reported on infrastructure metrics such as CPU, Memory, storage, and network to monitor application load. By collecting and analyzing these APM metrics it allowed the team to proactively identify and implement system improvements allowing the application to easily scale to meet usage demands.
+
+Lessons Learned from Past Deployment
+
+Problem: USAspending.gov's DATA Act Broker needs to manage growing data sets as application usage increases. In just 3+ years we experienced over 30x growth of data, launched dozens of new datasets, features and facets, and sustained millions of hits to the website and API each week. Due to this massive growth of data, the need to evolve a more scalable data processing architecture for current load and future data exploration within our solution had become evident.
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+7
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+Solution: We utilized Spark clusters within the cloud environments to scale in conjunction with data growth for faster and less expensive data processing. Furthermore, the implemented solution provided flexibility to spin up resources only when increased data processing is required, which minimized overhead costs while lowering the number of activities required for routine daily environment operations. This approach provided a higher quality and consistent real-time view for end-users, even during times of increased activity.
+Lessons Learned: When designing an environment to host a solution, it is essential to understand both current and future infrastructure needs, considering both initial and predicted future capacity needs. Leveraging AI models to forecast user and data expansion for specific applications enables a team to create solutions that are highly scalable and seamless for users.
+4.0 ANY ADDITIONAL INFORMATION 4.1 USER JOURNEY WORKFLOWS FOR IDENTITY PROOFING, SIGN-IN RECOVERY, AND
+NAVIGATION
+Currently for user account management, identity proofing, and sign-in recovery, VA.gov utilizes ID.me and Login.gov logins. Both providers meet stringent federal security standards, including multi-factor authentication and identity proofing. Leveraging external expertise for these capabilities reduces VA's burden of maintaining evolving cybersecurity requirements internally as well as minimizing infrastructure and manpower costs. To support VA's modernization objectives, focusing on scalability, security, and Veteran-centric design, Booz Allen would recommend maintaining the current approach of leveraging federated identity providers Login.gov and ID.me for VA.gov identity management capabilities augmented with providing onsite help for creating these logins at VA Medical Center (VAMC) locations for Veterans that have a difficult time signing up online. While this approach may have had some challenges for users, such as a more involved account creation process and support being managed outside of the VA, it also delivers several significant benefits to both the VA and VA.gov users. These benefits include:
+� Interoperability Across Federal Platforms: Login.gov and ID.me enable Veterans to use a single, secure login across multiple government websites, reducing the need for Veterans to maintain multiple logins, improving accessibility, and aligning with VA's goal of delivering a unified, streamlined experience.
+� Cost Efficiency and Resource Optimization: Building and maintaining a local identity system would require a significant investment in infrastructure, manpower, security audits, and ongoing compliance updates. Leveraging existing providers allows VA to allocate resources toward improving core services and user experience.
+� Future-Ready Scalability: Federated identity solutions are designed to scale with demand and integrate with modern authentication protocols allowing the VA and VA.gov users to automatically adopt new security standards and practices with little to no impact.
+Navigation is also a significant challenge for the VA.gov website due to wide range of users of this website. Navigation needs to be intuitive for older Veterans that are not as technology-savvy, but needs to have the modern look and feel that younger Veterans are familiar with from today's popular websites. The current navigation workflow for the VA.gov website provides an overall banner navigation menu on the top of the page along with sub-pages grouped by related services that flow similar to a set of wiki pages. Navigation is intended to be user-centric and consistent experience providing users with information they need related to benefits, claims, and their healthcare. While that is the intent, some challenges users, especially first time or older, have reported include:
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+8
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+� Deeply Layered Navigation: Users often must click on multiple page links to find the specific information they are looking for. Many of the pages containing the specific information or documents a user is looking for require multiple clicks to reach.
+
+� Multiple Entry Points to Information: While having multiple options to get the same information may seem beneficial to the user, it can cause confusion for users making them wonder if they are in the right place. It also takes up additional space on pages, which could be used for consolidating similar information into a single location, reducing the number of clicks a user must perform.
+
+� Inefficient Page Layout: Often when using VA.gov, users must excessively scroll to find the specific information they are looking for on the page. Users want the ability to go directly to the information they are looking for as quickly as possible, without needing to scroll past informational sections such as "VA News".
+
+Table 6 outlines some potential improvements that could be implemented to improve a user's journey related to identity proofing, sign-in recovery, and navigation.
+
+Table 6: Potential Additional User Journey Workflow Improvements
+
+Issue Identity Proofing
+Sign-in Recovery Navigation
+
+Potential Enhancements
+� Cross-Verification of data against other VA systems, such as the Master Person Index (MPI) or VA Profile, to further validate the user against VA data
+� AI driven risk scoring to determine when additional identity proofing is required. This could be based on industry-established criteria such as unusual login location or by the type of data trying to be accessed
+� Provide enhanced information on the VA.gov website specific to validating their identity in person at a United States Postal Service location (USPS) for LOGIN.gov or United Parcel Service location (UPS) for ID.me when creating an account
+� Implement an AI Chatbot to handle common support issues, for the specific issue of sign-in recovery this Chatbot could explain the recovery process and upon request redirect the user to the appropriate LOGIN.gov or ID.me sign-in recovery page
+� Utilize HCD best practices to define an ideal user journey throughout the entire VA.gov experience, prioritizing the reduction of user clicks and scrolling, presenting the most important information in a single, obvious location, and supporting modern navigation methods that users are used to from other commonly used websites (e.g., other government sites, financial, social media)
+� Implement an AI Chatbot that's visible on all pages for users to interact with to get the information they are looking for and find answers to their questions quickly.
+
+4.2 KNOWN LIMITATIONS, RISKS, AND TRADEOFFS
+
+Table 7 outlines potential limitations, risks, and tradeoffs of replacing the VA.gov website.
+
+Table 7: Potential Limitations, Risks, and Tradeoffs
+
+Type Limitation Risk
+Risk Risk
+
+Summary Dependences on Downstream Systems Training
+System Stability
+User Identity Proofing Difficulty
+
+Description The VA.gov website has dependencies on other VA systems, should any requested improvements require changes in functionality to downstream systems it may have a negative effect on timelines and the ability to implement advanced features. Too many changes to the existing VA.gov website could confuse existing users. Using established HCD best practices to reduce duplicate content and implement new workflows consistent with current industry design patterns will mitigate this risk by providing an efficient, intuitive user experience. Too many changes or a wholesale system replacement increases the risk of unforeseen system instability issues or gaps in service. Due to the critical nature of VA.gov, utilizing Agile best practices to incrementally deliver small sets of new functionality/changes will mitigate this risk. Creating a LOGIN.gov or ID.me account includes advanced identity proofing capabilities including comparing pictures from a photo id with a current camera photo which can be a confusing and difficult process for some users. These providers currently offer in-person verification at USPS and UPS locations, but due to the large user base of VA.gov, and that these providers are used within other VA and government applications as well, it might be beneficial for the VA to provide onsite login support at local VAMCs. Another option would be to partner with
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+9
+
+FEBRUARY 5, 2026
+
+REPLACEMENT MODEL FOR VA.GOV IN RESPONSE TO SOLICITATION NO.: 36C10B26Q0131
+
+Tradeoff Tradeoff
+
+Full vs. Partial Replacement
+Available Contract Vehicles
+
+these identity providers to be able to offer in-person verification similar to what can be done today at a USPS or UPS location. Replacing the VA.gov website could be a full replacement, changing the technology stack and changing the authorization mechanism or, as Booz Allen recommends, implementing a partial revamp, modernizing some aspects of the technology stack while using HCD best practices to modernize and optimize the UI workflows. Full replacement would be a higher cost and longer timeline to provide value to Veterans, while a partial replacement provides more flexibility by delivering incremental value to Veterans more quickly and has the ability to easily adjust schedules based on budgetary constraints.
+Due to the size, scope, and complexity of this effort, it is our recommendation that this solicitation be released full and open. This competition procedure reduces delivery risk to VA by giving VA access to large businesses that can deliver the depth of capability needed to implement complex solutions and the financial ability to adequately staff a project like the replacement of VA.gov with the highly skilled people on day one. VA.gov stakeholders need access to large businesses with extensive VA platform development experience, extensive capability investments, and many staff that can evolve to agency priorities. Booz Allen recommends VA release the final solicitation under Alliant 2. Alliant 2 is a multiple-award, indefinite-delivery, indefinite quantity (IDIQ) Government-wide Acquisition Contract (GWAC) offering comprehensive, flexible IT solutions worldwide. Alliant 2 provides streamlined ordering procedures, allowing long term planning of large-scale program requirements and decentralized ordering, and offering a broad evolving scope to support IT implementations. Alliant 2 allows VA to award a single TO of any size, providing ample award ceiling value for a comprehensive solution, with tasks permitted to extend up to 2033.
+
+Copyright � 2026 Booz Allen Hamilton Inc. Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this response.
+
+SOURCES SOUGHT NOTICE
+
+10
+
+FEBRUARY 5, 2026
+
+

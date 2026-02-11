@@ -1,0 +1,215 @@
+U.S. Department of Veterans Affairs (VA) Replacement Model for VA.gov
+Notice ID: 365357 Response to Request for Information
+February 5, 2026, 12:00 PM EST
+
+Offeror Name
+Offeror Contact UEI Number Submitted To
+
+Karsun Solutions, LLC 12825 Worldgate Dr, Ste 500 Herndon, VA 20171
+Jennifer Cummings, Sr Dir of Contracts 703-338-1594, jennifer.cummings@karsun-llc.com
+WTERVPLW2SS6
+Allison Fulton, allison.fulton@va.gov, Evan Schlisserman, evan.schlisserman@va.gov
+
+This response to the Government's Request for Information ("RFI Response") includes data that shall not be disclosed outside the Government and shall not be duplicated, used, or disclosed--in whole or in part--for any purpose other than to evaluate this RFI Response. This restriction does not limit the Government's right to use information contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in sheets bearing the following legend: "Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response."
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+Table of Contents
+1 Company Overview ................................................................................................................ 1 1.1 Relevant Capabilities .......................................................................................................... 1
+2 Relevant Experience ............................................................................................................... 2 2.1 Relevant Project #1: Federal Aviation Administration (FAA) Solutions for Systems Development (SSD), Contract Number DTFACT17D00007 ..................................................... 2 2.2 Relevant Project #2: General Services Administration (GSA) Advanced Fleet Platform AFP (Fleet), Contract Number 47QDCB20F0017...................................................................... 3 2.3 Relevant Project #3: Federal Emergency Management Agency (FEMA) - Grants Management Modernization (GMM).......................................................................................... 4
+3 Response to Requested Topics ............................................................................................... 5 3.1 Relevant Technologies and Approaches ............................................................................. 5 3.1.1 Delivering a Seamless and Omnichannel Veteran Experience..................................... 5 3.1.2 The ReDuX Two-Phased Approach ............................................................................. 6 3.1.3 Operationalizing the Migration via Incremental Phase-Out ......................................... 6 3.2 Similar Environments ......................................................................................................... 7 3.3 Workflows........................................................................................................................... 8 3.3.1 Federated Identity and Secure Access .......................................................................... 8 3.3.2 Intent-Based Navigation and Proactive Routing........................................................... 8 3.4 Limitations, Risks, and Tradeoffs ....................................................................................... 8 3.5 Lessons Learned.................................................................................................................. 9
+4 Additional Information .......................................................................................................... 9 Appendix........................................................................................................................................ 1
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page i
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+RESPONSE TO REQUEST FOR INFORMATION
+1 Company Overview
+Karsun Solutions, LLC 12825 Worldgate Dr, Ste 500 Herndon, VA 20171
+1.1 Relevant Capabilities
+To support the VA's mission of delivering a first-class digital experience, Karsun Solutions provides the specialized expertise in human-centered design (HCD) and cloud-native architecture required for a resilient, national-scale VA.gov replacement. We specialize in DevSecOps, Agile delivery, and AI-enabled modernization to transform large-scale system ecosystems into intuitive digital front doors. Karsun delivers and sustains mission-critical, user-facing enterprise portals using mature engineering practices and automation, ensuring that improving the customer experience goes hand in hand with maintaining service continuity, regulatory compliance, and long-term scalability. Central to our approach is a commitment to treat the VA.gov replacement as a Veteran-experience effort first, ensuring that technology serves as a proactive partner in the Veteran's journey.
+Large-scale Digital Modernization: Karsun has over 15 years of experience delivering largescale federal digital modernization programs, with more than $1B in modernization and operations efforts across civilian agencies. Our experience demonstrates our ability to replace and evolve complex, highly visible federal portals while maintaining service continuity, regulatory compliance, and user trust at a national scale, directly aligning with the challenges of replacing VA.gov. Across these programs, Karsun has modernized hundreds of legacy applications and portals, supported millions of users, and sustained high-availability operations in regulated, mission-critical environments. These engagements reflect the scale, complexity, and continuity requirements VA faces for VA.gov. The following sections illustrate how Karsun has successfully modernized and operated mission-critical federal digital front doors in similarly regulated, highvisibility environments.
+User Experience, Human-Centered Design, and Accessibility: Karsun embeds HCD, User Interface / User Experience (UI/UX) engineering, and accessibility as first-class capabilities across all digital modernization efforts. Our teams design and deliver intuitive, accessible, and consistent digital experiences that scale across large portfolios while meeting federal usability and compliance standards. For VA.gov, we would treat the replacement as a Veteran experience effort first and foremost, not just a technology upgrade. Central to this approach is a close partnership with the VA's Veteran Experience Office (VEO) to align our delivery with their strategic CX insights. We leverage the VEO's recommendations to refine our research and ensure that every modernization decision is backed by the VA's established data on Veteran sentiment and behavior. Karsun's proven UX practices include:
+ User research, journey mapping, and persona development across diverse user populations  The Double Diamond and iterative discovery-to-delivery design frameworks  Rapid prototyping and usability testing integrated directly into Agile backlogs  Design systems and reusable UI components aligned with Section 508 and federal
+accessibility requirements
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 1
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+
+These practices have been applied on large, public-facing, and workforce-facing federal platforms delivered under the GSA COMET BPA and other enterprise programs, where consistent navigation, identity-aware experiences, and simplified workflows were required across dozens of systems. UX artifacts are treated as living assets, governed, versioned, and reused to ensure a consistent experience while enabling independent product evolution.
+Product Innovation and AI-Enabled Modernization: A true differentiator behind our capabilities is Karsun's ReDuX® AI-Modernization Platform, an AI-driven capability that accelerates legacy system assessment, modernization planning, and execution. ReDuX applies machine learning and automated analysis to evaluate application portfolios across dimensions such as usage patterns, security risk, cloud readiness, technical debt, and modernization complexity. The platform generates data-driven modernization roadmaps, identifies candidate systems for refactor, replatform, or retirement, and accelerates downstream development through AI-assisted code analysis and transformation.
+ReDuX is currently implemented in large federal enterprise environments, including GSA and FAA, supporting modernization decisions across hundreds of applications with minimal operational disruption. The platform is also available through federal acquisition channels, including AWS Marketplace, Department of War (DoW) Tradewinds Solutions Marketplace, and GSA MAS (and other government-wide vehicles), enabling rapid adoption without bespoke tooling development. This product-led approach allows agencies to move beyond ad hoc modernization and operate a repeatable, evidence-based modernization lifecycle--a critical capability for replacing and evolving complex enterprise portals, such as VA.gov, which serve as a single gateway to a vast ecosystem of legacy and emerging systems.
+Core Technologies and Methodologies:
+ Cloud Infrastructure: AWS GovCloud, OpenShift, Red Hat Linux, VPCaaS, AWS Migration Acceleration Program (MAP)
+ DevSecOps Toolchain: Jenkins, GitHub, SonarQube, Fortify, WebInspect, Terraform, Ansible, ArgoCD, Twistlock, AWS KMS
+ Application Architecture: Microservices, Java 1.8+, Node.js, Spring, Camunda, jBPM, Kafka
+ Data Engineering: PostgreSQL, MongoDB, Oracle, AWS RDS/Redshift, StreamSets, AWS DMS, Data Mesh architectures
+ Monitoring and Compliance: New Relic, Datadog, Splunk; FISMA High/Moderate; Section 508
+ Agile Delivery: Scaled Agile Framework (SAFe), three-week sprint cycles, Program Increment (PI) planning, Jira/Confluence dashboards.
+
+2 Relevant Experience
+Below is a summary of three past performance examples that closely align with key technical and operational aspects of the VA.gov replacement effort and reflect experience with challenges comparable in scale, complexity, and regulatory rigor.
+2.1 Relevant Project #1: Federal Aviation Administration (FAA) Solutions for Systems Development (SSD), Contract Number DTFACT17D00007
+
+Customer Name
+
+FAA Office of Information Technology
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 2
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+
+Customer/Client POC Email Total Contract Value Period of Performance
+
+Page Weedon / Page.M.Weedon@faa.gov $618,089,520.75 08/15/2017 - 08/14/2027
+
+Under the FAA SSD program, Karsun modernizes and sustains one of the federal government's largest and most complex digital portfolios, supporting 208 mission applications and portals used by more than 500,000 internal and external users across Aviation Safety, Air Traffic, and enterprise business lines.
+
+Karsun has replaced and modernized legacy FAA web portals built on technologies such as ColdFusion, Lotus Notes, and ASP.NET into cloud-native, microservices-based architectures hosted in AWS GovCloud, while maintaining uninterrupted service for safety- and mission-critical operations. Central to this effort was the seamless integration of these portals with agency-wide Identity and Access Management (IAM) systems, ensuring secure, federated access for over 500,000 users while maintaining a Federal Information Security Modernization Act (FISMA) High security posture. This includes designing and operating an Elastic Kubernetes Service (EKS) container platform that enables safe, repeatable deployments, blue-green releases, and elastic scaling for user-facing digital systems.
+
+To reduce modernization risk and preserve data fidelity, Karsun applied AI-enabled, automated analysis tools, including ReDuX and GoLean, to reverse-engineer legacy systems, map dependencies, and plan incremental portal refactoring. This approach enabled continuous modernization with zero data loss, preserved compliance with FAA enterprise architecture standards, and minimized disruption, an approach directly applicable to VA's regulated environment.
+
+Experience and HCD was embedded throughout delivery. Karsun applied the Double Diamond framework, conducted research across geographically distributed user groups, and implemented 508-compliant, standardized UI components to replace inconsistent legacy interfaces. For example, modernizing the FAA's Dynamic Regulatory System (DRS) transformed a fragmented portal into a unified experience, empowering users by reducing complex research time from days to minutes--a direct result of prioritizing the user's journey over legacy technical constraints.
+
+At scale, Karsun sustains 3,000+ databases, 1,330 servers, and processes 13,200+ service tickets annually, while maintaining 99.9% system availability, demonstrating operational maturity suitable for a national digital front door such as VA.gov.
+
+2.2 Relevant Project #2: General Services Administration (GSA) Advanced Fleet Platform AFP (Fleet), Contract Number 47QDCB20F0017
+
+Customer Name
+Customer/Client POC Email
+Total Contract Value Period of Performance
+
+GSA IT and GSA Office of Fleet Management Kyle J. Anthony, Contracting Officer kyle.anthony@gsa.gov Mohamed Chaouchi, GSA IT Director mohamed.chaouchi@gsa.gov $100,000,001.96 09/30/20 - 09/29/25
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 3
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+
+To reduce the "logic tax" federal users experience when navigating fragmented legacy systems, Karsun unified GSA's fleet management capabilities by consolidating 19 systems into a single, cloud-native portal, GSAFleet.gov. This platform serves as the primary digital entry point for 24,000+ federal users managing nationwide vehicle procurement and financial transactions. By replacing decades-old green-screen interfaces and static PDFs with responsive, role-based applications, we eliminated the friction of navigating siloed data, ensuring that federal personnel can focus on their mission rather than the limitations of their tools.
+
+To ensure uninterrupted service during this massive consolidation, modernization was implemented incrementally using the Strangler Fig pattern, allowing legacy mainframes and modern cloud services to operate in parallel. We utilized automated bidirectional synchronization to preserve 100% transactional accuracy for high-value financial data, a critical requirement for maintaining user trust in a national system. Spanning 90+ Agile sprints, this effort sustained 99.95% uptime and earned three consecutive "Exceptional" Contractor Performance Assessment Reporting System (CPARS) ratings, proving Karsun's ability to manage the delicate balance between complex backend migration and a modernized, human-centered user experience.
+2.3 Relevant Project #3: Federal Emergency Management Agency (FEMA) - Grants Management Modernization (GMM)
+
+Customer Name Customer/Client POC Email Total Contract Value Period of Performance
+
+Federal Emergency Management Agency (FEMA) Everett Yuille, Deputy PM Everett.Yuille@Fema.dhs.gov $172,786,349.11 08/31/2018 - 12/11/2024
+
+Recognizing that "click fatigue" is a significant barrier for users affected by national emergencies, such as hurricanes and wildfires, we treated FEMA's Grant portal replacement as a mission-critical experience effort rather than a simple technology upgrade. Karsun modernized FEMA's grants ecosystem by consolidating 40+ grant programs and 10+ legacy systems into FEMA Grants Outcomes (FEMA GO), the agency's primary digital front door for disaster recovery applicants. By implementing HCD practices, including journey mapping and persona development, we transformed a fragmented grant application landscape into a cohesive, task-oriented portal that provides survivors, communities, and administrators with streamlined access to essential funding throughout the preparedness and recovery lifecycle.
+
+To reduce cognitive load for users in high-stress environments, Karsun integrated FEMA GO with Login.gov and SAM.gov, providing a secure, federated identity experience that eliminated the need for redundant credentials and manual data entry. This approach ensures that essential services are delivered via a resilient, cloud-native architecture on AWS GovCloud, which currently supports 125,000 users and has processed over $21B in awards. By sustaining 99.999% availability and achieving FISMA High Authority to Operate (ATO) through automated DevSecOps pipelines, FEMA GO mirrors the reliability and accessibility requirements essential for a successful VA.gov replacement.
+
+Experience Relevance to VA.gov Replacement Together, these programs demonstrate Karsun's ability to:
+ Apply human-centered design to improve accessibility, navigation, and usability
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 4
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+ Replace large, fragmented federal portals with unified, modern digital platforms  Maintain continuous service for millions of users during modernization  Operate within highly regulated, security-sensitive environments  Scale modernization using automation, AI-enabled analysis, and DevSecOps
+This experience aligns with VA's objectives to deliver a secure, Veteran-centric, resilient replacement for VA.gov while preserving trust, continuity, and mission effectiveness.
+3 Response to Requested Topics
+The modernization of VA.gov is a crucial opportunity to improve how Veterans access services. A replacement model for VA.gov should look beyond technical updates alone and account for user experience, integration with existing systems, and long-term operational reliability. We recognize that this portal is a critical tool for Veterans to navigate their lives and well-being. This transformation is not merely about updating code, but about evolving the portal into a proactive partner that anticipates Veteran needs through data-driven insights. Our approach prioritizes a 'Veteran-First' philosophy, ensuring that, as the underlying architecture is transformed into a premier, secure, and scalable ecosystem, service continuity remains absolute. By moving from a reactive support model to a modern, agent-guided ecosystem, the VA can ensure that every digital interaction reinforces the department's commitment to those who have served.
+3.1 Relevant Technologies and Approaches
+Modernizing VA.gov requires a strategy that goes beyond technology and considers user experience, integration with existing systems, and long-term operational reliability. A "VeteranFirst" approach prioritizes a seamless front-end experience and a data-driven transformation to ensure continuity of service. We recommend that the VA use VEO's CX Insights in combination with the Strangler Fig Migration Pattern, accelerated by Karsun's ReDuX, an AI-driven modernization engine. This approach incorporates VA's own veteran experience expertise, enables incremental replacement of legacy portal functions, and uses AI to rapidly map and refactor legacy dependencies that typically require months of manual analysis.
+3.1.1 Delivering a Seamless and Omnichannel Veteran Experience
+Karsun ensures a seamless experience that integrates workflow and data flow between existing and new tools through:
+ Unified Digital Entry Point: Establishing a single point of entry with a tailored, consistent look and feel to consolidate the currently fragmented legacy landscape.
+ AI-Enhanced Navigation: Utilizing agentic search engines and chatbots that provide full user context, reducing the burden of navigating disparate resources.
+ Integrated Real-Time Dashboards: Providing Veterans and administrators with a unified workload tracker to see the status of requests, healthcare updates, and benefits in real-time.
+ Optimized Data Flows: Ensuring data captured in new modules is automatically formatted for downstream legacy applications to eliminate manual re-entry.
+ Automated Guidance: Implementing in-system prompts and notifications based on status changes to enhance transparency and ensure regulatory compliance.
+Omnichannel Strategy for Veteran Access: To ensure VA.gov is accessible across all devices (mobile, tablet, desktop) while maintaining stringent federal security, our approach includes:
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 5
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+ Human-Centered Workflow Mapping: Applying HCD to identify specific user classes and workflows requiring mobile or tablet form factors.
+ Persistent Agentic Continuity: Designing personalized AI experiences that maintain transactional context as a Veteran moves from a mobile device to a desktop.
+ Hybrid Architecture Optimization: Balancing Progressive Web Apps (PWAs) against native apps to maximize cross-platform reach and performance efficiency.
+ Zero-Trust Security Integration: Enforcing a Zero-Trust architecture using Mutual TLS (mTLS) for all device communications to ensure secure, policy-driven execution across the ecosystem.
+3.1.2 The ReDuX Two-Phased Approach
+To provide the VA with transparency and speed, we implement a two-phased execution model:
+ ReDuX Blueprint: This phase rapidly delivers deep insights into legacy systems by ingesting code repositories, data schemas, and system documentation. It leverages AI to map legacy code and user actions directly to system flows, extracting the critical business logic required to support a Veteran-centric experience. By visualizing undocumented dependencies, Blueprint builds a risk-managed migration roadmap grounded in domain-driven and HCD principles.
+ ReDuX Agents: These AI agents function as a "digital workforce" to execute technical and design decisions. Beyond migrating code, these agents are configured to power VeteranFacing Guides in the new portal. These user-facing agents transition from simple chatbots to proactive navigators that recognize a Veteran's specific status (e.g., Service Member vs. Caregiver) and anticipate their needs, reducing "click fatigue" by guiding them through complex benefit workflows.
+3.1.3 Operationalizing the Migration via Incremental Phase-Out
+Our implementation practices utilize a straightforward three-step process to transition legacy portal functions to a cloud-native architecture:
+ Step One - Assess Domain: We analyze code repositories and database schemas to build a comprehensive understanding of the portal environment without requiring access to live Veteran data. This non-intrusive approach is vital for the VA, as it allows for the discovery of undocumented business logic and security dependencies while maintaining absolute data privacy and adhering to the highest standards of Veteran data protection.
+ Step Two - Mobilize AI Agents: Modernization agents are configured with VA requirements and HCD inputs to generate code and user-facing guidance workflows that adhere to VA quality and security standards.
+ Step Three - Modernize Systems: Using the Strangler Fig pattern, we decouple legacy functions and move them to new, cloud-native services one feature at a time. This enables the VA to incrementally phase out legacy components organically while maintaining a seamless, agent-guided experience for the Veteran.
+As illustrated in Figure 1, this workflow streamlines modernization into four phases: Loading, Analysis, Modernization, and Iterative Improvement. By following this sequence, the VA can reduce manual effort and rework, dramatically shortening the overall timeline for the VA.gov replacement.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 6
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+Figure 1. ReDuX Four-Stage Process. A disciplined, four-stage approach that turns legacy complexity into a continuously improving, Veteran-first digital platform.
+
+3.2 Similar Environments
+To address the VA's goal of a "Replacement Model" that maintains absolute continuity of service, we highlight three federal environments where we successfully transitioned fragmented legacy landscapes into modern, high-availability digital experiences.
+ GSA Fleet: Eliminating the "Logic Tax" Through Consolidation. Similar to how VA.gov serves as the entry point for a range of Veteran benefits, the GSAFleet.gov portal consolidated 19 legacy systems into a single, cloud-native gateway. By replacing mainframeera interfaces with responsive, role-based applications, we removed the friction of navigating siloed data. We used the Strangler Fig pattern and automated bidirectional synchronization to maintain 100% transactional accuracy for high-volume financial data, ensuring user trust throughout the migration.
+ FAA: Securing High-Scale Portals with Integrated IAM. The FAA required a modernization strategy for digital front doors serving over 500,000 users across 208 enterprise applications. We replaced legacy portals with cloud-native architectures while ensuring seamless integration with agency-wide IAM systems. By using ReDuX to reverseengineer legacy dependencies and blueprint business logic, the FAA achieved 99.9% system availability and a FISMA High security posture without disrupting safety-critical operations.
+ FEMA: Scaling Resilience to Combat "Click Fatigue." FEMA faced the challenge of consolidating 40+ grant programs into a single portal capable of processing billions in disaster assistance and mitigation funding. Recognizing that "click fatigue" is a barrier for users in high-stress environments, a direct parallel to the Veterans' journey, we implemented federal authentication integrations to provide a secure, federated identity experience. This
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 7
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+eliminated redundant credentials and manual data re-entry, supporting 125,000 users and processing over $21B in awards with 99.999% availability.
+3.3 Workflows
+Seamless navigation and secure authentication are the foundations of a "Veteran-centric" experience. Therefore, workflows for identity proofing, sign-in, and navigation are designed to evolve in direct alignment with the VA's focus on identity management and simplified access.
+3.3.1 Federated Identity and Secure Access
+To reduce the cognitive load on Veterans, we recommend a Federated Identity model that leverages FIPS 140-2 compliant solutions, such as Login.gov or ID.me. This "Single Sign-On" approach provides a single, secure entry point across the VA's disparate benefit portfolios. By aligning with the Federal CIO's vision for a standardized government-wide experience, the VA can ensure a consistent authentication process for Veterans, regardless of which agency or service they access.
+The technical workflow functions as a secure "digital handshake": once authenticated via Login.gov, a centralized User Profile Service retrieves personal preferences and service history to "warm start" the user session.
+3.3.2 Intent-Based Navigation and Proactive Routing
+Our navigation strategy focuses on Intent-Based Routing, utilizing AI-driven search and behavioral patterns to anticipate the Veteran's needs. Instead of a static menu, the workflow is designed to recognize a Veteran's specific status, such as "Transitioning Service Member" or "Caregiver", and immediately prioritize relevant healthcare or transition services upon sign-in.
+In practice, this means the portal's homepage dynamically rearranges its primary action buttons based on the user's persona; for example, a new Veteran may see "Enroll in Healthcare," while a long-term beneficiary sees "Refill Prescriptions" as the first available option. This approach significantly reduces "click fatigue" and "scroll fatigue" by keeping the most critical, missionspecific information always within reach. By decoupling these high-speed front-end interactions from legacy latency, the portal remains responsive and intuitive, fulfilling the VA's objective for a seamless customer experience.
+3.4 Limitations, Risks, and Tradeoffs
+Modernizing a portal at this scale requires proactive management of inherent technical and operational trade-offs to ensure uninterrupted service.
+ Managing "Legacy Gravity": Integrating high-speed front-end experiences with 40-yearold backend systems creates latency risks that can degrade the Veteran experience. We mitigate this using ReDuX AI Agents (Appendix: Figure 2) to proactively monitor real-time telemetry and resolve performance bottlenecks before they impact the portal.
+ Standardization vs. Customization: Over-customizing individual benefit portfolios can lead to a fragmented user journey. Our GoLean iADS (Integrated Agile Delivery Solution) framework (Appendix: Figure 3) addresses this by utilizing a centralized Design System and shared Infrastructure-as-Code (IaC) modules. This ensure that approximately 80% of UI/UX components remain standardized to provide a "seamless" customer experience, while the remaining 20% can be tailored to mission-critical Veteran needs.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 8
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+ Undocumented "Dark" Data: Transitioning legacy architectures often reveals buried business rules that can disrupt benefit delivery. We use the ReDuX Blueprint agent to proactively map these dependencies, ensuring every critical Veteran touchpoint is accounted for before the incremental phase-out of legacy services.
+3.5 Lessons Learned
+Successfully replacing a large-scale federal portal requires looking beyond the code to the operational and cultural shifts that occur during modernization. The following insights were gained from delivering high-availability systems for the GSA, FAA, and FEMA.
+ User Testing Must Be Continuous to Prevent "Change Shock": This lesson emerged from involving stakeholders early via Alpha testing, while legacy systems remained in operation. At the same time, the legacy portal remains active, significantly reducing support ticket volume during the final transition. For the GSA FLEET modernization, this iterative feedback loop ensured that the organic migration of 24,000+ users was met with high satisfaction rather than service disruption.
+ API Documentation is the Foundation of Governance: In complex, multi-agency environments like the GSA, the "Product" is the API as much as the user interface. We witnessed that enforcing strict, machine-readable OpenAPI standards early prevents integration bottlenecks between legacy and emerging systems. This lesson ensures that the "Replacement Model" remains interoperable with VA's legacy and emerging systems.
+ Data Migration is a Cultural and Technical Priority: Moving from decades-old legacy systems to modern cloud architectures often reveals "dirty data" that can break modern validation rules. We've learned that data cleansing must be established as a separate workstream in parallel with UI development. For FEMA GMM, this dedicated focus on data blueprinting ensured 100% data integrity while consolidating 10+ legacy systems.
+ Automation is the Only Path to Sustainable Compliance: Operating within an evident federal environment requires rigorous, repeatable security. Karsun observed that embedding automated governance directly into the DevSecOps pipeline, as seen with the FAA's container platform, enables "blue-green" releases and elastic scaling without compromising FISMA High or Section 508 compliance standards.
+4 Additional Information
+Karsun recommends a "Modernization Discovery" workshop to demonstrate how AI-driven engines de-risk the VA.gov ecosystem through:
+ Live Blueprinting Demonstration: A technical deep-dive into how the ReDuX Blueprint Agent maps legacy business rules and undocumented dependencies in real-time.
+ Strangler Fig Execution Roadmap: A collaborative session to identify high-impact Veteran touchpoints that are optimal candidates for the first phase of incremental migration, ensuring zero service interruption.
+ Collaborative Navigation Lab: A working session to align the intelligent navigation and identity workflows described in Section 3.3 with the specific mission requirements of Notice ID: 365357.
+By evaluating these AI-driven engines now, the VA can significantly de-risk the VA.gov replacement and move toward a premier digital experience with greater speed, transparency, and long-term adaptability.
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page 9
+
+Replacement Model for VA.gov Notice ID: 365357 February 5, 2026
+Appendix The following figures illustrate the operational frameworks used to manage modernization risk and maintain uninterrupted service. Figure 2 shows the ReDuX AI Agent workflow for proactive performance monitoring and telemetry, while Figure 3 details the GoLean iADS (Integrated Agile Delivery Solution) framework, a four-stage governed lifecycle that utilizes AI and DevSecOps automation to transition features from backlog to production. Figure 2. ReDuX AI Agent Workflow
+Figure 3. GoLean iADS Framework
+
+Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this RFI Response.
+
+Page App-1
+
+
