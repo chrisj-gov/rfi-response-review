@@ -1,0 +1,108 @@
+Response #	Vendor 	Filename
+51	A Square Group LLC (ASG)	A Square Group (ASG) - Replacement Model for VA.gov_RFI Response_ASG.txt
+95	Abt Global 	Abt Global - Response to SSN 36C10B26Q0131.txt
+79	Accenture Federal Services	Accenture - 36C10B26Q0131 - Replacement Model for VAweb  - Accenture Response.txt
+1	Aenigma Solutions LLC	Aenigma - VA_RFI_Response_Aenigma_Solutions.docx
+53	"Agile Six Applications, Inc."	Agile Six - Replacement Model for VA.gov - RFI - Agile Six.txt
+36	"Amazon Web Services, Worldwide Public Sector"	Amazon (AWS) - Response to VA RFI Notice ID 365357 - Replacement Model for VA.gov.txt
+14	Aptive Resources	Aptive - Replacement Model for VA.gov_RFI Response_AptiveResources.txt
+103	Aquia Inc.	Aquia - VA.gov Replacement Model RFI Response - Aquia.txt
+20	Arayna Technology Solutions LLC 	"Arayna - Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov.txt"
+90	Artemis / Aretum	"Artemis - Exploring Next-Generation Digital Identity, Authentication, and Navigation on VA.gov 2026.txt"
+66	AVB Digital II (AVB) 	AVB - Reponse_ Replacement Model for VA.gov Sources Sought Notice.txt
+19	"BAC (Ben Allegretti Consulting, Inc.)"	"BAC_Ben Allegretti Consulting, Inc - Replacement Model for VA.gov RFI.txt"
+48	BCG Federal Corp. 	BCG - RFI_ VA_BCG Fed Response_FINAL.txt
+42	Blink UX. Lone Rock Point and Blink UX	Blink and Lone Rock Point - Response to VA Notice ID 365357.txt
+85	Blue Tiger 	Blue Tiger - RFI response - Replacement model for VAgov - Blue Tiger.txt
+67	Booz | Allen | Hamilton	BAH - 36C10B26Q0131_Booz Allen Hamilton_SSN_Replacement Model for VA.gov.txt
+105	Bravent LLC	Bravent_1 -  VA Replacement model for VA.gov .docx
+3	BrennSys Technology LLC	BrennSys - Replacement Model for VA_Gov.txt
+45	BuzzClan	BuzzClan - Response for VA's RFI.txt
+50	carahsoft_adobe_1	Carahsoft_Adobe_1 Response to VA RFI 36C10B26Q0131.txt
+74	carahsoft_adobe_2	Carahsoft_Adobe_2 - Response to the Veteran Affairs - Sources Sought - Replacement Model for VA.gov - 36C10B26Q0131.txt
+9	Carahsoft_Qualtrics	Carahsoft_Qualtrics - Final VA.Gov RFI_ Qualtrics Response (002).txt
+76	CGI Federal Inc. (CGI) 	CGI_Federal - VA.Gov Replacement Model_RFI Response.txt
+87	Coforma	Coforma - Response to SSN 36C10B26Q0131 - Replacement Model for VA.gov.txt
+107	COGENT	Cogent - Replacement Model for VA.gov.txt
+73	Cognitive	Cognitive - VA Replacement Model for VA.gov - Cognitive Response .txt
+83	CounterTrade Products Inc. 	CounterTrade - Response_36C10B26Q0131.txt
+94	Deloitte	Deloitte - RFI - Replacement Model for VA.gov_Deloitte Digital.txt
+21	"Diaconia, LLC"	Diaconia - RFI Response_VA.gov Modernization.txt
+38	"ECS Federal, LLC"	ECS - VA_Replacement Model for VA_SS Response_02.04.2026.txt
+49	Edera L3C	Edera - RFI_365357_Replacement_Model_for_VA.gov_Edera_L3C_2026-02-04.txt
+86	Ennoble First Inc.	Ennoble - Response_VA Replacement Model 2.5.2026.txt
+102	ExeQut LLC 	ExeQut LLC - Response to RFI Replacement Model for VA.gov.txt
+65	"Flextone/Systone Iterations, LLC"	Flextone - RFI Response Notice ID 365357 - Replacement Model for VA.gov.txt
+29	Friends from the City	Friends From The City - VA.gov Replacement Model RFI Response.txt
+61	FWI	FWI - Response to Replacement Model for VA.gov 36C10B26Q0131.txt
+6	"General Dynamics Information Technology, Inc. (GDIT) "	GDIT - Solicitation No 36C10B26Q0131 VA.Gov Replacement Module RFI - GDIT Response.txt
+24	GOV CIO 	GovCIO - VA Replacement Model_RFI_Response (1).txt
+23	Guidehouse	GuideHouse - RFI Response - Replacement Model for VA.gov.txt
+44	Hewlett Packard Enterprise	HPE - Replacement Model for VA.gov RFI_HPE.txt
+13	Ibis Public Sector	Ibis - RFI-36C10B26Q0131-Replacement-VA-gov-Ibis-Public-Sector.txt
+57	IBM Consulting - Federal	IBM - VA_GOV RFI Response-vF.txt
+33	"ICF Incorporated, L.L.C"	ICF - VA RFI Response - ICF.txt
+89	"Imagine Believe Realize, LLC (IBR) "	"Imagine_Believe_(IBR), LLC - Response to DA01-Replacement Model for VA.gov - FINAL.txt"
+91	"Innovative Healthcare Informatics, LLC (IHI) "	Innovative_Health (IHI) - VA_SSN_36C10B26Q0131_Response.txt
+104	InnoVet Health	Innovet - VA GOV Replacement Model RFI - InnoVet.txt
+55	"Insomniac Design, Inc."	Insomniac - Replacement Model for VA.gov - RFI 365357 Response by Insomniac Design.txt
+15	"IT Federal Sales, LLC"	IT_Federal - VA.gov Replacement Model Proposal.txt
+43	"J. R. Reingold & Associates, Inc. (d/b/a Reingold) "	JR_Reingold - Response_RFI_365357.txt
+54	J.V. Bravo Communications Services LLC’s (JV Bravo) 	JV Bravo - Response to RFI_Replacement Model for VA.gov_36C10B26Q0131.txt
+30	Journey Blazers	JourneyBlazers - RFI_Response_Replacement of VA.gov.txt
+71	"Judge Technical Services Inc, "	Judge - 36C10B26Q0131_Judge Technical Services Inc.txt
+92	Kaizen 	Kaizen - VA.gov Sources Sought - Kaizen Submission.txt
+56	"Karsun Solutions, LLC"	Karsun - U.S. Department of Veterans Affairs_Replacement Model for VA.gov_Karsun Solutions.txt
+34	Kevadiya. Inc	Kevadiya - RFI_Response_Kevadiya.txt
+58	League	League - Executive Summary _ VA  (1).txt
+46	LexisNexis	LexisNexis - Notice ID 365357 - Replacement Model for VA.gov-LNSSI Response to RFI_2.4.2026.txt
+93	"LMI Consulting, LLC"	LMI - 36C10B26Q0131 VA.gov LMI Response_2526.txt
+16	"Lovett Productions, Inc. "	Lovett - RFI_Notice_ID_365357_LovettProductionsInc.txt
+81	M&H Transformation Partners LLC	M&H - Transformation RFI_VA.gov_vSend.txt
+31	Magnum Opus LLC d/b/a ‘MO’	MO - Response Replacement Model for VA.gov RFI.txt
+78	Management Science & Innovation	Mgmt Science (MSI) - VA.gov Replacement Model_RFI Response_MSI.txt
+77	"ManTech Advanced Systems International, Inc. "	ManTech - 36C10B26Q0131_Mantech_F.txt
+75	Maximus	Maximus - Replacement Model for VA.gov RFI_Maximus 2026.txt
+28	Micro Health LLC	"Microhealth - Replacement Model for VA.gov RFI_MicroHealth, LLC.txt"
+47	"Nationwide IT Services, Inc. (NIS)"	Nationwide IT  -36C10B26Q0131 RFI Response - NIS.txt
+39	Nava Public Benefit Corporation	Nava - RFI Response_ Replacement Model for VA.gov.txt
+99	Numberz.ai Inc	Numberz - RFI_36C10B26Q0131_Replacement_Model_for_VA_gov_Numberz_ai_UEI_PJU1J19QN3M5_Main_Response.txt
+96	Oddball 	Oddball - Response to Request for Information Replacement Model for VA.gov.txt
+84	Okta/Carahsoft	Okta_Carahsoft - Response to Replacement Model for VA.gov Final.txt
+41	OneGlobe LLC	One-Globe - VA_gov Replacement Model RFI-OneGlobe.txt
+18	Optimo	OPTiMO - Replacement Model for VA.gov.txt
+80	PALI Federal LLC 	PALI - 36C10B26Q0131_VAgov_PALI Federal.txt
+10	Panoramic Software Corp.	Panoramic + VetPro - responseVetProVAGovRFI.txt
+82	Peregrine Digital Services	Peregrine - Response_36C10B26Q0131_Replacement VAgov_PDS.txt
+37	Persistant Technology	Persistent - Replacement Model for VA.gov RFI (Notice ID 365357)_Persistent Technology Inc. (PTI).txt
+35	pgtsolutions	PGT - 36C10B26Q0131_Replacement Model for VA.gov_PGT Solutions_2.4.26.txt
+25	Progress Federal Solutions	Progress - VA Gov Replacement RFI - Progress Federal.txt
+17	Red Hat 	Red Hat - Replacement Model for VA.Gov RFI_36C10B26Q0131_Red Hat Response.txt
+2	Red Planet Group Inc.	"Red Planet - Replacement Model for VA.gov (36C10B26Q0131, Red Planet Group Inc.).txt"
+98	"RGP Federal - VERACITY CONSULTING GROUP, LLC"	RGP - 36C10B26Q0131_VCG-RGPFederal_RFI-Response_ReplacementModel-VA-gov.txt
+63	Rios Partners	RIOS - RFI 36C10B26Q0131 RIOS.txt
+52	Rise8	Rise8 - VA.gov Replacement Model - RFI Response.txt
+22	"RIVA Solutions, Inc "	"Riva - RFI_36C10B26Q0131_VA.gov_RIVA Solutions, Inc. Response.txt"
+72	"RV Global Solutions Inc., (RVGS), "	RV Global - Response to Notice ID_ 36C10B26Q0131.txt
+4	Salesforce	Salesforce - Response - VA Center of Innov - VA gov website RFI.txt
+59	Salesforce + Offprem + Taoti	Salesforce + Offprem - VA RFI - Replacement Model for VA.gov - Salesforce + Offprem + Taoti Response.txt
+97	"Serigor, Inc. "	Serigor - Response to DVA for Replacement Model of VA.gov RFI.txt
+68	SGL360	SGL360 - VA.gov Replacement Model RFI Response.txt
+62	SingTone Technologies	SingTone - RFI Response----DoVA--Replacement Model for VA.gov - 36C10B26Q0131.txt
+40	Slalom	Slalom - RFI Response - VA.gov Replacement Model - Final.txt
+32	Softtek Government Solutions 	Softtek Gov Solutions - Replacement Model for VA.gov_RFI Response.txt
+64	SPLUNK	Splunk - Response_36C10B26Q0131_Replacement model va_gov.txt
+70	Stanford National Security Innovation Program	Stanford_H4D - VA_RFI_Response_.txt
+12	The So Company	The_So_Company - Replacement for VA.Gov Final_The So Company.txt
+69	Thoughtworks 	Thoughtworks - VA Replacement Model RFI Thoughtworks Response.txt
+88	Three Wire Systems	Three Wire Systems - VA.GOV Replacement Response.txt
+8	Trevital	Trevital - VA Notice ID 365357 Replacement Model for VA.gov Response_02042026.txt
+7	TRIA	Tria - VA.gov Replacement Model RFI.txt
+100	TUWYN	TUWYN - RFI Response for Replacement Model for VA.gov.txt
+5	Unite Us	Unite_US - VA.gov_Unite Us_RFI_2026.txt
+60	Usability Dynamics (UDX)	udx-va-36C10B26Q0131-response.txt
+101	Vinsys Corporation	Vinsys - 36C10B26Q0131_VINSYS_RFI_Response.txt
+26	Waive Diagnostics LLC	Waive Diagnostics - RFI - Replacement Model for VA.gov Response.txt
+27	WDG	WDG - Response to the RFI for VA.gov Modernization.txt
+11	zCore Group	zCore - VA Replacement Model for VA.gov RFI Response.txt
+106	Zip Zap / SMNC Solutions	Zip_Zap_SMNC_JV - VA.GOV_RFI_36C10B26Q0131.txt
