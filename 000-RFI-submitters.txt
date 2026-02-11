@@ -2,7 +2,7 @@ Response #	Vendor 	Filename
 51	A Square Group LLC (ASG)	A Square Group (ASG) - Replacement Model for VA.gov_RFI Response_ASG.txt
 95	Abt Global 	Abt Global - Response to SSN 36C10B26Q0131.txt
 79	Accenture Federal Services	Accenture - 36C10B26Q0131 - Replacement Model for VAweb  - Accenture Response.txt
-1	Aenigma Solutions LLC	Aenigma - VA_RFI_Response_Aenigma_Solutions.docx
+1	Aenigma Solutions LLC	Aenigma - VA_RFI_Response_Aenigma_Solutions.txt
 53	"Agile Six Applications, Inc."	Agile Six - Replacement Model for VA.gov - RFI - Agile Six.txt
 36	"Amazon Web Services, Worldwide Public Sector"	Amazon (AWS) - Response to VA RFI Notice ID 365357 - Replacement Model for VA.gov.txt
 14	Aptive Resources	Aptive - Replacement Model for VA.gov_RFI Response_AptiveResources.txt
@@ -15,7 +15,7 @@ Response #	Vendor 	Filename
 42	Blink UX. Lone Rock Point and Blink UX	Blink and Lone Rock Point - Response to VA Notice ID 365357.txt
 85	Blue Tiger 	Blue Tiger - RFI response - Replacement model for VAgov - Blue Tiger.txt
 67	Booz | Allen | Hamilton	BAH - 36C10B26Q0131_Booz Allen Hamilton_SSN_Replacement Model for VA.gov.txt
-105	Bravent LLC	Bravent_1 -  VA Replacement model for VA.gov .docx
+105	Bravent LLC	Bravent_1 -  VA Replacement model for VA.gov .txt
 3	BrennSys Technology LLC	BrennSys - Replacement Model for VA_Gov.txt
 45	BuzzClan	BuzzClan - Response for VA's RFI.txt
 50	carahsoft_adobe_1	Carahsoft_Adobe_1 Response to VA RFI 36C10B26Q0131.txt
