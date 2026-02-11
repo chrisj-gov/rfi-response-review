@@ -1,0 +1,10 @@
+.env
+*.pyc
+__pycache__/
+*.pdf
+*.json
+venv/
+.venv/
+*.swp
+*.swo
+.DS_Store
